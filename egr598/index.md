@@ -50,3 +50,19 @@ layout: page
 * [assignment-14](assignments/assignment-14.html)
 * [assignment-16](assignments/assignment-16.html)
 * [assignment-17](assignments/assignment-17.html)
+
+# Project
+
+* [15-Proposals.pdf](project/15-Proposals.pdf)
+* [checkpoint_guidelines](project/checkpoint_guidelines)
+* [final project writeup](project/final project writeup)
+* [Project I - Introduction.pdf](project/Project I - Introduction.pdf)
+
+# Tutorials
+
+* [3d Plotting.ipynb](tutorials/3d Plotting.ipynb)
+* [add-folder-to-system-path](tutorials/add-folder-to-system-path)
+* [arduino](tutorials/arduino)
+* [installing GIT](tutorials/installing GIT)
+* [installing-anaconda](tutorials/installing-anaconda)
+* [software-links](tutorials/using-jupyter)
