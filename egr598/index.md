@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+# Class Info
+* [syllabus](syllabus)
+
 # Modules
 
 | Module                                                         | Lecture                                                                                       | Minutae                                                        | Chapter                                                                                | Code                                                                                    |
@@ -59,9 +62,9 @@ layout: page
 
 # Tutorials
 
-* [3d Plotting.ipynb](tutorials/3d Plotting.ipynb)
+* [3d-plotting.ipynb](tutorials/3d-plotting.ipynb)
 * [add-folder-to-system-path](tutorials/add-folder-to-system-path)
 * [arduino](tutorials/arduino)
-* [installing GIT](tutorials/installing GIT)
+* [installing-git](tutorials/installing-git)
 * [installing-anaconda](tutorials/installing-anaconda)
 * [software-links](tutorials/using-jupyter)

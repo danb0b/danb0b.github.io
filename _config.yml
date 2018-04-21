@@ -44,5 +44,5 @@ plugins:
 
 
 menu:
-  - name: EGR598
-    link: egr598
+#  - name: EGR598
+#    link: egr598
