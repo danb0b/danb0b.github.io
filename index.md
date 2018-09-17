@@ -4,4 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-[egr 598 (2018)]({{site.baseurl}}/egr598-2018/)
