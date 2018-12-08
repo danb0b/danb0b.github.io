@@ -4,7 +4,6 @@ subtitle: Power Requirements
 class_name: EGR598
 bibliography: ../bibliography.bib
 csl: ../ieee.csl
-figure_alignment: H
 ---
 ## Overview
 
