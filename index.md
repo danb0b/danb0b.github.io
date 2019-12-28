@@ -4,3 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+## Recipes
+
+{% for recipe in site.recipes %}* [{{ recipe.title }}]({{ recipe.url }})
+{%endfor%}

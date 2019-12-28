@@ -47,3 +47,16 @@ plugins:
 menu:
 #  - name: EGR598
 #    link: egr598
+
+collections:
+  recipes:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: recipe
+    
+  
