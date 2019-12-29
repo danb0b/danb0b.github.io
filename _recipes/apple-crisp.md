@@ -1,5 +1,5 @@
 ---
-title: Apple Crisp III
+title: Apple Crisp
 tags:
 - recipes
 - dessert
@@ -23,7 +23,3 @@ DIRECTIONS:\
 -   Preheat oven to 350 degrees F (175 degrees C). Grease an 8x8 inch baking dish.
 -   Place apples in prepared dish. Sprinkle with cinnamon. Pour water over all. In a bowl, cream together sugar and butter. Blend in flour. Sprinkle mixture evenly over apples.
 -   Bake in preheated oven 30 to 40 minutes, until apples are tender and crust is golden.
-
-From [Allrecipes.com]
-
-  [Allrecipes.com]: 

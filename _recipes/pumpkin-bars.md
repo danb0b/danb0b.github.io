@@ -4,7 +4,7 @@ tags:
 - recipes
 - dessert
 modified_from: allrecipes.com
-original_url: http://allrecipes.com/Recipe/Pauls-Pumpkin-Bars
+original_url: https://www.allrecipes.com/recipe/11646/pauls-pumpkin-bars/
 ---
 INGREDIENTS:\
 Bars\
