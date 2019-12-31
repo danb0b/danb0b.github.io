@@ -1,9 +1,8 @@
 ---
 title: Cinnamon Rolls
 tags:
-- recipes
-- breakfast
-- dessert
+  - breakfast
+  - dessert
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Cinnamon-Rolls-II-2
 ---

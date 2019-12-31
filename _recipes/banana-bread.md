@@ -1,8 +1,9 @@
 ---
 title: Banana Bread
 tags:
-- recipes
-- dessert
+  - breakfast
+  - dessert
+  - bread
 from: Korintha Touton
 ---
 INGREDIENTS:\

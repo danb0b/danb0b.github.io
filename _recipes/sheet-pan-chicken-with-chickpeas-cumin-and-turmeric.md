@@ -1,6 +1,10 @@
 ---
 title: Sheet-Pan Chicken With Chickpeas, Cumin and Turmeric
 original_url: https://cooking.nytimes.com/recipes/1018910-sheet-pan-chicken-with-chickpeas-cumin-and-turmeric
+tags:
+  - dinner
+  - main
+  - chicken
 ---
 
 ## INGREDIENTS

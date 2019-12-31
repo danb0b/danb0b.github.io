@@ -1,5 +1,7 @@
 ---
 title: Cranberry Sauce
+tags:
+  - side
 original_url: https://www.allrecipes.com/recipe/9111/
 ---
 

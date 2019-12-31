@@ -1,8 +1,8 @@
 ---
 title: Clam Chowder
 tags:
-- recipes
-- soup
+  - soup
+  - dinner
 from: Tara McConnell
 ---
 INGREDIENTS:\

@@ -1,7 +1,7 @@
 ---
 title: 'Beef Fajita Marinade III '
 tags:
-- recipes
+  - marinade
 ---
 INGREDIENTS:\
 

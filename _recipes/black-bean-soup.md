@@ -1,6 +1,10 @@
 ---
 title: Black Bean Soup
 original_url: https://www.budgetbytes.com/slow-cooker-black-bean-soup/
+tags:
+  - dinner
+  - lunch
+  - soup
 ---
 
 * 2 cloves garlic

@@ -1,8 +1,7 @@
 ---
 title: Chocolate Mousse
 tags:
-- recipes
-- dessert
+  - dessert
 from: Amalia Aleck
 ---
 INGREDIENTS\

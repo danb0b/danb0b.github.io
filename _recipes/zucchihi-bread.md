@@ -1,5 +1,9 @@
 ---
 title: Zucchini Bread
+tags:
+  - dessert
+  - breakfast
+  - bread
 original_url: https://www.afamilyfeast.com/best-zucchini-bread-ever/
 ---
 

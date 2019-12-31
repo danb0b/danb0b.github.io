@@ -1,5 +1,7 @@
 ---
 title: Baked Parmesan Kale Puffs
+tags:
+  - appetizers
 original_url: https://tastykitchen.com/recipes/appetizers-and-snacks/baked-parmesan-kale-puffs/
 ---
 ## Description

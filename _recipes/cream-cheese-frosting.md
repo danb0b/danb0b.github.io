@@ -1,6 +1,8 @@
 ---
 title: Cream Cheese Frosting
 from: Dan Aukes
+tags:
+  - dessert
 modified_from: allrecipes.com
 original_url: https://www.allrecipes.com/recipe/7402/carrot-cake-iii/
 ---

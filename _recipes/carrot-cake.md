@@ -1,9 +1,8 @@
 ---
 title: Dan's Carrot Cake
 tags:
-- recipes
-- breakfast
-- dessert
+  - breakfast
+  - dessert
 from: Daniel Aukes
 modified_from: allrecipes.com
 original_url: https://www.allrecipes.com/recipe/7254/carrot-cake-ii/

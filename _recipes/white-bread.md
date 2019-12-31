@@ -1,5 +1,7 @@
 ---
 title: White Bread
+tags:
+  - bread
 ---
 
 ## Ingredients

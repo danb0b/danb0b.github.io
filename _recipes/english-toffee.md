@@ -1,8 +1,7 @@
 ---
 title: English Toffee
 tags:
-- recipes
-- dessert
+  - dessert
 from: Tara McConnell
 ---
 INGREDIENTS:\

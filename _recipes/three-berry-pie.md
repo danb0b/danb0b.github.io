@@ -1,6 +1,9 @@
 ---
 title: Three Berry Pie
 original_url: https://www.allrecipes.com/recipe/12384/three-berry-pie/
+tags:
+  - dessert
+  - pie
 ---
 
 ## Ingredients

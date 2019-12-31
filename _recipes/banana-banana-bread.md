@@ -1,9 +1,9 @@
 ---
 title: Banana Banana Bread
 tags:
-- recipes
-- breakfast
-- dessert
+  - breakfast
+  - dessert
+  - bread
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Banana-Banana-Bread
 ---

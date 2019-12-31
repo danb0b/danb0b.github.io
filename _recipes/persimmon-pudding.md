@@ -1,8 +1,7 @@
 ---
 title: Persimmon Pudding
 tags:
-- recipes
-- dessert
+  - dessert
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Traditional-Indiana-Persimmon-Pudding
 ---

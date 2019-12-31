@@ -1,5 +1,9 @@
 ---
-title: 
+title: Chicken Tikka Masala
+tags:
+  - dinner
+  - indian
+  - chicken
 original_url: https://www.allrecipes.com/recipe/45736/chicken-tikka-masala/
 ---
 

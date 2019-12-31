@@ -1,6 +1,10 @@
 ---
 title: Skillet Chicken
 original-url: https://cooking.nytimes.com/recipes/1019465-skillet-chicken-with-cumin-paprika-and-mint
+tags:
+  - dinner
+  - main
+  - chicken
 ---
 * 2 lemons, juiced
 * ⅓ cup olive oil

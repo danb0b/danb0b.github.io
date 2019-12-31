@@ -1,6 +1,10 @@
 ---
 title: Sicilian Cauliflower and Black Olive Gratin
 original_url: https://cooking.nytimes.com/recipes/1014473-sicilian-cauliflower-and-black-olive-gratin
+tags:
+  - dinner
+  - side
+  - vegetable
 ---
 
 ## INGREDIENTS

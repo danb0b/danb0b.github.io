@@ -1,8 +1,7 @@
 ---
 title: Ice Cream
 tags:
-- recipes
-- dessert
+  - dessert
 from: Frances Aukes
 ---
 INGREDIENTS:\

@@ -1,5 +1,9 @@
 ---
 title: Greek Potatoes
+tags: 
+  - dinner
+  - side
+  - vegetable
 original_url: https://www.food.com/recipe/greek-potatoes-oven-roasted-and-delicious-87782
 ---
 

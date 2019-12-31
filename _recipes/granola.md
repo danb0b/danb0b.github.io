@@ -1,8 +1,7 @@
 ---
 title: Granola
 tags:
-- recipes
-- dessert
+  - breakfast
 from: Tara McConnell
 ---
 INGREDIENTS:\

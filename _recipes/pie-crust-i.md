@@ -1,8 +1,8 @@
 ---
 title: Simple Pie Crust
 tags:
-- recipes
-- dessert
+  - dessert
+  - misc
 ---
 Makes one large single-layer pastry.\
 \

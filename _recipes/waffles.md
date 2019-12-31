@@ -1,8 +1,7 @@
 ---
 title: Waffles
 tags:
-- recipes
-- breakfast
+  - breakfast
 from: Daniel Aukes
 ---
 INGREDIENTS:\

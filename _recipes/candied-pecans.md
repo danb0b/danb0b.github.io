@@ -1,8 +1,8 @@
 ---
 title: Candied Pecans
 tags:
-- recipes
-- dessert
+  - dessert
+  - topping
 from: Daniel Aukes
 ---
 INGREDIENTS:\

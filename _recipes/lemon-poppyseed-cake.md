@@ -1,8 +1,8 @@
 ---
 title: Lemon Poppyseed Cake
 tags:
-- recipes
-- dessert
+  - dessert
+  - breakfast
 from: Robin Cameron
 ---
 INGREDIENTS:\

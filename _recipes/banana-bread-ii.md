@@ -1,6 +1,10 @@
 ---
 title: Banana Bread
 from: Sara Aukes
+tags:
+  - breakfast
+  - dessert
+  - bread
 modified_from: simplyrecipes.com
 original_url: https://www.simplyrecipes.com/recipes/banana_bread/
 ---

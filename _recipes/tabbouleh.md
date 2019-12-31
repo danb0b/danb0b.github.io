@@ -1,9 +1,12 @@
 ---
 title: Tabbouleh
-tags:
-- recipes
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Tabbouleh-I
+tags:
+  - dinner
+  - salad
+  - side
+  - vegetable
 ---
 INGREDIENTS:\
 

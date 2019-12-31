@@ -1,8 +1,8 @@
 ---
 title: Oatmeal Crackers
 tags:
-- recipes
-- snack
+  - snack
+  - appetizer
 from: Tara McConnell
 ---
 -   1 cup quick-cooking rolled oats

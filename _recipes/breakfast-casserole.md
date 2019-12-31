@@ -1,8 +1,9 @@
 ---
 title: Breakfast Casserole
-tags:
-- recipes
 from: Deb Smith
+tags:
+  - breakfast
+  - casserole
 ---
 INGREDIENTS:
 

@@ -1,5 +1,8 @@
 ---
 title: Moroccan Slow-Cooked Yam
+tags: 
+  - dinner
+  - meat
 original_url: https://www.epicurious.com/recipes/food/views/moroccan-slow-cooked-lamb-231597
 ---
 

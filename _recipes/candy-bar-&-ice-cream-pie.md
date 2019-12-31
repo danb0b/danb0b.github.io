@@ -1,8 +1,7 @@
 ---
 title: Candy Bar & Ice Cream Pie
 tags:
-- recipes
-- dessert
+  - dessert
 from: Amalia Aleck
 ---
 INGREDIENTS:\

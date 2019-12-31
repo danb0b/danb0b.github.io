@@ -1,8 +1,8 @@
 ---
 title: Sweet Potato Pie
 tags:
-- recipes
-- dessert
+  - dessert
+  - pie
 from: Daniel Aukes
 ---
 INGREDIENTS:\

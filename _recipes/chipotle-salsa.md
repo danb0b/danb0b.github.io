@@ -1,8 +1,9 @@
 ---
 title: Chipotle Salsa
 tags:
-- recipes
-- snack
+  - snack
+  - side
+  - mexican
 from: Alison Aukes
 ---
 I\'d say this makes about 1/2 gallon of salsa \-- make sure you have Tupperware. I\'m sure you could probably freeze extras\... I make the recipe so big because of the size of the cilantro bunch and the size of a typical onion.\

@@ -1,8 +1,7 @@
 ---
 title: Dutch Babies
 tags:
-- recipes
-- breakfast
+  - breakfast
 from: Dan Aukes
 modified_from: Larry Smith
 ---

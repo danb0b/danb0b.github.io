@@ -1,9 +1,8 @@
 ---
 title: Lemon-Caramel Crepes with Candied Lemons
 tags:
-- recipes
-- breakfast
-- dessert
+  - breakfast
+  - dessert
 from: Daniel Aukes
 modified_from: unknown
 ---

@@ -1,6 +1,10 @@
 ---
 title: Skillet Honey Garlic Chicken Thighs With Roast Potatoes
 original_url: https://wholeandheavenlyoven.com/2018/01/22/skillet-honey-garlic-chicken-thighs-roast-potatoes/
+tags:
+  - dinner
+  - main
+  - chicken
 ---
 
 Juicy honey garlic chicken thighs and crispy roast potatoes are seared and baked in the most FLAVORFUL honey garlic sauce in this no-fuss one skillet dinner!

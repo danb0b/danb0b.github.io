@@ -1,6 +1,9 @@
 ---
 title: Pumpkin Pie
 original_url: https://www.allrecipes.com/recipe/22755/libbys-famous-pumpkin-pie/
+tags:
+  - dessert
+  - pie
 ---
 
 ## Ingredients

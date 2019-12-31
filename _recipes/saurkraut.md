@@ -1,6 +1,11 @@
 ---
 title: Saurkraut
 original_url: https://www.foodnetwork.com/recipes/alton-brown/sauerkraut-recipe-1942351
+tags:
+  - side
+  - misc
+  - topping
+  - german
 ---
 
 * 5 pounds green cabbage, shredded

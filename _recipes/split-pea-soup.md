@@ -1,6 +1,12 @@
 ---
 title: Split Pea Soup
 original_url: https://www.allrecipes.com/recipe/13384/split-pea-soup
+tags:
+  - main
+  - lunch
+  - dinner
+  - vegetable
+  - soup
 ---
 
 ## Ingredients

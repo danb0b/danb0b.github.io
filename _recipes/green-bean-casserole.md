@@ -1,5 +1,9 @@
 ---
 title: Green Bean Casserole
+tags: 
+  - dinner
+  - casserole
+  - vegetable
 original_url: https://www.allrecipes.com/recipe/13717/grandmas-green-bean-casserole/
 ---
 

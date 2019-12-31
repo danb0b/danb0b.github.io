@@ -1,5 +1,7 @@
 ---
 title: Fig Preserves
+tags:
+  - canning
 original_url: https://www.allrecipes.com/recipe/215775/real-fig-preserves/
 ---
 

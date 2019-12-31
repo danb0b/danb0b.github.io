@@ -1,6 +1,9 @@
 ---
 title: Pretzels
 original_url: https://altonbrown.com/homemade-soft-pretzels-recipe/
+tags:
+  - appetizer
+  - snack
 ---
 
 * 1 1/2 cups warm water (110-115 degrees F)

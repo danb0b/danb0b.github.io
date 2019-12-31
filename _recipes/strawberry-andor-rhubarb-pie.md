@@ -1,8 +1,8 @@
 ---
 title: Strawberry and/or Rhubarb Pie
 tags:
-- recipes
-- dessert
+  - dessert
+  - pie
 from: Tara McConnell
 ---
 INGREDIENTS:\

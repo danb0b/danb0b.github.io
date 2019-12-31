@@ -1,8 +1,8 @@
 ---
 title: Chocolate Chip Cookies
 tags:
-- recipes
-- dessert
+  - dessert
+  - cookies
 from: Daniel Aukes
 ---
 INGREDIENTS:\

@@ -1,9 +1,12 @@
 ---
-title: "Simple is Best" Dressing
+title: "'Simple is Best' Dressing"
 original_url: https://www.epicurious.com/recipes/food/views/-simple-is-best-dressing-51124210
+tags:
+  - dinner
+  - side
 ---
 
-## INGREDIENTS
+## Ingredients
 
 * 3/4 cup (1 1/2 sticks) unsalted butter plus more for baking dish
 * 1 pound good-quality day-old white bread, torn into 1" pieces (about 10 cups)
