@@ -8,16 +8,16 @@ tags:
 
 ## Ingredients
 
-1.5 kg or 3 lb 5oz raw beets, trimmed, peeled and diced
-3 onions, chopped
-3 apples, peeled and grated
-zest and juice of 3 oranges
-2 tbsp white or yellow mustard seed
-1 tbsp coriander seed
-1 tbsp ground cloves
-1 tbsp ground cinnamon
-700ml / 1 1/4 pts red wine vinegar
-700g / 1lb 9oz golden granulated sugar
+* 1.5 kg or 3 lb 5oz raw beets, trimmed, peeled and diced
+* 3 onions, chopped
+* 3 apples, peeled and grated
+* zest and juice of 3 oranges
+* 2 tbsp white or yellow mustard seed
+* 1 tbsp coriander seed
+* 1 tbsp ground cloves
+* 1 tbsp ground cinnamon
+* 700ml / 1 1/4 pts red wine vinegar
+* 700g / 1lb 9oz golden granulated sugar
 
 ## Directions
 

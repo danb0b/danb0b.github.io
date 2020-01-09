@@ -1,5 +1,5 @@
 ---
-title: Moroccan Slow-Cooked Yam
+title: Moroccan Slow-Cooked Lamb
 tags: 
   - dinner
   - meat

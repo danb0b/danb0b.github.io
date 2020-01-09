@@ -1,5 +1,5 @@
 ---
-title: Skillet Chicken
+title: Skillet Chicken Shawarma With Yogurt and Mint
 original-url: https://cooking.nytimes.com/recipes/1019465-skillet-chicken-with-cumin-paprika-and-mint
 tags:
   - dinner
