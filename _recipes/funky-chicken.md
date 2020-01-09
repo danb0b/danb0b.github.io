@@ -8,9 +8,9 @@ tags:
 original_url: https://www.food.com/recipe/funky-chicken-with-sesame-noodles-76930
 ---
 
-## INGREDIENTS
+## Ingredients
 
-### SESAME NOODLES
+### Sesame Noodles
 1 lb spaghettini (get the thinnest spaghetti you can find)
 1⁄2 cup soy sauce
 1⁄4 cup sesame oil (some reviewers have said that 1/2 cup of oil is too much and have halved the amount, so use your own)
@@ -18,7 +18,7 @@ original_url: https://www.food.com/recipe/funky-chicken-with-sesame-noodles-7693
 3 scallions, thinly sliced
 1⁄4 cup sesame seeds (or more)
 
-### FUNKY CHICKEN
+### Funkey Chicken
 1⁄4 cup soy sauce
 1⁄4 cup teriyaki sauce
 2 garlic cloves, minced
@@ -27,7 +27,7 @@ original_url: https://www.food.com/recipe/funky-chicken-with-sesame-noodles-7693
 4 boneless skinless chicken breasts
 sesame oil, for sauteing
 
-## DIRECTIONS
+## Directions
 
 1. First make the sesame noodles: Cook the spaghetti according to package directions.
 1. Drain (I also rinse).

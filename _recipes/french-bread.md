@@ -5,7 +5,7 @@ tags:
 original_url: https://www.food.com/recipe/crusty-french-bread-101476
 ---
 
-## INGREDIENTS
+## Ingredients
 
 * 2 cups warm water
 * 1 tablespoon yeast
@@ -14,7 +14,7 @@ original_url: https://www.food.com/recipe/crusty-french-bread-101476
 * 2 teaspoons salt
 * 5 to 5 1/2 cups bread flour
 
-## DIRECTIONS
+## Directions
 
 1. Dissolve yeast in warm water (110 degrees) and sugar in large bowl; allow yeast to proof or foam (about 10 minutes).
 1. Add salt, oil, and 3 cups flour; beat for 2 minutes.

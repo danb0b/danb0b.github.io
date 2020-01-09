@@ -9,7 +9,7 @@ tags:
 original_url: https://cooking.nytimes.com/recipes/7416-kale-soup-with-potatoes-and-sausage
 ---
 
-## INGREDIENTS
+## Ingredients
 
 * 1 pound linguiça or uncured Spanish chorizo, cut across into 1/8-inch-thick slices
 * 1 large onion, peeled and chopped
@@ -22,7 +22,8 @@ original_url: https://cooking.nytimes.com/recipes/7416-kale-soup-with-potatoes-a
 * Freshly ground pepper to taste
 * 3 plum tomatoes, cored and cut into 1/2-inch dice
 
-## PREPARATION
+## Directions
+
 
 1. Place the sausage in a large pot over medium-low heat and cook until it begins to render its fat, about 2 minutes. Add the onion and cook for 2 minutes. Add the garlic and potatoes and cook for 2 minutes. Add the kale and cook, stirring constantly, for 2 minutes longer.
 1. Stir in the chicken broth, vinegar and salt. Bring to a boil, reduce heat, cover and simmer for 1 hour. Season with pepper. Stir in the tomatoes and cook, uncovered, for 15 minutes. Divide among 4 bowls and serve.

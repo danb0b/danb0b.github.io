@@ -5,7 +5,8 @@ tags:
   - breakfast
   - casserole
 ---
-INGREDIENTS:
+
+## Ingredients
 
 -   12 eggs
 -   1/2 cup flour
@@ -16,8 +17,8 @@ INGREDIENTS:
 -   1/4 cup melted butter
 -   1/2 lb. pork sausage, fried and drained (could substitute diced ham)
 
-DIRECTIONS:\
+## Directions
 
 1.  mix eggs, flour and baking powder.
 2.  add remaining ingredients.
-3.  bake in greased 9 x 13\" casserole dish (or pan) at 350 degrees for 1 hour. Serves 12.
+3.  bake in greased 9 x 13" casserole dish (or pan) at 350 degrees for 1 hour. Serves 12.

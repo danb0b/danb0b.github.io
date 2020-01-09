@@ -8,8 +8,6 @@ tags:
 from: Dan Aukes
 ---
 
-# Chili Con Cornbread
-
 ## Cornbread Ingredients
 
 * Cooking spray to grease pan

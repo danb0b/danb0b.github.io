@@ -4,7 +4,7 @@ tags:
   - dessert
 from: Marguerite Narber
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   4 cups cut rhubarb
 -   1 1/3 cup sugar
@@ -12,10 +12,10 @@ INGREDIENTS:\
 -   grated peel from one orange
 -   dash salt
 
-DIRECTIONS:\
+## Directions
 
 1.  mix sugar, flour, orange peel and salt.
 2.  combine with rhubarb.
-3.  fill a 9\" pastry lined pie pan, dot with butter and adjust top crust.
+3.  fill a 9" pastry lined pie pan, dot with butter and adjust top crust.
 4.  brush with milk, cut slits.
 5.  bake in 400 degree oven or 40 - 50 minutes.

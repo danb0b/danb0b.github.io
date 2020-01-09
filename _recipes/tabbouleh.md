@@ -8,7 +8,7 @@ tags:
   - side
   - vegetable
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   1 cup bulgur
 -   1 2/3 cups boiling water
@@ -23,7 +23,7 @@ INGREDIENTS:\
 -   1 teaspoon salt
 -   ground black pepper to taste
 
-DIRECTIONS:\
+## Directions
 
 1.  Combine bulgur and boiling water in a large bowl. Cover, and set aside to soak for 1 hour.
 2.  Add oil, lemon juice, onions, parsley, mint, tomatoes, and cucumber; toss to combine. Season to taste with salt and black pepper. Cover, and refrigerate for at least 1 hour.

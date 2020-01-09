@@ -8,7 +8,7 @@ original_url: https://www.epicurious.com/recipes/food/views/moroccan-slow-cooked
 
 Makes 6 servings
 
-## INGREDIENTS
+## Ingredients
 
 * 1 tablespoon ground cumin
 * 2 teaspoons ground coriander
@@ -29,7 +29,7 @@ Makes 6 servings
 * 2 teaspoons (packed) grated lemon peel
 * 2 tablespoons chopped fresh cilantro
 
-PREPARATION
+## Directions
 
 1. Mix first 6 ingredients in large bowl. Add lamb and toss to coat. Heat 2 tablespoons oil in heavy large skillet over medium-high heat. Working in batches, add lamb to skillet and cook until browned on all sides, turning occasionally and adding 2 more tablespoons oil to skillet between batches, about 8 minutes per batch. Transfer lamb to another large bowl after each batch.
 1. Add onion and tomato paste to drippings in skillet. Reduce heat to medium; sauté until onion is soft, about 5 minutes. Add broth, garbanzo beans, apricots, tomatoes, cinnamon sticks, ginger, and lemon peel and bring to boil, scraping up browned bits. Return lamb to skillet and bring to boil. Reduce heat to low, cover, and simmer until lamb is just tender, about 1 hour. Uncover and simmer until sauce thickens enough to coat spoon, about 20 minutes. Season with salt and pepper. (Can be prepared 1 day ahead. Cool slightly. Refrigerate uncovered until cold, then cover and keep chilled. Rewarm over medium-low heat, stirring occasionally.)

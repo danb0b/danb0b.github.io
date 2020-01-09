@@ -5,7 +5,7 @@ tags:
   - pie
 from: Daniel Aukes
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   1 1/2 cups boiled mashed sweet potatoes
 -   1 cup milk
@@ -15,6 +15,6 @@ INGREDIENTS:\
 -   1 tsp salt
 -   spice to taste (1/4 tsp each)
 
-DIRECTIONS:\
+## Directions
 
-1.  Preheat oven to 450F. Bake for 30 minutes.\
+1.  Preheat oven to 450F. Bake for 30 minutes.

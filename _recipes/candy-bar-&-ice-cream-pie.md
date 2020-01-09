@@ -4,7 +4,9 @@ tags:
   - dessert
 from: Amalia Aleck
 ---
-INGREDIENTS:\
+
+
+## Ingredients
 
 -   1 pint softened chocolate ice cream
 -   1 9-inch (6-8 oz) cookie crumb crust
@@ -12,7 +14,7 @@ INGREDIENTS:\
 -   1 pint vanilla ice cream
 -   chocolate syrup
 
-DIRECTIONS:\
+## Directions
 
 1.  spread chocolate ice cream over crust
 2.  sprinkle with 1/2 of the candy bars

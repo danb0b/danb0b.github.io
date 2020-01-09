@@ -6,6 +6,8 @@ tags:
   - snack
 ---
 
+## Ingredients
+
 * 1 1/2 cups warm water (110-115 degrees F)
 * 1 tablespoon sugar
 * 2 teaspoons kosher salt
@@ -17,6 +19,8 @@ tags:
 * 2/3 cup baking soda
 * 1 large egg yolk (beaten with 1 tablespoon water)
 * Pretzel salt
+
+## Directions
 
 1. Combine the 1 1/2 cups warm water, the sugar and kosher salt in the bowl of a stand mixer and sprinkle the yeast on top. Set aside for 5 minutes, or until the mixture foams.
 1. Add the flour and butter and, using the dough hook attachment, mix on low speed until well combined. Change to medium speed and knead until the dough is smooth and pulls away from the side of the bowl, 4 to 5 minutes.

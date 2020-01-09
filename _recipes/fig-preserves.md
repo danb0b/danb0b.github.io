@@ -5,6 +5,8 @@ tags:
 original_url: https://www.allrecipes.com/recipe/215775/real-fig-preserves/
 ---
 
+## Ingredients
+
 * 2 teaspoons baking soda
 * 5 cups fresh figs, stems removed
 * 1 cup water

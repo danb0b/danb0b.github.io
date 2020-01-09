@@ -7,8 +7,6 @@ modified_from: allrecipes.com
 original_url: https://www.allrecipes.com/recipe/7402/carrot-cake-iii/
 ---
 
-# Cream Cheese Frosting
-
 ## Ingredients
 
 1/2 cup butter, softened

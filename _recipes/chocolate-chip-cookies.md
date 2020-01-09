@@ -5,7 +5,9 @@ tags:
   - cookies
 from: Daniel Aukes
 ---
-INGREDIENTS:\
+
+
+## Ingredients
 
 -   2 sticks butter
 -   1 cup packed golden brown sugar
@@ -17,7 +19,7 @@ INGREDIENTS:\
 -   2 1/4 cups all-purpose flour
 -   12 oz (1 package) Semi-sweet chocolate chips
 
-DIRECTIONS:\
+## Directions
 
 1.  In large mixing bowl, mix butter until creamy. Mix in brown and granulated sugars.
 2.  Add flour. Mix on low until incorporated.

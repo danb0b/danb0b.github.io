@@ -4,7 +4,7 @@ tags:
   - dessert
 from: Mary O'Neil
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   1 cup sugar
 -   1/2 cup light corn syrup
@@ -12,9 +12,9 @@ INGREDIENTS:\
 -   1 - 1-1/2 cups peanuts (any kind on hand)
 -   1 Tbsp margarine or butter
 -   1 tsp vanilla
--   1 - 2 tsp baking soda (2 tsp makes it more airy)\
+-   1 - 2 tsp baking soda (2 tsp makes it more airy)
 
-DIRECTIONS:\
+## Directions
 
 1.  In 2 qt. bowl with handle, mix sugar, corn syrup, and salt
 2.  Microwave on high for 5 min.

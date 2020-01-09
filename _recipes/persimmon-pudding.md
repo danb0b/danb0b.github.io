@@ -5,7 +5,7 @@ tags:
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Traditional-Indiana-Persimmon-Pudding
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   2 cups persimmon pulp
 -   2 eggs
@@ -15,7 +15,7 @@ INGREDIENTS:\
 -   6 cups milk
 -   1 tablespoon butter
 
-DIRECTIONS:\
+## Directions
 
 1.  Preheat the oven to 350 degrees F (175 degrees C).
 2.  In a large bowl, stir together the persimmon pulp and eggs using a whisk. Stir in sugar. Combine the flour and baking soda; stir into the persimmon alternating with milk until smooth. Pour into a large greased crock or casserole dish. Drop dabs of

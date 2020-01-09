@@ -1,5 +1,5 @@
 ---
-title: chicken satay with spicy peanut sauce
+title: Chicken Satay with Spicy Peanut Sauce
 tags:
   - dinner
   - asian
@@ -9,3 +9,5 @@ tags:
 images: 
   - scan0103_020.jpg
 ---
+
+## Images

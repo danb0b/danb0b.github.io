@@ -6,6 +6,9 @@ tags:
   - main
   - chicken
 ---
+
+## Ingredients
+
 * 2 lemons, juiced
 * ⅓ cup olive oil
 * 6 garlic cloves, peeled and smashed
@@ -25,7 +28,8 @@ tags:
 * Plain yogurt, for serving
 * Lime wedges, for serving
 
-## PREPARATION
+## Directions
+
 
 1. Combine the lemon juice, 1/4 cup of the olive oil, the garlic, 1 teaspoon salt, pepper, cumin, paprika and turmeric in a large resealable plastic bag along with the chicken pieces. Seal and shake the bag to coat chicken and distribute the spices evenly. Set aside for 30 minutes, or refrigerate up to overnight.
 1. Heat the remaining tablespoon of olive oil in a large cast-iron skillet over medium-high heat. Remove the chicken from the marinade, letting the excess drip off, and cook until lightly golden, about 4 minutes per side. Remove to a plate.

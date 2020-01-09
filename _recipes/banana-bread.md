@@ -6,7 +6,8 @@ tags:
   - bread
 from: Korintha Touton
 ---
-INGREDIENTS:\
+
+## Ingredients
 
 -   1/2 cup butter
 -   1 cup sugar
@@ -16,7 +17,7 @@ INGREDIENTS:\
 -   1 tsp baking soda
 -   1/2 tsp salt
 
-DIRECTIONS:\
+## Directions
 
 1.  mash butter and sugar together
 2.  add eggs and mashed bananas to mix

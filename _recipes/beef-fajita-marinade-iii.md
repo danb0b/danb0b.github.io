@@ -3,7 +3,9 @@ title: 'Beef Fajita Marinade III '
 tags:
   - marinade
 ---
-INGREDIENTS:\
+
+
+## Ingredients
 
 -   1 cup red wine vinegar
 -   1/2 cup tequila
@@ -20,7 +22,7 @@ INGREDIENTS:\
 -   1 teaspoon freshly ground black pepper
 -   salt to taste
 
-DIRECTIONS:\
+## Directions
 
 1.  Combine all ingredients and mix well.
 2.  Pour marinade over meat in shallow glass, plastic or other non-reactive container (a 1-gallon plastic zip-top bag works well).

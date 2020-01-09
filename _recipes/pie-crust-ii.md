@@ -6,8 +6,6 @@ tags:
   - misc
 ---
 
-# Pie pastry
-
 ## Ingredients
 
 * 2 cup flour, sifted if possible

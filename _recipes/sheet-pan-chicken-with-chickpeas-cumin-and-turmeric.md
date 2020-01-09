@@ -7,7 +7,7 @@ tags:
   - chicken
 ---
 
-## INGREDIENTS
+## Ingredients
 
 * 1 (3 1/2 to 4 pound) chicken, cut into parts (alternatively, 3 to 3 1/2 pounds of bone-in, skin-on chicken parts, such as breasts, thighs and legs)
 * Kosher salt and freshly ground pepper
@@ -21,7 +21,8 @@ tags:
 * 2 tablespoons olive oil
 * ½ cup mint or cilantro leaves, torn
 
-## PREPARATION
+## Directions
+
 
 1. Season chicken parts with salt and pepper.
 1. Combine 3/4 cup yogurt, 2 tablespoons lemon juice, 1 teaspoon turmeric and 2 tablespoons water in a large bowl. Season well with salt and pepper. (It should be on the salty side, as this is a marinade.) Add chicken and toss to coat evenly. Let sit at least 30 minutes at room temperature, and up to overnight in the refrigerator.

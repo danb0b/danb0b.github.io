@@ -6,6 +6,9 @@ tags:
   - pickles
 ---
 
+
+## Ingredients
+
 * Pickling cucumbers
 * Sea salt
 * Water

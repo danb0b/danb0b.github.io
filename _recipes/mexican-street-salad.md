@@ -7,8 +7,6 @@ tags:
 original_url: https://www.jamieoliver.com/recipes/vegetables-recipes/mexican-street-salad/
 ---
 
-# Mexican Street Salad
-
 ## Ingredients
 
 * ½ small white cabbage

@@ -5,9 +5,11 @@ tags:
   - dinner
 from: Tara McConnell
 ---
-INGREDIENTS:\
 
--   2 cups diced potato - use frozen \"Potatoes O\'Brien\"
+
+## Ingredients
+
+-   2 cups diced potato - use frozen "Potatoes O'Brien"
 -   1/2 cup chopped celery
 -   1/4 tsp salt
 -   1 cup water
@@ -18,11 +20,11 @@ INGREDIENTS:\
 -   2 Tbsp minced parsley
 -   1 cup milk
 
-DIRECTIONS:\
+## Directions
 
 1.  In a large saucepan, combine potato, onion, celery, salt, and water
 2.  Cook covered till potatoes are tender, about 10 min.
 3.  Mash slightly
 4.  Add chowder, 1 cup milk, clams, and wine
 5.  Heat but do not boil
-6.  Stir in sour cream and sprinkle with parsley\
+6.  Stir in sour cream and sprinkle with parsley

@@ -24,7 +24,8 @@ The merit of “puff” as culinary terminology is debatable. The tender texture
 * 2 whole Large Eggs
 * 1 whole Lemon, Cut Into Wedges (optional, For Serving)
 
-## Preparation
+## Directions
+
 1. Melt butter in a skillet over medium heat, then add onions and cook until just softened but not brown, about 10 minutes. Add greens and half of the salt and continue to cook and stir until completely wilted, another 10 minutes, keeping heat low enough so onions do not brown. Remove from heat and cool for 5 minutes.
 1. Stir in scallions, panko, Parmesan, nutmeg, and pesto. Taste mixture (before adding eggs) and season, starting with ¼ teaspoon salt and ½ teaspoon pepper and adjusting to taste (I used ¾ teaspoon pepper and the flavor was quite prominent, if you’re into lots of pepper). Stir in eggs, breaking up yolks and combining completely into a uniform mixture.
 1. Heat oven to 375 F (if baking immediately) and line a baking sheet with parchment paper. Roll the mixture into balls of 1½ tablespoons each and place on baking sheet. Sprinkle the top of each ball with a pinch of grated Parmesan.

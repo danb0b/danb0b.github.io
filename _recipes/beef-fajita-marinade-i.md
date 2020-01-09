@@ -4,7 +4,7 @@ tags:
   - marinade
 modified_from: texascooking.com
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   1/3 cup fresh lime juice
 -   1/4 cup tequila
@@ -14,7 +14,7 @@ INGREDIENTS:\
 -   2 teaspoons ground cumin
 -   1 teaspoon freshly ground black pepper
 
-DIRECTIONS:\
+## Directions
 
 1.  Combine all ingredients and mix well.
 2.  Pour marinade over meat in shallow glass, plastic or other non-reactive container (a 1-gallon plastic zip-top bag works well).

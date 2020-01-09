@@ -4,7 +4,9 @@ tags:
   - dessert
 from: Amalia Aleck
 ---
-INGREDIENTS\
+
+
+## Ingredients
 
 -   1/2 cup semisweet or mint-flavored chocolate pieces (2oz) 
 -   1/4 cup sugar
@@ -17,7 +19,7 @@ INGREDIENTS\
 -   1/2 cup whipping cream
 -   chocolate curls
 
-DIRECTIONS:\
+## Directions
 
 1.  In a heavy medium saucepan combine chocolate pieces, sugar, and water.
 2.  Cook over medium heat until melted

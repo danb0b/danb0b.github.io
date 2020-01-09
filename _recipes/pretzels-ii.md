@@ -6,7 +6,7 @@ tags:
   - snack
 ---
 
-For the pretzels:
+## Ingredients
 
 * 1 cup milk
 * 1 package active dry yeast

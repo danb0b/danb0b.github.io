@@ -7,7 +7,7 @@ tags:
 original_url: https://cooking.nytimes.com/recipes/1018911-garlicky-chicken-thighs-with-scallion-and-lime
 ---
 
-## INGREDIENTS
+## Ingredients
 
 * 1 ½ pounds bone-in, skin-on chicken thighs
 * Kosher salt and freshly ground pepper
@@ -18,7 +18,8 @@ original_url: https://cooking.nytimes.com/recipes/1018911-garlicky-chicken-thigh
 * 2 tablespoons fresh lime juice, plus 1 lime
 * 1 tablespoon low-sodium soy sauce
 
-## PREPARATION
+## Directions
+
 1. Season chicken with salt and pepper on both sides.
 1. Heat oil in a large Dutch oven or large, high-sided skillet over medium heat.
 1. Add chicken, skin-side down and cook, undisturbed, until chicken is crisped and the fat has begun to render, 8 to 10 minutes. Using tongs, carefully flip chicken skin-side up. Cook until golden brown, 4 to 6 minutes.

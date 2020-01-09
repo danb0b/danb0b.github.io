@@ -7,7 +7,7 @@ tags:
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Banana-Banana-Bread
 ---
-INGREDIENTS:\
+## Ingredients
 
 -   2 cups all-purpose flour
 -   1 teaspoon baking soda
@@ -17,7 +17,7 @@ INGREDIENTS:\
 -   2 eggs, beaten
 -   2 1/3 cups mashed overripe bananas
 
-DIRECTIONS:\
+## Directions
 
 1.  Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan.
 2.  In a large bowl, combine flour, baking soda and salt. In a separate bowl, cream together butter and brown sugar. Stir in eggs and mashed bananas until well blended. Stir banana mixture into flour mixture; stir just to moisten. Pour batter into prepared loaf pan.

@@ -4,11 +4,11 @@ tags:
   - dessert
 from: Amalia Aleck
 ---
-Blending vanilla yougurt and reduced-fat cream cheese creates a topping that\'s as virtuous as it is delicious. Any fresh berry can be used in this recipe. Easy, and takes 10 minutes\
-\
-Makes 4 servings, 1/2 cup each\
-\
-INGREDIENTS:\
+Blending vanilla yougurt and reduced-fat cream cheese creates a topping that's as virtuous as it is delicious. Any fresh berry can be used in this recipe. Easy, and takes 10 minutes
+
+Makes 4 servings, 1/2 cup each
+
+## Ingredients
 
 -   4 ounces reduced-fat cream cheese (Neufchatel)
 -   3/4 cup low-fat vanilla yogurt
@@ -16,9 +16,9 @@ INGREDIENTS:\
 -   2 tsp freshly grated lemon zest
 -   2 cups fresh blueberries
 
-DIRECTIONS:\
+## Directions
 
-1.  Using a fork, break up cream cheese in a medium bowl.\
+1.  Using a fork, break up cream cheese in a medium bowl.
 2.  Drain off any liquid from the yogurt, and add yogurt to the bowl along with honey.
 3.  Using an electric mixer, beat at high speed until light and creamy.
 4.  Stir in lemon zest.

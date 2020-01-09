@@ -5,14 +5,16 @@ tags:
 from: Dan Aukes
 modified_from: Larry Smith
 ---
-INGREDIENTS:\
+
+
+## Ingredients
 
 -   4 eggs
 -   1 cup milk
 -   1 cup flour
 -   1/4 stick butter
 
-DIRECTIONS:\
+## Directions
 
 1.  Preheat oven to 450 deg.
 2.  Beat eggs 30 seconds

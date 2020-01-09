@@ -9,10 +9,10 @@ tags:
 
 Juicy honey garlic chicken thighs and crispy roast potatoes are seared and baked in the most FLAVORFUL honey garlic sauce in this no-fuss one skillet dinner!
 
-Prep Time 10 minutes
-Cook Time 30 minutes
-Total Time 40 minutes
-Servings 4 servings
+* Prep Time 10 minutes
+* Cook Time 30 minutes
+* Total Time 40 minutes
+* Servings 4 servings
 
 ## Ingredients
 
@@ -28,7 +28,7 @@ Servings 4 servings
 * 1 tablespoon white vinegar
 * 2 tablespoons minced fresh parsley
 
-## Instructions
+## Directions
 
 1. Season chicken on both sides with salt and pepper to taste. Heat 1 tablespoon butter and olive oil in a medium skillet over medium-high heat until melted and hot. Place chicken thighs skin-side down and sear 2-3 minutes on both sides until golden brown. Remove from skillet and set aside.
 1. Add onion and potatoes to same skillet and saute several minutes until golden-brown. Season with salt and pepper to taste then remove from skillet and set aside.

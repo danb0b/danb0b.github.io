@@ -7,6 +7,8 @@ tags:
   - soup
 ---
 
+## Ingredients
+
 * 2 cloves garlic
 * 1 medium onion
 * 2 stalks celery
@@ -19,7 +21,7 @@ tags:
 * 4 cups vegetable broth
 * 2 cups water
  
-## Instructions
+## Directions
 
 1. Mince the garlic, dice the onion and celery, and grate the carrots on a large holed cheese grater. Rinse the black beans in a colander under cool running water and pick out any stones or debris.
 1. Combine the garlic, onion, celery, carrots, black beans, salsa, chili powder, cumin, oregano, vegetable broth, and water in a 5-7 quart slow cooker. Stir well.
