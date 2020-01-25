@@ -1,8 +1,8 @@
 ---
 title: Mexican Street Salad
-tags: 
-  - mexican
+tags:
   - salad
+  - mexican
   - vegetable
 original_url: https://www.jamieoliver.com/recipes/vegetables-recipes/mexican-street-salad/
 ---

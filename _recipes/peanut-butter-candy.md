@@ -1,6 +1,6 @@
 ---
 title: Peanut Butter Candy
-tags: 
+tags:
   - dessert
 images:
   - scan0116_004.jpg

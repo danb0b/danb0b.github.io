@@ -1,7 +1,6 @@
 ---
 title: Best Ever Green Bean Casserole
 tags:
-  - dinner
   - side
   - vegetable
   - casserole

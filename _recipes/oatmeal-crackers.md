@@ -1,8 +1,8 @@
 ---
 title: Oatmeal Crackers
 tags:
-  - snack
   - appetizer
+  - snack
 from: Tara McConnell
 ---
 

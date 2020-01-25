@@ -1,7 +1,6 @@
 ---
 title: Czech Goulash
 tags:
-  - dinner
   - soup
   - czech
 original_url: https://mooshujenne.com/czech-goulash-cesky-gulas/

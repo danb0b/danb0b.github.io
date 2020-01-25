@@ -1,11 +1,10 @@
 ---
 title: Kale Soup With Potatoes and Sausage
-tags: 
-  - dinner
+tags:
+  - soup
   - vegetable
   - side
   - meat
-  - soup
 original_url: https://cooking.nytimes.com/recipes/7416-kale-soup-with-potatoes-and-sausage
 ---
 

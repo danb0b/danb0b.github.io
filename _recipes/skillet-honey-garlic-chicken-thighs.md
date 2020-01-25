@@ -2,7 +2,6 @@
 title: Skillet Honey Garlic Chicken Thighs With Roast Potatoes
 original_url: https://wholeandheavenlyoven.com/2018/01/22/skillet-honey-garlic-chicken-thighs-roast-potatoes/
 tags:
-  - dinner
   - main
   - chicken
 ---

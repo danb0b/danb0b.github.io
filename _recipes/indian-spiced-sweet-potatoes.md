@@ -1,9 +1,8 @@
 ---
 title: Indian Spiced Sweet Potatoes
-tags: 
-  - dinner
-  - vegetable
+tags:
   - side
+  - vegetable
 original_url: https://www.cookingchanneltv.com/recipes/indian-spiced-sweet-potatoes-1962313
 ---
 

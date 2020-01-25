@@ -1,6 +1,7 @@
 ---
 title: Chipotle Salsa
 tags:
+  - appetizer
   - snack
   - side
   - mexican

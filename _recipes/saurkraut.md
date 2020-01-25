@@ -2,6 +2,7 @@
 title: Saurkraut
 original_url: https://www.foodnetwork.com/recipes/alton-brown/sauerkraut-recipe-1942351
 tags:
+  - canning-and-pickling
   - side
   - misc
   - topping

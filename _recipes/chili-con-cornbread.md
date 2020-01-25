@@ -1,9 +1,8 @@
 ---
 title: Chili Con Cornbread
 tags:
-  - dinner
-  - casserole
   - main
+  - casserole
   - soup
 from: Dan Aukes
 ---

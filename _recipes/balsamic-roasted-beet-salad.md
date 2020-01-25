@@ -1,7 +1,6 @@
 ---
 title: Balsamic Roasted Beet Salad
 tags:
-  - dinner
   - salad
   - side
 original_url: https://www.foodnetwork.com/recipes/ina-garten/balsamic-roasted-beet-salad-recipe-2006690

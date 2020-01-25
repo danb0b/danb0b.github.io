@@ -1,7 +1,6 @@
 ---
 title: Potato Galette
 tags:
-  - dinner
   - side
 original_url: https://www.cooksillustrated.com/recipes/6385-potato-galette
 ---

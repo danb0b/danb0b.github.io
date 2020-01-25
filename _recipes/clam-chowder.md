@@ -2,7 +2,6 @@
 title: Clam Chowder
 tags:
   - soup
-  - dinner
 from: Tara McConnell
 ---
 

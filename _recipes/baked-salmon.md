@@ -1,7 +1,7 @@
 ---
 title: Baked Salmon
 tags:
-  - dinner
+  - main
   - seafood
 images: 
   - scan0126_002.jpg

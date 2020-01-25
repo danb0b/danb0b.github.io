@@ -1,6 +1,6 @@
 ---
 title: Lemon Meringue Pie
-tags: 
+tags:
   - dessert
   - pie
 images:

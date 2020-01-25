@@ -1,7 +1,5 @@
 ---
 title: French Cheese Puffs
-images:
-  - scan0108_012.jpg
 tags:
   - appetizer
 original_url: https://www.epicurious.com/recipes/member/views/french-cheese-puffs-50084951

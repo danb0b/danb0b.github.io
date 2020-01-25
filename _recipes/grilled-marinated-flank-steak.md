@@ -1,7 +1,7 @@
 ---
 title: Grilled Marinated Flank Steak
-tags: 
-  - dinner
+tags:
+  - main
   - casserole
   - beef
 images:

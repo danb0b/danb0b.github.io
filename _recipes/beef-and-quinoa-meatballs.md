@@ -2,7 +2,7 @@
 title: Beef and Quinoa Meatballs
 original_url: https://www.wholefoodsmarket.com/recipes/beef-and-quinoa-meatballs
 tags:
-  - appetizers
+  - appetizer
 ---
 
 ## Ingredients

@@ -1,7 +1,9 @@
 ---
 title: Pork and Ginger Pot Stickers
 tags:
-  - dinner
+  - appetizer
+  - side
+  - main
   - asian
   - pork
 original_url: https://www.foodnetwork.com/recipes/pork-and-ginger-pot-stickers-recipe-1950011

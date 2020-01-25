@@ -5,7 +5,6 @@ images:
 tags:
   - appetizer
   - side
-  - dinner
 ---
 
 ## Images

@@ -2,7 +2,6 @@
 title: Slow Cooker Honey Lime Ginger Pork
 original_url: https://therecipecritic.com/slow-cooker-honey-lime-ginger-pork/
 tags:
-  - dinner
   - main
   - pork
 ---

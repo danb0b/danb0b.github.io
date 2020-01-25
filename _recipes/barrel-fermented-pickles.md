@@ -2,8 +2,7 @@
 title: Barrel Fermented Pickles
 original_url: https://theelliotthomestead.com/2017/07/fermented-pickles/
 tags:
-  - canning
-  - pickles
+  - canning-and-pickling
 ---
 
 

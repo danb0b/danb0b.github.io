@@ -1,9 +1,8 @@
 ---
 title: Pork and Tomatillo Chili
 tags:
-  - dinner
-  - mexican
   - soup
+  - mexican
   - pork
 original_url: https://www.latimes.com/food/la-fo-pork-and-tomatillo-chili-s-story.html
 ---

@@ -1,8 +1,7 @@
 ---
 title: Parmesean Salad
-tags: 
+tags:
   - salad
-  - dinner
   - side
 images: 
   - scan0126_002.jpg

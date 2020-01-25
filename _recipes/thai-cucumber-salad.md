@@ -2,9 +2,8 @@
 title: Thai Cucumber Salad
 original_url: https://www.allrecipes.com/recipe/169593/thai-cucumber-salad/
 tags:
-  - dinner
-  - side
   - salad
+  - side
   - asian
 ---
 

@@ -3,7 +3,7 @@ title: Beet Chutney
 from: Lindsey Nyra
 modified_from: bbcgoodfood.com
 tags:
-  - appetizers
+  - sauces-and-marinades
 ---
 
 ## Ingredients
