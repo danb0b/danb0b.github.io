@@ -2,10 +2,8 @@
 title: No Knead English Muffins
 tags:
   - bread
-  - side
+  - breakfast
 from: Bill Eykamp
-images: 
-  - scan0122_008.jpg
 original_url: http://js.washingtonpost.com/recipes/no-knead-english-muffins/17366/
 ---
 
