@@ -2,6 +2,4 @@
 layout: home
 ---
 
-## Menu
-
-* [Recipes]({{site.baseurl}}/recipes)
+[Recipes]({{site.baseurl}}/recipes)
