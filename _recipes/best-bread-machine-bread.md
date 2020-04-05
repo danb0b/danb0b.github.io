@@ -9,7 +9,7 @@ original_url: https://www.allrecipes.com/recipe/17215/best-bread-machine-bread/
 * 1 cup warm water (110 degrees F45 degrees C)
 * 2 tablespoons white sugar
 * 1 (.25 ounce) package bread machine yeast
-* 14 cup vegetable oil
+* 1/4 cup vegetable oil
 * 3 cups bread flour
 * 1 teaspoon salt
 
