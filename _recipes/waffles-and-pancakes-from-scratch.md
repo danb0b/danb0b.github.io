@@ -1,5 +1,5 @@
 ---
-title: Waffles
+title: Waffles & Pancakes from Scratch
 tags:
   - breakfast
 from: Daniel Aukes
@@ -7,7 +7,7 @@ from: Daniel Aukes
 ## Ingredients
 
 -   1-3/4 cup flour
--   3 tsp baking powder
+-   1 tbsp baking powder
 -   1/2 tsp salt
 -   2 eggs
 -   1-3/4 cup milk
@@ -25,6 +25,11 @@ from: Daniel Aukes
 1.  Mix together dry ingredients
 2.  Mix together wet ingredients, not including egg whites. Beat wet with whatever available
 3.  Don't forget to separate white from yolk and beat white until stiff peaks form.
-4.  Mix wet and dry together, but don't beat.  It should be thorougly mixed when there are still little lumps
-5.  fold in egg whites.
+4.  Mix wet and dry together.
+5.  Fold in egg whites, without beating too hard.
+5.  Use non-stick spray to lightly oil the iron
 6.  Pour onto iron.
+
+## Substitutions
+
+* If you don't feel like whipping the eggs, just add another tbsp of baking powder to your dry ingredients.
