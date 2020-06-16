@@ -2,15 +2,15 @@
 layout: home
 ---
 
-## Code Projects
+# Code Projects
 
 {% for post in site.code %}* [{{ post.title }}]({{ post.url }})
 {%endfor%}
 
-## ROS Tutorials
+# ROS Tutorials
 
 see [this link](https://danb0b.github.io/projects_ros_tutorial/)
 
-## Recipes
+# Recipes
 
 [Recipes]({{site.baseurl}}/recipes)
