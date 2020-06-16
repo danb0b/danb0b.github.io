@@ -49,8 +49,6 @@ menu:
 #    link: egr598
     - name: code
       link: code
-    - name: ROS Tutorials
-      link: ros
     - name: recipes
       link: recipes
     
@@ -78,10 +76,3 @@ defaults:
       type: "code"
     values:
       layout: page
-  - scope:
-      path: ""
-      type: "ros"
-    values:
-      layout: page
-    
-  

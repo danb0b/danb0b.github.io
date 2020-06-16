@@ -9,8 +9,7 @@ layout: home
 
 ## ROS Tutorials
 
-{% for post in site.ros %}* [{{ post.title }}]({{ post.url }})
-{%endfor%}
+see [this link](/projects_ros_tutorial)
 
 ## Recipes
 
