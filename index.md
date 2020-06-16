@@ -9,7 +9,7 @@ layout: home
 
 ## ROS Tutorials
 
-see [this link](/projects_ros_tutorial)
+see [this link](https://danb0b.github.io/projects_ros_tutorial/)
 
 ## Recipes
 
