@@ -25,5 +25,6 @@ see [this link](https://danb0b.github.io/projects_ros_tutorial/)
 * <https://idealab-asu.slack.com>
 * <https://kaiteki-asu.slack.com>
 * <https://scram-workspace.slack.com>
-* <https://asu-2207-egr304-76246.slack.com/>
+* <https://asu-2207-egr304-76246.slack.com>
+* <https://newfacultyatasu.slack.com>
 
