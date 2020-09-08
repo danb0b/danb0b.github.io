@@ -7,20 +7,20 @@ title: Dan Aukes, Ph.D.
 
 I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), and Assistant Professor in the Ira A. Fulton Schools of Engineering, Arizona State University.  This is my personal website 
 
-# Personal Code Projects
+## Personal Code Projects
 
 {% for post in site.code %}* [{{ post.title }}]({{ post.url }})
 {%endfor%}
 
-# ROS Tutorials
+## ROS Tutorials
 
 see [this link](https://danb0b.github.io/projects_ros_tutorial/)
 
-# Recipes
+## Recipes
 
 [Recipes]({{site.baseurl}}/recipes)
 
-# Slack Workspaces
+## Slack Workspaces
 
 * <https://idealab-asu.slack.com>
 * <https://kaiteki-asu.slack.com>
@@ -28,3 +28,9 @@ see [this link](https://danb0b.github.io/projects_ros_tutorial/)
 * <https://asu-2207-egr304-76246.slack.com>
 * <https://newfacultyatasu.slack.com>
 
+## Twitter
+
+* [danaukes](https://twitter.com/danaukes)
+* [popupCAD](https://twitter.com/popupcad)
+* [idealab](https://twitter.com/idealabasu)
+* [dave the kangaroo](https://twitter.com/davethekangaroo)
