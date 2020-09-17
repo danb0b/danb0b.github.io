@@ -3,7 +3,7 @@ title: bookmarks
 subtitle: not really organized
 ---
 
-# idealab
+## idealab
 
 * [about-blue-robotics](http://www.bluerobotics.com/about/)
 * [descriptive-knowledge-wikipedia](https://en.wikipedia.org/wiki/Descriptive_knowledge)
@@ -16,7 +16,7 @@ subtitle: not really organized
 * [Welcome to Tomorrow's Professor - Tomorrow's Professor Postings](https://tomprof.stanford.edu/)
 * [_theverge_com_2018_1_17_16900496_nintendaccessories-announced-price-release-date](https://www.theverge.com/2018/1/17/16900496/nintendo-switch-labo-cardboard-diy-accessories-announced-price-release-date)
 
-## asu
+### asu
 
 * [403-skysong-innovations](http://azte.com/)
 * [404-not-found-fulton-schools-of-engineering-lab-sites](http://lab.engineering.asu.edu/idealab/)
@@ -78,7 +78,7 @@ Prop3=19,11)
 * [welcome-entrepreneurship-innovation](https://entrepreneurship.asu.edu/)
 * [_public_asu_edu_daukes](http://www.public.asu.edu/~daukes/)
 
-## commentaries
+### commentaries
 
 * [404-page-not-found](http://www.marketplace.org/topics/tech/codebreaker-marketplace-and-tech-insider%E2%84%A2)
 * [computer-hacking-from-teen-prank-to-high-stakes-crime-cnn](http://www.cnn.com/2015/03/11/tech/computer-hacking-history/index.html)
@@ -90,7 +90,7 @@ Prop3=19,11)
 * [paul-ford-what-is-code-bloomberg](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 * [youtube](https://www.youtube.com/watch?v=A-fxij3zM7g)
 
-## courses
+### courses
 
 * [403-forbidden](http://makezine.com/2013/08/21/stocking-up-school-makerspaces/)
 * [6-amazing-things-about-tab-classrooms-the-art-of-ed](https://www.theartofed.com/2016/06/24/6-amazing-things-tab/)
@@ -106,7 +106,7 @@ Prop3=19,11)
 * [Stocking up School Makerspaces](https://makezine.com/2013/08/21/stocking-up-school-makerspaces/)
 * [youtube](https://www.youtube.com/watch?v=OIKd7as2gDg&index=5&list=PLGPOIbnazC4qGQKf3arVJ_pfIGT0iGvWb)
 
-## electronics
+### electronics
 
 * [alltronics](http://www.alltronics.com/)
 * [amazoncom-ueb-5pcs-mt3608-2a-dc-dc-step-v-to-9v-12v-28v-for-arduino-home-kitchen](https://www.amazon.com/UEB-MT3608-Booster-Module-Arduino/dp/B01N2BAR9E/ref=pd_day0_23_2?_encoding=UTF8&psc=1&refRID=SVX1GWBYYD3ECJB3CWHN)
@@ -120,13 +120,13 @@ Prop3=19,11)
 * [schneider-electric-motion-usa-industry-leader-in-integrated-motors](http://www.imshome.com/index.html)
 * [Tri-Tek Electronics - Electronic Parts Store Serving Phoenix and Mesa](http://www.tritekelectronics.com/)
 
-### bluetooth
+#### bluetooth
 
 * [bluetooth-smd-module-rayson-btm-182-wrl-09913-sparkfun-electronics](http://www.sparkfun.com/commerce/product_info.php?products_id=9913)
 * [bluetooth-smd-module-rn-41-v615-wrl-12575-sparkfun-electronics](http://www.sparkfun.com/commerce/product_info.php?products_id=8497)
 * [sparkfun-bluetooth-modem-bluesmirf-gold-wrl-12582-sparkfun-electronics](http://www.sparkfun.com/commerce/product_info.php?products_id=582)
 
-### digikey
+#### digikey
 
 * [009175003001006-avx-corporation-connectors-interconnects-digikey](http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=478-4516-1-ND&itemSeq=89303667&uq=634166134710185195)
 * [009176001032106-avx-corporation-connectors-interconnects-digikey](http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=478-6080-1-ND&itemSeq=89304207&uq=634166134710185195)
@@ -136,13 +136,13 @@ Prop3=19,11)
 * [ixel40n400-ixys-discrete-semiconductor-products-digikey](http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=IXEL40N400-ND)
 * [stw3n150-stmicroelectronics-discrete-semiconductor-products-digikey](http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=497-6332-5-ND)
 
-### microcontrollers
+#### microcontrollers
 
 * [cy8ckit-042-psoc-4-pioneer-kit](http://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-psoc-4-pioneer-kit)
 * [ww1_microchip_com_downloads_en_devicedoc_70046e_pdf](http://ww1.microchip.com/downloads/en/DeviceDoc/70046E.pdf)
 * [ww1_microchip_com_downloads_en_devicedoc_70138e_pdf](http://ww1.microchip.com/downloads/en/DeviceDoc/70138E.pdf)
 
-### motors
+#### motors
 
 * [403-forbidden](http://www.alliedmotion.com/Products/Series.aspx?s=9)
 * [404-file-or-directory-not-found](http://raemotors.thomasnet.com/item/right-angle-gearmotors/right-angle-gearmotors-g4-series/g4?&plpver=1002&forward=1)
@@ -164,11 +164,11 @@ Prop3=19,11)
 * [youtube](http://www.youtube.com/watch?v=OQEd3xmxSa0&feature=related)
 * [_futaba-rc_com_servos_servos_html](http://www.futaba-rc.com/servos/servos.html)
 
-### robotics-kits
+#### robotics-kits
 
 * [Sunfounder - Starter Kits, Robots DIY Electronic Kits for STEM Education](https://www.sunfounder.com/)
 
-### sensors
+#### sensors
 
 * [0-1 Bar Altimeter Pressure Sensor - MS5540C Series - TE Connectivity](https://www.te.com/usa-en/product-CAT-BLPS0033.html?q=&n=135117%20540190&type=products&samples=N&instock=N)
 * [Angle Position On-Axis - ams](https://ams.com/angle-position-on-axis)
@@ -180,12 +180,12 @@ Prop3=19,11)
 * [sensor-technology-syntouch-syntouch-inc](http://www.syntouchllc.com/products.htm)
 * [_interlinkelectronics_com_force_sensors_roducts_forcesensingresistors_index_html](http://www.interlinkelectronics.com/force_sensors/products/forcesensingresistors/index.html)
 
-## equipment
+### equipment
 
 * [carbide-3d](http://carbide3d.com/shapeoko/)
 * [m2-getting-started-makergear](http://makergear.wikidot.com/m2-getting-started)
 
-## funding
+### funding
 
 * [a-foundation-for-robotics](https://www.nsf.gov/news/special_reports/robotics/motivation.jsp)
 * [advanced-manufacturing-nsf-national-science-foundation](http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503287&org=NSF)
@@ -209,18 +209,18 @@ Prop3=19,11)
 * [uc-berkeley-sponsored-projects-office](http://www.spo.berkeley.edu/fund/newfaculty.html)
 * [view-opportunity-grantsgov](https://www.grants.gov/web/grants/view-opportunity.html?oppId=292986)
 
-### announcement-pages
+#### announcement-pages
 
 * [access-denied](http://www.arl.army.mil/www/default.cfm?Action=6&Page=8)
 * [search-grants-grantsgov](http://www.grants.gov/search-grants.html?agencies%3DDOD%7CDepartment%20of%20Defense)
 
-### engineering-education
+#### engineering-education
 
 * [improving-undergraduate-stem-education-eesources-nsf-national-science-foundation](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505082)
 * [pfe-research-initiation-in-engineering-formation-nsf-national-science-foundation](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503603&org=NSF)
 * [professional-formation-of-engineers-nsf-national-science-foundation](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=13540)
 
-### lists
+#### lists
 
 * [awards-asme-mechanisms-and-robotics-committee](https://sites.google.com/site/asmemrc/awards)
 * [funding-for-new-faculty-rle-at-mit](http://www.rle.mit.edu/research/funding-opportunities/new-faculty/)
@@ -229,7 +229,7 @@ Prop3=19,11)
 * [research_usc_edu_files_2011_05_early-career-young-investigator-7-16-2013_pdf](https://research.usc.edu/files/2011/05/Early-Career-Young-Investigator-7-16-2013.pdf)
 * [young-investigator-funding-opportunities](http://cfr.ucsd.edu/young-investigators/funding-opportunities.html)
 
-### nsf-proposal
+#### nsf-proposal
 
 * [404-not-found](http://www.pgbovine.net/NSF-grant-proposal-first-time.htm)
 * [grant-proposals-mit-mathematics](https://math.mit.edu/services/grants/index.php)
@@ -239,17 +239,17 @@ Prop3=19,11)
 * [rn](http://www.grapenthin.org/toolbox/nsf_template.html)
 * [_nsf_gov_pubs_policydocs_pappguide_nsf16001_gpg_print_pdf](http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_print.pdf)
 
-### past-funding
+#### past-funding
 
 * [404-page-not-found-nsf-national-science-foundation](http://www.nsf.gov/eng/efri/fy12awards_ODISSEI.jsp)
 
-### specific-announcements
+#### specific-announcements
 
 * [a-pilot-institute-for-the-national-networal-business-opportunities-opportunities](https://www.fbo.gov/?s=opportunity&mode=form&id=2bbada5cae4ab97438dc3f57fed050d0)
 * [access-denied](http://www.arl.army.mil/www/pages/8/ARLBAA_W911NF-12-R-0011-03-Mod_26MAR15.pdf)
 * [afrlrxm-manufacturing-technology-open-baral-business-opportunities-opportunities](https://www.fbo.gov/index?s=opportunity&mode=form&id=f53723917a99bb133c03ca5c9ce671cc&tab=core&_cview=1)
 
-## labs
+### labs
 
 * [3DX Research @ ASU – Additive Manufacturing - Cellular Materials - Bio-inspired Design](https://3dxresearch.com/)
 * [404-not-found](http://people.seas.harvard.edu/~gravish/)
@@ -290,7 +290,7 @@ Prop3=19,11)
 * [wpi-soft-robotics-lab](http://softrobotics.wpi.edu/?_ga=1.183899747.491479449.1471719215)
 * [zhi-ern-teoh-projects](http://www.zhiernteoh.com/)
 
-## materials
+### materials
 
 * [ACP Composites](http://www.acpsales.com/home.html)
 * [adhesives-for-paper-wiki](http://www.conservation-wiki.com/wiki/Adhesives_for_Paper)
@@ -301,12 +301,12 @@ Prop3=19,11)
 * [tube-and-pipe-alcobrametalscom](http://alcobrametals.com/page/tubeandpipe)
 * [_professionalplastics_com](https://www.professionalplastics.com/)
 
-### rubber-molding
+#### rubber-molding
 
 * [Smooth-On, Inc. - Mold Making & Casting Materials - Rubbers, Plastics, Foams & More!](https://www.smooth-on.com/)
 * [Specialty Silicones Manufacturer - Quantum Silicones - QSi](http://www.quantumsilicones.com/)
 
-## papers
+### papers
 
 * [3D bipedal robot with tunable leg compliance mechanism for multi-modal locomotion - IEEE Conference Publication](https://ieeexplore.ieee.org/abstract/document/4650807)
 * [Active leg compliance for passive walking - IEEE Conference Publication](https://ieeexplore.ieee.org/abstract/document/680673)
@@ -359,17 +359,17 @@ Prop3=19,11)
 * [ww-eap-and-artificial-muscles-conferences](http://ndeaa.jpl.nasa.gov/nasa-nde/lommas/eap/eap-conferences.htm)
 * [yale-openhand-project-optimizing-open-sotion-and-adoption-ieee-journals-magazine](http://ieeexplore.ieee.org/abstract/document/7859295/?reload=true)
 
-### bipedal papers
+#### bipedal papers
 
 * [A Bipedal Walking Robot with Efficient and Human-Like Gait - IEEE Conference Publication](https://ieeexplore.ieee.org/abstract/document/1570404)
 
-### tape springs
+#### tape springs
 
 * [(PDF) Experimental Investigation of Tape Springs Folded in Three Dimensions](https://www.researchgate.net/publication/245425963_Experimental_Investigation_of_Tape_Springs_Folded_in_Three_Dimensions)
 * [Analysis of tape spring hinges - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0020740306002852)
 * [cambridge active buckling tape spring at DuckDuckGo](https://duckduckgo.com/?q=cambridge+active+buckling+tape+spring&atb=v134-2&ia=web)
 
-## parts and materials
+### parts and materials
 
 * [DFRobot - Quality Arduino Robot IOT DIY Electronic Kit](https://www.dfrobot.com/)
 * [FAULHABER Drive Systems](https://www.faulhaber.com/en/home/)
@@ -381,24 +381,24 @@ Prop3=19,11)
 * [robot-store-hk-robot-parts-mit-handyboarts-robot-cooling-fans-motor-cooling-fans](http://www.robotstorehk.com/)
 * [Small Mechanical Components- Precision Gears, Timing Belts, Gear Assemblies, Timing Belt Pulleys, Couplings, Bearings and much more - SDP-SI](http://sdp-si.com/)
 
-### bearings
+#### bearings
 
 * [mt-series-slewing-ring-bearings-for-cranhoists-industrial-tables-kaydon-bearings](http://www.kaydonbearings.com/drawings/mtseries.php#)
 * [nsk-home-ball-bearings-roller-bearings-linear-components-automotive-components](http://www.nskprecision.com/)
 * [vxb-bearings-online-store-the-ball-bearing-supplier-distributor](http://www.vxb.com/)
 
-### gears-gearboxes
+#### gears-gearboxes
 
 * [microkit-catalogue-pager-motors-small-gears-difficult-to-find-parts](http://www.didel.com/microkit/pricelist/)
 * [pinions-the-small-gears-radical-rc](http://www.radicalrc.com/category/Pinions-the-small-gears-133)
 * [servoclass-double-flex-couplings-servo-couplings](http://www.zero-max.com/right-angle-gearbox-c-22-l-en.html)
 * [Welcome to rushgears.com - Nobody makes custom gears faster!!!](https://www.rushgears.com/)
 
-### springs
+#### springs
 
 * [smalley-steel-ring-company](http://www.smalley.com/)
 
-## programming
+### programming
 
 * [2012-solidworks-api-help-solidworksinteropsldworks-namespace](http://help.solidworks.com/2012/english/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html?id=9e83b8bfe97445aba4d4889c9b742b54#Pg0)
 * [404-not-found](http://www.jagjot.com/2013/02/read-write-delete-windows-registry-c/)
@@ -426,11 +426,11 @@ Prop3=19,11)
 * [triangle-a-two-dimensional-quality-mesh-generator-and-delaunay-triangulator](http://www.cs.cmu.edu/~quake/triangle.html)
 * [[Fix] -Could not find this item- When Deleting a File or Folder in Windows » Winhelponline](https://www.winhelponline.com/blog/could-not-find-this-item-when-deleting-file-folder-windows/)
 
-### bat
+#### bat
 
 * [Batch Script Quick Guide](https://www.tutorialspoint.com/batch_script/batch_script_quick_guide.htm)
 
-### blender
+#### blender
 
 * [animation-in-blender-25-cg-masters](http://www.cgmasters.net/free-tutorials/animation-in-blender-2-5/)
 * [blender-documentation-contents-blender-2620-api-documentation](http://www.blender.org/documentation/blender_python_api_2_62_release/)
@@ -438,7 +438,7 @@ Prop3=19,11)
 * [doc24manualanimationtechsobject-blender-developer-wiki](http://wiki.blender.org/index.php/Doc:2.4/Manual/Animation/Techs/Object)
 * [youtube](http://www.youtube.com/watch?v=d6JpGyvFot0)
 
-### c
+#### c
 
 * [404-not-found](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
 * [a1-static-and-dynamic-libraries-learn-c](http://www.learncpp.com/cpp-tutorial/a1-static-and-dynamic-libraries/)
@@ -448,20 +448,20 @@ Prop3=19,11)
 * [support-for-unicode](http://msdn.microsoft.com/en-us/library/2dax2h36.aspx)
 * [visual-c-programming-methodologies-microsoft-docs](http://msdn.microsoft.com/en-us/library/ms173251.aspx)
 
-#### dlls
+##### dlls
 
 * [download-visual-studio-2005-retired-docu-from-official-microsoft-download-center](http://msdn.microsoft.com/en-US/library/d91k01sh(v=VS.80).aspx)
 * [linker-why-does-fatal-error-lnk1104-cann-project-in-visual-studio-stack-overflow](http://stackoverflow.com/questions/133698/why-does-fatal-error-lnk1104-cannot-open-file-c-program-obj-occur-when-i-c)
 * [walkthrough-creating-and-using-a-dynamic-link-library-c](http://msdn.microsoft.com/en-us/library/ms235636.aspx)
 
-### cgal
+#### cgal
 
 * [c-how-to-use-boost-in-visual-studio-2010-stack-overflow](http://stackoverflow.com/questions/2629421/how-to-use-boost-in-visual-studio-2010)
 * [mingw-64-bit-how-to](http://www.gaia-gis.it/gaia-sins/mingw64_how_to.html)
 * [page-not-found-sourceforgenet](http://sourceforge.net/p/mingw-w64/wiki2/Building%20Boost/)
 * [use-cgal-with-msys2mingw64-in-windows-lijgame](https://lijgame.wordpress.com/2015/06/10/use-cgal-with-msys2mingw64-in-windows/)
 
-### computer-vision
+#### computer-vision
 
 * [404-not-found](http://muonics.net/school/spring05/videoInput/)
 * [anton-lopyrev-weighted-voronoi-stippler](http://www.eng.uwaterloo.ca/~alopyrev/cs791/stippling_report.html)
@@ -470,14 +470,14 @@ Prop3=19,11)
 * [platform-memory-validation-specifications-and-results](http://www.intel.com/technology/computing/opencv/)
 * [vlfeat-home](http://www.vlfeat.org/index.html)
 
-#### opencv
+##### opencv
 
 * [introduction-to-programming-with-opencv](http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/opencv-intro.html)
 * [opencv_willowgarage_com_documentation_pyeading_and_writing_images_and_video_html](http://opencv.willowgarage.com/documentation/python/highgui_reading_and_writing_images_and_video.html)
 * [opencv_willowgarage_com_documentation_python_cookbook_html](http://opencv.willowgarage.com/documentation/python/cookbook.html)
 * [writing-video-with-opencv-python-mac-stack-overflow](http://stackoverflow.com/questions/5426637/writing-video-with-opencv-python-mac)
 
-### directed-graphs
+#### directed-graphs
 
 * [algorithm-dijkstra-find-shortest-path-in-directed-graph-stack-overflow](http://stackoverflow.com/questions/13249057/dijkstra-find-shortest-path-in-directed-graph)
 * [algorithm-graph-how-to-find-minimum-direycle-minimum-total-weight-stack-overflow](http://stackoverflow.com/questions/10456935/graph-how-to-find-minimum-directed-cycle-minimum-total-weight)
@@ -491,7 +491,7 @@ Prop3=19,11)
 * [floydwarshall-algorithm-wikipedia](http://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
 * [graph-theory-wikipedia](http://en.wikipedia.org/wiki/Graph_theory)
 
-### docker
+#### docker
 
 * [Docker - a way to give access to a host USB or serial device- - Stack Overflow](https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device)
 * [docker-Tutorials-Docker - ROS Wiki](https://wiki.ros.org/docker/Tutorials/Docker)
@@ -504,20 +504,20 @@ Prop3=19,11)
 * [use docker to read usb at DuckDuckGo](https://duckduckgo.com/?q=use+docker+to+read+usb&atb=v188-1&ia=web)
 * [Using ROS from a Docker image - Effective Robotics Programming with ROS - Third Edition](https://subscription.packtpub.com/book/hardware_and_creative/9781786463654/1/ch01lvl1sec11/using-ros-from-a-docker-image)
 
-### ffmpeg
+#### ffmpeg
 
 * [Encode-H.264 – FFmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
 * [FFprobe Tips](https://trac.ffmpeg.org/wiki/FFprobeTips)
 * [mac - Batch video editing software that can trim without re-encoding - Video Production Stack Exchange](https://video.stackexchange.com/questions/5615/batch-video-editing-software-that-can-trim-without-re-encoding)
 * [Seeking](https://trac.ffmpeg.org/wiki/Seeking)
 
-### git
+#### git
 
 * [git-book](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 * [page-not-found-github-pages](http://gitref.org/remotes/)
 * [redirect-notice](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB8QFjAAahUKEwjRqtrq6uzGAhUIdD4KHcsGAJ4&url=https%3A%2F%2Frtyley.github.io%2Fbfg-repo-cleaner%2F&ei=5IyuVdGoEojo-QHLjYDwCQ&usg=AFQjCNETReJx3boSAqUUj1LJcoGi-RC0_w&sig2=ZHIXdno_keSQ2VSLUnCXUw&bvm=bv.98197061,d.cWw)
 
-### latex
+#### latex
 
 * [403-forbidden](http://ctan.sharelatex.com/tex-archive/systems/win32/miktex/tm/packages/)
 * [andrewjpagecom](http://www.andrewjpage.com/index.php?/archives/43-Multirow-and-multicolumn-spanning-with-latex-tables.html)
@@ -538,12 +538,12 @@ Prop3=19,11)
 * [texfaq2html-redirect-emulating-cgi-bin-lookup-on-the-original-site](http://www.tex.ac.uk/cgi-bin/texfaq2html?label=floats)
 * [Tufte-LaTeX](https://tufte-latex.github.io/tufte-latex/)
 
-#### presenations
+##### presenations
 
 * [conversion - Any way of converting ppt or odf to beamer or org- - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/66007/any-way-of-converting-ppt-or-odf-to-beamer-or-org)
 * [conversion - Export beamer slides to powerpoint-openoffice-impress-keynote editable format - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/21986/export-beamer-slides-to-powerpoint-openoffice-impress-keynote-editable-format)
 
-### opengl
+#### opengl
 
 * [basic-opengl-lighting](http://www.sjbaker.org/steve/omniv/opengl_lighting.html)
 * [beginning-game-development-with-python-all-mcgugan-9781590598726-amazoncom-books](http://www.amazon.com/gp/product/1590598725?ie=UTF8&tag=kelpiesoft-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1590598725)
@@ -557,11 +557,11 @@ Prop3=19,11)
 * [opengl-faq-15-transparency-translucency-and-using-blending](http://www.opengl.org/archives/resources/faq/technical/transparency.htm)
 * [opengl-sample-code-for-pygame](http://www.willmcgugan.com/blog/tech/2007/6/4/opengl-sample-code-for-pygame/)
 
-### particle
+#### particle
 
 * [Particle Tutorials - Status LED and Device Modes](https://docs.particle.io/tutorials/device-os/led/photon/)
 
-### qt and kivy
+#### qt and kivy
 
 * [baffled-by-qlistview-drag-drop-for-reordering-list-qt-forum](http://qt-project.org/forums/viewthread/22684)
 * [doc_qt_digia_com_qq_qq26-webplugin_html](http://doc.qt.digia.com/qq/qq26-webplugin.html)
@@ -582,18 +582,18 @@ Prop3=19,11)
 * [vertex-instructions-kivy-1110dev0-documentation](https://kivy.org/docs/api-kivy.graphics.vertex_instructions.html#module-kivy.graphics.vertex_instructions)
 * [wordpresscom](http://rittwik.wordpress.com/qt/qdialog-like-qmainwindow/)
 
-### sage
+#### sage
 
 * [blog-not-found](http://georgm.blogspot.com/2007/03/sage-computer-algebra-system.html)
 * [exploring-mathematics-with-sage](http://arachnoid.com/sage/)
 * [walking-randomly-interacting-with-sage-part-1](http://www.walkingrandomly.com/?p=103)
 
-### solidworks-api
+#### solidworks-api
 
 * [2020 SOLIDWORKS API Help - Creating Add-ins (C#)](http://help.solidworks.com/2020/English/api/epdmapi/CSharpAddIns.htm?verRedirect=1)
 * [2020 SOLIDWORKS API Help - Using SwAddin to Create a SOLIDWORKS Addin](http://help.solidworks.com/2020/English/api/sldworksapiprogguide/Overview/Using_SwAddin_to_Create_a_SolidWorks_Addin.htm?verRedirect=1)
 
-### virtualbox
+#### virtualbox
 
 * [3033-usb-devices-not-available-to-guest-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/3033#comment:30)
 * [9275-guest-is-crashing-after-accessing-usb-webcam-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/9275)
@@ -602,7 +602,7 @@ Prop3=19,11)
 * [page-not-found-stack-overflow](http://stackoverflow.com/questions/11319965/virtualbox-usb-device-with-uuid-is-busy-and-can-not-attach-usb-device-on-guest)
 * [windows-virtualbox-failed-to-attach-usb-device-to-linux-guest-super-user](http://superuser.com/questions/461406/windows-virtualbox-failed-to-attach-usb-device-to-linux-guest)
 
-## python
+### python
 
 * [403-forbidden](https://www.enthought.com/products/epd/package-index/)
 * [404-not-found](http://www.scipy.org/EricsBroadcastingDoc)
@@ -658,11 +658,11 @@ Prop3=19,11)
 * [_jason-hayes_com_p126](http://www.jason-hayes.com/?p=126)
 * [_knowledgetantra_com_component_content_aython_1-call-dll-function-in-python_html](http://www.knowledgetantra.com/component/content/article/2-python/1-call-dll-function-in-python.html)
 
-### cx_freeze
+#### cx_freeze
 
 * [anthony_tuininga-cx_freeze-issues-43-impze-with-specific-scipy-modules-bitbucket](https://bitbucket.org/anthony_tuininga/cx_freeze/issues/43/import-errors-when-using-cx_freeze-with)
 
-### idiomatic-python
+#### idiomatic-python
 
 * [how-to-write-pythonic-code](http://chrisarndt.de/talks/rupy/2008/output/slides.html)
 * [page-not-found-stack-overflow](http://stackoverflow.com/questions/918/how-to-learn-python-good-example-code)
@@ -671,13 +671,13 @@ Prop3=19,11)
 * [writing-clean-testable-high-quality-code-in-python](http://www.ibm.com/developerworks/aix/library/au-cleancode/)
 * [writing-python-code-that-doesnt-suck-v2](http://ivory.idyll.org/blog/not-sucking-v2.html)
 
-### korg-nanopad
+#### korg-nanopad
 
 * [korg-nanopad-linuxmusicians](http://linuxmusicians.com/viewtopic.php?f=18&t=3085)
 * [matrixvendor-korg-alsaproject](http://alsa-project.org/main/index.php/Matrix:Vendor-Korg)
 * [ubuntuforums_org_archive_index_php_t-1358857_html](http://ubuntuforums.org/archive/index.php/t-1358857.html)
 
-### numpy-scipy-matplotlib
+#### numpy-scipy-matplotlib
 
 * [404-not-found](http://www.scipy.org/Cookbook/Matplotlib/Animations)
 * [A new ode integrator function in scipy](http://kitchingroup.cheme.cmu.edu/blog/2018/09/04/A-new-ode-integrator-function-in-scipy/)
@@ -699,14 +699,14 @@ Prop3=19,11)
 * [whats-new-in-matplotlib-matplotlib-222-documentation](http://matplotlib.sourceforge.net/users/whats_new.html)
 * [_sagemath_org_doc_tutorial_tour_algebra_html](http://www.sagemath.org/doc/tutorial/tour_algebra.html)
 
-### pythonocc
+#### pythonocc
 
 * [aircraft-geometry-codes-parametric-modeltion-scripted-in-python-rhino-and-matlab](https://aircraftgeometrycodes.wordpress.com/)
 * [google-groups](https://groups.google.com/forum/#!topic/pythonocc/CmNZsbjPaYA)
 * [opencascade-cheats-dlr-sctigl-wiki-github](https://github.com/DLR-SC/tigl/wiki/OpenCASCADE-Cheats)
 * [pythonocc-and-smesh-mypythonoccblog](https://mypythonoccblog.wordpress.com/2012/10/10/smesh/)
 
-### pywin32-dde
+#### pywin32-dde
 
 * [404-not-found](http://docs.activestate.com/activepython/2.7/pywin32/modules.html)
 * [404](http://www.echelon.com/support/documentation/manuals/networktools/078-0170-01D.pdf)
@@ -716,7 +716,7 @@ Prop3=19,11)
 * [resolver-systems](http://www.resolversystems.com/forums/viewtopic.php?f=2&p=1600)
 * [vensim-dde-python-ventana-software-support-forum](http://www.ventanasystems.co.uk/forum/viewtopic.php?f=2&t=4501)
 
-### scraping
+#### scraping
 
 * [1-installation-selenium-python-bindings-2-documentation](http://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium)
 * [a-simple-approach-to-execute-nodejs-scripts-with-python-sweetmeat](http://sweetme.at/2014/02/17/a-simple-approach-to-execute-a-node.js-script-from-python/)
@@ -727,21 +727,21 @@ Prop3=19,11)
 * [selenium-with-python-selenium-python-bindings-2-documentation](http://selenium-python.readthedocs.io/#)
 * [steep-ravine-cabins-and-campground-mountis-ca-18-hipcamper-reviews-and-94-photos](https://www.hipcamp.com/california/mount-tamalpais/steep-ravine-cabins-and-campground)
 
-### sympy
+#### sympy
 
 * [autowrap-module-sympy-121dev-documentation](http://docs.sympy.org/dev/modules/utilities/autowrap.html)
 * [google-groups](http://groups.google.com/group/sympy/msg/9c94d580766f51a5)
 * [gotchas-and-pitfalls-sympy-v067-documentation](http://docs.sympy.org/0.6.7/gotchas.html)
 * [redirect-notice](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CDYQFjAC&url=http%3A%2F%2Fojensen.wordpress.com%2F&ei=oj4_T9LnBsSziQLMwLnTAQ&usg=AFQjCNFUXlPmhvvTbc8I2Hl8D_T7LVOKDg&sig2=orbn029QAI68mA91I9Zy7Q)
 
-### using-c-and-c
+#### using-c-and-c
 
 * [1616-ctypes-a-foreign-function-library-for-python-python-370-documentation](http://docs.python.org/library/ctypes.html#module-ctypes)
 * [how-can-i-use-a-dll-file-from-python-stack-overflow](http://stackoverflow.com/questions/252417/how-can-i-use-a-dll-from-python)
 * [python-how-to-use-c-classes-with-ctypes-stack-overflow](http://stackoverflow.com/questions/1615813/how-to-use-c-classes-with-ctypes)
 * [simplified-wrapper-and-interface-generator](http://www.swig.org/)
 
-## topics
+### topics
 
 * [(2) Content Aware Image Resizing - YouTube](https://www.youtube.com/watch?v=qadw0BRKeMk)
 * [(2) How to Make a Prosthetic Leg - How to Mix Lamination for Prosthetics - YouTube](https://www.youtube.com/watch?v=A2skLH77m8g&feature=player_embedded#!)
@@ -763,13 +763,13 @@ Prop3=19,11)
 * [uiuc-apa-lsats](http://m-selig.ae.illinois.edu/uiuc_lsat.html)
 * [youtube](https://www.youtube.com/watch?v=QNqB_fY8U3I)
 
-### beam-bending
+#### beam-bending
 
 * [56-the-virtual-work-method-learnaboutstructurescom](http://www.learnaboutstructures.com/Virtual-Work-Method)
 * [Marcel Thomas](https://web.mit.edu/mact/www/Blog/Flexures/FlexureIndex.html)
 * [Theory of Elastic Stability (2nd Edition) - Knovel](https://app.knovel.com/web/toc.v/cid:kpTESE0003/viewerType:toc//root_slug:theory-elastic-stability/url_slug:buckling-of-shells?&issue_id=kpTESE0003)
 
-### bio-inspiration
+#### bio-inspiration
 
 * [403-forbidden](https://news.stanford.edu/2016/03/02/beetle-pogo-flight-030216/)
 * [a-biomimetic-robotic-platform-to-study-fspecializations-of-bats-science-robotics](http://robotics.sciencemag.org/content/2/3/eaal2505)
@@ -785,7 +785,7 @@ Prop3=19,11)
 * [the-internet-bird-collection-hbw-alive](http://ibc.lynxeds.com/?idEspecie=7461)
 * [youtube](http://www.youtube.com/watch?v=AQKs1-fwTgU)
 
-### brakes
+#### brakes
 
 * [alexandria_tue_nl_repository_books_615474_pdf](http://alexandria.tue.nl/repository/books/615474.pdf)
 * [best-mechanics-preview](http://web.mst.edu/~bestmech/preview/chandoo/8_2_2_1/8_2_2_1.htm)
@@ -799,19 +799,19 @@ Prop3=19,11)
 * [wo1999016122-hybrid-johnsen-rahbek-electtic-chuck-and-method-of-fabricating-same](http://www.wipo.int/pctdb/en/wo.jsp?wo=1999016122)
 * [yp_wtb_tue_nl_pdfs_4159_pdf](http://yp.wtb.tue.nl/pdfs/4159.pdf)
 
-### buckling
+#### buckling
 
 * [Mechanics](https://www.bgstructuralengineering.com/BGSCM13/BGSCM006/BGSCM00603.htm)
 * [the-influence-of-curvature-on-the-buckling-characteristics-of-structures](https://www.researchgate.net/publication/284236787_The_Influence_of_Curvature_on_the_Buckling_Characteristics_of_Structures)
 
-### cad
+#### cad
 
 * [freecad-the-hell-ya-beller](http://sliptonic.com/tag/freecad/)
 * [polygon-triangulation-wikipedia](http://en.wikipedia.org/wiki/Polygon_triangulation)
 * [solid-modeling-wikipedia](http://en.wikipedia.org/wiki/Solid_modeling)
 * [subanalytic-set-wikipedia](http://en.wikipedia.org/wiki/Semi-analytic)
 
-### computational-geometry-origami-algebraic
+#### computational-geometry-origami-algebraic
 
 * [geometric-algebra-for-computer-science](http://www.geometricalgebra.net/downloads.html)
 * [geometric-algebra-wikipedia](http://en.wikipedia.org/wiki/Geometric_algebra)
@@ -820,14 +820,14 @@ Prop3=19,11)
 * [page-not-found-automated-deduction-in-geometry-2012](http://dream.inf.ed.ac.uk/events/adg2012/uploads/talks/ADG2012-Kaliszyk.pdf)
 * [plucker-coordinates-wikipedia](http://en.wikipedia.org/wiki/Pl%C3%BCcker_coordinates)
 
-### computer vision
+#### computer vision
 
 * [Compare two images the python-linux way - Stack Overflow](https://stackoverflow.com/questions/1927660/compare-two-images-the-python-linux-way)
 * [concept-of-edge-detection](https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm)
 * [particle-image-velocimetry-wikipedia](https://en.wikipedia.org/wiki/Particle_image_velocimetry)
 * [parts-and-how-to-build-an-economical-andcle-image-velocimetry-instrument-eospivi](http://opensourcepiv.weebly.com/parts-and-how-to-build.html)
 
-### computing general
+#### computing general
 
 * [registry-add-menu-item-to-windows-contexnly-for-specific-filetype-stack-overflow](https://stackoverflow.com/questions/2123762/add-menu-item-to-windows-context-menu-only-for-specific-filetype)
 * [Sleep mode is missing](https://social.technet.microsoft.com/Forums/windows/en-US/03aaf254-3bc0-4593-9a93-fb6c3c3359c1/sleep-mode-is-missing)
@@ -836,7 +836,7 @@ Prop3=19,11)
 * [windows-how-to-add-batch-script-action-to-right-click-menu-super-user](https://superuser.com/questions/444726/windows-how-to-add-batch-script-action-to-right-click-menu)
 * [_askvg_com_how-to-add-remove-entries-in-context-menus](https://www.askvg.com/how-to-add-remove-entries-in-context-menus/)
 
-### design
+#### design
 
 * [3d-contentcentral](http://www.3dcontentcentral.com/parts/all-parts-suppliers.aspx)
 * [52 Weeks of UX](https://52weeksofux.com/tagged/week_1)
@@ -854,7 +854,7 @@ Prop3=19,11)
 * [spaghettionastick](http://www.spaghettionastick.com/Rattle)
 * [the-work-of-edward-tufte-and-graphics-press](https://www.edwardtufte.com/tufte/)
 
-### design-tools
+#### design-tools
 
 * [Complete PCB Design Using OrCAD Capture and PCB Editor](https://web-b-ebscohost-com.ezproxy1.lib.asu.edu/ehost/ebookviewer/ebook?sid=2ee099c9-ca64-4847-b01e-aae2ab72829d%40pdc-v-sessmgr05&ppid=pp_iii&vid=0&format=EB)
 * [design-optimization-tools-main](http://www.mate.tue.nl/~piet/edu/dnt/dntmain1314.html)
@@ -871,13 +871,13 @@ Prop3=19,11)
 * [voronoi-morphologies-matsys](http://matsysdesign.com/2009/06/18/voronoi-morphologies/)
 * [youtube](https://www.youtube.com/watch?v=IUe3mGkngs4)
 
-### dynamics
+#### dynamics
 
 * [a-generalization-of-dynamic-constraints-sciencedirect](http://www.sciencedirect.com/science/article/pii/1049965292900715)
 * [arboris · PyPI](https://pypi.org/project/arboris/)
 * [gjk-gilbertjohnsonkeerthi-dyn4j](http://www.dyn4j.org/2010/04/gjk-gilbert-johnson-keerthi/)
 
-### fea
+#### fea
 
 * [a-high-precision-coupled-bendingextensioement-for-laminated-plates-sciencedirect](http://www.sciencedirect.com/science/article/pii/S0045794998002259)
 * [detailed-explanation-of-the-finite-element-method-fem](https://www.comsol.com/multiphysics/finite-element-method)
@@ -897,7 +897,7 @@ Prop3=19,11)
 * [sundance-21](http://www.math.ttu.edu/~klong/Sundance/html/bcs.html)
 * [triangular-finite-element-for-analysis-ohods-in-engineering-wiley-online-library](http://onlinelibrary.wiley.com/doi/10.1002/nme.1620240812/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false)
 
-### folding and origami
+#### folding and origami
 
 * [flickr-page-not-found](http://www.flickr.com/photos/9564713@N03/4897215600/)
 * [Foldable Robotics](https://faculty.washington.edu/minster/foldable_robotics_2018/)
@@ -906,13 +906,13 @@ Prop3=19,11)
 * [jeosss-origami-blog-an-on-and-off-origami-artist](https://jeoss.wordpress.com/)
 * [Origami Robots - 折纸机器人 - Guanyun Wang - 王冠云](https://www.guanyundesign.com/Origami-Robots)
 
-### graphics
+#### graphics
 
 * [log-in-prezi](http://prezi.com/login/)
 * [mbostock_github_com_d3](http://mbostock.github.com/d3/)
 * [system-unavailable](http://networkx.lanl.gov/gallery.html)
 
-### isogeometric-analysis-and-nurbs
+#### isogeometric-analysis-and-nurbs
 
 * [dalcinl-petiga-bitbucket](https://bitbucket.org/dalcinl/petiga)
 * [igafem-browse-files-at-sourceforgenet](https://sourceforge.net/projects/cmcodes/files/)
@@ -921,32 +921,32 @@ Prop3=19,11)
 * [point-inversion-and-projection-for-nurbse-control-polygon-approach-sciencedirect](http://www.sciencedirect.com/science/article/pii/S0167839603000219)
 * [resource-not-found-eecs-uc-berkeley](https://www.cs.berkeley.edu/~sequin/CS284/PROJ_09/TOBY/CS_284_Project_Report.pdf)
 
-### jamming
+#### jamming
 
 * [jamsheets-thin-interfaces-with-tunable-sffness-enabled-by-layer-jamming-on-vimeo](http://vimeo.com/73164578)
 * [youtube](https://www.youtube.com/watch?v=AXkY3WKG6M4&feature=youtu.be)
 
-### kinematics
+#### kinematics
 
 
-### laser-cutting-info
+#### laser-cutting-info
 
 * [Cut laser cut - Laser cutting and engraving service for creatives in London and the UK - Laser cutting services - Laser engraving acrylic Home](http://www.cutlasercut.com/)
 * [Identifying Unknown Plastics - Make-](https://makezine.com/2011/09/22/identifying-unknown-plastics/)
 * [Laser cutting materials, laser engraving materials - Cut Laser Cut](http://www.cutlasercut.com/laser-cutting-materials-laser-engraving-materials)
 * [Tutorial- Laser Cutting Techniques and Projects - Make-](https://makezine.com/2013/10/23/tutorial-laser-cutting-techniques-and-projects/)
 
-### linear programming
+#### linear programming
 
 * [(2) Linear Programming - YouTube](https://www.youtube.com/watch?v=M4K6HYLHREQ)
 
-### linear-algebra
+#### linear-algebra
 
 * [do-you-really-need-to-compute-that-matrix-inverse-the-do-loop](http://blogs.sas.com/content/iml/2011/08/10/do-you-really-need-to-compute-that-matrix-inverse.html)
 * [dont-invert-that-matrix](https://www.johndcook.com/blog/2010/01/19/dont-invert-that-matrix/)
 * [performance-is-it-possible-to-compute-anthon-as-fast-as-in-matlab-stack-overflow](http://stackoverflow.com/questions/21693613/is-it-possible-to-compute-an-inverse-of-sparse-matrix-in-python-as-fast-as-in-ma)
 
-### low-fidelity-prototyping
+#### low-fidelity-prototyping
 
 * [15-of-the-worlds-most-creative-papercraft-artists-urbanist](http://weburbanist.com/2008/12/02/papercraft-creative-paper-art-design-sculpture/)
 * [best-papercraft-software-yet-richard-motzkus](http://www.richardmotzkus.com/blog/2016/3/15/paper-m)
@@ -954,7 +954,7 @@ Prop3=19,11)
 * [the-skeptics-guide-to-low-fidelity-prototyping-smashing-magazine](https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/)
 * [ultimate-papercraft-3d-papercraft-software](http://www.papercraft3d.com/upc/index.aspx)
 
-### manufacturing
+#### manufacturing
 
 * [3d-printing-additive-manufacturing-stratasys](http://www.objet.com/PRODUCTS/PolyJet_Technology/)
 * [fishing-knots-how-to-tie-fishing-knots-animated-fishing-knots](http://www.animatedknots.com/indexfishing.php)
@@ -962,22 +962,22 @@ Prop3=19,11)
 * [vander-bend-manufacturing](http://www.vander-bend.com/contactus)
 * [youtube](http://www.youtube.com/watch?feature=player_embedded&v=0GiyrqCh0wA)
 
-### mechanical design
+#### mechanical design
 
 * [Roy Mech - RoyMech.org](https://roymech.org/)
 
-### motors
+#### motors
 
 * [dc-motor-parameter-identification-using-speed-step-responses](https://www.hindawi.com/journals/mse/2012/189757/)
 * [Hobby Scale Electric Motor Dynamometer](https://www.cefns.nau.edu/capstone/projects/EE/2015/Dynamometer/problem_def.html)
 * [make-your-own-miniature-electric-hub-motor-14-steps-with-pictures](http://www.instructables.com/id/Make-Your-Own-Miniature-Electric-Hub-Motor/)
 * [new-developments-in-bldc-motor-control-solutions-digikey](http://www.digikey.com/en/articles/techzone/2013/jun/new-developments-in-bldc-motor-control-solutions)
 
-### popups
+#### popups
 
 * [lovepop-magical-pop-up-greeting-cards](http://www.lovepopcards.com/)
 
-### robots
+#### robots
 
 * [403-forbidden](http://www.robotis.com/xe/)
 * [bloomberg](http://www.bloomberg.com/video/78240622/)
@@ -1002,11 +1002,11 @@ Prop3=19,11)
 * [_theverge_com_2012_2_9_2786289_alphadog-litary-robot-successful-field-test-video](http://www.theverge.com/2012/2/9/2786289/alphadog-DARPA-military-robot-successful-field-test-video)
 * [_theverge_com_2012_5_24_3041780_robbie-the-robot-darpa-project](http://www.theverge.com/2012/5/24/3041780/robbie-the-robot-darpa-project)
 
-#### foldable-robots
+##### foldable-robots
 
 * [foldable-multi-material-robots-rrl](https://rrl.epfl.ch/page-86158.html)
 
-#### hands
+##### hands
 
 * [404-not-found](http://www.elumotion.com/Elu2-hand.htm)
 * [404-page-not-found-ottobock-us](http://www.ottobockus.com/cps/rde/xchg/ob_us_en/hs.xsl/6874.html)
@@ -1019,7 +1019,7 @@ Prop3=19,11)
 * [_davidlnelson_md_images_hand_anatomy_dorsal1_jpg](http://www.davidlnelson.md/images/hand_anatomy_dorsal1.jpg)
 * [_grssp_org_fileadmin_user_upload_slides_rss2010grssp-ciocarlie_pdf](http://www.grssp.org/fileadmin/user_upload/slides/rss2010grssp-ciocarlie.pdf)
 
-#### modular-robots
+##### modular-robots
 
 * [building-a-miniassembly-system-from-a-tetion-kit-assembly-automation-vol-24-no-1](http://www.emeraldinsight.com/doi/full/10.1108/01445150410517174)
 * [eric-using-a-modular-construction-kit-foactive-computer-graphics-course-1998-jun](http://eric.ed.gov/?id=ED428683)
@@ -1030,7 +1030,7 @@ Prop3=19,11)
 * [modular-robots-ieee-journals-magazine](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=981854)
 * [pdf-engaging-students-in-stem-careers-with](https://www.researchgate.net/profile/Daniel_Dickerson2/publication/234564900_Engaging_Students_in_STEM_Careers_with_Project-Based_Learning--MarineTech_Project/links/562f739508ae0077ccc9a190.pdf)
 
-#### quadrupeds
+##### quadrupeds
 
 * [baby-quadruped-robot-learning-to-walk-hackaday](http://hackaday.com/2014/10/22/baby-quadruped-robot-learning-to-walk/)
 * [build-an-actobotics-quadruped-robot-16-steps-with-pictures](http://www.instructables.com/id/Build-an-Actobotics-Quadruped-Robot/)
@@ -1038,11 +1038,11 @@ Prop3=19,11)
 * [high-level-quadruped-control-joystick](http://positronicslab.github.io/blog/joystick-quadruped-control/)
 * [_sunfounder_com_index_phpcshowmodelcrawl0quadruped20robot20kit20for20arduinoid99](http://www.sunfounder.com/index.php?c=show&model=Crawling%20Quadruped%20Robot%20Kit%20for%20Arduino&id=99)
 
-#### running-robots
+##### running-robots
 
 * [fastrunner-ihmc-robotics-lab](http://robots.ihmc.us/fastrunner/)
 
-### simulation
+#### simulation
 
 * [(2) Dynamics with SymPy Mechanics; SciPy 2013 Presentation - YouTube](https://www.youtube.com/watch?v=Jtt9hexk93o)
 * [403-forbidden](https://www.nextflex.us/about/current-members/)
@@ -1075,7 +1075,7 @@ Prop3=19,11)
 * [_robotic_dlr_de_fileadmin_robotic_leid_da_zacharias2010exploiting_pdf](http://www.robotic.dlr.de/fileadmin/robotic/leid_da/zacharias2010exploiting.pdf)
 * [_stanford_edu_class_cs205b_lectures_lecture4_pdf](http://www.stanford.edu/class/cs205b/lectures/lecture4.pdf)
 
-#### integration
+##### integration
 
 * [codebeats_com_python-as-a-free-alternatie-to-matlab-pendulum-of-torture-analysis](http://codebeats.com/python-as-a-free-alternative-to-matlab-pendulum-of-torture-analysis)
 * [fourth-order-runge-kutta-numerical-integration-doswa](http://doswa.com/2009/01/02/fourth-order-runge-kutta-numerical-integration.html)
@@ -1084,7 +1084,7 @@ Prop3=19,11)
 * [redirecting](http://doswa.com/blog/2009/01/02/fourth-order-runge-kutta-numerical-integration/)
 * [scipyintegrateode-scipy-v110-reference-guide](http://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.ode.html)
 
-#### lcps
+##### lcps
 
 * [404-not-found](http://ccom.ucsd.edu/~peg/Software.html)
 * [500-internal-server-error](http://www.omatrix.com/manual/lemke.htm)
@@ -1094,12 +1094,12 @@ Prop3=19,11)
 * [the-mixed-linear-complementarity-problem-chris-heckers-website](http://chrishecker.com/The_Mixed_Linear_Complementarity_Problem)
 * [_math_ubc_ca_jf_courses_old_kkt_pdf](http://www.math.ubc.ca/~jf/courses/old_kkt.pdf)
 
-#### linear-programming
+##### linear-programming
 
 * [patrickjmt-youtube](http://www.youtube.com/user/patrickJMT)
 * [youtube](http://www.youtube.com/watch?v=4U3B5lr-MqM&feature=related)
 
-#### ode
+##### ode
 
 * [404-not-found](http://www.ode.org/old_list_archives/2007-October/022887.html)
 * [collision-detection-with-ode-panda3d-manual](http://www.panda3d.org/manual/index.php/Collision_Detection_with_ODE)
@@ -1107,7 +1107,7 @@ Prop3=19,11)
 * [manual-install-and-use-ode-wiki](http://opende.sourceforge.net/wiki/index.php/Manual_%28Install_and_Use%29)
 * [manual-ode-wiki](http://ode-wiki.org/wiki/index.php?title=Manual)
 
-#### openrave
+##### openrave
 
 * [-sina-app-engine](http://1.boomrangrobot.sinaapp.com/?m=201107&paged=8)
 * [403-forbidden](http://lis.csail.mit.edu/wiki/index.php?n=Main.AutomaticallyAddingObjectsIntoEnvironments)
@@ -1120,32 +1120,32 @@ Prop3=19,11)
 * [openrave](http://openrave.programmingvision.com/index.php/Main_Page)
 * [ormulticontrolcpp-090](http://openrave.org/en/coreapihtml/ormulticontrol_8cpp-example.html)
 
-### thermo
+#### thermo
 
 * [energy-enthalpy-and-the-first-law-of-thermodynamics](http://chemed.chem.purdue.edu/genchem/topicreview/bp/ch21/chemical.php)
 * [heat-equation-wikipedia](https://en.wikipedia.org/wiki/Heat_equation)
 * [heat-of-combustion-wikipedia](https://en.wikipedia.org/wiki/Heat_of_combustion#Gross_heating_value)
 * [youtube](https://www.youtube.com/watch?v=ooXTrTk6ktQ)
 
-### uml
+#### uml
 
 * [UML 2.5 Diagrams Overview](https://www.uml-diagrams.org/uml-25-diagrams.html)
 * [UML activity diagram controls are activity nodes coordinating the flows between other nodes- initial node, flow final, activity final, decision, merge, fork, join-](https://www.uml-diagrams.org/activity-diagrams-controls.html)
 
-### web-development
+#### web-development
 
 * [a-list-apart-for-people-who-make-websites](http://alistapart.com/)
 * [best-content-sharing-wordpress-themes-with-frontend-submission-2016-colorlib](http://colorlib.com/wp/best-content-sharing-wordpress-themes/)
 * [d3js-data-driven-documents](https://d3js.org/)
 * [noun-project-icons-for-everything](https://thenounproject.com/)
 
-#### domains-hosting-etc
+##### domains-hosting-etc
 
 * [transfer-my-domain-to-godaddy-domains-godaddy-help-us](https://www.godaddy.com/help/transfer-domain-to-godaddy-1592)
 * [transfer-your-domain-away-from-11-11-help-center](http://help.1and1.com/domains-c36931/transfer-domains-c79823/away-from-1and1-c37574/transfer-your-domain-away-from-1and1-a722954.html)
 * [transferring-away-from-11-schlund-partner-or-gmxnet-domains-godaddy-help-us](https://www.godaddy.com/help/transferring-away-from-1and1-schlund-partner-or-gmxnet-8035)
 
-#### jekyll
+##### jekyll
 
 * [134-a-tour-of-a-site-in-progress-built-wt-sass-an-svg-system-and-more-css-tricks](https://css-tricks.com/video-screencasts/screencast-134-tour-site-progress-built-jekyll-grunt-sass-svg-system/)
 * [banana-chocolate-chip](http://richbray.me/bcc/)
@@ -1170,11 +1170,11 @@ Prop3=19,11)
 * [yes-we-jekyll](http://yeswejekyll.com/)
 * [_philipithomas_com_practical-jekyll](https://www.philipithomas.com/practical-jekyll/)
 
-##### setup
+###### setup
 
 * [blog-configuration-ruhoh-universal-static-blog-generator](http://jekyllbootstrap.com/usage/blog-configuration.html)
 
-##### themes
+###### themes
 
 * [creative-theme](http://jekyllthemes.org/themes/creative-theme/)
 * [devaid](http://jekyllthemes.org/themes/devaid/)
@@ -1192,7 +1192,7 @@ Prop3=19,11)
 * [site-not-found-github-pages](http://railsr.github.io/autm-rb/blog/)
 * [skinny-bones](https://mmistakes.github.io/skinny-bones-jekyll/)
 
-#### misc
+##### misc
 
 * [favicon-generator-for-all-platforms-ios-android-pcmac](http://realfavicongenerator.net/)
 * [formspree](http://formspree.io/)
@@ -1201,13 +1201,13 @@ Prop3=19,11)
 * [page-missing-morning-studio](http://morning.am/tutorials/google-forms-and-jquery-validation/)
 * [site-not-found-github-pages](http://fortawesome.github.io/Font-Awesome/examples/)
 
-#### travis
+##### travis
 
 * [auto-deploying-built-products-to-gh-pages-with-travis-github](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd)
 * [ssh-deploys-with-travis-ci-oncletomio](https://oncletom.io/2016/travis-ssh-deploy/)
 * [travis-ci-deployments-to-digitalocean](https://kjaer.io/travis/)
 
-## writing-papers
+### writing-papers
 
 * [easy-lecture-slides-made-difficult-with-pandoc-and-beamer-andrew-goldstone](https://andrewgoldstone.com/blog/2014/12/24/slides/)
 * [Pandoc- How can I get numbered LaTeX equations to show up in both PDF and HTML output - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/111868/pandoc-how-can-i-get-numbered-latex-equations-to-show-up-in-both-pdf-and-html-o)
@@ -1217,7 +1217,7 @@ Prop3=19,11)
 * [write-good-papers-daniel-lemires-blog](http://lemire.me/blog/rules-to-write-a-good-research-paper/)
 * [‘Don’t write—just type,’ and more advice from author Daniel Mendelsohn - PBS NewsHour](https://www.pbs.org/newshour/arts/dont-write-just-type-and-more-advice-from-author-daniel-mendelsohn)
 
-# personal
+## personal
 
 * [100-greatest-rock-instrumentals](http://www.digitaldreamdoor.com/pages/best_rockinst.html)
 * [access-to-this-page-has-been-denied](http://www.zazzle.com/kevlar_carbon_fiber_material_clipboard-256974730824370120)
@@ -1232,12 +1232,12 @@ Prop3=19,11)
 * [ymca-adventure-guides-and-princesses-eves-kids-camp-indian-guides-and-princesses](http://www.adventureguidesandprincesses.com/)
 * [youtube](http://www.youtube.com/watch?v=bqWuioPHhz0)
 
-## articles
+### articles
 
 * [The Class of 2000 ‘Could Have Been Anything.’ Until Opioids Hit. - The New York Times](https://www.nytimes.com/interactive/2019/12/02/us/opioid-crisis-high-school-teenagers.html?algo=top_conversion&fellback=false&imp_id=606819847&imp_id=2868973&action=click&module=trending&pgtype=Article&region=Footer)
 * [_youtube_com_watchvalib8czh1j4featureyoutu_be](https://www.youtube.com/watch?v=aLIB8Czh1J4&feature=youtu.be)
 
-## backpacking
+### backpacking
 
 * [41-camping-hacks-that-are-borderline-genius](http://www.buzzfeed.com/peggy/camping-hacks-that-are-borderline-genius#.dd2GV02Dz)
 * [adventure-alan-lightweight-ultralight-backpacking-and-hiking](http://www.adventurealan.com/)
@@ -1272,7 +1272,7 @@ Prop3=19,11)
 * [zen-seekers-error-page](http://zenstoves.net/Sterno.htm)
 * [_jureystudio_com_pennystove](http://www.jureystudio.com/pennystove/)
 
-## biking
+### biking
 
 * [(2) Making a Bicycle Trailer - YouTube](https://www.youtube.com/watch?v=U2TlfRec-N8)
 * [403-forbidden](http://prollyisnotprobably.com/2011/05/the-toyota-prius-projects-concept-bike-week-3/)
@@ -1283,7 +1283,7 @@ Prop3=19,11)
 * [vrz-1-a-tack-bike-frame-with-3d-printed-lugs-on-vimeo](http://vimeo.com/34293503)
 * [youtube](https://www.youtube.com/watch?v=ZiejAhol4Ps)
 
-### cargo-bikes
+#### cargo-bikes
 
 * [404-bicycling](http://www.bicycling.com/bikes-gear/bikes-and-gear-features/coolest-bike-ever-made)
 * [404-not-found-cetma-cargo](http://cetmacargo.com/pages/bikes)
@@ -1295,13 +1295,13 @@ Prop3=19,11)
 * [urban-arrow](http://www.urbanarrow.com/en/)
 * [xtracycle-cargo-bikes-family-commuter-adventure-utility-longtail-bicycles](http://www.xtracycle.com/)
 
-## books
+### books
 
 * [audiobooksorg-free-audio-books](http://www.audiobooks.org/)
 * [gutenbergthe-audio-books-project-gutenberg](http://www.gutenberg.org/wiki/Gutenberg:The_Audio_Books_Project)
 * [librivox-free-public-domain-audiobooks](http://librivox.org/)
 
-## fabrics-sewing
+### fabrics-sewing
 
 * [404-not-found-2](http://www.backcountrygear.com/tarps-wings-things/equinox-nylon-tarp.html)
 * [cruelty-free-knit-anatomy-specimens-by-emily-stoneking-colossal](http://www.thisiscolossal.com/2015/10/knit-anatomy/?src=footer)
@@ -1313,24 +1313,24 @@ Prop3=19,11)
 * [_bushwalking_org_au_faq_faq_diy_htm](http://www.bushwalking.org.au/FAQ/FAQ_DIY.htm)
 * [_owfinc_com_fabrics_html](http://www.owfinc.com/fabrics.html)
 
-## fonts
+### fonts
 
 * [free-online-font-converter](http://www.freefontconverter.com/)
 * [make-a-dingbat-font-with-inkscape](http://cleversomeday.wordpress.com/2010/02/09/inkscape-dings/)
 
-## freighter-travel
+### freighter-travel
 
 * [Freighter travel - Wikitravel](https://wikitravel.org/en/Freighter_travel)
 * [freighter-travel-with-the-cruise-people-ltd-freighter-cruises](http://www.cruisepeople.co.uk/freighters.htm)
 * [sailings-between-usa-and-asia](http://www.freightervoyages.eu/Voyages/N%20USA%20to%20Far%20Eastw_Folder/N%20USA%20to%20Asia.htm)
 * [take-a-cargo-ship-to-china-google-search](https://www.google.com/search?q=take+a+cargo+ship+to+china&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a&channel=fflb#channel=fflb&q=take+a+cargo+ship+to+china+as+a+passenger&rls=org.mozilla:en-US%3Aofficial)
 
-## fun-projects
+### fun-projects
 
 * [(2) Free power from a recycled washing machine, generating enough to live off the grid - YouTube](https://www.youtube.com/watch?v=gUmDvENKPig)
 * [youtube](https://www.youtube.com/watch?v=2aLZ88_DZz8)
 
-## funny
+### funny
 
 * [5-reasons-pigs-are-more-awesome-than-you-the-oatmeal](http://theoatmeal.com/comics/pigs)
 * [andrei-codrescu-npr](http://www.npr.org/rss/rss.php?id=2100359)
@@ -1356,7 +1356,7 @@ Prop3=19,11)
 * [youtube](http://www.youtube.com/watch?v=4sFcxY8_Tp0)
 * [_timecube_com](http://www.timecube.com/)
 
-## just-cool
+### just-cool
 
 * [(2) Frog Legs Dancing With A Little Salt - YouTube](https://www.youtube.com/watch?v=2YZJt_Bw3eo)
 * [(2) How to make an Otzi the Iceman style Backpack. - YouTube](https://www.youtube.com/watch?v=c2EpldEBJN8)
@@ -1418,7 +1418,7 @@ Prop3=19,11)
 * [youtube](https://www.youtube.com/watch?feature=player_embedded&v=vNZVV4Ciccg#!)
 * [_huffingtonpost_com_2012_05_08_pancake-art_n_1500783_htmlrefmostpopular](http://www.huffingtonpost.com/2012/05/08/pancake-art_n_1500783.html?ref=mostpopular)
 
-### opinionator
+#### opinionator
 
 * [chances-are-the-new-york-times](http://opinionator.blogs.nytimes.com/2010/04/25/chances-are/)
 * [change-we-can-believe-in-the-new-york-times](http://opinionator.blogs.nytimes.com/2010/04/11/change-we-can-believe-in/)
@@ -1438,22 +1438,22 @@ Prop3=19,11)
 * [the-joy-of-x-the-new-york-times](http://opinionator.blogs.nytimes.com/2010/02/28/the-joy-of-x/)
 * [think-globally-the-new-york-times](http://opinionator.blogs.nytimes.com/2010/03/21/think-globally/)
 
-## kayaks
+### kayaks
 
 * [home](http://scmkayaks.com/)
 * [project-x](http://users.moscow.com/bprice/projectx/index.html)
 
-## kitchen-gadgets
+### kitchen-gadgets
 
 * [404-not-found](http://www83.homepage.villanova.edu/richard.jacobs/FOOD/For%20kitchenophiles%20only...Vol%202....htm)
 * [todays-useless-kitchen-gadget-the-egg-cracker-wired](http://www.wired.com/gadgetlab/2008/01/todays-useless/)
 
-## libraries
+### libraries
 
 * [northern-california-digital-library-overdrive](http://califa.lib.overdrive.com/E81E1306-7498-45DF-9448-2DF7E5FE7ED1/10/50/en/Default.htm)
 * [your-online-streaming-audio-library](http://www.audiobookcloud.com/Result.aspx?m=Author&key=steven%20king)
 
-## pottery plates
+### pottery plates
 
 * [Center Hill Clay Works by CenterHillClayWorks on Etsy](https://www.etsy.com/shop/CenterHillClayWorks?listing_id=504267626)
 * [Ceramics Jeremy Ogusky bostonpotter made in by OguskyCeramics](https://www.etsy.com/shop/OguskyCeramics?listing_id=699482301)
@@ -1471,12 +1471,12 @@ Prop3=19,11)
 * [Speckled small stoneware plate - OHMYHOME](https://www.ohmyhome.nl/shop/speckled-small-stoneware-plate/)
 * [WildRosePotteryCo on Etsy](https://www.etsy.com/shop/WildRosePotteryCo)
 
-## projects
+### projects
 
 * [the-3d-printed-paper-airplane-gun-3d-printer-world](http://www.3dprinterworld.com/article/3d-printed-paper-airplane-gun)
 * [youtube](https://www.youtube.com/watch?v=30hT2tqgBgI)
 
-## recipes
+### recipes
 
 * [100-ideas-for-appetizers-cooking-light](http://www.cookinglight.com/food/recipe-finder/ideas-for-appetizers-00412000079198/page103.html)
 * [adobo-sirloin-recipe-allrecipescom](http://allrecipes.com/Recipe/Adobo-Sirloin/Detail.aspx)
@@ -1498,17 +1498,17 @@ Prop3=19,11)
 * [the-california-cook-homemade-ricotta-its-easier-and-better-than-you-think](http://www.latimes.com/features/food/la-fo-california-cook-20100930,0,7506847.story)
 * [unitaskers-you-dont-want-to-do-without-cookware-chowhound](http://chowhound.chow.com/topics/730586)
 
-## taxes
+### taxes
 
 * [login](http://taxes.gilacountyaz.gov/treasurer2/eagleweb/report.jsp)
 * [taxes_gilacountyaz_gov_treasurer2_treasurerweb_account_jspaccountr018054](http://taxes.gilacountyaz.gov/treasurer2/treasurerweb/account.jsp?account=R018054)
 * [welcome-to-gila-county-arizona](http://gilacountyaz.gov/index.php)
 
-## youtube
+### youtube
 
 * [youtube](https://www.youtube.com/watch?v=HSKyHmjyrkA)
 
-# to read and sort
+## to read and sort
 
 * [apprentice-elf](https://apprenticealf.wordpress.com/)
 * [design-fabrication-and-control-of-origami-robots-nature-reviews-materials](https://www.nature.com/articles/s41578-018-0009-8)
