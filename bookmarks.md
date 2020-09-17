@@ -1,3 +1,8 @@
+---
+title: bookmarks
+subtitle: not really organized
+---
+
 # idealab
 
 * [about-blue-robotics](http://www.bluerobotics.com/about/)
