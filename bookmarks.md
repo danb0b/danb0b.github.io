@@ -25,11 +25,13 @@
 [asurite-sign-in](https://weblogin.asu.edu/cgi-bin/login?callapp=https://asu.edu/interactive/my.asu.edu)
 [Classroom Space Management - Business and Finance](https://cfo.asu.edu/ucl-space-mgmt)
 [corporate-engagement-and-strategic-partnerships-arizona-state-university](https://skysong.asu.edu/)
+<!--
 [EHSA Login](https://ehsaweb.asu.edu/
 IDList=
 HotKey=0
 [{000214A0-0000-0000-C000-000000000046}]
 Prop3=19,11)
+-->
 [fulton-schools-marketingcommunications-request](https://fultonengineering.wufoo.com/forms/qqznizg0ubacp6/)
 [getprotected](https://getprotected.asu.edu/governance)
 [gosignmeup-arizona-state-university](http://asuneo.gosignmeup.com/)
@@ -43,11 +45,13 @@ Prop3=19,11)
 [Logos - Enterprise Brand and Marketing Guide](https://brandguide.asu.edu/Elements-of-the-brand/Logos)
 [microsoft-bitlocker-administration-and-monitoring](https://mbam.fulton.asu.edu/)
 [MNS](http://modeling.asu.edu/MNS/MNS.html)
+<!--
 [My ASU - Faculty](https://my.asu.edu/
 IDList=
 HotKey=0
 [{000214A0-0000-0000-C000-000000000046}]
 Prop3=19,11)
+-->
 [personnel-processes-office-of-the-university-provost](https://provost.asu.edu/academic-personnel/personnel-processes)
 [polytechnic-campus-night-of-the-open-door-2017-photo-gallery](https://fullcircle.asu.edu/fulton-schools/polytechnic-campus-night-of-the-open-door-2017-photo-gallery/)
 [relocating-your-household-office-of-the-university-provost](https://provost.asu.edu/newfaculty/relocating)
