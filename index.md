@@ -14,7 +14,7 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 
 ## ROS Tutorials
 
-see [this link](https://danb0b.github.io/projects_ros_tutorial/)
+see [this link](https://danb0b.github.io/project_ros_tutorial/)
 
 ## Recipes
 
