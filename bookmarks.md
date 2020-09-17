@@ -1572,3 +1572,15 @@ Prop3=19,11)
 * [youtube](https://www.youtube.com/watch?v=MyDQ_f1mzH8)
 * [Z-Trek Lightweight Sport Sandal - Men - Xero Shoes](https://xeroshoes.com/shop/feeltrue-products/ztrek-men/)
 * [[ubuntu] Is it possible to Limit CPU Usage or the Load-](https://ubuntuforums.org/showthread.php?t=851912)
+* <https://www.thoughtco.com/starting-a-private-school-2773563>
+* <https://askubuntu.com/questions/41118/virtualbox-kernel-driver-not-installed>
+* <https://www.wikihow.com/Start-a-School>
+* <https://www.scholastic.com/teachers/articles/teaching-content/you-can-start-your-own-school/>
+* <https://www.wikihow.com/Start-a-College>
+* <https://getpocket.com/explore/item/the-scientific-paper-is-obsolete?utm_source=pocket-newtab>
+* <https://www.wikihow.com/Start-a-College>
+* <http://www.dpinnell.com/startacollege.htm>
+* <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
+* <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
+ 
+ 
