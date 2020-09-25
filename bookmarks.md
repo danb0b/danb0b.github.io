@@ -1510,6 +1510,7 @@ Prop3=19,11)
 
 ## to read and sort
 
+* [Microsoft Environment variables](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc749104(v=ws.10)?redirectedfrom=MSDN)
 * [apprentice-elf](https://apprenticealf.wordpress.com/)
 * [design-fabrication-and-control-of-origami-robots-nature-reviews-materials](https://www.nature.com/articles/s41578-018-0009-8)
 * [Discovery of Galileo’s long-lost letter shows he edited his heretical ideas to fool the Inquisition](https://www.nature.com/articles/d41586-018-06769-4)
@@ -1582,5 +1583,3 @@ Prop3=19,11)
 * <http://www.dpinnell.com/startacollege.htm>
 * <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
 * <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
- 
- 
