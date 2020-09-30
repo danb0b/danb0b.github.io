@@ -1583,3 +1583,4 @@ Prop3=19,11)
 * <http://www.dpinnell.com/startacollege.htm>
 * <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
 * <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
+* <https://www.youtube.com/watch?v=UGTCTnjMCug>
