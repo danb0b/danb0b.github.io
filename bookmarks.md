@@ -1585,3 +1585,4 @@ Prop3=19,11)
 * <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
 * <https://www.youtube.com/watch?v=UGTCTnjMCug>
 * [Connecting a surface pen](https://answers.microsoft.com/en-us/surface/forum/surfpro4-surfdrivers/surface-pen-not-working/30a2c67f-45a9-41c3-a4ed-0f31a73cfa33)
+* <https://towardsdatascience.com/advanced-plots-in-matplotlib-part-2-e88f91ce9e31>
