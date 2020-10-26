@@ -1614,3 +1614,4 @@ Prop3=19,11)
 * <https://www.npr.org/2019/12/08/781640364/can-a-computer-catch-a-spy>
 * <https://www.youtube.com/watch?v=1e5td7-Bpvc>
 * <https://spectrum.ieee.org/automaton/robotics/robotics-hardware/how-teams-are-solving-the-biggest-challenge-at-darpa-subt>
+* <https://www.sciencemag.org/careers/2019/08/nsf-graduate-fellowships-disproportionately-go-students-few-top-schools>
