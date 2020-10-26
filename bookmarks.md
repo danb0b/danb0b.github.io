@@ -582,6 +582,12 @@ Prop3=19,11)
 * [vertex-instructions-kivy-1110dev0-documentation](https://kivy.org/docs/api-kivy.graphics.vertex_instructions.html#module-kivy.graphics.vertex_instructions)
 * [wordpresscom](http://rittwik.wordpress.com/qt/qdialog-like-qmainwindow/)
 
+#### particle photon
+
+* <https://community.particle.io/t/particle-subscribe-subscription-behavior-relative-to-private-events-public-events-product-membership-and-console-publish-tool/38094>
+* <https://aninternetofsoftthings.com/blog/photon-publish-and-subscription-events/>
+* <https://diotlabs.daraghbyrne.me/docs/working-with-data/communicating-events/paired-devices>
+
 #### sage
 
 * [blog-not-found](http://georgm.blogspot.com/2007/03/sage-computer-algebra-system.html)
@@ -1132,6 +1138,17 @@ Prop3=19,11)
 * [UML 2.5 Diagrams Overview](https://www.uml-diagrams.org/uml-25-diagrams.html)
 * [UML activity diagram controls are activity nodes coordinating the flows between other nodes- initial node, flow final, activity final, decision, merge, fork, join-](https://www.uml-diagrams.org/activity-diagrams-controls.html)
 
+#### image hashing
+
+##### Phash
+* <https://ourcodeworld.com/articles/read/1006/how-to-determine-whether-2-images-are-equal-or-not-with-the-perceptual-hash-in-python>
+* <https://www.pyimagesearch.com/2017/11/27/image-hashing-opencv-python/>
+* <https://github.com/JohannesBuchner/imagehash>
+
+#### General hashing
+* <https://nitratine.net/blog/post/how-to-hash-files-in-python/>
+* <https://medium.com/better-programming/how-to-hash-in-python-8bf181806141>
+
 #### web-development
 
 * [a-list-apart-for-people-who-make-websites](http://alistapart.com/)
@@ -1586,3 +1603,13 @@ Prop3=19,11)
 * <https://www.youtube.com/watch?v=UGTCTnjMCug>
 * [Connecting a surface pen](https://answers.microsoft.com/en-us/surface/forum/surfpro4-surfdrivers/surface-pen-not-working/30a2c67f-45a9-41c3-a4ed-0f31a73cfa33)
 * <https://towardsdatascience.com/advanced-plots-in-matplotlib-part-2-e88f91ce9e31>
+* <https://www.computerworld.com/article/3575089/pro-tip-sock-away-a-clean-copy-of-windows-10-2004.amp.html>
+* <https://www.thedailybeast.com/iconic-photos-from-911>
+* <https://www.freecodecamp.org/news/how-to-set-up-continuous-deployment-in-your-home-project-the-easy-way-41b84a467eed/>
+* <https://www.howtoforge.com/tutorial/perfect-server-ubuntu-20.04-with-apache-php-myqsl-pureftpd-bind-postfix-doveot-and-ispconfig/>
+* <https://www.tomshardware.com/news/raspberry-pi-web-server,40174.html>
+* <https://betanews.com/2020/07/07/uninstall-microsoft-edge/>
+* <https://www.diynetwork.com/how-to/maintenance-and-repair/preparedness/diy-earthquake-kit>
+* <https://www.npr.org/2019/12/08/781640364/can-a-computer-catch-a-spy>
+* <https://www.youtube.com/watch?v=1e5td7-Bpvc>
+* <https://spectrum.ieee.org/automaton/robotics/robotics-hardware/how-teams-are-solving-the-biggest-challenge-at-darpa-subt>
