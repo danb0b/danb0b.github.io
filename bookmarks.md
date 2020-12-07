@@ -78,6 +78,8 @@ Prop3=19,11)
 * [welcome-entrepreneurship-innovation](https://entrepreneurship.asu.edu/)
 * [_public_asu_edu_daukes](http://www.public.asu.edu/~daukes/)
 * [ASU Software Developers Association](https://thesoda.io/)
+* [subscriptions](https://selfsub.asu.edu)
+* [info about public website hosting](http://arrowsmith410-598.asu.edu/2009/Lectures/Lecture1/GetAWebsite.html)
 
 ### commentaries
 
