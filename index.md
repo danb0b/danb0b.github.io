@@ -22,10 +22,12 @@ see [this link](https://danb0b.github.io/project_ros_tutorial/)
 
 ## Slack Workspaces
 
+* [EGR314](asu-2211-egr314-15063.slack.com)
+* [EGR557](asu-2211-egr557-30967.slack.com)
 * <https://idealab-asu.slack.com>
 * <https://kaiteki-asu.slack.com>
 * <https://scram-workspace.slack.com>
-* <https://asu-2207-egr304-76246.slack.com>
+* [EGR304](https://asu-2207-egr304-76246.slack.com)
 * <https://newfacultyatasu.slack.com>
 
 ## Twitter
