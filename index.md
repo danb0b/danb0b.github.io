@@ -40,8 +40,8 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 
 ## Slack Workspaces
 
-* [EGR314](asu-2211-egr314-15063.slack.com)
-* [EGR557](asu-2211-egr557-30967.slack.com)
+* [EGR314](https://asu-2211-egr314-15063.slack.com)
+* [EGR557](https://asu-2211-egr557-30967.slack.com)
 * <https://idealab-asu.slack.com>
 * <https://kaiteki-asu.slack.com>
 * <https://scram-workspace.slack.com>
