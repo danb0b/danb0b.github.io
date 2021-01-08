@@ -7,18 +7,36 @@ title: Dan Aukes, Ph.D.
 
 I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), and Assistant Professor in the Ira A. Fulton Schools of Engineering, Arizona State University.  This is my personal website 
 
+
 ## Personal Code Projects
 
 {% for post in site.code %}* [{{ post.title }}]({{ post.url }})
 {%endfor%}
 
-## ROS Tutorials
+## Course Pages and Tutorials
 
-see [this link](https://danb0b.github.io/project_ros_tutorial/)
+* [Foldable Robotics Spring 2021 Course Page](egr_557_2021/)
+* [ROS Tutorial Pages](project_ros_tutorial/)
 
 ## Recipes
 
 [Recipes]({{site.baseurl}}/recipes)
+
+## Websites
+
+* <https://www.scrambots.com/>
+* <https://idealab.asu.edu>
+* <http://www.popupcad.org/>
+* <http://robotics.asu.edu/>
+* <https://www.robotmechanisms.org/>
+
+<!--## Twitter
+* [danaukes](https://twitter.com/danaukes)
+* [popupCAD](https://twitter.com/popupcad)
+* [idealab](https://twitter.com/idealabasu)
+* [dave the kangaroo](https://twitter.com/davethekangaroo)
+* [scrambots](https://twitter.com/scrambots)
+-->
 
 ## Slack Workspaces
 
@@ -27,25 +45,9 @@ see [this link](https://danb0b.github.io/project_ros_tutorial/)
 * <https://idealab-asu.slack.com>
 * <https://kaiteki-asu.slack.com>
 * <https://scram-workspace.slack.com>
-* [EGR304](https://asu-2207-egr304-76246.slack.com)
+<!--* [EGR304](https://asu-2207-egr304-76246.slack.com)-->
 * <https://newfacultyatasu.slack.com>
 
-## Twitter
-
-* [danaukes](https://twitter.com/danaukes)
-* [popupCAD](https://twitter.com/popupcad)
-* [idealab](https://twitter.com/idealabasu)
-* [dave the kangaroo](https://twitter.com/davethekangaroo)
-* [scrambots](https://twitter.com/scrambots)
-
-## Websites
-
-
-* <https://www.scrambots.com/>
-* <https://idealab.asu.edu>
-* <http://www.popupcad.org/>
-* <http://robotics.asu.edu/>
-* <https://www.robotmechanisms.org/>
 
 ## Bookmarks
 
