@@ -15,7 +15,7 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 
 ## Course Pages and Tutorials
 
-* [Foldable Robotics Spring 2021 Course Page](egr557_2021/)
+* [Foldable Robotics Spring 2021 Course Page](https://egr557.github.io)
 * [ROS Tutorial Pages](project_ros_tutorial/)
 
 ## Recipes
