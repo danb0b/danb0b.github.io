@@ -5,8 +5,8 @@
 layout: home
 ---
 
-{% capture all_tags %}{% for item in site.recipes %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{%endcapture%}
-{% assign tag_words = all_tags | split:',' | sort | uniq %}
+{% capture all_tags %}{% for item in site.recipes %}{% for tag in item.tags %}{{ tag }};{% endfor %}{% endfor %}{%endcapture%}
+{% assign tag_words = all_tags | split:';' | sort | uniq %}
 
 ## Recipes
 

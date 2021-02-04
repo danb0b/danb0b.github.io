@@ -45,13 +45,21 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 * <https://idealab-asu.slack.com>
 * <https://kaiteki-asu.slack.com>
 * <https://scram-workspace.slack.com>
-<!--* [EGR304](https://asu-2207-egr304-76246.slack.com)-->
 * <https://newfacultyatasu.slack.com>
+<!--* [EGR304](https://asu-2207-egr304-76246.slack.com)-->
 
 
 ## Bookmarks
 
+<!--
 see the [bookmarks]({{site.baseurl}}/bookmarks) page.
+-->
+
+{% assign bookmark_pages = site.pages | where: "type", "bookmarks" | sort: "title" %}
+
+{% for item in bookmark_pages %}* [{{item.title}}]({{site.baseurl}}{{item.url}}) 
+{% endfor %}
+
 
 ## Calendar
 

@@ -47,19 +47,20 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      layout: page
+  - scope:
+      path: "bookmarks"
+    values:
+      type: "bookmarks"
+  - scope:
       type: "recipes"
     values:
       layout: recipe
   - scope:
-      path: ""
-    values:
-      layout: page
-  - scope:
-      path: ""
       type: "code"
     values:
       layout: page
-
 
 plugins: 
   - jekyll-include-cache
