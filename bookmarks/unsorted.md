@@ -723,3 +723,4 @@ title: Unsorted
 * <https://maehr.github.io/academic-pandoc-template/markdown.html>
 * <https://github.com/burningion/pygame-video-synthesizer>
 * <https://www.sumatrapdfreader.org/free-pdf-reader.html>
+* <https://en.wikipedia.org/wiki/George_H._Heilmeier#Heilmeier%27s_Catechism>
