@@ -67,3 +67,5 @@ Prop3=19,11)
 * [ASU Software Developers Association](https://thesoda.io/)
 * [subscriptions](https://selfsub.asu.edu)
 * [info about public website hosting](http://arrowsmith410-598.asu.edu/2009/Lectures/Lecture1/GetAWebsite.html)
+* [2 Factor Auth](https://weblogin.asu.edu/2fa/selfservice)
+
