@@ -724,3 +724,4 @@ title: Unsorted
 * <https://github.com/burningion/pygame-video-synthesizer>
 * <https://www.sumatrapdfreader.org/free-pdf-reader.html>
 * <https://en.wikipedia.org/wiki/George_H._Heilmeier#Heilmeier%27s_Catechism>
+* <https://fs.blog/2021/02/feynman-learning-technique/>
