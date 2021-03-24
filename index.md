@@ -28,7 +28,7 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 * [IDEAlab](https://idealab.asu.edu)
 * [popupCAD](http://www.popupcad.org)
 * [ASU Robotics](http://robotics.asu.edu)
-* [Technical Committee on Mechanisms and Robotics](https://www.robotmechanisms.org)
+* [Technical Committee on Mechanisms and Design](https://www.robotmechanisms.org)
 
 ## Slack Workspaces
 
