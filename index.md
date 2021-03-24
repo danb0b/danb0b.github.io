@@ -24,11 +24,11 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 
 ## Websites
 
-* <https://www.scrambots.com/>
-* <https://idealab.asu.edu>
-* <http://www.popupcad.org/>
-* <http://robotics.asu.edu/>
-* <https://www.robotmechanisms.org/>
+* [SCRAMbots](https://www.scrambots.com)
+* [IDEAlab](https://idealab.asu.edu)
+* [popupCAD](http://www.popupcad.org)
+* [ASU Robotics](http://robotics.asu.edu)
+* [Technical Committee on Mechanisms and Robotics](https://www.robotmechanisms.org)
 
 ## Slack Workspaces
 
