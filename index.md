@@ -30,24 +30,24 @@ I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), a
 * <http://robotics.asu.edu/>
 * <https://www.robotmechanisms.org/>
 
-<!--## Twitter
+## Slack Workspaces
+
+* [EGR314](https://asu-2211-egr314-15063.slack.com)
+* [IDEAlab](https://idealab-asu.slack.com)
+* [kaiteki](https://kaiteki-asu.slack.com)
+* [SCRAMbots](https://scram-workspace.slack.com)
+* [New Faculty](https://newfacultyatasu.slack.com)
+<!--* [EGR304](https://asu-2207-egr304-76246.slack.com)-->
+<!--* [EGR557](https://asu-2211-egr557-30967.slack.com)-->
+
+<!--
+-->
+## Twitter
 * [danaukes](https://twitter.com/danaukes)
 * [popupCAD](https://twitter.com/popupcad)
 * [idealab](https://twitter.com/idealabasu)
 * [dave the kangaroo](https://twitter.com/davethekangaroo)
 * [scrambots](https://twitter.com/scrambots)
--->
-
-## Slack Workspaces
-
-* [EGR314](https://asu-2211-egr314-15063.slack.com)
-* [EGR557](https://asu-2211-egr557-30967.slack.com)
-* <https://idealab-asu.slack.com>
-* <https://kaiteki-asu.slack.com>
-* <https://scram-workspace.slack.com>
-* <https://newfacultyatasu.slack.com>
-<!--* [EGR304](https://asu-2207-egr304-76246.slack.com)-->
-
 
 ## Bookmarks
 
