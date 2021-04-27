@@ -4,7 +4,7 @@ title: Courses & Classrooms
 
 ### courses
 
-* [403-forbidden](http://makezine.com/2013/08/21/stocking-up-school-makerspaces/)
+* [Stocking Up School Makerspaces](http://makezine.com/2013/08/21/stocking-up-school-makerspaces/)
 * [6-amazing-things-about-tab-classrooms-the-art-of-ed](https://www.theartofed.com/2016/06/24/6-amazing-things-tab/)
 * [a-short-course-on-stiff-structures-compliant-mechanisms-and-mems](http://www.mecheng.iisc.ernet.in/~suresh/shortcourse/)
 * [computational-fabrication](http://computational-fabrication.com/2015/)

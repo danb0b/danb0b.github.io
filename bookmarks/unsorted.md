@@ -228,6 +228,8 @@ title: Unsorted
 * [Windows Services - Black Viper - www.blackviper.com](http://www.blackviper.com/windows-services/)
 * [windows-how-to-add-batch-script-action-to-right-click-menu-super-user](https://superuser.com/questions/444726/windows-how-to-add-batch-script-action-to-right-click-menu)
 * [_askvg_com_how-to-add-remove-entries-in-context-menus](https://www.askvg.com/how-to-add-remove-entries-in-context-menus/)
+* [how to use md5 sums](https://launchpad.net/+help-registry/verify-downloads.html)
+
 
 #### design
 
@@ -725,3 +727,25 @@ title: Unsorted
 * <https://www.sumatrapdfreader.org/free-pdf-reader.html>
 * <https://en.wikipedia.org/wiki/George_H._Heilmeier#Heilmeier%27s_Catechism>
 * <https://fs.blog/2021/02/feynman-learning-technique/>
+* 
+### topics
+
+* [(2) Content Aware Image Resizing - YouTube](https://www.youtube.com/watch?v=qadw0BRKeMk)
+* [(2) How to Make a Prosthetic Leg - How to Mix Lamination for Prosthetics - YouTube](https://www.youtube.com/watch?v=A2skLH77m8g&feature=player_embedded#!)
+* [(2) How To Weld-Bond Ripstop Nylon for DIY Outdoor Projects - YouTube](https://www.youtube.com/watch?v=Ne2J01h1tZ0)
+* [Academia Stack Exchange](https://academia.stackexchange.com/)
+* [Contact Microphones - gamesounddesign.com](http://www.gamesounddesign.com/Contact-Microphones.html)
+* [david-s-rose-how-to-pitch-to-a-vc-ted-talk](https://www.ted.com/talks/david_s_rose_on_pitching_to_vcs?language=en)
+* [error-404-not-found1](https://books.google.com/books?hl=en&lr=&id=OSTn4GSy2uQC&oi=fnd&pg=PR15&dq=Multi-Objective+Optimization+using+Evolutionary+Algorithms+&ots=tEkvoBJlf1&sig=bmedNvrxW9fVLDd7vWYAAKC54ts)
+* [error-bars-in-experimental-biology-jcb](http://jcb.rupress.org/content/177/1/7.full)
+* [fourier-series-wikipedia](https://en.wikipedia.org/wiki/Fourier_series)
+* [heineborel-theorem-wikipedia](http://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem)
+* [list-of-mathematical-symbols-wikipedia](http://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+* [mathematical-morphology-wikipedia](https://en.wikipedia.org/wiki/Mathematical_morphology)
+* [none-from-alanmacekcom](http://www.alanmacek.com/usb/)
+* [Op Amp Offset Voltage](http://www.ecircuitcenter.com/Circuits/op_voff/op_voff.htm)
+* [Program Eligibility Requirements - ABET](https://www.abet.org/accreditation/what-is-accreditation/eligibility-requirements/)
+* [Psychology Student Says He Has A Better Idea For Science Posters - Shots - Health News - NPR](https://www.npr.org/sections/health-shots/2019/06/11/729314248/to-save-the-science-poster-researchers-want-to-kill-it-and-start-over?utm_source=npr_newsletter&utm_medium=email&utm_content=20190612&utm_campaign=npr_email_a_friend&utm_term=storyshare)
+* [thang010146-youtube](https://www.youtube.com/user/thang010146/videos)
+* [uiuc-apa-lsats](http://m-selig.ae.illinois.edu/uiuc_lsat.html)
+* [youtube](https://www.youtube.com/watch?v=QNqB_fY8U3I)
