@@ -69,3 +69,6 @@ Prop3=19,11)
 * [info about public website hosting](http://arrowsmith410-598.asu.edu/2009/Lectures/Lecture1/GetAWebsite.html)
 * [2 Factor Auth](https://weblogin.asu.edu/2fa/selfservice)
 
+## Web Brand Guide
+
+<https://brandguide.asu.edu/Executing-the-brand/Web-and-mobile/ui-kit>

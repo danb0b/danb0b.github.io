@@ -1,4 +1,4 @@
----
+nsors---
 title: Parts and Materials for Robotics
 ---
 ### electronics
@@ -74,7 +74,6 @@ title: Parts and Materials for Robotics
 * [senseg](http://www.senseg.com/)
 * [sensor-technology-syntouch-syntouch-inc](http://www.syntouchllc.com/products.htm)
 * [_interlinkelectronics_com_force_sensors_roducts_forcesensingresistors_index_html](http://www.interlinkelectronics.com/force_sensors/products/forcesensingresistors/index.html)
-
 
 
 #### tape springs
