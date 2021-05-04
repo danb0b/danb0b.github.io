@@ -18,3 +18,10 @@ title: ubuntu and linux
 * <https://linuxnatives.net/2019/how-to-create-good-ssh-keys>
 * <https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys>
 * <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>
+
+
+## Installing ssh-based unlock:
+
+<https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file>
+<https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot>
+```ssh-keygen -b 4096```
