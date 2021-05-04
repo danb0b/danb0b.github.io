@@ -7,6 +7,7 @@ title: ubuntu and linux
 ## Misc
 
 * [top-things-to-do-after-installing-ubuntu-1504-unixmen](http://www.unixmen.com/201204-top-things-to-do-after-installing-ubuntu-2/)
+* [Downloading an Entire Web Site with wget](https://www.linuxjournal.com/content/downloading-entire-web-site-wget)
 
 ## SSH
 
