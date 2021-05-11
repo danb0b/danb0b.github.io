@@ -69,6 +69,19 @@ Prop3=19,11)
 * [info about public website hosting](http://arrowsmith410-598.asu.edu/2009/Lectures/Lecture1/GetAWebsite.html)
 * [2 Factor Auth](https://weblogin.asu.edu/2fa/selfservice)
 
+### New Faculty
+
+* <https://provost.asu.edu/academic-personnel/new-faculty>
+
 ## Web Brand Guide
 
-<https://brandguide.asu.edu/Executing-the-brand/Web-and-mobile/ui-kit>
+* <https://brandguide.asu.edu/Executing-the-brand/Web-and-mobile/ui-kit>
+* <https://unity.web.asu.edu/>
+
+### Faculty Development
+
+* [National Center for FAculty Development and Diversity](https://inclusion.asu.edu/resources/ncfdd)
+* [https://www.facultydiversity.org/dashboard](https://www.facultydiversity.org/dashboard)
+* [Professional Development (CFO)](https://cfo.asu.edu/professional-development)
+* [Career EDGE](https://cfo.asu.edu/career-edge)
+* [ASU FAculty Center](http://links.asu.edu/asuofacultycenter)
