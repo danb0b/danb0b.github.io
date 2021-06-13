@@ -1,4 +1,4 @@
-nsors---
+---
 title: Parts and Materials for Robotics
 ---
 ### electronics
