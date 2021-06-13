@@ -22,10 +22,14 @@ title: ubuntu and linux
 
 ## Installing ssh-based unlock:
 
-<https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file>
-<https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot>
-```ssh-keygen -b 4096```
+* <https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file>
+* <https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot>
+* ```ssh-keygen -b 4096```
 
 ## Samba
 
 * Samba/windows share problem: <https://forums.linuxmint.com/viewtopic.php?t=245005>
+
+## Netplan Reference
+
+* <https://netplan.io/reference/>
