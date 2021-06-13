@@ -607,6 +607,12 @@ title: Unsorted
 * [page-missing-morning-studio](http://morning.am/tutorials/google-forms-and-jquery-validation/)
 * [site-not-found-github-pages](http://fortawesome.github.io/Font-Awesome/examples/)
 
+#### hugo
+
+* <https://gohugo.io/getting-started/quick-start/>
+* <https://github.com/loup-brun/hugo-cite>
+* <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
+
 ##### travis
 
 * [auto-deploying-built-products-to-gh-pages-with-travis-github](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd)
