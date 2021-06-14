@@ -143,3 +143,6 @@ title: Python
 * [python-how-to-use-c-classes-with-ctypes-stack-overflow](http://stackoverflow.com/questions/1615813/how-to-use-c-classes-with-ctypes)
 * [simplified-wrapper-and-interface-generator](http://www.swig.org/)
 
+## Fun Packages
+
+* <https://pypi.org/project/pdf2image/>
