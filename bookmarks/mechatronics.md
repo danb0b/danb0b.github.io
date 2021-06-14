@@ -8,3 +8,7 @@ title: Mechatronics
 * [Circuits and Techniques for Implementing Capacitive Touch Sensing ](https://www.allaboutcircuits.com/technical-articles/circuits-and-techniques-for-implementing-capacitive-touch-sensing/)
 * [Analog Devices Capacitance Sensors](https://www.analog.com/en/analog-dialogue/articles/capacitance-to-digital-converter-technology-healthcare.html)
 * [Capacitance-to-Digital Converter Facilitates Level Sensing in Diagnostic Systems](https://www.analog.com/en/analog-dialogue/articles/cdc-facilitates-level-sensing-in-diagnostic-systems.html)
+
+### 3 phase PWM Regenerative drivers
+
+* <https://www.onsemi.com/pub/Collateral/LV8127T-D.PDF>
