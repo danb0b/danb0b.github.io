@@ -34,6 +34,8 @@ menu:
       link: code
     - name: recipes
       link: recipes
+    - name: bookmarks
+      link: my_bookmarks
     
 
 collections:

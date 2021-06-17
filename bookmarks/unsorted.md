@@ -612,6 +612,7 @@ title: Unsorted
 * <https://gohugo.io/getting-started/quick-start/>
 * <https://github.com/loup-brun/hugo-cite>
 * <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
+* <https://www.liwen.id.au/photoswipe/>
 
 ##### travis
 
@@ -755,3 +756,5 @@ title: Unsorted
 * [thang010146-youtube](https://www.youtube.com/user/thang010146/videos)
 * [uiuc-apa-lsats](http://m-selig.ae.illinois.edu/uiuc_lsat.html)
 * [youtube](https://www.youtube.com/watch?v=QNqB_fY8U3I)
+
+* <https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/checking-your-website-for-broken-links>
