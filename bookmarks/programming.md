@@ -8,7 +8,6 @@ title: Programming
 * [exception-good-patterns-for-vba-error-handling-stack-overflow](https://stackoverflow.com/questions/1038006/good-patterns-for-vba-error-handling)
 
 ### Solidworks Add-Ins
-* [2012-solidworks-api-help-solidworksinteropsldworks-namespace](http://help.solidworks.com/2012/english/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks_namespace.html?id=9e83b8bfe97445aba4d4889c9b742b54#Pg0)
 * [how-can-i-create-an-addin-for-solidworks-solidworks-forums](https://forum.solidworks.com/message/136262)
 * [2020 SOLIDWORKS API Help - Creating Add-ins (C#)](http://help.solidworks.com/2020/English/api/epdmapi/CSharpAddIns.htm?verRedirect=1)
 * [2020 SOLIDWORKS API Help - Using SwAddin to Create a SOLIDWORKS Addin](http://help.solidworks.com/2020/English/api/sldworksapiprogguide/Overview/Using_SwAddin_to_Create_a_SolidWorks_Addin.htm?verRedirect=1)
@@ -19,7 +18,7 @@ title: Programming
 
 ## Windows
 
-* [how-to-remove-old-device-drivers-from-vista-windows-7-post-361](http://forum.xda-developers.com/showpost.php?p=37733595&postcount=361)
+* [how-to-remove-old-device-drivers-from-vista-windows-7-post-361](https://forum.xda-developers.com/posts/37733595?p=37733595&postcount=361)
 * [[Fix] -Could not find this item- When Deleting a File or Folder in Windows » Winhelponline](https://www.winhelponline.com/blog/could-not-find-this-item-when-deleting-file-folder-windows/)
 
 ### bat files
@@ -66,10 +65,10 @@ title: Programming
 
 ## blender
 
-* [animation-in-blender-25-cg-masters](http://www.cgmasters.net/free-tutorials/animation-in-blender-2-5/)
+* [animation-in-blender-25-cg-masters](https://cgmasters.net/free-tutorials/animation-in-blender-2-5/)
 * [blender-documentation-contents-blender-2620-api-documentation](http://www.blender.org/documentation/blender_python_api_2_62_release/)
 * [blender-python-scripting-introduction](http://jmsoler.free.fr/didacticiel/blender/tutor/python_script00_en.htm)
-* [doc24manualanimationtechsobject-blender-developer-wiki](http://wiki.blender.org/index.php/Doc:2.4/Manual/Animation/Techs/Object)
+* [doc24manualanimationtechsobject-blender-developer-wiki](https://wiki.blender.org/wiki/Doc:2.4/Manual/Animation/Techs/Object)
 * [youtube](http://www.youtube.com/watch?v=d6JpGyvFot0)
 
 ## c
@@ -77,7 +76,7 @@ title: Programming
 * [404-not-found](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
 * [a1-static-and-dynamic-libraries-learn-c](http://www.learncpp.com/cpp-tutorial/a1-static-and-dynamic-libraries/)
 * [c-language-c-tutorials](http://www.cplusplus.com/doc/tutorial/)
-* [compile-a-cc-program-in-ubuntu-wikihow](http://www.wikihow.com/Compile-a-C/C%2B%2B-Program-in-Ubuntu)
+* [compile-a-cc-program-in-ubuntu-wikihow](https://www.wikihow.com/Compile-a-C/C%2B%2B-Program-on-Ubuntu-Linux)
 * [debugging-stepping-through-python-script-using-gdb-stack-overflow](http://stackoverflow.com/questions/7412708/debugging-stepping-through-python-script-using-gdb)
 * [support-for-unicode](http://msdn.microsoft.com/en-us/library/2dax2h36.aspx)
 * [visual-c-programming-methodologies-microsoft-docs](http://msdn.microsoft.com/en-us/library/ms173251.aspx)
@@ -94,16 +93,13 @@ title: Programming
 
 * [404-not-found](http://muonics.net/school/spring05/videoInput/)
 * [anton-lopyrev-weighted-voronoi-stippler](http://www.eng.uwaterloo.ca/~alopyrev/cs791/stippling_report.html)
-* [encountered-a-404-error](http://opencvlibrary.sourceforge.net/cvBlobsLib)
+* [encountered-a-404-error](https://opencvlibrary.sourceforge.io/cvBlobsLib)
 * [index-of-dstavenscs223b](http://ai.stanford.edu/~dstavens/cs223b/)
 * [platform-memory-validation-specifications-and-results](http://www.intel.com/technology/computing/opencv/)
 * [vlfeat-home](http://www.vlfeat.org/index.html)
 
 ## opencv
 
-* [introduction-to-programming-with-opencv](http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/opencv-intro.html)
-* [opencv_willowgarage_com_documentation_pyeading_and_writing_images_and_video_html](http://opencv.willowgarage.com/documentation/python/highgui_reading_and_writing_images_and_video.html)
-* [opencv_willowgarage_com_documentation_python_cookbook_html](http://opencv.willowgarage.com/documentation/python/cookbook.html)
 * [writing-video-with-opencv-python-mac-stack-overflow](http://stackoverflow.com/questions/5426637/writing-video-with-opencv-python-mac)
 
 
@@ -130,16 +126,14 @@ title: Programming
 ## git
 
 * [git-book](http://git-scm.com/book/en/Getting-Started-Git-Basics)
-* [page-not-found-github-pages](http://gitref.org/remotes/)
+* [page-not-found-github-pages](https://services.github.com/remotes/)
 * [redirect-notice](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB8QFjAAahUKEwjRqtrq6uzGAhUIdD4KHcsGAJ4&url=https%3A%2F%2Frtyley.github.io%2Fbfg-repo-cleaner%2F&ei=5IyuVdGoEojo-QHLjYDwCQ&usg=AFQjCNETReJx3boSAqUUj1LJcoGi-RC0_w&sig2=ZHIXdno_keSQ2VSLUnCXUw&bvm=bv.98197061,d.cWw)
 
 ## opengl
 
 * [basic-opengl-lighting](http://www.sjbaker.org/steve/omniv/opengl_lighting.html)
-* [beginning-game-development-with-python-all-mcgugan-9781590598726-amazoncom-books](http://www.amazon.com/gp/product/1590598725?ie=UTF8&tag=kelpiesoft-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1590598725)
+* [beginning-game-development-with-python-all-mcgugan-9781590598726-amazoncom-books](https://www.amazon.com/gp/product/1590598725?ie=UTF8&tag=kelpiesoft-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1590598725)
 * [chapter-5-opengl-programming-guide](http://www.glprogramming.com/red/chapter05.html)
-* [encountered-a-404-error](http://pyopengl.sourceforge.net/documentation/manual/gluLookAt.3G.html)
-* [google-groups](https://groups.google.com/forum/#!topic/pyglet-users/nvXaqHn6vlE)
 * [how-to-draw-line-in-opengl-stack-overflow](http://stackoverflow.com/questions/14486291/how-to-draw-line-in-opengl)
 * [ios-opengles-20-glkit-iphone-polygons-pay-obscure-wireframe-lines-stack-overflow](http://stackoverflow.com/questions/8637494/opengles-2-0-glkit-iphone-polygons-partially-obscure-wireframe-lines)
 * [khrfile-not-found](http://www.khronos.org/opengles/sdk/docs/man/xhtml/glPolygonOffset.xml)
@@ -160,6 +154,6 @@ title: Programming
 * [3033-usb-devices-not-available-to-guest-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/3033#comment:30)
 * [9275-guest-is-crashing-after-accessing-usb-webcam-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/9275)
 * [online-shoes-clothing-free-shipping-and-returns-zapposcom](http://www.zappos.com/)
-* [page-not-found-ask-ubuntu](http://askubuntu.com/questions/153871/problem-attaching-usb-drive-to-the-ubuntu-in-virtualbox)
+* [page-not-found-ask-ubuntu](https://askubuntu.com/questions/153871/problem-attaching-usb-drive-to-the-ubuntu-in-virtualbox)
 * [page-not-found-stack-overflow](http://stackoverflow.com/questions/11319965/virtualbox-usb-device-with-uuid-is-busy-and-can-not-attach-usb-device-on-guest)
 * [windows-virtualbox-failed-to-attach-usb-device-to-linux-guest-super-user](http://superuser.com/questions/461406/windows-virtualbox-failed-to-attach-usb-device-to-linux-guest)
