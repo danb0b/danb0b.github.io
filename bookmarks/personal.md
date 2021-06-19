@@ -202,6 +202,7 @@ title: Personal
 * [when-a-cap-full-of-soap-is-not-a-good-thing-the-new-york-times](http://www.nytimes.com/2010/03/13/your-money/13shortcuts.html?pagewanted=2&_r=2&sq=Alina%20Tugend,%20dish%20soap&st=cse&scp=1)
 * [youtube](https://www.youtube.com/watch?feature=player_embedded&v=vNZVV4Ciccg#!)
 * [_huffingtonpost_com_2012_05_08_pancake-art_n_1500783_htmlrefmostpopular](http://www.huffingtonpost.com/2012/05/08/pancake-art_n_1500783.html?ref=mostpopular)
+* <https://www.wired.com/story/geoguessr-google-maps-speedrunning/>
 
 #### opinionator
 

@@ -1,8 +1,8 @@
 ---
-title: General Programming
+title: Programming
 ---
 
-# General Programming
+# Programming
 
 ## VBA
 * [exception-good-patterns-for-vba-error-handling-stack-overflow](https://stackoverflow.com/questions/1038006/good-patterns-for-vba-error-handling)

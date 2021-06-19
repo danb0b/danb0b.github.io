@@ -1,6 +1,17 @@
 ---
-title: markdown, latex, and beamer
+title: Markdown, Pandoc, and More
 ---
+
+
+### writing-papers
+
+* [easy-lecture-slides-made-difficult-with-pandoc-and-beamer-andrew-goldstone](https://andrewgoldstone.com/blog/2014/12/24/slides/)
+* [Pandoc- How can I get numbered LaTeX equations to show up in both PDF and HTML output - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/111868/pandoc-how-can-i-get-numbered-latex-equations-to-show-up-in-both-pdf-and-html-o)
+* [pandoc-about-pandoc](http://pandoc.org/)
+* [site-not-found-github-pages](http://blog.cigrainger.com/2014/07/pandoc-markdown.html)
+* [user-contributed-templates-jgmpandoc-wiki-github](https://github.com/jgm/pandoc/wiki/User-contributed-templates)
+* [write-good-papers-daniel-lemires-blog](http://lemire.me/blog/rules-to-write-a-good-research-paper/)
+* [‘Don’t write—just type,’ and more advice from author Daniel Mendelsohn - PBS NewsHour](https://www.pbs.org/newshour/arts/dont-write-just-type-and-more-advice-from-author-daniel-mendelsohn)
 
 ## Latex
 
