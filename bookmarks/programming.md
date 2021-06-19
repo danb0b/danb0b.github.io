@@ -65,10 +65,8 @@ title: Programming
 
 ## blender
 
-* [animation-in-blender-25-cg-masters](https://cgmasters.net/free-tutorials/animation-in-blender-2-5/)
 * [blender-documentation-contents-blender-2620-api-documentation](https://docs.blender.org/api/blender_python_api_2_62_release/)
 * [blender-python-scripting-introduction](http://jmsoler.free.fr/didacticiel/blender/tutor/python_script00_en.htm)
-* [doc24manualanimationtechsobject-blender-developer-wiki](https://wiki.blender.org/wiki/Doc:2.4/Manual/Animation/Techs/Object)
 * [youtube](https://www.youtube.com/watch?v=d6JpGyvFot0)
 
 ## c
@@ -76,7 +74,6 @@ title: Programming
 * [404-not-found](http://duramecho.com/ComputerInformation/WhyHowCppConst.html)
 * [a1-static-and-dynamic-libraries-learn-c](https://www.learncpp.com/cpp-tutorial/a1-static-and-dynamic-libraries/)
 * [c-language-c-tutorials](http://www.cplusplus.com/doc/tutorial/)
-* [compile-a-cc-program-in-ubuntu-wikihow](https://www.wikihow.com/Compile-a-C/C%2B%2B-Program-on-Ubuntu-Linux)
 * [debugging-stepping-through-python-script-using-gdb-stack-overflow](https://stackoverflow.com/questions/7412708/debugging-stepping-through-python-script-using-gdb)
 * [support-for-unicode](https://docs.microsoft.com/en-us/previous-versions/2dax2h36(v=vs.140)?redirectedfrom=MSDN)
 * [visual-c-programming-methodologies-microsoft-docs](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/ms173251(v=vs.100)?redirectedfrom=MSDN)
@@ -93,7 +90,6 @@ title: Programming
 
 * [404-not-found](http://www.muonics.net/school/spring05/videoInput/)
 * [anton-lopyrev-weighted-voronoi-stippler](http://www.eng.uwaterloo.ca/~alopyrev/cs791/stippling_report.html)
-* [encountered-a-404-error](https://opencvlibrary.sourceforge.io/cvBlobsLib)
 * [index-of-dstavenscs223b](http://ai.stanford.edu/~dstavens/cs223b/)
 * [platform-memory-validation-specifications-and-results](https://www.intel.com/content/www/us/en/platform-memory/platform-memory.html)
 * [vlfeat-home](https://www.vlfeat.org/index.html)
@@ -126,7 +122,6 @@ title: Programming
 ## git
 
 * [git-book](http://git-scm.com/book/en/v2)
-* [page-not-found-github-pages](https://services.github.com/remotes/)
 * [redirect-notice](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB8QFjAAahUKEwjRqtrq6uzGAhUIdD4KHcsGAJ4&url=https%3A%2F%2Frtyley.github.io%2Fbfg-repo-cleaner%2F&ei=5IyuVdGoEojo-QHLjYDwCQ&usg=AFQjCNETReJx3boSAqUUj1LJcoGi-RC0_w&sig2=ZHIXdno_keSQ2VSLUnCXUw&bvm=bv.98197061,d.cWw)
 
 ## opengl
@@ -154,6 +149,4 @@ title: Programming
 * [3033-usb-devices-not-available-to-guest-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/3033#comment:30)
 * [9275-guest-is-crashing-after-accessing-usb-webcam-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/9275)
 * [online-shoes-clothing-free-shipping-and-returns-zapposcom](https://www.zappos.com/)
-* [page-not-found-ask-ubuntu](https://askubuntu.com/questions/153871/problem-attaching-usb-drive-to-the-ubuntu-in-virtualbox)
-* [page-not-found-stack-overflow](http://stackoverflow.com/questions/11319965/virtualbox-usb-device-with-uuid-is-busy-and-can-not-attach-usb-device-on-guest)
 * [windows-virtualbox-failed-to-attach-usb-device-to-linux-guest-super-user](https://superuser.com/questions/461406/windows-virtualbox-failed-to-attach-usb-device-to-linux-guest)
