@@ -73,7 +73,7 @@ title: Unsorted
 * [SAMI - Smart Motor Driver for Robotics- 5 Steps (with Pictures)](https://www.instructables.com/id/SAMI-the-Smart-Motor-Driver-for-Robotics/)
 * [Sara Aukes's Race Results](https://www.athlinks.com/event/3241/results/Event/695349/Course/1133196/Bib/1387)
 * [Simulation of surgical cutting in deformable bodies using a game engine - IEEE Conference Publication](https://ieeexplore.ieee.org/abstract/document/7296077/references#references)
-* [sketching-the-visual-thinking-power-tool-an-a-list-apart-article](http://alistapart.com/article/sketching-the-visual-thinking-power-tool)
+* [sketching-the-visual-thinking-power-tool-an-a-list-apart-article](https://alistapart.com/article/sketching-the-visual-thinking-power-tool)
 * [Smart farming- How IoT, robotics, and AI are tackling one of the biggest problems of the century - TechRepublic](https://www.techrepublic.com/article/smart-farming-how-iot-robotics-and-ai-are-tackling-one-of-the-biggest-problems-of-the-century/)
 * [Soft multi-functional robots get really small](https://wyss.harvard.edu/soft-multi-functional-robots-get-really-small/)
 * [suleve™ 200pcs steel springs electrical drum extension tension spring exerciser pressure suit Sale - Banggood.com](https://www.banggood.com/200Pcs-Steel-Springs-Electrical-Hardware-Drum-Extension-Tension-Spring-Exerciser-Pressure-Suit-p-1294054.html?p=PW041611183930201706&custlinkid=116434&cur_warehouse=CN)

@@ -9,7 +9,7 @@ title: Robotics Topics
 
 ### Motor Drivers
 
-* <https://www.onsemi.com/pub/Collateral/LV8127T-D.PDF>
+* <https://www.onsemi.com/pdf/datasheet/lv8127t-d.pdf>
 
 ## Sensing
 

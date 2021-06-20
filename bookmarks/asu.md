@@ -5,18 +5,18 @@ title: ASU
 
 ### asu
 
-* [403-skysong-innovations](http://azte.com/)
-* [404-not-found-fulton-schools-of-engineering-lab-sites](http://lab.engineering.asu.edu/idealab/)
+* [403-skysong-innovations](https://www.skysonginnovations.com/)
+* [IDEAlab](https://idealab.asu.edu/)
 * [404-not-found](http://arrowsmith410-598.asu.edu/Lectures/Lecture1/GetAWebsite.html)
 * [Arizona State University](https://www.asu.edu/aad/manuals/acd/acd125.html)
 * [arizona-state-university](https://www.asu.edu/aad/manuals/fin/fin121.html)
 * [asu-email-with-thunderbird-3-pherricoxides-software-engineering-blog](https://pherricoxide.wordpress.com/2011/03/05/asu-email-with-thunderbird-3/)
 * [asu-header-footer-version-44-drupal-asu](https://drupal.asu.edu/build/asu-header-footer-latest)
 * [asu-office-of-knowledge-enterprise-development-research](https://research.asu.edu/)
-* [ASURITE Management- Your Subscriptions](https://selfsub.asu.edu/apps/WebObjects/ASURITEManagement?authenticator=ST-4813-ljptghDZn3cjG1BkTSTL-10_eb121b6c-e7e4-45fc-9a44-64c3dcea49a7)
-* [asurite-sign-in](https://weblogin.asu.edu/cgi-bin/login?callapp=https://asu.edu/interactive/my.asu.edu)
+* [ASURITE Management- Your Subscriptions](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fselfsub.asu.edu%252Fapps%252FWebObjects%252FASURITEManagement)
+* [asurite-sign-in](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fasu.edu%252Finteractive%252Fmy.asu.edu)
 * [Classroom Space Management - Business and Finance](https://cfo.asu.edu/ucl-space-mgmt)
-* [corporate-engagement-and-strategic-partnerships-arizona-state-university](https://skysong.asu.edu/)
+* [corporate-engagement-and-strategic-partnerships-arizona-state-university](https://corporate.asu.edu/skysong)
 <!--
 * [EHSA Login](https://ehsaweb.asu.edu/
 IDList=
@@ -26,48 +26,41 @@ Prop3=19,11)
 -->
 * [fulton-schools-marketingcommunications-request](https://fultonengineering.wufoo.com/forms/qqznizg0ubacp6/)
 * [getprotected](https://getprotected.asu.edu/governance)
-* [gosignmeup-arizona-state-university](http://asuneo.gosignmeup.com/)
 * [Home - Research Development](https://funding.asu.edu/)
 * [Home - Workday](https://www.myworkday.com/asu/d/home.htmld)
-* [home-getprotected](http://asu.edu/security)
+* [home-getprotected](https://getprotected.asu.edu)
 * [honors-enrichment-contracts-barrett-the-honors-college](https://barretthonors.asu.edu/academics/honors-courses-and-contracts/honors-enrichment-contracts)
 * [ID Card - Business and Finance](https://cfo.asu.edu/cardservices)
-* [innovation-hub-the-polytechnic-school](http://poly.engineering.asu.edu/startuplabs/)
+* [innovation-hub-the-polytechnic-school](https://poly.engineering.asu.edu/innovation-hub/)
 * [ISAAC Building Services - Business and Finance](https://cfo.asu.edu/door-access)
 * [Logos - Enterprise Brand and Marketing Guide](https://brandguide.asu.edu/Elements-of-the-brand/Logos)
-* [microsoft-bitlocker-administration-and-monitoring](https://mbam.fulton.asu.edu/)
 * [MNS](http://modeling.asu.edu/MNS/MNS.html)
 <!--
-* [My ASU - Faculty](https://my.asu.edu/
-IDList=
-HotKey=0
-[{000214A0-0000-0000-C000-000000000046}]
-Prop3=19,11)
+* [My ASU - Faculty](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fwebapp4.asu.edu%252Fmyasu%252F%253Finit%253Dfalse)
 -->
 * [personnel-processes-office-of-the-university-provost](https://provost.asu.edu/academic-personnel/personnel-processes)
 * [polytechnic-campus-night-of-the-open-door-2017-photo-gallery](https://fullcircle.asu.edu/fulton-schools/polytechnic-campus-night-of-the-open-door-2017-photo-gallery/)
-* [relocating-your-household-office-of-the-university-provost](https://provost.asu.edu/newfaculty/relocating)
+* [relocating-your-household-office-of-the-university-provost](https://provost.asu.edu/academic-personnel/new-faculty/relocating)
 * [research-academy-research-academy](https://researchacademy.asu.edu/)
 * [research-administration-research-administration](https://researchadmin.asu.edu/)
-* [research-staff-research-services](https://engineering.asu.edu/research/about/people/)
-* [resource-unavailable-research-administration](https://researchadmin.asu.edu/faculty-toolbox)
-* [SEMTE Graduate Resources](https://sites.google.com/asu.edu/semtegraduateresources/home)
+* [research-staff-research-services](https://research.engineering.asu.edu/research-staff/)
+* [SEMTE Graduate Resources](https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://sites.google.com/asu.edu/semtegraduateresources/home&followup=https://sites.google.com/asu.edu/semtegraduateresources/home)
 * [Service Portal - Service Portal](https://asu.service-now.com/sp/)
-* [servicenow-service-management](http://links.asu.edu/tpsit)
+* [servicenow-service-management](https://asu.service-now.com/auth_redirect.do?sysparm_stack=no&sysparm_url=https%3A%2F%2Fshibboleth2.asu.edu%2Fidp%2Fprofile%2FSAML2%2FRedirect%2FSSO%3FSAMLRequest%3DnVPBjtowEP2VyPckJAHKWgSJBlVF2u5GhPawN2NPFkuOnXocoH9fJ7ALhy6q9jrz%252FOa9N%252BM5skalLV12bq838LsDdMGpURrpuZOTzmpqGEqkmjWA1HFaLX880jQa0dYaZ7hRJFgignXS6MJo7BqwFdiD5PBz85iTvXMt0jhm2EV4rofaHCNumlizQ8teIRKGBCs%252FXWrW01wf4V7udkaB26dRTwCii6VoYz%252B7lgriXkwab0BIC9zFVfVMgm%252FGchg85aRmCoEE61VOqqeihulkChlk9UyIcZ1Mswn%252FMmMPLBuN2YTVHoglQ5QHuD5F7GCt0THtcpKO0iQcTcPkYZtmNJnRZBIl4%252FELCcpLGl%252BlFlK%252F3o9udwYh%252Fb7dlmH5XG0HgoMUYJ88%252Bv9T%252BwUWh8Q8LVnMh73RQbO9XeV9Oextf2RxZ%252B48vmW%252FzGppr3e9Ko2S%252FE%252BwVMocCwvMeQ%252FOdjCso2HuYwFJlAwVKcJ6gNJOYwtc1hIEid%252FnXA4UxLBaf2kOTi4oTNMyK7GPAE6Mu%252FcQbmGF8hY3UH8qkrswTnnP7cv94RyNFf0h%252BFsEsbXMGzHWvQX3L0WLS%252FMDf9f27Sdd%252FAU%253D%26RelayState%3Dhttps%253A%252F%252Fasu.service-now.com%252Fsaml_redirector.do%253Fsysparm_nostack%253Dtrue%2526sysparm_uri%253D%25252Fnav_to.do%25253Furi%25253D%2525252Fcom.glideapp.servicecatalog_cat_item_view.do%2525253Fv%2525253D1%25252526sysparm_id%2525253D695df7ff135bab4094ef7e776144b0e5%25252526sysparm_link_parent%2525253D1dde4fdcd874e100e033f042a43ae6e5%25252526sysparm_catalog%2525253De0d08b13c3330100c8b837659bba8fb4%25252526sysparm_catalog_view%2525253Dcatalog_default%25252526sysparm_view%2525253Dcatalog_default)
 * [sexual-violence-awareness-and-response-arizona-state-university](https://sexualviolenceprevention.asu.edu/)
-* [Skysong Dashboard](https://skysong.inteum.com/skysong/inventorportal/default.aspx)
-* [soda](http://thesoda.io/#contacts)
+* [Skysong Dashboard](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fwebapp4.asu.edu%252Finteum-sso%252Fauthn%253Finit%253Dfalse%2526returnTo%253Dhttp%253A%252F%252Fskysong.inteum.com%252Fskysong%252Finventorportal%252Flogin.aspx)
+* [soda](https://thesoda.io/#contacts)
 * [sslvpn_asu_edu_cscoe_portal_html](https://sslvpn.asu.edu/+CSCOE+/portal.html)
-* [standard-institutional-information-research-administration](https://researchadmin.asu.edu/standard-information)
-* [summer-enrichment-programs-arizona-state-university](https://eoss.asu.edu/summerenrichment/programs)
-* [the-upwardly-mobile-barista-the-atlantic](http://www.theatlantic.com/magazine/archive/2015/05/the-upwardly-mobile-barista/389513/)
-* [UGTA Faculty - Fulton Schools Of Engineering](https://fultonapps.asu.edu/ugta/)
+* [standard-institutional-information-research-administration](https://researchadmin.asu.edu/standard-institutional-information)
+* [summer-enrichment-programs-arizona-state-university](https://eoss.asu.edu/access/programs/summer/search)
+* [the-upwardly-mobile-barista-the-atlantic](https://www.theatlantic.com/magazine/archive/2015/05/the-upwardly-mobile-barista/389513/)
+* [UGTA Faculty - Fulton Schools Of Engineering](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Ffultonapps.asu.edu%2Fugta%2F)
 * [welcome-entrepreneurship-innovation](https://entrepreneurship.asu.edu/)
 * [_public_asu_edu_daukes](http://www.public.asu.edu/~daukes/)
 * [ASU Software Developers Association](https://thesoda.io/)
-* [subscriptions](https://selfsub.asu.edu)
+* [subscriptions](https://selfsub.asu.edu/)
 * [info about public website hosting](http://arrowsmith410-598.asu.edu/2009/Lectures/Lecture1/GetAWebsite.html)
-* [2 Factor Auth](https://weblogin.asu.edu/2fa/selfservice)
+* [2 Factor Auth](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fweblogin.asu.edu%252F2fa%252Fselfservice%253Finit%253Dfalse)
 
 ### New Faculty
 
@@ -85,6 +78,6 @@ Prop3=19,11)
 * [https://www.facultydiversity.org/dashboard](https://www.facultydiversity.org/dashboard)
 * [Professional Development (CFO)](https://cfo.asu.edu/professional-development)
 * [Career EDGE](https://cfo.asu.edu/career-edge)
-* [ASU FAculty Center](http://links.asu.edu/asuofacultycenter)
+* [ASU FAculty Center](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fasu.instructure.com%2Flogin%2Fcas)
 * 
 
