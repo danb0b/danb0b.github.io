@@ -155,3 +155,10 @@ title: Python
 * [qt-how-to-produce-pdf-files-from-qgraphisscene-with-copyable-text-stack-overflow](https://stackoverflow.com/questions/8475200/how-to-produce-pdf-files-from-qgraphicsscene-with-copyable-text)
 * [redirect-notice](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB8QFjAAahUKEwisidPt9bPHAhUJNIgKHTEfAcU&url=https%3A%2F%2Fsrinikom.github.io%2Fpyside-docs%2FPySide%2FQtGui%2FQKeySequence.html&ei=6NHTVaz1KYnooASxvoSoDA&usg=AFQjCNFQUCdeRcZEWXEQPHNPslgRMWVKWA&sig2=rDO-8GM3eboTCyMGq6ZXog&bvm=bv.99804247,d.cGU)
 * [vertex-instructions-kivy-1110dev0-documentation](https://kivy.org/doc/stable/api-kivy.graphics.vertex_instructions.html#module-kivy.graphics.vertex_instructions)
+
+## Requests & Tor
+
+* <https://stackoverflow.com/questions/30286293/make-requests-using-python-over-tor>
+* <https://sylvaindurand.org/use-tor-with-python/>
+* <https://www.scrapehero.com/make-anonymous-requests-using-tor-python/>
+* <https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/>

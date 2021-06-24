@@ -150,3 +150,8 @@ title: Programming
 * [9275-guest-is-crashing-after-accessing-usb-webcam-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/9275)
 * [online-shoes-clothing-free-shipping-and-returns-zapposcom](https://www.zappos.com/)
 * [windows-virtualbox-failed-to-attach-usb-device-to-linux-guest-super-user](https://superuser.com/questions/461406/windows-virtualbox-failed-to-attach-usb-device-to-linux-guest)
+
+# Windows STuff
+
+* [Credentials](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential?view=powershell-7.1)
+* [Create a Service in Powershell](https://www.yaplex.com/blog/create-a-windows-service-using-powershell)
