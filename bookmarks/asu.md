@@ -5,34 +5,25 @@ title: ASU
 
 ### asu
 
-* [403-skysong-innovations](https://www.skysonginnovations.com/)
 * [IDEAlab](https://idealab.asu.edu/)
-* [404-not-found](http://arrowsmith410-598.asu.edu/Lectures/Lecture1/GetAWebsite.html)
-* [Arizona State University](https://www.asu.edu/aad/manuals/acd/acd125.html)
-* [arizona-state-university](https://www.asu.edu/aad/manuals/fin/fin121.html)
-* [asu-email-with-thunderbird-3-pherricoxides-software-engineering-blog](https://pherricoxide.wordpress.com/2011/03/05/asu-email-with-thunderbird-3/)
-* [asu-header-footer-version-44-drupal-asu](https://drupal.asu.edu/build/asu-header-footer-latest)
-* [asu-office-of-knowledge-enterprise-development-research](https://research.asu.edu/)
-* [ASURITE Management- Your Subscriptions](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fselfsub.asu.edu%252Fapps%252FWebObjects%252FASURITEManagement)
-* [asurite-sign-in](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fasu.edu%252Finteractive%252Fmy.asu.edu)
-* [Classroom Space Management - Business and Finance](https://cfo.asu.edu/ucl-space-mgmt)
+* [Skysong Innovations](https://www.skysonginnovations.com/)
+* [GLG410/598 Computers in Earth and Space Exploration](http://arrowsmith410-598.asu.edu/Lectures/Lecture1/GetAWebsite.html)
+* [Academic Affairs Manual (ACD) - ACD 125](https://www.asu.edu/aad/manuals/acd/acd125.html)
+* [Financial Services Menu](https://www.asu.edu/aad/manuals/fin/fin121.html)
+* [ASU Email with Thunderbird 3](https://pherricoxide.wordpress.com/2011/03/05/asu-email-with-thunderbird-3/)
+* [drupal at asu](https://drupal.asu.edu)
+* [ASU Knowledge Enterprise](https://research.asu.edu/)
+* [ASURITE Service Subsctiptions](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fselfsub.asu.edu%252Fapps%252FWebObjects%252FASURITEManagement)
+* [Facilities MAnagement Request Services](https://cfo.asu.edu/requests-for-service)
 * [corporate-engagement-and-strategic-partnerships-arizona-state-university](https://corporate.asu.edu/skysong)
-<!--
-* [EHSA Login](https://ehsaweb.asu.edu/
-IDList=
-HotKey=0
-[{000214A0-0000-0000-C000-000000000046}]
-Prop3=19,11)
--->
-* [fulton-schools-marketingcommunications-request](https://fultonengineering.wufoo.com/forms/qqznizg0ubacp6/)
-* [getprotected](https://getprotected.asu.edu/governance)
-* [Home - Research Development](https://funding.asu.edu/)
-* [Home - Workday](https://www.myworkday.com/asu/d/home.htmld)
-* [home-getprotected](https://getprotected.asu.edu)
+* [Environmental Health and Safety (EHSA) Login](https://ehsaweb.asu.edu/
+* [GetProtected](https://getprotected.asu.edu)
+* [funding.asu.edu -- Research Development](https://funding.asu.edu/)
+* [Workday](https://www.myworkday.com/asu/d/home.htmld)
 * [honors-enrichment-contracts-barrett-the-honors-college](https://barretthonors.asu.edu/academics/honors-courses-and-contracts/honors-enrichment-contracts)
 * [ID Card - Business and Finance](https://cfo.asu.edu/cardservices)
 * [innovation-hub-the-polytechnic-school](https://poly.engineering.asu.edu/innovation-hub/)
-* [ISAAC Building Services - Business and Finance](https://cfo.asu.edu/door-access)
+* [ISAAC Request](https://fultonapps.asu.edu/isaac/poly)
 * [Logos - Enterprise Brand and Marketing Guide](https://brandguide.asu.edu/Elements-of-the-brand/Logos)
 * [MNS](http://modeling.asu.edu/MNS/MNS.html)
 <!--
