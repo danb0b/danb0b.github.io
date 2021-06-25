@@ -18,7 +18,7 @@ title: ubuntu and linux
 * <https://linuxnatives.net/2019/how-to-create-good-ssh-keys>
 * <https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys>
 * <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>
-
+* <https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>
 
 ## Installing ssh-based unlock:
 

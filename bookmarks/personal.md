@@ -20,6 +20,7 @@ title: Personal
 
 * [The Class of 2000 ‘Could Have Been Anything.’ Until Opioids Hit. - The New York Times](https://www.nytimes.com/interactive/2019/12/02/us/opioid-crisis-high-school-teenagers.html?algo=top_conversion&fellback=false&imp_id=606819847&imp_id=2868973&action=click&module=trending&pgtype=Article&region=Footer)
 * [_youtube_com_watchvalib8czh1j4featureyoutu_be](https://www.youtube.com/watch?v=aLIB8Czh1J4&feature=youtu.be)
+* <https://www.nytimes.com/2021/06/15/magazine/kids-play.html>
 
 ### backpacking
 
@@ -257,3 +258,4 @@ title: Personal
 ### youtube
 
 * [youtube](https://www.youtube.com/watch?v=HSKyHmjyrkA)
+
