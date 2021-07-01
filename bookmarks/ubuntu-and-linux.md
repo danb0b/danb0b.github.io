@@ -8,6 +8,7 @@ title: ubuntu and linux
 
 * [top-things-to-do-after-installing-ubuntu-1504-unixmen](https://www.unixmen.com/top-things-installing-ubuntu-14-1014-0413-1013-0412-1012-04/)
 * [Downloading an Entire Web Site with wget](https://www.linuxjournal.com/content/downloading-entire-web-site-wget)
+* [uset bash history](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
 
 ## SSH
 
