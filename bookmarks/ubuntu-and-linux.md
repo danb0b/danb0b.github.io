@@ -33,6 +33,6 @@ title: ubuntu and linux
 
 ## Networking
 
-* [wifi hotspot configuration](https://askubuntu.com/questions/1230690/wifi-hotspot-option-disabled-after-upgrade-to-ubuntu-20-04)## Netplan Reference
+* [wifi hotspot configuration](https://askubuntu.com/questions/1230690/wifi-hotspot-option-disabled-after-upgrade-to-ubuntu-20-04)
 * [Netplan Reference](https://netplan.io/reference/)
 
