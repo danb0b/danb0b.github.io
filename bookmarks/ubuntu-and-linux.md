@@ -31,6 +31,8 @@ title: ubuntu and linux
 
 * Samba/windows share problem: <https://forums.linuxmint.com/viewtopic.php?t=245005>
 
-## Netplan Reference
+## Networking
 
-* <https://netplan.io/reference/>
+* [wifi hotspot configuration](https://askubuntu.com/questions/1230690/wifi-hotspot-option-disabled-after-upgrade-to-ubuntu-20-04)
+* [Netplan Reference](https://netplan.io/reference/)
+
