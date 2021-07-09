@@ -36,6 +36,8 @@ menu:
       link: recipes
     - name: bookmarks
       link: my_bookmarks
+    - name: notebook
+      link: my_notebook
     
 
 collections:
@@ -43,7 +45,7 @@ collections:
     output: true
   code:
     output: true
-  ros:
+  notebook:
     output: true
 
 defaults:

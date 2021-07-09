@@ -118,6 +118,7 @@ title: Programming
 * [FFprobe Tips](https://trac.ffmpeg.org/wiki/FFprobeTips)
 * [mac - Batch video editing software that can trim without re-encoding - Video Production Stack Exchange](https://video.stackexchange.com/questions/5615/batch-video-editing-software-that-can-trim-without-re-encoding)
 * [Seeking](https://trac.ffmpeg.org/wiki/Seeking)
+* [How to compare/show the difference between 2 videos in ffmpeg?](https://stackoverflow.com/questions/25774996/how-to-compare-show-the-difference-between-2-videos-in-ffmpeg)
 
 ## git
 

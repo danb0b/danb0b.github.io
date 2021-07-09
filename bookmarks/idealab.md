@@ -230,6 +230,9 @@ title: IDEAlab-related Topics
 * [pagethe-kinematics-of-machinerydjvu25-wikisource-the-free-online-library](https://en.wikisource.org/wiki/Page:The_Kinematics_of_Machinery.djvu/25)
 * [spaghettionastick](http://www.spaghettionastick.com/Rattle)
 * [the-work-of-edward-tufte-and-graphics-press](https://www.edwardtufte.com/tufte/)
+* <http://www.dubberly.com/>
+    * <http://www.dubberly.com/articles/how-do-you-design.html>
+    * <http://www.dubberly.com/concept-maps/tic-tac-toe.html>
 
 #### design-tools
 

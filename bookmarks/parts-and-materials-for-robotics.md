@@ -49,6 +49,7 @@ title: Parts and Materials for Robotics
 * [pololu-51-micro-metal-gearmotor-lp-6v](https://www.pololu.com/product/1100)
 * [usautomation](http://www.usautomation.com/)
 * [youtube](https://www.youtube.com/watch?v=OQEd3xmxSa0&feature=related)
+* [motor driver](https://www.onsemi.com/products/power-management/motor-drivers/motor-drivers-brushless/lv8127t)
 
 #### robotics-kits
 

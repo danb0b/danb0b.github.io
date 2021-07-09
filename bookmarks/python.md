@@ -67,6 +67,11 @@ title: Python
 
 #### numpy-scipy-matplotlib
 
+* [scientific visualization book](https://github.com/rougier/scientific-visualization-book)
+* [matplotlib cheatsheet](https://github.com/matplotlib/cheatsheets)
+
+Older stuff
+
 * [404-not-found](https://scipy-cookbook.readthedocs.io/)
 * [A new ode integrator function in scipy](https://kitchingroup.cheme.cmu.edu/blog/2018/09/04/A-new-ode-integrator-function-in-scipy/)
 * [geopy-runtimewarnings-issue-503-matplotlibmatplotlib-github](https://github.com/matplotlib/matplotlib/issues/503)
