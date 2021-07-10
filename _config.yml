@@ -38,6 +38,8 @@ menu:
       link: my_bookmarks
     - name: notebook
       link: my_notebook
+    - name: calendar
+      link: my_calendar
     
 
 collections:
