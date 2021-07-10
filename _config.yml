@@ -39,7 +39,7 @@ menu:
     - name: notebook
       link: my_notebook
     - name: calendar
-      link: my_calendar
+      link: calendar
     
 
 collections:
