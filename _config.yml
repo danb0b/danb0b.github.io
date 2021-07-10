@@ -40,6 +40,8 @@ menu:
       link: my_notebook
     - name: calendar
       link: calendar
+    - name: websites
+      link: websites
     
 
 collections:
