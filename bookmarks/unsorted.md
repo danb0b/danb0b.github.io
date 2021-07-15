@@ -149,3 +149,15 @@ title: Unsorted
 * [youtube](https://www.youtube.com/watch?v=QNqB_fY8U3I)
 * <https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/checking-your-website-for-broken-links>
 * <https://www.instagram.com/p/CN75jXTAOZS/?igshid=17lnfb804yejo>
+* <https://www.thoughtco.com/starting-a-private-school-2773563>
+* <https://askubuntu.com/questions/41118/virtualbox-kernel-driver-not-installed>
+* <https://www.wikihow.com/Start-a-School>
+* <https://www.scholastic.com/teachers/articles/teaching-content/you-can-start-your-own-school/>
+* <https://www.wikihow.com/Start-a-College>
+* <https://getpocket.com/explore/item/the-scientific-paper-is-obsolete?utm_source=pocket-newtab>
+* <https://www.wikihow.com/Start-a-College>
+* <http://www.dpinnell.com/startacollege.htm>
+* <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
+* <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
+ 
+ 
