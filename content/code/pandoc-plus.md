@@ -1,4 +1,5 @@
 ---
+title: Pandoc-Plus
 ---
 
 A collection of utilities to make converting files easier in pandoc.

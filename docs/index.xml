@@ -8,44 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://danaukes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://danaukes.com/code/file-sorter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/code/file-sorter/</guid>
-      <description>Identify duplicate files
-Package URL: https://github.com/danb0b/code_file_sorter</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/code/pandoc-plus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/code/pandoc-plus/</guid>
-      <description>A collection of utilities to make converting files easier in pandoc.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/code/powerpoint-to-markdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/code/powerpoint-to-markdown/</guid>
-      <description>A package for converting powerpoint files to markdown-beamer.
-requires pandoc, powerpoint</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/recipes/perfect-ten-baked-cod/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/recipes/perfect-ten-baked-cod/</guid>
-      <description>Ingredients  2 tablespoons butter 1/2 sleeve buttery round crackers (such as Ritz(R)), crushed 2 tablespoons butter 1 pound thick-cut cod loin 1/2 lemon, juiced 1/4 cup dry white wine 1 tablespoon chopped fresh parsley 1 tablespoon chopped green onion 1 lemon, cut into wedges  Directions  Preheat oven to 400 degrees F (200 degrees C).</description>
-    </item>
-    
-    <item>
       <title>&#39;Simple is Best&#39; Dressing</title>
       <link>https://danaukes.com/recipes/simple-is-best-dressing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -698,6 +660,16 @@ roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
     </item>
     
     <item>
+      <title>File Sorter</title>
+      <link>https://danaukes.com/code/file-sorter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/code/file-sorter/</guid>
+      <description>Identify duplicate files
+Package URL: https://github.com/danb0b/code_file_sorter</description>
+    </item>
+    
+    <item>
       <title>French Bread</title>
       <link>https://danaukes.com/recipes/french-bread/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1137,6 +1109,15 @@ Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspo
     </item>
     
     <item>
+      <title>Pandoc-Plus</title>
+      <link>https://danaukes.com/code/pandoc-plus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/code/pandoc-plus/</guid>
+      <description>A collection of utilities to make converting files easier in pandoc.</description>
+    </item>
+    
+    <item>
       <title>Parmesean Salad</title>
       <link>https://danaukes.com/recipes/parmesean-salad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1179,6 +1160,15 @@ Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspo
       
       <guid>https://danaukes.com/recipes/peppered-shrimp-alfredo/</guid>
       <description>Ingredients  12 ounces penne pasta 1/4 cup butter 2 tablespoons extra-virgin olive oil 1 onion, diced 2 cloves garlic, minced 1 red bell pepper, diced 1/2 pound portobello mushrooms, diced 1 pound medium shrimp, peeled and deveined 1 (15 ounce) jar Alfredo sauce 1/2 cup grated Romano cheese 1/2 cup cream 1 teaspoon cayenne pepper, or more to taste Salt and pepper to taste 1/4 cup chopped parsley  Directions  Bring a large pot of lightly salted water to a boil.</description>
+    </item>
+    
+    <item>
+      <title>Perfect Ten Baked Cod</title>
+      <link>https://danaukes.com/recipes/perfect-ten-baked-cod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/recipes/perfect-ten-baked-cod/</guid>
+      <description>Ingredients  2 tablespoons butter 1/2 sleeve buttery round crackers (such as Ritz(R)), crushed 2 tablespoons butter 1 pound thick-cut cod loin 1/2 lemon, juiced 1/4 cup dry white wine 1 tablespoon chopped fresh parsley 1 tablespoon chopped green onion 1 lemon, cut into wedges  Directions  Preheat oven to 400 degrees F (200 degrees C).</description>
     </item>
     
     <item>
@@ -1269,6 +1259,16 @@ Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspo
       
       <guid>https://danaukes.com/recipes/potato-salad/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Powerpoint to Markdown Converter</title>
+      <link>https://danaukes.com/code/powerpoint-to-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/code/powerpoint-to-markdown/</guid>
+      <description>A package for converting powerpoint files to markdown-beamer.
+requires pandoc, powerpoint</description>
     </item>
     
     <item>

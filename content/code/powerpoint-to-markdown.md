@@ -1,4 +1,5 @@
 ---
+title: Powerpoint to Markdown Converter
 ---
 
 A package for converting powerpoint files to markdown-beamer.

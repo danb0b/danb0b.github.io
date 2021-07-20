@@ -11,14 +11,6 @@
     <loc>https://danaukes.com/contact/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://danaukes.com/code/file-sorter/</loc>
-  </url><url>
-    <loc>https://danaukes.com/code/pandoc-plus/</loc>
-  </url><url>
-    <loc>https://danaukes.com/code/powerpoint-to-markdown/</loc>
-  </url><url>
-    <loc>https://danaukes.com/recipes/perfect-ten-baked-cod/</loc>
-  </url><url>
     <loc>https://danaukes.com/recipes/simple-is-best-dressing/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/acorn-squash-with-apple/</loc>
@@ -119,8 +111,6 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</loc>
   </url><url>
-    <loc>https://danaukes.com/code/</loc>
-  </url><url>
     <loc>https://danaukes.com/notebook/git-commands/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/01.1-config-git/</loc>
@@ -170,6 +160,8 @@
     <loc>https://danaukes.com/recipes/favorite-chicken-pot-pie/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/fig-preserves/</loc>
+  </url><url>
+    <loc>https://danaukes.com/code/file-sorter/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/french-bread/</loc>
   </url><url>
@@ -269,6 +261,8 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/00-overview/</loc>
   </url><url>
+    <loc>https://danaukes.com/code/pandoc-plus/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/parmesean-salad/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/parts-and-materials-for-robotics/</loc>
@@ -279,9 +273,13 @@
   </url><url>
     <loc>https://danaukes.com/recipes/peppered-shrimp-alfredo/</loc>
   </url><url>
+    <loc>https://danaukes.com/recipes/perfect-ten-baked-cod/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/persimmon-pudding/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/personal/</loc>
+  </url><url>
+    <loc>https://danaukes.com/code/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pie-crust-ii/</loc>
   </url><url>
@@ -298,6 +296,8 @@
     <loc>https://danaukes.com/recipes/potato-galette/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/potato-salad/</loc>
+  </url><url>
+    <loc>https://danaukes.com/code/powerpoint-to-markdown/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pretzels/</loc>
   </url><url>

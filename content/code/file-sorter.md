@@ -1,4 +1,5 @@
 ---
+title: File Sorter
 ---
 
 Identify duplicate files
