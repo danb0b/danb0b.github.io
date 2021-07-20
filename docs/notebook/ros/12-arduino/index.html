@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dan Aukes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Dan Aukes">
+  <meta name="generator" content="Hugo 0.85.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://danaukes.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://danaukes.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="http://danaukes.com/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://danaukes.com/"><img class="img-fluid"
+          src="http://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://danaukes.com/"><img class="img-fluid"
+            src="http://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/contact">Contact</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/notebook">Notebook</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/recipes">Recipes</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/sites">Sites</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/bookmarks">Bookmarks</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/code">Code</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="http://danaukes.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <h2></h2>
+        <div class="mb-3 post-meta">
+          <span>By Dan Aukes</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h2 id="introduction">Introduction</h2>
+<p>These instructions were for how to create the package from scratch.  if you are using the idealab_ros repository you will not have to do all the steps</p>
+<h2 id="instructions">Instructions</h2>
+<ol>
+<li>
+<p>add the arduino to the usb filter list in virtualbox on the host machine</p>
+</li>
+<li>
+<p>plug in usb device and find out device info, including port</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dmesg
+<span style="color:#75715e">#dmesg | grep arduino</span>
+</code></pre></div></li>
+<li>
+<p>boot ubuntu, open terminal (ctrl+t) navigate to /dev, and list devices</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /dev
+ls -la
+</code></pre></div></li>
+<li>
+<p>install arduino</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+sudo apt install -y arduino
+</code></pre></div></li>
+<li>
+<p>clone hx711 library</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/HX711.git
+</code></pre></div></li>
+<li>
+<p>open arduino</p>
+</li>
+<li>
+<p>install hx711 library</p>
+</li>
+<li>
+<p>select port (/ttyACM0)</p>
+</li>
+<li>
+<p>select programmer (AVRisp mkII)</p>
+</li>
+<li>
+<p>make new directory in src/</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">catkin_create_pkg force_plate std_msgs rospy roscpp
+</code></pre></div></li>
+<li>
+<p>edit package as before</p>
+<ol>
+<li>add message</li>
+<li>catkin_make</li>
+<li>commit git</li>
+</ol>
+</li>
+<li>
+<p>make scripts</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscd force_plate/
+mkdir scripts
+cd scripts
+<span style="color:#75715e"># pull talker</span>
+wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/talker.py
+chmod +x talker.py 
+<span style="color:#75715e">#wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/listener.py</span>
+<span style="color:#75715e">#chmod +x listener.py</span>
+</code></pre></div></li>
+<li>
+<p>Modify as needed</p>
+</li>
+</ol>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="http://danaukes.com/"><img src="http://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Gilbert, AZ, USA</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:danaukes%20at%20gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>danaukes at gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="http://danaukes.com/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://danaukes.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://danaukes.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2021 Dan Aukes All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "http://danaukes.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://danaukes.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://danaukes.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://danaukes.com/plugins/slick/slick.min.js"></script>
+
+<script src="http://danaukes.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://danaukes.com/plugins/search/fuse.min.js"></script>
+
+<script src="http://danaukes.com/plugins/search/mark.js"></script>
+
+<script src="http://danaukes.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://danaukes.com/js/script.min.js"></script>
+
+
+
+</body>
+</html>

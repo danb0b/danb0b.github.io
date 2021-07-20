@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dan Aukes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Dan Aukes">
+  <meta name="generator" content="Hugo 0.85.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://danaukes.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://danaukes.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://danaukes.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="http://danaukes.com/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://danaukes.com/"><img class="img-fluid"
+          src="http://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://danaukes.com/"><img class="img-fluid"
+            src="http://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/contact">Contact</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/notebook">Notebook</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/recipes">Recipes</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/sites">Sites</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/bookmarks">Bookmarks</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://danaukes.com/code">Code</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="http://danaukes.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <h2></h2>
+        <div class="mb-3 post-meta">
+          <span>By Dan Aukes</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h2 id="webcam-tutorial">Webcam Tutorial</h2>
+<p><a href="https://msadowski.github.io/ros-web-tutorial-pt2-cameras/">Original Reference</a></p>
+<h3 id="configure-the-camera">Configure the camera</h3>
+<ol>
+<li>
+<p>check camera availability</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ls /dev/video*
+</code></pre></div></li>
+<li>
+<p>Get detailed information of the camera</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">udevadm info --name<span style="color:#f92672">=</span>/dev/video1 --attribute-walk
+</code></pre></div></li>
+<li>
+<p>looking at parent device ‘/devices/pci0000:00/0000:00:14.0/usb1/1-1’: as those are our camera parameters.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ATTRS<span style="color:#f92672">{</span>idProduct<span style="color:#f92672">}==</span><span style="color:#e6db74">&#34;9320&#34;</span>
+ATTRS<span style="color:#f92672">{</span>idVendor<span style="color:#f92672">}==</span><span style="color:#e6db74">&#34;05a3&#34;</span>
+</code></pre></div></li>
+<li>
+<p>Creating a file /etc/udev/rules.d/99-uvc.rules with lines below: (change numbers based on the camera informations)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">SUBSYSTEMS<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;usb&#34;</span>, ENV<span style="color:#f92672">{</span>DEVTYPE<span style="color:#f92672">}==</span><span style="color:#e6db74">&#34;usb_device&#34;</span>, ATTRS<span style="color:#f92672">{</span>idVendor<span style="color:#f92672">}==</span><span style="color:#e6db74">&#34;05a3&#34;</span>, ATTRS<span style="color:#f92672">{</span>idProduct<span style="color:#f92672">}==</span><span style="color:#e6db74">&#34;9320&#34;</span>, MODE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0666&#34;</span>
+</code></pre></div></li>
+<li>
+<p>reload the Udev rules:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo udevadm control --reload-rules
+</code></pre></div></li>
+</ol>
+<h3 id="set-up-ros-nodelets">Set up ROS nodelets</h3>
+<ol>
+<li>
+<p>Install library</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install ros-melodic-libuvc-camera
+</code></pre></div></li>
+<li>
+<p>Set up the ROS package (firstly make sure catkin is installed)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/catkin_ws/src
+catkin_create_pkg my_camera -s libuvc_camera
+mkdir ~/catkin_ws/src/my_camera/launch
+</code></pre></div></li>
+<li>
+<p>Create a file named elp.launch with contents below:<br>
+(modify the ‘vendor’ value and ‘product’ value based on the configuration shown before,as well as the image size information, usually the default setting below will work)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;launch&gt;</span>
+
+  <span style="color:#f92672">&lt;node</span> <span style="color:#a6e22e">pkg=</span><span style="color:#e6db74">&#34;nodelet&#34;</span> <span style="color:#a6e22e">type=</span><span style="color:#e6db74">&#34;nodelet&#34;</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;nodelet_manager&#34;</span> <span style="color:#a6e22e">args=</span><span style="color:#e6db74">&#34;manager&#34;</span> <span style="color:#a6e22e">output=</span><span style="color:#e6db74">&#34;screen&#34;</span><span style="color:#f92672">/&gt;</span>
+
+  <span style="color:#f92672">&lt;node</span> <span style="color:#a6e22e">pkg=</span><span style="color:#e6db74">&#34;nodelet&#34;</span> <span style="color:#a6e22e">type=</span><span style="color:#e6db74">&#34;nodelet&#34;</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;libuvc_camera&#34;</span> <span style="color:#a6e22e">args=</span><span style="color:#e6db74">&#34;load libuvc_camera/driver /nodelet_manager&#34;</span> <span style="color:#a6e22e">output=</span><span style="color:#e6db74">&#34;screen&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;frame_id&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;elp_camera&#34;</span> <span style="color:#f92672">/&gt;</span>
+    <span style="color:#75715e">&lt;!-- Parameters used to find the camera --&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;vendor&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;0x5986&#34;</span><span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;product&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;0x2115&#34;</span><span style="color:#f92672">/&gt;</span>
+
+    <span style="color:#75715e">&lt;!-- Image size and type --&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;width&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;1280&#34;</span><span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;height&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;720&#34;</span><span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;video_mode&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;mjpeg&#34;</span><span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;param</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;frame_rate&#34;</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;30&#34;</span><span style="color:#f92672">/&gt;</span>
+
+    <span style="color:#75715e">&lt;!-- &lt;param name=&#34;camera_info_url&#34; value=&#34;file://$(find my_camera)/config/elp.yaml&#34;/&gt; --&gt;</span>
+  <span style="color:#f92672">&lt;/node&gt;</span>
+<span style="color:#f92672">&lt;/launch&gt;</span>
+</code></pre></div></li>
+</ol>
+<h3 id="testing">Testing</h3>
+<ol>
+<li>
+<p>Open a new terminal, run lines below:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo -s
+source /home/yuhao/catkin_ws/devel/setup.bash
+roslaunch my_camera elp.launch
+</code></pre></div></li>
+<li>
+<p>Open a new terminal, launch rqt_image_view to check the received image feed</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun rqt_image_view rqt_image_view
+</code></pre></div></li>
+</ol>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="http://danaukes.com/"><img src="http://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Gilbert, AZ, USA</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:danaukes%20at%20gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>danaukes at gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="http://danaukes.com/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://danaukes.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://danaukes.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2021 Dan Aukes All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "http://danaukes.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://danaukes.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://danaukes.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://danaukes.com/plugins/slick/slick.min.js"></script>
+
+<script src="http://danaukes.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://danaukes.com/plugins/search/fuse.min.js"></script>
+
+<script src="http://danaukes.com/plugins/search/mark.js"></script>
+
+<script src="http://danaukes.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://danaukes.com/js/script.min.js"></script>
+
+
+
+</body>
+</html>
