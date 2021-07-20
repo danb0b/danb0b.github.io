@@ -547,7 +547,7 @@ roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</guid>
-      <description>Create a new package ```bash cd ~/code_idealab_ros/src/ catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscpp cd ~/code_idealab_ros/ catkin_make ```    Find package dependencies:</description>
+      <description>Create a new package ```bashcd ~/code_idealab_ros/src/catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscppcd ~/code_idealab_ros/catkin_make```   Find package dependencies:</description>
     </item>
     
     <item>

@@ -8,6 +8,7 @@ ignorefiles:
 taxonomies:
   category: categories
   tag: dummy
+  recipe_tag: tags
 disqusShortname: ''
 languageCode: en-us
 menu:

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.85.0" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <!-- plugins -->
   
@@ -219,15 +219,15 @@ client <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">
 client<span style="color:#f92672">.</span>run()
 
 listener <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">.</span>Topic(client, <span style="color:#e6db74">&#39;/chatter&#39;</span>, <span style="color:#e6db74">&#39;std_msgs/String&#39;</span>)
-listener<span style="color:#f92672">.</span>subscribe(<span style="color:#66d9ef">lambda</span> message: print(<span style="color:#e6db74">&#39;Heard talking: &#39;</span> <span style="color:#f92672">+</span> message[<span style="color:#e6db74">&#39;data&#39;</span>]))
+listener<span style="color:#f92672">.</span>subscribe(<span style="color:#66d9ef">lambda</span> message: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Heard talking: &#39;</span> <span style="color:#f92672">+</span> message[<span style="color:#e6db74">&#39;data&#39;</span>]))
 
 <span style="color:#66d9ef">try</span>:
-    <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+    <span style="color:#66d9ef">while</span> True:
         <span style="color:#66d9ef">pass</span>
 <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">KeyboardInterrupt</span>:
     client<span style="color:#f92672">.</span>terminate()
 <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
-    print(e)
+    <span style="color:#66d9ef">print</span>(e)
     client<span style="color:#f92672">.</span>terminate()
 </code></pre></div></li>
 <li>
@@ -254,7 +254,7 @@ talker <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">
 
 <span style="color:#66d9ef">while</span> client<span style="color:#f92672">.</span>is_connected:
     talker<span style="color:#f92672">.</span>publish(roslibpy<span style="color:#f92672">.</span>Message({<span style="color:#e6db74">&#39;data&#39;</span>: <span style="color:#e6db74">&#39;Hello World!&#39;</span>}))
-    print(<span style="color:#e6db74">&#39;Sending message...&#39;</span>)
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Sending message...&#39;</span>)
     time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
 
 talker<span style="color:#f92672">.</span>unadvertise()
