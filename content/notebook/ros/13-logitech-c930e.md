@@ -1,4 +1,5 @@
 ---
+title: Getting the Logitech c930 working with ROS
 ---
 
 # Using a USB webcam (with virtualbox)
@@ -21,9 +22,9 @@ You need to follow slightly different steps if you want to provide access to a b
         ```
         groups
         ```
-    
+
     1. add yourself
-    
+
         ```bash
         sudo usermod -a -G vboxusers $(whoami)
         ```
@@ -39,7 +40,7 @@ You need to follow slightly different steps if you want to provide access to a b
     ```bash
     sudo apt update
     sudo apt install -y guvcview cheese v4l-utils
-    # sudo apt install uvccapture uvcdynctrl 
+    # sudo apt install uvccapture uvcdynctrl
     ```
 
 1. try guvcview or cheese to see if you can see video output(may need to install):
@@ -58,7 +59,7 @@ You need to follow slightly different steps if you want to provide access to a b
     ```
 
 1. add yourself to video group
-      
+
       ```bash
       sudo usermod -a -G video $(whoami)
       ```
@@ -68,7 +69,7 @@ You need to follow slightly different steps if you want to provide access to a b
     ```
     groups
     ```
-      
+
 1. copy rules from idealab_ros_tools to rules folder (according to this [ref](http://wiki.ros.org/libuvc_camera))
 
     ```bash
@@ -78,10 +79,10 @@ You need to follow slightly different steps if you want to provide access to a b
     sudo udevadm control --reload-rules && udevadm trigger
     ```
 
-1. if that doesn't work just 
+1. if that doesn't work just
 
     ```bash
-    sudo chmod 777 /dev/bus/usb/001/001  
+    sudo chmod 777 /dev/bus/usb/001/001
     ```
 
     where 001 and 002 is the bus and id of the desired usb camera, respectively, which was acquired from the lsusb command.
@@ -94,7 +95,7 @@ You need to follow slightly different steps if you want to provide access to a b
     ```
 
     this results...
-    
+
     ```
                          brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=128
                            contrast 0x00980901 (int)    : min=0 max=255 step=1 default=128 value=128
@@ -138,7 +139,7 @@ You need to follow slightly different steps if you want to provide access to a b
         ```bash
         rosrun rqt_image_view rqt_image_view
         ```
-        
+
 ## References
 
 * <https://www.virtualbox.org/wiki/Downloads>
@@ -155,5 +156,5 @@ lsusb -v
 # list usb devices
 lsusb
 # list usb messages
-dmesg 
+dmesg
 ```

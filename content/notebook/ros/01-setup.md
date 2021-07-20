@@ -1,9 +1,10 @@
 ---
+title: Setup
 ---
 
 ## Introduction
 
-This section discusses how to prepare a computer for installing ROS.  Because many students don't have a spare 
+This section discusses how to prepare a computer for installing ROS.  Because many students don't have a spare
 
 ## Nomenclature
 
@@ -32,7 +33,7 @@ You probably want [Ubuntu 18.04 (LTS)](http://releases.ubuntu.com/18.04.4/) desk
 
 ## Creating the Guest Machine
 
-The next steps outline how to go about creating a Virtual Machine similar to the one used in this tutorial.  
+The next steps outline how to go about creating a Virtual Machine similar to the one used in this tutorial.
 
 1. Create Virtual Machine
     * 4Gb Ram
@@ -41,14 +42,14 @@ The next steps outline how to go about creating a Virtual Machine similar to the
     * load ubuntu 18.04 iso
 1. Install Ubuntu
     * minimum install
-    * no 3rd party drivers 
+    * no 3rd party drivers
     * no downloads during install
     * username: idealab
     * pw: idealab
     * sign in automatically
 1. take a snapshot of the virtual machine at this point.  If anything goes wrong you can go back to this point
 
-## Set up the Virtual Machine to prepare for ROS install 
+## Set up the Virtual Machine to prepare for ROS install
 
 **Note:** All these steps should be run within the guest.
 
@@ -128,7 +129,7 @@ Follow the detailed installation instructions at <https://wiki.ros.org/melodic/I
             TX packets 117914  bytes 20197993 (20.1 MB)
             TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
     ```
-    
+
 1. The value you want is the "inet" value under, in this case, enp0s3, or 192.168.0.17 in our case.  Remember this value, this is how you will communicate with your virtual pc
 
 ## Assign a static ip address (optional)

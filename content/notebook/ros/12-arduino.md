@@ -1,4 +1,5 @@
 ---
+title: Using Arduino with ROS
 ---
 
 ## Introduction
@@ -15,7 +16,7 @@ These instructions were for how to create the package from scratch.  if you are 
     #dmesg | grep arduino
     ```
 
-1. boot ubuntu, open terminal (ctrl+t) navigate to /dev, and list devices 
+1. boot ubuntu, open terminal (ctrl+t) navigate to /dev, and list devices
 
     ```bash
     cd /dev
@@ -44,7 +45,7 @@ These instructions were for how to create the package from scratch.  if you are 
     ```bash
     catkin_create_pkg force_plate std_msgs rospy roscpp
     ```
-    
+
 1. edit package as before
     1. add message
     1. catkin_make
@@ -58,9 +59,9 @@ These instructions were for how to create the package from scratch.  if you are 
     cd scripts
     # pull talker
     wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/talker.py
-    chmod +x talker.py 
+    chmod +x talker.py
     #wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/listener.py
     #chmod +x listener.py
     ```
-    
+
 1. Modify as needed

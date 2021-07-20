@@ -1,11 +1,12 @@
 ---
+title: Getting UVC working with Raspberry Pi
 ---
 1. install uvc stuff.
 
     ```bash
     sudo apt update
     sudo apt install -y libuvc-dev guvcview cheese v4l-utils
-    # sudo apt install uvccapture uvcdynctrl 
+    # sudo apt install uvccapture uvcdynctrl
     ```
 
 1. try guvcview or cheese to see if you can see video output(may need to install):
@@ -16,7 +17,7 @@
     ```
 
 1. (optional, seems already done, perhaps by previous step) add yourself to video group
-      
+
       ```bash
       sudo usermod -a -G video $(whoami)
       ```
@@ -27,7 +28,7 @@
       groups
       ```
 
-      
+
 1. (optional, seems already done, perhaps by previous step)  copy rules from idealab_ros_tools to rules folder (according to this [ref](http://wiki.ros.org/libuvc_camera))
 
 ```bash

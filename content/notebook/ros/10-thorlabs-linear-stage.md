@@ -1,4 +1,5 @@
 ---
+title: Using the Thorlabs linear stage
 ---
 
 ## Introduction
@@ -37,7 +38,7 @@ source ~/.bashrc
 
 ```bash
 #sudo apt update
-#sudo apt install 
+#sudo apt install
 pip3 install ftd2xx
 ```
 -->
@@ -52,7 +53,7 @@ pip3 install ftd2xx
     ```bash
     git clone https://github.com/idealabasu/code_idealab_tools.git
     ```
-    
+
 1. add git-based packages to python path
 
     ```bash

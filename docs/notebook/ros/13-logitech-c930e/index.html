@@ -155,7 +155,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Getting the Logitech c930 working with ROS</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
@@ -198,7 +198,7 @@
 <p>install uvc stuff.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install -y guvcview cheese v4l-utils
-<span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl </span>
+<span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl</span>
 </code></pre></div></li>
 <li>
 <p>try guvcview or cheese to see if you can see video output(may need to install):</p>
@@ -228,7 +228,7 @@ sudo udevadm control --reload-rules <span style="color:#f92672">&amp;&amp;</span
 </code></pre></div></li>
 <li>
 <p>if that doesn&rsquo;t work just</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod <span style="color:#ae81ff">777</span> /dev/bus/usb/001/001  
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod <span style="color:#ae81ff">777</span> /dev/bus/usb/001/001
 </code></pre></div><p>where 001 and 002 is the bus and id of the desired usb camera, respectively, which was acquired from the lsusb command.</p>
 </li>
 <li>
@@ -291,7 +291,7 @@ lsusb -v
 # list usb devices
 lsusb
 # list usb messages
-dmesg 
+dmesg
 </code></pre>
         </div>
 

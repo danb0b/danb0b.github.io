@@ -1,6 +1,5 @@
 ---
 title: Markdown Cheat Sheet
-published: false
 ---
 
 Derived from <https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0>
@@ -29,7 +28,7 @@ Finally, we can use an alternate syntax. This method only works for heading 1 an
 
     Heading 1
     =
-    
+
     Heading 2
     -
 
@@ -93,15 +92,15 @@ Bold and Italic
 **_The quick brown fox jumps over the lazy dog._**
 
 <strong><em>The quick brown fox jumps over the lazy dog.</em></strong>
-    
+
 
 To create blockquote, we can use the greater than sign `>`. We can create a single-line or multi-line blockquote. Also, blockquote inside a blockquote. We can add other text styles inside a blockquote, such as bold or italic text styles.
 
     Blockquotes
     > The quick brown fox jumps over the lazy dog.> The quick brown fox jumps over the lazy dog.
-    > 
+    >
     > The quick brown fox jumps over the lazy dog.
-    > 
+    >
     > The quick brown fox jumps over the lazy dog.> The quick brown fox jumps over the lazy dog.
     >> The quick brown fox jumps over the lazy dog.
     >>> The quick brown fox jumps over the lazy dog.> **The quick brown fox** *jumps over the lazy dog.*
@@ -109,9 +108,9 @@ To create blockquote, we can use the greater than sign `>`. We can create a sing
 Now, let's see how it looks on GitHub.
 
 > The quick brown fox jumps over the lazy dog.> The quick brown fox jumps over the lazy dog.
-> 
+>
 > The quick brown fox jumps over the lazy dog.
-> 
+>
 > The quick brown fox jumps over the lazy dog.> The quick brown fox jumps over the lazy dog.
 >> The quick brown fox jumps over the lazy dog.
 >>> The quick brown fox jumps over the lazy dog.> **The quick brown fox** *jumps over the lazy dog.*
@@ -237,12 +236,12 @@ To create a table with headers we need to use dashes to separate each header cel
     | 9999999999 | 9999999999 | 9999999999   | 9999999999  |
     | 999999999  | 999999999  | 999999999    | 999999999   |
     | 99999999   | 99999999   | 99999999     | 99999999    |
-    | 9999999    | 9999999    | 9999999      | 9999999     |Default    | Left align | Center align | Right align
-    ---------- | :--------- | :----------: | ----------:
-    9999999999 | 9999999999 | 9999999999   | 9999999999 
-    999999999  | 999999999  | 999999999    | 999999999  
-    99999999   | 99999999   | 99999999     | 99999999   
-    9999999    | 9999999    | 9999999      | 9999999
+| 9999999    | 9999999    |  9999999   | 9999999     |Default    | Left align | Center align | Right align |
+|:-----------|:-----------|:----------:|------------------------------------------------------------------:|
+| 9999999999 | 9999999999 | 9999999999 |                                                        9999999999 |
+| 999999999  | 999999999  | 999999999  |                                                         999999999 |
+| 99999999   | 99999999   |  99999999  |                                                          99999999 |
+| 9999999    | 9999999    |  9999999   |                                                           9999999 |
 
 ![Table with different alignments]
 
@@ -335,7 +334,7 @@ We can also embed GIF and SVG.
 
 ![SVG]
 
-# Lists 
+# Lists
 
 For lists, we can have ordered and unordered lists.
 
@@ -402,7 +401,7 @@ Now let's create a task list. We can create a task list using a hyphen followed 
 
 ![Tasklist]
 
-# Horizontal Rule 
+# Horizontal Rule
 
 We can use three hyphens, asterisks, or underscores to create a horizontal line.
 
@@ -412,7 +411,7 @@ We can use three hyphens, asterisks, or underscores to create a horizontal line.
 
 ![Horizontal Rule]
 
-# Miscellaneous 
+# Miscellaneous
 
 We can include comments inside a `.md` file.
 
@@ -488,46 +487,46 @@ Congratulation! Now you know how to create an awesome README for your next proje
   [2]: markdown-cheatsheet_files/1TCcBjdADcPVDPHRlr0N_Gw.png
   [Bold and Italic text styles]: markdown-cheatsheet_files/12vxP5Bzx-Pfh4ObWUQtqCA.png
   [Blockquotes text styles]: markdown-cheatsheet_files/1FBzb8H_BevCHQArac0kjTg.png
-  [3]: markdown-cheatsheet_files/1OEwoTS8Tiz7JiH02plAzQw.png 
-  [4]: markdown-cheatsheet_files/1RaAcDEZB_MgI_OOqpVJ0aA.png 
+  [3]: markdown-cheatsheet_files/1OEwoTS8Tiz7JiH02plAzQw.png
+  [4]: markdown-cheatsheet_files/1RaAcDEZB_MgI_OOqpVJ0aA.png
   [Monospaced, Underlined, and Strike-through text styles]: markdown-cheatsheet_files/1o9_MQR5rD2BJxotap4rJsg.png
-  [Boxed text style]: markdown-cheatsheet_files/1SlUzlZcnaWa9ohqKCEiOwQ_003.png 
-  [Subscript and Superscript text styles]: markdown-cheatsheet_files/1Cc2ApjvtP9aVHgpeTnox-g_002.png 
-  [Code Highlighting]: markdown-cheatsheet_files/1-CHOJJ4q_VnzELliMgSLzg_004.png 
-  [5]: markdown-cheatsheet_files/1csK2zdkIvJqeoRP9wm5_pg_003.png 
-  [GitHub]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml 
-  [Syntax Highlighting]: markdown-cheatsheet_files/1fGruR9hQN8Wx9ufiAbWr2w_002.png 
-  [Center align]: markdown-cheatsheet_files/1oA1Ubn8Cq2WNogelJjot0Q.png 
-  [Right align]: markdown-cheatsheet_files/1mIhPg9ni0xn2nSsRJ5ghMA.png 
-  [6]: markdown-cheatsheet_files/1pTwjTZhxZJsaH-j6ved0Hw.png 
-  [Table without header]: markdown-cheatsheet_files/1SREVUDKD5qj4zd4FdTVdZQ_002.png 
-  [Table with different alignments]: markdown-cheatsheet_files/1TK857IrYsP-eTnN015kAyw_002.png 
-  [Display two tables side by side]: markdown-cheatsheet_files/1XbjjJ36RMHn0nM6MEqpejA_002.png 
-  [A table with multiple lines]: markdown-cheatsheet_files/15jnkkps0EYyC4SqJWBFRVA.png 
-  [Inline-style]: markdown-cheatsheet_files/1raqS3fp8uvbvB4uKhe0s6w_002.png 
-  [Three variations of reference-style]: markdown-cheatsheet_files/1ROuRegTM5icevNnARf1JCw.png 
-  [Example of a relative link]: markdown-cheatsheet_files/1s9TynxAl1HtIgz-DtSdUug_002.png 
-  [Auto link]: markdown-cheatsheet_files/1Xp_MqrN-_VfFKYzCF_iYVQ_002.png 
-  [7]: markdown-cheatsheet_files/1atPl5Vz8yZkEBhU1714kpw_002.png 
-  [Reference-style]: markdown-cheatsheet_files/16ZjAngXhioPsKjX3I6y8Nw.png 
+  [Boxed text style]: markdown-cheatsheet_files/1SlUzlZcnaWa9ohqKCEiOwQ_003.png
+  [Subscript and Superscript text styles]: markdown-cheatsheet_files/1Cc2ApjvtP9aVHgpeTnox-g_002.png
+  [Code Highlighting]: markdown-cheatsheet_files/1-CHOJJ4q_VnzELliMgSLzg_004.png
+  [5]: markdown-cheatsheet_files/1csK2zdkIvJqeoRP9wm5_pg_003.png
+  [GitHub]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+  [Syntax Highlighting]: markdown-cheatsheet_files/1fGruR9hQN8Wx9ufiAbWr2w_002.png
+  [Center align]: markdown-cheatsheet_files/1oA1Ubn8Cq2WNogelJjot0Q.png
+  [Right align]: markdown-cheatsheet_files/1mIhPg9ni0xn2nSsRJ5ghMA.png
+  [6]: markdown-cheatsheet_files/1pTwjTZhxZJsaH-j6ved0Hw.png
+  [Table without header]: markdown-cheatsheet_files/1SREVUDKD5qj4zd4FdTVdZQ_002.png
+  [Table with different alignments]: markdown-cheatsheet_files/1TK857IrYsP-eTnN015kAyw_002.png
+  [Display two tables side by side]: markdown-cheatsheet_files/1XbjjJ36RMHn0nM6MEqpejA_002.png
+  [A table with multiple lines]: markdown-cheatsheet_files/15jnkkps0EYyC4SqJWBFRVA.png
+  [Inline-style]: markdown-cheatsheet_files/1raqS3fp8uvbvB4uKhe0s6w_002.png
+  [Three variations of reference-style]: markdown-cheatsheet_files/1ROuRegTM5icevNnARf1JCw.png
+  [Example of a relative link]: markdown-cheatsheet_files/1s9TynxAl1HtIgz-DtSdUug_002.png
+  [Auto link]: markdown-cheatsheet_files/1Xp_MqrN-_VfFKYzCF_iYVQ_002.png
+  [7]: markdown-cheatsheet_files/1atPl5Vz8yZkEBhU1714kpw_002.png
+  [Reference-style]: markdown-cheatsheet_files/16ZjAngXhioPsKjX3I6y8Nw.png
   [img tag]: markdown-cheatsheet_files/1cmSy9pNbX-5s5Xwt2IMfUQ.png
-  [GIF]: markdown-cheatsheet_files/1ZwWQGxyA3JwEESgY4cFivg.gif 
-  [SVG]: markdown-cheatsheet_files/1KEE8BR5oz4aXYV8s-2Jyag_002.png 
-  [An ordered list]: markdown-cheatsheet_files/103HieQqdi5RcmEB8XOQbTw_002.png 
-  [An ordered list with sub-items]: markdown-cheatsheet_files/1xKyDR_4pYOuWxjGb6wjuIg.png 
-  [Unordered lists]: markdown-cheatsheet_files/1CfnDlPWggDU3Q40DxPhOPw_002.png 
-  [An unordered list with sub-items]: markdown-cheatsheet_files/1KzLWxNhfGxUjLp0La6mgfA.png 
-  [A list using HTML]: markdown-cheatsheet_files/1w_sG84PZOeT1FkkZdlKU3A_002.png 
-  [Tasklist]: markdown-cheatsheet_files/1QQ3D9_pki5eHqoVrXyQ7Pg_003.png 
-  [Horizontal Rule]: markdown-cheatsheet_files/1RSIIn3j3SJ5SvwrwJ0dvvQ_004.png 
-  [Before escaping]: markdown-cheatsheet_files/1dJaMNAnGwrsXrCiRQWmqbw.png 
-  [After escaping]: markdown-cheatsheet_files/1uy9GOaQqDUUl03LylcQ7Vg_005.png 
-  [emojis]: https://gist.github.com/rxaviers/7360908 
-  [An octocat emoji]: markdown-cheatsheet_files/1dROV-F6NHea-wNC96WjYog.png 
-  [Mention a person]: markdown-cheatsheet_files/1U1QXcuh80vcyDhDHvF6Ipg_005.png 
-  [8]: https://github.com/ekalinin/github-markdown-toc 
-  [Tablesgenerator]: https://www.tablesgenerator.com/markdown_tables 
+  [GIF]: markdown-cheatsheet_files/1ZwWQGxyA3JwEESgY4cFivg.gif
+  [SVG]: markdown-cheatsheet_files/1KEE8BR5oz4aXYV8s-2Jyag_002.png
+  [An ordered list]: markdown-cheatsheet_files/103HieQqdi5RcmEB8XOQbTw_002.png
+  [An ordered list with sub-items]: markdown-cheatsheet_files/1xKyDR_4pYOuWxjGb6wjuIg.png
+  [Unordered lists]: markdown-cheatsheet_files/1CfnDlPWggDU3Q40DxPhOPw_002.png
+  [An unordered list with sub-items]: markdown-cheatsheet_files/1KzLWxNhfGxUjLp0La6mgfA.png
+  [A list using HTML]: markdown-cheatsheet_files/1w_sG84PZOeT1FkkZdlKU3A_002.png
+  [Tasklist]: markdown-cheatsheet_files/1QQ3D9_pki5eHqoVrXyQ7Pg_003.png
+  [Horizontal Rule]: markdown-cheatsheet_files/1RSIIn3j3SJ5SvwrwJ0dvvQ_004.png
+  [Before escaping]: markdown-cheatsheet_files/1dJaMNAnGwrsXrCiRQWmqbw.png
+  [After escaping]: markdown-cheatsheet_files/1uy9GOaQqDUUl03LylcQ7Vg_005.png
+  [emojis]: https://gist.github.com/rxaviers/7360908
+  [An octocat emoji]: markdown-cheatsheet_files/1dROV-F6NHea-wNC96WjYog.png
+  [Mention a person]: markdown-cheatsheet_files/1U1QXcuh80vcyDhDHvF6Ipg_005.png
+  [8]: https://github.com/ekalinin/github-markdown-toc
+  [Tablesgenerator]: https://www.tablesgenerator.com/markdown_tables
   [Tableconvert]: https://tableconvert.com/
-  [Packagecontrol]: https://packagecontrol.io/packages/MarkdownPreview 
-  [Marketplace]: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced 
+  [Packagecontrol]: https://packagecontrol.io/packages/MarkdownPreview
+  [Marketplace]: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
   [9]: https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax

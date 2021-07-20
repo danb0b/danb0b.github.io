@@ -1,6 +1,8 @@
 ---
+title: Clone and Setup Custom Workspace
 ---
-## Clone and Setup Custom Workspace
+
+## Steps
 
 1. Clone the idealab repository
 

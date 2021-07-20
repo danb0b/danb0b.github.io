@@ -1,4 +1,5 @@
 ---
+title: Installing OpenCV
 ---
 
 1. install opencv for python

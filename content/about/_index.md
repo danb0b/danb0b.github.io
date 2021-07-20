@@ -2,19 +2,13 @@
 title: "About Me"
 date: 2019-10-29T13:49:23+06:00
 draft: false
-
 # image
-image: "images/author.jpg"
-
+image: "danaukes.jpg"
 # meta description
-description: "this is meta description"
-
+description: "Short Bio for Dan Aukes"
 # type
 type : "about"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), and Assistant Professor in the Ira A. Fulton Schools of Engineering, Arizona State University.  This is my personal website 
 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd

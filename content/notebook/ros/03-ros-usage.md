@@ -1,7 +1,6 @@
 ---
+title: Navigating the Ros Filesystem (optional)
 ---
-
-## Navigating the Ros Filesystem (optional)
 
 From [here](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)
 
@@ -48,7 +47,7 @@ catkin_make
 . ~/catkin_ws/devel/setup.bash
 
 #first-order dependencies can now be reviewed with the rospack tool.
-rospack depends1 beginner_tutorials 
+rospack depends1 beginner_tutorials
 
 #dependencies for a package are stored in the package.xml file:
 roscd beginner_tutorials
@@ -133,7 +132,7 @@ From [here](https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
 
 1. In terminal 3(ctrl+pg_dn):
     1. ctrl+c
-    1. 
+    1.
         ```rosrun turtlesim turtlesim_node __name:=my_turtle```
 
 1. In terminal 2(ctrl+pg_up):
@@ -275,7 +274,7 @@ add these lines:
 
 save and exit
 ```
-nano CMakeLists.txt 
+nano CMakeLists.txt
 ```
 
 Add the message_generation dependency to the find_package call which already exists in your CMakeLists.txt so that you can generate messages. You can do this by simply adding message_generation to the list of COMPONENTS such that it looks like this:
@@ -381,12 +380,12 @@ source ./devel/setup.bash
 
 #In the last tutorial we made a publisher called "talker". Let's run it:
 #rosrun beginner_tutorials talker      (C++)
-rosrun beginner_tutorials talker.py  # (Python) 
+rosrun beginner_tutorials talker.py  # (Python)
 ```
 In another terminal:
 ```bash
 #rosrun beginner_tutorials listener     (C++)
-rosrun beginner_tutorials listener.py  #(Python) 
+rosrun beginner_tutorials listener.py  #(Python)
 ```
 
 
@@ -396,7 +395,7 @@ rosrun beginner_tutorials listener.py  #(Python)
 
     ```
     roscore
-    ```                                                                                                 
+    ```
 1. In Terminal 2:
 
     ```

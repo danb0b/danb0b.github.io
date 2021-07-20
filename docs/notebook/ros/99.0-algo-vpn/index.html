@@ -155,7 +155,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Installing Algo VPN</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
@@ -202,7 +202,7 @@ sudo apt install -y python3-virtualenv git nano ssh net-tools
 <li>
 <p>install algo</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo -i <span style="color:#75715e">#necessarysu in ubuntu</span>
-cd / 
+cd /
 git clone https://github.com/trailofbits/algo.git
 cd /algo
 python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>command -v python3<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> .env <span style="color:#f92672">&amp;&amp;</span>   source .env/bin/activate <span style="color:#f92672">&amp;&amp;</span>   python3 -m pip install -U pip virtualenv <span style="color:#f92672">&amp;&amp;</span>   python3 -m pip install -r requirements.txt

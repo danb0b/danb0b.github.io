@@ -1,4 +1,5 @@
 ---
+title: CV Bridge and Python 3
 ---
 getting cv_bridge working with python 3 is less straightforward.  you need to recompile cv_bridge locally.
 
@@ -30,5 +31,5 @@ pip3 install imutils
 
     in third terminal
     ```
-    rosrun tracking tracker.py 
+    rosrun tracking tracker.py
     ```

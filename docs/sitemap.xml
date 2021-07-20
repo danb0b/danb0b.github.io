@@ -17,58 +17,6 @@
   </url><url>
     <loc>https://danaukes.com/code/powerpoint-to-markdown/</loc>
   </url><url>
-    <loc>https://danaukes.com/notebook/_drafts/05-webcam/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/_drafts/17-pyfakewebcam/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/hugo-stuff/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/00-overview/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/01-setup/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/01.1-config-git/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/02-ros-install-and-config/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/03-ros-usage/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/04-ros-bridge/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/06.1-create-messages/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/06.2-create-scripts/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/07-mark-10/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/09-falcon/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/12-arduino/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/13-logitech-c930e/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/14-opencv/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/15-photon-tcp/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/16-raspbian/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/18-raspi4-uvc/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/19-tracking/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/ros/99.0-algo-vpn/</loc>
-  </url><url>
     <loc>https://danaukes.com/recipes/perfect-ten-baked-cod/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/simple-is-best-dressing/</loc>
@@ -169,9 +117,13 @@
   </url><url>
     <loc>https://danaukes.com/recipes/clam-chowder/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</loc>
+  </url><url>
     <loc>https://danaukes.com/code/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/git-commands/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/01.1-config-git/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/corn-with-winter-squash-and-spinach-and-basil/</loc>
   </url><url>
@@ -187,6 +139,16 @@
   </url><url>
     <loc>https://danaukes.com/recipes/cream-cheese-frosting/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/ros/06.1-create-messages/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/15-photon-tcp/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/06.2-create-scripts/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/19-tracking/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/czech-cabbage-rolls/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/czech-goulash/</loc>
@@ -196,6 +158,8 @@
     <loc>https://danaukes.com/code/decapitalizer/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pumpkin-bread/</loc>
+  </url><url>
+    <loc>https://danaukes.com/dummy/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/dutch-babies/</loc>
   </url><url>
@@ -214,6 +178,10 @@
     <loc>https://danaukes.com/recipes/funky-chicken/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/garlicky-chicken-thighs-with-scallion-and-lime/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/13-logitech-c930e/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/18-raspi4-uvc/</loc>
   </url><url>
     <loc>https://danaukes.com/code/git-tools/</loc>
   </url><url>
@@ -237,11 +205,23 @@
   </url><url>
     <loc>https://danaukes.com/recipes/homesteader-cornbread/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/hugo-stuff/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/ice-cream/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/idealab/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/indian-spiced-sweet-potatoes/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/99.0-algo-vpn/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/09-falcon/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/14-opencv/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/04-ros-bridge/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/kale-soup-with-potatoes-and-sausage/</loc>
   </url><url>
@@ -255,6 +235,8 @@
   </url><url>
     <loc>https://danaukes.com/recipes/lemon-caramel-crepes-with-candied-lemons/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/markdown-cheatsheet/</loc>
+  </url><url>
     <loc>https://danaukes.com/bookmarks/markdown-pandoc-and-more/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/mayonaise/</loc>
@@ -267,11 +249,13 @@
   </url><url>
     <loc>https://danaukes.com/recipes/moroccan-slow-cooked-lamb/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/03-ros-usage/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/never-fail-fudge/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/no-knead-english-muffins/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/oatmeal-crackers/</loc>
   </url><url>
@@ -282,6 +266,8 @@
     <loc>https://danaukes.com/code/photobooth/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/oregon-cherry-flan-cake/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/00-overview/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/parmesean-salad/</loc>
   </url><url>
@@ -347,9 +333,17 @@
   </url><url>
     <loc>https://danaukes.com/recipes/rolled-cookies/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/ros/02-ros-install-and-config/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/16-raspbian/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/samosas/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/saurkraut/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/01-setup/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/shaved-brussels-sprout-salad/</loc>
   </url><url>
@@ -401,7 +395,13 @@
   </url><url>
     <loc>https://danaukes.com/bookmarks/unsorted/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/ros/12-arduino/</loc>
+  </url><url>
     <loc>https://danaukes.com/notebook/find/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/07-mark-10/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/waffles-and-pancakes-from-scratch/</loc>
   </url><url>

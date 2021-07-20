@@ -1,4 +1,5 @@
 ---
+title: Hugo Stuff
 ---
 
 Create a new site with yaml format

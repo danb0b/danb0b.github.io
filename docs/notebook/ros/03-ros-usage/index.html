@@ -155,15 +155,14 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Navigating the Ros Filesystem (optional)</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <h2 id="navigating-the-ros-filesystem-optional">Navigating the Ros Filesystem (optional)</h2>
-<p>From <a href="https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">here</a></p>
+          <p>From <a href="https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">here</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#sudo apt-get install ros-&lt;distro&gt;-ros-tutorials</span>
 sudo apt-get install ros-melodic-ros-tutorials
 <span style="color:#75715e">#rospack find [package_name]</span>
@@ -201,7 +200,7 @@ catkin_make
 . ~/catkin_ws/devel/setup.bash
 
 <span style="color:#75715e">#first-order dependencies can now be reviewed with the rospack tool.</span>
-rospack depends1 beginner_tutorials 
+rospack depends1 beginner_tutorials
 
 <span style="color:#75715e">#dependencies for a package are stored in the package.xml file:</span>
 roscd beginner_tutorials
@@ -371,7 +370,7 @@ nano package.xml
 <pre><code>  &lt;build_depend&gt;message_generation&lt;/build_depend&gt;
   &lt;exec_depend&gt;message_runtime&lt;/exec_depend&gt;
 </code></pre><p>save and exit</p>
-<pre><code>nano CMakeLists.txt 
+<pre><code>nano CMakeLists.txt
 </code></pre><p>Add the message_generation dependency to the find_package call which already exists in your CMakeLists.txt so that you can generate messages. You can do this by simply adding message_generation to the list of COMPONENTS such that it looks like this:</p>
 <pre><code># Do not just add this to your CMakeLists.txt, modify the existing text to add message_generation before the closing parenthesis
 find_package(catkin REQUIRED COMPONENTS
@@ -442,10 +441,10 @@ source ./devel/setup.bash
 
 <span style="color:#75715e">#In the last tutorial we made a publisher called &#34;talker&#34;. Let&#39;s run it:</span>
 <span style="color:#75715e">#rosrun beginner_tutorials talker      (C++)</span>
-rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python) </span>
+rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</span>
 </code></pre></div><p>In another terminal:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun beginner_tutorials listener     (C++)</span>
-rosrun beginner_tutorials listener.py  <span style="color:#75715e">#(Python) </span>
+rosrun beginner_tutorials listener.py  <span style="color:#75715e">#(Python)</span>
 </code></pre></div><h2 id="recording-data-creating-a-bag-file">Recording data (creating a bag file)</h2>
 <ol>
 <li>
@@ -481,8 +480,6 @@ rosbag info subset.bag
 </ol>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<blockquote>
-</blockquote>
 
         </div>
 

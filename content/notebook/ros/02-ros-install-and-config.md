@@ -1,13 +1,11 @@
 ---
+title: ROS Instalation Summary
 ---
-
-
-## ROS Instalation Summary
 
 This is derived from [the official tutorial](https://wiki.ros.org/melodic/Installation/Ubuntu)
 
-1. Run this code:  
- 
+1. Run this code:
+
     **Note:** We're using ```ros-melodic-desktop-full```
 
     ```bash
@@ -46,8 +44,7 @@ This is derived from [the official tutorial](https://wiki.ros.org/melodic/Instal
     sudo apt install -y catkin-tools
     sudo apt install -y python3-pip python3-yaml
     sudo pip3 install rospkg catkin_pkg empy
-    
+
     ```
 
 1. Take a Snapshot
-

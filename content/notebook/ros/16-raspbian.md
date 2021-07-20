@@ -1,4 +1,5 @@
 ---
+title: Running Ros on a Raspbery Pi 4 with Raspberry Pi OS
 ---
 
 ## Introduction
@@ -9,18 +10,18 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 1. Download the Raspberry Pi Imager: <https://www.raspberrypi.org/downloads/>
 
     Alternate imagers:
-    
+
     * win32diskimager
     * <https://www.balena.io/etcher/>
 
 1. Download an Image: I used the lite version and then added packages as needed
-    
+
     * <https://www.raspberrypi.org/downloads/raspbian/>
 
 1. Install raspbian using the instructions for a headless install located here:  <https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>
 
-    Alternate instructions: 
-    
+    Alternate instructions:
+
     * <https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0>
 
 1. Make sure you follow the instructions below for setting up [wireless](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) & [ssh](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md)
@@ -37,12 +38,12 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
     arp -na
     nmap -sn 10.0.0.*
     ```
-    
+
     Note the IP address
 
 1. log on using putty
 
-1. Define a static IP address (derived from [here](https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/)) 
+1. Define a static IP address (derived from [here](https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/))
 
     1. edit dhcpcd.conf
 
@@ -52,13 +53,13 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
     1. uncomment out lines for static ip/subnet and router and define them to what you need.
     1. Restart
-    
+
         ```bash
         sudo reboot
         ```
 
     Alternate Instructions(I didn't use):
-    
+
     * <https://thepihut.com/blogs/raspberry-pi-tutorials/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address>
     * <https://www.raspberrypi.org/forums/viewtopic.php?t=133691>
 
@@ -72,7 +73,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
 1. Install ROS using [this tutorial](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi)
 
-    Alternate Instructions(didn't use): 
+    Alternate Instructions(didn't use):
 
     * <https://www.seeedstudio.com/blog/2019/08/01/installing-ros-melodic-on-raspberry-pi-4-and-rplidar-a1m8/>
 
@@ -92,7 +93,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
         ```
 
     1. After installing picamera there may be a warning.  use the next lines to fix:
-        
+
         ```
         echo "export PATH=\$PATH:/home/pi/.local/bin" >> ~/.bashrc
         source ~/.bashrc
@@ -101,7 +102,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 1. install opencv using [this tutorial](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
 
     Notes:
-    
+
     * I used option 4a
     * I didn't use virtualenv...space reasons.
     * use ``sudo pip3 install`` instead of ```pip install``` to install in python3
@@ -129,7 +130,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 1. update ros install with joystick and compressed image transport packages, following instructions [here](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Maintaining_a_Source_Checkout
 ):
 
-    and using 
+    and using
 
     ```
     rosinstall_generator ros_comm joystick_drivers compressed_image_transport camera_info_manager dynamic_reconfigure diagnostic_updater cv_bridge --rosdistro melodic --deps --wet-only --tar > melodic-custom_ros.rosinstall
@@ -137,7 +138,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
 1. Add idealab ros workspace: (see other tutorial)
 1. checkout rpi4 branch
-    
+
     ```bash
     git checkout rpi4
     ```

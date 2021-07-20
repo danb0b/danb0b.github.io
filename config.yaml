@@ -7,7 +7,7 @@ ignorefiles:
   - ignore/*
 taxonomies:
   category: categories
-  #tag: tags  
+  tag: dummy
 disqusShortname: ''
 languageCode: en-us
 menu:
@@ -53,6 +53,7 @@ outputs:
   - JSON
 paginate: 6
 params:
+  formspree: https://formspree.io/f/mayadavw
   HideDate: true
   author: Dan Aukes
   cookies:

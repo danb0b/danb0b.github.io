@@ -1,4 +1,5 @@
 ---
+title: Creating a custom Photon Package
 ---
 ## Introduction
 

@@ -38,248 +38,6 @@ requires pandoc, powerpoint</description>
     
     <item>
       <title></title>
-      <link>https://danaukes.com/notebook/_drafts/05-webcam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/_drafts/05-webcam/</guid>
-      <description>Webcam Tutorial Original Reference
-Configure the camera   check camera availability</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/_drafts/17-pyfakewebcam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/_drafts/17-pyfakewebcam/</guid>
-      <description>https://github.com/jremmons/pyfakewebcam
-use pip3 instead of pip
-https://github.com/jremmons/pyfakewebcam/issues/5</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/hugo-stuff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/hugo-stuff/</guid>
-      <description>Create a new site with yaml format
-hugo new site --format=yaml dox </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/00-overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/00-overview/</guid>
-      <description>Introduction The purpose of this project is to document our implementation of ROS and teach lab members how to use it for a number of purposes specific to the activities of a robotics lab like the IDEAlab.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/01-setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/01-setup/</guid>
-      <description>Introduction This section discusses how to prepare a computer for installing ROS.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/01.1-config-git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/01.1-config-git/</guid>
-      <description>Config git git config --global user.email &amp;#34;danaukes@gmail.com&amp;#34; git config --global user.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/02-ros-install-and-config/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/02-ros-install-and-config/</guid>
-      <description>ROS Instalation Summary This is derived from the official tutorial</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</guid>
-      <description>Installing and Configuring the default ROS Environment This is not necessary if you will be creating your own custom workspace</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/03-ros-usage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/03-ros-usage/</guid>
-      <description>Navigating the Ros Filesystem (optional) From here
-#sudo apt-get install ros-&amp;lt;distro&amp;gt;-ros-tutorials sudo apt-get install ros-melodic-ros-tutorials #rospack find [package_name] rospack find roscpp #roscd [locationname[/subdir]] roscd roscpp #print the working directory using the Unix command pwd #To see what is in your ROS_PACKAGE_PATH, type: echo $ROS_PACKAGE_PATH #roscd can also move to a subdirectory of a package or stack.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/04-ros-bridge/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/04-ros-bridge/</guid>
-      <description>Introduction This section describes installing RosBridge, which is useful for communicating to devices which do not have ROS installed (like windows machines with custom drivers)</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</guid>
-      <description>Clone and Setup Custom Workspace   Clone the idealab repository</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</guid>
-      <description>Create a new package ```bash cd ~/code_idealab_ros/src/ catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscpp cd ~/code_idealab_ros/ catkin_make ```    Find package dependencies:</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/06.1-create-messages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/06.1-create-messages/</guid>
-      <description>Create a message   Create Message
-roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/06.2-create-scripts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/06.2-create-scripts/</guid>
-      <description>Create Scripts see https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python) for details on how to customize</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/07-mark-10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/07-mark-10/</guid>
-      <description>prep the host machine in a virtualbox environment  Download and install drivers from the mark 10 website plug in and turn on mark 10.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/09-falcon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/09-falcon/</guid>
-      <description>Introduction This tutorial describes how to install and run a Novint falcon in an Ubuntu virtual machine.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</guid>
-      <description>Introduction These instructions are for loading and running the thorlabs linear stage in ROS.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/12-arduino/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/12-arduino/</guid>
-      <description>Introduction These instructions were for how to create the package from scratch.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/13-logitech-c930e/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/13-logitech-c930e/</guid>
-      <description>Using a USB webcam (with virtualbox) Introduction Making a usb webcam work in Linux AND virtualbox is not as easy as it sounds.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/14-opencv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/14-opencv/</guid>
-      <description>install opencv for python
-sudo apt update sudo apt install python3-opencv # may be done already depending on what you installed.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/15-photon-tcp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/15-photon-tcp/</guid>
-      <description>Introduction These instructions were used to create the photon package. Please see the package in the src directory to see the resulting code and setup</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/16-raspbian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/16-raspbian/</guid>
-      <description>Introduction Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/18-raspi4-uvc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/18-raspi4-uvc/</guid>
-      <description>install uvc stuff.
-sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo apt install uvccapture uvcdynctrl    try guvcview or cheese to see if you can see video output(may need to install):</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/19-tracking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/19-tracking/</guid>
-      <description>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/ros/99.0-algo-vpn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/ros/99.0-algo-vpn/</guid>
-      <description>Introduction While this is a bit off topic, it is sometimes necessary to create a virtual network to enable computers across a large distance to communicate as if on the same network.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://danaukes.com/recipes/perfect-ten-baked-cod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -711,6 +469,16 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
     </item>
     
     <item>
+      <title>Clone and Setup Custom Workspace</title>
+      <link>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</guid>
+      <description>Steps   Clone the idealab repository
+git clone https://github.com/idealabasu/code_idealab_ros.git   Compile</description>
+    </item>
+    
+    <item>
       <title>Common Git Commands</title>
       <link>https://danaukes.com/notebook/git-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -718,6 +486,15 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
       <guid>https://danaukes.com/notebook/git-commands/</guid>
       <description>to clone a repository:
 git clone my_git_address list local branches:</description>
+    </item>
+    
+    <item>
+      <title>Configure Git</title>
+      <link>https://danaukes.com/notebook/ros/01.1-config-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/01.1-config-git/</guid>
+      <description>git config --global user.email &amp;#34;danaukes@gmail.com&amp;#34; git config --global user.name &amp;#34;Dan Aukes&amp;#34; Update git roscd thorlabs_linear_actuator/ git status git add -A git commit -m=&amp;#34;&amp;lt;INSERT YOUR MESSAGE HERE&amp;gt;&amp;#34; git push # supply username and pw </description>
     </item>
     
     <item>
@@ -781,6 +558,53 @@ git clone my_git_address list local branches:</description>
       
       <guid>https://danaukes.com/recipes/cream-cheese-frosting/</guid>
       <description>Ingredients 1/2 cup butter, softened 8 ounces cream cheese, softened 4 cups confectioners&#39; sugar 1 teaspoon vanilla extract 1 cup chopped pecans</description>
+    </item>
+    
+    <item>
+      <title>Create a new message</title>
+      <link>https://danaukes.com/notebook/ros/06.1-create-messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/06.1-create-messages/</guid>
+      <description>Steps   Create Message
+roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
+    </item>
+    
+    <item>
+      <title>Creating a custom Photon Package</title>
+      <link>https://danaukes.com/notebook/ros/15-photon-tcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/15-photon-tcp/</guid>
+      <description>Introduction These instructions were used to create the photon package. Please see the package in the src directory to see the resulting code and setup</description>
+    </item>
+    
+    <item>
+      <title>Creating a new package</title>
+      <link>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</guid>
+      <description>Create a new package ```bash cd ~/code_idealab_ros/src/ catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscpp cd ~/code_idealab_ros/ catkin_make ```    Find package dependencies:</description>
+    </item>
+    
+    <item>
+      <title>Creating Scripts</title>
+      <link>https://danaukes.com/notebook/ros/06.2-create-scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/06.2-create-scripts/</guid>
+      <description>Steps see https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python) for details on how to customize
+  create the scripts directory and pull talker and listener examples</description>
+    </item>
+    
+    <item>
+      <title>CV Bridge and Python 3</title>
+      <link>https://danaukes.com/notebook/ros/19-tracking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/19-tracking/</guid>
+      <description>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.</description>
     </item>
     
     <item>
@@ -910,6 +734,25 @@ git clone my_git_address list local branches:</description>
     </item>
     
     <item>
+      <title>Getting the Logitech c930 working with ROS</title>
+      <link>https://danaukes.com/notebook/ros/13-logitech-c930e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/13-logitech-c930e/</guid>
+      <description>Using a USB webcam (with virtualbox) Introduction Making a usb webcam work in Linux AND virtualbox is not as easy as it sounds.</description>
+    </item>
+    
+    <item>
+      <title>Getting UVC working with Raspberry Pi</title>
+      <link>https://danaukes.com/notebook/ros/18-raspi4-uvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/18-raspi4-uvc/</guid>
+      <description>install uvc stuff.
+sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo apt install uvccapture uvcdynctrl   try guvcview or cheese to see if you can see video output(may need to install):</description>
+    </item>
+    
+    <item>
       <title>Git Tools</title>
       <link>https://danaukes.com/code/git-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1010,6 +853,16 @@ Package URL: https://github.com/danb0b/code_media_tools</description>
     </item>
     
     <item>
+      <title>Hugo Stuff</title>
+      <link>https://danaukes.com/notebook/hugo-stuff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/hugo-stuff/</guid>
+      <description>Create a new site with yaml format
+hugo new site --format=yaml dox </description>
+    </item>
+    
+    <item>
       <title>Ice Cream</title>
       <link>https://danaukes.com/recipes/ice-cream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1034,6 +887,52 @@ Package URL: https://github.com/danb0b/code_media_tools</description>
       
       <guid>https://danaukes.com/recipes/indian-spiced-sweet-potatoes/</guid>
       <description>Ingredients  2 pounds sweet potatoes or yams Kosher salt and freshly ground black pepper 3 tablespoons clarified butter or ghee 1/2 teaspoon coriander seeds 1/2 teaspoon cumin seeds 1/2 teaspoon brown or black mustard seeds 1/2 teaspoon turmeric 4 fresh curry leaves, optional 2 tablespoons chopped fresh cilantro Juice of 1/2 lime  Directions  Preheat the oven to 350 degrees F.</description>
+    </item>
+    
+    <item>
+      <title>Installing Algo VPN</title>
+      <link>https://danaukes.com/notebook/ros/99.0-algo-vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/99.0-algo-vpn/</guid>
+      <description>Introduction While this is a bit off topic, it is sometimes necessary to create a virtual network to enable computers across a large distance to communicate as if on the same network.</description>
+    </item>
+    
+    <item>
+      <title>Installing and Configuring the default ROS Environment</title>
+      <link>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</guid>
+      <description>This is not necessary if you will be creating your own custom workspace</description>
+    </item>
+    
+    <item>
+      <title>Installing and Running the Novint Falcon</title>
+      <link>https://danaukes.com/notebook/ros/09-falcon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/09-falcon/</guid>
+      <description>Introduction This tutorial describes how to install and run a Novint falcon in an Ubuntu virtual machine.</description>
+    </item>
+    
+    <item>
+      <title>Installing OpenCV</title>
+      <link>https://danaukes.com/notebook/ros/14-opencv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/14-opencv/</guid>
+      <description>install opencv for python
+sudo apt update sudo apt install python3-opencv # may be done already depending on what you installed.</description>
+    </item>
+    
+    <item>
+      <title>Installing, Running, and Using RosBridge</title>
+      <link>https://danaukes.com/notebook/ros/04-ros-bridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/04-ros-bridge/</guid>
+      <description>Introduction This section describes installing RosBridge, which is useful for communicating to devices which do not have ROS installed (like windows machines with custom drivers)</description>
     </item>
     
     <item>
@@ -1091,6 +990,16 @@ Package URL: https://github.com/danb0b/code_media_tools</description>
     </item>
     
     <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>https://danaukes.com/notebook/markdown-cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/markdown-cheatsheet/</guid>
+      <description>Derived from https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0
+Headings There are few options to create headings.</description>
+    </item>
+    
+    <item>
       <title>Markdown, Pandoc, and More</title>
       <link>https://danaukes.com/bookmarks/markdown-pandoc-and-more/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1143,6 +1052,16 @@ Package URL: https://github.com/danb0b/code_media_tools</description>
       <guid>https://danaukes.com/recipes/moroccan-slow-cooked-lamb/</guid>
       <description>Makes 6 servings
 Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspoons salt 1 teaspoon fennel seeds 1/2 teaspoon cayenne pepper 1/2 teaspoon ground black pepper 2 1/2 pounds trimmed boned lamb shoulder, cut into 1 1/2- to 2-inch pieces 4 tablespoons olive oil, divided 1 large onion, finely chopped 1 tablespoon tomato paste 2 cups low-salt chicken broth 1 15 1/2-ounce can garbanzo beans (chickpeas), drained 1 cup dried apricots (about 5 ounces) 2 large plum tomatoes, chopped 2 cinnamon sticks 1 tablespoon minced peeled fresh ginger 2 teaspoons (packed) grated lemon peel 2 tablespoons chopped fresh cilantro  Directions  Mix first 6 ingredients in large bowl.</description>
+    </item>
+    
+    <item>
+      <title>Navigating the Ros Filesystem (optional)</title>
+      <link>https://danaukes.com/notebook/ros/03-ros-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/03-ros-usage/</guid>
+      <description>From here
+#sudo apt-get install ros-&amp;lt;distro&amp;gt;-ros-tutorials sudo apt-get install ros-melodic-ros-tutorials #rospack find [package_name] rospack find roscpp #roscd [locationname[/subdir]] roscd roscpp #print the working directory using the Unix command pwd #To see what is in your ROS_PACKAGE_PATH, type: echo $ROS_PACKAGE_PATH #roscd can also move to a subdirectory of a package or stack.</description>
     </item>
     
     <item>
@@ -1206,6 +1125,15 @@ Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspo
       
       <guid>https://danaukes.com/recipes/oregon-cherry-flan-cake/</guid>
       <description>Ingredients  1 Devil&amp;rsquo;s Food Chocolate cake mix 1 8oz package cream cheese 1 14oz can sweetened condensed milk 1/3 cup lemon juice 1 teaspoon vanilla 2 cans Oregon dark sweet or red tart pitted cheerries, drained, reserve syrup.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://danaukes.com/notebook/ros/00-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/00-overview/</guid>
+      <description>Introduction The purpose of this project is to document our implementation of ROS and teach lab members how to use it for a number of purposes specific to the activities of a robotics lab like the IDEAlab.</description>
     </item>
     
     <item>
@@ -1488,6 +1416,25 @@ Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspo
     </item>
     
     <item>
+      <title>ROS Instalation Summary</title>
+      <link>https://danaukes.com/notebook/ros/02-ros-install-and-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/02-ros-install-and-config/</guid>
+      <description>This is derived from the official tutorial
+  Run this code:</description>
+    </item>
+    
+    <item>
+      <title>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS</title>
+      <link>https://danaukes.com/notebook/ros/16-raspbian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/16-raspbian/</guid>
+      <description>Introduction Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18.</description>
+    </item>
+    
+    <item>
       <title>Samosas</title>
       <link>https://danaukes.com/recipes/samosas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1503,6 +1450,15 @@ Ingredients  1 tablespoon ground cumin 2 teaspoons ground coriander 1 1/2 teaspo
       
       <guid>https://danaukes.com/recipes/saurkraut/</guid>
       <description>Ingredients  5 pounds green cabbage, shredded 3 tablespoons pickling salt 1 tablespoon juniper berries 2 teaspoons caraway seeds 1 quart water, in a sanitized glass jar  Directions  In large mixing bowl, mix cabbage thoroughly with salt, juniper berries, and caraway seeds, using hands or tongs.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://danaukes.com/notebook/ros/01-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/01-setup/</guid>
+      <description>Introduction This section discusses how to prepare a computer for installing ROS.</description>
     </item>
     
     <item>
@@ -1732,12 +1688,39 @@ Ingredients  1-1/2 cup flour 1/2 cup crisco 1/2 tsp salt 5-7 tsp of ice water  D
     </item>
     
     <item>
+      <title>Using Arduino with ROS</title>
+      <link>https://danaukes.com/notebook/ros/12-arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/12-arduino/</guid>
+      <description>Introduction These instructions were for how to create the package from scratch.</description>
+    </item>
+    
+    <item>
       <title>Using the ```find``` command in bash</title>
       <link>https://danaukes.com/notebook/find/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://danaukes.com/notebook/find/</guid>
       <description>Using the find command in bash Find all files below the current directory that match &amp;ldquo;tecmint.</description>
+    </item>
+    
+    <item>
+      <title>Using the Mark-10</title>
+      <link>https://danaukes.com/notebook/ros/07-mark-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/07-mark-10/</guid>
+      <description>prep the host machine in a virtualbox environment  Download and install drivers from the mark 10 website plug in and turn on mark 10.</description>
+    </item>
+    
+    <item>
+      <title>Using the Thorlabs linear stage</title>
+      <link>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</guid>
+      <description>Introduction These instructions are for loading and running the thorlabs linear stage in ROS.</description>
     </item>
     
     <item>

@@ -1,4 +1,5 @@
 ---
+title: Installing, Running, and Using RosBridge
 ---
 
 ## Introduction
@@ -42,7 +43,7 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
 
     #In the last tutorial we made a publisher called "talker". Let's run it:
     #rosrun beginner_tutorials talker      (C++)
-    rosrun beginner_tutorials talker.py  # (Python) 
+    rosrun beginner_tutorials talker.py  # (Python)
     ```
 
 ## Non-ROS machine setup
@@ -53,7 +54,7 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
     ```
     pip install service_identity roslibpy
     ```
-    
+
 1. create a file called listener.py, substituting the ip address of the ROS Master for <IPADDRESS>.  Paste in the following:
 
     ```python
@@ -123,4 +124,3 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
     ```bash
     rostopic echo /dancustom
     ```
-
