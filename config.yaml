@@ -5,6 +5,9 @@ theme:
 - liva-hugo
 ignorefiles:
   - ignore/*
+taxonomies:
+  category: categories
+  #tag: tags  
 disqusShortname: ''
 languageCode: en-us
 menu:
@@ -50,6 +53,7 @@ outputs:
   - JSON
 paginate: 6
 params:
+  HideDate: true
   author: Dan Aukes
   cookies:
     enable: false
