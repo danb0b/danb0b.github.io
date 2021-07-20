@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Get In Touch on Dan Aukes</title>
-    <link>http://danaukes.com/contact/</link>
+    <link>https://danaukes.com/contact/</link>
     <description>Recent content in Get In Touch on Dan Aukes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="http://danaukes.com/contact/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://danaukes.com/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

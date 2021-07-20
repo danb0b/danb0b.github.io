@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notebooks on Dan Aukes</title>
-    <link>http://danaukes.com/notebook/</link>
+    <link>https://danaukes.com/notebook/</link>
     <description>Recent content in Notebooks on Dan Aukes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://danaukes.com/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://danaukes.com/notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/_drafts/05-webcam/</link>
+      <link>https://danaukes.com/notebook/_drafts/05-webcam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/_drafts/05-webcam/</guid>
+      <guid>https://danaukes.com/notebook/_drafts/05-webcam/</guid>
       <description>Webcam Tutorial Original Reference
 Configure the camera   check camera availability</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/_drafts/17-pyfakewebcam/</link>
+      <link>https://danaukes.com/notebook/_drafts/17-pyfakewebcam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/_drafts/17-pyfakewebcam/</guid>
+      <guid>https://danaukes.com/notebook/_drafts/17-pyfakewebcam/</guid>
       <description>https://github.com/jremmons/pyfakewebcam
 use pip3 instead of pip
 https://github.com/jremmons/pyfakewebcam/issues/5</description>
@@ -29,250 +29,250 @@ https://github.com/jremmons/pyfakewebcam/issues/5</description>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/hugo-stuff/</link>
+      <link>https://danaukes.com/notebook/hugo-stuff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/hugo-stuff/</guid>
+      <guid>https://danaukes.com/notebook/hugo-stuff/</guid>
       <description>Create a new site with yaml format
 hugo new site --format=yaml dox </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/00-overview/</link>
+      <link>https://danaukes.com/notebook/ros/00-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/00-overview/</guid>
+      <guid>https://danaukes.com/notebook/ros/00-overview/</guid>
       <description>Introduction The purpose of this project is to document our implementation of ROS and teach lab members how to use it for a number of purposes specific to the activities of a robotics lab like the IDEAlab.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/01-setup/</link>
+      <link>https://danaukes.com/notebook/ros/01-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/01-setup/</guid>
+      <guid>https://danaukes.com/notebook/ros/01-setup/</guid>
       <description>Introduction This section discusses how to prepare a computer for installing ROS.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/01.1-config-git/</link>
+      <link>https://danaukes.com/notebook/ros/01.1-config-git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/01.1-config-git/</guid>
+      <guid>https://danaukes.com/notebook/ros/01.1-config-git/</guid>
       <description>Config git git config --global user.email &amp;#34;danaukes@gmail.com&amp;#34; git config --global user.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/02-ros-install-and-config/</link>
+      <link>https://danaukes.com/notebook/ros/02-ros-install-and-config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/02-ros-install-and-config/</guid>
+      <guid>https://danaukes.com/notebook/ros/02-ros-install-and-config/</guid>
       <description>ROS Instalation Summary This is derived from the official tutorial</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</link>
+      <link>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</guid>
+      <guid>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</guid>
       <description>Installing and Configuring the default ROS Environment This is not necessary if you will be creating your own custom workspace</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</link>
+      <link>https://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</guid>
+      <guid>https://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/03-ros-usage/</link>
+      <link>https://danaukes.com/notebook/ros/03-ros-usage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/03-ros-usage/</guid>
+      <guid>https://danaukes.com/notebook/ros/03-ros-usage/</guid>
       <description>Navigating the Ros Filesystem (optional) From here
 #sudo apt-get install ros-&amp;lt;distro&amp;gt;-ros-tutorials sudo apt-get install ros-melodic-ros-tutorials #rospack find [package_name] rospack find roscpp #roscd [locationname[/subdir]] roscd roscpp #print the working directory using the Unix command pwd #To see what is in your ROS_PACKAGE_PATH, type: echo $ROS_PACKAGE_PATH #roscd can also move to a subdirectory of a package or stack.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/04-ros-bridge/</link>
+      <link>https://danaukes.com/notebook/ros/04-ros-bridge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/04-ros-bridge/</guid>
+      <guid>https://danaukes.com/notebook/ros/04-ros-bridge/</guid>
       <description>Introduction This section describes installing RosBridge, which is useful for communicating to devices which do not have ROS installed (like windows machines with custom drivers)</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/06-custom-workspace-setup/</link>
+      <link>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/06-custom-workspace-setup/</guid>
+      <guid>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</guid>
       <description>Clone and Setup Custom Workspace   Clone the idealab repository</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/06.0-create-a-new-package/</link>
+      <link>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/06.0-create-a-new-package/</guid>
+      <guid>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</guid>
       <description>Create a new package ```bash cd ~/code_idealab_ros/src/ catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscpp cd ~/code_idealab_ros/ catkin_make ```    Find package dependencies:</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/06.1-create-messages/</link>
+      <link>https://danaukes.com/notebook/ros/06.1-create-messages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/06.1-create-messages/</guid>
+      <guid>https://danaukes.com/notebook/ros/06.1-create-messages/</guid>
       <description>Create a message   Create Message
 roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/06.2-create-scripts/</link>
+      <link>https://danaukes.com/notebook/ros/06.2-create-scripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/06.2-create-scripts/</guid>
+      <guid>https://danaukes.com/notebook/ros/06.2-create-scripts/</guid>
       <description>Create Scripts see https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python) for details on how to customize</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/07-mark-10/</link>
+      <link>https://danaukes.com/notebook/ros/07-mark-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/07-mark-10/</guid>
+      <guid>https://danaukes.com/notebook/ros/07-mark-10/</guid>
       <description>prep the host machine in a virtualbox environment  Download and install drivers from the mark 10 website plug in and turn on mark 10.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/09-falcon/</link>
+      <link>https://danaukes.com/notebook/ros/09-falcon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/09-falcon/</guid>
+      <guid>https://danaukes.com/notebook/ros/09-falcon/</guid>
       <description>Introduction This tutorial describes how to install and run a Novint falcon in an Ubuntu virtual machine.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</link>
+      <link>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</guid>
+      <guid>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</guid>
       <description>Introduction These instructions are for loading and running the thorlabs linear stage in ROS.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/12-arduino/</link>
+      <link>https://danaukes.com/notebook/ros/12-arduino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/12-arduino/</guid>
+      <guid>https://danaukes.com/notebook/ros/12-arduino/</guid>
       <description>Introduction These instructions were for how to create the package from scratch.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/13-logitech-c930e/</link>
+      <link>https://danaukes.com/notebook/ros/13-logitech-c930e/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/13-logitech-c930e/</guid>
+      <guid>https://danaukes.com/notebook/ros/13-logitech-c930e/</guid>
       <description>Using a USB webcam (with virtualbox) Introduction Making a usb webcam work in Linux AND virtualbox is not as easy as it sounds.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/14-opencv/</link>
+      <link>https://danaukes.com/notebook/ros/14-opencv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/14-opencv/</guid>
+      <guid>https://danaukes.com/notebook/ros/14-opencv/</guid>
       <description>install opencv for python
 sudo apt update sudo apt install python3-opencv # may be done already depending on what you installed.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/15-photon-tcp/</link>
+      <link>https://danaukes.com/notebook/ros/15-photon-tcp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/15-photon-tcp/</guid>
+      <guid>https://danaukes.com/notebook/ros/15-photon-tcp/</guid>
       <description>Introduction These instructions were used to create the photon package. Please see the package in the src directory to see the resulting code and setup</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/16-raspbian/</link>
+      <link>https://danaukes.com/notebook/ros/16-raspbian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/16-raspbian/</guid>
+      <guid>https://danaukes.com/notebook/ros/16-raspbian/</guid>
       <description>Introduction Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/18-raspi4-uvc/</link>
+      <link>https://danaukes.com/notebook/ros/18-raspi4-uvc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/18-raspi4-uvc/</guid>
+      <guid>https://danaukes.com/notebook/ros/18-raspi4-uvc/</guid>
       <description>install uvc stuff.
 sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo apt install uvccapture uvcdynctrl    try guvcview or cheese to see if you can see video output(may need to install):</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/19-tracking/</link>
+      <link>https://danaukes.com/notebook/ros/19-tracking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/19-tracking/</guid>
+      <guid>https://danaukes.com/notebook/ros/19-tracking/</guid>
       <description>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://danaukes.com/notebook/ros/99.0-algo-vpn/</link>
+      <link>https://danaukes.com/notebook/ros/99.0-algo-vpn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/ros/99.0-algo-vpn/</guid>
+      <guid>https://danaukes.com/notebook/ros/99.0-algo-vpn/</guid>
       <description>Introduction While this is a bit off topic, it is sometimes necessary to create a virtual network to enable computers across a large distance to communicate as if on the same network.</description>
     </item>
     
     <item>
       <title>Common Git Commands</title>
-      <link>http://danaukes.com/notebook/git-commands/</link>
+      <link>https://danaukes.com/notebook/git-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/git-commands/</guid>
+      <guid>https://danaukes.com/notebook/git-commands/</guid>
       <description>to clone a repository:
 git clone my_git_address list local branches:</description>
     </item>
     
     <item>
       <title>Grep Cookbook</title>
-      <link>http://danaukes.com/notebook/grep-cookbook/</link>
+      <link>https://danaukes.com/notebook/grep-cookbook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/grep-cookbook/</guid>
+      <guid>https://danaukes.com/notebook/grep-cookbook/</guid>
       <description>Grep Cookbook grep -Iiran &amp;#34;pCtip&amp;#34; ./ A more complex example:</description>
     </item>
     
     <item>
       <title>Using the ```find``` command in bash</title>
-      <link>http://danaukes.com/notebook/find/</link>
+      <link>https://danaukes.com/notebook/find/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danaukes.com/notebook/find/</guid>
+      <guid>https://danaukes.com/notebook/find/</guid>
       <description>Using the find command in bash Find all files below the current directory that match &amp;ldquo;tecmint.</description>
     </item>
     

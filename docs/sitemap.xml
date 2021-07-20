@@ -2,475 +2,475 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://danaukes.com/about/</loc>
+    <loc>https://danaukes.com/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>http://danaukes.com/</loc>
+    <loc>https://danaukes.com/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>http://danaukes.com/contact/</loc>
+    <loc>https://danaukes.com/contact/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>http://danaukes.com/code/file-sorter/</loc>
+    <loc>https://danaukes.com/code/file-sorter/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/pandoc-plus/</loc>
+    <loc>https://danaukes.com/code/pandoc-plus/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/powerpoint-to-markdown/</loc>
+    <loc>https://danaukes.com/code/powerpoint-to-markdown/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/_drafts/05-webcam/</loc>
+    <loc>https://danaukes.com/notebook/_drafts/05-webcam/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/_drafts/17-pyfakewebcam/</loc>
+    <loc>https://danaukes.com/notebook/_drafts/17-pyfakewebcam/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/hugo-stuff/</loc>
+    <loc>https://danaukes.com/notebook/hugo-stuff/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/00-overview/</loc>
+    <loc>https://danaukes.com/notebook/ros/00-overview/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/01-setup/</loc>
+    <loc>https://danaukes.com/notebook/ros/01-setup/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/01.1-config-git/</loc>
+    <loc>https://danaukes.com/notebook/ros/01.1-config-git/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/02-ros-install-and-config/</loc>
+    <loc>https://danaukes.com/notebook/ros/02-ros-install-and-config/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</loc>
+    <loc>https://danaukes.com/notebook/ros/02.1-install-default-ros-workspace/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</loc>
+    <loc>https://danaukes.com/notebook/ros/02.2-ros-filestystem-commands/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/03-ros-usage/</loc>
+    <loc>https://danaukes.com/notebook/ros/03-ros-usage/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/04-ros-bridge/</loc>
+    <loc>https://danaukes.com/notebook/ros/04-ros-bridge/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/06-custom-workspace-setup/</loc>
+    <loc>https://danaukes.com/notebook/ros/06-custom-workspace-setup/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/06.0-create-a-new-package/</loc>
+    <loc>https://danaukes.com/notebook/ros/06.0-create-a-new-package/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/06.1-create-messages/</loc>
+    <loc>https://danaukes.com/notebook/ros/06.1-create-messages/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/06.2-create-scripts/</loc>
+    <loc>https://danaukes.com/notebook/ros/06.2-create-scripts/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/07-mark-10/</loc>
+    <loc>https://danaukes.com/notebook/ros/07-mark-10/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/09-falcon/</loc>
+    <loc>https://danaukes.com/notebook/ros/09-falcon/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</loc>
+    <loc>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/12-arduino/</loc>
+    <loc>https://danaukes.com/notebook/ros/12-arduino/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/13-logitech-c930e/</loc>
+    <loc>https://danaukes.com/notebook/ros/13-logitech-c930e/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/14-opencv/</loc>
+    <loc>https://danaukes.com/notebook/ros/14-opencv/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/15-photon-tcp/</loc>
+    <loc>https://danaukes.com/notebook/ros/15-photon-tcp/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/16-raspbian/</loc>
+    <loc>https://danaukes.com/notebook/ros/16-raspbian/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/18-raspi4-uvc/</loc>
+    <loc>https://danaukes.com/notebook/ros/18-raspi4-uvc/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/19-tracking/</loc>
+    <loc>https://danaukes.com/notebook/ros/19-tracking/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/ros/99.0-algo-vpn/</loc>
+    <loc>https://danaukes.com/notebook/ros/99.0-algo-vpn/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/perfect-ten-baked-cod/</loc>
+    <loc>https://danaukes.com/recipes/perfect-ten-baked-cod/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/simple-is-best-dressing/</loc>
+    <loc>https://danaukes.com/recipes/simple-is-best-dressing/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/acorn-squash-with-apple/</loc>
+    <loc>https://danaukes.com/recipes/acorn-squash-with-apple/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/appetizer/</loc>
+    <loc>https://danaukes.com/tags/appetizer/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/apple-crisp/</loc>
+    <loc>https://danaukes.com/recipes/apple-crisp/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/apple-pie/</loc>
+    <loc>https://danaukes.com/recipes/apple-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/asian/</loc>
+    <loc>https://danaukes.com/tags/asian/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/asu/</loc>
+    <loc>https://danaukes.com/bookmarks/asu/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/baked-french-toast/</loc>
+    <loc>https://danaukes.com/recipes/baked-french-toast/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/baked-parmesean-kale-puffs/</loc>
+    <loc>https://danaukes.com/recipes/baked-parmesean-kale-puffs/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/baked-salmon/</loc>
+    <loc>https://danaukes.com/recipes/baked-salmon/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/balsamic-chicken-with-figs-and-onion/</loc>
+    <loc>https://danaukes.com/recipes/balsamic-chicken-with-figs-and-onion/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/balsamic-roasted-beet-salad/</loc>
+    <loc>https://danaukes.com/recipes/balsamic-roasted-beet-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/banana-banana-bread/</loc>
+    <loc>https://danaukes.com/recipes/banana-banana-bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/banana-bread-ii/</loc>
+    <loc>https://danaukes.com/recipes/banana-bread-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/banana-bread/</loc>
+    <loc>https://danaukes.com/recipes/banana-bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/barrel-fermented-pickles/</loc>
+    <loc>https://danaukes.com/recipes/barrel-fermented-pickles/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/bean-soup/</loc>
+    <loc>https://danaukes.com/recipes/bean-soup/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/beef/</loc>
+    <loc>https://danaukes.com/tags/beef/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/beef-and-quinoa-meatballs/</loc>
+    <loc>https://danaukes.com/recipes/beef-and-quinoa-meatballs/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/beef-fajita-marinade-i/</loc>
+    <loc>https://danaukes.com/recipes/beef-fajita-marinade-i/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/beef-fajita-marinade-ii/</loc>
+    <loc>https://danaukes.com/recipes/beef-fajita-marinade-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/beef-fajita-marinade-iii/</loc>
+    <loc>https://danaukes.com/recipes/beef-fajita-marinade-iii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/beet-and-kale-tacos/</loc>
+    <loc>https://danaukes.com/recipes/beet-and-kale-tacos/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/beet-chutney/</loc>
+    <loc>https://danaukes.com/recipes/beet-chutney/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/best-bread-machine-bread/</loc>
+    <loc>https://danaukes.com/recipes/best-bread-machine-bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/best-ever-green-bean-casserole/</loc>
+    <loc>https://danaukes.com/recipes/best-ever-green-bean-casserole/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/black-bean-soup/</loc>
+    <loc>https://danaukes.com/recipes/black-bean-soup/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/blackberry-pie/</loc>
+    <loc>https://danaukes.com/recipes/blackberry-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/blogger-extractor/</loc>
+    <loc>https://danaukes.com/code/blogger-extractor/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/blueberries-with-lemon-cream/</loc>
+    <loc>https://danaukes.com/recipes/blueberries-with-lemon-cream/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/blueberry-pie/</loc>
+    <loc>https://danaukes.com/recipes/blueberry-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/</loc>
+    <loc>https://danaukes.com/bookmarks/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/bread/</loc>
+    <loc>https://danaukes.com/tags/bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/breakfast/</loc>
+    <loc>https://danaukes.com/tags/breakfast/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/breakfast-casserole/</loc>
+    <loc>https://danaukes.com/recipes/breakfast-casserole/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/butterflake-rolls/</loc>
+    <loc>https://danaukes.com/recipes/butterflake-rolls/</loc>
   </url><url>
-    <loc>http://danaukes.com/calendar/</loc>
+    <loc>https://danaukes.com/calendar/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/candied-pecans/</loc>
+    <loc>https://danaukes.com/recipes/candied-pecans/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/candy-bar-ice-cream-pie/</loc>
+    <loc>https://danaukes.com/recipes/candy-bar-ice-cream-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/canning-and-pickling/</loc>
+    <loc>https://danaukes.com/tags/canning-and-pickling/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/caramels/</loc>
+    <loc>https://danaukes.com/recipes/caramels/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/carrot-cake/</loc>
+    <loc>https://danaukes.com/recipes/carrot-cake/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/casserole/</loc>
+    <loc>https://danaukes.com/tags/casserole/</loc>
   </url><url>
-    <loc>http://danaukes.com/categories/</loc>
+    <loc>https://danaukes.com/categories/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/cheesecake/</loc>
+    <loc>https://danaukes.com/recipes/cheesecake/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/chicken/</loc>
+    <loc>https://danaukes.com/tags/chicken/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chicken-and-roasted-figs/</loc>
+    <loc>https://danaukes.com/recipes/chicken-and-roasted-figs/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chicken-satay-with-spicy-peanut-sauce/</loc>
+    <loc>https://danaukes.com/recipes/chicken-satay-with-spicy-peanut-sauce/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chicken-tikka-masala/</loc>
+    <loc>https://danaukes.com/recipes/chicken-tikka-masala/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/chickent/</loc>
+    <loc>https://danaukes.com/tags/chickent/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chili-con-cornbread/</loc>
+    <loc>https://danaukes.com/recipes/chili-con-cornbread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chipotle-salsa/</loc>
+    <loc>https://danaukes.com/recipes/chipotle-salsa/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chocolate-and-sea-salt-fig-lollipops/</loc>
+    <loc>https://danaukes.com/recipes/chocolate-and-sea-salt-fig-lollipops/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chocolate-chip-cookies/</loc>
+    <loc>https://danaukes.com/recipes/chocolate-chip-cookies/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chocolate-mousse/</loc>
+    <loc>https://danaukes.com/recipes/chocolate-mousse/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/chocolate-mousse-ii/</loc>
+    <loc>https://danaukes.com/recipes/chocolate-mousse-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/cinnamon-rolls/</loc>
+    <loc>https://danaukes.com/recipes/cinnamon-rolls/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/clam-chowder/</loc>
+    <loc>https://danaukes.com/recipes/clam-chowder/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/</loc>
+    <loc>https://danaukes.com/code/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/git-commands/</loc>
+    <loc>https://danaukes.com/notebook/git-commands/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/cookies/</loc>
+    <loc>https://danaukes.com/tags/cookies/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/corn-with-winter-squash-and-spinach-and-basil/</loc>
+    <loc>https://danaukes.com/recipes/corn-with-winter-squash-and-spinach-and-basil/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/courses-and-classrooms/</loc>
+    <loc>https://danaukes.com/bookmarks/courses-and-classrooms/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/crabapple-pie/</loc>
+    <loc>https://danaukes.com/recipes/crabapple-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/cranberry-balsamic-chicken/</loc>
+    <loc>https://danaukes.com/recipes/cranberry-balsamic-chicken/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/cranberry-pork-chop-broil/</loc>
+    <loc>https://danaukes.com/recipes/cranberry-pork-chop-broil/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/cranberry-sauce/</loc>
+    <loc>https://danaukes.com/recipes/cranberry-sauce/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/cream-cheese-frosting/</loc>
+    <loc>https://danaukes.com/recipes/cream-cheese-frosting/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/czech/</loc>
+    <loc>https://danaukes.com/tags/czech/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/czech-cabbage-rolls/</loc>
+    <loc>https://danaukes.com/recipes/czech-cabbage-rolls/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/czech-goulash/</loc>
+    <loc>https://danaukes.com/recipes/czech-goulash/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/czech-potato-dumplings/</loc>
+    <loc>https://danaukes.com/recipes/czech-potato-dumplings/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/decapitalizer/</loc>
+    <loc>https://danaukes.com/code/decapitalizer/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/dessert/</loc>
+    <loc>https://danaukes.com/tags/dessert/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pumpkin-bread/</loc>
+    <loc>https://danaukes.com/recipes/pumpkin-bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/dutch-babies/</loc>
+    <loc>https://danaukes.com/recipes/dutch-babies/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/empty-qt5-project/</loc>
+    <loc>https://danaukes.com/code/empty-qt5-project/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/english-toffee/</loc>
+    <loc>https://danaukes.com/recipes/english-toffee/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/favorite-chicken-pot-pie/</loc>
+    <loc>https://danaukes.com/recipes/favorite-chicken-pot-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/fig-preserves/</loc>
+    <loc>https://danaukes.com/recipes/fig-preserves/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/french-bread/</loc>
+    <loc>https://danaukes.com/recipes/french-bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/french-cheese-puffs/</loc>
+    <loc>https://danaukes.com/recipes/french-cheese-puffs/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/funky-chicken/</loc>
+    <loc>https://danaukes.com/recipes/funky-chicken/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/garlicky-chicken-thighs-with-scallion-and-lime/</loc>
+    <loc>https://danaukes.com/recipes/garlicky-chicken-thighs-with-scallion-and-lime/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/german/</loc>
+    <loc>https://danaukes.com/tags/german/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/git-tools/</loc>
+    <loc>https://danaukes.com/code/git-tools/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/granola/</loc>
+    <loc>https://danaukes.com/recipes/granola/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/greek-potatoes/</loc>
+    <loc>https://danaukes.com/recipes/greek-potatoes/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/green-bean-artichoke-casserole/</loc>
+    <loc>https://danaukes.com/recipes/green-bean-artichoke-casserole/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/green-bean-casserole/</loc>
+    <loc>https://danaukes.com/recipes/green-bean-casserole/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/grep-cookbook/</loc>
+    <loc>https://danaukes.com/notebook/grep-cookbook/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/grilled-marinated-flank-steak/</loc>
+    <loc>https://danaukes.com/recipes/grilled-marinated-flank-steak/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/guis-and-qt/</loc>
+    <loc>https://danaukes.com/bookmarks/guis-and-qt/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/media-tools/</loc>
+    <loc>https://danaukes.com/code/media-tools/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/hearty-makeahead-salad/</loc>
+    <loc>https://danaukes.com/recipes/hearty-makeahead-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/homesteader-cornbread/</loc>
+    <loc>https://danaukes.com/recipes/homesteader-cornbread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/ice-cream/</loc>
+    <loc>https://danaukes.com/recipes/ice-cream/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/idealab/</loc>
+    <loc>https://danaukes.com/bookmarks/idealab/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/indian/</loc>
+    <loc>https://danaukes.com/tags/indian/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/indian-spiced-sweet-potatoes/</loc>
+    <loc>https://danaukes.com/recipes/indian-spiced-sweet-potatoes/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/italian/</loc>
+    <loc>https://danaukes.com/tags/italian/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/kale-soup-with-potatoes-and-sausage/</loc>
+    <loc>https://danaukes.com/recipes/kale-soup-with-potatoes-and-sausage/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/kale-tarts-with-fennel-and-olives/</loc>
+    <loc>https://danaukes.com/recipes/kale-tarts-with-fennel-and-olives/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/lemon-meringue-pie-ii/</loc>
+    <loc>https://danaukes.com/recipes/lemon-meringue-pie-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/lemon-meringue-pie/</loc>
+    <loc>https://danaukes.com/recipes/lemon-meringue-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/lemon-poppyseed-cake/</loc>
+    <loc>https://danaukes.com/recipes/lemon-poppyseed-cake/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/lemon-caramel-crepes-with-candied-lemons/</loc>
+    <loc>https://danaukes.com/recipes/lemon-caramel-crepes-with-candied-lemons/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/main/</loc>
+    <loc>https://danaukes.com/tags/main/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/markdown-pandoc-and-more/</loc>
+    <loc>https://danaukes.com/bookmarks/markdown-pandoc-and-more/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/mayonaise/</loc>
+    <loc>https://danaukes.com/recipes/mayonaise/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/meat/</loc>
+    <loc>https://danaukes.com/tags/meat/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/mexican/</loc>
+    <loc>https://danaukes.com/tags/mexican/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/mexican-street-salad/</loc>
+    <loc>https://danaukes.com/recipes/mexican-street-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/microwave-peanut-brittle/</loc>
+    <loc>https://danaukes.com/recipes/microwave-peanut-brittle/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/mint-chutney/</loc>
+    <loc>https://danaukes.com/recipes/mint-chutney/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/misc/</loc>
+    <loc>https://danaukes.com/tags/misc/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/moroccan-slow-cooked-lamb/</loc>
+    <loc>https://danaukes.com/recipes/moroccan-slow-cooked-lamb/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/never-fail-fudge/</loc>
+    <loc>https://danaukes.com/recipes/never-fail-fudge/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/no-knead-english-muffins/</loc>
+    <loc>https://danaukes.com/recipes/no-knead-english-muffins/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/</loc>
+    <loc>https://danaukes.com/notebook/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/oatmeal-crackers/</loc>
+    <loc>https://danaukes.com/recipes/oatmeal-crackers/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/one-pot-chicken-and-dirty-rice/</loc>
+    <loc>https://danaukes.com/recipes/one-pot-chicken-and-dirty-rice/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/one-pot-chicken-mushroom-and-rainbow-chard-pasta/</loc>
+    <loc>https://danaukes.com/recipes/one-pot-chicken-mushroom-and-rainbow-chard-pasta/</loc>
   </url><url>
-    <loc>http://danaukes.com/code/photobooth/</loc>
+    <loc>https://danaukes.com/code/photobooth/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/oregon-cherry-flan-cake/</loc>
+    <loc>https://danaukes.com/recipes/oregon-cherry-flan-cake/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/parmesean-salad/</loc>
+    <loc>https://danaukes.com/recipes/parmesean-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/parts-and-materials-for-robotics/</loc>
+    <loc>https://danaukes.com/bookmarks/parts-and-materials-for-robotics/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/peanut-blossom-cookies/</loc>
+    <loc>https://danaukes.com/recipes/peanut-blossom-cookies/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/peanut-butter-candy/</loc>
+    <loc>https://danaukes.com/recipes/peanut-butter-candy/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/peppered-shrimp-alfredo/</loc>
+    <loc>https://danaukes.com/recipes/peppered-shrimp-alfredo/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/persimmon-pudding/</loc>
+    <loc>https://danaukes.com/recipes/persimmon-pudding/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/personal/</loc>
+    <loc>https://danaukes.com/bookmarks/personal/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/pie/</loc>
+    <loc>https://danaukes.com/tags/pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pie-crust-ii/</loc>
+    <loc>https://danaukes.com/recipes/pie-crust-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pie-crust-iii/</loc>
+    <loc>https://danaukes.com/recipes/pie-crust-iii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pizza-crust/</loc>
+    <loc>https://danaukes.com/recipes/pizza-crust/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/pork/</loc>
+    <loc>https://danaukes.com/tags/pork/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pork-and-ginger-pot-stickers/</loc>
+    <loc>https://danaukes.com/recipes/pork-and-ginger-pot-stickers/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pork-and-tomatillo-chili/</loc>
+    <loc>https://danaukes.com/recipes/pork-and-tomatillo-chili/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pork-enchiladas-suizo/</loc>
+    <loc>https://danaukes.com/recipes/pork-enchiladas-suizo/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/potato-galette/</loc>
+    <loc>https://danaukes.com/recipes/potato-galette/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/potato-salad/</loc>
+    <loc>https://danaukes.com/recipes/potato-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pretzels/</loc>
+    <loc>https://danaukes.com/recipes/pretzels/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pretzels-ii/</loc>
+    <loc>https://danaukes.com/recipes/pretzels-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/programming/</loc>
+    <loc>https://danaukes.com/bookmarks/programming/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pumpkin-bars/</loc>
+    <loc>https://danaukes.com/recipes/pumpkin-bars/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pumpkin-crumb-muffins-with-cinnamon-icing/</loc>
+    <loc>https://danaukes.com/recipes/pumpkin-crumb-muffins-with-cinnamon-icing/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pumpkin-pie-ii/</loc>
+    <loc>https://danaukes.com/recipes/pumpkin-pie-ii/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pumpkin-pie/</loc>
+    <loc>https://danaukes.com/recipes/pumpkin-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/python/</loc>
+    <loc>https://danaukes.com/bookmarks/python/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/quinoa-vegetable-soup-recipe/</loc>
+    <loc>https://danaukes.com/recipes/quinoa-vegetable-soup-recipe/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/raspberry-pi/</loc>
+    <loc>https://danaukes.com/bookmarks/raspberry-pi/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/ravioli-al-formaggio/</loc>
+    <loc>https://danaukes.com/recipes/ravioli-al-formaggio/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/</loc>
+    <loc>https://danaukes.com/recipes/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/red-and-sweet-potato-salad/</loc>
+    <loc>https://danaukes.com/recipes/red-and-sweet-potato-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/rhubarb-pie/</loc>
+    <loc>https://danaukes.com/recipes/rhubarb-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/roasted-herbed-halibut/</loc>
+    <loc>https://danaukes.com/recipes/roasted-herbed-halibut/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/robotics-topics/</loc>
+    <loc>https://danaukes.com/bookmarks/robotics-topics/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/rolled-cookies/</loc>
+    <loc>https://danaukes.com/recipes/rolled-cookies/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/salad/</loc>
+    <loc>https://danaukes.com/tags/salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/samosas/</loc>
+    <loc>https://danaukes.com/recipes/samosas/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/sauces-and-marinades/</loc>
+    <loc>https://danaukes.com/tags/sauces-and-marinades/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/saurkraut/</loc>
+    <loc>https://danaukes.com/recipes/saurkraut/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/seafood/</loc>
+    <loc>https://danaukes.com/tags/seafood/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/shaved-brussels-sprout-salad/</loc>
+    <loc>https://danaukes.com/recipes/shaved-brussels-sprout-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/sheet-pan-chicken-with-chickpeas-cumin-and-turmeric/</loc>
+    <loc>https://danaukes.com/recipes/sheet-pan-chicken-with-chickpeas-cumin-and-turmeric/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/shepherds-pie/</loc>
+    <loc>https://danaukes.com/recipes/shepherds-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/sicilian-cauliflower/</loc>
+    <loc>https://danaukes.com/recipes/sicilian-cauliflower/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/side/</loc>
+    <loc>https://danaukes.com/tags/side/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/pie-crust-i/</loc>
+    <loc>https://danaukes.com/recipes/pie-crust-i/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/skillet-chicken/</loc>
+    <loc>https://danaukes.com/recipes/skillet-chicken/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/skillet-honey-garlic-chicken-thighs/</loc>
+    <loc>https://danaukes.com/recipes/skillet-honey-garlic-chicken-thighs/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/slow-cooker-chickpea-pumpkin-curry/</loc>
+    <loc>https://danaukes.com/recipes/slow-cooker-chickpea-pumpkin-curry/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/slow-cooker-honey-lime-ginger-pork/</loc>
+    <loc>https://danaukes.com/recipes/slow-cooker-honey-lime-ginger-pork/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/snack/</loc>
+    <loc>https://danaukes.com/tags/snack/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/soup/</loc>
+    <loc>https://danaukes.com/tags/soup/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/spinach-lasagna/</loc>
+    <loc>https://danaukes.com/recipes/spinach-lasagna/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/split-pea-soup/</loc>
+    <loc>https://danaukes.com/recipes/split-pea-soup/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/squash-fritters/</loc>
+    <loc>https://danaukes.com/recipes/squash-fritters/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/squash-pickles/</loc>
+    <loc>https://danaukes.com/recipes/squash-pickles/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/strawberry-andor-rhubarb-pie/</loc>
+    <loc>https://danaukes.com/recipes/strawberry-andor-rhubarb-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/sugar-cookies/</loc>
+    <loc>https://danaukes.com/recipes/sugar-cookies/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/sweet-potato-pie/</loc>
+    <loc>https://danaukes.com/recipes/sweet-potato-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/tabbouleh/</loc>
+    <loc>https://danaukes.com/recipes/tabbouleh/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/</loc>
+    <loc>https://danaukes.com/tags/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/thai-cucumber-salad/</loc>
+    <loc>https://danaukes.com/recipes/thai-cucumber-salad/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/three-berry-pie/</loc>
+    <loc>https://danaukes.com/recipes/three-berry-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/tomatillo-sauce/</loc>
+    <loc>https://danaukes.com/recipes/tomatillo-sauce/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/tomato-basil-bisque/</loc>
+    <loc>https://danaukes.com/recipes/tomato-basil-bisque/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/topping/</loc>
+    <loc>https://danaukes.com/tags/topping/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/ubuntu-and-linux/</loc>
+    <loc>https://danaukes.com/bookmarks/ubuntu-and-linux/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/ultimate-chicken-pot-pie/</loc>
+    <loc>https://danaukes.com/recipes/ultimate-chicken-pot-pie/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/ultimate-chocolate-cake/</loc>
+    <loc>https://danaukes.com/recipes/ultimate-chocolate-cake/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/unsorted/</loc>
+    <loc>https://danaukes.com/bookmarks/unsorted/</loc>
   </url><url>
-    <loc>http://danaukes.com/notebook/find/</loc>
+    <loc>https://danaukes.com/notebook/find/</loc>
   </url><url>
-    <loc>http://danaukes.com/tags/vegetable/</loc>
+    <loc>https://danaukes.com/tags/vegetable/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/waffles-and-pancakes-from-scratch/</loc>
+    <loc>https://danaukes.com/recipes/waffles-and-pancakes-from-scratch/</loc>
   </url><url>
-    <loc>http://danaukes.com/bookmarks/web-development/</loc>
+    <loc>https://danaukes.com/bookmarks/web-development/</loc>
   </url><url>
-    <loc>http://danaukes.com/sites/</loc>
+    <loc>https://danaukes.com/sites/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/white-bread/</loc>
+    <loc>https://danaukes.com/recipes/white-bread/</loc>
   </url><url>
-    <loc>http://danaukes.com/recipes/zucchihi-bread/</loc>
+    <loc>https://danaukes.com/recipes/zucchihi-bread/</loc>
   </url>
 </urlset>
