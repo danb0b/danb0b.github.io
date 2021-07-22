@@ -1,0 +1,80 @@
+{{ define "sb"}}
+<div class="col-lg-4">
+  <div class="widgets">
+    <!-- Tags -->
+    <div class="widget">
+      <h4 class="widget-title">Tags</h4>
+      {{- if isset .Site.Taxonomies "recipe_tags" }}
+      {{- if not (eq (len .Site.Taxonomies.recipe_tags) 0) }}
+      <ul class="list-inline">
+        {{- range $name, $items := .Site.Taxonomies.recipe_tags }}
+        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+            href="{{ `recipe_tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      {{- end }}
+    </div>
+    <!-- about -->
+    <div class="widget">
+      {{ with .Site.GetPage "/about" }}
+      <h4 class="widget-title">{{ .Title | markdownify }}</h4>
+      {{ if .Params.Image }}
+      <img src="{{ .Params.Image | absURL }}" alt=""
+        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+      {{ end }}
+      <p>{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" class="btn btn-outline-primary">Know More</a>
+      {{ end }}
+    </div>
+    <!-- social -->
+    <div class="widget">
+      <h4 class="widget-title">Social</h4>
+      <ul class="list-inline social-links">
+        {{ range .Site.Params.social }}
+        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <!-- advertisement -->
+    <div class="widget">
+      <img src="{{`images/promotion.png` | absURL}}" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+
+<!-- blog post -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="row">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+
+        <div class="row">
+          {{ $paginator := .Paginate .Pages }}
+          {{ range $paginator.Pages }}
+          {{ .Render "post" }}
+          {{ end }}
+        </div>
+      </div>
+      <!-- sidebar -->
+        {{- block "sb" . }}{{- end }}
+      <!-- /sidebar -->
+
+      <!-- pagination -->
+      <div class="col-12 mt-5">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
+
+{{ end }}
+
