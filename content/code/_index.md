@@ -1,6 +1,6 @@
 ---
 title: Personal Code Projects
-image: box2.png
+image: box.png
 summary: A listing of some of my personal coding projects.
 tags:
 - python
