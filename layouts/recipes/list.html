@@ -1,21 +1,6 @@
 {{ define "sb"}}
 <div class="col-lg-4">
   <div class="widgets">
-    <!-- category -->
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-      {{- if isset .Site.Taxonomies "categories" }}
-      {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
-      <ul class="list-unstyled">
-        {{- range $name, $items := .Site.Taxonomies.categories }}
-        <li><a
-            href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
-        </li>
-        {{- end }}
-      </ul>
-      {{- end }}
-      {{- end }}
-    </div>
     <!-- Tags -->
     <div class="widget">
       <h4 class="widget-title">Tag</h4>

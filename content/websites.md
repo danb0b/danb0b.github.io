@@ -1,5 +1,8 @@
 ---
-title: websites
+title: Web Sites
+type: starred
+image: box.png
+summary: Sites I have had a hand in developing
 ---
 
 

@@ -10,7 +10,8 @@
         {{ end }}
         <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
         <div class="mb-3 post-meta">
-            {{ if not .Site.Params.HideDate }}
+            <span>By {{if .Params.Author}}{{ .Params.Author }}{{else}}{{.Site.Params.Author}}{{end}}</span>
+            {{ if .PublishDate }}
             <span class="border-bottom border-primary px-2 mx-1"></span>
             <span>{{ .PublishDate.Format "02 January 2006" }}</span>
             {{ end }}

@@ -16,22 +16,22 @@ menu:
   - URL: about
     name: About
     weight: 1
-  - URL: blog
-    name: Post
+  - URL: calendar
+    name: Calendar
     weight: 2
   - URL: contact
     name: Contact
     weight: 3
   main:
-  - URL: about
-    name: About
-    weight: 1
+#  - URL: about
+#    name: About
+#    weight: 1
 #  - URL: blog
 #    name: Post
 #    weight: 2
-  - URL: contact
-    name: Contact
-    weight: 3
+#  - URL: contact
+#    name: Contact
+#    weight: 3
   - URL: notebook
     name: Notebook
     weight: 4
@@ -67,7 +67,7 @@ params:
   #googleAnalitycsID: Your ID
   home: Home
   location: Gilbert, AZ, USA
-  logo: images/logo.png
+  logo: da-small.png
 #  mobile: 0124857985320
   newsletter:
     content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -99,16 +99,19 @@ params:
 #    link: '#'
 #    title: facebook
   - icon: ti-twitter-alt
-    link: '#'
+    link: 'https://twitter.com/danaukes'
     title: twitter
 #  - icon: ti-instagram
 #    link: '#'
 #    title: instagram
   - icon: ti-github
-    link: '#'
-    title: github
+    link: 'https://github.com/danb0b'
+    title: personal github
   - icon: ti-linkedin
-    link: '#'
+    link: 'https://www.linkedin.com/in/dan-aukes-502995212/'
     title: linkedin
 summaryLength: '10'
-
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

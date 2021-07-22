@@ -5,9 +5,10 @@ draft: false
 # image
 image: "danaukes.jpg"
 # meta description
-description: "Short Bio for Dan Aukes"
+#summary: "Short Bio for Dan Aukes"
 # type
 type : "about"
+show_front: false
 ---
 
 I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), and Assistant Professor in the Ira A. Fulton Schools of Engineering, Arizona State University.  This is my personal website 
