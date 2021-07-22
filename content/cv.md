@@ -1,6 +1,8 @@
 ---
 title: Curriculum Vitae 
 type: starred
+summary: My course of life
+image: box3.png
 ---
 
 _updated Jan 2021_
