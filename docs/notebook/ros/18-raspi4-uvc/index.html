@@ -153,18 +153,18 @@
           <ol>
 <li>
 <p>install uvc stuff.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install -y libuvc-dev guvcview cheese v4l-utils
 <span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl</span>
 </code></pre></div></li>
 <li>
 <p>try guvcview or cheese to see if you can see video output(may need to install):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cheese # only need to try one command</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cheese # only need to try one command</span>
 guvcview
 </code></pre></div></li>
 <li>
 <p>(optional, seems already done, perhaps by previous step) add yourself to video group</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G video <span style="color:#66d9ef">$(</span>whoami<span style="color:#66d9ef">)</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G video <span style="color:#00a8c8">$(</span>whoami<span style="color:#00a8c8">)</span>
 </code></pre></div><ol>
 <li>Logout &amp; login again , check if your vboxusers displays in this command</li>
 </ol>
@@ -174,7 +174,7 @@ guvcview
 <p>(optional, seems already done, perhaps by previous step)  copy rules from idealab_ros_tools to rules folder (according to this <a href="http://wiki.ros.org/libuvc_camera">ref</a>)</p>
 </li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/code_idealab_ros/src
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/code_idealab_ros/src
 sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules <span style="color:#f92672">&amp;&amp;</span> udevadm trigger
 sudo reboot

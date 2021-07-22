@@ -162,7 +162,7 @@
 <ol>
 <li>
 <p>Install necessary prerequisites on the ROS machine</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#Install rosbridge on guest machine</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#Install rosbridge on guest machine</span>
 sudo apt install ros-melodic-rosbridge-suite
 
 <span style="color:#75715e">#Install roslibpy client for rosbridge on guest machine</span>
@@ -176,12 +176,12 @@ spyder3
 </code></pre></div></li>
 <li>
 <p>start roscore on the guest:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
 </code></pre></div></li>
 <li>
 <p>Run an existing talker in ROS.  in a new terminal window:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/catkin_ws
-source ./devel/setup.bash
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
+<span style="color:#111">source</span> ./devel/setup.bash
 
 <span style="color:#75715e">#In the last tutorial we made a publisher called &#34;talker&#34;. Let&#39;s run it:</span>
 <span style="color:#75715e">#rosrun beginner_tutorials talker      (C++)</span>
@@ -196,30 +196,30 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 </code></pre></li>
 <li>
 <p>create a file called listener.py, substituting the ip address of the ROS Master for <IPADDRESS>.  Paste in the following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
-<span style="color:#e6db74">&#34;&#34;&#34;
-</span><span style="color:#e6db74">Created on Fri Mar 27 08:33:41 2020
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">@author: danaukes
-</span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<span style="color:#d88200">&#34;&#34;&#34;
+</span><span style="color:#d88200">Created on Fri Mar 27 08:33:41 2020
+</span><span style="color:#d88200">
+</span><span style="color:#d88200">@author: danaukes
+</span><span style="color:#d88200">&#34;&#34;&#34;</span>
 
-<span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> print_function
-<span style="color:#f92672">import</span> roslibpy
+<span style="color:#f92672">from</span> <span style="color:#111">__future__</span> <span style="color:#f92672">import</span> <span style="color:#111">print_function</span>
+<span style="color:#f92672">import</span> <span style="color:#111">roslibpy</span>
 
-client <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">.</span>Ros(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&lt;IPADDRESS&gt;&#39;</span>, port<span style="color:#f92672">=</span><span style="color:#ae81ff">9090</span>)
-client<span style="color:#f92672">.</span>run()
+<span style="color:#111">client</span> <span style="color:#f92672">=</span> <span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Ros</span><span style="color:#111">(</span><span style="color:#111">host</span><span style="color:#f92672">=</span><span style="color:#d88200">&#39;&lt;IPADDRESS&gt;&#39;</span><span style="color:#111">,</span> <span style="color:#111">port</span><span style="color:#f92672">=</span><span style="color:#ae81ff">9090</span><span style="color:#111">)</span>
+<span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">run</span><span style="color:#111">()</span>
 
-listener <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">.</span>Topic(client, <span style="color:#e6db74">&#39;/chatter&#39;</span>, <span style="color:#e6db74">&#39;std_msgs/String&#39;</span>)
-listener<span style="color:#f92672">.</span>subscribe(<span style="color:#66d9ef">lambda</span> message: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Heard talking: &#39;</span> <span style="color:#f92672">+</span> message[<span style="color:#e6db74">&#39;data&#39;</span>]))
+<span style="color:#111">listener</span> <span style="color:#f92672">=</span> <span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Topic</span><span style="color:#111">(</span><span style="color:#111">client</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;/chatter&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;std_msgs/String&#39;</span><span style="color:#111">)</span>
+<span style="color:#111">listener</span><span style="color:#f92672">.</span><span style="color:#111">subscribe</span><span style="color:#111">(</span><span style="color:#00a8c8">lambda</span> <span style="color:#111">message</span><span style="color:#111">:</span> <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;Heard talking: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#111">message</span><span style="color:#111">[</span><span style="color:#d88200">&#39;data&#39;</span><span style="color:#111">]))</span>
 
-<span style="color:#66d9ef">try</span>:
-    <span style="color:#66d9ef">while</span> True:
-        <span style="color:#66d9ef">pass</span>
-<span style="color:#66d9ef">except</span> <span style="color:#a6e22e">KeyboardInterrupt</span>:
-    client<span style="color:#f92672">.</span>terminate()
-<span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
-    <span style="color:#66d9ef">print</span>(e)
-    client<span style="color:#f92672">.</span>terminate()
+<span style="color:#00a8c8">try</span><span style="color:#111">:</span>
+    <span style="color:#00a8c8">while</span> <span style="color:#111">True</span><span style="color:#111">:</span>
+        <span style="color:#00a8c8">pass</span>
+<span style="color:#00a8c8">except</span> <span style="color:#75af00">KeyboardInterrupt</span><span style="color:#111">:</span>
+    <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">terminate</span><span style="color:#111">()</span>
+<span style="color:#00a8c8">except</span> <span style="color:#75af00">Exception</span> <span style="color:#00a8c8">as</span> <span style="color:#111">e</span><span style="color:#111">:</span>
+    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">e</span><span style="color:#111">)</span>
+    <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">terminate</span><span style="color:#111">()</span>
 </code></pre></div></li>
 <li>
 <p>Run from the editor(f5) or, in a new terminal window, navigate to the location of &lsquo;listener.py&rsquo; and type:</p>
@@ -227,34 +227,34 @@ listener<span style="color:#f92672">.</span>subscribe(<span style="color:#66d9ef
 </code></pre></li>
 <li>
 <p>Now, create a file called talker.py, substituting the ip address of the machine for <IPADDRESS> if on the host machine, or &lsquo;localhost&rsquo; if in the guest machine.  Paste in the following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
-<span style="color:#e6db74">&#34;&#34;&#34;
-</span><span style="color:#e6db74">Created on Fri Mar 27 08:36:13 2020
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">@author: danaukes
-</span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<span style="color:#d88200">&#34;&#34;&#34;
+</span><span style="color:#d88200">Created on Fri Mar 27 08:36:13 2020
+</span><span style="color:#d88200">
+</span><span style="color:#d88200">@author: danaukes
+</span><span style="color:#d88200">&#34;&#34;&#34;</span>
 
-<span style="color:#f92672">import</span> time
+<span style="color:#f92672">import</span> <span style="color:#111">time</span>
 
-<span style="color:#f92672">import</span> roslibpy
+<span style="color:#f92672">import</span> <span style="color:#111">roslibpy</span>
 
-client <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">.</span>Ros(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&lt;IPADDRESS&gt;&#39;</span>, port<span style="color:#f92672">=</span><span style="color:#ae81ff">9090</span>)
-client<span style="color:#f92672">.</span>run()
+<span style="color:#111">client</span> <span style="color:#f92672">=</span> <span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Ros</span><span style="color:#111">(</span><span style="color:#111">host</span><span style="color:#f92672">=</span><span style="color:#d88200">&#39;&lt;IPADDRESS&gt;&#39;</span><span style="color:#111">,</span> <span style="color:#111">port</span><span style="color:#f92672">=</span><span style="color:#ae81ff">9090</span><span style="color:#111">)</span>
+<span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">run</span><span style="color:#111">()</span>
 
-talker <span style="color:#f92672">=</span> roslibpy<span style="color:#f92672">.</span>Topic(client, <span style="color:#e6db74">&#39;/dancustom&#39;</span>, <span style="color:#e6db74">&#39;std_msgs/String&#39;</span>)
+<span style="color:#111">talker</span> <span style="color:#f92672">=</span> <span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Topic</span><span style="color:#111">(</span><span style="color:#111">client</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;/dancustom&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;std_msgs/String&#39;</span><span style="color:#111">)</span>
 
-<span style="color:#66d9ef">while</span> client<span style="color:#f92672">.</span>is_connected:
-    talker<span style="color:#f92672">.</span>publish(roslibpy<span style="color:#f92672">.</span>Message({<span style="color:#e6db74">&#39;data&#39;</span>: <span style="color:#e6db74">&#39;Hello World!&#39;</span>}))
-    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Sending message...&#39;</span>)
-    time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
+<span style="color:#00a8c8">while</span> <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">is_connected</span><span style="color:#111">:</span>
+    <span style="color:#111">talker</span><span style="color:#f92672">.</span><span style="color:#111">publish</span><span style="color:#111">(</span><span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Message</span><span style="color:#111">({</span><span style="color:#d88200">&#39;data&#39;</span><span style="color:#111">:</span> <span style="color:#d88200">&#39;Hello World!&#39;</span><span style="color:#111">}))</span>
+    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;Sending message...&#39;</span><span style="color:#111">)</span>
+    <span style="color:#111">time</span><span style="color:#f92672">.</span><span style="color:#111">sleep</span><span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">)</span>
 
-talker<span style="color:#f92672">.</span>unadvertise()
+<span style="color:#111">talker</span><span style="color:#f92672">.</span><span style="color:#111">unadvertise</span><span style="color:#111">()</span>
 
-client<span style="color:#f92672">.</span>terminate()
+<span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">terminate</span><span style="color:#111">()</span>
 </code></pre></div></li>
 <li>
 <p>on the guest machine, start a new terminal window, and type</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic echo /dancustom
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic <span style="color:#111">echo</span> /dancustom
 </code></pre></div></li>
 </ol>
 

@@ -162,7 +162,7 @@
 <ol>
 <li>
 <p>(virtualbox only) make sure you are a member of the vboxusers group ^[<a href="https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes">https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes</a>]</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whoami <span style="color:#75715e">#see what my username is</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whoami <span style="color:#75715e">#see what my username is</span>
 groups <span style="color:#75715e">#see what groups I belong to</span>
 groups idealab <span style="color:#75715e">#see what groups idealab belongs to</span>
 sudo groupadd vboxusers <span style="color:#75715e">#create group vboxusers</span>
@@ -185,14 +185,14 @@ sudo usermod -a -G tty idealab <span style="color:#75715e"># adds user idealab t
 </li>
 <li>
 <p>navigate to extracted directory</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
 sudo cp cp210x.ko /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
 sudo insmod /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial/usbserial.ko
 sudo insmod /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial/cp210x.ko
 </code></pre></div></li>
 <li>
 <p>to remove driver (usually not necessary &ndash; only if you need to fix a mistake or start over):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
 sudo rmmod cp210x
 sudo rmmod usbserial
 </code></pre></div></li>
@@ -201,7 +201,7 @@ sudo rmmod usbserial
 <ol>
 <li>
 <p>Compile and run test</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./cp210x_gpio_example
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./cp210x_gpio_example
 </code></pre></div></li>
 </ol>
 <h2 id="links">Links</h2>

@@ -161,14 +161,14 @@ catkin_make
 <ol>
 <li>
 <p>Find package dependencies:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># one level</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># one level</span>
 rospack depends1 thorlabs_linear_actuator
 <span style="color:#75715e">#all levels</span>
 rospack depends thorlabs_linear_actuator
 </code></pre></div></li>
 <li>
 <p>Open up package manifest:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/code_idealab_ros/src/thorlabs_linear_actuator/
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/code_idealab_ros/src/thorlabs_linear_actuator/
 gedit package.xml
 </code></pre></div></li>
 <li>
@@ -207,7 +207,7 @@ gedit package.xml
 </code></pre></li>
 <li>
 <p>Make</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/code_idealab_ros/
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/code_idealab_ros/
 catkin_make -DPYTHON_EXECUTABLE<span style="color:#f92672">=</span>/usr/bin/python3
 <span style="color:#75715e">#catkin_make install  # (optionally)</span>
 

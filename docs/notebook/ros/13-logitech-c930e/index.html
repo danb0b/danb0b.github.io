@@ -174,7 +174,7 @@
 </code></pre></li>
 <li>
 <p>add yourself</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G vboxusers <span style="color:#66d9ef">$(</span>whoami<span style="color:#66d9ef">)</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G vboxusers <span style="color:#00a8c8">$(</span>whoami<span style="color:#00a8c8">)</span>
 </code></pre></div></li>
 <li>
 <p>Logout &amp; login again , check if your vboxusers displays in this command :</p>
@@ -184,24 +184,24 @@
 </li>
 <li>
 <p>install uvc stuff.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install -y guvcview cheese v4l-utils
 <span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl</span>
 </code></pre></div></li>
 <li>
 <p>try guvcview or cheese to see if you can see video output(may need to install):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cheese # only need to try one command</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cheese # only need to try one command</span>
 guvcview
 </code></pre></div></li>
 <li>
 <p>install ros package:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install ros-melodic-libuvc-camera
 <span style="color:#75715e">#ros-melodic-uvc-camera #deprecated</span>
 </code></pre></div></li>
 <li>
 <p>add yourself to video group</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G video <span style="color:#66d9ef">$(</span>whoami<span style="color:#66d9ef">)</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G video <span style="color:#00a8c8">$(</span>whoami<span style="color:#00a8c8">)</span>
 </code></pre></div></li>
 <li>
 <p>Logout &amp; login again , check if your vboxusers displays in this command</p>
@@ -209,19 +209,19 @@ sudo apt install ros-melodic-libuvc-camera
 </code></pre></li>
 <li>
 <p>copy rules from idealab_ros_tools to rules folder (according to this <a href="http://wiki.ros.org/libuvc_camera">ref</a>)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/code_idealab_ros/src
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/code_idealab_ros/src
 sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
 sudo cp 99-uvc-vboxcam.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules <span style="color:#f92672">&amp;&amp;</span> udevadm trigger
 </code></pre></div></li>
 <li>
 <p>if that doesn&rsquo;t work just</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod <span style="color:#ae81ff">777</span> /dev/bus/usb/001/001
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod <span style="color:#ae81ff">777</span> /dev/bus/usb/001/001
 </code></pre></div><p>where 001 and 002 is the bus and id of the desired usb camera, respectively, which was acquired from the lsusb command.</p>
 </li>
 <li>
 <p>optional step: you can view/edit parameters directly from bash according to <a href="https://www.kurokesu.com/main/2016/01/16/manual-usb-camera-settings-in-linux/">this</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">v4l2-ctl --list-devices
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">v4l2-ctl --list-devices
 v4l2-ctl -d /dev/video0 --list-ctrls
 </code></pre></div><p>this results&hellip;</p>
 <pre><code>                     brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=128
@@ -252,15 +252,15 @@ v4l2-ctl -d /dev/video0 --list-ctrls
 <ol>
 <li>
 <p>in the first window:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
 </code></pre></div></li>
 <li>
 <p>in window #2:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun libuvc_camera camera_node
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun libuvc_camera camera_node
 </code></pre></div></li>
 <li>
 <p>in another window (ctrl+shift+t)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun rqt_image_view rqt_image_view
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun rqt_image_view rqt_image_view
 </code></pre></div></li>
 </ol>
 </li>

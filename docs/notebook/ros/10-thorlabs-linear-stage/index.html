@@ -162,7 +162,7 @@
 </li>
 <li>
 <p>add rules to linux system.  These are located</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo cp 99-thorlabs.rules /etc/udev/rules.d
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo cp 99-thorlabs.rules /etc/udev/rules.d
 sudo udevadm control --reload-rules <span style="color:#f92672">&amp;&amp;</span> udevadm trigger
 </code></pre></div></li>
 </ol>
@@ -196,21 +196,21 @@ pip3 install ftd2xx
 <ol>
 <li>
 <p>clone idealab tools (if not already done)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/code_idealab_tools.git
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/code_idealab_tools.git
 </code></pre></div></li>
 <li>
 <p>add git-based packages to python path</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;export PYTHONPATH=\$PYTHONPATH:~/code_idealab_tools/python&#34;</span> &gt;&gt; ~/.bashrc
-source ~/.bashrc
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">echo</span> <span style="color:#d88200">&#34;export PYTHONPATH=\$PYTHONPATH:~/code_idealab_tools/python&#34;</span> &gt;&gt; ~/.bashrc
+<span style="color:#111">source</span> ~/.bashrc
 </code></pre></div></li>
 <li>
 <p>clone thorlabs linear stage code</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/code_devices_thorlabs_linear_stage.git
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/code_devices_thorlabs_linear_stage.git
 </code></pre></div></li>
 <li>
 <p>add git-based packages to python path</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;export PYTHONPATH=\$PYTHONPATH:~/code_devices_thorlabs_linear_stage/python&#34;</span> &gt;&gt; ~/.bashrc
-source ~/.bashrc
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">echo</span> <span style="color:#d88200">&#34;export PYTHONPATH=\$PYTHONPATH:~/code_devices_thorlabs_linear_stage/python&#34;</span> &gt;&gt; ~/.bashrc
+<span style="color:#111">source</span> ~/.bashrc
 </code></pre></div></li>
 </ol>
 <!--

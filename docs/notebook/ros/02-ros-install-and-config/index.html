@@ -155,11 +155,11 @@
 <li>
 <p>Run this code:</p>
 <p><strong>Note:</strong> We&rsquo;re using <code>ros-melodic-desktop-full</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#Setup your computer to accept software from packages.ros.org.</span>
-sudo sh -c <span style="color:#e6db74">&#39;echo &#34;deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main&#34; &gt; /etc/apt/sources.list.d/ros-latest.list&#39;</span>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#Setup your computer to accept software from packages.ros.org.</span>
+sudo sh -c <span style="color:#d88200">&#39;echo &#34;deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main&#34; &gt; /etc/apt/sources.list.d/ros-latest.list&#39;</span>
 
 <span style="color:#75715e">#Set up your keys</span>
-sudo apt-key adv --keyserver <span style="color:#e6db74">&#39;hkp://keyserver.ubuntu.com:80&#39;</span> --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+sudo apt-key adv --keyserver <span style="color:#d88200">&#39;hkp://keyserver.ubuntu.com:80&#39;</span> --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
 sudo apt update
 sudo apt install ros-melodic-desktop-full
@@ -170,9 +170,9 @@ sudo apt install ros-melodic-desktop-full
 <span style="color:#75715e">#apt search ros-melodic</span>
 
 <span style="color:#75715e">#It&#39;s convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched:</span>
-echo <span style="color:#e6db74">&#34;source /opt/ros/melodic/setup.bash&#34;</span> &gt;&gt; ~/.bashrc
-echo <span style="color:#e6db74">&#34;export EDITOR=&#39;nano -w&#39;&#34;</span> &gt;&gt; ~/.bashrc <span style="color:#75715e">#from https://wiki.ros.org/ROS/Tutorials/UsingRosEd</span>
-source ~/.bashrc
+<span style="color:#111">echo</span> <span style="color:#d88200">&#34;source /opt/ros/melodic/setup.bash&#34;</span> &gt;&gt; ~/.bashrc
+<span style="color:#111">echo</span> <span style="color:#d88200">&#34;export EDITOR=&#39;nano -w&#39;&#34;</span> &gt;&gt; ~/.bashrc <span style="color:#75715e">#from https://wiki.ros.org/ROS/Tutorials/UsingRosEd</span>
+<span style="color:#111">source</span> ~/.bashrc
 
 
 <span style="color:#75715e">#To install tools and other dependencies for building ROS packages, run:</span>

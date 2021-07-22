@@ -115,3 +115,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    style: monokailight
+    noClasses: true

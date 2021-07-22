@@ -151,13 +151,13 @@
         
         <div class="content mb-5">
           <p>getting cv_bridge working with python 3 is less straightforward.  you need to recompile cv_bridge locally.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/vision_opencv.git
-cd vision_opencv
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/vision_opencv.git
+<span style="color:#111">cd</span> vision_opencv
 git checkout melodic
 cp -r cv_bridge/ ../code_idealab_ros/src
 cp -r image_geometry/ ../code_idealab_ros/src
 cp -r vision_opencv/ ../code_idealab_ros/src
-cd ~/code_idealab_ros/
+<span style="color:#111">cd</span> ~/code_idealab_ros/
 catkin_make -DPYTHON_EXECUTABLE<span style="color:#f92672">=</span>/usr/bin/python3
 </code></pre></div><ol>
 <li>

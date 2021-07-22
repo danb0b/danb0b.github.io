@@ -159,22 +159,22 @@
 </li>
 <li>
 <p>plug in usb device and find out device info, including port</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dmesg
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dmesg
 <span style="color:#75715e">#dmesg | grep arduino</span>
 </code></pre></div></li>
 <li>
 <p>boot ubuntu, open terminal (ctrl+t) navigate to /dev, and list devices</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /dev
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> /dev
 ls -la
 </code></pre></div></li>
 <li>
 <p>install arduino</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install -y arduino
 </code></pre></div></li>
 <li>
 <p>clone hx711 library</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/HX711.git
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/idealabasu/HX711.git
 </code></pre></div></li>
 <li>
 <p>open arduino</p>
@@ -190,7 +190,7 @@ sudo apt install -y arduino
 </li>
 <li>
 <p>make new directory in src/</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">catkin_create_pkg force_plate std_msgs rospy roscpp
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">catkin_create_pkg force_plate std_msgs rospy roscpp
 </code></pre></div></li>
 <li>
 <p>edit package as before</p>
@@ -202,9 +202,9 @@ sudo apt install -y arduino
 </li>
 <li>
 <p>make scripts</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscd force_plate/
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscd force_plate/
 mkdir scripts
-cd scripts
+<span style="color:#111">cd</span> scripts
 <span style="color:#75715e"># pull talker</span>
 wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/talker.py
 chmod +x talker.py
