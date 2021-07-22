@@ -1,5 +1,9 @@
 ---
 title: Blogger Extractor
+tags:
+- websites
+- markdown
+- python
 ---
 
 A nice little package for exporting your blogger site to markdown.

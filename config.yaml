@@ -7,8 +7,8 @@ ignorefiles:
   - ignore/*
 taxonomies:
   category: categories
-  tag: dummy
-  recipe_tag: tags
+  tag: tags
+  recipe_tag: recipe_tags
 disqusShortname: ''
 languageCode: en-us
 menu:
@@ -38,8 +38,8 @@ menu:
   - URL: recipes
     name: Recipes
     weight: 5
-  - URL: sites
-    name: Sites
+  - URL: websites
+    name: Websites
     weight: 6
   - URL: bookmarks
     name: Bookmarks

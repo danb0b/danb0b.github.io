@@ -1,5 +1,10 @@
 ---
 title: Handy Media Tools
+tags:
+- python
+- photo
+- video
+- pdf
 ---
 
 Useful and reusable media tools

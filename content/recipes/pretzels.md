@@ -1,7 +1,7 @@
 ---
 title: Pretzels
 original_url: https://altonbrown.com/homemade-soft-pretzels-recipe/
-tags:
+recipe_tags:
   - appetizer
   - snack
 ---

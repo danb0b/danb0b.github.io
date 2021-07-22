@@ -1,6 +1,6 @@
 ---
 title: Ice Cream
-tags:
+recipe_tags:
   - dessert
 from: Frances Aukes
 ---

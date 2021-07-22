@@ -1,5 +1,9 @@
 ---
 title: CV Bridge and Python 3
+tags:
+- ros
+- ubuntu
+- linux
 ---
 getting cv_bridge working with python 3 is less straightforward.  you need to recompile cv_bridge locally.
 

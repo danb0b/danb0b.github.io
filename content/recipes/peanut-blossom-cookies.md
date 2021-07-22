@@ -1,6 +1,6 @@
 ---
 title: Peanut Blossom Cookies
-tags:
+recipe_tags:
   - dessert
   - cookies
 images:

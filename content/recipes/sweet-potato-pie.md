@@ -1,6 +1,6 @@
 ---
 title: Sweet Potato Pie
-tags:
+recipe_tags:
   - dessert
   - pie
 from: Daniel Aukes

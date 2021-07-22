@@ -1,5 +1,9 @@
 ---
 title: ROS Instalation Summary
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 This is derived from [the official tutorial](https://wiki.ros.org/melodic/Installation/Ubuntu)

@@ -1,6 +1,6 @@
 ---
 title: Blackberry Pie
-tags:
+recipe_tags:
   - dessert
   - pie
 original_url: https://www.simplyrecipes.com/recipes/blackberry_pie/

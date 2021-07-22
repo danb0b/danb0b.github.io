@@ -1,5 +1,8 @@
 ---
 title: File Sorter
+tags:
+- python
+- photos
 ---
 
 Identify duplicate files

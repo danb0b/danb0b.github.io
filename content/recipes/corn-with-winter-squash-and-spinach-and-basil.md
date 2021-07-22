@@ -1,6 +1,6 @@
 ---
 title: Corn with Winter Squash and Spinach and Basil
-tags:
+recipe_tags:
   - side
   - vegetable
 images:

@@ -2,7 +2,7 @@
 title: Pumpkin Pie
 images: 
   - scan0122_016.jpg
-tags:
+recipe_tags:
   - dessert
   - pie
 ---

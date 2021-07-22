@@ -18,13 +18,13 @@
   </url><url>
     <loc>https://danaukes.com/recipes/acorn-squash-with-apple/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/appetizer/</loc>
+    <loc>https://danaukes.com/recipe_tags/appetizer/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/apple-crisp/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/apple-pie/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/asian/</loc>
+    <loc>https://danaukes.com/recipe_tags/asian/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/asu/</loc>
   </url><url>
@@ -46,9 +46,11 @@
   </url><url>
     <loc>https://danaukes.com/recipes/barrel-fermented-pickles/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/bash/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/bean-soup/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/beef/</loc>
+    <loc>https://danaukes.com/recipe_tags/beef/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/beef-and-quinoa-meatballs/</loc>
   </url><url>
@@ -78,9 +80,9 @@
   </url><url>
     <loc>https://danaukes.com/bookmarks/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/bread/</loc>
+    <loc>https://danaukes.com/recipe_tags/bread/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/breakfast/</loc>
+    <loc>https://danaukes.com/recipe_tags/breakfast/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/breakfast-casserole/</loc>
   </url><url>
@@ -92,19 +94,19 @@
   </url><url>
     <loc>https://danaukes.com/recipes/candy-bar-ice-cream-pie/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/canning-and-pickling/</loc>
+    <loc>https://danaukes.com/recipe_tags/canning-and-pickling/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/caramels/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/carrot-cake/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/casserole/</loc>
+    <loc>https://danaukes.com/recipe_tags/casserole/</loc>
   </url><url>
     <loc>https://danaukes.com/categories/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/cheesecake/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/chicken/</loc>
+    <loc>https://danaukes.com/recipe_tags/chicken/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/chicken-and-roasted-figs/</loc>
   </url><url>
@@ -112,7 +114,7 @@
   </url><url>
     <loc>https://danaukes.com/recipes/chicken-tikka-masala/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/chickent/</loc>
+    <loc>https://danaukes.com/recipe_tags/chickent/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/chili-con-cornbread/</loc>
   </url><url>
@@ -136,7 +138,7 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/01.1-config-git/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/cookies/</loc>
+    <loc>https://danaukes.com/recipe_tags/cookies/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/corn-with-winter-squash-and-spinach-and-basil/</loc>
   </url><url>
@@ -162,7 +164,7 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/19-tracking/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/czech/</loc>
+    <loc>https://danaukes.com/recipe_tags/czech/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/czech-cabbage-rolls/</loc>
   </url><url>
@@ -172,11 +174,9 @@
   </url><url>
     <loc>https://danaukes.com/code/decapitalizer/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/dessert/</loc>
+    <loc>https://danaukes.com/recipe_tags/dessert/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pumpkin-bread/</loc>
-  </url><url>
-    <loc>https://danaukes.com/dummy/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/dutch-babies/</loc>
   </url><url>
@@ -196,15 +196,19 @@
   </url><url>
     <loc>https://danaukes.com/test/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/fun/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/funky-chicken/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/garlicky-chicken-thighs-with-scallion-and-lime/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/german/</loc>
+    <loc>https://danaukes.com/recipe_tags/german/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/13-logitech-c930e/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/18-raspi4-uvc/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/git/</loc>
   </url><url>
     <loc>https://danaukes.com/code/git-tools/</loc>
   </url><url>
@@ -215,6 +219,8 @@
     <loc>https://danaukes.com/recipes/green-bean-artichoke-casserole/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/green-bean-casserole/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/grep/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/grep-cookbook/</loc>
   </url><url>
@@ -228,13 +234,15 @@
   </url><url>
     <loc>https://danaukes.com/recipes/homesteader-cornbread/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/hugo/</loc>
+  </url><url>
     <loc>https://danaukes.com/notebook/hugo-stuff/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/ice-cream/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/idealab/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/indian/</loc>
+    <loc>https://danaukes.com/recipe_tags/indian/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/indian-spiced-sweet-potatoes/</loc>
   </url><url>
@@ -248,7 +256,7 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/04-ros-bridge/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/italian/</loc>
+    <loc>https://danaukes.com/recipe_tags/italian/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/kale-soup-with-potatoes-and-sausage/</loc>
   </url><url>
@@ -262,7 +270,11 @@
   </url><url>
     <loc>https://danaukes.com/recipes/lemon-caramel-crepes-with-candied-lemons/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/main/</loc>
+    <loc>https://danaukes.com/tags/linux/</loc>
+  </url><url>
+    <loc>https://danaukes.com/recipe_tags/main/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/markdown/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/markdown-cheatsheet/</loc>
   </url><url>
@@ -270,9 +282,9 @@
   </url><url>
     <loc>https://danaukes.com/recipes/mayonaise/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/meat/</loc>
+    <loc>https://danaukes.com/recipe_tags/meat/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/mexican/</loc>
+    <loc>https://danaukes.com/recipe_tags/mexican/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/mexican-street-salad/</loc>
   </url><url>
@@ -280,7 +292,7 @@
   </url><url>
     <loc>https://danaukes.com/recipes/mint-chutney/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/misc/</loc>
+    <loc>https://danaukes.com/recipe_tags/misc/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/moroccan-slow-cooked-lamb/</loc>
   </url><url>
@@ -294,9 +306,13 @@
   </url><url>
     <loc>https://danaukes.com/recipes/oatmeal-crackers/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/office/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/one-pot-chicken-and-dirty-rice/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/one-pot-chicken-mushroom-and-rainbow-chard-pasta/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/opencv/</loc>
   </url><url>
     <loc>https://danaukes.com/code/photobooth/</loc>
   </url><url>
@@ -304,11 +320,15 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/00-overview/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/pandoc/</loc>
+  </url><url>
     <loc>https://danaukes.com/code/pandoc-plus/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/parmesean-salad/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/parts-and-materials-for-robotics/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/pdf/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/peanut-blossom-cookies/</loc>
   </url><url>
@@ -324,7 +344,11 @@
   </url><url>
     <loc>https://danaukes.com/code/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/pie/</loc>
+    <loc>https://danaukes.com/tags/photo/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/photos/</loc>
+  </url><url>
+    <loc>https://danaukes.com/recipe_tags/pie/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pie-crust-ii/</loc>
   </url><url>
@@ -332,7 +356,7 @@
   </url><url>
     <loc>https://danaukes.com/recipes/pizza-crust/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/pork/</loc>
+    <loc>https://danaukes.com/recipe_tags/pork/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pork-and-ginger-pot-stickers/</loc>
   </url><url>
@@ -345,6 +369,8 @@
     <loc>https://danaukes.com/recipes/potato-salad/</loc>
   </url><url>
     <loc>https://danaukes.com/code/powerpoint-to-markdown/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/presentations/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pretzels/</loc>
   </url><url>
@@ -360,13 +386,21 @@
   </url><url>
     <loc>https://danaukes.com/recipes/pumpkin-pie/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/pyqt/</loc>
+  </url><url>
     <loc>https://danaukes.com/bookmarks/python/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/python/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/qt/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/quinoa-vegetable-soup-recipe/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/raspberry-pi/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/ravioli-al-formaggio/</loc>
+  </url><url>
+    <loc>https://danaukes.com/recipe_tags/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/</loc>
   </url><url>
@@ -380,21 +414,23 @@
   </url><url>
     <loc>https://danaukes.com/recipes/rolled-cookies/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/ros/</loc>
+  </url><url>
     <loc>https://danaukes.com/notebook/ros/02-ros-install-and-config/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/16-raspbian/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/salad/</loc>
+    <loc>https://danaukes.com/recipe_tags/salad/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/samosas/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/sauces-and-marinades/</loc>
+    <loc>https://danaukes.com/recipe_tags/sauces-and-marinades/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/saurkraut/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/seafood/</loc>
+    <loc>https://danaukes.com/recipe_tags/seafood/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/01-setup/</loc>
   </url><url>
@@ -406,7 +442,7 @@
   </url><url>
     <loc>https://danaukes.com/recipes/sicilian-cauliflower/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/side/</loc>
+    <loc>https://danaukes.com/recipe_tags/side/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/pie-crust-i/</loc>
   </url><url>
@@ -418,9 +454,9 @@
   </url><url>
     <loc>https://danaukes.com/recipes/slow-cooker-honey-lime-ginger-pork/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/snack/</loc>
+    <loc>https://danaukes.com/recipe_tags/snack/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/soup/</loc>
+    <loc>https://danaukes.com/recipe_tags/soup/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/spinach-lasagna/</loc>
   </url><url>
@@ -448,7 +484,9 @@
   </url><url>
     <loc>https://danaukes.com/recipes/tomato-basil-bisque/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/topping/</loc>
+    <loc>https://danaukes.com/recipe_tags/topping/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/ubuntu/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/ubuntu-and-linux/</loc>
   </url><url>
@@ -466,13 +504,17 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/10-thorlabs-linear-stage/</loc>
   </url><url>
-    <loc>https://danaukes.com/tags/vegetable/</loc>
+    <loc>https://danaukes.com/recipe_tags/vegetable/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/video/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/waffles-and-pancakes-from-scratch/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/web-development/</loc>
   </url><url>
     <loc>https://danaukes.com/websites/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/websites/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/white-bread/</loc>
   </url><url>

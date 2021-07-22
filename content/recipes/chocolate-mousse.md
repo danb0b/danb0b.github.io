@@ -1,6 +1,6 @@
 ---
 title: Chocolate Mousse
-tags:
+recipe_tags:
   - dessert
 from: Amalia Aleck
 ---

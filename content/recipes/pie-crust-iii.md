@@ -4,7 +4,7 @@ from: Sara Aukes
 modified_from: a book
 images:
   - scan0118_006.jpg
-tags:
+recipe_tags:
   - dessert
   - misc
 ---

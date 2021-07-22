@@ -1,6 +1,6 @@
 ---
 title: Chipotle Salsa
-tags:
+recipe_tags:
   - appetizer
   - snack
   - side

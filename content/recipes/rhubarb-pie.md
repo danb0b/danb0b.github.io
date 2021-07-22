@@ -1,6 +1,6 @@
 ---
 title: Rhubarb Pie
-tags:
+recipe_tags:
   - dessert
   - pie
 from: Marguerite Narber

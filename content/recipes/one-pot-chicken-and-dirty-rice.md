@@ -1,6 +1,6 @@
 ---
 title: One Pot Chicken and Dirty Rice
-tags:
+recipe_tags:
   - main
   - side
 original_url: https://www.thechunkychef.com/one-pot-chicken-dirty-rice/

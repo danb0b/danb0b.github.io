@@ -1,6 +1,6 @@
 ---
 title: Balsamic chicken with figs and onion
-tags: 
+recipe_tags: 
   - chicken
   - main
 original_url: https://www.everylastbite.com/2018/12/16/balsamic-chicken-figs/

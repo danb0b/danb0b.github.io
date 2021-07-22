@@ -1,6 +1,6 @@
 ---
 title: Kale Tarts with Fennel and Olives
-tags:
+recipe_tags:
   - appetizer
 original_url: https://www.saveur.com/article/Recipes/Kale-Tarts-with-Fennel-and-Olives/
 ---

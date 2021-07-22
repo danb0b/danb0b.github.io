@@ -1,5 +1,9 @@
 ---
 title: Using Arduino with ROS
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Introduction

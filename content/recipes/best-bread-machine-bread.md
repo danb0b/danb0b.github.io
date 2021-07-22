@@ -1,6 +1,6 @@
 ---
 title: Best Bread Machine Bread
-tags:
+recipe_tags:
   - bread
 original_url: https://www.allrecipes.com/recipe/17215/best-bread-machine-bread/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Kale Soup With Potatoes and Sausage
-tags:
+recipe_tags:
   - soup
   - vegetable
   - side

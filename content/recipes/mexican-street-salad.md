@@ -1,6 +1,6 @@
 ---
 title: Mexican Street Salad
-tags:
+recipe_tags:
   - salad
   - mexican
   - vegetable

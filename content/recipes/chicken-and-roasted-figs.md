@@ -1,6 +1,6 @@
 ---
 title: Chicken and Roasted Figs
-tags:
+recipe_tags:
   - main
   - chicken
 ---

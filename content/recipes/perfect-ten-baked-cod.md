@@ -1,7 +1,7 @@
 ---
 title: Perfect Ten Baked Cod
 original_url: https://www.allrecipes.com/recipe/228319/perfect-ten-baked-cod/
-tags:
+recipe_tags:
   - main
   - seafood
 ---

@@ -1,6 +1,6 @@
 ---
 title: Granola
-tags:
+recipe_tags:
   - breakfast
 from: Tara McConnell
 ---

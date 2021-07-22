@@ -2,7 +2,7 @@
 title: Tabbouleh
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Tabbouleh-I
-tags:
+recipe_tags:
   - salad
   - side
   - vegetable

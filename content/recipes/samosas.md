@@ -2,7 +2,7 @@
 title: Samosas
 images:
   - scan0108_006.jpg
-tags:
+recipe_tags:
   - appetizer
   - side
 ---

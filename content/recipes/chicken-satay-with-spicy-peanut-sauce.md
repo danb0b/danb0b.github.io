@@ -1,6 +1,6 @@
 ---
 title: Chicken Satay with Spicy Peanut Sauce
-tags:
+recipe_tags:
   - appetizer
   - side
   - asian

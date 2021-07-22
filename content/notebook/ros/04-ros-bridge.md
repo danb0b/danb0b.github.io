@@ -1,5 +1,9 @@
 ---
 title: Installing, Running, and Using RosBridge
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Introduction

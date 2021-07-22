@@ -1,5 +1,9 @@
 ---
 title: Installing OpenCV
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 1. install opencv for python

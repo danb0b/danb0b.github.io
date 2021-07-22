@@ -1,5 +1,9 @@
 ---
 title: Running Ros on a Raspbery Pi 4 with Raspberry Pi OS
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Introduction

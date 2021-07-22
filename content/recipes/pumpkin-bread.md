@@ -1,6 +1,6 @@
 ---
 title: Downeast Maine Pumpkin Bread
-tags:
+recipe_tags:
   - dessert
   - breakfast
 original_url: https://www.allrecipes.com/recipe/6820/downeast-maine-pumpkin-bread/

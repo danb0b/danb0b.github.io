@@ -1,6 +1,6 @@
 ---
 title: Hearty Make-Ahead Salad
-tags:
+recipe_tags:
   - salad
   - vegetable
 from: Tara McConnell

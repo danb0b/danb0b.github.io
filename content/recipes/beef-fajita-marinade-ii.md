@@ -1,6 +1,6 @@
 ---
 title: Beef Fajita Marinade II
-tags:
+recipe_tags:
   - sauces-and-marinades
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Breakfast Casserole
 from: Deb Smith
-tags:
+recipe_tags:
   - breakfast
   - casserole
 ---

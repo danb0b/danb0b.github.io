@@ -1,5 +1,9 @@
 ---
 title: Setup
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Introduction

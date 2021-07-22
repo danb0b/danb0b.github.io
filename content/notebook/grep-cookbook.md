@@ -1,5 +1,9 @@
 ---
 title: Grep Cookbook
+tags:
+- grep
+- bash
+- linux
 ---  
 
 # Grep Cookbook

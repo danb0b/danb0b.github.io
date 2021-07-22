@@ -1,6 +1,6 @@
 ---
 title: Homesteader Cornbread
-tags:
+recipe_tags:
   - bread
   - side
 original_url: https://www.allrecipes.com/recipe/16955/homesteader-cornbread/

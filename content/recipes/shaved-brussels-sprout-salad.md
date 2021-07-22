@@ -1,6 +1,6 @@
 ---
 title: Shaved Brussels Sprout Salad
-tags:
+recipe_tags:
   - salad
   - vegetable
 images:

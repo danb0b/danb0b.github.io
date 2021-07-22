@@ -1,6 +1,6 @@
 ---
 title: Simple Pie Crust
-tags:
+recipe_tags:
   - dessert
   - misc
 ---

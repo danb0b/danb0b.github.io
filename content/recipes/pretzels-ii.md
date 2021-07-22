@@ -1,7 +1,7 @@
 ---
 title: Pretzels II
 original_url: https://www.foodnetwork.com/recipes/food-network-kitchen/almost-famous-soft-pretzels-recipe-1972733
-tags:
+recipe_tags:
   - appetizer
   - snack
 ---

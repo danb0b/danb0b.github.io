@@ -2,7 +2,7 @@
 title: Spinach Lasagna
 images:
   - scan0119_006.jpg
-tags:
+recipe_tags:
   - main
   - vegetable
   - italian

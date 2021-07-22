@@ -1,6 +1,6 @@
 ---
 title: Pork and Ginger Pot Stickers
-tags:
+recipe_tags:
   - appetizer
   - side
   - main

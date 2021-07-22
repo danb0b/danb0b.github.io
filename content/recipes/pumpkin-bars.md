@@ -1,6 +1,6 @@
 ---
 title: Pumpkin Bars
-tags:
+recipe_tags:
   - dessert
   - breakfast
 modified_from: allrecipes.com

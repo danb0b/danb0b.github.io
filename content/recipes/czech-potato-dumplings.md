@@ -1,6 +1,6 @@
 ---
 title: Czech Potato Dumplings
-tags:
+recipe_tags:
   - side
   - czech
 from: Dan and Sara Aukes

@@ -1,6 +1,6 @@
 ---
 title: French Bread
-tags:
+recipe_tags:
   - bread
 original_url: https://www.food.com/recipe/crusty-french-bread-101476
 ---

@@ -1,5 +1,9 @@
 ---
 title: Using the Thorlabs linear stage
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Introduction

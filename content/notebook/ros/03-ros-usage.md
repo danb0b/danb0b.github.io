@@ -1,5 +1,9 @@
 ---
 title: Navigating the Ros Filesystem (optional)
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 From [here](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)

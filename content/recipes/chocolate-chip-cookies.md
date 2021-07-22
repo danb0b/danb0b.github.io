@@ -1,6 +1,6 @@
 ---
 title: Chocolate Chip Cookies
-tags:
+recipe_tags:
   - dessert
   - cookies
 from: Daniel Aukes

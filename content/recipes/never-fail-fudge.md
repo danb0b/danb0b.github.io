@@ -1,7 +1,7 @@
 ---
 title: Never Fail Fudge
 original_url: https://marshmallowfluff.com/never-fail-fudge/
-tags: dessert
+recipe_tags: dessert
 ---
 
 ## Ingredients

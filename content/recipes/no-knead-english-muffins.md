@@ -1,6 +1,6 @@
 ---
 title: No Knead English Muffins
-tags:
+recipe_tags:
   - bread
   - breakfast
 from: Bill Eykamp

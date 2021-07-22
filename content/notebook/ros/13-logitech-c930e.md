@@ -1,5 +1,9 @@
 ---
 title: Getting the Logitech c930 working with ROS
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 # Using a USB webcam (with virtualbox)

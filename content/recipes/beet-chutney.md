@@ -2,7 +2,7 @@
 title: Beet Chutney
 from: Lindsey Nyra
 modified_from: bbcgoodfood.com
-tags:
+recipe_tags:
   - sauces-and-marinades
 ---
 

@@ -1,5 +1,9 @@
 ---
 title: Installing and Running the Novint Falcon
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Introduction

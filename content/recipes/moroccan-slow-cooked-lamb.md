@@ -1,6 +1,6 @@
 ---
 title: Moroccan Slow-Cooked Lamb
-tags:
+recipe_tags:
   - main
   - meat
 original_url: https://www.epicurious.com/recipes/food/views/moroccan-slow-cooked-lamb-231597

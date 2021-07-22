@@ -1,6 +1,6 @@
 ---
 title: Banana Bread
-tags:
+recipe_tags:
   - breakfast
   - dessert
   - bread

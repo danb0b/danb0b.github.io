@@ -1,7 +1,7 @@
 ---
 title: Banana Bread
 from: Sara Aukes
-tags:
+recipe_tags:
   - breakfast
   - dessert
   - bread

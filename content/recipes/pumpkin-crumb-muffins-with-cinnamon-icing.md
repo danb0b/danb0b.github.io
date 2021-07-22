@@ -1,7 +1,7 @@
 ---
 title: Pumpkin Crumb Muffins with Cinnamon Icing
 original_url: https://celebratingsweets.com/pumpkin-crumb-muffins-with-cinnamon-icing/
-tags:
+recipe_tags:
   - dessert
   - breakfast
 ---

@@ -1,6 +1,6 @@
 ---
 title: Microwave Peanut Brittle
-tags:
+recipe_tags:
   - dessert
 from: Mary O'Neil
 ---

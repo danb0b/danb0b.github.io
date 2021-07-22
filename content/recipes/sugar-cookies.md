@@ -1,6 +1,6 @@
 ---
 title: Sugar Cookies
-tags:
+recipe_tags:
   - dessert
   - cookies
 images: 

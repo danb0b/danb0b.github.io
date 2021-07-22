@@ -1,5 +1,9 @@
 ---
 title: Clone and Setup Custom Workspace
+tags:
+- ros
+- ubuntu
+- linux
 ---
 
 ## Steps

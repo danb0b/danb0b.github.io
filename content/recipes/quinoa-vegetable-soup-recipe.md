@@ -1,7 +1,7 @@
 ---
 title: quinoa vegetable soup recipe
 original_url: https://cookieandkate.com/quinoa-vegetable-soup-recipe/
-tags: 
+recipe_tags: 
   - soup
 ---
 

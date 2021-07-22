@@ -1,6 +1,6 @@
 ---
 title: Chili Con Cornbread
-tags:
+recipe_tags:
   - main
   - casserole
   - soup

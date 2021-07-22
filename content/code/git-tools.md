@@ -1,5 +1,8 @@
 ---
 title: Git Tools
+tags:
+- python
+- git
 ---
 
 A nice little package for synchronizing git repositories all over your computer

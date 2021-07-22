@@ -1,5 +1,9 @@
 ---
 title: Getting UVC working with Raspberry Pi
+tags:
+- ros
+- ubuntu
+- linux
 ---
 1. install uvc stuff.
 

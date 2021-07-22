@@ -1,6 +1,6 @@
 ---
 title: Blueberries with Lemon Cream
-tags:
+recipe_tags:
   - dessert
 original_url: http://www.eatingwell.com/recipe/248690/blueberries-with-lemon-cream/
 ---

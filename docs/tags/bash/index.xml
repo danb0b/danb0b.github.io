@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Dan Aukes</title>
+    <link>https://danaukes.com/tags/bash/</link>
+    <description>Recent content in bash on Dan Aukes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://danaukes.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common Git Commands</title>
+      <link>https://danaukes.com/notebook/git-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/git-commands/</guid>
+      <description>to clone a repository:
+git clone my_git_address list local branches:</description>
+    </item>
+    
+    <item>
+      <title>Grep Cookbook</title>
+      <link>https://danaukes.com/notebook/grep-cookbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/grep-cookbook/</guid>
+      <description>Grep Cookbook grep -Iiran &amp;#34;pCtip&amp;#34; ./ A more complex example:</description>
+    </item>
+    
+    <item>
+      <title>Using the ```find``` command in bash</title>
+      <link>https://danaukes.com/notebook/find/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/find/</guid>
+      <description>Using the find command in bash Find all files below the current directory that match &amp;ldquo;tecmint.</description>
+    </item>
+    
+  </channel>
+</rss>

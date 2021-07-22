@@ -1,6 +1,6 @@
 ---
 title: Cinnamon Rolls
-tags:
+recipe_tags:
   - breakfast
   - dessert
 modified_from: allrecipes.com

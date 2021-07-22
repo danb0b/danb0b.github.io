@@ -1,7 +1,7 @@
 ---
 title: Pie Crust
 modified_from: Fannie Farmer
-tags:
+recipe_tags:
   - dessert
   - misc
 ---

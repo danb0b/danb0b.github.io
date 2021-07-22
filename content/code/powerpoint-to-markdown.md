@@ -1,5 +1,10 @@
 ---
 title: Powerpoint to Markdown Converter
+tags:
+- markdown
+- pandoc
+- office
+- presentations
 ---
 
 A package for converting powerpoint files to markdown-beamer.

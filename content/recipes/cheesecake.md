@@ -1,6 +1,6 @@
 ---
 title: Cheesecake
-tags:
+recipe_tags:
   - dessert
 images:
   - cheesecake.jpg

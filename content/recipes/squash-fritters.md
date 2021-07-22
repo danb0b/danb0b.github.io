@@ -1,6 +1,6 @@
 ---
 title: Squash Fritters
-tags:
+recipe_tags:
   - main
   - vegetable
 ---

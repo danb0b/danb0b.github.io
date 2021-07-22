@@ -1,6 +1,6 @@
 ---
 title: Czech Cabbage Rolls
-tags:
+recipe_tags:
   - side
   - czech
 original_url: https://www.justapinch.com/recipes/main-course/beef/czech-cabbage-rolls.html

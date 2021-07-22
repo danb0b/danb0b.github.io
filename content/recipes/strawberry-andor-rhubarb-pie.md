@@ -1,6 +1,6 @@
 ---
 title: Strawberry and/or Rhubarb Pie
-tags:
+recipe_tags:
   - dessert
   - pie
 from: Tara McConnell

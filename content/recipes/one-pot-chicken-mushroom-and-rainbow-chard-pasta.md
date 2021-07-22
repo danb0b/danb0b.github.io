@@ -1,6 +1,6 @@
 ---
 title: One Pot Chicken, Mushroom and Rainbow Chard Pasta
-tags:
+recipe_tags:
   - main
   - side
 original_url: https://dishingouthealth.com/one-pot-chicken-mushroom-and-rainbow-chard-pasta/

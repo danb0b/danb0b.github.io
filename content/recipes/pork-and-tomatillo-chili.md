@@ -1,6 +1,6 @@
 ---
 title: Pork and Tomatillo Chili
-tags:
+recipe_tags:
   - soup
   - mexican
   - pork

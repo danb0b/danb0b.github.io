@@ -1,6 +1,6 @@
 ---
 title: English Toffee
-tags:
+recipe_tags:
   - dessert
 from: Tara McConnell
 ---

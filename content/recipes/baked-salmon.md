@@ -1,6 +1,6 @@
 ---
 title: Baked Salmon
-tags:
+recipe_tags:
   - main
   - seafood
 images: 

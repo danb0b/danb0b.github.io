@@ -2,7 +2,7 @@
 title: Tomatillo Sauce
 images:
   - scan0108_010.jpg
-tags:
+recipe_tags:
   - sauces-and-marinades
   - misc
 ---

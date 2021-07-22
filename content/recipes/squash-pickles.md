@@ -1,7 +1,7 @@
 ---
 title: Squash Pickles
 original_url: https://www.allrecipes.com/recipe/93027/pickled-squash
-tags:
+recipe_tags:
   - canning-and-pickling
   - side
   - misc

@@ -1,6 +1,6 @@
 ---
 title: Chocolate Mousse II
-tags:
+recipe_tags:
   - dessert
 original_url: https://cooking.nytimes.com/recipes/1020831-blender-chocolate-mousse
 ---

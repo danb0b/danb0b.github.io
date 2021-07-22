@@ -1,6 +1,6 @@
 ---
 title: Grilled Marinated Flank Steak
-tags:
+recipe_tags:
   - main
   - casserole
   - beef

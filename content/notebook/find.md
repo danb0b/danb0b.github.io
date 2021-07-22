@@ -1,5 +1,8 @@
 ---
 title: Using the ```find``` command in bash
+tags:
+- bash
+- linux
 ---
 
 # Using the ```find``` command in bash

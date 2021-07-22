@@ -1,6 +1,6 @@
 ---
 title: Chicken Tikka Masala
-tags:
+recipe_tags:
   - main
   - indian
   - chicken

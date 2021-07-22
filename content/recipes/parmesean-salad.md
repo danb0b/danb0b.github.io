@@ -1,6 +1,6 @@
 ---
 title: Parmesean Salad
-tags:
+recipe_tags:
   - salad
   - side
 images: 

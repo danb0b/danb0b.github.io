@@ -2,7 +2,7 @@
 title: Ultimate Chicken Pot Pie
 images: 
   - scan0103_016.jpg
-tags:
+recipe_tags:
   - main
   - pie
   - chicken

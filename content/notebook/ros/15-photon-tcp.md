@@ -1,5 +1,9 @@
 ---
 title: Creating a custom Photon Package
+tags:
+- ros
+- ubuntu
+- linux
 ---
 ## Introduction
 

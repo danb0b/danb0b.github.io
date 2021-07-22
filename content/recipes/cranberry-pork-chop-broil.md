@@ -1,6 +1,6 @@
 ---
 title: Cranberry Pork Chop Broil
-tags:
+recipe_tags:
   - main
   - pork
 original_url: https://www.cooks.com/recipe/a9566674/cranberry-pork-chop-broil.html

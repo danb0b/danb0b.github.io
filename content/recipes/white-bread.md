@@ -1,6 +1,6 @@
 ---
 title: White Bread
-tags:
+recipe_tags:
   - bread
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Mayonaise
-tags:
+recipe_tags:
   - sauces-and-marinades
   - misc
   - topping

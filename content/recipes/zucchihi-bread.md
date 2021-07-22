@@ -1,6 +1,6 @@
 ---
 title: Zucchini Bread
-tags:
+recipe_tags:
   - breakfast
   - dessert
   - bread

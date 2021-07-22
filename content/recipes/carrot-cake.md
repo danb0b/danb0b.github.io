@@ -1,6 +1,6 @@
 ---
 title: Carrot Cake
-tags:
+recipe_tags:
   - dessert
   - breakfast
 from: Daniel Aukes

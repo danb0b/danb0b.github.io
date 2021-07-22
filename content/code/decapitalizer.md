@@ -1,5 +1,9 @@
 ---
 title: Decapitalizer
+tags:
+- python
+- pyqt
+- qt
 ---
 
 A nice little program that can change capitalization.  Includes installer.

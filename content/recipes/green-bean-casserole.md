@@ -1,6 +1,6 @@
 ---
 title: Green Bean Casserole
-tags:
+recipe_tags:
   - side
   - casserole
   - vegetable

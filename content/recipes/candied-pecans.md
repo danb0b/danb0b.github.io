@@ -1,6 +1,6 @@
 ---
 title: Candied Pecans
-tags:
+recipe_tags:
   - dessert
   - topping
 from: Daniel Aukes

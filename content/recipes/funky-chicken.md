@@ -1,6 +1,6 @@
 ---
 title: Funky Chicken
-tags:
+recipe_tags:
   - main
   - chicken
   - asian

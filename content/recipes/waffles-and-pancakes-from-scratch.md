@@ -1,6 +1,6 @@
 ---
 title: Waffles & Pancakes from Scratch
-tags:
+recipe_tags:
   - breakfast
 from: Daniel Aukes
 ---

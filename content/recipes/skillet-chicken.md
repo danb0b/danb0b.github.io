@@ -1,7 +1,7 @@
 ---
 title: Skillet Chicken
 original-url: https://cooking.nytimes.com/recipes/1019465-skillet-chicken-with-cumin-paprika-and-mint
-tags:
+recipe_tags:
   - main
   - chicken
 ---

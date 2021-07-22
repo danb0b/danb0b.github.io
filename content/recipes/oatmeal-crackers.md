@@ -1,6 +1,6 @@
 ---
 title: Oatmeal Crackers
-tags:
+recipe_tags:
   - appetizer
   - snack
 from: Tara McConnell
