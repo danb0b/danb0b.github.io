@@ -57,7 +57,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
       <a class="navbar-brand mobile-view" href="https://danaukes.com/"><img class="img-fluid"
-          src="https://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+          src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -67,36 +67,24 @@
           <ul class="navbar-nav mr-auto">
             
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+              <a class="nav-link" href="https://twitter.com/danaukes"><i class="ti-twitter-alt"></i></a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+              <a class="nav-link" href="https://github.com/danb0b"><i class="ti-github"></i></a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+              <a class="nav-link" href="https://www.linkedin.com/in/dan-aukes-502995212/"><i class="ti-linkedin"></i></a>
             </li>
             
           </ul>
         </div>
 
         <a class="navbar-brand mx-auto desktop-view" href="https://danaukes.com/"><img class="img-fluid"
-            src="https://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+            src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
 
         <ul class="navbar-nav">
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://danaukes.com/about">About</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://danaukes.com/contact">Contact</a>
-          </li>
-          
           
           
           <li class="nav-item">
@@ -268,8 +256,22 @@ python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="c
 </ul>
 </li>
 </ol>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<!--
+## Old
+
+ALGO
+Open powershell in admin mode
+Create local directory c/users/danaukes/algo-data
+
+```bash
+docker run -it -v C:\Users\danaukes\code_external\algo:/algo ubuntu /bin/bash
+docker run --name=myalgo -it -v C:\Users\danaukes\algo-data:/algo-data ubuntu:bionic /bin/bash
+docker exec -it myalgo /bin/bash
+docker commit -m "installed and configged" -a "dan" 87efef64b227 test/new_image
+mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q -N ""
+```
+
+-->
 
         </div>
 
@@ -285,11 +287,10 @@ python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="c
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-center mb-5">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/images/logo.png" alt="Dan Aukes"></a>
+      <div class="col-12 border-top py-4 text-center ">
       </div>
                
-      <div class="col-lg-3 col-sm-6 mb-5">
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -304,34 +305,35 @@ python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="c
         </ul>
       </div>
       
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Social</h6>
         <ul class="list-unstyled">
           
-          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
           
-          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          <li class="mb-3"><a class="text-dark" href="https://github.com/danb0b">personal github</a></li>
           
-          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/dan-aukes-502995212/">linkedin</a></li>
           
         </ul>
       </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://danaukes.com/about">About</a></li>
           
-          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/blog">Post</a></li>
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/calendar">Calendar</a></li>
           
           <li class="mb-3"><a class="text-dark" href="https://danaukes.com/contact">Contact</a></li>
           
         </ul>
       </div>
-      <div class="col-12 border-top py-4 text-center">
+      <div class="col-12 mb-5 text-center">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      </div>
+
+      <div class="col-12 mb-5 text-center">
         | copyright © 2021 Dan Aukes All Rights Reserved |
       </div>
     </div>

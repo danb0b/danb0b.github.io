@@ -283,7 +283,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://danaukes.com/calendar/</guid>
-      <description></description>
+      <description>Find out what&amp;rsquo;s on my schedule</description>
     </item>
     
     <item>
@@ -685,6 +685,15 @@ Package URL: https://github.com/danb0b/code_file_sorter</description>
       
       <guid>https://danaukes.com/recipes/french-cheese-puffs/</guid>
       <description>Ingredients  1/2 cup (125ml) water 3 tablespoons (40g) butter, salted or unsalted, cut into cubes 1/4 teaspoon salt big pinch of chile powder, or a few turns of freshly-ground black pepper 1/2 cup (70g) flour 2 large eggs 12 chives, finely-minced (or 1 to 2 teaspoons minced fresh thyme) 3/4 cup (about 3 ounces, 90g) grated cheese (See above for ideas)  Directions You should have all the ingredients ready to go before you start.</description>
+    </item>
+    
+    <item>
+      <title>Front Page</title>
+      <link>https://danaukes.com/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/test/</guid>
+      <description>Welcome Hello and welcome to my website. I hope you&amp;rsquo;ll find some interesting things</description>
     </item>
     
     <item>
@@ -1742,12 +1751,12 @@ Ingredients  1-1/2 cup flour 1/2 cup crisco 1/2 tsp salt 5-7 tsp of ice water  D
     </item>
     
     <item>
-      <title>websites</title>
-      <link>https://danaukes.com/sites/</link>
+      <title>Web Sites</title>
+      <link>https://danaukes.com/websites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://danaukes.com/sites/</guid>
-      <description>Course Pages and Tutorials  Foldable Robotics Spring 2021 Course Page  Websites  IDEAlab  Other Websites  ASU Robotics SCRAMbots Technical Committee on Mechanisms and Design popupCAD  Slack Workspaces  IDEAlab SCRAMbots kaiteki  Twitter  danaukes popupCAD idealab dave the kangaroo scrambots  </description>
+      <guid>https://danaukes.com/websites/</guid>
+      <description>Sites I have had a hand in developing</description>
     </item>
     
     <item>
