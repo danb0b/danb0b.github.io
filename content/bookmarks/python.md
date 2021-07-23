@@ -2,7 +2,9 @@
 title: Python
 ---
 
-### python
+A lot of detail about Python problems and issues.  I promise I'll clean this up.
+
+<!--more-->
 
 * [5-embedding-python-in-another-application-python-2715-documentation](https://docs.python.org/2/extending/embedding.html)
 * [a-complete-tutorial-to-learn-data-science-with-python-from-scratch](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)

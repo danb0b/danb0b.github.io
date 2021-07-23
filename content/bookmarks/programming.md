@@ -2,6 +2,9 @@
 title: Programming
 ---
 
+All the programming topics (except for python)
+<!--more-->
+
 # Programming
 
 ## VBA

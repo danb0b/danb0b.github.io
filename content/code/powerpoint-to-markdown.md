@@ -1,5 +1,6 @@
 ---
 title: Powerpoint to Markdown Converter
+icon: bi bi-box-arrow-in-right
 tags:
 - markdown
 - pandoc

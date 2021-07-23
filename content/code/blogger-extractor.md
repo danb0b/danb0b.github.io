@@ -1,5 +1,6 @@
 ---
 title: Blogger Extractor
+icon: bi bi-box-arrow-in-right
 tags:
 - websites
 - markdown

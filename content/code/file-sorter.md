@@ -1,5 +1,6 @@
 ---
 title: File Sorter
+icon: bi bi-files
 tags:
 - python
 - photos

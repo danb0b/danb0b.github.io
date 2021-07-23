@@ -1,5 +1,6 @@
 ---
 title: Git Tools
+icon: bi bi-github
 tags:
 - python
 - git

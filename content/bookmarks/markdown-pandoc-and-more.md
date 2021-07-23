@@ -2,6 +2,10 @@
 title: Markdown, Pandoc, and More
 ---
 
+Creating and converting documents is not trivial.  I have a bunch of links that have helped me before.
+
+<!--more-->
+
 
 ### writing-papers
 

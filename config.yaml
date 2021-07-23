@@ -54,6 +54,8 @@ outputs:
   - JSON
 paginate: 6
 params:
+  default_icon: bi bi-box
+  default_recipe_icon: bi bi-cup
   formspree: https://formspree.io/f/mayadavw
   HideDate: true
   author: Dan Aukes
@@ -81,6 +83,7 @@ params:
     - URL: plugins/slick/slick.css
     - URL: plugins/themify-icons/themify-icons.css
     - URL: plugins/venobox/venobox.css
+    - URL: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css   
     js:
     - URL: plugins/jQuery/jquery.min.js
     - URL: plugins/bootstrap/bootstrap.min.js
@@ -118,3 +121,5 @@ markup:
   highlight:
     style: monokailight
     noClasses: true
+
+summarylength: 10

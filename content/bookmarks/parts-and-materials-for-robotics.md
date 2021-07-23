@@ -1,6 +1,11 @@
 ---
 title: Parts and Materials for Robotics
 ---
+
+This is probably dated and needs a good house-cleaning...
+
+<!--more-->
+
 ### electronics
 
 * [alltronics](https://anatekinstruments.com/)

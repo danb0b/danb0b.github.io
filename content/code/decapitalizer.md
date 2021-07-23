@@ -1,5 +1,6 @@
 ---
 title: Decapitalizer
+icon: bi bi-fonts
 tags:
 - python
 - pyqt

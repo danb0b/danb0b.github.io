@@ -2,6 +2,10 @@
 title: Personal
 ---
 
+Fun personal links...
+<!--more-->
+
+
 ## personal
 
 * [100-greatest-rock-instrumentals](https://digitaldreamdoor.com/pages/best_rockinst.html)

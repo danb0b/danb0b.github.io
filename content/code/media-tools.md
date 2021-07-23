@@ -1,5 +1,6 @@
 ---
 title: Handy Media Tools
+icon: bi bi-soundwave
 tags:
 - python
 - photo

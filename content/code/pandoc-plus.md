@@ -1,5 +1,6 @@
 ---
 title: Pandoc-Plus
+icon: bi bi-file-richtext
 tags:
 - python
 - markdown

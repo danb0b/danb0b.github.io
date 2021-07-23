@@ -1,3 +1,0 @@
----
-title: GUIs and QT
----

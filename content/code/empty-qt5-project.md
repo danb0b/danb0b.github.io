@@ -1,5 +1,6 @@
 ---
 title: Empty QT5 GUI
+icon: bi bi-window-sidebar
 tags:
 - python
 - pyqt

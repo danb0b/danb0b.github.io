@@ -2,6 +2,10 @@
 title: Web Development
 ---
 
+Some of my favorite bookmarks related to web development, websites, hosting, etc
+
+<!--more-->
+
 # Web Development
 
 * [a-list-apart-for-people-who-make-websites](http://alistapart.com/)

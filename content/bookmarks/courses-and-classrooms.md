@@ -2,6 +2,10 @@
 title: Courses & Classrooms
 ---
 
+Good ideas for setting up a classroom.
+
+<!--more-->
+
 ### courses
 
 * [Stocking Up School Makerspaces](https://makezine.com/2013/08/21/stocking-up-school-makerspaces/)

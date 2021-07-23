@@ -2,6 +2,10 @@
 title: ubuntu and linux
 ---
 
+A lot of inside baseball on things I need to remember
+
+<!--more-->
+
 # Ubuntu and Linux
 
 ## Misc

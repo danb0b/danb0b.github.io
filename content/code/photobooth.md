@@ -1,5 +1,6 @@
 ---
 title: OpenCV Photobooth
+icon: bi bi-camera
 tags:
 - python
 - opencv

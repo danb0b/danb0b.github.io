@@ -2,7 +2,9 @@
 title: IDEAlab-related Topics
 ---
 
-# IDEAlab-related Topics
+Topics related to research and lab administration
+
+<!--more-->
 
 ## idealab
 
