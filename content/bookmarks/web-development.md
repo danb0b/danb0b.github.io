@@ -84,3 +84,4 @@ Some of my favorite bookmarks related to web development, websites, hosting, etc
 * <https://github.com/loup-brun/hugo-cite>
 * <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
 * <https://www.liwen.id.au/photoswipe/>
+* [https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9](automated deploytment on github pages)
