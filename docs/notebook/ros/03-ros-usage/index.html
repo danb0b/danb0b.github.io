@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dan Aukes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Dan Aukes">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/venobox/venobox.css ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://danaukes.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://danaukes.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://danaukes.com/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://danaukes.com/"><img class="img-fluid"
+          src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/danaukes"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/danb0b"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/dan-aukes-502995212/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://danaukes.com/"><img class="img-fluid"
+            src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/notebook">Notebook</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/recipes">Recipes</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/websites">Websites</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/bookmarks">Bookmarks</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/code">Code</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://danaukes.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <h2>Navigating the Ros Filesystem (optional)</h2>
+        <div class="mb-3 post-meta">
+          <span>By Dan Aukes</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>From <a href="https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">here</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#sudo apt-get install ros-&lt;distro&gt;-ros-tutorials</span>
+sudo apt-get install ros-melodic-ros-tutorials
+<span style="color:#75715e">#rospack find [package_name]</span>
+rospack find roscpp
+<span style="color:#75715e">#roscd [locationname[/subdir]]</span>
+roscd roscpp
+<span style="color:#75715e">#print the working directory using the Unix command</span>
+<span style="color:#111">pwd</span>
+<span style="color:#75715e">#To see what is in your ROS_PACKAGE_PATH, type:</span>
+<span style="color:#111">echo</span> <span style="color:#111">$ROS_PACKAGE_PATH</span>
+
+<span style="color:#75715e">#roscd can also move to a subdirectory of a package or stack.  Try:</span>
+roscd roscpp/cmake
+<span style="color:#111">pwd</span>
+
+<span style="color:#75715e">#roscd log will take you to the folder where ROS stores log files. Note that if you have not run any ROS programs yet, this will yield an error saying that it does not yet exist.</span>
+<span style="color:#75715e">#If you have run some ROS program before, try:</span>
+roscd log
+
+<span style="color:#75715e">#rosls is part of the rosbash suite. It allows you to ls directly in a package by name rather than by absolute path.</span>
+<span style="color:#75715e">#rosls [locationname[/subdir]]</span>
+rosls roscpp_tutorials
+</code></pre></div><h2 id="create-a-package">Create A Package</h2>
+<p>From <a href="https://wiki.ros.org/ROS/Tutorials/CreatingPackage">here</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># You should have created this in the Creating a Workspace Tutorial</span>
+<span style="color:#111">cd</span> ~/catkin_ws/src
+<span style="color:#75715e"># catkin_create_pkg &lt;package_name&gt; [depend1] [depend2] [depend3]</span>
+catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+
+<span style="color:#75715e">#Now you need to build the packages in the catkin workspace:</span>
+<span style="color:#111">cd</span> ~/catkin_ws
+catkin_make
+
+<span style="color:#75715e">#To add the workspace to your ROS environment you need to source the generated setup file:</span>
+. ~/catkin_ws/devel/setup.bash
+
+<span style="color:#75715e">#first-order dependencies can now be reviewed with the rospack tool.</span>
+rospack depends1 beginner_tutorials
+
+<span style="color:#75715e">#dependencies for a package are stored in the package.xml file:</span>
+roscd beginner_tutorials
+cat package.xml
+
+<span style="color:#75715e">#In many cases, a dependency will also have its own dependencies. For instance, rospy has other dependencies.</span>
+rospack depends1 rospy
+
+<span style="color:#75715e">#rospack can recursively determine all nested dependencies.</span>
+rospack depends beginner_tutorials
+</code></pre></div><p>open up package.xml and check whether there is an exec_depend tag for each of the dependencies in package.xml as in <a href="https://wiki.ros.org/ROS/Tutorials/CreatingPackage#ROS.2BAC8-Tutorials.2BAC8-catkin.2BAC8-CreatingPackage.Final_package.xml">the tutorial</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">  <span style="color:#f92672">&lt;buildtool_depend&gt;</span>catkin<span style="color:#f92672">&lt;/buildtool_depend&gt;</span>
+
+  <span style="color:#f92672">&lt;build_depend&gt;</span>roscpp<span style="color:#f92672">&lt;/build_depend&gt;</span>
+  <span style="color:#f92672">&lt;build_depend&gt;</span>rospy<span style="color:#f92672">&lt;/build_depend&gt;</span>
+  <span style="color:#f92672">&lt;build_depend&gt;</span>std_msgs<span style="color:#f92672">&lt;/build_depend&gt;</span>
+
+  <span style="color:#f92672">&lt;exec_depend&gt;</span>roscpp<span style="color:#f92672">&lt;/exec_depend&gt;</span>
+  <span style="color:#f92672">&lt;exec_depend&gt;</span>rospy<span style="color:#f92672">&lt;/exec_depend&gt;</span>
+  <span style="color:#f92672">&lt;exec_depend&gt;</span>std_msgs<span style="color:#f92672">&lt;/exec_depend&gt;</span>
+</code></pre></div><h2 id="build-a-ros-package">Build a ROS Package</h2>
+<p>from <a href="https://wiki.ros.org/ROS/Tutorials/BuildingPackages">here</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#source your environment setup file if you have not already</span>
+<span style="color:#75715e"># source /opt/ros/%YOUR_ROS_DISTRO%/setup.bash</span>
+<span style="color:#75715e"># this has been added to bashrc so is not necessary</span>
+<span style="color:#111">source</span> /opt/ros/melodic/setup.bash
+<span style="color:#75715e"># In a catkin workspace</span>
+<span style="color:#75715e">#catkin_make [make_targets] [-DCMAKE_VARIABLES=...]</span>
+<span style="color:#75715e">#catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3</span>
+<span style="color:#75715e">#catkin_make</span>
+<span style="color:#75715e">#catkin_make install #optional</span>
+
+<span style="color:#75715e">#If your source code is in a different place, say my_src then you would call catkin_make like this:</span>
+<span style="color:#75715e"># In a catkin workspace</span>
+<span style="color:#75715e">#catkin_make --source my_src</span>
+<span style="color:#75715e">#catkin_make install --source my_src  # (optionally)</span>
+
+<span style="color:#111">cd</span> ~/catkin_ws/
+ls src
+catkin_make
+</code></pre></div><h2 id="running-ros">Running ROS</h2>
+<p>From <a href="https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes">here</a></p>
+<ol>
+<li>
+<p>In Terminal 1 (ctrl+alt+t)</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+</code></pre></div></li>
+<li>
+<p>Open up a new terminal tab (ctrl+shift+t)</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
+rosnode info /rosout
+</code></pre></div></li>
+<li>
+<p>Open up a new terminal tab (ctrl+shift+t)</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun [package_name] [node_name]</span>
+rosrun turtlesim turtlesim_node
+</code></pre></div></li>
+<li>
+<p>In terminal 2(ctrl+pg_up):</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
+</code></pre></div></li>
+<li>
+<p>In terminal 3(ctrl+pg_dn):</p>
+<ol>
+<li>ctrl+c
+1.
+<code>rosrun turtlesim turtlesim_node __name:=my_turtle</code></li>
+</ol>
+</li>
+<li>
+<p>In terminal 2(ctrl+pg_up):</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
+</code></pre></div></li>
+</ol>
+<h2 id="understanding-topics">Understanding Topics</h2>
+<p>See the <a href="https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics">tutorial</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#run ros</span>
+roscore
+</code></pre></div><p>in a new terminal</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun turtlesim turtlesim_node
+</code></pre></div><p>in a new terminal:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun turtlesim turtle_teleop_key
+</code></pre></div><p>in a new terminal:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun rqt_graph rqt_graph
+</code></pre></div><p>in a new terminal:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># list all commands within rostopic</span>
+rostopic -h
+
+<span style="color:#75715e">#how to subscribe to and print a topic</span>
+<span style="color:#75715e">#rostopic echo [topic]</span>
+<span style="color:#75715e">#rostopic echo [topic]</span>
+rostopic <span style="color:#111">echo</span> /turtle1/cmd_vel
+</code></pre></div><p>in a new terminal:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># list full details</span>
+rostopic list -v
+
+<span style="color:#75715e"># list publishers of</span>
+<span style="color:#75715e">#rostopic list -p [topic]</span>
+rostopic list -p /turtle1/cmd_vel
+
+<span style="color:#75715e">#list subscribers to</span>
+<span style="color:#75715e">#rostopic list -s [topic]</span>
+rostopic list -s /turtle1/cmd_vel
+
+<span style="color:#75715e"># list message type</span>
+<span style="color:#75715e">#rostopic type [topic]</span>
+rostopic <span style="color:#111">type</span> /turtle1/cmd_vel
+<span style="color:#75715e"># returns geometry_msgs/Twist</span>
+
+<span style="color:#75715e">#message type details</span>
+<span style="color:#75715e">#rosmsg show [msg]</span>
+rosmsg show geometry_msgs/Twist
+</code></pre></div><p>More details <a href="https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics#rostopic_continued">here</a></p>
+<h2 id="understanding-services-and-parameters">Understanding Services and Parameters</h2>
+<p>See the <a href="https://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">tutorial</a></p>
+<h2 id="rqtconsole-and-roslaunch">RQTConsole and ROSLaunch</h2>
+<p>From this <a href="https://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch">tutorial</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#roslaunch starts nodes as defined in a launch file.</span>
+<span style="color:#75715e">#roslaunch [package] [filename.launch]</span>
+
+<span style="color:#75715e">#you will need to source the environment setup file like you did at the end of the create_a_workspace tutorial:</span>
+<span style="color:#111">cd</span> ~/catkin_ws
+<span style="color:#111">source</span> devel/setup.bash
+roscd beginner_tutorials
+
+<span style="color:#75715e">#Then let&#39;s make a launch directory:</span>
+mkdir launch
+<span style="color:#111">cd</span> launch
+
+<span style="color:#111">echo</span> <span style="color:#d88200">&#34;&lt;launch&gt;
+</span><span style="color:#d88200">
+</span><span style="color:#d88200">  &lt;group ns=\&#34;turtlesim1\&#34;&gt;
+</span><span style="color:#d88200">    &lt;node pkg=\&#34;turtlesim\&#34; name=\&#34;sim\&#34; type=\&#34;turtlesim_node\&#34;/&gt;
+</span><span style="color:#d88200">  &lt;/group&gt;
+</span><span style="color:#d88200">
+</span><span style="color:#d88200">  &lt;group ns=\&#34;turtlesim2\&#34;&gt;
+</span><span style="color:#d88200">    &lt;node pkg=\&#34;turtlesim\&#34; name=\&#34;sim\&#34; type=\&#34;turtlesim_node\&#34;/&gt;
+</span><span style="color:#d88200">  &lt;/group&gt;
+</span><span style="color:#d88200">
+</span><span style="color:#d88200">  &lt;node pkg=\&#34;turtlesim\&#34; name=\&#34;mimic\&#34; type=\&#34;mimic\&#34;&gt;
+</span><span style="color:#d88200">    &lt;remap from=\&#34;input\&#34; to=\&#34;turtlesim1/turtle1\&#34;/&gt;
+</span><span style="color:#d88200">    &lt;remap from=\&#34;output\&#34; to=\&#34;turtlesim2/turtle1\&#34;/&gt;
+</span><span style="color:#d88200">  &lt;/node&gt;
+</span><span style="color:#d88200">
+</span><span style="color:#d88200">&lt;/launch&gt;&#34;</span> &gt;&gt; turtlemimic.launch
+
+roslaunch beginner_tutorials turtlemimic.launch
+</code></pre></div><p>in a new terminal</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r <span style="color:#ae81ff">1</span> -- <span style="color:#d88200">&#39;[2.0, 0.0, 0.0]&#39;</span> <span style="color:#d88200">&#39;[0.0, 0.0, -1.8]&#39;</span>
+</code></pre></div><p>in a new terminal</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rqt</span>
+rqt_graph
+</code></pre></div><h2 id="creating-a-message-and-service">Creating a Message and Service</h2>
+<p>From this <a href="https://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv">tutorial</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
+<span style="color:#111">source</span> devel/setup.bash
+roscd beginner_tutorials
+
+mkdir msg
+<span style="color:#111">echo</span> <span style="color:#d88200">&#34;int64 num
+</span><span style="color:#d88200">string first_name
+</span><span style="color:#d88200">string last_name
+</span><span style="color:#d88200">uint8 age
+</span><span style="color:#d88200">uint32 score&#34;</span> &gt; msg/Num.msg
+
+nano package.xml
+</code></pre></div><p>add these lines:</p>
+<pre><code>  &lt;build_depend&gt;message_generation&lt;/build_depend&gt;
+  &lt;exec_depend&gt;message_runtime&lt;/exec_depend&gt;
+</code></pre><p>save and exit</p>
+<pre><code>nano CMakeLists.txt
+</code></pre><p>Add the message_generation dependency to the find_package call which already exists in your CMakeLists.txt so that you can generate messages. You can do this by simply adding message_generation to the list of COMPONENTS such that it looks like this:</p>
+<pre><code># Do not just add this to your CMakeLists.txt, modify the existing text to add message_generation before the closing parenthesis
+find_package(catkin REQUIRED COMPONENTS
+   roscpp
+   rospy
+   std_msgs
+   message_generation
+)
+</code></pre><p>Also make sure you export the message runtime dependency.</p>
+<pre><code>catkin_package(
+  ...
+  CATKIN_DEPENDS message_runtime ...
+  ...)
+</code></pre><p>Find the following block of code:</p>
+<pre><code># add_message_files(
+#   FILES
+#   Message1.msg
+#   Message2.msg
+# )
+</code></pre><p>Uncomment it by removing the # symbols and then replace the stand in Message*.msg files with your .msg file, such that it looks like this:</p>
+<pre><code>add_message_files(
+  FILES
+  Num.msg
+)
+</code></pre><p>By adding the .msg files manually, we make sure that CMake knows when it has to reconfigure the project after you add other .msg files.</p>
+<p>Now we must ensure the generate_messages() function is called.</p>
+<p>For ROS Hydro and later, you need to uncomment these lines:</p>
+<pre><code># generate_messages(
+#   DEPENDENCIES
+#   std_msgs
+# )
+</code></pre><p>so it looks like:</p>
+<pre><code>generate_messages(
+  DEPENDENCIES
+  std_msgs
+)
+</code></pre><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosmsg show [message type]</span>
+rosmsg show beginner_tutorials/Num
+
+<span style="color:#75715e">#Now that we have made some new messages we need to make our package again:</span>
+
+<span style="color:#75715e"># In your catkin workspace</span>
+roscd beginner_tutorials
+<span style="color:#111">cd</span> ../..
+catkin_make install
+<span style="color:#111">cd</span> -
+</code></pre></div><h2 id="simple-publisher-and-subscriber-python">Simple Publisher and Subscriber (Python)</h2>
+<p>From <a href="https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29">here</a></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
+<span style="color:#111">source</span> devel/setup.bash
+roscd beginner_tutorials
+mkdir scripts
+<span style="color:#111">cd</span> scripts
+wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/talker.py
+chmod +x talker.py
+roscd beginner_tutorials/scripts/
+wget https://raw.github.com/ros/ros_tutorials/kinetic-devel/rospy_tutorials/001_talker_listener/listener.py
+chmod +x listener.py
+<span style="color:#111">cd</span> ~/catkin_ws
+catkin_make
+</code></pre></div><h2 id="examining-publisher-and-subscriber">Examining Publisher and Subscriber</h2>
+<p>From  <a href="https://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber">here</a></p>
+<p>Make sure that a roscore is up and running:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># In your catkin workspace</span>
+<span style="color:#111">cd</span> ~/catkin_ws
+<span style="color:#111">source</span> ./devel/setup.bash
+
+<span style="color:#75715e">#In the last tutorial we made a publisher called &#34;talker&#34;. Let&#39;s run it:</span>
+<span style="color:#75715e">#rosrun beginner_tutorials talker      (C++)</span>
+rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</span>
+</code></pre></div><p>In another terminal:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun beginner_tutorials listener     (C++)</span>
+rosrun beginner_tutorials listener.py  <span style="color:#75715e">#(Python)</span>
+</code></pre></div><h2 id="recording-data-creating-a-bag-file">Recording data (creating a bag file)</h2>
+<ol>
+<li>
+<p>In Terminal 1:</p>
+<pre><code>roscore
+</code></pre></li>
+<li>
+<p>In Terminal 2:</p>
+<pre><code>rosrun turtlesim turtlesim_node
+</code></pre></li>
+<li>
+<p>In Terminal 3:</p>
+<pre><code>rosrun turtlesim turtle_teleop_key
+</code></pre></li>
+<li>
+<p>Start Recording.  In Terminal 4:</p>
+<pre><code>rostopic list -v
+mkdir ~/bagfiles
+cd ~/bagfiles
+rosbag record -a -O test.bag --duration=10s
+#Wait ten seconds
+
+#Examine your bagfile
+rosbag info test.bag
+
+#Play back at twice the rate
+#rosbag play -r 2 &lt;your bagfile&gt;
+rosbag play -r 2 test.bag
+
+rosbag record -O subset.bag --duration /turtle1/cmd_vel /turtle1/pose
+rosbag info subset.bag
+</code></pre></li>
+</ol>
+<!--
+1. with the ip address:
+
+    ```
+    export ROS_IP=192.168.0.17
+    ```
+-->
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 border-top py-4 text-center ">
+      </div>
+               
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Gilbert, AZ, USA</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:danaukes%20at%20gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>danaukes at gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Social</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/danb0b">personal github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/dan-aukes-502995212/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/calendar">Calendar</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 mb-5 text-center">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      </div>
+
+      <div class="col-12 mb-5 text-center">
+        | copyright © 2021 Dan Aukes All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://danaukes.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://danaukes.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://danaukes.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://danaukes.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://danaukes.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://danaukes.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://danaukes.com/plugins/search/mark.js"></script>
+
+<script src="https://danaukes.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://danaukes.com/js/script.min.js"></script>
+
+
+
+</body>
+</html>

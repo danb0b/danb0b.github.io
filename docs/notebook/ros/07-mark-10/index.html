@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dan Aukes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Dan Aukes">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/venobox/venobox.css ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://danaukes.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://danaukes.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://danaukes.com/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://danaukes.com/"><img class="img-fluid"
+          src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/danaukes"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/danb0b"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/dan-aukes-502995212/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://danaukes.com/"><img class="img-fluid"
+            src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/notebook">Notebook</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/recipes">Recipes</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/websites">Websites</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/bookmarks">Bookmarks</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/code">Code</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://danaukes.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <h2>Using the Mark-10</h2>
+        <div class="mb-3 post-meta">
+          <span>By Dan Aukes</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h2 id="prep-the-host-machine-in-a-virtualbox-environment">prep the host machine in a virtualbox environment</h2>
+<ol>
+<li>Download and install drivers from the mark 10 website</li>
+<li>plug in and turn on mark 10.  make sure it is set to usb mode.  Go through and write down baud rate</li>
+<li>set communication preferences in mark 10 menu</li>
+<li>open virtualbox and enable filter for mark-10 in usb</li>
+<li>start up virtualbox</li>
+</ol>
+<h2 id="in-ubuntu">In ubuntu</h2>
+<ol>
+<li>
+<p>(virtualbox only) make sure you are a member of the vboxusers group ^[<a href="https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes">https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes</a>]</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whoami <span style="color:#75715e">#see what my username is</span>
+groups <span style="color:#75715e">#see what groups I belong to</span>
+groups idealab <span style="color:#75715e">#see what groups idealab belongs to</span>
+sudo groupadd vboxusers <span style="color:#75715e">#create group vboxusers</span>
+sudo usermod -a -G vboxusers idealab <span style="color:#75715e">#adds user idealab to group vboxusers</span>
+sudo usermod -a -G dialout idealab <span style="color:#75715e"># adds user idealab to group dialout</span>
+sudo usermod -a -G tty idealab <span style="color:#75715e"># adds user idealab to group dialout</span>
+</code></pre></div><p>restart to apply group changes</p>
+</li>
+<li>
+<p>download source code for silabs uart-to-usb chip</p>
+</li>
+<li>
+<p>extract zip</p>
+</li>
+<li>
+<p>modify source according to the mark-10 linux install instructions provided below</p>
+</li>
+<li>
+<p>open terminal</p>
+</li>
+<li>
+<p>navigate to extracted directory</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
+sudo cp cp210x.ko /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
+sudo insmod /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial/usbserial.ko
+sudo insmod /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial/cp210x.ko
+</code></pre></div></li>
+<li>
+<p>to remove driver (usually not necessary &ndash; only if you need to fix a mistake or start over):</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
+sudo rmmod cp210x
+sudo rmmod usbserial
+</code></pre></div></li>
+</ol>
+<!--1. change port settings ```sudo chmod 666 /dev/ttyUSB0```-->
+<ol>
+<li>
+<p>Compile and run test</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./cp210x_gpio_example
+</code></pre></div></li>
+</ol>
+<h2 id="links">Links</h2>
+<p><a href="https://www.mark-10.com/downloads.html">https://www.mark-10.com/downloads.html</a>
+<a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:left">Internal Link</th>
+<th style="text-align:left">External Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">silabs linux source</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1yQoChbIYSqaGSmSDXDaYX1BWkF0A6lAE&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">web page</a></td>
+</tr>
+<tr>
+<td style="text-align:left">mark-10 Mac Driver</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1ynn_FwSxHaVg3IzRsUNPpE2aQfTGR99e&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.mark-10.com/instruments/software/Mac_OSX_VCP_Driver%20V4.x.10.zip">link</a></td>
+</tr>
+<tr>
+<td style="text-align:left">mark-10 windows driver</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1yhiBY0zNW9oLBm-r8sjYDAcsrP70BZwi&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.mark-10.com/instruments/software/Mark-10%20USB%20Driver.zip">link</a></td>
+</tr>
+<tr>
+<td style="text-align:left">mark-10 linux instructions</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1yRxTalBA-6GI2KMZLF0wllMmipYrtRoF&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.mark-10.com/new_manuals/manualLinuxAndroidVCPdriver.pdf">link</a></td>
+</tr>
+<tr>
+<td style="text-align:left">mark-10 series 4 datasheet</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1yoy8eyYghYVs2h8iPHVQK_UnTXOUthQm&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.mark-10.com/pdf/DataSheetSeries4.pdf">link</a></td>
+</tr>
+<tr>
+<td style="text-align:left">mark-10 series 4 user manual</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1yyviTbgzO2nRIuN3szFXmvqvT1qWptxh&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.mark-10.com/new_manuals/manualSeries4.pdf">link</a></td>
+</tr>
+<tr>
+<td style="text-align:left">mark-10 usb driver manual</td>
+<td style="text-align:left"><a href="https://drive.google.com/open?id=1yd7-nJtRq8O5tSyuKWWuw9QJuWh5b-aB&amp;authuser=daukes@asu.edu&amp;usp=drive_fs">link</a></td>
+<td style="text-align:left"><a href="https://www.mark-10.com/new_manuals/manualUSBDriver.pdf">link</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="related-info">Related Info</h2>
+<ul>
+<li><a href="https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0">https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0</a></li>
+<li><a href="https://unix.stackexchange.com/questions/66901/how-to-bind-usb-device-under-a-static-name">https://unix.stackexchange.com/questions/66901/how-to-bind-usb-device-under-a-static-name</a></li>
+<li><a href="http://www.reactivated.net/writing_udev_rules.html">http://www.reactivated.net/writing_udev_rules.html</a></li>
+<li>for serial/usb devices working in windows to virtualbox (slightly different problem): <a href="https://jjmilburn.github.io/2016/04/04/ttyUSB-to-vagrant-virtualbox/">https://jjmilburn.github.io/2016/04/04/ttyUSB-to-vagrant-virtualbox/</a></li>
+<li><a href="https://www.computerhope.com/unix/insmod.htm">about insmod</a> and <a href="https://www.computerhope.com/unix/rmmod.htm">rmmod</a></li>
+</ul>
+<h3 id="identifying-and-locating-usb-devices">Identifying and locating USB devices</h3>
+<p>These widely used commands can be used to list connected USB devices in Linux.</p>
+<pre><code>lsusb
+dmesg
+dmesg | less
+dmesg | grep ttyUSB
+usb-devices
+lsblk
+sudo blkid.
+sudo fdisk -l
+</code></pre>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 border-top py-4 text-center ">
+      </div>
+               
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Gilbert, AZ, USA</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:danaukes%20at%20gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>danaukes at gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Social</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/danb0b">personal github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/dan-aukes-502995212/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/calendar">Calendar</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 mb-5 text-center">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      </div>
+
+      <div class="col-12 mb-5 text-center">
+        | copyright © 2021 Dan Aukes All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://danaukes.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://danaukes.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://danaukes.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://danaukes.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://danaukes.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://danaukes.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://danaukes.com/plugins/search/mark.js"></script>
+
+<script src="https://danaukes.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://danaukes.com/js/script.min.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Dan Aukes</title>
+    <link>https://danaukes.com/tags/markdown/</link>
+    <description>Recent content in markdown on Dan Aukes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://danaukes.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogger Extractor</title>
+      <link>https://danaukes.com/code/blogger-extractor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/code/blogger-extractor/</guid>
+      <description>A nice little package for exporting your blogger site to markdown.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Stuff</title>
+      <link>https://danaukes.com/notebook/hugo-stuff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/hugo-stuff/</guid>
+      <description>Create a new site with yaml format
+hugo new site --format=yaml dox </description>
+    </item>
+    
+    <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>https://danaukes.com/notebook/markdown-cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/markdown-cheatsheet/</guid>
+      <description>Derived from https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0
+Headings There are few options to create headings.</description>
+    </item>
+    
+    <item>
+      <title>Pandoc-Plus</title>
+      <link>https://danaukes.com/code/pandoc-plus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/code/pandoc-plus/</guid>
+      <description>A collection of utilities to make converting files easier in pandoc.</description>
+    </item>
+    
+    <item>
+      <title>Powerpoint to Markdown Converter</title>
+      <link>https://danaukes.com/code/powerpoint-to-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/code/powerpoint-to-markdown/</guid>
+      <description>A package for converting powerpoint files to markdown-beamer.
+requires pandoc, powerpoint</description>
+    </item>
+    
+  </channel>
+</rss>

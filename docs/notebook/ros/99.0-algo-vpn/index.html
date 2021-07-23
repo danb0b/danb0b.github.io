@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dan Aukes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Dan Aukes">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://danaukes.com/plugins/venobox/venobox.css ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://danaukes.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://danaukes.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://danaukes.com/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://danaukes.com/"><img class="img-fluid"
+          src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/danaukes"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/danb0b"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/dan-aukes-502995212/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://danaukes.com/"><img class="img-fluid"
+            src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/notebook">Notebook</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/recipes">Recipes</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/websites">Websites</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/bookmarks">Bookmarks</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://danaukes.com/code">Code</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://danaukes.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <h2>Installing Algo VPN</h2>
+        <div class="mb-3 post-meta">
+          <span>By Dan Aukes</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h2 id="introduction">Introduction</h2>
+<p>While this is a bit off topic, it is sometimes necessary to create a virtual network to enable computers across a large distance to communicate as if on the same network.  This section deals with how to install such a service on a virtual machine.</p>
+<h2 id="instructions">Instructions</h2>
+<ol>
+<li>
+<p>create a new virtual machine</p>
+<ol>
+<li>turn off usb</li>
+<li>bridged mode networking</li>
+<li>set MAC address to something easy, like 000000000002</li>
+<li>share local directory ~/danaukes/share to /mnt/share
+<ol>
+<li>
+<p>In vm settings Create share at ~/share and /mnt/share</p>
+</li>
+<li>
+<p>Add idealab to vbxosf group:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo groupadd vboxsf <span style="color:#75715e">#create group vboxusers</span>
+sudo usermod -a -G vboxsf idealab <span style="color:#75715e">#adds user idealab to group vboxsf</span>
+</code></pre></div></li>
+<li>
+<p>Sign out and back in</p>
+</li>
+<li>
+<p>change sharing settings</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod <span style="color:#ae81ff">777</span> /mnt/share
+</code></pre></div></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>update computer and install necessary packages</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+sudo apt upgrade
+sudo apt install -y python3-virtualenv git nano ssh net-tools
+</code></pre></div></li>
+<li>
+<p>install algo</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo -i <span style="color:#75715e">#necessarysu in ubuntu</span>
+<span style="color:#111">cd</span> /
+git clone https://github.com/trailofbits/algo.git
+<span style="color:#111">cd</span> /algo
+python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="color:#d88200">&#34;</span><span style="color:#00a8c8">$(</span><span style="color:#111">command</span> -v python3<span style="color:#00a8c8">)</span><span style="color:#d88200">&#34;</span> .env <span style="color:#f92672">&amp;&amp;</span>   <span style="color:#111">source</span> .env/bin/activate <span style="color:#f92672">&amp;&amp;</span>   python3 -m pip install -U pip virtualenv <span style="color:#f92672">&amp;&amp;</span>   python3 -m pip install -r requirements.txt
+</code></pre></div></li>
+<li>
+<p>edit config file</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nano config.cfg
+</code></pre></div><ol>
+<li>add users</li>
+<li>disable &ldquo;BetweenClients_DROP&rdquo;, &ldquo;block_smb&rdquo;, and &ldquo;block_netbios&rdquo;</li>
+</ol>
+<p>hit <code>ctrl+s</code> to save and <code>ctrl+x</code> to exit</p>
+</li>
+<li>
+<p>comment out lines 10-15 of main.yml.  (Its a check for ansible write priveleges)</p>
+</li>
+<li>
+<p>run algo installer</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./algo
+</code></pre></div><ol>
+<li>select &ldquo;12&rdquo;</li>
+<li>retain pki keys - n</li>
+<li>each user should have their own acct - n</li>
+<li>deploy to localhost</li>
+<li>hostname = gilbertphelps.ddns.net</li>
+</ol>
+</li>
+<li>
+<p>modify local router:</p>
+</li>
+<li>
+<p>give unique ip address</p>
+</li>
+<li>
+<p>forward ports to vm</p>
+<ol>
+<li>4160:4160 - doesn&rsquo;t apply for ubuntu</li>
+<li>51820:58120</li>
+</ol>
+</li>
+<li>
+<p>You should see a message like this:</p>
+<pre><code>            &quot;\&quot;#                          Congratulations!                            #\&quot;&quot;,
+            &quot;\&quot;#                     Your Algo server is running.                     #\&quot;&quot;,
+            &quot;\&quot;#    Config files and certificates are in the ./configs/ directory.    #\&quot;&quot;,
+            &quot;\&quot;#              Go to https://whoer.net/ after connecting               #\&quot;&quot;,
+            &quot;\&quot;#        and ensure that all your traffic passes through the VPN.      #\&quot;&quot;,
+            &quot;\&quot;#                     Local DNS resolver 172.31.126.44, fd00::f:7e2c                   #\&quot;&quot;,
+            &quot;&quot;
+        ],
+        &quot;    \&quot;#        The p12 and SSH keys password for new users is jSKjdHpXY       #\&quot;\n&quot;,
+        &quot;    &quot;,
+        &quot;    &quot;
+
+</code></pre></li>
+<li>
+<p>copy configuation files to other machines for use</p>
+</li>
+<li>
+<p>run your virtualbox image as a service so it starts automatically.</p>
+<ul>
+<li>See <a href="https://github.com/onlyfang/VBoxVmService">https://github.com/onlyfang/VBoxVmService</a></li>
+</ul>
+</li>
+</ol>
+<!--
+## Old
+
+ALGO
+Open powershell in admin mode
+Create local directory c/users/danaukes/algo-data
+
+```bash
+docker run -it -v C:\Users\danaukes\code_external\algo:/algo ubuntu /bin/bash
+docker run --name=myalgo -it -v C:\Users\danaukes\algo-data:/algo-data ubuntu:bionic /bin/bash
+docker exec -it myalgo /bin/bash
+docker commit -m "installed and configged" -a "dan" 87efef64b227 test/new_image
+mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q -N ""
+```
+
+-->
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 border-top py-4 text-center ">
+      </div>
+               
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Gilbert, AZ, USA</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:danaukes%20at%20gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>danaukes at gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Social</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/danb0b">personal github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/dan-aukes-502995212/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/calendar">Calendar</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://danaukes.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 mb-5 text-center">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
+      </div>
+
+      <div class="col-12 mb-5 text-center">
+        | copyright © 2021 Dan Aukes All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://danaukes.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://danaukes.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://danaukes.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://danaukes.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://danaukes.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://danaukes.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://danaukes.com/plugins/search/mark.js"></script>
+
+<script src="https://danaukes.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://danaukes.com/js/script.min.js"></script>
+
+
+
+</body>
+</html>
