@@ -12,29 +12,7 @@
       <div class="col-10 featured-post-slider">
         <!-- slider item -->
         {{ range ( where .Site.RegularPages "Type" "featured" )}}
-        <article class="card featured-post">
-          <div class="row no-gutters align-items-center">
-            <div class="col-md-5">
-              {{ if .Params.Image }}
-              <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
-              {{ end }}
-            </div>
-            <div class="col-md-6 offset-md-1">
-              <div class="card-body">
-                <div class="mb-3 post-meta">
-                  <span>By {{if .Params.Author}}{{ .Params.Author }}{{else}}{{.Site.Params.Author}}{{end}}</span>
-                  {{ if .PublishDate }}
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02 January 2006" }}</span>
-                  {{ end }}
-                </div>
-                <a href="{{ .Permalink }}"
-                  class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</a>
-                <p class="card-text">{{.Summary}}...</p>
-              </div>
-            </div>
-          </div>
-        </article>
+        {{ .Render "post_top" }}
         {{ end }}
       </div>
     </div>

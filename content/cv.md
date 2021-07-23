@@ -2,7 +2,7 @@
 title: Curriculum Vitae 
 type: starred
 summary: My course of life
-image: box3.png
+image: images/cv_scaled.jpg
 ---
 
 _updated Jan 2021_
