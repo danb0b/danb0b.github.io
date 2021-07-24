@@ -64,8 +64,7 @@ params:
   cookies:
     enable: false
     expire_days: 2
-  copyright: '| copyright &copy; 2021 Dan Aukes
-    All Rights Reserved |'
+  copyright: "|  copyright &copy; 2021 Daniel Aukes.  All Rights Reserved.  |"
   description: This is meta description
   email: 'danaukes at gmail.com'
   #googleAnalitycsID: Your ID
