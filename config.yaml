@@ -54,6 +54,8 @@ outputs:
   - JSON
 paginate: 6
 params:
+  github_repo: "https://github.com/danb0b/danb0b.github.io"
+  github_edit_branch: hugo
   default_icon: bi bi-box
   default_recipe_icon: bi bi-cup
   formspree: https://formspree.io/f/mayadavw
