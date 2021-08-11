@@ -7,13 +7,10 @@
 <!-- blog post -->
 <section class="section-sm">
   <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          <h1>{{ .Title }}</h1>
-          {{ .Content }}
-        </div>
-
         <div class="row">
           {{ $paginator := .Paginate .Pages }}
           {{ range $paginator.Pages }}

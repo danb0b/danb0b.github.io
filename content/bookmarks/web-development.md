@@ -84,3 +84,11 @@ Some of my favorite bookmarks related to web development, websites, hosting, etc
 * <https://github.com/loup-brun/hugo-cite>
 * <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
 * <https://www.liwen.id.au/photoswipe/>
+* [automated deploytment on github pages](https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9)
+* [detailed setup](https://github.com/peaceiris/actions-hugo)
+* [custom pagination](https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/)
+
+### Django
+
+* <https://learndjango.com/tutorials/django-markdown-tutorial>
+* <https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django>

@@ -1,6 +1,8 @@
 ---
 title: Recipes
-image: box2.png
-summary: Recipes we love
+image: images/recipes.jpg
 ---
 
+Recipes our family loves
+
+<!--more-->

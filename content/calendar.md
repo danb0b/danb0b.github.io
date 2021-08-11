@@ -1,6 +1,6 @@
 ---
 title: Calendar
-image: box2.png
+image: images/calendar.jpg
 summary: Find out what's on my schedule
 type: starred
 ---

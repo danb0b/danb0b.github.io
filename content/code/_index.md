@@ -1,5 +1,5 @@
 ---
 title: Personal Code Projects
-image: box.png
+image: images/code.jpg
 summary: A listing of some of my personal coding projects.
 ---

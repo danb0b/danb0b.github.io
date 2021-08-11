@@ -1,7 +1,7 @@
 ---
 title: Welcome
 type: featured
-image: da.png
+image: images/coffee.jpg
 show_front: false
 ---
 
