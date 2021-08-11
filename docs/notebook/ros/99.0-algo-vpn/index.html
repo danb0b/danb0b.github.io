@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
 
   <!-- plugins -->
   
@@ -149,6 +149,9 @@
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
         </div>
         
         <div class="content mb-5">
@@ -169,7 +172,7 @@
 </li>
 <li>
 <p>Add idealab to vbxosf group:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo groupadd vboxsf <span style="color:#75715e">#create group vboxusers</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo groupadd vboxsf <span style="color:#75715e">#create group vboxusers</span>
 sudo usermod -a -G vboxsf idealab <span style="color:#75715e">#adds user idealab to group vboxsf</span>
 </code></pre></div></li>
 <li>
@@ -177,7 +180,7 @@ sudo usermod -a -G vboxsf idealab <span style="color:#75715e">#adds user idealab
 </li>
 <li>
 <p>change sharing settings</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod <span style="color:#ae81ff">777</span> /mnt/share
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod <span style="color:#ae81ff">777</span> /mnt/share
 </code></pre></div></li>
 </ol>
 </li>
@@ -185,13 +188,13 @@ sudo usermod -a -G vboxsf idealab <span style="color:#75715e">#adds user idealab
 </li>
 <li>
 <p>update computer and install necessary packages</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt upgrade
 sudo apt install -y python3-virtualenv git nano ssh net-tools
 </code></pre></div></li>
 <li>
 <p>install algo</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo -i <span style="color:#75715e">#necessarysu in ubuntu</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo -i <span style="color:#75715e">#necessarysu in ubuntu</span>
 <span style="color:#111">cd</span> /
 git clone https://github.com/trailofbits/algo.git
 <span style="color:#111">cd</span> /algo
@@ -199,7 +202,7 @@ python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="c
 </code></pre></div></li>
 <li>
 <p>edit config file</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nano config.cfg
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nano config.cfg
 </code></pre></div><ol>
 <li>add users</li>
 <li>disable &ldquo;BetweenClients_DROP&rdquo;, &ldquo;block_smb&rdquo;, and &ldquo;block_netbios&rdquo;</li>
@@ -211,7 +214,7 @@ python3 -m virtualenv --python<span style="color:#f92672">=</span><span style="c
 </li>
 <li>
 <p>run algo installer</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./algo
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./algo
 </code></pre></div><ol>
 <li>select &ldquo;12&rdquo;</li>
 <li>retain pki keys - n</li>
@@ -289,10 +292,11 @@ mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q 
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 border-top py-4 text-center ">
+      <div class="col-12 text-center mb-5">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       </div>
                
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -307,8 +311,8 @@ mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q 
         </ul>
       </div>
       
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
-        <h6 class="mb-4">Social</h6>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
@@ -319,7 +323,10 @@ mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q 
           
         </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
@@ -331,12 +338,8 @@ mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q 
           
         </ul>
       </div>
-      <div class="col-12 mb-5 text-center">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
-      </div>
-
-      <div class="col-12 mb-5 text-center">
-        | copyright © 2021 Dan Aukes All Rights Reserved |
+      <div class="col-12 border-top py-4 text-center">
+        |  copyright © 2021 Daniel Aukes.  All Rights Reserved.  |
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
 
   <!-- plugins -->
   
@@ -149,6 +149,9 @@
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
         </div>
         
         <div class="content mb-5">
@@ -164,7 +167,7 @@
 <ol>
 <li>
 <p>(virtualbox only) make sure you are a member of the vboxusers group ^[<a href="https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes">https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes</a>]</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whoami <span style="color:#75715e">#see what my username is</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">whoami <span style="color:#75715e">#see what my username is</span>
 groups <span style="color:#75715e">#see what groups I belong to</span>
 groups idealab <span style="color:#75715e">#see what groups idealab belongs to</span>
 sudo groupadd vboxusers <span style="color:#75715e">#create group vboxusers</span>
@@ -187,14 +190,14 @@ sudo usermod -a -G tty idealab <span style="color:#75715e"># adds user idealab t
 </li>
 <li>
 <p>navigate to extracted directory</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
 sudo cp cp210x.ko /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
 sudo insmod /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial/usbserial.ko
 sudo insmod /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial/cp210x.ko
 </code></pre></div></li>
 <li>
 <p>to remove driver (usually not necessary &ndash; only if you need to fix a mistake or start over):</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> /lib/modules/5.3.0-46-generic/kernel/drivers/usb/serial
 sudo rmmod cp210x
 sudo rmmod usbserial
 </code></pre></div></li>
@@ -203,7 +206,7 @@ sudo rmmod usbserial
 <ol>
 <li>
 <p>Compile and run test</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./cp210x_gpio_example
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./cp210x_gpio_example
 </code></pre></div></li>
 </ol>
 <h2 id="links">Links</h2>
@@ -288,10 +291,11 @@ sudo fdisk -l
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 border-top py-4 text-center ">
+      <div class="col-12 text-center mb-5">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       </div>
                
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -306,8 +310,8 @@ sudo fdisk -l
         </ul>
       </div>
       
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
-        <h6 class="mb-4">Social</h6>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
@@ -318,7 +322,10 @@ sudo fdisk -l
           
         </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
@@ -330,12 +337,8 @@ sudo fdisk -l
           
         </ul>
       </div>
-      <div class="col-12 mb-5 text-center">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
-      </div>
-
-      <div class="col-12 mb-5 text-center">
-        | copyright © 2021 Dan Aukes All Rights Reserved |
+      <div class="col-12 border-top py-4 text-center">
+        |  copyright © 2021 Daniel Aukes.  All Rights Reserved.  |
       </div>
     </div>
   </div>

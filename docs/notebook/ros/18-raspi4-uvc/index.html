@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
 
   <!-- plugins -->
   
@@ -149,24 +149,27 @@
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
         </div>
         
         <div class="content mb-5">
           <ol>
 <li>
 <p>install uvc stuff.</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install -y libuvc-dev guvcview cheese v4l-utils
 <span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl</span>
 </code></pre></div></li>
 <li>
 <p>try guvcview or cheese to see if you can see video output(may need to install):</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cheese # only need to try one command</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># cheese # only need to try one command</span>
 guvcview
 </code></pre></div></li>
 <li>
 <p>(optional, seems already done, perhaps by previous step) add yourself to video group</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G video <span style="color:#00a8c8">$(</span>whoami<span style="color:#00a8c8">)</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -a -G video <span style="color:#00a8c8">$(</span>whoami<span style="color:#00a8c8">)</span>
 </code></pre></div><ol>
 <li>Logout &amp; login again , check if your vboxusers displays in this command</li>
 </ol>
@@ -176,7 +179,7 @@ guvcview
 <p>(optional, seems already done, perhaps by previous step)  copy rules from idealab_ros_tools to rules folder (according to this <a href="http://wiki.ros.org/libuvc_camera">ref</a>)</p>
 </li>
 </ol>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/code_idealab_ros/src
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/code_idealab_ros/src
 sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules <span style="color:#f92672">&amp;&amp;</span> udevadm trigger
 sudo reboot
@@ -235,10 +238,11 @@ catkin_make
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 border-top py-4 text-center ">
+      <div class="col-12 text-center mb-5">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       </div>
                
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -253,8 +257,8 @@ catkin_make
         </ul>
       </div>
       
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
-        <h6 class="mb-4">Social</h6>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
@@ -265,7 +269,10 @@ catkin_make
           
         </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
@@ -277,12 +284,8 @@ catkin_make
           
         </ul>
       </div>
-      <div class="col-12 mb-5 text-center">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
-      </div>
-
-      <div class="col-12 mb-5 text-center">
-        | copyright © 2021 Dan Aukes All Rights Reserved |
+      <div class="col-12 border-top py-4 text-center">
+        |  copyright © 2021 Daniel Aukes.  All Rights Reserved.  |
       </div>
     </div>
   </div>

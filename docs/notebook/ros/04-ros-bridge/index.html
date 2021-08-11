@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
 
   <!-- plugins -->
   
@@ -149,6 +149,9 @@
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
         </div>
         
         <div class="content mb-5">
@@ -164,7 +167,7 @@
 <ol>
 <li>
 <p>Install necessary prerequisites on the ROS machine</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#Install rosbridge on guest machine</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#Install rosbridge on guest machine</span>
 sudo apt install ros-melodic-rosbridge-suite
 
 <span style="color:#75715e">#Install roslibpy client for rosbridge on guest machine</span>
@@ -178,11 +181,11 @@ spyder3
 </code></pre></div></li>
 <li>
 <p>start roscore on the guest:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
 </code></pre></div></li>
 <li>
 <p>Run an existing talker in ROS.  in a new terminal window:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
 <span style="color:#111">source</span> ./devel/setup.bash
 
 <span style="color:#75715e">#In the last tutorial we made a publisher called &#34;talker&#34;. Let&#39;s run it:</span>
@@ -198,7 +201,7 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 </code></pre></li>
 <li>
 <p>create a file called listener.py, substituting the ip address of the ROS Master for <IPADDRESS>.  Paste in the following:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
 <span style="color:#d88200">&#34;&#34;&#34;
 </span><span style="color:#d88200">Created on Fri Mar 27 08:33:41 2020
 </span><span style="color:#d88200">
@@ -212,15 +215,15 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">run</span><span style="color:#111">()</span>
 
 <span style="color:#111">listener</span> <span style="color:#f92672">=</span> <span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Topic</span><span style="color:#111">(</span><span style="color:#111">client</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;/chatter&#39;</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;std_msgs/String&#39;</span><span style="color:#111">)</span>
-<span style="color:#111">listener</span><span style="color:#f92672">.</span><span style="color:#111">subscribe</span><span style="color:#111">(</span><span style="color:#00a8c8">lambda</span> <span style="color:#111">message</span><span style="color:#111">:</span> <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;Heard talking: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#111">message</span><span style="color:#111">[</span><span style="color:#d88200">&#39;data&#39;</span><span style="color:#111">]))</span>
+<span style="color:#111">listener</span><span style="color:#f92672">.</span><span style="color:#111">subscribe</span><span style="color:#111">(</span><span style="color:#00a8c8">lambda</span> <span style="color:#111">message</span><span style="color:#111">:</span> <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;Heard talking: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#111">message</span><span style="color:#111">[</span><span style="color:#d88200">&#39;data&#39;</span><span style="color:#111">]))</span>
 
 <span style="color:#00a8c8">try</span><span style="color:#111">:</span>
-    <span style="color:#00a8c8">while</span> <span style="color:#111">True</span><span style="color:#111">:</span>
+    <span style="color:#00a8c8">while</span> <span style="color:#00a8c8">True</span><span style="color:#111">:</span>
         <span style="color:#00a8c8">pass</span>
 <span style="color:#00a8c8">except</span> <span style="color:#75af00">KeyboardInterrupt</span><span style="color:#111">:</span>
     <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">terminate</span><span style="color:#111">()</span>
 <span style="color:#00a8c8">except</span> <span style="color:#75af00">Exception</span> <span style="color:#00a8c8">as</span> <span style="color:#111">e</span><span style="color:#111">:</span>
-    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">e</span><span style="color:#111">)</span>
+    <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">e</span><span style="color:#111">)</span>
     <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">terminate</span><span style="color:#111">()</span>
 </code></pre></div></li>
 <li>
@@ -229,7 +232,7 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 </code></pre></li>
 <li>
 <p>Now, create a file called talker.py, substituting the ip address of the machine for <IPADDRESS> if on the host machine, or &lsquo;localhost&rsquo; if in the guest machine.  Paste in the following:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
 <span style="color:#d88200">&#34;&#34;&#34;
 </span><span style="color:#d88200">Created on Fri Mar 27 08:36:13 2020
 </span><span style="color:#d88200">
@@ -247,7 +250,7 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 
 <span style="color:#00a8c8">while</span> <span style="color:#111">client</span><span style="color:#f92672">.</span><span style="color:#111">is_connected</span><span style="color:#111">:</span>
     <span style="color:#111">talker</span><span style="color:#f92672">.</span><span style="color:#111">publish</span><span style="color:#111">(</span><span style="color:#111">roslibpy</span><span style="color:#f92672">.</span><span style="color:#111">Message</span><span style="color:#111">({</span><span style="color:#d88200">&#39;data&#39;</span><span style="color:#111">:</span> <span style="color:#d88200">&#39;Hello World!&#39;</span><span style="color:#111">}))</span>
-    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;Sending message...&#39;</span><span style="color:#111">)</span>
+    <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;Sending message...&#39;</span><span style="color:#111">)</span>
     <span style="color:#111">time</span><span style="color:#f92672">.</span><span style="color:#111">sleep</span><span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">)</span>
 
 <span style="color:#111">talker</span><span style="color:#f92672">.</span><span style="color:#111">unadvertise</span><span style="color:#111">()</span>
@@ -256,7 +259,7 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 </code></pre></div></li>
 <li>
 <p>on the guest machine, start a new terminal window, and type</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic <span style="color:#111">echo</span> /dancustom
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic <span style="color:#111">echo</span> /dancustom
 </code></pre></div></li>
 </ol>
 
@@ -274,10 +277,11 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 border-top py-4 text-center ">
+      <div class="col-12 text-center mb-5">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       </div>
                
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -292,8 +296,8 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
         </ul>
       </div>
       
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
-        <h6 class="mb-4">Social</h6>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
@@ -304,7 +308,10 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
           
         </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
@@ -316,12 +323,8 @@ rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</spa
           
         </ul>
       </div>
-      <div class="col-12 mb-5 text-center">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
-      </div>
-
-      <div class="col-12 mb-5 text-center">
-        | copyright © 2021 Dan Aukes All Rights Reserved |
+      <div class="col-12 border-top py-4 text-center">
+        |  copyright © 2021 Daniel Aukes.  All Rights Reserved.  |
       </div>
     </div>
   </div>

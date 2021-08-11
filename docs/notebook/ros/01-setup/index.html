@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
 
   <!-- plugins -->
   
@@ -149,6 +149,9 @@
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
         </div>
         
         <div class="content mb-5">
@@ -207,7 +210,7 @@
 <ol>
 <li>
 <p>First, run this in the terminal</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install -y virtualbox-guest-utils virtualbox-guest-dkms
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install -y virtualbox-guest-utils virtualbox-guest-dkms
 </code></pre></div></li>
 <li>
 <p>Install the virtualbox guest additions cd from the guest os window and select run when the button pops up.</p>
@@ -225,7 +228,7 @@
 </li>
 <li>
 <p>Install other packages</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#update repository</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#update repository</span>
 sudo apt update
 <span style="color:#75715e">#visual package manager</span>
 sudo apt install -y synaptic
@@ -265,7 +268,7 @@ sudo apt install -y python3-serial python3-pip
 </li>
 <li>
 <p>Find the ip address of ethernet port in the terminal</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#sudo apt install net-tools</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#sudo apt install net-tools</span>
 ifconfig -v
 </code></pre></div></li>
 <li>
@@ -315,10 +318,11 @@ lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 border-top py-4 text-center ">
+      <div class="col-12 text-center mb-5">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       </div>
                
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -333,8 +337,8 @@ lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
         </ul>
       </div>
       
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
-        <h6 class="mb-4">Social</h6>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
@@ -345,7 +349,10 @@ lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
           
         </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
@@ -357,12 +364,8 @@ lo: flags=73&lt;UP,LOOPBACK,RUNNING&gt;  mtu 65536
           
         </ul>
       </div>
-      <div class="col-12 mb-5 text-center">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
-      </div>
-
-      <div class="col-12 mb-5 text-center">
-        | copyright © 2021 Dan Aukes All Rights Reserved |
+      <div class="col-12 border-top py-4 text-center">
+        |  copyright © 2021 Daniel Aukes.  All Rights Reserved.  |
       </div>
     </div>
   </div>

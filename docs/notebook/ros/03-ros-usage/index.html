@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Dan Aukes">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.87.0" />
 
   <!-- plugins -->
   
@@ -149,11 +149,14 @@
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
         </div>
         
         <div class="content mb-5">
           <p>From <a href="https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">here</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#sudo apt-get install ros-&lt;distro&gt;-ros-tutorials</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#sudo apt-get install ros-&lt;distro&gt;-ros-tutorials</span>
 sudo apt-get install ros-melodic-ros-tutorials
 <span style="color:#75715e">#rospack find [package_name]</span>
 rospack find roscpp
@@ -177,7 +180,7 @@ roscd log
 rosls roscpp_tutorials
 </code></pre></div><h2 id="create-a-package">Create A Package</h2>
 <p>From <a href="https://wiki.ros.org/ROS/Tutorials/CreatingPackage">here</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># You should have created this in the Creating a Workspace Tutorial</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># You should have created this in the Creating a Workspace Tutorial</span>
 <span style="color:#111">cd</span> ~/catkin_ws/src
 <span style="color:#75715e"># catkin_create_pkg &lt;package_name&gt; [depend1] [depend2] [depend3]</span>
 catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
@@ -202,7 +205,7 @@ rospack depends1 rospy
 <span style="color:#75715e">#rospack can recursively determine all nested dependencies.</span>
 rospack depends beginner_tutorials
 </code></pre></div><p>open up package.xml and check whether there is an exec_depend tag for each of the dependencies in package.xml as in <a href="https://wiki.ros.org/ROS/Tutorials/CreatingPackage#ROS.2BAC8-Tutorials.2BAC8-catkin.2BAC8-CreatingPackage.Final_package.xml">the tutorial</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">  <span style="color:#f92672">&lt;buildtool_depend&gt;</span>catkin<span style="color:#f92672">&lt;/buildtool_depend&gt;</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">  <span style="color:#f92672">&lt;buildtool_depend&gt;</span>catkin<span style="color:#f92672">&lt;/buildtool_depend&gt;</span>
 
   <span style="color:#f92672">&lt;build_depend&gt;</span>roscpp<span style="color:#f92672">&lt;/build_depend&gt;</span>
   <span style="color:#f92672">&lt;build_depend&gt;</span>rospy<span style="color:#f92672">&lt;/build_depend&gt;</span>
@@ -213,7 +216,7 @@ rospack depends beginner_tutorials
   <span style="color:#f92672">&lt;exec_depend&gt;</span>std_msgs<span style="color:#f92672">&lt;/exec_depend&gt;</span>
 </code></pre></div><h2 id="build-a-ros-package">Build a ROS Package</h2>
 <p>from <a href="https://wiki.ros.org/ROS/Tutorials/BuildingPackages">here</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#source your environment setup file if you have not already</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#source your environment setup file if you have not already</span>
 <span style="color:#75715e"># source /opt/ros/%YOUR_ROS_DISTRO%/setup.bash</span>
 <span style="color:#75715e"># this has been added to bashrc so is not necessary</span>
 <span style="color:#111">source</span> /opt/ros/melodic/setup.bash
@@ -236,47 +239,46 @@ catkin_make
 <ol>
 <li>
 <p>In Terminal 1 (ctrl+alt+t)</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
 </code></pre></div></li>
 <li>
 <p>Open up a new terminal tab (ctrl+shift+t)</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
 rosnode info /rosout
 </code></pre></div></li>
 <li>
 <p>Open up a new terminal tab (ctrl+shift+t)</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun [package_name] [node_name]</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun [package_name] [node_name]</span>
 rosrun turtlesim turtlesim_node
 </code></pre></div></li>
 <li>
 <p>In terminal 2(ctrl+pg_up):</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
 </code></pre></div></li>
 <li>
 <p>In terminal 3(ctrl+pg_dn):</p>
 <ol>
-<li>ctrl+c
-1.
-<code>rosrun turtlesim turtlesim_node __name:=my_turtle</code></li>
+<li>ctrl+c</li>
+<li><code>rosrun turtlesim turtlesim_node __name:=my_turtle</code></li>
 </ol>
 </li>
 <li>
 <p>In terminal 2(ctrl+pg_up):</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosnode list
 </code></pre></div></li>
 </ol>
 <h2 id="understanding-topics">Understanding Topics</h2>
 <p>See the <a href="https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics">tutorial</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#run ros</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#run ros</span>
 roscore
 </code></pre></div><p>in a new terminal</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun turtlesim turtlesim_node
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun turtlesim turtlesim_node
 </code></pre></div><p>in a new terminal:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun turtlesim turtle_teleop_key
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun turtlesim turtle_teleop_key
 </code></pre></div><p>in a new terminal:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun rqt_graph rqt_graph
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rosrun rqt_graph rqt_graph
 </code></pre></div><p>in a new terminal:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># list all commands within rostopic</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># list all commands within rostopic</span>
 rostopic -h
 
 <span style="color:#75715e">#how to subscribe to and print a topic</span>
@@ -284,7 +286,7 @@ rostopic -h
 <span style="color:#75715e">#rostopic echo [topic]</span>
 rostopic <span style="color:#111">echo</span> /turtle1/cmd_vel
 </code></pre></div><p>in a new terminal:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># list full details</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># list full details</span>
 rostopic list -v
 
 <span style="color:#75715e"># list publishers of</span>
@@ -308,7 +310,7 @@ rosmsg show geometry_msgs/Twist
 <p>See the <a href="https://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">tutorial</a></p>
 <h2 id="rqtconsole-and-roslaunch">RQTConsole and ROSLaunch</h2>
 <p>From this <a href="https://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch">tutorial</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#roslaunch starts nodes as defined in a launch file.</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#roslaunch starts nodes as defined in a launch file.</span>
 <span style="color:#75715e">#roslaunch [package] [filename.launch]</span>
 
 <span style="color:#75715e">#you will need to source the environment setup file like you did at the end of the create_a_workspace tutorial:</span>
@@ -339,13 +341,13 @@ mkdir launch
 
 roslaunch beginner_tutorials turtlemimic.launch
 </code></pre></div><p>in a new terminal</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r <span style="color:#ae81ff">1</span> -- <span style="color:#d88200">&#39;[2.0, 0.0, 0.0]&#39;</span> <span style="color:#d88200">&#39;[0.0, 0.0, -1.8]&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r <span style="color:#ae81ff">1</span> -- <span style="color:#d88200">&#39;[2.0, 0.0, 0.0]&#39;</span> <span style="color:#d88200">&#39;[0.0, 0.0, -1.8]&#39;</span>
 </code></pre></div><p>in a new terminal</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rqt</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rqt</span>
 rqt_graph
 </code></pre></div><h2 id="creating-a-message-and-service">Creating a Message and Service</h2>
 <p>From this <a href="https://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv">tutorial</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
 <span style="color:#111">source</span> devel/setup.bash
 roscd beginner_tutorials
 
@@ -398,7 +400,7 @@ find_package(catkin REQUIRED COMPONENTS
   DEPENDENCIES
   std_msgs
 )
-</code></pre><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosmsg show [message type]</span>
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosmsg show [message type]</span>
 rosmsg show beginner_tutorials/Num
 
 <span style="color:#75715e">#Now that we have made some new messages we need to make our package again:</span>
@@ -410,7 +412,7 @@ catkin_make install
 <span style="color:#111">cd</span> -
 </code></pre></div><h2 id="simple-publisher-and-subscriber-python">Simple Publisher and Subscriber (Python)</h2>
 <p>From <a href="https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29">here</a></p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#111">cd</span> ~/catkin_ws
 <span style="color:#111">source</span> devel/setup.bash
 roscd beginner_tutorials
 mkdir scripts
@@ -425,8 +427,8 @@ catkin_make
 </code></pre></div><h2 id="examining-publisher-and-subscriber">Examining Publisher and Subscriber</h2>
 <p>From  <a href="https://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber">here</a></p>
 <p>Make sure that a roscore is up and running:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
-</code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># In your catkin workspace</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">roscore
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># In your catkin workspace</span>
 <span style="color:#111">cd</span> ~/catkin_ws
 <span style="color:#111">source</span> ./devel/setup.bash
 
@@ -434,7 +436,7 @@ catkin_make
 <span style="color:#75715e">#rosrun beginner_tutorials talker      (C++)</span>
 rosrun beginner_tutorials talker.py  <span style="color:#75715e"># (Python)</span>
 </code></pre></div><p>In another terminal:</p>
-<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun beginner_tutorials listener     (C++)</span>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#rosrun beginner_tutorials listener     (C++)</span>
 rosrun beginner_tutorials listener.py  <span style="color:#75715e">#(Python)</span>
 </code></pre></div><h2 id="recording-data-creating-a-bag-file">Recording data (creating a bag file)</h2>
 <ol>
@@ -491,10 +493,11 @@ rosbag info subset.bag
 <footer class="text-capitalize">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 border-top py-4 text-center ">
+      <div class="col-12 text-center mb-5">
+        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
       </div>
                
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           
@@ -509,8 +512,8 @@ rosbag info subset.bag
         </ul>
       </div>
       
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
-        <h6 class="mb-4">Social</h6>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
         <ul class="list-unstyled">
           
           <li class="mb-3"><a class="text-dark" href="https://twitter.com/danaukes">twitter</a></li>
@@ -521,7 +524,10 @@ rosbag info subset.bag
           
         </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-5 text-center">
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
@@ -533,12 +539,8 @@ rosbag info subset.bag
           
         </ul>
       </div>
-      <div class="col-12 mb-5 text-center">
-        <a href="https://danaukes.com/"><img src="https://danaukes.com/da-small.png" alt="Dan Aukes"></a>
-      </div>
-
-      <div class="col-12 mb-5 text-center">
-        | copyright © 2021 Dan Aukes All Rights Reserved |
+      <div class="col-12 border-top py-4 text-center">
+        |  copyright © 2021 Daniel Aukes.  All Rights Reserved.  |
       </div>
     </div>
   </div>
