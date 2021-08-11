@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dan Aukes</title>
+    <link>https://danaukes.com/tags/</link>
+    <description>Recent content in Tags on Dan Aukes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://danaukes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>https://danaukes.com/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>https://danaukes.com/tags/fun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://danaukes.com/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>https://danaukes.com/tags/grep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://danaukes.com/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://danaukes.com/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://danaukes.com/tags/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>office</title>
+      <link>https://danaukes.com/tags/office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opencv</title>
+      <link>https://danaukes.com/tags/opencv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandoc</title>
+      <link>https://danaukes.com/tags/pandoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdf</title>
+      <link>https://danaukes.com/tags/pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photo</title>
+      <link>https://danaukes.com/tags/photo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/photo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photos</title>
+      <link>https://danaukes.com/tags/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentations</title>
+      <link>https://danaukes.com/tags/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/presentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyqt</title>
+      <link>https://danaukes.com/tags/pyqt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/pyqt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://danaukes.com/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qt</title>
+      <link>https://danaukes.com/tags/qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/qt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ros</title>
+      <link>https://danaukes.com/tags/ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://danaukes.com/tags/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://danaukes.com/tags/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>https://danaukes.com/tags/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>websites</title>
+      <link>https://danaukes.com/tags/websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/tags/websites/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
