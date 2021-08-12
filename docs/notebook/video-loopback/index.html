@@ -145,23 +145,25 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Looping Video into Zoom</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <p><a href="https://yasha.solutions/virtual-webcam-on-linux/">https://yasha.solutions/virtual-webcam-on-linux/</a>
-<a href="https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/">https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/</a>
-<a href="https://github.com/umlaeute/v4l2loopback/">https://github.com/umlaeute/v4l2loopback/</a></p>
-<p>sudo apt-get install v4l2loopback-dkms v4l2-utils</p>
-<p>ls /dev/video*</p>
-<p>sudo modprobe v4l2loopback video_nr=9</p>
-<p>ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.webm -f v4l2 /dev/video9</p>
-<p>sudo modprobe -r v4l2loopback</p>
-<p>other things:
-<a href="https://github.com/webcamoid/akvcam">https://github.com/webcamoid/akvcam</a></p>
+          <div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install v4l2loopback-dkms v4l2-utils
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ls /dev/video*
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo modprobe v4l2loopback <span style="color:#111">video_nr</span><span style="color:#f92672">=</span><span style="color:#ae81ff">9</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.webm -f v4l2 /dev/video9
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo modprobe -r v4l2loopback
+</code></pre></div><h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://yasha.solutions/virtual-webcam-on-linux/">https://yasha.solutions/virtual-webcam-on-linux/</a></li>
+<li><a href="https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/">https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/</a></li>
+<li><a href="https://github.com/umlaeute/v4l2loopback/">https://github.com/umlaeute/v4l2loopback/</a></li>
+<li><a href="https://github.com/webcamoid/akvcam">https://github.com/webcamoid/akvcam</a></li>
+</ul>
 
         </div>
 

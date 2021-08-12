@@ -8,77 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://danaukes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/clone-package/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/clone-package/</guid>
-      <description>To clone your system to another system. Or make a backup.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/disable_password_ssh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/disable_password_ssh/</guid>
-      <description>Create ssh key ssh-keygen -t ed25519
-print public key:
-cat .</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/remote_hd_unlock/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/remote_hd_unlock/</guid>
-      <description>sudo apt install busybox dropbear* then add your public key (most of the time ~/.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/tmux-stuff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/tmux-stuff/</guid>
-      <description>Basic Functionality
-To get the same functionality as explained in the answer recommending screen, you would need to do the following:</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/vbox_terminal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/vbox_terminal/</guid>
-      <description>from: https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from-the-command-line/
-Starting/stopping/pausing a VM
-Now the fun begins. First, you must know the name of the VM you want to run.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/video-loopback/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/video-loopback/</guid>
-      <description>https://yasha.solutions/virtual-webcam-on-linux/ https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/ https://github.com/umlaeute/v4l2loopback/
-sudo apt-get install v4l2loopback-dkms v4l2-utils
-ls /dev/video*</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://danaukes.com/notebook/vnc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danaukes.com/notebook/vnc/</guid>
-      <description>#From https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04
-sudo apt update sudo apt install -y xfce4 xfce4-goodies tightvncserver vncserver vncpasswd</description>
-    </item>
-    
-    <item>
       <title>&#39;Simple is Best&#39; Dressing</title>
       <link>https://danaukes.com/recipes/simple-is-best-dressing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -527,7 +456,7 @@ git clone my_git_address list local branches:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://danaukes.com/notebook/conda_install/</guid>
-      <description>Install Latest Anaconda / Miniconda    Windows Linux     64-bit Miniconda 64-bit Miniconda    Linux script cd ~/Downloads wget https://repo.</description>
+      <description>Install Latest Anaconda / Miniconda    Windows Linux     64-bit Miniconda 64-bit Miniconda    Linux script cd ~/Downloadswget https://repo.</description>
     </item>
     
     <item>
@@ -537,6 +466,17 @@ git clone my_git_address list local branches:</description>
       
       <guid>https://danaukes.com/notebook/ros/01.1-config-git/</guid>
       <description>git config --global user.email &amp;#34;danaukes@gmail.com&amp;#34; git config --global user.name &amp;#34;Dan Aukes&amp;#34; Update git roscd thorlabs_linear_actuator/ git status git add -A git commit -m=&amp;#34;&amp;lt;INSERT YOUR MESSAGE HERE&amp;gt;&amp;#34; git push # supply username and pw </description>
+    </item>
+    
+    <item>
+      <title>Controlling Virtualbox from the Terminal</title>
+      <link>https://danaukes.com/notebook/vbox_terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/vbox_terminal/</guid>
+      <description>from: https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from-the-command-line/
+Starting/stopping/pausing a VM
+Now the fun begins. First, you must know the name of the VM you want to run.</description>
     </item>
     
     <item>
@@ -695,12 +635,32 @@ roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
     </item>
     
     <item>
+      <title>Disabling Password-based SSH</title>
+      <link>https://danaukes.com/notebook/disable_password_ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/disable_password_ssh/</guid>
+      <description>Create ssh key ssh-keygen -t ed25519
+print public key:
+cat .</description>
+    </item>
+    
+    <item>
       <title>Downeast Maine Pumpkin Bread</title>
       <link>https://danaukes.com/recipes/pumpkin-bread/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://danaukes.com/recipes/pumpkin-bread/</guid>
       <description>Ingredients  1 (15 ounce) can pumpkin puree 4 eggs 1 cup vegetable oil 2/3 cup water 3 cups white sugar 3 1/2 cups all-purpose flour 2 teaspoons baking soda 1 1/2 teaspoons salt 1 teaspoon ground cinnamon 1 teaspoon ground nutmeg 1/2 teaspoon ground cloves 1/4 teaspoon ground ginger  Directions  Preheat oven to 350 degrees F (175 degrees C).</description>
+    </item>
+    
+    <item>
+      <title>Duplicate Installed Packages</title>
+      <link>https://danaukes.com/notebook/clone-package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/clone-package/</guid>
+      <description>To clone your system to another system. Or make a backup.</description>
     </item>
     
     <item>
@@ -969,6 +929,15 @@ hugo new site --format=yaml dox </description>
     </item>
     
     <item>
+      <title>Installing and Using VNC</title>
+      <link>https://danaukes.com/notebook/vnc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/vnc/</guid>
+      <description>sudo apt update sudo apt install -y xfce4 xfce4-goodies tightvncserver vncserver vncpasswd vnc password ***** vncserver -kill :1 mv ~/.</description>
+    </item>
+    
+    <item>
       <title>Installing OpenCV</title>
       <link>https://danaukes.com/notebook/ros/14-opencv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1048,6 +1017,15 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
       
       <guid>https://danaukes.com/recipes/lemon-caramel-crepes-with-candied-lemons/</guid>
       <description>Ingredients Crepes  6 Tbsp unsalted butter, cut into small pieces 1 Tbsp unsalted butter for pan 3/4 cup + 2 Tbsp all-purpose flour 1/4 cup sugar 1/4 cup salt 1 1/4 cup milk (not skim) 3 large eggs  Sauce  1 cup sugar 3 Tbsp fresh lemon juice 1 tablespoon limoncello (Italian lemon-flavored liqueur; optional) 2 Tbsp unsalted butter, cut into small pieces  Candied Lemons  1 large lemon 1 cup sugar  Directions The crepes can be made one day ahead and refrigerated, wrapped in plastic wrap.</description>
+    </item>
+    
+    <item>
+      <title>Looping Video into Zoom</title>
+      <link>https://danaukes.com/notebook/video-loopback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/video-loopback/</guid>
+      <description>sudo apt-get install v4l2loopback-dkms v4l2-utils ls /dev/video* sudo modprobe v4l2loopback video_nr=9 ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.</description>
     </item>
     
     <item>
@@ -1469,6 +1447,15 @@ requires pandoc, powerpoint</description>
     </item>
     
     <item>
+      <title>Remote Unlock your LVM-encrypted Hard Drive</title>
+      <link>https://danaukes.com/notebook/remote_hd_unlock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/remote_hd_unlock/</guid>
+      <description>sudo apt install busybox dropbear* then add your public key (most of the time ~/.</description>
+    </item>
+    
+    <item>
       <title>Rhubarb Pie</title>
       <link>https://danaukes.com/recipes/rhubarb-pie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1512,6 +1499,15 @@ requires pandoc, powerpoint</description>
       <guid>https://danaukes.com/notebook/ros/02-ros-install-and-config/</guid>
       <description>This is derived from the official tutorial
   Run this code:</description>
+    </item>
+    
+    <item>
+      <title>Run scripts remotely over ssh with ```tmux```</title>
+      <link>https://danaukes.com/notebook/tmux-stuff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/tmux-stuff/</guid>
+      <description>Basic Functionality To get the same functionality as explained in the answer recommending screen, you would need to do the following:</description>
     </item>
     
     <item>
@@ -1831,7 +1827,7 @@ Ingredients  1-1/2 cup flour 1/2 cup crisco 1/2 tsp salt 5-7 tsp of ice water  D
     </item>
     
     <item>
-      <title>Web Sites</title>
+      <title>Websites</title>
       <link>https://danaukes.com/websites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

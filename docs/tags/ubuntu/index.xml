@@ -73,6 +73,26 @@ roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</description>
     </item>
     
     <item>
+      <title>Disabling Password-based SSH</title>
+      <link>https://danaukes.com/notebook/disable_password_ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/disable_password_ssh/</guid>
+      <description>Create ssh key ssh-keygen -t ed25519
+print public key:
+cat .</description>
+    </item>
+    
+    <item>
+      <title>Duplicate Installed Packages</title>
+      <link>https://danaukes.com/notebook/clone-package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/clone-package/</guid>
+      <description>To clone your system to another system. Or make a backup.</description>
+    </item>
+    
+    <item>
       <title>Getting the Logitech c930 working with ROS</title>
       <link>https://danaukes.com/notebook/ros/13-logitech-c930e/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -119,6 +139,15 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
     </item>
     
     <item>
+      <title>Installing and Using VNC</title>
+      <link>https://danaukes.com/notebook/vnc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/vnc/</guid>
+      <description>sudo apt update sudo apt install -y xfce4 xfce4-goodies tightvncserver vncserver vncpasswd vnc password ***** vncserver -kill :1 mv ~/.</description>
+    </item>
+    
+    <item>
       <title>Installing OpenCV</title>
       <link>https://danaukes.com/notebook/ros/14-opencv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -135,6 +164,15 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
       
       <guid>https://danaukes.com/notebook/ros/04-ros-bridge/</guid>
       <description>Introduction This section describes installing RosBridge, which is useful for communicating to devices which do not have ROS installed (like windows machines with custom drivers)</description>
+    </item>
+    
+    <item>
+      <title>Looping Video into Zoom</title>
+      <link>https://danaukes.com/notebook/video-loopback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/video-loopback/</guid>
+      <description>sudo apt-get install v4l2loopback-dkms v4l2-utils ls /dev/video* sudo modprobe v4l2loopback video_nr=9 ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.</description>
     </item>
     
     <item>
@@ -157,6 +195,15 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
     </item>
     
     <item>
+      <title>Remote Unlock your LVM-encrypted Hard Drive</title>
+      <link>https://danaukes.com/notebook/remote_hd_unlock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/remote_hd_unlock/</guid>
+      <description>sudo apt install busybox dropbear* then add your public key (most of the time ~/.</description>
+    </item>
+    
+    <item>
       <title>ROS Instalation Summary</title>
       <link>https://danaukes.com/notebook/ros/02-ros-install-and-config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -173,6 +220,15 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
       
       <guid>https://danaukes.com/notebook/ros/</guid>
       <description>Lab instructions for setting up ROS</description>
+    </item>
+    
+    <item>
+      <title>Run scripts remotely over ssh with ```tmux```</title>
+      <link>https://danaukes.com/notebook/tmux-stuff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/tmux-stuff/</guid>
+      <description>Basic Functionality To get the same functionality as explained in the answer recommending screen, you would need to do the following:</description>
     </item>
     
     <item>

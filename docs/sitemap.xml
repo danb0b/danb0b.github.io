@@ -14,23 +14,11 @@
     <loc>https://danaukes.com/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://danaukes.com/notebook/clone-package/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/disable_password_ssh/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/remote_hd_unlock/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/tmux-stuff/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/vbox_terminal/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/video-loopback/</loc>
-  </url><url>
-    <loc>https://danaukes.com/notebook/vnc/</loc>
-  </url><url>
     <loc>https://danaukes.com/recipes/simple-is-best-dressing/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/acorn-squash-with-apple/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/anaconda/</loc>
   </url><url>
     <loc>https://danaukes.com/recipe_tags/appetizer/</loc>
   </url><url>
@@ -154,6 +142,8 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/01.1-config-git/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/vbox_terminal/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipe_tags/cookies/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/corn-with-winter-squash-and-spinach-and-basil/</loc>
@@ -194,7 +184,11 @@
   </url><url>
     <loc>https://danaukes.com/recipe_tags/dessert/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/disable_password_ssh/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/pumpkin-bread/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/clone-package/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/dutch-babies/</loc>
   </url><url>
@@ -266,6 +260,8 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/09-falcon/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/vnc/</loc>
+  </url><url>
     <loc>https://danaukes.com/notebook/ros/14-opencv/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/04-ros-bridge/</loc>
@@ -287,6 +283,8 @@
     <loc>https://danaukes.com/recipes/lemon-caramel-crepes-with-candied-lemons/</loc>
   </url><url>
     <loc>https://danaukes.com/tags/linux/</loc>
+  </url><url>
+    <loc>https://danaukes.com/notebook/video-loopback/</loc>
   </url><url>
     <loc>https://danaukes.com/recipe_tags/main/</loc>
   </url><url>
@@ -422,6 +420,8 @@
   </url><url>
     <loc>https://danaukes.com/recipes/red-and-sweet-potato-salad/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/remote_hd_unlock/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/rhubarb-pie/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/roasted-herbed-halibut/</loc>
@@ -436,6 +436,8 @@
   </url><url>
     <loc>https://danaukes.com/notebook/ros/</loc>
   </url><url>
+    <loc>https://danaukes.com/notebook/tmux-stuff/</loc>
+  </url><url>
     <loc>https://danaukes.com/notebook/ros/16-raspbian/</loc>
   </url><url>
     <loc>https://danaukes.com/recipe_tags/salad/</loc>
@@ -447,6 +449,8 @@
     <loc>https://danaukes.com/recipes/saurkraut/</loc>
   </url><url>
     <loc>https://danaukes.com/recipe_tags/seafood/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/security/</loc>
   </url><url>
     <loc>https://danaukes.com/notebook/ros/01-setup/</loc>
   </url><url>
@@ -494,9 +498,13 @@
   </url><url>
     <loc>https://danaukes.com/tags/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/terminal/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/thai-cucumber-salad/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/three-berry-pie/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/tmux/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/tomatillo-sauce/</loc>
   </url><url>
@@ -526,6 +534,10 @@
   </url><url>
     <loc>https://danaukes.com/tags/video/</loc>
   </url><url>
+    <loc>https://danaukes.com/tags/virtualbox/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/vnc/</loc>
+  </url><url>
     <loc>https://danaukes.com/recipes/waffles-and-pancakes-from-scratch/</loc>
   </url><url>
     <loc>https://danaukes.com/bookmarks/web-development/</loc>
@@ -537,6 +549,10 @@
     <loc>https://danaukes.com/welcome/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/white-bread/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/windows/</loc>
+  </url><url>
+    <loc>https://danaukes.com/tags/zoom/</loc>
   </url><url>
     <loc>https://danaukes.com/recipes/zucchihi-bread/</loc>
   </url>

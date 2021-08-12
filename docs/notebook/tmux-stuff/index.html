@@ -145,23 +145,29 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Run scripts remotely over ssh with <code>tmux</code></h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <p>Basic Functionality</p>
+          <h2 id="basic-functionality">Basic Functionality</h2>
 <p>To get the same functionality as explained in the answer recommending screen, you would need to do the following:</p>
-<pre><code>ssh into the remote machine
-start tmux by typing tmux into the shell
-start the process you want inside the started tmux session
-leave/detach the tmux session by typing Ctrl+b and then d
-</code></pre>
+<ol>
+<li>ssh into the remote machine</li>
+<li>start tmux by typing tmux into the shell</li>
+<li>start the process you want inside the started tmux session</li>
+<li>leave/detach the tmux session by typing Ctrl+b and then d</li>
+</ol>
 <p>You can now safely log off from the remote machine, your process will keep running inside tmux. When you come back again and want to check the status of your process you can use tmux attach to attach to your tmux session.</p>
 <p>If you want to have multiple sessions running side-by-side, you should name each session using Ctrl+b and $. You can get a list of the currently running sessions using tmux list-sessions, now attach to a running session with command tmux attach-session -t <session-name>.</p>
 <p>tmux can do much more advanced things than handle a single window in a single session. For more information have a look in man tmux or the tmux GitHub page. In particular, here&rsquo;s an FAQ about the main differences between screen and tmux.</p>
+<h2 id="handy-usage">Handy Usage</h2>
+<ul>
+<li><code>tmux attach -t [session-number]</code></li>
+<li><code>tmux list-sessions</code></li>
+</ul>
 
         </div>
 

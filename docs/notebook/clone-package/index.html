@@ -145,26 +145,26 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Duplicate Installed Packages</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <p>To clone your system to another system. Or make a backup. In terminal type:</p>
-<p>dpkg &ndash;get-selections | grep -v deinstall &gt; ubuntu-files
-This command makes a file list of all installed packages in your system (and stores it in present working directory). Backup this file in hdd, email, etc&hellip;(this file is very small).</p>
+          <p>To clone your system to another system. Or make a backup. In a terminal type:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dpkg --get-selections <span style="color:#111">|</span> grep -v deinstall &gt; ubuntu-files
+</code></pre></div><p>This command makes a file list of all installed packages in your system (and stores it in present working directory). Backup this file in hdd, email, etc&hellip;(this file is very small).</p>
 <p>In the freshly installed ubuntu system run:</p>
-<p>sudo dpkg &ndash;set-selections &lt;./ubuntu-files (will set it up and)</p>
-<p>apt-get -y update
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo dpkg --set-selections &lt;./ubuntu-files <span style="color:#f92672">(</span>will <span style="color:#111">set</span> it up and<span style="color:#f92672">)</span>
+apt-get -y update
 apt-get dselect-upgrade
-This will install only those packages you had installed (with apt-get) in the old system.</p>
+</code></pre></div><p>This will install only those packages you had installed (with apt-get) in the old system.</p>
 <pre><code>                                (OR)
 </code></pre>
-<p>You could back up all the .deb packages from /var/cache/apt/archives/ and install them manually using:</p>
-<p>dpkg -i *.deb
-And after that running an update cycle later.</p>
+<p>You could back up all the .deb packages from <code>/var/cache/apt/archives/</code> and install them manually using:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dpkg -i *.deb
+</code></pre></div><p>And after that running an update cycle later.</p>
 
         </div>
 

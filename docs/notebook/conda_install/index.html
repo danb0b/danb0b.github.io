@@ -168,7 +168,7 @@
 </tbody>
 </table>
 <h3 id="linux-script">Linux script</h3>
-<pre><code>cd ~/Downloads 
+<pre><code>cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 </code></pre><p>follow the instructions</p>
@@ -179,7 +179,7 @@ source ~/.bashrc
 <pre><code>Set-ExecutionPolicy remotesigned
 conda init powershell
 </code></pre><p>Other security options (may break conda script)</p>
-<pre><code>#Set-ExecutionPolicy AllSigned 
+<pre><code>#Set-ExecutionPolicy AllSigned
 </code></pre><h2 id="install-packages">Install Packages</h2>
 <p>Update Conda</p>
 <pre><code>conda update -y -n base conda
@@ -188,8 +188,6 @@ conda init powershell
 <pre><code>conda install -y anaconda
 </code></pre><h3 id="conda-packages-not-included-in-anaconda">Conda packages not included in anaconda</h3>
 <pre><code>conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
-</code></pre><h3 id="conda-packages-not-available-from-main-channels">Conda packages not available from main channels</h3>
-<pre><code>conda install -c conda-forge scikit-geometry poppler
 </code></pre><h3 id="install-pip-packages">Install pip packages</h3>
 <pre><code>python -m pip install --upgrade pip
 pip install meshio pygmsh ezdxf pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub twine paho-mqtt pandoc-crossref scp euclid3 pysolar pdf2image stem fake_useragent PyMuPDF ntplib pygame pysftp pyserial
@@ -217,8 +215,8 @@ conda update -y --all
 <pre><code>#python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
 #python -m pip install kivy.deps.gstreamer
 </code></pre><h3 id="packages-required-for-some-of-my-vision-based-packages-opencv-downgrades-python">Packages required for some of my vision based packages. (opencv downgrades python)</h3>
-<pre><code>conda install opencv 
-pip install 
+<pre><code>conda install opencv
+pip install
 #pip install smtplib pygraphviz
 </code></pre><h3 id="cx_freeze">CX_freeze</h3>
 <p>Useful older package for making executables.  Old instructions</p>
@@ -264,9 +262,11 @@ conda update -y -n base conda
 conda update -y --all
 </code></pre><h3 id="opencv-install">OpenCV install</h3>
 <pre><code>conda create -n opencv python=3.7
-conda activate opencv     
+conda activate opencv
 conda install spyder opencv pyopencv
 pip install imutils
+</code></pre><h3 id="conda-packages-not-available-from-main-channels">Conda packages not available from main channels</h3>
+<pre><code>conda install -c conda-forge scikit-geometry poppler
 </code></pre>
         </div>
 

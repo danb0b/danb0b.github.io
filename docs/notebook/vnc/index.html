@@ -145,29 +145,30 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <h2>Installing and Using VNC</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <p>#From <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04</a></p>
-<p>sudo apt update
+          <div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
 sudo apt install -y xfce4 xfce4-goodies tightvncserver
 vncserver
-vncpasswd</p>
-<p>vnc password *****</p>
-<p>vncserver -kill :1
+vncpasswd
+
+vnc password *****
+
+vncserver -kill :1
 mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
-nano ~/.vnc/xstartup</p>
-<pre><code>#!/bin/bash
+nano ~/.vnc/xstartup
+</code></pre></div><pre><code>#!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &amp;
-</code></pre><p>chmod +x ~/.vnc/xstartup
-vncserver -localhost</p>
-<p>sudo nano /etc/systemd/system/vncserver@.service</p>
-<pre><code>[Unit]
+</code></pre><pre><code>chmod +x ~/.vnc/xstartup
+vncserver -localhost
+</code></pre><pre><code>sudo nano /etc/systemd/system/vncserver@.service
+</code></pre><pre><code>[Unit]
 Description=Start TightVNC server at startup
 After=syslog.target network.target
 
@@ -184,11 +185,15 @@ ExecStop=/usr/bin/vncserver -kill :%i
 
 [Install]
 WantedBy=multi-user.target
-</code></pre><p>sudo systemctl daemon-reload
-sudo systemctl enable <a href="mailto:vncserver@1.service">vncserver@1.service</a>
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo systemctl daemon-reload
+sudo systemctl <span style="color:#111">enable</span> vncserver@1.service
 vncserver -kill :1
 sudo systemctl start vncserver@1
-sudo systemctl status vncserver@1</p>
+sudo systemctl status vncserver@1
+</code></pre></div><h2 id="external-links">External Links</h2>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04</a></li>
+</ul>
 
         </div>
 
