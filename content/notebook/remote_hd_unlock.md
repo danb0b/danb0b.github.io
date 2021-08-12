@@ -1,3 +1,10 @@
+---
+title: Remote Unlock your LVM-encrypted Hard Drive
+tags:
+  - ubuntu
+  - linux
+  - ssh
+---
 
 ```bash
 sudo apt install busybox dropbear*
@@ -5,7 +12,7 @@ sudo apt install busybox dropbear*
 
 then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear-initramfs/authorized_keys.
 
-Update then initramfs to take into account the changes: : 
+Update then initramfs to take into account the changes: :
 
 ```bash
 update-initramfs -u

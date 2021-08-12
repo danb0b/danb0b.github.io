@@ -1,7 +1,14 @@
 ---
+title: Installing and Using VNC
+tags:
+  - linux
+  - ubuntu
+  - vnc
+  - terminal
+  - bash
 ---
-#From <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04>
 
+```bash
 sudo apt update
 sudo apt install -y xfce4 xfce4-goodies tightvncserver
 vncserver
@@ -12,6 +19,7 @@ vnc password *****
 vncserver -kill :1
 mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 nano ~/.vnc/xstartup
+```
 
 ```
 #!/bin/bash
@@ -19,10 +27,14 @@ xrdb $HOME/.Xresources
 startxfce4 &
 ```
 
+```
 chmod +x ~/.vnc/xstartup
 vncserver -localhost
+```
 
+```
 sudo nano /etc/systemd/system/vncserver@.service
+```
 
 ```
 [Unit]
@@ -44,8 +56,14 @@ ExecStop=/usr/bin/vncserver -kill :%i
 WantedBy=multi-user.target
 ```
 
+```bash
 sudo systemctl daemon-reload
 sudo systemctl enable vncserver@1.service
 vncserver -kill :1
 sudo systemctl start vncserver@1
 sudo systemctl status vncserver@1
+```
+
+## External Links
+
+* <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04>

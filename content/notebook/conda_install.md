@@ -1,6 +1,10 @@
-
 ---
 title: Conda Install
+tags:
+  - anaconda
+  - python
+  - terminal
+  - bash
 ---
 
 ## Install Latest Anaconda / Miniconda
@@ -12,7 +16,7 @@ title: Conda Install
 
 ### Linux script
 ```
-cd ~/Downloads 
+cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -35,7 +39,7 @@ conda init powershell
 
 Other security options (may break conda script)
 ```
-#Set-ExecutionPolicy AllSigned 
+#Set-ExecutionPolicy AllSigned
 ```
 
 ## Install Packages
@@ -109,8 +113,8 @@ conda update -y --all
 ### Packages required for some of my vision based packages. (opencv downgrades python)
 
 ```
-conda install opencv 
-pip install 
+conda install opencv
+pip install
 #pip install smtplib pygraphviz
 ```
 
@@ -178,7 +182,7 @@ conda update -y --all
 ### OpenCV install
 ```
 conda create -n opencv python=3.7
-conda activate opencv     
+conda activate opencv
 conda install spyder opencv pyopencv
 pip install imutils
 ```
@@ -188,4 +192,3 @@ pip install imutils
 ```
 conda install -c conda-forge scikit-geometry poppler
 ```
-

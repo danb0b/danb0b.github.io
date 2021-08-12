@@ -1,3 +1,13 @@
+---
+title: Controlling Virtualbox from the Terminal
+tags:
+  - terminal
+  - bash
+  - linux
+  - windows
+  - virtualbox
+---
+
 from: <https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from-the-command-line/>
 
 Starting/stopping/pausing a VM

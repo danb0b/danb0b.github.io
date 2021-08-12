@@ -1,4 +1,10 @@
 ---
+title: Disabling Password-based SSH
+tags:
+  - ssh
+  - ubuntu
+  - linux
+  - security
 ---
 
 # Create ssh key
