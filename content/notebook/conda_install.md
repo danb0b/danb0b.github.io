@@ -60,12 +60,6 @@ conda install -y anaconda
 conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
 ```
 
-### Conda packages not available from main channels
-
-```
-conda install -c conda-forge scikit-geometry poppler
-```
-
 ### Install pip packages
 
 ```
@@ -188,3 +182,10 @@ conda activate opencv
 conda install spyder opencv pyopencv
 pip install imutils
 ```
+
+### Conda packages not available from main channels
+
+```
+conda install -c conda-forge scikit-geometry poppler
+```
+
