@@ -1,9 +1,9 @@
 ---
 title: Grep Cookbook
 tags:
-- grep
-- bash
-- linux
+  - grep
+  - bash
+  - linux
 ---  
 
 # Grep Cookbook

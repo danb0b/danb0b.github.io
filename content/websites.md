@@ -1,5 +1,5 @@
 ---
-title: Web Sites
+title: Websites
 type: starred
 image: box.png
 summary: Sites I have had a hand in developing
@@ -39,5 +39,3 @@ summary: Sites I have had a hand in developing
 * [idealab](https://twitter.com/idealabasu)
 * [dave the kangaroo](https://twitter.com/davethekangaroo)
 * [scrambots](https://twitter.com/scrambots)
-
-

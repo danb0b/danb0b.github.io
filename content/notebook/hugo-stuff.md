@@ -1,9 +1,9 @@
 ---
 title: Hugo Stuff
 tags:
-- markdown
-- hugo
-- websites
+  - markdown
+  - hugo
+  - websites
 ---
 
 Create a new site with yaml format

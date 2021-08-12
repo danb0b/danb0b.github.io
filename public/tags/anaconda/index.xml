@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anaconda on Dan Aukes</title>
+    <link>https://danaukes.com/tags/anaconda/</link>
+    <description>Recent content in anaconda on Dan Aukes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://danaukes.com/tags/anaconda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conda Install</title>
+      <link>https://danaukes.com/notebook/conda_install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/conda_install/</guid>
+      <description>Install Latest Anaconda / Miniconda    Windows Linux     64-bit Miniconda 64-bit Miniconda    Linux script cd ~/Downloadswget https://repo.</description>
+    </item>
+    
+  </channel>
+</rss>

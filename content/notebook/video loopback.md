@@ -1,5 +1,9 @@
 ---
 title: Looping Video into Zoom
+tags:
+  - zoom
+  - linux
+  - ubuntu
 ---
 
 ```bash

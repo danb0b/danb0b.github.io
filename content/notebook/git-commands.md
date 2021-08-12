@@ -1,8 +1,8 @@
 ---
 title: Common Git Commands
 tags:
-- bash
-- git
+  - bash
+  - git
 ---
 
 to clone a repository:
