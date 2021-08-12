@@ -68,7 +68,21 @@ conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely py
 
 ```
 python -m pip install --upgrade pip
-pip install meshio pygmsh ezdxf pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub twine paho-mqtt pandoc-crossref scp euclid3 pysolar pdf2image stem fake_useragent PyMuPDF ntplib pygame pysftp pyserial
+pip install meshio pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma
+```
+
+### pandoc citeproc
+
+windows
+
+```
+pip install pandoc-citeproc
+```
+
+ubuntu
+
+```
+sudo apt install -y pandoc-citeproc
 ```
 
 ### Pip packages that need a compiler (optional)
