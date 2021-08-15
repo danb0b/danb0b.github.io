@@ -145,133 +145,24 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2>Conda Install</h2>
+        <h2>ASUS Zenbook Issues</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Windows</th>
-<th style="text-align:left">Linux</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe">64-bit Miniconda</a></td>
-<td style="text-align:left"><a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh">64-bit Miniconda</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="linux-script">Linux script</h3>
-<pre><code>cd ~/Downloads
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-</code></pre><p>follow the instructions</p>
-<pre><code>cd ~/
-source ~/.bashrc
-</code></pre><h2 id="set-powershell-specific-security-settings">Set powershell-specific security settings</h2>
-<p>from <a href="https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell">https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell</a></p>
-<pre><code>Set-ExecutionPolicy remotesigned
-conda init powershell
-</code></pre><p>Other security options (may break conda script)</p>
-<pre><code>#Set-ExecutionPolicy AllSigned
-</code></pre><h2 id="install-packages">Install Packages</h2>
-<p>Update Conda</p>
-<pre><code>conda update -y -n base conda
-</code></pre><h3 id="install-full-anaconda">Install full anaconda</h3>
-<p>If you&rsquo;ve installed miniconda only and realize you want the full anaconda pipeline</p>
-<pre><code>conda install -y anaconda
-</code></pre><h3 id="conda-packages-not-included-in-anaconda">Conda packages not included in anaconda</h3>
-<pre><code>conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
-</code></pre><h3 id="install-pip-packages">Install pip packages</h3>
-<pre><code>python -m pip install --upgrade pip
-pip install meshio pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma
-</code></pre><h3 id="pandoc-citeproc">pandoc citeproc</h3>
-<p>windows</p>
-<pre><code>pip install pandoc-citeproc
-</code></pre><p>ubuntu</p>
-<pre><code>sudo apt install -y pandoc-citeproc
-</code></pre><h3 id="pip-packages-that-need-a-compiler-optional">Pip packages that need a compiler (optional)</h3>
-<pre><code>pip install spectrum pybullet roslibpy
-</code></pre><h3 id="update-everything-to-make-sure-its-all-consistent">Update everything to make sure it&rsquo;s all consistent</h3>
-<pre><code>conda update -y --all
-</code></pre><!--
-## Full Script
-
-```
-conda update -y -n base conda
-conda install -y anaconda
-conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
-conda install -c conda-forge scikit-geometry poppler
-python -m pip install --upgrade pip
-pip install meshio pygmsh ezdxf pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub twine paho-mqtt pandoc-crossref scp euclid3 pysolar pdf2image stem fake_useragent PyMuPDF ntplib pygame pysftp pyserial
-pip install spectrum pybullet roslibpy
-conda update -y --all
-```
--->
-<hr>
-<h2 id="older-stuff">Older Stuff</h2>
-<h3 id="kivy-development-specific-packages-optional">Kivy Development specific packages (optional)</h3>
-<pre><code>#python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-#python -m pip install kivy.deps.gstreamer
-</code></pre><h3 id="packages-required-for-some-of-my-vision-based-packages-opencv-downgrades-python">Packages required for some of my vision based packages. (opencv downgrades python)</h3>
-<pre><code>conda install opencv
-pip install
-#pip install smtplib pygraphviz
-</code></pre><h3 id="cx_freeze">CX_freeze</h3>
-<p>Useful older package for making executables.  Old instructions</p>
-<p>go to cx_freeze mod</p>
-<pre><code>python setup.py install
-</code></pre><h3 id="pychrono-install">Pychrono Install</h3>
-<pre><code>conda create -n chrono
-conda activate chono
-#conda install -c projectchrono pychrono
-conda install numpy matplotlib spyder
-conda install -c projectchrono/label/develop pychrono
-conda install -c dlr-sc pythonocc-core
-conda install spyder
-</code></pre><h3 id="older-debuggable-python">Older debuggable python</h3>
-<pre><code>conda create -y -n debug python=3.5 spyder=3.1.4
-activate debug
-conda update conda
-conda install -y menuinst
-conda install -y  ipykernel=4.8 cython mkl imageio jinja2 jupyter lxml matplotlib networkx numpy pandoc pillow pyflakes pyqt pyyaml ruamel_yaml scipy setuptools sphinx spyder sympy tornado
-conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo
-#conda install -y -c conda-forge shapely
-conda install -y shapely
-conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
-python -m pip install --upgrade pip
-pip install meshio pygmsh ezdxf twine pypdf4
-
-#python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-#python -m pip install kivy.deps.gstreamer
-
-# go to cx_freeze mod
-python setup.py install
-
-conda update -y --all
-#stuff required for pydevtools
-conda install pycrypto opencv requests pyserial
-pip install ntplib pygame pygraphviz pysftp smtplib
-</code></pre><h3 id="pythonocc">PythonOCC</h3>
-<pre><code>conda create -y -n occ python ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
-activate occ
-conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
-conda install -y  ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
-conda update -y -n base conda
-conda update -y --all
-</code></pre><h3 id="opencv-install">OpenCV install</h3>
-<pre><code>conda create -n opencv python=3.7
-conda activate opencv
-conda install spyder opencv pyopencv
-pip install imutils
-</code></pre><h3 id="conda-packages-not-available-from-main-channels">Conda packages not available from main channels</h3>
-<pre><code>conda install -c conda-forge scikit-geometry poppler
+          <p>When the hard drive is encrypted the ASUS keyboard does not load by default.</p>
+<p>find HID modules</p>
+<pre><code>lsmod
+</code></pre><p>add those modules to initramfs</p>
+<pre><code>sudo nano /etc/initramfs-tools/modules
+</code></pre><p>add one per line</p>
+<pre><code>i2c_hid
+hid_multitouch
+hid_generic
+</code></pre><p>update initramfs:</p>
+<pre><code>update-initramfs -u
 </code></pre>
         </div>
 
@@ -339,7 +230,7 @@ pip install imutils
         
         
         
-        <p><a href="https://github.com/danb0b/danb0b.github.io/edit/hugo/content/notebook/conda_install.md"> Edit this Page</a></p>
+        <p><a href="https://github.com/danb0b/danb0b.github.io/edit/hugo/content/notebook/asus-issues.md"> Edit this Page</a></p>
         
         
         
