@@ -27,5 +27,5 @@ hid_generic
 update initramfs:
 
 ```
-update-initramfs -u
+sudo update-initramfs -u
 ```
