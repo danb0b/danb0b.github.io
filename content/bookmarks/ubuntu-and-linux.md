@@ -40,3 +40,6 @@ A lot of inside baseball on things I need to remember
 * [wifi hotspot configuration](https://askubuntu.com/questions/1230690/wifi-hotspot-option-disabled-after-upgrade-to-ubuntu-20-04)
 * [Netplan Reference](https://netplan.io/reference/)
 
+## Upgrading to 21.04
+
+* <https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/>
