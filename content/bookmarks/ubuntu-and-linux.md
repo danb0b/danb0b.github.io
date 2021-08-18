@@ -43,3 +43,7 @@ A lot of inside baseball on things I need to remember
 ## Upgrading to 21.04
 
 * <https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/>
+
+## Power Options
+
+* <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>

@@ -525,3 +525,7 @@ Topics related to research and lab administration
 * [tufts-university-neuromechanics-and-biomimetics-devices-labhome](https://ase.tufts.edu/biology/labs/trimmer/)
 * [wpi-soft-robotics-lab](https://softrobotics.wpi.edu//?_ga=1.183899747.491479449.1471719215)
 * [zhi-ern-teoh-projects](http://www.zhiernteoh.com/)
+
+## Misc
+
+* <https://jalopnik.com/engineering-experts-at-munro-tear-down-volkswagen-id-4-1847149101/amp>
