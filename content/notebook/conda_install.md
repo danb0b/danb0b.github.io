@@ -206,3 +206,9 @@ pip install imutils
 ```
 conda install -c conda-forge scikit-geometry poppler
 ```
+
+### pychrono
+
+```
+conda  install projectchrono/label/develop::pychrono
+```
