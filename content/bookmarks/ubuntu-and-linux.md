@@ -47,3 +47,7 @@ A lot of inside baseball on things I need to remember
 ## Power Options
 
 * <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>
+
+## passwordless luks unlock
+
+* [with usb stick](https://gist.github.com/da-n/4c77d09720f3e5989dd0f6de5fe3cbfb)
