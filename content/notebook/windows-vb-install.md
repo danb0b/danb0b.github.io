@@ -1,0 +1,29 @@
+---
+title: Windows VirtualBox Install Process
+---
+
+
+1. Install
+1. Update
+1. Remove Unused Programs
+1. Turn off hibernation
+
+  ```
+  powercfg.exe -h off
+  ```
+1. Turn off page file
+
+1. Clean C: drive, purging old system files and prior windows installations
+
+1. Install Chocolatey and Packages
+
+    ```
+    Set-ExecutionPolicy AllSigned
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    choco install -y 7zip pandoc gpg4win grepwin kdiff3 atom vcxsrv notepadplusplus putty.install wiztree winscp winfsp rclone unifying fritzing winmerge
+    choco install -y vlc adobereader ffmpeg
+    choco install -y firefox google-drive-file-stream  dropbox
+    choco install -y git.install --params "/NoShellIntegration /NoCredentialManager /GitAndUnixToolsOnPath"
+    choco install -y gitextensions
+    choco install -y miniconda3 --params="'/AddToPath:1 /InstallationType:AllUsers /D:C:\Anaconda3'"
+    ```
