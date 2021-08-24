@@ -51,3 +51,8 @@ A lot of inside baseball on things I need to remember
 ## passwordless luks unlock
 
 * [with usb stick](https://gist.github.com/da-n/4c77d09720f3e5989dd0f6de5fe3cbfb)
+
+## Kernel
+
+
+* <https://www.how2shout.com/linux/install-linux-5-8-kernel-on-ubuntu-20-04-lts/>
