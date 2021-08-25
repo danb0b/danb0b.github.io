@@ -23,15 +23,6 @@ menu:
     name: Contact
     weight: 3
   main:
-#  - URL: about
-#    name: About
-#    weight: 1
-#  - URL: blog
-#    name: Post
-#    weight: 2
-#  - URL: contact
-#    name: Contact
-#    weight: 3
   - URL: notebook
     name: Notebook
     weight: 4
