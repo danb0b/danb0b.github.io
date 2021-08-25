@@ -103,6 +103,15 @@ hugo new site --format=yaml dox </description>
     </item>
     
     <item>
+      <title>linux cheatsheet</title>
+      <link>https://danaukes.com/notebook/linux-cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/linux-cheatsheet/</guid>
+      <description>Find Kernel version uname -r Device / driver info lsmod lspci -k dmesg search path .</description>
+    </item>
+    
+    <item>
       <title>Looping Video into Zoom</title>
       <link>https://danaukes.com/notebook/video-loopback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -164,6 +173,15 @@ Headings There are few options to create headings.</description>
       
       <guid>https://danaukes.com/notebook/find/</guid>
       <description>Using the find command in bash Find all files below the current directory that match &amp;ldquo;tecmint.</description>
+    </item>
+    
+    <item>
+      <title>Windows VirtualBox Install Process</title>
+      <link>https://danaukes.com/notebook/windows-vb-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/windows-vb-install/</guid>
+      <description>Install Update Remove Unused Programs Turn off hibernation  powercfg.</description>
     </item>
     
   </channel>

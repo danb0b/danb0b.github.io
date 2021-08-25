@@ -145,63 +145,24 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2>ubuntu and linux</h2>
+        <h2>linux cheatsheet</h2>
         <div class="mb-3 post-meta">
           <span>By Dan Aukes</span>
           
         </div>
         
         <div class="content mb-5">
-          <p>A lot of inside baseball on things I need to remember</p>
-<h1 id="ubuntu-and-linux">Ubuntu and Linux</h1>
-<h2 id="misc">Misc</h2>
-<ul>
-<li><a href="https://www.unixmen.com/top-things-installing-ubuntu-14-1014-0413-1013-0412-1012-04/">top-things-to-do-after-installing-ubuntu-1504-unixmen</a></li>
-<li><a href="https://www.linuxjournal.com/content/downloading-entire-web-site-wget">Downloading an Entire Web Site with wget</a></li>
-<li><a href="https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/">uset bash history</a></li>
-</ul>
-<h2 id="ssh">SSH</h2>
-<ul>
-<li><a href="https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session">https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session</a></li>
-</ul>
-<h2 id="keys">Keys</h2>
-<ul>
-<li><a href="https://linuxnatives.net/2019/how-to-create-good-ssh-keys">https://linuxnatives.net/2019/how-to-create-good-ssh-keys</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys">https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys</a></li>
-<li><a href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys">https://help.ubuntu.com/community/SSH/OpenSSH/Keys</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04">https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04</a></li>
-</ul>
-<h2 id="installing-ssh-based-unlock">Installing ssh-based unlock:</h2>
-<ul>
-<li><a href="https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file">https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file</a></li>
-<li><a href="https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot">https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot</a></li>
-<li><code>ssh-keygen -b 4096</code></li>
-</ul>
-<h2 id="samba">Samba</h2>
-<ul>
-<li>Samba/windows share problem: <a href="https://forums.linuxmint.com/viewtopic.php?t=245005">https://forums.linuxmint.com/viewtopic.php?t=245005</a></li>
-</ul>
-<h2 id="networking">Networking</h2>
-<ul>
-<li><a href="https://askubuntu.com/questions/1230690/wifi-hotspot-option-disabled-after-upgrade-to-ubuntu-20-04">wifi hotspot configuration</a></li>
-<li><a href="https://netplan.io/reference/">Netplan Reference</a></li>
-</ul>
-<h2 id="upgrading-to-2104">Upgrading to 21.04</h2>
-<ul>
-<li><a href="https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/">https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/</a></li>
-</ul>
-<h2 id="power-options">Power Options</h2>
-<ul>
-<li><a href="https://fostips.com/lid-close-action-ubuntu-21-04-laptop/">https://fostips.com/lid-close-action-ubuntu-21-04-laptop/</a></li>
-</ul>
-<h2 id="passwordless-luks-unlock">passwordless luks unlock</h2>
-<ul>
-<li><a href="https://gist.github.com/da-n/4c77d09720f3e5989dd0f6de5fe3cbfb">with usb stick</a></li>
-</ul>
-<h2 id="kernel">Kernel</h2>
-<ul>
-<li><a href="https://www.how2shout.com/linux/install-linux-5-8-kernel-on-ubuntu-20-04-lts/">https://www.how2shout.com/linux/install-linux-5-8-kernel-on-ubuntu-20-04-lts/</a></li>
-</ul>
+          <h2 id="find-kernel-version">Find Kernel version</h2>
+<pre><code>uname -r
+</code></pre><h2 id="device--driver-info">Device / driver info</h2>
+<pre><code>lsmod
+lspci -k
+dmesg
+</code></pre><h2 id="search-path">search path</h2>
+<p>.bashrc holds path variables.</p>
+<h2 id="gui">GUI</h2>
+<p>ctrl-h hides and shows &ldquo;dot&rdquo; files in nautilus like <code>.config</code> or <code>.ssh/</code></p>
+
         </div>
 
         
@@ -268,7 +229,7 @@
         
         
         
-        <p><a href="https://github.com/danb0b/danb0b.github.io/edit/hugo/content/bookmarks/ubuntu-and-linux.md"> Edit this Page</a></p>
+        <p><a href="https://github.com/danb0b/danb0b.github.io/edit/hugo/content/notebook/linux-cheatsheet.md"> Edit this Page</a></p>
         
         
         

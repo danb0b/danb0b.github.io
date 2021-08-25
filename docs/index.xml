@@ -1029,6 +1029,15 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
     </item>
     
     <item>
+      <title>linux cheatsheet</title>
+      <link>https://danaukes.com/notebook/linux-cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/linux-cheatsheet/</guid>
+      <description>Find Kernel version uname -r Device / driver info lsmod lspci -k dmesg search path .</description>
+    </item>
+    
+    <item>
       <title>Looping Video into Zoom</title>
       <link>https://danaukes.com/notebook/video-loopback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1869,6 +1878,15 @@ Ingredients  1-1/2 cup flour 1/2 cup crisco 1/2 tsp salt 5-7 tsp of ice water  D
       
       <guid>https://danaukes.com/recipes/white-bread/</guid>
       <description>Ingredients 1.5 Pound Loaf  1 cup and two tablespoons hot water (115-125 deg F) 2 tablespoons oil 2 tablespoons sugar 1 teaspoon salt 3 cups bread flour 5 teaspoons red star quick rise yeast  2 Pound Loaf  1 1/2 cups hot water (115-125 deg F) 3 tablespoons oil 3 tablespoons sugar 1 1/2 teaspoon salt 4 cups bread flour 2 tablespoons red star quick rise yeast   Important: Carefully measure the hot water and make sure it&amp;rsquo;s between 115-125 deg F by using a cooking thermometer Measure and add liquid ingredients to the bread pan Measure and add dry ingredients (except yeast) to the bread pan Use your finger to form a well (hole) in the flour where you will pour the yeast.</description>
+    </item>
+    
+    <item>
+      <title>Windows VirtualBox Install Process</title>
+      <link>https://danaukes.com/notebook/windows-vb-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danaukes.com/notebook/windows-vb-install/</guid>
+      <description>Install Update Remove Unused Programs Turn off hibernation  powercfg.</description>
     </item>
     
     <item>
