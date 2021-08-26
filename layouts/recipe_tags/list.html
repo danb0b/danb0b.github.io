@@ -17,7 +17,7 @@
         <div class="row">
           {{ $paginator := .Paginate .Pages }}
           {{ range $paginator.Pages }}
-          {{ .Render "post" }}
+          {{ .Render "post_little" }}
           {{ end }}
         </div>
       </div>
@@ -35,4 +35,3 @@
 <!-- /blog post -->
 
 {{ end }}
-
