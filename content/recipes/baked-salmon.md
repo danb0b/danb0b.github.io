@@ -3,8 +3,6 @@ title: Baked Salmon
 recipe_tags:
   - main
   - seafood
-images: 
+images:
   - scan0126_002.jpg
 ---
-
-## Images

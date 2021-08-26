@@ -3,9 +3,6 @@ title: Butterflake Rolls
 recipe_tags:
   - bread
   - side
-images: 
+images:
   - scan0122_008.jpg
 ---
-
-
-## Images

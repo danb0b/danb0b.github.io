@@ -7,5 +7,3 @@ recipe_tags:
   - vegetable
   - italian
 ---
-
-## Images

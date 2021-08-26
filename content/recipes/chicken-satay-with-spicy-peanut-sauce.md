@@ -5,8 +5,6 @@ recipe_tags:
   - side
   - asian
   - chicken
-images: 
+images:
   - scan0103_020.jpg
 ---
-
-## Images

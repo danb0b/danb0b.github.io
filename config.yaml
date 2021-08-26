@@ -105,7 +105,6 @@ params:
   - icon: ti-linkedin
     link: 'https://www.linkedin.com/in/dan-aukes-502995212/'
     title: linkedin
-summaryLength: '10'
 markup:
   goldmark:
     renderer:

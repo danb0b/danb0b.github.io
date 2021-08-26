@@ -7,5 +7,3 @@ recipe_tags:
   - mexican
   - pork
 ---
-
-## Images

@@ -5,5 +5,3 @@ recipe_tags:
 images:
   - scan0116_004.jpg
 ---
-
-## Images

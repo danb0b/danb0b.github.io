@@ -5,5 +5,3 @@ recipe_tags:
 images:
   - cheesecake.jpg
 ---
-
-## Images

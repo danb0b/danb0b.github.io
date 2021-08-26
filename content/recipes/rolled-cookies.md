@@ -6,5 +6,3 @@ recipe_tags:
   - dessert
   - cookies
 ---
-
-## Images

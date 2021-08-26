@@ -6,5 +6,3 @@ recipe_tags:
   - sauces-and-marinades
   - misc
 ---
-
-## Images

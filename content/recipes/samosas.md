@@ -6,5 +6,3 @@ recipe_tags:
   - appetizer
   - side
 ---
-
-## Images

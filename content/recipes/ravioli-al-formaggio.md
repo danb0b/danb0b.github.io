@@ -7,6 +7,3 @@ recipe_tags:
   - main
   - italian
 ---
-
-<!--more-->
-## Images

@@ -1,10 +1,8 @@
 ---
 title: Pumpkin Pie
-images: 
+images:
   - scan0122_016.jpg
 recipe_tags:
   - dessert
   - pie
 ---
-
-## Images

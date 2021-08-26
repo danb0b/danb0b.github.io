@@ -6,6 +6,3 @@ recipe_tags:
 images:
   - scan0122_012.jpg
 ---
-
-
-## Images

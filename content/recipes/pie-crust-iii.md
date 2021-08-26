@@ -8,5 +8,3 @@ recipe_tags:
   - dessert
   - misc
 ---
-
-## Images
