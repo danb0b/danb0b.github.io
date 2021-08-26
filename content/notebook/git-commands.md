@@ -42,3 +42,23 @@ git add *
 git commit -m "commit message"
 git push
 ```
+## Submodules
+
+to pull submodules
+
+```
+git submodule update --init
+```
+
+cd into the proper subdirectory
+ensure you are attached to a branch:
+
+```
+git branch
+```
+
+if not check one out
+
+```
+git checkout [branchname]
+```
