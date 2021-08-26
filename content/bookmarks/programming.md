@@ -27,7 +27,7 @@ All the programming topics (except for python)
 ### bat files
 
 * [Batch Script Quick Guide](https://www.tutorialspoint.com/batch_script/batch_script_quick_guide.htm)
- 
+
 ### working with dlls
 
 * [download-visual-studio-2005-retired-docu-from-official-microsoft-download-center](https://www.microsoft.com/en-us/download/details.aspx?id=55984)
@@ -55,7 +55,7 @@ All the programming topics (except for python)
 * [scratch-imagine-program-share](https://scratch.mit.edu/)
 * [sphinx-documentation-on-github-data-desk-los-angeles-times](http://datadesk.latimes.com/posts/2012/01/sphinx-on-github/)
 * [triangle-a-two-dimensional-quality-mesh-generator-and-delaunay-triangulator](http://www.cs.cmu.edu/~quake/triangle.html)
- 
+
 ## Google Apps Script
 * [quickstart-managing-responses-for-google-forms-apps-script-google-developers](https://developers.google.com/apps-script/quickstart/forms)
 
@@ -154,6 +154,8 @@ All the programming topics (except for python)
 * [9275-guest-is-crashing-after-accessing-usb-webcam-oracle-vm-virtualbox](https://www.virtualbox.org/ticket/9275)
 * [online-shoes-clothing-free-shipping-and-returns-zapposcom](https://www.zappos.com/)
 * [windows-virtualbox-failed-to-attach-usb-device-to-linux-guest-super-user](https://superuser.com/questions/461406/windows-virtualbox-failed-to-attach-usb-device-to-linux-guest)
+* <https://www.howtogeek.com/124622/how-to-enlarge-a-virtual-machines-disk-in-virtualbox-or-vmware/>
+
 
 # Windows STuff
 
