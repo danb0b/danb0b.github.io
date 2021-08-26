@@ -1,5 +1,8 @@
 ---
 title: Shapeoko Links
+tags:
+  - idealab
+  - cnc
 ---
 
 * [Carbide 3D Downloads](https://carbide3d.com/downloads/)

@@ -1,5 +1,8 @@
 ---
 title: linux cheatsheet
+tags:
+  - linux
+  - ubuntu
 ---
 
 ## Find Kernel version

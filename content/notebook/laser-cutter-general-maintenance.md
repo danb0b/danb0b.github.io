@@ -1,5 +1,9 @@
 ---
 title: Laser Cutter General Maintenance
+tags:
+  - idealab
+  - laser
+  - maintenance
 ---
 
 ## Cleaning

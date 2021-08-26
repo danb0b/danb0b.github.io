@@ -4,6 +4,7 @@ tags:
   - zoom
   - linux
   - ubuntu
+  - fun
 ---
 
 ```bash

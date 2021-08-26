@@ -1,5 +1,9 @@
 ---
 title: ASUS Zenbook Issues
+tags:
+  - ASUS
+  - linux
+  - ubuntu
 ---
 
 When the hard drive is encrypted the ASUS keyboard does not load by default.
