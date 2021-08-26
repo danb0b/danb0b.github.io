@@ -33,8 +33,6 @@ git checkout –track origin/xyz
 Sometimes you want to see what has changed.  ```git status``` can be used to see which files have changed since the last commit.  Otherwise, you can use ```git diff``` to more closely inspect file changes line by line
 
 
-```
-
 Push a quick commit:
 
 ```bash
