@@ -41,3 +41,10 @@ find . -type f -name "*.txt"
 ## External Resources
 
 * <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
+
+
+## Find and Replace with find and sed
+
+```
+find . -type f -name "*.md" -print0 | xargs -0 sed -i 's/foo/bar/g'
+```
