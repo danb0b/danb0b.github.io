@@ -265,4 +265,4 @@ Fun personal links...
 
 ### misc computer
 
-* <https://www.asus.com/us/Laptops/For-Home/ZenBook/ZenBook-14-UM425/HelpDesk_BIOS/?model2Name=ZenBook-14-UM425>
+* <https://www.asus.com/us/Laptops/For-Home/ZenBook/ZenBook-14-UM425>
