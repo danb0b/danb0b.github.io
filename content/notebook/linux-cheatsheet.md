@@ -27,3 +27,9 @@ dmesg
 ## GUI
 
 ctrl-h hides and shows "dot" files in nautilus like ```.config``` or ```.ssh/```
+
+## Password
+
+```
+sudo passwd <username>
+```
