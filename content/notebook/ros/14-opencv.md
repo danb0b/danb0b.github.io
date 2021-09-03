@@ -6,6 +6,7 @@ tags:
 - ubuntu
 - linux
 - opencv
+- camera
 ---
 
 1. install opencv for python

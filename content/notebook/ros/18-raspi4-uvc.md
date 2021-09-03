@@ -5,6 +5,7 @@ tags:
 - ros
 - ubuntu
 - linux
+- camera
 ---
 1. install uvc stuff.
 

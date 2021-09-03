@@ -5,6 +5,7 @@ tags:
 - ros
 - ubuntu
 - linux
+- camera
 ---
 
 # Using a USB webcam (with virtualbox)
