@@ -79,3 +79,9 @@ Reusable links related to Arizona State University
 ## Peralta Studios
 
 <https://www.youtube.com/channel/UCYilgVIg_p8O4CbVCudGHlw>
+
+## Proposal Development
+
+<https://click.reply.asu.edu/?qs=499f36ae7e3abf457d9c5bbaa0a86a96fc081ebee63a67cb8cc250a6fc857c1f340930afd4f1a36c3dcda670be8b427208b0d0eb2df8d7b2a8d502ca29f29a1c>
+
+[alternate link](https://researchacademy.asu.edu/events/pdw1?utm_campaign=ASU_KE_KE+Bulletin_Sept+2021_3727781&utm_medium=email&utm_source=ASU%20Knowledge%20Enterprise_SFMCE&utm_term=ASU&utm_content=View+full+series&ecd42=518001822&ecd73=176671331&ecd37=All%20Researchers%20at%20ASU&ecd43=9/2/2021)
