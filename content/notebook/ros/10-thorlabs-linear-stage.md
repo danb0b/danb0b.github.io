@@ -1,5 +1,6 @@
 ---
 title: Using the Thorlabs linear stage
+weight: 100
 tags:
 - ros
 - ubuntu

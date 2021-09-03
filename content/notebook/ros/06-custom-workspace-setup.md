@@ -1,5 +1,6 @@
 ---
 title: Clone and Setup Custom Workspace
+weight: 60
 tags:
 - ros
 - ubuntu

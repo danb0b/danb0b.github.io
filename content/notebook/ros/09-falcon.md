@@ -1,5 +1,6 @@
 ---
 title: Installing and Running the Novint Falcon
+weight: 90
 tags:
 - ros
 - ubuntu

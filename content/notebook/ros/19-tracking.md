@@ -1,5 +1,6 @@
 ---
 title: CV Bridge and Python 3
+weight: 190
 tags:
 - ros
 - ubuntu

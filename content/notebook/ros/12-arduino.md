@@ -1,5 +1,6 @@
 ---
 title: Using Arduino with ROS
+weight: 120
 tags:
 - ros
 - ubuntu

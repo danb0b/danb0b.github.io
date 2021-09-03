@@ -1,5 +1,6 @@
 ---
 title: Creating a custom Photon Package
+weight: 150
 tags:
 - ros
 - ubuntu

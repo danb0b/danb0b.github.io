@@ -1,5 +1,6 @@
 ---
 title: Getting the Logitech c930 working with ROS
+weight: 130
 tags:
 - ros
 - ubuntu

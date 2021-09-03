@@ -1,5 +1,6 @@
 ---
 title: Installing OpenCV
+weight: 140
 tags:
 - ros
 - ubuntu

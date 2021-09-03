@@ -1,5 +1,6 @@
 ---
 title: Navigating the Ros Filesystem (optional)
+weight: 30
 tags:
 - ros
 - ubuntu

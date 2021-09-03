@@ -1,5 +1,6 @@
 ---
 title: Running Ros on a Raspbery Pi 4 with Raspberry Pi OS
+weight: 160
 tags:
 - ros
 - ubuntu

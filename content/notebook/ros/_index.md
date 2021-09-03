@@ -1,5 +1,6 @@
 ---
 title: Ros Tutorial
+weight: 0
 summary: Lab instructions for setting up ROS
 tags:
 - ros

@@ -1,5 +1,6 @@
 ---
 title: ROS Instalation Summary
+weight: 20
 tags:
 - ros
 - ubuntu

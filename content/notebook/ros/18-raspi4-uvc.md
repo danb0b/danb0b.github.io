@@ -1,5 +1,6 @@
 ---
 title: Getting UVC working with Raspberry Pi
+weight: 180
 tags:
 - ros
 - ubuntu

@@ -1,5 +1,6 @@
 ---
 title: Setup
+weight: 10
 tags:
 - ros
 - ubuntu

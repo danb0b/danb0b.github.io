@@ -1,5 +1,6 @@
 ---
 title: Installing, Running, and Using RosBridge
+weight: 40
 tags:
 - ros
 - ubuntu
