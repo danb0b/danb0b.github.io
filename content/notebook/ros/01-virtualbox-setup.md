@@ -73,24 +73,7 @@ The next steps outline how to go about creating a Virtual Machine similar to the
     1. eject the cd from the virtualbox host menu
     1. Restart guest computer (using the guest menu in the top right corner)
 
-1. Install other packages
-
-    ```bash
-    #update repository
-    sudo apt update
-    #visual package manager
-    sudo apt install -y synaptic
-    #ssh access
-    sudo apt install -y openssh-server
-    #python editor
-    sudo apt install -y spyder3
-    #ifconfig command and other networking tools
-    sudo apt install net-tools
-    #misc
-    sudo apt install -y curl
-  	#python packages
-  	sudo apt install -y python3-serial python3-pip
-    ```
+1. Install other packages.  See [Ros Prerequisites](01.2-prerequisites)
 
 1. Take another Snapshot
 
