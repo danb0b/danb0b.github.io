@@ -1,5 +1,5 @@
 ---
-title: ROS Instalation Summary
+title: ROS Installation Summary
 weight: 20
 tags:
 - ros
@@ -37,8 +37,8 @@ This is derived from [the official tutorial](https://wiki.ros.org/melodic/Instal
     #To install tools and other dependencies for building ROS packages, run:
     sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
     #not sure if you need to do the next line.
-    sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-    #sudo apt install python-rosdep
+    #sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+    sudo apt install python-rosdep
 
     sudo rosdep init
     rosdep update

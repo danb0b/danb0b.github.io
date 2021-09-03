@@ -9,16 +9,27 @@ tags:
 
 ## Steps
 
+1. Install prerequisites
+
+```
+sudo apt install ros-melodic-joy
+sudo apt install python3-numpy
+```
+
+1. Install libnifalcon (instructions in Falcon tutorial)
+
 1. Clone the idealab repository
 
     ```bash
+    mkdir ~/code
+    cd ~/code
     git clone https://github.com/idealabasu/code_idealab_ros.git
     ```
 
 1. Compile
 
     ```bash
-    cd code_idealab_ros/
+    cd ~/code/code_idealab_ros/
     catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
     ```
 
@@ -28,6 +39,6 @@ tags:
     # one time:
     #source devel/setup.bash
     # or permanent:
-    echo "source ~/code_idealab_ros/devel/setup.bash" >> ~/.bashrc
+    echo "source ~/code/code_idealab_ros/devel/setup.bash" >> ~/.bashrc
     source ~/.bashrc
     ```

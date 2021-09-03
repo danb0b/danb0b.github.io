@@ -25,8 +25,11 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
     #Install rosbridge on guest machine
     sudo apt install ros-melodic-rosbridge-suite
 
+    ## ensure you have the most recent version of pip
+    pip3 install --upgrade pip
+
     #Install roslibpy client for rosbridge on guest machine
-    pip3 install service_identity roslibpy
+    pip3 install setuptools_rust service_identity roslibpy
 
     #launch rosbridge server
     roslaunch rosbridge_server rosbridge_websocket.launch

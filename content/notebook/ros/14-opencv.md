@@ -5,6 +5,7 @@ tags:
 - ros
 - ubuntu
 - linux
+- opencv
 ---
 
 1. install opencv for python

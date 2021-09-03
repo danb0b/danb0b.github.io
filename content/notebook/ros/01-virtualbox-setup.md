@@ -1,15 +1,16 @@
 ---
-title: Setup
+title: Virtualbox Setup (optional)
 weight: 10
 tags:
 - ros
 - ubuntu
 - linux
+- virtualbox
 ---
 
 ## Introduction
 
-This section discusses how to prepare a computer for installing ROS.  Because many students don't have a spare
+This section discusses how to prepare a virtual machine for installing ROS.  Because many students don't have a spare computer they can load Ubuntu on, a virtual machine often makes sense.  The most recent versions of virtualbox are quite adept and providing full support to usb devices piped in through a windows host, making this a nice, general solution for developing ROS environments.
 
 ## Nomenclature
 
