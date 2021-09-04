@@ -98,21 +98,13 @@ pip install spectrum pybullet roslibpy
 conda update -y --all
 ```
 
-<!--
-## Full Script
+### map miniconda to anaconda
 
 ```
-conda update -y -n base conda
-conda install -y anaconda
-conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
-conda install -c conda-forge scikit-geometry poppler
-python -m pip install --upgrade pip
-pip install meshio pygmsh ezdxf pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub twine paho-mqtt pandoc-crossref scp euclid3 pysolar pdf2image stem fake_useragent PyMuPDF ntplib pygame pysftp pyserial
-pip install spectrum pybullet roslibpy
-conda update -y --all
+mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
 ```
--->
-
 ---------------------
 
 ## Older Stuff
