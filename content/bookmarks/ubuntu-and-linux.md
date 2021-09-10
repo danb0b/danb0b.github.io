@@ -39,6 +39,7 @@ A lot of inside baseball on things I need to remember
 
 * [wifi hotspot configuration](https://askubuntu.com/questions/1230690/wifi-hotspot-option-disabled-after-upgrade-to-ubuntu-20-04)
 * [Netplan Reference](https://netplan.io/reference/)
+* [https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-18-04/](https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-18-04/)
 
 ## Upgrading to 21.04
 
