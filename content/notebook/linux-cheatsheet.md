@@ -33,3 +33,21 @@ ctrl-h hides and shows "dot" files in nautilus like ```.config``` or ```.ssh/```
 ```
 sudo passwd <username>
 ```
+
+## Networking
+
+```
+ifconfig
+```
+
+```
+ifconfig up [deviceid]
+```
+
+```
+ip link
+```
+
+```
+ip addr
+```
