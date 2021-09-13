@@ -31,7 +31,7 @@ hid_generic
 update initramfs:
 
 ```
-sudo update-initramfs -u
+sudo update-initramfs -u -k all
 ```
 
 
@@ -48,7 +48,7 @@ blacklist amdgpu
 As initramfs contains modprobe configuration, update the initramfs and reboot:
 
 ```
-$ sudo update-initramfs -u
+sudo update-initramfs -u -k all
 ```
 
 Check whether the driver blacklisted or not, the following command should output nothing.
