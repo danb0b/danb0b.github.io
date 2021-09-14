@@ -529,3 +529,5 @@ Topics related to research and lab administration
 ## Misc
 
 * <https://jalopnik.com/engineering-experts-at-munro-tear-down-volkswagen-id-4-1847149101/amp>
+* [Run a design study in Solidworks](https://www.youtube.com/watch?v=JomOjlIX5QE)
+* [design study - solidworks 2016](http://help.solidworks.com/2016/english/solidworks/sldworks/t_creating_a_design_study.htm)
