@@ -5,5 +5,9 @@ draft: false
 summary: "How to get in touch"
 type : "contact"
 show_front: false
+menu:
+  footer:
+    order: 2
+    name: Contact
 ---
 

@@ -11,33 +11,15 @@ taxonomies:
   recipe_tag: recipe_tags
 disqusShortname: ''
 languageCode: en-us
-menu:
-  footer:
-  - URL: about
-    name: About
-    weight: 1
-  - URL: calendar
-    name: Calendar
-    weight: 2
-  - URL: contact
-    name: Contact
-    weight: 3
-  main:
-  - URL: notebook
-    name: Notebook
-    weight: 4
-  - URL: recipes
-    name: Recipes
-    weight: 5
-  - URL: websites
-    name: Websites
-    weight: 6
-  - URL: bookmarks
-    name: Bookmarks
-    weight: 7
-  - URL: code
-    name: Code
-    weight: 8
+#menu:
+#  footer:
+#  - URL: about
+#    name: About
+#    weight: 1
+#  main:
+#  - URL: notebook
+#    name: Notebook
+#    weight: 4
 outputs:
   home:
   - HTML

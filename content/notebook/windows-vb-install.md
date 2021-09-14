@@ -25,8 +25,8 @@ tags:
     Set-ExecutionPolicy AllSigned
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     choco install -y 7zip pandoc gpg4win grepwin kdiff3 atom vcxsrv notepadplusplus putty.install wiztree winscp winfsp rclone unifying fritzing winmerge vlc adobereader ffmpeg firefox
-    choco install -y google-drive-file-stream dropbox
     choco install -y git.install --params "/NoShellIntegration /NoCredentialManager /GitAndUnixToolsOnPath"
     choco install -y gitextensions
-    choco install -y miniconda3 --params="'/AddToPath:1 /InstallationType:AllUsers /D:C:\Anaconda3'"
+    #choco install -y miniconda3 --params="'/AddToPath:1 /InstallationType:AllUsers /D:C:\Anaconda3'"
+    #choco install -y google-drive-file-stream dropbox
     ```

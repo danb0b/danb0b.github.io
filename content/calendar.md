@@ -3,6 +3,10 @@ title: Calendar
 image: images/calendar.jpg
 summary: Find out what's on my schedule
 type: starred
+menu:
+  footer:
+    order: 3
+    name: Calendar
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
