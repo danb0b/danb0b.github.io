@@ -51,3 +51,19 @@ ip link
 ```
 ip addr
 ```
+
+## APT
+
+```
+sudo apt list --installed <packa*>
+```
+
+```
+sudo apt --reinstall install <package>
+````
+
+## Devices
+
+```
+sudo libinput --list-devices
+```

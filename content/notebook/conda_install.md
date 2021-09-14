@@ -137,13 +137,15 @@ python setup.py install
 ### Pychrono Install
 
 ```
+sudo apt install libirrlicht-dev
+
 conda create -n chrono
-conda activate chono
-#conda install -c projectchrono pychrono
-conda install numpy matplotlib spyder
-conda install -c projectchrono/label/develop pychrono
-conda install -c dlr-sc pythonocc-core
-conda install spyder
+conda activate chrono
+#conda install -y -c projectchrono pychrono
+conda install -y -c projectchrono/label/develop pychrono
+#conda install -y -c conda-forge irrlicht 
+conda install -y spyder numpy matplotlib scipy
+#conda install -c dlr-sc pythonocc-core
 ```
 
 ### Older debuggable python
