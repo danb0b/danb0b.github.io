@@ -16,13 +16,21 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
 
 1. In the host virtualbox settings, add a filter for the  thorlabs usb device.
 1. open virtualbox
+1. clone thorlabs linear stage code
+
+    ```bash
+    cd ~/code
+    git clone https://github.com/idealabasu/code_devices_thorlabs_linear_stage.git
+    ```
+
 1. add rules to linux system.  These are located
 
     ```
     SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="faf0", MODE="666"
     ```
 
-    ```bash
+    ```
+    cd ~/code/code_devices_thorlabs_linear_stage
     sudo cp 99-thorlabs.rules /etc/udev/rules.d
     sudo chmod 644 /etc/udev/rules.d/99-thorlabs.rules
     sudo udevadm control --reload-rules && udevadm trigger
@@ -70,12 +78,6 @@ pip3 install ftd2xx
     ```bash
     echo "export PYTHONPATH=\$PYTHONPATH:~/code_idealab_tools/python" >> ~/.bashrc
     source ~/.bashrc
-    ```
-
-1. clone thorlabs linear stage code
-
-    ```bash
-    git clone https://github.com/idealabasu/code_devices_thorlabs_linear_stage.git
     ```
 
 1. add git-based packages to python path
