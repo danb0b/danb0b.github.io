@@ -18,6 +18,10 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
 1. open virtualbox
 1. add rules to linux system.  These are located
 
+    ```
+    SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="faf0", MODE="666"
+    ```
+
     ```bash
     sudo cp 99-thorlabs.rules /etc/udev/rules.d
     sudo udevadm control --reload-rules && udevadm trigger
