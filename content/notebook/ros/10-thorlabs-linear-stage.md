@@ -77,7 +77,8 @@ pip3 install ftd2xx
 
 1. download ftd2xx drivers(see downloads below)
 ```bash
-cd ~
+mkdir ~/drivers
+cd ~/drivers
 mkdir libftd2xx-x86_64-1.4.8
 cd libftd2xx-x86_64-1.4.8
 wget https://www.ftdichip.com/Drivers/D2XX/Linux/libftd2xx-x86_64-1.4.8.gz
