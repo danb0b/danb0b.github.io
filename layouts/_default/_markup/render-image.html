@@ -1,0 +1,13 @@
+{{ if .Text }}
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="{{ .Destination | safeURL }}"><img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">{{ .Text }}</div></td></tr>
+</tbody>
+</table>
+{{else}}
+<a href="{{ .Destination | safeURL }}"><img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} /></a>
+{{ end }}

@@ -1,3 +1,12 @@
+---
+title: Setting up OptiTrack
+tags:
+  - ROS
+  - ubuntu
+  - linux
+  - optitrack
+---
+
 ## Links
 
 * <http://wiki.ros.org/mocap_optitrack>
@@ -10,7 +19,9 @@ sudo apt install ros-melodic-mocap-optitrack
 
 ## Create a rigid body and ensure it is being transmitted from Motiv
 
+![](image1.jpg)
 
+![](image2.jpg)
 
 ## Edit mocap.yaml                                           
 

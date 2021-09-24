@@ -67,3 +67,22 @@ sudo apt --reinstall install <package>
 ```
 sudo libinput --list-devices
 ```
+## Find/Replace
+
+To change the file in place:
+
+```
+sed -i "s/regex/replace/" file
+```
+
+or
+
+```
+sed -i "s|regex|replace|" file
+```
+
+To copy output to a new file
+
+```
+sed "s/regex/replace/" filein > fileout
+```
