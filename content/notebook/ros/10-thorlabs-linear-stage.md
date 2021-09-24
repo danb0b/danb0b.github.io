@@ -76,14 +76,14 @@ pip3 install ftd2xx
 1. add git-based packages to python path
 
     ```bash
-    echo "export PYTHONPATH=\$PYTHONPATH:~/code_idealab_tools/python" >> ~/.bashrc
+    echo "export PYTHONPATH=\$PYTHONPATH:~/code/code_idealab_tools/python" >> ~/.bashrc
     source ~/.bashrc
     ```
 
 1. add git-based packages to python path
 
     ```bash
-    echo "export PYTHONPATH=\$PYTHONPATH:~/code_devices_thorlabs_linear_stage/python" >> ~/.bashrc
+    echo "export PYTHONPATH=\$PYTHONPATH:~/code/code_devices_thorlabs_linear_stage/python" >> ~/.bashrc
     source ~/.bashrc
     ```
 <!--
