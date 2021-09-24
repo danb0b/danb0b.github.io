@@ -152,7 +152,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
     1. Make projects
 
         ```
-        cd ~/code_idealab_ros
+        cd ~/code/code_idealab_ros
         catkin_make
         ```
 

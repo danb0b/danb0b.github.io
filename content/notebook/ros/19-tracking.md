@@ -17,7 +17,7 @@ git checkout melodic
 cp -r cv_bridge/ ../code_idealab_ros/src
 cp -r image_geometry/ ../code_idealab_ros/src
 cp -r vision_opencv/ ../code_idealab_ros/src
-cd ~/code_idealab_ros/
+cd ~/code/code_idealab_ros/
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 

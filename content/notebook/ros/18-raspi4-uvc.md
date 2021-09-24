@@ -38,7 +38,7 @@ tags:
 1. (optional, seems already done, perhaps by previous step)  copy rules from idealab_ros_tools to rules folder (according to this [ref](http://wiki.ros.org/libuvc_camera))
 
 ```bash
-cd ~/code_idealab_ros/src
+cd ~/code/code_idealab_ros/src
 sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && udevadm trigger
 sudo reboot
@@ -51,19 +51,19 @@ sudo reboot
 
     git clone https://github.com/ros-drivers/libuvc_ros
     cd libuvc_ros
-    cp -r libuvc_camera ~/code_idealab_ros/src
-    cp -r libuvc_ros ~/code_idealab_ros/src
+    cp -r libuvc_camera ~/code/code_idealab_ros/src
+    cp -r libuvc_ros ~/code/code_idealab_ros/src
 
     cd ~
 
     git clone https://github.com/ros/nodelet_core
     cd nodelet_core
-    cp -r nodelet ~/code_idealab_ros/src
-    cp -r nodelet_core ~/code_idealab_ros/src
+    cp -r nodelet ~/code/code_idealab_ros/src
+    cp -r nodelet_core ~/code/code_idealab_ros/src
 
     git clone https://github.com/ros/bond_core
     cd bond_core
-    cp -r * ~/code_idealab_ros/src
+    cp -r * ~/code/code_idealab_ros/src
 
     cd ~
 
