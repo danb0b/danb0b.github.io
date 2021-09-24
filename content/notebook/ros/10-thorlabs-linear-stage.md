@@ -24,6 +24,7 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
 
     ```bash
     sudo cp 99-thorlabs.rules /etc/udev/rules.d
+    sudo chmod 644 /etc/udev/rules.d/99-thorlabs.rules
     sudo udevadm control --reload-rules && udevadm trigger
     ```
 
