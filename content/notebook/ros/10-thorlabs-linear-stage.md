@@ -37,21 +37,6 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
     ```
 
 <!--
-1. download ftd2xx drivers(see downloads below)
-```bash
-cd ~
-mkdir libftd2xx-x86_64-1.4.8
-cd libftd2xx-x86_64-1.4.8
-wget https://www.ftdichip.com/Drivers/D2XX/Linux/libftd2xx-x86_64-1.4.8.gz
-tar -xvzf libftd2xx-x86_64-1.4.8.gz
-cd release
-cd build
-sudo cp libftd2xx.* /usr/local/lib
-sudo chmod 0755 /usr/local/lib/libftd2xx.so.1.4.8
-sudo ln -sf /usr/local/lib/libftd2xx.so.1.4.8 /usr/local/lib/libftd2xx.so
-echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/lib:/usr/lib:/usr/local/lib" >> ~/.bashrc
-source ~/.bashrc
-```
 
 -->
 
@@ -88,6 +73,22 @@ source ~/.bashrc
 #sudo apt update
 #sudo apt install
 pip3 install ftd2xx
+```
+
+1. download ftd2xx drivers(see downloads below)
+```bash
+cd ~
+mkdir libftd2xx-x86_64-1.4.8
+cd libftd2xx-x86_64-1.4.8
+wget https://www.ftdichip.com/Drivers/D2XX/Linux/libftd2xx-x86_64-1.4.8.gz
+tar -xvzf libftd2xx-x86_64-1.4.8.gz
+cd release
+cd build
+sudo cp libftd2xx.* /usr/local/lib
+sudo chmod 0755 /usr/local/lib/libftd2xx.so.1.4.8
+sudo ln -sf /usr/local/lib/libftd2xx.so.1.4.8 /usr/local/lib/libftd2xx.so
+echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/lib:/usr/lib:/usr/local/lib" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 <!--
