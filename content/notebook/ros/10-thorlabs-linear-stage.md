@@ -53,13 +53,6 @@ echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/lib:/usr/lib:/usr/local/lib" >> 
 source ~/.bashrc
 ```
 
-1. install ftd2xx
-
-```bash
-#sudo apt update
-#sudo apt install
-pip3 install ftd2xx
-```
 -->
 
 
@@ -88,6 +81,14 @@ pip3 install ftd2xx
     ```
 <!--
 -->
+
+1. install ftd2xx
+
+```bash
+#sudo apt update
+#sudo apt install
+pip3 install ftd2xx
+```
 
 <!--
 1. install pyusb
