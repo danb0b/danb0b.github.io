@@ -67,3 +67,9 @@ sudo apt --reinstall install <package>
 ```
 sudo libinput --list-devices
 ```
+
+## Find Replace with ```sed```
+
+```
+sed -i 's/old-text/new-text/g' input.txt
+```

@@ -42,10 +42,16 @@ git push
 ```
 ## Submodules
 
+from [here](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
+
 to pull submodules
 
 ```
-git submodule update --init
+git submodule update --init --recursive
+```
+
+```
+git submodule update --recursive --remote
 ```
 
 cd into the proper subdirectory
