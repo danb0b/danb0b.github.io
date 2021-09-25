@@ -79,7 +79,7 @@ You need to follow slightly different steps if you want to provide access to a b
 1. copy rules from idealab_ros_tools to rules folder (according to this [ref](http://wiki.ros.org/libuvc_camera))
 
     ```bash
-    cd ~/code_idealab_ros/src
+    cd ~/code/code_idealab_ros/src
     sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
     sudo cp 99-uvc-vboxcam.rules /etc/udev/rules.d/
     sudo udevadm control --reload-rules && udevadm trigger
