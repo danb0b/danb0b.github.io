@@ -20,5 +20,6 @@ sudo udevadm control --reload-rules && udevadm trigger
 #pip3 install pyalsa
 #pip3 install pygame
 #pip3 install alsaseq
-pip3 install rtmidi mido
+sudo apt-get install libjack-dev
+pip3 install python-rtmidi mido
 ```

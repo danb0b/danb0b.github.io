@@ -21,6 +21,12 @@ sudo blkid.
 sudo fdisk -l
 ```
 
+list the device tree to get port:device
+
+```
+lsusb -t
+```
+
 list all the details about a device at port 1: device 3
 
 ```
