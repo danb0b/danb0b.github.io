@@ -60,7 +60,7 @@ sudo apt list --installed <packa*>
 
 ```
 sudo apt --reinstall install <package>
-````
+```
 
 ## Devices
 

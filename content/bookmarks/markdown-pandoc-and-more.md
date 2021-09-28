@@ -40,3 +40,8 @@ Creating and converting documents is not trivial.  I have a bunch of links that 
 * [conversion - Any way of converting ppt or odf to beamer or org- - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/66007/any-way-of-converting-ppt-or-odf-to-beamer-or-org)
 * [conversion - Export beamer slides to powerpoint-openoffice-impress-keynote editable format - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/21986/export-beamer-slides-to-powerpoint-openoffice-impress-keynote-editable-format)
 * <https://www.soimort.org/notes/161117/>
+* 
+
+## Linux
+
+[Folder Structure control](https://web.physics.wustl.edu/alford/tex/tex_paths.html)

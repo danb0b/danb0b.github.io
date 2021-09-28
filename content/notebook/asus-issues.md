@@ -161,7 +161,12 @@ But this kills hdmi...
         sudo reboot
         ``` 
     
-
+    1. Reinstall virtualbox-dkms
+    
+        ```
+        sudo apt install --reinstall virtualbox-dkms 
+        sudo modprobe vboxdrv
+        ```
 
 
 ## Other info

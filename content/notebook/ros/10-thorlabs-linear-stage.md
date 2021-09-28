@@ -36,14 +36,6 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
     sudo udevadm control --reload-rules && udevadm trigger
     ```
 
-<!--
-
--->
-
-
-
-<!--
--->
 
 1. clone idealab tools (if not already done)
 
@@ -64,10 +56,11 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
     echo "export PYTHONPATH=\$PYTHONPATH:~/code/code_devices_thorlabs_linear_stage/python" >> ~/.bashrc
     source ~/.bashrc
     ```
-<!--
--->
+## Old steps
 
-1. install ftd2xx
+This is not necessary to do in Linux, as the above works with the pySerial package.  You can use the ftd2xx package in windows though.
+
+1. install ftd2xx (windows-only)
 
 ```bash
 #sudo apt update
@@ -75,7 +68,7 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
 pip3 install ftd2xx
 ```
 
-1. download ftd2xx drivers(see downloads below)
+1. (old) download ftd2xx drivers(see downloads below)
 ```bash
 mkdir ~/drivers
 cd ~/drivers
@@ -104,7 +97,7 @@ git clone https://github.com/UniNE-CHYN/thorpy.git
 ```
 -->
 
-## Downloads
+### Old Downloads
 
 | driver | internal link                                                                                                   | external link                                                                 |
 |:-------|:----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
