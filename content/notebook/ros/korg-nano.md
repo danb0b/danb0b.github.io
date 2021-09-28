@@ -15,7 +15,7 @@ sudo udevadm control --reload-rules && udevadm trigger
 ```
 
 ```
-apt-get install libasound2-dev 
+sudo apt install libasound2-dev 
 
 #sudo apt install python3-pyrex
 #pip3 install pyalsa
