@@ -6,77 +6,21 @@ tags:
   - ubuntu
 ---
 
-When the hard drive is encrypted the ASUS keyboard does not load by default.
+I have an ASUS Zenbook UM425U, currently working great with Ubuntu 21.04 loaded.  Upon installing Ubuntu 20.04, initially the keyboard worked but other aspects of the computer did not, such as being able to control screen brightness, fan speed, etc.  After the kernel was automatically updated, however, suddently I was unable to use the keyboard, but intermittently.  Each reboot might allow me or not.  To add an additional wrinkle, I had also encrypted my hard drive using LUKS, meaning that if I was traveling or did not have access to an external keyboard, I would be locked out.
 
-find HID modules
+## Install a compatible Kernel.  
 
-```
-lsmod
-```
+The first thing I did was to manually install a kernel I could at least unlock my computer with.  I followed the instructions [here](https://www.how2shout.com/linux/install-linux-5-8-kernel-on-ubuntu-20-04-lts/) to get the linux 5.8.18 kernel installed.
 
-add those modules to initramfs
+List all kernels:
 
 ```
-sudo nano /etc/initramfs-tools/modules
+dpkg --list | grep linux-image
 ```
 
-add one per line
+## Recompile your Kernel
 
-```
-#amdgpu 
-asus_wmi 
-asus_nb_wmi
-atkbd 
-dm_crypt 
-ext4 
-fat 
-i2c_hid 
-i8042
-ohci_pci
-xhci_pci
-xhci_pci_renesas
-edac_mce_amd
-kvm_amd
-kvm
-serio_raw
-usbcore
-uhci_hcd
-ehci_hcd
-usbhid
-```
-
-update initramfs:
-
-```
-sudo update-initramfs -u -k all
-```
-
-
-## AMDGPU
-
-when doing update-initramfs in kernel 5.11.0-31, there are some messages about amdgpu missing drivers
-
-Add the following line to /etc/modprobe.d/blacklist.conf.
-
-```
-blacklist amdgpu
-```
-
-As initramfs contains modprobe configuration, update the initramfs and reboot:
-
-```
-sudo update-initramfs -u -k all
-```
-
-Check whether the driver blacklisted or not, the following command should output nothing.
-
-```
-$ lsmod | grep amdgpu
-```
-
-But this kills hdmi...
-
-## RECOMPILE YOUR KERNEL
+The real solution, however, is discussed in this [chain of emails](https://www.mail-archive.com/search?l=ubuntu-bugs@lists.ubuntu.com&q=subject:%22%5C%5BBug+1943832%5C%5D+Re%5C%3A+Keyboard+doesn%27t+work+on+a+%5C%22cold+boot%5C%22+with+built%5C-in+%5C%22i8042+PC+Keyboard+controller%5C%22+%5C%28ASUS+UM425UA%5C%29%22&o=newest&f=1), and the solution is discussed  [here](https://www.mail-archive.com/ubuntu-bugs@lists.ubuntu.com/msg5955393.html).
 
 1. open ```software-properties-gtk``` and enable source code
 1. Follow instructions to [build your own kernel](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel)
@@ -169,7 +113,78 @@ But this kills hdmi...
         ```
 
 
-## Other info
 
-* <https://www.mail-archive.com/search?l=ubuntu-bugs@lists.ubuntu.com&q=subject:%22%5C%5BBug+1943832%5C%5D+Re%5C%3A+Keyboard+doesn%27t+work+on+a+%5C%22cold+boot%5C%22+with+built%5C-in+%5C%22i8042+PC+Keyboard+controller%5C%22+%5C%28ASUS+UM425UA%5C%29%22&o=newest&f=1>
+---
+
+# Things that didn't work
+
+## Modify initramfs
+
+find HID modules
+
+```
+lsmod
+```
+
+add those modules to initramfs
+
+```
+sudo nano /etc/initramfs-tools/modules
+```
+
+add one per line
+
+```
+#amdgpu 
+asus_wmi 
+asus_nb_wmi
+atkbd 
+dm_crypt 
+ext4 
+fat 
+i2c_hid 
+i8042
+ohci_pci
+xhci_pci
+xhci_pci_renesas
+edac_mce_amd
+kvm_amd
+kvm
+serio_raw
+usbcore
+uhci_hcd
+ehci_hcd
+usbhid
+```
+
+update initramfs:
+
+```
+sudo update-initramfs -u -k all
+```
+
+
+## Blacklist ```amdgpu```
+
+when doing update-initramfs in kernel 5.11.0-31, there are some messages about amdgpu missing drivers
+
+Add the following line to /etc/modprobe.d/blacklist.conf.
+
+```
+blacklist amdgpu
+```
+
+As initramfs contains modprobe configuration, update the initramfs and reboot:
+
+```
+sudo update-initramfs -u -k all
+```
+
+Check whether the driver blacklisted or not, the following command should output nothing.
+
+```
+$ lsmod | grep amdgpu
+```
+
+But this kills hdmi...
 
