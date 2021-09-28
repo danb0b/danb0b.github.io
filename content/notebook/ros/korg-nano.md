@@ -15,10 +15,10 @@ sudo udevadm control --reload-rules && udevadm trigger
 ```
 
 ```
-sudo apt install libasound2-dev 
-
+#sudo apt install libasound2-dev 
 #sudo apt install python3-pyrex
 #pip3 install pyalsa
 #pip3 install pygame
-pip3 install alsaseq
+#pip3 install alsaseq
+pip3 install rtmidi mido
 ```
