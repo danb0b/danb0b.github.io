@@ -87,6 +87,12 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
         
         1. search for "CONFIG_KEYBOARD_ATKBD", "CONFIG_SERIO_I8042", and "CONFIG_SERIO_LIBPS2" and set amd64 option to "m" for each.
         
+
+    1. Update version number (according to [the ubuntu guide](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel#Modifying_the_configuration))
+
+       > In order to make your kernel "newer" than the stock Ubuntu kernel from which you are based you should add a local version modifier. Add something like "+test1" to the end of the first version number in the debian.master/changelog file, before building. This will help identify your kernel when running as it also appears in uname -a. Note that when a new Ubuntu kernel is released that will be newer than your kernel (which needs regenerating), so care is needed when upgrading. NOTE: do not attempt to use CONFIG_LOCALVERSION as this _will_ break the build. 
+
+
     1. build
     
         ```

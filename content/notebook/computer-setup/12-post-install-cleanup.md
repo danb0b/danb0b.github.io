@@ -1,0 +1,12 @@
+---
+title: Post-Install Cleanup steps
+---
+
+```bash
+sudo apt update #update repositories
+sudo apt install -f #fix broken packages
+sudo apt upgrade -y #install any updates
+sudo apt autoremove -y #remove unused packages
+sudo apt clean
+sudo reboot 0 # to restart immediately
+```

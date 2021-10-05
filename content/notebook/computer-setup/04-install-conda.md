@@ -105,6 +105,30 @@ mkdir ~/anaconda3
 mkdir ~/anaconda3/bin
 ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
 ```
+
+## Other Environments
+
+### PyChrono
+
+To install chrono, you must make a different environment, as it conflicts with some of the packages here.
+
+```
+sudo apt install libirrlicht-dev
+
+conda create -n chrono
+conda activate chrono
+conda install -y -c projectchrono/label/develop pychrono
+conda install -y spyder numpy matplotlib scipy
+conda install -c dlr-sc pythonocc-core #permits you to use python-occ to generate some geometry
+```
+
+Options
+
+```bash
+conda install -y -c projectchrono pychrono # to install the stable install
+conda install -y -c conda-forge irrlicht # not sure it's needed
+```
+
 ---------------------
 
 ## Older Stuff
@@ -132,20 +156,6 @@ go to cx_freeze mod
 
 ```
 python setup.py install
-```
-
-### Pychrono Install
-
-```
-sudo apt install libirrlicht-dev
-
-conda create -n chrono
-conda activate chrono
-#conda install -y -c projectchrono pychrono
-conda install -y -c projectchrono/label/develop pychrono
-#conda install -y -c conda-forge irrlicht 
-conda install -y spyder numpy matplotlib scipy
-#conda install -c dlr-sc pythonocc-core
 ```
 
 ### Older debuggable python
