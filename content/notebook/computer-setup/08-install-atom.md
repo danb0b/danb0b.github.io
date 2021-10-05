@@ -162,4 +162,5 @@ title: Install and Configure Atom
 1. Usage
 
     * ctrl+shift+m to preview markdown pages
-    * 
+    * ctrl+s updates table formats in markdown
+    * ctrl+alt+b to make pdf from latex
