@@ -2,9 +2,9 @@
 title: Install and Setup SSH
 ---
 
-## Load and setup directories and files
-
 ```bash
+#!/usr/bin/sh
+
 mkdir ~/keys
 gpg --output ~/keys/folder/key_filename1 --decrypt my/remote/filesystem/ssh/key_filename1.pgp
 gpg --output ~/keys/folder/key_filename2 --decrypt my/remote/filesystem/ssh/key_filename2.pgp

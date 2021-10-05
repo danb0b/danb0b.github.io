@@ -8,14 +8,14 @@ Git is the command line program for interacting with a git repository
 
 ```bash
 sudo apt install -y git kdiff3
-git config --global user.email "danaukes@gmail.com" #use your email
-git config --global user.name "Dan Aukes" #Use your name
+git config --global user.email "yourname@yourdomain.com"
+git config --global user.name "Your Name"
 git config --global pull.rebase false
 ```
 
 ## Git Extensions
 
-Git Extensions is a useful gui that has been ported over to ubuntu.  It barely still works but provides continuity with windows, so I still use it
+Git Extensions is a useful gui that has been ported over to ubuntu using mono.  It barely still works but provides continuity with windows, so I still use it
 
 This assumes you have already installed git and kdiff3
 

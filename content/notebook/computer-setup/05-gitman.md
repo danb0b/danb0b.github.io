@@ -4,12 +4,12 @@ title: install gitman
 
 Gitman is my python based package for scanning a computer and pulling all your repositories off.  If you haven't ever set up gitman before, run it once to create a blank config file, located in ~/.config/gitman/config.yaml
 
-1. Restore
+1. Restore From a backup
 
     ```bash
     mkdir ~/.config
     mkdir ~/.config/gitman
-    gpg --output ~/.config/gitman/config.yaml --decrypt ~/my/remote/filesystem/config.yaml.gpg
+    gpg --output ~/.config/gitman/config.yaml --decrypt ~/my/remote/filesystem/backup_settings/config.yaml.gpg
     ```
     
 1. [Install miniconda](/notebook/conda_install/)

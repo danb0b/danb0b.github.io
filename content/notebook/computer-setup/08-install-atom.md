@@ -10,9 +10,6 @@ title: Install and Configure Atom
     sudo apt-get update
     sudo apt-get install -y atom
     apm install language-markdown markdown-preview-plus markdown-table-formatter wordcount
-    # should already have texlive-full installed...
-    sudo apt install latexmk
-    apm install language-latex latex pdf-view
     ```
 
 1. Load custom configuration file
