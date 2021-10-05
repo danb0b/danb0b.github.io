@@ -2,7 +2,7 @@
 title: Set Up Groups
 ---
 
-1. add yourself to device groups
+1. add yourself to device groups for access to some USB devices in python
 
 ```bash
 sudo usermod -aG dialout $USER
