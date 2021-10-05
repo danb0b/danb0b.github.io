@@ -14,7 +14,7 @@ title: Install and Setup ```rclone```
     ```bash
     mkdir ~/.config
     mkdir ~/.config/rclone
-    gpg --output ~/.config/rclone/rclone.conf --decrypt /media/danaukes/KINGSTON/startup/rclone.conf.pgp
+    gpg --output ~/.config/rclone/rclone.conf --decrypt /my/remote/filesystem/backup_settings/rclone.conf.pgp
     ```
     
     

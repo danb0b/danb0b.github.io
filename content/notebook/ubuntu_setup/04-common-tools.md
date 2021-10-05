@@ -66,7 +66,7 @@ sudo dpkg -i mendeleydesktop-latest
 sudo apt-get install -yf
 ```
 
-### Cisco VPN
+### Cisco VPN for ASU
 
 1. Go to <https://sslvpn.asu.edu/> and install the linux client
 1. Extract installer image.  Locate the download file anyconnect-linux64-#.#.#####-core-vpn-webdeploy-k9.sh.
