@@ -6,41 +6,53 @@ tags:
   - ssh
 ---
 
-```bash
-sudo apt install busybox dropbear*
-```
+1. Install Software
 
-then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear-initramfs/authorized_keys.
+    ```bash
+    sudo apt install busybox dropbear*
+    ```
 
-Update then initramfs to take into account the changes: :
+1. Create and add Key
 
-```bash
-update-initramfs -u
-```
+    ```bash
+    ssh-keygen -b 4096
+    ```
 
-That's all!
+    then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear-initramfs/authorized_keys.
 
-Note, if you want to avoid to have clash between the keys between dropbear and openssh (they share the same ip, but use a different key), you may want to put in your client ~/.ssh/config something like that:
+1. Update initramfs
 
-```
-Host myserver_luks_unlock
-     User root
-     Hostname <myserver>
-     # The next line is useful to avoid ssh conflict with IP
-     HostKeyAlias <myserver>_luks_unlock
-     Port 22
-     PreferredAuthentications publickey
-     IdentityFile ~/.ssh/id_rsa
-```
+    Update initramfs to take into account the changes: :
 
-Then, you just connect using:
+    ```bash
+    sudo update-initramfs -u -k all
+    ```
 
-```bash
-ssh myserver_luks_unlock
-```
+1. Setup .ssh/config
 
-and once you get a prompt, type as suggested by the busybox text :
+    if you want to avoid to have clash between the keys between dropbear and openssh (they share the same ip, but use a different key), you may want to put in your client ~/.ssh/config something like that:
 
-```bash
-cryptroot-unlock
-```
+    ```
+    Host myserver_luks_unlock
+         User root
+         Hostname <myserver>
+         # The next line is useful to avoid ssh conflict with IP
+         HostKeyAlias <myserver>_luks_unlock
+         Port 22
+         PreferredAuthentications publickey
+         IdentityFile ~/.ssh/id_rsa
+    ```
+
+1. Connect
+
+    Connect using:
+
+    ```bash
+    ssh myserver_luks_unlock
+    ```
+
+    and once you get a prompt, type as suggested by the busybox text :
+
+    ```bash
+    cryptroot-unlock
+    ```
