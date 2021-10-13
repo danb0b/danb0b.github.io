@@ -43,6 +43,8 @@ sudo add-apt-repository ppa:numix/ppa
 sudo apt install -y gnome-tweak-tool numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 ```
 
+open tweak tool and set icons and theme to numix
+
 ### Screen
 
 ```bash
