@@ -1,6 +1,6 @@
 ---
 title: Install and Setup SSH
-weight: 09
+weight: 06
 ---
 
 ```bash
