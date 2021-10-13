@@ -73,7 +73,7 @@ sudo apt-get install -yf
 1. Open Terminal and issue the command:
 
     ```bash
-    sudo bash anyconnect-linux64-#.#.#####-core-vpn-webdeploy-k9.sh
+    sudo bash anyconnect-linux*.sh
     ```
 
 1. add to path
