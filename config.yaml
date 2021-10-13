@@ -40,7 +40,6 @@ params:
   copyright: "|  copyright &copy; 2021 Daniel Aukes.  All Rights Reserved.  |"
   description: This is meta description
   #email: 'danaukes at gmail.com'
-  email: /contact
   #googleAnalitycsID: Your ID
   home: Home
   location: Arizona, USA
