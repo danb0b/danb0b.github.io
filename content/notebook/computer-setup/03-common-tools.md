@@ -59,10 +59,11 @@ sudo apt install -yf
 
 ### Mendeley
 
+go to https://www.mendeley.com/download-mendeley-desktop-legacy#download
+
 ```
 cd ~/Downloads
-wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
-sudo dpkg -i mendeleydesktop-latest
+sudo dpkg -i mendeleydesktop*.deb
 sudo apt-get install -yf
 ```
 
