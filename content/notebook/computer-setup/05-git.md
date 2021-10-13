@@ -1,5 +1,6 @@
 ---
 title: Install and Setup ```git```
+weight: 5
 ---
 
 ## Git
