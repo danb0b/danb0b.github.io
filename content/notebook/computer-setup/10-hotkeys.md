@@ -1,5 +1,6 @@
 ---
 title: Setup Keyboard Shortcuts
+weight: 10
 ---
 
 ## Load your previously saved settings
@@ -51,6 +52,6 @@ EOT
 
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys.dconf
 
-rm keybindings.conf
-rm media-keys.conf
+rm keybindings.dconf
+rm media-keys.dconf
 ```
