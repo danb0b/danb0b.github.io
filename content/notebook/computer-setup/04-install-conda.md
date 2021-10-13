@@ -15,7 +15,7 @@ weight: 4
 | [64-bit Miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) | [64-bit Miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) |
 
 
-### Linux script
+### Linux Install
 ```
 cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -29,7 +29,9 @@ cd ~/
 source ~/.bashrc
 ```
 
-## Set powershell-specific security settings
+## Windows Install
+
+Set powershell-specific security settings
 
 from <https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell>
 
