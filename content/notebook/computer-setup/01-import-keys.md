@@ -1,5 +1,6 @@
 ---
 title: Import Keys
+weight: 1
 ---
 
 ## Install and Setup
