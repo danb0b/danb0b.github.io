@@ -4,7 +4,7 @@ title: Install Common Tools
 
 ## Install common tools
 
-I've lumpted these all together to be able to run it more efficiently.  You will need these tools.
+I've lumped these all together to be able to run it more efficiently.  You will need these tools.
 
 This assumes you installed a "minimal" version of Ubuntu
 
