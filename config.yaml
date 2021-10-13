@@ -39,10 +39,11 @@ params:
     expire_days: 2
   copyright: "|  copyright &copy; 2021 Daniel Aukes.  All Rights Reserved.  |"
   description: This is meta description
-  email: 'danaukes at gmail.com'
+  #email: 'danaukes at gmail.com'
+  email: /contact
   #googleAnalitycsID: Your ID
   home: Home
-  location: Gilbert, AZ, USA
+  location: Arizona, USA
   logo: da-small.png
 #  mobile: 0124857985320
   newsletter:
