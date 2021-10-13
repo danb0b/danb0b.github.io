@@ -14,7 +14,7 @@ sudo apt-get install v4l2loopback-dkms v4l-utils
 ls /dev/video*
 ```
 ```bash
-sudo modprobe v4l2loopback video_nr=9
+sudo modprobe v4l2loopback video_nr=9 card_label=“Virtual cam” 
 ```
 ```bash
 ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.webm -f v4l2 /dev/video9
