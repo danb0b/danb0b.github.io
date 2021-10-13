@@ -5,6 +5,7 @@ tags:
   - python
   - terminal
   - bash
+weight: 4
 ---
 
 ## Install Latest Anaconda / Miniconda
