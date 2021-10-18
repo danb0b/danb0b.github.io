@@ -102,3 +102,28 @@ HandleLidSwitch=ignore
 HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
 ```
+## Users
+
+https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/
+
+```bash
+sudo adduser username
+```
+
+```
+groups $USER
+```
+
+```bash
+sudo usermod -aG adm username
+sudo usermod -aG dialout username
+sudo usermod -aG cdrom username
+sudo usermod -aG floppy username
+sudo usermod -aG sudo username
+sudo usermod -aG audio username
+sudo usermod -aG dip username
+sudo usermod -aG video username
+sudo usermod -aG plugdev username
+sudo usermod -aG netdev username
+sudo usermod -aG lxd username
+```
