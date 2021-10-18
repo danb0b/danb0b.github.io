@@ -86,3 +86,9 @@ To copy output to a new file
 ```
 sed "s/regex/replace/" filein > fileout
 ```
+
+List all kernel images installed:
+
+```
+$ dpkg --list | grep linux-image
+```
