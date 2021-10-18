@@ -92,3 +92,13 @@ List all kernel images installed:
 ```
 $ dpkg --list | grep linux-image
 ```
+
+## Ubuntu Specific
+
+edit ```/etc/systemd/logind.conf``` to configure power options such as lid closing opening, 
+
+```
+HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+HandleLidSwitchDocked=ignore
+```
