@@ -3,6 +3,7 @@ title: Shapeoko Links
 tags:
   - idealab
   - cnc
+  - shapeoko
 ---
 
 ## Search Results
