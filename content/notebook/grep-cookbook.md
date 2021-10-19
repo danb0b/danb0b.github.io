@@ -20,10 +20,12 @@ search for "searchtext", ignoring case, ignoring binary files, recurisvely searc
 ```bash
 grep -iIrl "searchtext" .
 ```
-A more complex example:
+
+## more complex examples:
 
 ```bash
 grep --exclude-dir="**.git**" --exclude-dir="**.ipynb_checkpoint**" --exclude="*.png" --exclude="*.svg" -iIrn "searchtext" .
+grep -Iirl --exclude=*.svg --exclude-dir=**anaconda3** --exclude-dir=**Trash** tmux ~/
 ```
 
 ## Using ```grep``` in a pipe
@@ -33,3 +35,4 @@ find all processes named python
 ```bash
 ps aux | grep python
 ```
+
