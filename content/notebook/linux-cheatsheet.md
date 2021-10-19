@@ -105,6 +105,13 @@ HandleLidSwitch=ignore
 HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
 ```
+
+1. Restart Service
+
+```bash
+systemctl restart systemd-logind.service
+```
+
 ## Users
 
 From: <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
