@@ -67,6 +67,7 @@ sudo apt --reinstall install <package>
 ```
 sudo libinput --list-devices
 ```
+
 ## Find/Replace
 
 To change the file in place:
@@ -95,6 +96,8 @@ $ dpkg --list | grep linux-image
 
 ## Ubuntu Specific
 
+From <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>
+
 edit ```/etc/systemd/logind.conf``` to configure power options such as lid closing opening, 
 
 ```
@@ -104,26 +107,24 @@ HandleLidSwitchDocked=ignore
 ```
 ## Users
 
-https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/
+From: <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
 
-```bash
-sudo adduser username
-```
+1. Create a new user
 
-```
-groups $USER
-```
+    ```bash
+    sudo adduser username
+    ```
 
-```bash
-sudo usermod -aG adm username
-sudo usermod -aG dialout username
-sudo usermod -aG cdrom username
-sudo usermod -aG floppy username
-sudo usermod -aG sudo username
-sudo usermod -aG audio username
-sudo usermod -aG dip username
-sudo usermod -aG video username
-sudo usermod -aG plugdev username
-sudo usermod -aG netdev username
-sudo usermod -aG lxd username
-```
+1. Find groups associated with current user:
+
+    ```bash
+    groups $USER
+    ```
+
+1. Add new user to new groups
+
+    ```bash
+    sudo usermod -aG adm username
+    sudo usermod -aG sudo username
+    #...
+    ```
