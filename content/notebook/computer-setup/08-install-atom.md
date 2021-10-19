@@ -1,5 +1,6 @@
 ---
 title: Install and Configure Atom
+weight: 8
 ---
 
 1. Install

@@ -27,23 +27,16 @@ weight: 06
     ```
 
 1. Set folder permissions
+
     ```bash
+    chmod 700 ~/keys
     chmod 600 ~/keys/*
+    chmod 644 ~/keys/*.pub
     chmod 700 ~/.ssh
     chmod 600 ~/.ssh/*
+    chmod 644 ~/.ssh/*.pub
     ```
 
-## Other Helpful Stuff
+## Other Useful commands
 
-
-### list all keys
-
-```bash
-ssh-add -l
-```
-
-### remove all keys
-
-```bash
-ssh-add -D
-```
+See [SSH Reference](/notebook/ssh-reference) for more info

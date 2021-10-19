@@ -8,7 +8,6 @@ A lot of detail about Python problems and issues.  I promise I'll clean this up.
 
 * [5-embedding-python-in-another-application-python-2715-documentation](https://docs.python.org/2/extending/embedding.html)
 * [a-complete-tutorial-to-learn-data-science-with-python-from-scratch](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)
-* [algorithm - What is image hashing used for- - Stack Overflow](https://stackoverflow.com/questions/998662/what-is-image-hashing-used-for)
 * [clustering-with-k-means-in-python-the-data-science-lab](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/)
 * [continuous-integration-the-hitchhikers-guide-to-python](https://docs.python-guide.org/scenarios/ci/)
 * [ctypes-calling-cc-code-from-python-eli-benderskys-website](https://eli.thegreenplace.net/2008/08/31/ctypes-calling-cc-code-from-python/)
@@ -136,7 +135,6 @@ Older stuff
 ## Fun Packages
 
 * <https://pypi.org/project/pdf2image/>
-* 
 
 ## How to Make a Photo Gallery with Python
 
@@ -146,8 +144,6 @@ Older stuff
 * <https://pythonhosted.org/django-gallery/>
 * <https://roytuts.com/how-to-create-photo-gallery-with-django/>
 * <https://engineertodeveloper.com/how-to-build-a-photo-gallery-with-django-part-1/>
-* 
-
 
 # PyQt, Pyside, and kivy
 
@@ -169,3 +165,14 @@ Older stuff
 * <https://sylvaindurand.org/use-tor-with-python/>
 * <https://www.scrapehero.com/make-anonymous-requests-using-tor-python/>
 * <https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/>
+
+## General hashing
+* <https://nitratine.net/blog/post/how-to-hash-files-in-python/>
+* <https://medium.com/better-programming/how-to-hash-in-python-8bf181806141>
+
+## image hashing, perceptual hashing
+
+* <https://ourcodeworld.com/articles/read/1006/how-to-determine-whether-2-images-are-equal-or-not-with-the-perceptual-hash-in-python>
+* <https://www.pyimagesearch.com/2017/11/27/image-hashing-opencv-python/>
+* <https://github.com/JohannesBuchner/imagehash>
+* [algorithm - What is image hashing used for- - Stack Overflow](https://stackoverflow.com/questions/998662/what-is-image-hashing-used-for)

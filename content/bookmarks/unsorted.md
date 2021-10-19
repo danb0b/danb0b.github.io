@@ -6,24 +6,6 @@ Unsorted bookmarks that need a good sorting
 
 <!--more-->
 
-#### image hashing
-
-##### Phash
-* <https://ourcodeworld.com/articles/read/1006/how-to-determine-whether-2-images-are-equal-or-not-with-the-perceptual-hash-in-python>
-* <https://www.pyimagesearch.com/2017/11/27/image-hashing-opencv-python/>
-* <https://github.com/JohannesBuchner/imagehash>
-
-#### General hashing
-* <https://nitratine.net/blog/post/how-to-hash-files-in-python/>
-* <https://medium.com/better-programming/how-to-hash-in-python-8bf181806141>
-
-
-##### travis
-
-* [auto-deploying-built-products-to-gh-pages-with-travis-github](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd)
-* [ssh-deploys-with-travis-ci-oncletomio](https://oncletom.io/2016/travis-ssh-deploy/)
-* [travis-ci-deployments-to-digitalocean](https://kjaer.io/travis/)
-
 ## to read and sort
 
 * [Microsoft Environment variables](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc749104(v=ws.10)?redirectedfrom=MSDN)
@@ -37,7 +19,6 @@ Unsorted bookmarks that need a good sorting
 * [engineering-adventures-design-principles-engineering-is-elementary](https://www.eie.org/engineering-adventures/overview/design-principles)
 * [Engineers Develop Multifunctional Flexible Robots Using MORPH System](https://scitechdaily.com/engineers-develop-multifunctional-flexible-robots-using-morph-system/)
 * [error-404-not-found1](https://books.google.com/books?hl=en&lr=&id=IagBaqtLn98C&oi=fnd&pg=PP2&ots=I-Z48OnAKS&sig=GW170ZDun9SWsdFD4u6evQyAFiA#v=onepage&q&f=false)
-* [Essential Atom Packages For Every Web Developer](https://neliosoftware.com/blog/essential-atom-packages/)
 * [Fix- Sleep Option Missing in Windows 10 - 8 - 7 Power Menu - Password Recovery](https://www.top-password.com/blog/fix-sleep-option-missing-in-windows-power-menu/)
 * [Fulbright U.S. Scholar Program - Fulbright Scholar Program](https://www.cies.org/program/fulbright-us-scholar-program)
 * [fx-18-3-naval-postgraduate-school](https://my.nps.edu/web/fx/fx-18-3)
@@ -89,16 +70,8 @@ Unsorted bookmarks that need a good sorting
 * [youtube](https://www.youtube.com/watch?v=MyDQ_f1mzH8)
 * [Z-Trek Lightweight Sport Sandal - Men - Xero Shoes](https://xeroshoes.com/shop/feeltrue-products/ztrek-men/)
 * [[ubuntu] Is it possible to Limit CPU Usage or the Load-](https://ubuntuforums.org/showthread.php?t=851912)
-* <https://www.thoughtco.com/starting-a-private-school-2773563>
 * <https://askubuntu.com/questions/41118/virtualbox-kernel-driver-not-installed>
-* <https://www.wikihow.com/Start-a-School>
-* <https://www.scholastic.com/teachers/articles/teaching-content/you-can-start-your-own-school/>
-* <https://www.wikihow.com/Start-a-College>
 * <https://getpocket.com/explore/item/the-scientific-paper-is-obsolete?utm_source=pocket-newtab>
-* <https://www.wikihow.com/Start-a-College>
-* <http://www.dpinnell.com/startacollege.htm>
-* <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
-* <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
 * <https://www.youtube.com/watch?v=UGTCTnjMCug>
 * [Connecting a surface pen](https://answers.microsoft.com/en-us/surface/forum/surfpro4-surfdrivers/surface-pen-not-working/30a2c67f-45a9-41c3-a4ed-0f31a73cfa33)
 * <https://towardsdatascience.com/advanced-plots-in-matplotlib-part-2-e88f91ce9e31>
@@ -114,7 +87,6 @@ Unsorted bookmarks that need a good sorting
 * <https://spectrum.ieee.org/automaton/robotics/robotics-hardware/how-teams-are-solving-the-biggest-challenge-at-darpa-subt>
 * <https://www.sciencemag.org/careers/2019/08/nsf-graduate-fellowships-disproportionately-go-students-few-top-schools>
 * <https://getpocket.com/explore/item/spiders-can-fly-hundreds-of-miles-using-electricity>
-* [how to run scripts over ssh after logging off](https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session)
 * [Techniques of Geoscientific Experimentation](https://tge.readthedocs.io/en/latest/index.html)
 * <https://www.mikroe.com/click>
 * <https://www.google.com/search?client=firefox-b-d&q=python+with+mosh>
@@ -152,15 +124,7 @@ Unsorted bookmarks that need a good sorting
 * [youtube](https://www.youtube.com/watch?v=QNqB_fY8U3I)
 * <https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/checking-your-website-for-broken-links>
 * <https://www.instagram.com/p/CN75jXTAOZS/?igshid=17lnfb804yejo>
-* <https://www.thoughtco.com/starting-a-private-school-2773563>
 * <https://askubuntu.com/questions/41118/virtualbox-kernel-driver-not-installed>
-* <https://www.wikihow.com/Start-a-School>
-* <https://www.scholastic.com/teachers/articles/teaching-content/you-can-start-your-own-school/>
-* <https://www.wikihow.com/Start-a-College>
 * <https://getpocket.com/explore/item/the-scientific-paper-is-obsolete?utm_source=pocket-newtab>
-* <https://www.wikihow.com/Start-a-College>
-* <http://www.dpinnell.com/startacollege.htm>
-* <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
-* <https://www.irs.gov/charities-non-profits/charitable-organizations/life-cycle-of-a-public-charity-sample-organizing-documents-draft-a-charter>
  
  

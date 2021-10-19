@@ -28,3 +28,9 @@ tmux can do much more advanced things than handle a single window in a single se
 
 * ```tmux attach -t [session-number]```
 * ```tmux list-sessions```
+
+
+## References
+
+* <https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session>
+

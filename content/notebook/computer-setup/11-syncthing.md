@@ -1,5 +1,6 @@
 ---
 title: Syncthing
+weight: 11
 ---
 
 ## Install

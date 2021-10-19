@@ -78,16 +78,6 @@ Some of my favorite bookmarks related to web development, websites, hosting, etc
 * [skinny-bones](https://mmistakes.github.io/skinny-bones-jekyll/)
 
 
-### hugo
-
-* <https://gohugo.io/getting-started/quick-start/>
-* <https://github.com/loup-brun/hugo-cite>
-* <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
-* <https://www.liwen.id.au/photoswipe/>
-* [automated deploytment on github pages](https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9)
-* [detailed setup](https://github.com/peaceiris/actions-hugo)
-* [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages#getting-started)
-* [custom pagination](https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/)
 
 ### Django
 

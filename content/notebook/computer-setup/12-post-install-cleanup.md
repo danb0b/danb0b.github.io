@@ -1,5 +1,6 @@
 ---
 title: Post-Install Cleanup steps
+weight: 12
 ---
 
 ```bash

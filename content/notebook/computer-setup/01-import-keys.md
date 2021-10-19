@@ -23,17 +23,4 @@ weight: 1
 
 ## Other Helpful Key stuff
 
-### List gpg keys
-
-```bash
-gpg --list-keys
-gpg --list-secret-keys
-```
-prints out ids
-
-### delete gpg secret keys
-
-```bash
-gpg --delete-secret-keys KEYIDFROMABOVE
-gpg --delete-keys KEYIDFROMABOVE
-```
+See [GPG Reference](/notebook/gpg-reference)

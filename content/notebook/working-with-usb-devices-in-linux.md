@@ -6,9 +6,9 @@ tags:
   - usb
 ---
 
-# Identifying and locating USB devices
+## Identifying and locating USB devices
 
-These widely used commands can be used to list connected USB devices in Linux.
+These widely used commands can be used to list and learn about connected USB devices in Linux.
 
 ```
 lsusb
@@ -20,6 +20,7 @@ lsblk
 sudo blkid.
 sudo fdisk -l
 ```
+### ```lsusb```
 
 list the device tree to get port:device
 
@@ -33,3 +34,4 @@ list all the details about a device at port 1: device 3
 lsusb -v -s 1:3
 ```
 
+## Permissions

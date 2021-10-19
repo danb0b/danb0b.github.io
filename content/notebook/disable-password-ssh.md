@@ -7,23 +7,17 @@ tags:
   - security
 ---
 
-# Create ssh key
+## Create a new key
 
-ssh-keygen -t ed25519
+Make sure you have already generated a key.  See [SSH Reference](/notebook/ssh-reference) for more info.
 
-print public key:
+## Disable root login and password based login
 
-cat .ssh/id_ed25519.pub
+If working on a remote computer need to log in into server using newly created user named username:
 
-add your key(s) to authorized keys:
-
-sudo nano .ssh/authorized_keys
-
-# Disable root login and password based login
-
-We need to log in into server using newly created user named vivek:
-ssh vivek@server-ip-here
-ssh vivek@server1.cyberciti.biz
+```bash
+ssh username@server-ip-or-hostname-here
+```
 
 Edit the /etc/ssh/sshd_config file, enter:
 
@@ -41,7 +35,7 @@ Next, find PasswordAuthentication set to no too:
 
 ```bash
 PasswordAuthentication no
-'''
+```
 
 Search for UsePAM and set to no, too:
 
@@ -61,3 +55,7 @@ Save and close the file. Reload or restart the ssh server on Linux:
 ```bash
 /etc/init.d/ssh reload
 ```
+
+## References
+
+* <https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>
