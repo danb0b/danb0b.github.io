@@ -11,16 +11,55 @@ tags:
 1. Install Software
 
     ```bash
-    sudo apt install busybox dropbear*
+    sudo apt update
+    sudo apt -y upgrade
+    sudo apt install -y busybox dropbear*
     ```
 
-1. Create and add Key
+1. Create and add key
 
     ```bash
-    ssh-keygen -b 4096
+    ssh-keygen -b 4096 -t rsa -f ~/luks_unlock_key -N=""
     ```
 
     then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear-initramfs/authorized_keys.
+    
+    ```bash
+    sudo cat ~/lucks_unlock_key.pub >> /etc/dropbear-initramfs/authorized_keys
+    ```
+
+1. Update config (optional)
+
+    ```bash
+    sudo nano /etc/dropbear-initrams/config
+    ```
+    Add these options: 
+    
+    * -I - disconnect time
+    * -j - disable local ssh port forwarding
+    * -k - disable remote ssh port forwarding
+    * -p - listen on port 2222
+    * -s - disable password logins
+    
+    ```
+    DROPBEAR_OPTIONS=”-I 180 –j –k –p 2222 -s”
+    ```
+
+1. Set Static IP (optional)
+
+    ```
+    sudo nano /etc/initramfs-tools/initramfs.conf
+    ```
+    
+    Add config:
+    
+    ```
+    IP:IPADDRESS::GATEWAY:NETMASK:HOSTNAME
+    ```
+    
+    ```
+    IP=192.168.0.100::192.168.0.1:255.255.255.0:debian
+    ```
 
 1. Update initramfs
 
