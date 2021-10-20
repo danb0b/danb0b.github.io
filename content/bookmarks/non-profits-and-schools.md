@@ -1,5 +1,6 @@
 ---
 title: Non-Profits and Schools
+summary: information about schools, nonprofits, and llc's
 ---
 
 * <https://howtostartanllc.com/form-a-nonprofit/arizona-nonprofit>
