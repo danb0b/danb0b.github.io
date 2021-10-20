@@ -59,3 +59,12 @@ List branches that are currently local but not remote, remote but not local, etc
 ```bash
 gitman branch-status
 ```
+
+## Reset
+
+Reset all branches to head unless they have local unsaved changes
+
+```bash
+gitman reset
+```
+
