@@ -135,3 +135,38 @@ From: <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
     sudo usermod -aG sudo username
     #...
     ```
+
+## Update Distro
+
+Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
+
+1. Might as well be fully updated first
+
+    ```bash
+    sudo apt update
+    sudo apt upgrad
+    sudo shutdown -r now
+    ```
+
+1. edit which upgrade you want to do (lts or normal)
+
+    ```bash
+    sudo nano /etc/update-manager/release-upgrades
+    ```
+
+    change ```prompt=lts``` to ```prompt=normal```
+    
+1. run updater
+
+    ```bash
+    do-release-upgrade
+    ```
+    
+    you may need to indicate what to do with specific config files that get updated.
+    
+1. Restart
+
+    ```bash
+    sudo shutdown -r now
+    ```
+    
