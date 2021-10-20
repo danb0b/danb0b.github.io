@@ -1,5 +1,6 @@
 ---
 title: Disabling Password-based SSH
+summary: Settings for hardening ssh on Ubuntu
 tags:
   - ssh
   - ubuntu
