@@ -26,10 +26,10 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
 1. Follow instructions to [build your own kernel](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel)
 
     1. get dependencies
-    1. get source
+    1. get source ()
 
         ```
-        apt source linux-image-unsigned-5.11.0-36-generic 
+        apt-get source linux-image-unsigned-$(uname -r)
         ```
 
     1. update configs
@@ -79,7 +79,7 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
         had a positive effect only with kernel 5.11
         ```
 
-    1. These changes break the rules.  Using this [advice](), modify 
+    1. These changes break the rules.  Modify 
         
         ```
         nano debian.master/config/annotations
@@ -88,9 +88,12 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
         1. search for "CONFIG_KEYBOARD_ATKBD", "CONFIG_SERIO_I8042", and "CONFIG_SERIO_LIBPS2" and set amd64 option to "m" for each.
         
 
-    1. Update version number (according to [the ubuntu guide](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel#Modifying_the_configuration))
+    1. Update version number so that the apt repository doesn't supersede it on the next upgrade (according to [the ubuntu guide](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel#Modifying_the_configuration))
 
-       > In order to make your kernel "newer" than the stock Ubuntu kernel from which you are based you should add a local version modifier. Add something like "+test1" to the end of the first version number in the debian.master/changelog file, before building. This will help identify your kernel when running as it also appears in uname -a. Note that when a new Ubuntu kernel is released that will be newer than your kernel (which needs regenerating), so care is needed when upgrading. NOTE: do not attempt to use CONFIG_LOCALVERSION as this _will_ break the build. 
+       * add a local version modifier like "+test1" to the end of the first version number in the debian.master/changelog file before building. 
+       * This will help identify your kernel when running as it also appears in uname -a. 
+       * Note that when a new Ubuntu kernel is released that will be newer than your kernel (which needs regenerating), so care is needed when upgrading. 
+       * **NOTE:** do not attempt to use CONFIG_LOCALVERSION as this _will_ break the build. 
 
 
     1. build

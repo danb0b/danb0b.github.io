@@ -11,12 +11,14 @@ This assumes you installed a "minimal" version of Ubuntu
 
 ```bash
 sudo apt update
-sudo apt install -y synaptic kdiff3 libreoffice samba inkscape gimp ffmpeg qdirstat net-tools wireguard fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap cheese p7zip-full
+sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap cheese p7zip-full rufus
+sudo apt install -y inkscape
 sudo apt install -y openssh-client
 sudo apt install -y libinput-tools #not sure what this is used for
 sudo snap install shotcut --classic
 sudo snap install mqtt-explorer 
 sudo snap install hugo --channel=extended
+#sudo snap install inkscape # doesn't work well on 21.10
 ```
 
 ### Latex
