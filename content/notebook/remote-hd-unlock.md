@@ -74,14 +74,20 @@ tags:
     if you want to avoid to have clash between the keys between dropbear and openssh (they share the same ip, but use a different key), you may want to put in your client ~/.ssh/config something like that:
 
     ```
-    Host myserver_luks_unlock
+    Host <myserver>_luks_unlock
          User root
-         Hostname <myserver>
+         Hostname <myserver-ip-or-hostname>
          # The next line is useful to avoid ssh conflict with IP
          HostKeyAlias <myserver>_luks_unlock
-         Port 22
+         Port 2222 #use the unlock port defined in the dropbear config above rather than the normal port defined in sshd config
          PreferredAuthentications publickey
-         IdentityFile ~/.ssh/id_rsa
+         IdentityFile /path/to/id_rsa
+    Host <myserver>
+         User <normalusername>
+         Hostname <myserver-ip-or-hostname>
+         Port 22 #use the normal port defined in sshd config
+         PreferredAuthentications publickey
+         IdentityFile /path/to/id_rsa
     ```
 
 1. Connect

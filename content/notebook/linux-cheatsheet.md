@@ -135,6 +135,12 @@ From: <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
     sudo usermod -aG sudo username
     #...
     ```
+    
+### Remove User
+
+```bash
+sudo deluser --remove-home username
+```
 
 ## Update Distro
 
