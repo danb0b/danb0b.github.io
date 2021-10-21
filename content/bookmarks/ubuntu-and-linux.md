@@ -33,3 +33,7 @@ A lot of inside baseball on things I need to remember
 ## Kernel
 
 * <https://www.how2shout.com/linux/install-linux-5-8-kernel-on-ubuntu-20-04-lts/>
+
+## Migrating
+
+* <https://www.cyberciti.biz/faq/howto-move-migrate-user-accounts-old-to-new-server/>
