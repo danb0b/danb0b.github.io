@@ -98,6 +98,21 @@ sudo apt install -y virtualbox virtualbox-ext-pack
 sudo usermod -a -G vboxusers $USER
 ```
 
+### MyKi
+
+```bash
+cd Downloads
+wget https://static.myki.com/releases/da/MYKI-latest-amd64.deb
+sudo dpkg -i MYKI-latest-amd64.deb
+sudo apt install -y -f
+```
+
+install firefox add on
+
+```bash
+python -mwebbrowser https://addons.mozilla.org/en-US/firefox/addon/myki-password-manager/
+```
+
 ---
 
 ## Deprecated
@@ -111,4 +126,5 @@ sudo apt-get update
 sudo apt install -y ruby git  build-essential ruby-dev pandoc-citeproc
 sudo gem install bundler jekyll
 ```
+
 
