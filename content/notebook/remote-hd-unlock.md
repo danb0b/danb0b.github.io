@@ -27,6 +27,14 @@ tags:
     ```bash
     sudo cat ~/lucks_unlock_key.pub >> /etc/dropbear-initramfs/authorized_keys
     ```
+    
+    or, if you need to do it as root:
+    
+    ```bash
+    sudo -i
+    sudo echo "mypublickeydata" >> /etc/dropbear-initramfs/authorized_keys
+    exit
+    ```
 
 1. Update config (optional)
 
