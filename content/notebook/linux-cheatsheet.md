@@ -150,7 +150,7 @@ Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
 
     ```bash
     sudo apt update
-    sudo apt upgrad
+    sudo apt upgrade
     sudo shutdown -r now
     ```
 
