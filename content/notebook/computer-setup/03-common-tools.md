@@ -114,6 +114,12 @@ install firefox add on
 python -mwebbrowser https://addons.mozilla.org/en-US/firefox/addon/myki-password-manager/
 ```
 
+### Tor Browser
+
+```bash
+sudo apt update 
+sudo apt install torbrowser-launcher
+```
 ---
 
 ## Deprecated
