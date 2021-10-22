@@ -71,6 +71,7 @@ Reusable links related to Arizona State University
 
 * [National Center for FAculty Development and Diversity](https://inclusion.asu.edu/resources/ncfdd)
 * [https://www.facultydiversity.org/dashboard](https://www.facultydiversity.org/dashboard)
+* <https://www.facultydiversity.org/webinars/semesterplan21>
 * [Professional Development (CFO)](https://cfo.asu.edu/professional-development)
 * [Career EDGE](https://cfo.asu.edu/career-edge)
 * [ASU FAculty Center](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fasu.instructure.com%2Flogin%2Fcas)
