@@ -37,3 +37,11 @@ A lot of inside baseball on things I need to remember
 ## Migrating
 
 * <https://www.cyberciti.biz/faq/howto-move-migrate-user-accounts-old-to-new-server/>
+
+## Apt, ppa's, etc
+
+<https://itsfoss.com/how-to-remove-or-delete-ppas-quick-tip/>
+
+## themes
+
+https://snwh.org/paper/download

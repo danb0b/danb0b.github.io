@@ -13,6 +13,7 @@ This assumes you installed a "minimal" version of Ubuntu
 sudo apt update
 sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap cheese p7zip-full rufus
 sudo apt install -y inkscape
+sudo apt install -y paper-icon-theme
 sudo apt install -y openssh-client
 sudo apt install -y libinput-tools #not sure what this is used for
 sudo snap install shotcut --classic
