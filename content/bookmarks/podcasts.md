@@ -26,3 +26,6 @@ title: Podcasts
 * <http://www.vanishingpostcards.com>
 * <http://www.slate.com/articles/podcasts.html>
 * <https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/>
+* <https://gimletmedia.com/shows/544-days>
+* <https://gimletmedia.com/shows/startup>
+* [The daily](https://www.nytimes.com/2021/10/22/podcasts/the-daily/seif-qaddafi-libya-civil-war.html)
