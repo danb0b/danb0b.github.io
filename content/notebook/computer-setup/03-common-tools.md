@@ -99,20 +99,6 @@ sudo apt install -y virtualbox virtualbox-ext-pack
 sudo usermod -a -G vboxusers $USER
 ```
 
-### MyKi
-
-```bash
-cd Downloads
-wget https://static.myki.com/releases/da/MYKI-latest-amd64.deb
-sudo dpkg -i MYKI-latest-amd64.deb
-sudo apt install -y -f
-```
-
-install firefox add on
-
-```bash
-python -mwebbrowser https://addons.mozilla.org/en-US/firefox/addon/myki-password-manager/
-```
 
 ### Tor Browser
 
@@ -134,4 +120,20 @@ sudo apt install -y ruby git  build-essential ruby-dev pandoc-citeproc
 sudo gem install bundler jekyll
 ```
 
+### MyKi
+
+This password manager doesn't work super well.  Syncing across devices doesn't always work and exporting your passwords is not supported on android / linux application
+
+```bash
+cd Downloads
+wget https://static.myki.com/releases/da/MYKI-latest-amd64.deb
+sudo dpkg -i MYKI-latest-amd64.deb
+sudo apt install -y -f
+```
+
+install firefox add on
+
+```bash
+python -mwebbrowser https://addons.mozilla.org/en-US/firefox/addon/myki-password-manager/
+```
 
