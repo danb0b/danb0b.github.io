@@ -7,19 +7,31 @@ modified from [this site](https://linuxcommando.blogspot.com/2020/07/how-to-gene
 ## Installing
 
 ```bash
-sudo apt install qrencode zbar-tools 
+sudo apt install -y qrencode #encoding tools
+sudo apt install -y zbar-tools # decoding tools
+sudo apt install -y qtqr #graphical encoder
+
 ```
 
-## Encoding
+## Terminal
+
+### Encoding
 
 ```bash
 qrencode -o webURL.png  'https://linuxcommando.blogspot.com/'
 ```
 
-## Decoding
+	
+
+
+### Decoding
 
 ```bash
 zbarimg webURL.png
 zbarimg -q webURL.png # only output result
 zbarimg -v webURL.png #verbose mode
 ```
+
+## GUI
+
+run qtqr.  the menu system is quite intuitive.
