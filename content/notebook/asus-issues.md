@@ -96,10 +96,16 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
        * **NOTE:** do not attempt to use CONFIG_LOCALVERSION as this _will_ break the build. 
 
 
+       ```bash
+       nano debian.master/changelog
+       ```
+
     1. build
     
-        ```
+        ```bash
         LANG=C fakeroot debian/rules clean
+        # quicker build:
+        LANG=C fakeroot debian/rules binary-headers binary-generic binary-perarch
         # if you need linux-tools or lowlatency kernel, run instead:
         LANG=C fakeroot debian/rules binary
         ```
