@@ -99,13 +99,27 @@ sudo apt install -y virtualbox virtualbox-ext-pack
 sudo usermod -a -G vboxusers $USER
 ```
 
+### flathub
+
+```bash
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
 ### Tor Browser
 
 ```bash
+flatpak install com.github.micahflee.torbrowser-launcher
+```
+
+Old method:
+
+```bash
+#sudo add-apt-repository ppa:micahflee/ppa # this repository is deprecated
 sudo apt update 
 sudo apt install torbrowser-launcher
 ```
+
 ---
 
 ## Deprecated
