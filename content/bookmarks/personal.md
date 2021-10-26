@@ -266,3 +266,5 @@ Fun personal links...
 ### misc computer
 
 * <https://www.asus.com/us/Laptops/For-Home/ZenBook/ZenBook-14-UM425>
+
+https://www.ft.com/content/745e34a1-0ca7-432c-b062-950c20e41f03
