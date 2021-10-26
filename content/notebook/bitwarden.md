@@ -4,6 +4,8 @@ title: Setting up Bitwarden
 
 ## Introduction
 
+derived from [this link](https://askubuntu.com/questions/902672/registering-appimage-files-as-a-desktop-app)
+
 ## Download
 
 ```bash
