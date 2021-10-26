@@ -9,7 +9,6 @@ derived from [this link](https://askubuntu.com/questions/902672/registering-appi
 ## Download
 
 ```bash
-cd Downloads
 python -mwebbrowser "https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=appimage"
 ```
 ## Icon
@@ -30,7 +29,11 @@ mv Bitwarden*.AppImage ~/appimage
 ```
 
 ## make a gnome icon
+
+Make sure to replace ```Bitwarden-1.28.3-x86_64.AppImage``` with the correct filename
+
 ```bash
+cat <<EOT >> bitwarden.desktop
 [Desktop Entry]
 Type=Application
 Name=Bitwarden
