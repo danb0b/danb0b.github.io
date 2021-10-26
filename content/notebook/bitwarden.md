@@ -18,6 +18,8 @@ download this file:
 ![Icon](/images/bw.png)
 
 ```bash
+cd Downloads
+wget https://danaukes.com/images/bw.png
 sudo mv bw.png /usr/share/pixmaps
 ```
 
