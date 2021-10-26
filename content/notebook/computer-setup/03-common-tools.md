@@ -35,7 +35,12 @@ sudo apt install -y texlive-full
 ### Arduino
 
 ```bash
-sudo apt install -y arduino
+#sudo apt install -y arduino #outdated
+python -mwebbrowser "https://www.arduino.cc/en/software"
+wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz
+tar -xvf arduino*linux64.tar.xz 
+cd arduino-1.8.16
+sudo bash install.sh
 ```
 
 ### Numix Theme
