@@ -26,6 +26,7 @@ sudo mv bw.png /usr/share/pixmaps
 ## Create an "appimage" folder
 
 ```bash
+chmod +x Bitwarden-1.28.3-x86_64.AppImage 
 mkdir ~/appimage
 mv Bitwarden*.AppImage ~/appimage
 ```
