@@ -17,7 +17,7 @@ cat <<EOT >> 99-local-sshd.conf
 PermitRootLogin no
 PasswordAuthentication no
 ChallengeResponseAuthentication no
-UsePAM no
+#UsePAM no
 X11Forwarding no
 AllowTcpForwarding no
 
@@ -47,3 +47,6 @@ rm 99-local-sshd.conf
 * <https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>
 * <https://help.ubuntu.com/community/SSH/OpenSSH/Configuring>
 * [SSH Reference](/notebook/ssh-reference)
+* <https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>
+
+
