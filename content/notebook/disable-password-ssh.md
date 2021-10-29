@@ -16,10 +16,17 @@ cat <<EOT >> 99-local-sshd.conf
 #Port 23456
 PermitRootLogin no
 PasswordAuthentication no
+PermitEmptyPasswords no
 ChallengeResponseAuthentication no
+KerberosAuthentication no
+GSSAPIAuthentication no
 #UsePAM no
 X11Forwarding no
 AllowTcpForwarding no
+AllowAgentForwarding no
+MaxAuthTries 3
+LoginGraceTime 20
+PermitTunnel no
 
 HostKey /etc/ssh/ssh_host_ed25519_key
 #HostKey /etc/ssh/ssh_host_rsa_key
@@ -44,9 +51,9 @@ rm 99-local-sshd.conf
 
 ## References
 
+* <https://motorscript.com/security-hardening-ssh-linux-server/>
 * <https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>
 * <https://help.ubuntu.com/community/SSH/OpenSSH/Configuring>
 * [SSH Reference](/notebook/ssh-reference)
-* <https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>
 
 
