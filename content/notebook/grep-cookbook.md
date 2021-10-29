@@ -36,3 +36,8 @@ find all processes named python
 ps aux | grep python
 ```
 
+## with a specific filetype
+
+```bash
+grep -Iirl "hello" --include=*.{cc,h} 
+```

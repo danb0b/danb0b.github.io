@@ -176,3 +176,11 @@ Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
     sudo shutdown -r now
     ```
     
+## Users
+
+find out who is logged on
+
+```bash
+users
+```
+
