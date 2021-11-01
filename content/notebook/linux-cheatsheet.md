@@ -142,6 +142,12 @@ From: <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
 sudo deluser --remove-home username
 ```
 
+### Force new password
+
+```bash
+passwd --expire <username_here>
+```
+
 ## Update Distro
 
 Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
