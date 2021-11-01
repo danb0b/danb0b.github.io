@@ -40,6 +40,7 @@ This is probably dated and needs a good house-cleaning...
 * [cy8ckit-042-psoc-4-pioneer-kit](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-psoc-4-pioneer-kit)
 * [ww1_microchip_com_downloads_en_devicedoc_70046e_pdf](http://ww1.microchip.com/downloads/en/DeviceDoc/70046E.pdf)
 * [ww1_microchip_com_downloads_en_devicedoc_70138e_pdf](http://ww1.microchip.com/downloads/en/DeviceDoc/70138E.pdf)
+* [board comparison](https://makezine.com/comparison/boards/)
 
 #### motors
 
