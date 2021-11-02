@@ -11,6 +11,8 @@ to clone a repository:
 git clone my_git_address
 ```
 
+## Branches
+
 list local branches:
 
 ```bash
@@ -29,9 +31,21 @@ Checkout and track a remote branch:
 git checkout –track origin/xyz
 ```
 
+## Status
+
 Sometimes you want to see what has changed.  ```git status``` can be used to see which files have changed since the last commit.  Otherwise, you can use ```git diff``` to more closely inspect file changes line by line
 
+
+## Pushing
+
 Push a quick commit:
+
+If you created a local branch and need to link it to a remote:
+
+```bash
+git push --set-upstream origin <localbranchname>
+```
+
 
 ```bash
 git add *
