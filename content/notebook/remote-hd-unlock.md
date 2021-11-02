@@ -39,7 +39,7 @@ tags:
 1. Update config (optional)
 
     ```bash
-    sudo nano /etc/dropbear-initrams/config
+    sudo nano /etc/dropbear-initramfs/config
     ```
     Add these options: 
     
