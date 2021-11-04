@@ -11,6 +11,10 @@ tags:
 uname -r
 ```
 
+More detailed information 
+```bash
+uname -a
+```
 
 ## Device / driver info
 
@@ -52,14 +56,18 @@ ip link
 ip addr
 ```
 
-## APT
+## APT / dpkg
 
 ```
-sudo apt list --installed <packa*>
+sudo apt list --installed <package-name-start*>
 ```
 
 ```
 sudo apt --reinstall install <package>
+```
+
+```bash
+dpkg --list | grep <package-name-fragment>
 ```
 
 ## Devices
