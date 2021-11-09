@@ -6,7 +6,7 @@
 
 {{ define "main" }}
 
-<section class="section-sm">
+<section>
   <div class="container">
     <h1>{{ .Title }}</h1>
     <article>{{ .Content }}</article>
@@ -16,7 +16,7 @@
 {{ $featured:=(where .Pages ".Type" "=" "featured")}}
 {{ if (gt (len ($featured)) 0)}}
 <!-- featured post -->
-<section class="section-sm">
+<section>
   <div class="container">
    <h2>Featured</h2>
     <div class="row justify-content-center">

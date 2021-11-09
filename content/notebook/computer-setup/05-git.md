@@ -29,10 +29,35 @@ wget https://github.com/gitextensions/gitextensions/releases/download/v2.51.05/G
 unzip GitExtensions-2.51.05-Mono.zip
 rm GitExtensions/Plugins/Bitbucket.dll
 chmod +x GitExtensions/GitExtensions.exe
-mv GitExtensions ~/
-#sudo cp ~/GitExtensions/git-extensions-logo-final-256.ico /usr/share/icons
+mkdir ~/apps
+mv GitExtensions ~/apps
 echo "export PATH=\$PATH:$(realpath ~)/GitExtensions" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-The run GitExtensions.exe and set up
+download this file:
+
+![Icon](/images/git-extensions.png)
+
+```bash
+cd Downloads
+wget https://danaukes.com/images/git-extensions.png
+sudo mv git-extensions.png /usr/share/pixmaps
+```
+
+```bash
+cat <<EOT >> git-extensions.desktop
+[Desktop Entry]
+Type=Application
+Name=GitExtensions
+Comment=GitExtensions
+Icon=git-extensions
+Exec=/home/danaukes/apps/GitExtensions/GitExtensions.exe
+Terminal=false
+Categories=Git;
+EOT
+
+mv git-extensions.desktop ~/.local/share/applications
+```
+
+Then run GitExtensions.exe and set up
