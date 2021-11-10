@@ -198,3 +198,11 @@ find out who is logged on
 users
 ```
 
+## get ip inof
+
+from [here](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
+
+```bash
+ifconfig
+host myip.opendns.com resolver1.opendns.com
+```

@@ -85,3 +85,32 @@ if not check one out
 ```
 git checkout [branchname]
 ```
+
+## clean
+
+```bash
+git clean -dxf
+```
+
+## feetch all remote tags
+
+```bash
+git fetch --all --tags
+```
+
+## check out tag to a new branch
+
+
+```bash
+git checkout tags/<tag> -b <branch>
+```
+
+example
+
+```bash
+git checkout tags/Ubuntu-5.13.0-21.21 -b Ubuntu-5.13.0-21.21
+```
+
+## External references
+
+* <https://devconnected.com/how-to-checkout-git-tags/>
