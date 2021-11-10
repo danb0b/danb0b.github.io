@@ -26,6 +26,20 @@ autossh -M 20000 -fNn your_public_server -R 1234:localhost:22 -C
 autossh -f -nNT -i ~/keypair.pem -R 2000:localhost:22
 ```
 
+## optional
+
+start at reboot
+
+```bash
+crontab -e
+```
+
+enter the following
+
+```
+@reboot sleep 300 && autossh -M 20000 -f -Nnt -R 2201:localhost:22 <servername> -C
+```
+
 ## External References
 
 * <https://superuser.com/questions/37738/how-to-reliably-keep-an-ssh-tunnel-open>
