@@ -20,7 +20,7 @@ title: ESP32 Notes
 * [mouser search](https://www.mouser.com/c/embedded-solutions/engineering-tools/embedded-processor-development-kits/?m=Espressif)
 * [digikey search](https://www.digikey.com/en/products/filter/rf-evaluation-and-development-kits-boards/859?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAusQA4AuUIAykwE4CWAdgOYgAvsQC0AFmQg0kLHiKkKIAGwBWAMywktISJAAmJflwNOx3N3QACACb4AblYBGJTJxt0hQA)
 
-## Install micropython
+## Install micropython IDE
 
 derived from [here](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
 
@@ -28,7 +28,8 @@ derived from [here](https://randomnerdtutorials.com/getting-started-micropython-
 * [Mac Instructions](https://randomnerdtutorials.com/install-upycraft-ide-mac-os-x-instructions/)
 * [Linux Instructions](https://randomnerdtutorials.com/install-upycraft-ide-linux-ubuntu-instructions/)
 * [Using VSCode](https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide)
-* [Using Thonny](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
+* [Installing Thonny(randomnerd)](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
+* [Installing Thonny(microcontrollerslab)](https://microcontrollerslab.com/getting-started-thonny-micropython-ide-esp32-esp8266/)
     1. Installing
 
         ```bash
@@ -43,6 +44,22 @@ derived from [here](https://randomnerdtutorials.com/getting-started-micropython-
         ```
  
 ## Flash $\mu$python
+
+You will need the esptool from espressif ([github](https://github.com/espressif/esptool))
+
+It can be installed via pip from command line:
+```bash
+pip install esptool
+```
+
+First erase the flash
+```bash
+esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+```
+From then on program the firmware starting at address 0x1000:
+```bash
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
+```
 
 * <https://micropython.org/download/esp32/>
 * <https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/>
@@ -69,6 +86,10 @@ then open arduino from the terminal
 arduino
 ```
 
+## Software and examples
+
+* [MQTT tutorial](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
+    * [umqttsimple.py](https://raw.githubusercontent.com/RuiSantosdotme/ESP-MicroPython/master/code/MQTT/umqttsimple.py) from [this github repo](https://github.com/RuiSantosdotme/ESP-MicroPython/tree/master/code/MQTT)
 
 ## FAQ (from amazon)
 
