@@ -112,9 +112,12 @@ HandleLidSwitchDocked=ignore
 systemctl restart systemd-logind.service
 ```
 
-## Users
+## Users, groups
 
-From: <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
+From: 
+
+* <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
+* <https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the>
 
 1. Create a new user
 
@@ -146,6 +149,29 @@ sudo deluser --remove-home username
 
 ```bash
 passwd --expire <username_here>
+```
+
+### List all users / groups
+
+users:
+
+```bash
+cut -d: -f1 /etc/passwd
+getent passwd
+```
+
+groups:
+
+```bash
+cut -d: -f1 /etc/group
+getent group
+```
+
+### find out who is logged on
+
+```bash
+users
+who
 ```
 
 ## Update Distro
@@ -182,11 +208,4 @@ Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
     sudo shutdown -r now
     ```
     
-## Users
-
-find out who is logged on
-
-```bash
-users
-```
 

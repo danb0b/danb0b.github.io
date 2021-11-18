@@ -126,5 +126,10 @@ Unsorted bookmarks that need a good sorting
 * <https://www.instagram.com/p/CN75jXTAOZS/?igshid=17lnfb804yejo>
 * <https://askubuntu.com/questions/41118/virtualbox-kernel-driver-not-installed>
 * <https://getpocket.com/explore/item/the-scientific-paper-is-obsolete?utm_source=pocket-newtab>
- 
- 
+* [Frontiers \| Improved Continuum Joint Configuration Estimation Using a Linear Combination of Length Measurements and Optimization of Sensor Placement \| Robotics and AI](https://www.frontiersin.org/articles/10.3389/frobt.2021.637301/full)
+* [Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH) (nsf21530) \| NSF - National Science Foundation](https://www.nsf.gov/pubs/2021/nsf21530/nsf21530.htm)
+* [3.4. Wrenches -- Modern Robotics](https://modernrobotics.northwestern.edu/nu-gm-book-resource/3-4-wrenches/)
+* [qpsolvers · PyPI](https://pypi.org/project/qpsolvers/)
+* [The collaborative browser based IDE - Replit](https://replit.com/)
+* [Astrohaus The Freewrite Traveler - Portable Typewriter \| Huckberry](https://huckberry.com/store/astrohaus/category/p/73845-the-freewrite-traveler-portable-typewriter)
+* [Homepage - Learning and Teaching Hub](https://lth.engineering.asu.edu/)
