@@ -18,7 +18,7 @@
         <ul class="list-inline">
           {{ range .Params.recipe_tags }}
           <li class="list-inline-item mb-1 mr-2 mt-1">
-          <a class="d-block p-2 bg-primary text-white" href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}"
+          <a class="d-block p-2 bg-primary text-white" href="{{ `recipe_tags/` | relLangURL }}{{ . | urlize | lower }}"
             class="text-primary">{{ . | title | humanize }}</a>
           </li>
           {{- end }}

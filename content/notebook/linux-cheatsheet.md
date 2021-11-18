@@ -11,6 +11,10 @@ tags:
 uname -r
 ```
 
+More detailed information 
+```bash
+uname -a
+```
 
 ## Device / driver info
 
@@ -52,14 +56,18 @@ ip link
 ip addr
 ```
 
-## APT
+## APT / dpkg
 
 ```
-sudo apt list --installed <packa*>
+sudo apt list --installed <package-name-start*>
 ```
 
 ```
 sudo apt --reinstall install <package>
+```
+
+```bash
+dpkg --list | grep <package-name-fragment>
 ```
 
 ## Devices
@@ -209,3 +217,11 @@ Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
     ```
     
 
+## get ip inof
+
+from [here](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
+
+```bash
+ifconfig
+host myip.opendns.com resolver1.opendns.com
+```

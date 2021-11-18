@@ -27,8 +27,8 @@ sudo mv bw.png /usr/share/pixmaps
 
 ```bash
 chmod +x Bitwarden-1.28.3-x86_64.AppImage 
-mkdir ~/appimage
-mv Bitwarden*.AppImage ~/appimage
+mkdir ~/apps
+mv Bitwarden*.AppImage ~/apps
 ```
 
 ## make a gnome icon
@@ -42,7 +42,7 @@ Type=Application
 Name=Bitwarden
 Comment=Bitwarden
 Icon=bw
-Exec=/home/danaukes/appimage/Bitwarden-1.28.3-x86_64.AppImage
+Exec=/home/danaukes/apps/Bitwarden-1.28.3-x86_64.AppImage
 Terminal=false
 Categories=Bitwarden;
 EOT

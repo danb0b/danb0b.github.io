@@ -117,4 +117,4 @@ tags:
 * <https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file>
 * <https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot>
 * [instructions for using a usb stick](https://gist.github.com/da-n/4c77d09720f3e5989dd0f6de5fe3cbfb)
-
+* [meaning of HostKeyAlias](https://serverfault.com/questions/193631/ssh-into-a-box-with-a-frequently-changed-ip)
