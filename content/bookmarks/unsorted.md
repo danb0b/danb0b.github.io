@@ -133,3 +133,34 @@ Unsorted bookmarks that need a good sorting
 * [The collaborative browser based IDE - Replit](https://replit.com/)
 * [Astrohaus The Freewrite Traveler - Portable Typewriter \| Huckberry](https://huckberry.com/store/astrohaus/category/p/73845-the-freewrite-traveler-portable-typewriter)
 * [Homepage - Learning and Teaching Hub](https://lth.engineering.asu.edu/)
+
+
+### imu
+
+* [shell - Run Python for Android (Qpython) in Android Terminal - Stack Overflow](https://stackoverflow.com/questions/31610271/run-python-for-android-qpython-in-android-terminal)
+* [how to read IMU data from my android using termux qpython - Google Search](https://www.google.com/search?q=how+to+read+IMU+data+from+my+android+using+termux+qpython&client=ubuntu&hs=CR6&channel=fs&ei=ldh2YYviE-XC0PEP6427kAI&ved=0ahUKEwjLgLKS--XzAhVlITQIHevGDiIQ4dUDCA0&uact=5&oq=how+to+read+IMU+data+from+my+android+using+termux+qpython&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BQghEKABOgUIIRCrAjoHCCEQChCgAUoECEEYAFDvjwFY5roBYIy-AWgBcAJ4AIAB4QGIAc0XkgEGMC4xNy40mAEAoAEByAEIwAEB&sclient=gws-wiz)
+* [python - How to transmit Android real-time sensor data to computer? - Stack Overflow](https://stackoverflow.com/questions/18245849/how-to-transmit-android-real-time-sensor-data-to-computer)
+* [read imu data terminal python on iphone - Google Search](https://www.google.com/search?channel=fs&client=ubuntu&q=read+imu+data+terminal+python+on+iphone)
+* [‎Pyto - Python 3 on the App Store](https://apps.apple.com/us/app/pyto-python-3/id1436650069)
+* [Getting Accelerometer data \| Stream iPhone Sensor Data to Adafruit IO \| Adafruit Learning System](https://learn.adafruit.com/stream-iphone-ios-sensor-data-to-adafruit-io/trevorbeaton-getting-accelerometer-data)
+* [Use iPhone as IMU in ROS. For a project, I needed IMU data in ROS... \| by Pietro Colombo \| Medium](https://pietrocolombo.medium.com/use-iphone-as-imu-in-ros-2b3afbc50184)
+* [termux for iphone - Google Search](https://www.google.com/search?channel=fs&client=ubuntu&q=termux+for+iphone)
+* [networking - Using android phone\'s sensors on raspberry pi - Raspberry Pi Stack Exchange](https://raspberrypi.stackexchange.com/questions/7838/using-android-phones-sensors-on-raspberry-pi)
+* [\| F-Droid - Free and Open Source Android App Repository](https://f-droid.org/en/packages/)
+* [Reading Android Sensor's Data using PYTHON & MATLAB with CSV Read and offline Processing - YouTube](https://www.youtube.com/watch?v=AZUIcXcDpcM)
+* [QPython Open API --- QPython 0.9 documentation](https://www.qpython.org/en/guide_extend.html)
+* [Termux Wiki](https://wiki.termux.com/wiki/Main_Page)
+* [Python for Android and DAQ Tutorial : smartphonedaq.com](https://smartphonedaq.com/)
+* [How to Collect Sensor Data on Your iPhone or Android Device Using MATLAB Mobile - YouTube](https://www.youtube.com/watch?v=LCk9gV0ooxI)
+* [Position sensors  \|  Android Developers](https://developer.android.com/guide/topics/sensors/sensors_position)
+
+## Misc
+
+* Free Tendons for Travelling Wave generation in Elastomer Membranes \| IEEE Conference Publication \| IEEE Xplore](https://ieeexplore.ieee.org/document/9479206)
+* [RoboSoft 2021 Program \| Wednesday April 14, 2021](https://ras.papercept.net/conferences/conferences/ROSO21/program/ROSO21_ContentListWeb_1.html#wed9pos_34)
+* [The Most Influential Sci-Fi Books Of All Time](https://bookriot.com/the-most-influential-sci-fi-books-of-all-time/?utm_source=pocket-newtab)
+* [Python for Android and DAQ Tutorial : smartphonedaq.com](https://smartphonedaq.com/)
+* [kde - Registering AppImage Files as a desktop app - Ask Ubuntu](https://askubuntu.com/questions/902672/registering-appimage-files-as-a-desktop-app)
+* [SerialLink](http://www.petercorke.com/RTB/r9/html/SerialLink.html)
+* [I want to build an EV! Where do I start? \| DIY Electric Car Forums](https://www.diyelectriccar.com/threads/i-want-to-build-an-ev-where-do-i-start.6441/)
+* [Porsche 911 (996) Tesla Swap \| DIY Electric Car Forums](https://www.diyelectriccar.com/threads/porsche-911-996-tesla-swap.205641/)
