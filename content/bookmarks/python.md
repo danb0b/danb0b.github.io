@@ -59,6 +59,7 @@ A lot of detail about Python problems and issues.  I promise I'll clean this up.
 * [techniques-for-writing-good-python-code-stack-overflow](https://stackoverflow.com/questions/6205817/techniques-for-writing-good-python-code)
 * [writing-clean-testable-high-quality-code-in-python](https://developer.ibm.com/articles/au-cleancode/)
 * [writing-python-code-that-doesnt-suck-v2](http://ivory.idyll.org/blog/not-sucking-v2.html)
+* <https://realpython.com/python-f-strings>
 
 #### korg-nanopad
 
