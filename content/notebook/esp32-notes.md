@@ -20,6 +20,10 @@ title: ESP32 Notes
 * [mouser search](https://www.mouser.com/c/embedded-solutions/engineering-tools/embedded-processor-development-kits/?m=Espressif)
 * [digikey search](https://www.digikey.com/en/products/filter/rf-evaluation-and-development-kits-boards/859?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAusQA4AuUIAykwE4CWAdgOYgAvsQC0AFmQg0kLHiKkKIAGwBWAMywktISJAAmJflwNOx3N3QACACb4AblYBGJTJxt0hQA)
 
+## ESP32 Dev Board WROOM info
+
+<https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>
+
 ## Install micropython IDE
 
 derived from [here](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
