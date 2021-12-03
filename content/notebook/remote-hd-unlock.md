@@ -62,11 +62,11 @@ tags:
     Add config:
     
     ```
-    IP:IPADDRESS::GATEWAY:NETMASK:HOSTNAME
+    IP:IPADDRESS::GATEWAY:NETMASK:HOSTNAME:ADAPTER
     ```
     
     ```
-    IP=192.168.0.100::192.168.0.1:255.255.255.0:debian
+    IP=192.168.0.100::192.168.0.1:255.255.255.0:debian:enp2s0
     ```
 
 1. Update initramfs
