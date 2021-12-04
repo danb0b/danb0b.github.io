@@ -1,15 +1,13 @@
 ---
 title: Installing Algo VPN
-weight: 990
 tags:
-- ros
 - ubuntu
 - linux
 ---
 
 ## Introduction
 
-While this is a bit off topic, it is sometimes necessary to create a virtual network to enable computers across a large distance to communicate as if on the same network.  This section deals with how to install such a service on a virtual machine.
+It is sometimes necessary to create a virtual network to enable computers across a large distance to communicate as if on the same network.  This section deals with how to install such a service on a virtual machine.
 
 ## Instructions
 
@@ -47,6 +45,7 @@ While this is a bit off topic, it is sometimes necessary to create a virtual net
     sudo -i #necessarysu in ubuntu
     cd /
     git clone https://github.com/trailofbits/algo.git
+    chmod 775 algo
     cd /algo
     python3 -m virtualenv --python="$(command -v python3)" .env &&   source .env/bin/activate &&   python3 -m pip install -U pip virtualenv &&   python3 -m pip install -r requirements.txt
     ```
@@ -59,10 +58,9 @@ While this is a bit off topic, it is sometimes necessary to create a virtual net
 
     1. add users
     1. disable "BetweenClients_DROP", "block_smb", and "block_netbios"
+    1. disable dns encryption
 
     hit ```ctrl+s``` to save and ```ctrl+x``` to exit
-
-1. comment out lines 10-15 of main.yml.  (Its a check for ansible write priveleges)
 
 1. run algo installer
 
@@ -102,6 +100,37 @@ While this is a bit off topic, it is sometimes necessary to create a virtual net
 1. copy configuation files to other machines for use
 1. run your virtualbox image as a service so it starts automatically.
     * See <https://github.com/onlyfang/VBoxVmService>
+
+1. Install linux client:
+
+from here: <https://github.com/trailofbits/algo/blob/master/docs/client-linux-wireguard.md>
+
+```
+sudo apt update && sudo apt upgrade
+sudo apt install wireguard openresolv
+# Install the config file to the WireGuard configuration directory on your
+# Linux client:
+sudo install -o root -g root -m 600 <username>.conf /etc/wireguard/wg0.conf
+
+# Start the WireGuard VPN:
+sudo systemctl start wg-quick@wg0
+
+# Check that it started properly:
+sudo systemctl status wg-quick@wg0
+
+# Verify the connection to the AlgoVPN:
+sudo wg
+
+# See that your client is using the IP address of your AlgoVPN:
+curl ipv4.icanhazip.com
+
+# Optionally configure the connection to come up at boot time:
+sudo systemctl enable wg-quick@wg0
+```
+
+## Note:
+
+Don't use the virtual host with the virtual algo guest, it will kill external communication to/from the guest.
 
 <!--
 ## Old
