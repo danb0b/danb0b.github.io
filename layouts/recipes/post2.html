@@ -1,4 +1,4 @@
-<div class="col-lg-4 pb-3">
+<div class="col col-12 col-lg-6 pb-3">
   <article class="media">
     <div class="mr-3">
         {{ if .Params.Image }}
@@ -7,7 +7,7 @@
         {{ if .Params.Icon }}
         <div class="text-center" style="font-size:5rem;line-height:1;"><i class="{{.Params.icon }}"></i></div>
         {{else}}
-        <div class="text-center" style="font-size:5rem;line-height:1;"><i class="{{.Site.Params.default_icon}}"></i></div>
+        <div class="text-center" style="font-size:5rem;line-height:1;"><i class="{{.Site.Params.default_recipe_icon}}"></i></div>
         {{ end }}{{ end }}
     </div>
     <div class="media-body">
