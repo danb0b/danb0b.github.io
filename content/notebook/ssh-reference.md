@@ -57,9 +57,15 @@ ssh-add -l
 ```bash
 ssh-add -D
 ```
+### add passphrase
 
+```
+ssh-keygen -p -f <path-to-key>
+```
 ## References
 
 * <https://linuxnatives.net/2019/how-to-create-good-ssh-keys>
 * <https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys>
+* <https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04>
+* <https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server>
 * <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>
