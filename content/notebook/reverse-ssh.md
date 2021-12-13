@@ -8,6 +8,12 @@ title: Reverse SSH Tunnel
 sudo apt install autossh
 ```
 
+set up logging:
+
+```bash
+echo 'export AUTOSSH_LOGFILE="$HOME/autossh.log"' >> ~/.bashrc
+```
+
 ## Usage
 
 ```bash
