@@ -6,6 +6,14 @@ recipe_tags:
 original_url: https://www.staceyhomemaker.com/easy-stuffed-pepper-soup-recipe
 ---
 
+## Ingredients
+
+### Sara's Modifications
+
+Double quiona and no lentils if want one less step
+
+### Original Ingredients
+
 * 1/2 cup quinoa rinsed and drained
 * 3-4 tbsp low-sodium vegetable broth (to saute)
 * 1 medium yellow onion diced

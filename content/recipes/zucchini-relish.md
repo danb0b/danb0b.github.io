@@ -7,6 +7,14 @@ original_url: https://www.allrecipes.com/recipe/172346/sweet-zucchini-relish/
 
 ## Ingredients
 
+### Sara's Modifications: 
+
+* only use 1 cup sugar 
+* double all spices
+* omit nutmeg, cornstarch
+
+### Original Ingredients
+
 * 12 cups shredded unpeeled zucchini
 * 4 cups chopped onion
 * 5 tablespoons canning salt
