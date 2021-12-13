@@ -161,6 +161,8 @@ passwd --expire <username_here>
 
 ### Expire / unexpire
 
+from [here](https://askubuntu.com/questions/282806/how-to-enable-or-disable-a-user)
+
 Expire Account
 
 Let the account expire to disallowing a user from logging in from any source including ssh:
