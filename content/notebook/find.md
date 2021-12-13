@@ -45,6 +45,19 @@ find . -type f -name "*.txt"
 
 ## Find and Replace with find and sed
 
-```
+```bash
 find . -type f -name "*.md" -print0 | xargs -0 sed -i 's/foo/bar/g'
+```
+
+## Find text in a certain file type
+
+Find links in markdown files ending in .mp4
+
+```bash
+find . -iname "*.md" -exec grep -l '.mp4)' {} \+ 
+```
+Find "video_source" keys in yaml files ending in .yaml
+
+```bash
+find . -iname "*.yaml" -exec grep -l 'video_source:' {} \+ 
 ```
