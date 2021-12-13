@@ -159,6 +159,25 @@ sudo deluser --remove-home username
 passwd --expire <username_here>
 ```
 
+### Expire / unexpire
+
+Expire Account
+
+Let the account expire to disallowing a user from logging in from any source including ssh:
+
+```bash
+# disallow peter from logging in
+sudo usermod --expiredate 1 peter
+```
+
+This is how you can reenable that account:
+
+```bash
+# set expiration date of peter to Never
+sudo usermod --expiredate "" peter
+```
+
+
 ### List all users / groups
 
 users:
@@ -225,3 +244,25 @@ from [here](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-
 ifconfig
 host myip.opendns.com resolver1.opendns.com
 ```
+
+## sudo
+
+to run something as root
+
+```bash
+sudo <command> [command options]
+```
+
+to run interactively as root
+
+```bash
+sudo -i
+```
+
+to run something as someone else
+
+```bash
+sudo -i -u <username>
+```
+
+run ```exit``` to leave that session

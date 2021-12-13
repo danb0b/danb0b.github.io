@@ -45,3 +45,7 @@ A lot of inside baseball on things I need to remember
 ## themes
 
 https://snwh.org/paper/download
+
+## truenas
+
+<https://www.truenas.com/docs/core/gettingstarted/corehardwareguide/>

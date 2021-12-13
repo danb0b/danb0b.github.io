@@ -164,3 +164,4 @@ Unsorted bookmarks that need a good sorting
 * [SerialLink](http://www.petercorke.com/RTB/r9/html/SerialLink.html)
 * [I want to build an EV! Where do I start? \| DIY Electric Car Forums](https://www.diyelectriccar.com/threads/i-want-to-build-an-ev-where-do-i-start.6441/)
 * [Porsche 911 (996) Tesla Swap \| DIY Electric Car Forums](https://www.diyelectriccar.com/threads/porsche-911-996-tesla-swap.205641/)
+* [iCalendar Validator](https://icalendar.org/validator.html#results)
