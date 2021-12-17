@@ -94,6 +94,8 @@ arduino
 
 * [MQTT tutorial](https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/)
     * [umqttsimple.py](https://raw.githubusercontent.com/RuiSantosdotme/ESP-MicroPython/master/code/MQTT/umqttsimple.py) from [this github repo](https://github.com/RuiSantosdotme/ESP-MicroPython/tree/master/code/MQTT)
+* [MQTT Example #2](https://boneskull.com/micropython-on-esp32-part-2/)
+* [MQTT Example #3](https://github.com/gloveboxes/ESP32-MicroPython-BME280-MQTT-Sample/)
 
 ## FAQ (from amazon)
 
