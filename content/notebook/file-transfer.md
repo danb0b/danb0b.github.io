@@ -1,5 +1,6 @@
 ---
 title: fixing file transfer bug in nautilus
+weight: 99
 ---
 
 

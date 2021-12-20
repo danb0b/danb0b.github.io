@@ -2,6 +2,7 @@
 title: Duplicate Installed Packages
 tags:
   - ubuntu
+weight: 99
 ---
 
 To clone your system to another system. Or make a backup. In a terminal type:

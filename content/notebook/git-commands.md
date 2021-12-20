@@ -1,8 +1,9 @@
 ---
-title: Common Git Commands
+title: Git Commands
 tags:
   - bash
   - git
+weight: 10
 ---
 
 to clone a repository:

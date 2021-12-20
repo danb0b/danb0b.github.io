@@ -1,13 +1,17 @@
 ---
 title: Failure
 type: starred
-summary: "These are some of my disorganized thoughts on failure.  Perhaps some day I'll turn it into a class..."
+summary: "Some of my disorganized thoughts on failure.  Perhaps some day I'll turn it into a class..."
 weight: 3
 ---
 
 ## Introduction
 
 These are some of my disorganized thoughts on failure.  Perhaps some day I'll turn it into a class.
+
+## References
+
+* [Well There's Your Problem (podcast)](https://wtyppod.podbean.com/)
 
 ## Failure examples
 

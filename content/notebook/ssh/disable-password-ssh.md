@@ -6,6 +6,7 @@ tags:
   - ubuntu
   - linux
   - security
+weight: 10
 ---
 
 Derived from [this link](https://motorscript.com/security-hardening-ssh-linux-server/)

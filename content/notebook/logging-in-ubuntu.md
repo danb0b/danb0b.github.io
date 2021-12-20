@@ -1,5 +1,7 @@
 ---
-title: Logging on Ubuntu
+title: Logging in Ubuntu
+summary: A place to hold information about setting up, viewing, and controlling logging.
+weight: 99
 ---
 
 ## External Links

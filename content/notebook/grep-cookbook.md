@@ -4,6 +4,7 @@ tags:
   - grep
   - bash
   - linux
+weight: 10
 ---  
 
 ## Using ```grep``` by itself

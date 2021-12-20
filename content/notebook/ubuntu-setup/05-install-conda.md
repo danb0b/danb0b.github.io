@@ -1,11 +1,11 @@
 ---
-title: Conda Install
+title: 05-Conda Install
+weight: 5
 tags:
   - anaconda
   - python
   - terminal
   - bash
-weight: 4
 ---
 
 ## Install Latest Anaconda / Miniconda

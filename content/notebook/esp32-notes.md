@@ -1,5 +1,6 @@
 ---
 title: ESP32 Notes
+weight: 1
 ---
 
 ## Example Projects

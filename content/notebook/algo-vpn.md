@@ -3,6 +3,7 @@ title: Installing Algo VPN
 tags:
 - ubuntu
 - linux
+weight: 99
 ---
 
 ## Introduction

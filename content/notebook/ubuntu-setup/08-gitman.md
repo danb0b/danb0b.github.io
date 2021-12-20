@@ -1,6 +1,6 @@
 ---
-title: install gitman
-weight: 7
+title: 08-install gitman
+weight: 8
 ---
 
 Gitman is my python based package for scanning a computer and pulling all your repositories off.  If you haven't ever set up gitman before, run it once to create a blank config file, located in ~/.config/gitman/config.yaml

@@ -1,11 +1,13 @@
 ---
-title: SSH Reference
+title: SSH General Reference
 tags:
   - ubuntu
   - linux
   - ssh
   - encryption
   - keys
+weight: 1
+summary: The most useful SSH-specific commands
 ---
 
 # Create a new SSH key

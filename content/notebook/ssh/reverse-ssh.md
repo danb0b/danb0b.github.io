@@ -1,5 +1,7 @@
 ---
 title: Reverse SSH Tunnel
+summary: Auto-reconnecting reverse tunnel quickstart
+weight: 99
 ---
 
 ## Installation
@@ -32,9 +34,11 @@ autossh -M 20000 -fNn your_public_server -R 1234:localhost:22 -C
 autossh -f -nNT -i ~/keypair.pem -R 2000:localhost:22
 ```
 
-## optional
+## Start at Reboot with cron
 
-start at reboot
+<div class="alert alert-warning">
+You probably can't set this up with a key that has a passphrase on it.
+</div>
 
 ```bash
 crontab -e

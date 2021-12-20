@@ -6,6 +6,7 @@ tags:
   - gpg
   - encryption
   - keys
+weight: 2
 ---
 
 ### List gpg keys

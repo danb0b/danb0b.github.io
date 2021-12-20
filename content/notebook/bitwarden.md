@@ -1,5 +1,6 @@
 ---
 title: Setting up Bitwarden
+weight: 99
 ---
 
 ## Introduction

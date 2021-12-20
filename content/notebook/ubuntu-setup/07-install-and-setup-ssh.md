@@ -1,6 +1,6 @@
 ---
-title: Install and Setup SSH
-weight: 06
+title: 07-Install and Setup SSH
+weight: 07
 ---
 
 ## Basic Steps

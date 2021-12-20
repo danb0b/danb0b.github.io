@@ -4,6 +4,7 @@ tags:
   - markdown
   - hugo
   - websites
+weight: 80
 ---
 
 ## Install

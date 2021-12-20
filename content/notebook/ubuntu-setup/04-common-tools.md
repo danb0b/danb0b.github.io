@@ -1,6 +1,6 @@
 ---
-title: Install Common Tools
-weight: 3
+title: 04-Install Common Tools
+weight: 4
 ---
 
 ## Install common tools

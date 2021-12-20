@@ -1,7 +1,11 @@
 ---
-title: Disabling Printer Scanning
+title: 16-Disabling Printer Scanning
+weight: 16
 ---
 
+<div class="alert alert-primary">
+These don't seem to fix my problem currently.  Use with care.
+</div>
 
 derived from [here](https://askubuntu.com/questions/345083/how-do-i-disable-automatic-remote-printer-installation)
 

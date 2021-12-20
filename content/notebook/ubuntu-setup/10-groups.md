@@ -1,6 +1,6 @@
 ---
-title: Set Up Groups
-weight: 9
+title: 10-Set Up Groups
+weight: 10
 ---
 
 1. add yourself to device groups for access to some USB devices in python

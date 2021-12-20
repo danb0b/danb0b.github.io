@@ -1,6 +1,6 @@
 ---
-title: Install and Setup ```git```
-weight: 5
+title: 06-Install and Setup ```git```
+weight: 6
 ---
 
 ## Git

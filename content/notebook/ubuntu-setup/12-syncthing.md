@@ -1,6 +1,6 @@
 ---
-title: Syncthing
-weight: 11
+title: 12-Syncthing
+weight: 12
 ---
 
 ## Install

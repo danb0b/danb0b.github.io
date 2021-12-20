@@ -1,6 +1,6 @@
 ---
-title: Install and Setup ```rclone```
-weight: 2
+title: 03-Install and Setup ```rclone```
+weight: 3
 ---
 
 1. Install ```rclone```

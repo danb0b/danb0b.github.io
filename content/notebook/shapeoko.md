@@ -4,6 +4,7 @@ tags:
   - idealab
   - cnc
   - shapeoko
+weight: 90
 ---
 
 ## Search Results

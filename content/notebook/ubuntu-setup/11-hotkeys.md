@@ -1,6 +1,6 @@
 ---
-title: Setup Keyboard Shortcuts
-weight: 10
+title: 11-Setup Keyboard Shortcuts
+weight: 11
 ---
 
 ## Load your previously saved settings

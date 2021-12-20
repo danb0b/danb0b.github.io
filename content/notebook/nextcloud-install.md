@@ -4,6 +4,7 @@ tags:
   - ubuntu
   - linux
   - nextcloud
+weight: 99
 ---
 
 1. Prerequisites

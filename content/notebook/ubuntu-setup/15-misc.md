@@ -1,6 +1,6 @@
 ---
-title: Post-Install Miscellaneous Steps
-weight: 14
+title: 15-Post-Install Miscellaneous Steps
+weight: 15
 ---
 
 ## Tweaking the GUI

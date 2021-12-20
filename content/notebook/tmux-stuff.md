@@ -7,6 +7,7 @@ tags:
   - linux
   - ubuntu
   - ssh
+weight: 99
 ---
 
 ## Basic Functionality

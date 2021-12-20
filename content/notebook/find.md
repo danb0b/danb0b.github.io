@@ -3,6 +3,7 @@ title: Using the ```find``` command in bash
 tags:
   - bash
   - linux
+weight: 10
 ---
 
 # Using the ```find``` command in bash

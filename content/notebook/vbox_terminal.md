@@ -6,6 +6,7 @@ tags:
   - linux
   - windows
   - virtualbox
+weight: 99
 ---
 
 from: <https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from-the-command-line/>

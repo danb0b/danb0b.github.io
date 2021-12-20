@@ -6,6 +6,7 @@ tags:
   - vnc
   - terminal
   - bash
+weight: 99
 ---
 
 ```bash

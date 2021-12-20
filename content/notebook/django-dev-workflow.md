@@ -1,5 +1,6 @@
 ---
 title: Django Development Workflow
+weight: 99
 ---
 
 Derived from [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website)

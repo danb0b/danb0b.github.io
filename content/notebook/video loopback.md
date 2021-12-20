@@ -5,6 +5,7 @@ tags:
   - linux
   - ubuntu
   - fun
+weight: 99
 ---
 
 ```bash

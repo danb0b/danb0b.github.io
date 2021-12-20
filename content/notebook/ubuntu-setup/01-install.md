@@ -1,5 +1,6 @@
 ---
-title: Installation Notes
+title: 01-Installation Notes
+weight: 1
 ---
 
 ## Introduction
