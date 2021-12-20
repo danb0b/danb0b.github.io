@@ -1,0 +1,28 @@
+---
+Locking Down Ubuntu
+---
+
+1. Set bios admin password
+1. check sudoers group, make other users non-admin
+1. delete unused / unnecessary accounts
+1. reset root password
+1. lock all ssh keys with passphrase
+1. ensure .ssh, keys folders have the right permissions
+1. remove plaintext passwords from all .config files
+1. make sure cloud connections require password to start and do not start automatically
+1. encrypt all important configurations
+    * rclone
+    * syncthing
+1. remove credential files from all samba configs
+1. make normal user accts for any guests
+1. disable remembering passwords in
+    * firefox
+    * thunderbird
+    * other email programs
+    * other browsers
+1. turn on firewall
+1. install tor?
+1. add 2fa app?
+1. update frequently
+1. encrypt hard drive
+1. set up logging
