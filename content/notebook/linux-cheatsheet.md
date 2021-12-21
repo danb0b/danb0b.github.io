@@ -251,6 +251,14 @@ host myip.opendns.com resolver1.opendns.com
 dig @resolver4.opendns.com myip.opendns.com +short
 ```
 
+### get mac
+
+<https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132>
+
+```bash
+arp -a <ip address>
+```
+
 ## sudo
 
 to run something as root
