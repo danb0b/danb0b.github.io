@@ -219,3 +219,28 @@ conda install -c conda-forge scikit-geometry poppler
 ```
 conda  install projectchrono/label/develop::pychrono
 ```
+
+----
+
+## server install
+
+Just for servers, no research code running
+
+```
+cd ~/Downloads
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+cd ~/
+source ~/.bashrc
+conda update -y -n base conda
+conda install -y pip gitpython requests[socks] pyyaml
+python -m pip install --upgrade pip
+pip install twine service_identity pygithub scp pysftp
+
+
+mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+
+
+```

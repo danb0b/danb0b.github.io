@@ -1,5 +1,6 @@
 ---
-title: Locking Down Ubuntu
+title: 99-Locking Down Ubuntu
+published: true
 ---
 
 1. Set bios admin password
@@ -10,9 +11,7 @@ title: Locking Down Ubuntu
 1. ensure .ssh, keys folders have the right permissions
 1. remove plaintext passwords from all .config files
 1. make sure cloud connections require password to start and do not start automatically
-1. encrypt all important configurations
-    * rclone
-    * syncthing
+1. encrypt all important configurations (eg rclone, syncthing, etc)
 1. remove credential files from all samba configs
 1. make normal user accts for any guests
 1. disable remembering passwords in

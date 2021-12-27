@@ -55,11 +55,6 @@ sudo apt install -y gnome-tweak-tool numix-gtk-theme numix-icon-theme numix-icon
 
 open tweak tool and set icons and theme to numix
 
-### Screen
-
-```bash
-sudo apt install -y screen
-```
 
 ### Zoom
 
@@ -141,20 +136,26 @@ sudo apt install -y ruby git  build-essential ruby-dev pandoc-citeproc
 sudo gem install bundler jekyll
 ```
 
-### MyKi
-
-This password manager doesn't work super well.  Syncing across devices doesn't always work and exporting your passwords is not supported on android / linux application
+### Screen
 
 ```bash
-cd Downloads
-wget https://static.myki.com/releases/da/MYKI-latest-amd64.deb
-sudo dpkg -i MYKI-latest-amd64.deb
-sudo apt install -y -f
+sudo apt install -y screen
 ```
 
-install firefox add on
 
-```bash
-python -mwebbrowser https://addons.mozilla.org/en-US/firefox/addon/myki-password-manager/
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

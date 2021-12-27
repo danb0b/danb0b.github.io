@@ -12,7 +12,7 @@ sudo apt install -y git kdiff3
 git config --global user.email "yourname@yourdomain.com"
 git config --global user.name "Your Name"
 git config --global pull.rebase false
-git config advice.addIgnoredFile false
+git config --global advice.addIgnoredFile false
 ```
 
 ## Git Extensions
