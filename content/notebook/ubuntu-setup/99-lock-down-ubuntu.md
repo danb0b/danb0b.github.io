@@ -1,5 +1,5 @@
 ---
-Locking Down Ubuntu
+title: Locking Down Ubuntu
 ---
 
 1. Set bios admin password
