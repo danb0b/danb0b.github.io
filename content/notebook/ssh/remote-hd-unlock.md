@@ -51,7 +51,7 @@ weight: 10
     * -s - disable password logins
     
     ```
-    DROPBEAR_OPTIONS=”-I 180 –j –k –p 2222 -s”
+    DROPBEAR_OPTIONS="-I 180 –j –k –p 2222 -s"
     ```
 
 1. Set Static IP (optional)
