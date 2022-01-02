@@ -1,5 +1,5 @@
 ---
-title: Remote Unlock your LVM-encrypted Hard Drive
+title: Remote Unlock your LUKS-encrypted Hard Drive
 tags:
   - ubuntu
   - linux
