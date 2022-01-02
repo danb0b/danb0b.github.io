@@ -52,3 +52,9 @@ mv bitwarden.desktop ~/.local/share/applications
 ```
 
 And you're good to go!
+
+# Install Browser plugins
+
+go here: <https://bitwarden.com/download/>
+
+Install for your browser.
