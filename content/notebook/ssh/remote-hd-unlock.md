@@ -1,5 +1,5 @@
 ---
-title: Remote Unlock your LVM-encrypted Hard Drive
+title: Remote Unlock your LUKS-encrypted Hard Drive
 tags:
   - ubuntu
   - linux
@@ -51,7 +51,7 @@ weight: 10
     * -s - disable password logins
     
     ```
-    DROPBEAR_OPTIONS=”-I 180 –j –k –p 2222 -s”
+    DROPBEAR_OPTIONS="-I 180 –j –k –p 2222 -s"
     ```
 
 1. Set Static IP (optional)
@@ -115,6 +115,7 @@ weight: 10
 
 ## References
 
+* <https://www.pbworks.net/ubuntu-guide-dropbear-ssh-server-to-unlock-luks-encrypted-pc/>
 * <https://unix.stackexchange.com/questions/411945/luks-ssh-unlock-strange-behaviour-invalid-authorized-keys-file>
 * <https://unix.stackexchange.com/questions/5017/ssh-to-decrypt-encrypted-lvm-during-headless-server-boot>
 * [instructions for using a usb stick](https://gist.github.com/da-n/4c77d09720f3e5989dd0f6de5fe3cbfb)
