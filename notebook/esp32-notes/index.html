@@ -1,0 +1,363 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<title> ESP32 Notes | Dan Aukes </title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="This is meta description">
+<meta name=author content="Dan Aukes">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=stylesheet href=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/slick/slick.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/themify-icons/themify-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/venobox/venobox.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/scss/style.min.css media=screen>
+<link rel="shortcut icon" href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<link rel=icon href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'),ga('create','','auto'),ga('send','pageview')</script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body>
+<div class=preloader>
+</div>
+<header class=navigation>
+<div class=container>
+<nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+<a class="navbar-brand mobile-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i>
+</button>
+<div class="collapse navbar-collapse text-center" id=navigation>
+<div class=desktop-view>
+<ul class="navbar-nav mr-auto">
+<li class=nav-item>
+<a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a>
+</li>
+</ul>
+</div>
+<a class="navbar-brand mx-auto desktop-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<ul class=navbar-nav>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/bookmarks/>Bookmarks</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/notebook/>Notebook</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/recipes/>Recipes</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/websites/>Websites</a>
+</li>
+</ul>
+<div class="search pl-lg-4">
+<button id=searchOpen class=search-btn><i class=ti-search></i></button>
+<div class=search-wrapper>
+<form action=http://www.danaukes.com//search class=h-100>
+<input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter...">
+</form>
+<button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<section class=section-sm>
+<div class=container>
+<div class=text-center>
+<a href=/notebook>notebook</a>
+<i class=ti-arrow-right></i>
+<a href=./>esp32-notes</a>
+</div>
+<div class=row>
+<div class="col-lg-8 mx-auto">
+<h2>ESP32 Notes</h2>
+<div class="mb-3 post-meta">
+<span>By Dan Aukes</span>
+</div>
+<div class="content mb-5">
+<h2 id=example-projects>Example Projects</h2>
+<ul>
+<li><a href=https://randomnerdtutorials.com/projects-esp32/>https://randomnerdtutorials.com/projects-esp32/</a></li>
+</ul>
+<h2 id=external-links>External Links</h2>
+<ul>
+<li>Official MicroPython <a href=https://micropython.org/download/esp32/>Page</a></li>
+<li>uPyCraft IDE <a href=https://github.com/DFRobot/uPyCraft>Github Repository</a></li>
+</ul>
+<h2 id=product-comparison>Product Comparison</h2>
+<ul>
+<li>
+<p><a href=https://makeradvisor.com/esp32-development-boards-review-comparison/>https://makeradvisor.com/esp32-development-boards-review-comparison/</a></p>
+</li>
+<li>
+<p><a href="https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32D?qs=%252BEew9%252B0nqrDsObWEpDx6YQ%3D%3D&mgh=1&gclid=CjwKCAjwybyJBhBwEiwAvz4G74ePru_-tQfWS_DEqBxOR0LHcscr8IffqZhiS-5BOsP_XoH8helCLRoCF3wQAvD_BwE">https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32D?qs=%252BEew9%252B0nqrDsObWEpDx6YQ%3D%3D&mgh=1&gclid=CjwKCAjwybyJBhBwEiwAvz4G74ePru_-tQfWS_DEqBxOR0LHcscr8IffqZhiS-5BOsP_XoH8helCLRoCF3wQAvD_BwE</a></p>
+</li>
+<li>
+<p><a href="https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitC-02?qs=stqOd1AaK7%2F1Q62ysr4CMA%3D%3D">https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKitC-02?qs=stqOd1AaK7%2F1Q62ysr4CMA%3D%3D</a></p>
+</li>
+<li>
+<p><a href="https://www.mouser.com/c/embedded-solutions/engineering-tools/embedded-processor-development-kits/?m=Espressif">mouser search</a></p>
+</li>
+<li>
+<p><a href="https://www.digikey.com/en/products/filter/rf-evaluation-and-development-kits-boards/859?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAusQA4AuUIAykwE4CWAdgOYgAvsQC0AFmQg0kLHiKkKIAGwBWAMywktISJAAmJflwNOx3N3QACACb4AblYBGJTJxt0hQA">digikey search</a></p>
+</li>
+</ul>
+<h2 id=esp32-dev-board-wroom-info>ESP32 Dev Board WROOM info</h2>
+<p><a href=https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/</a></p>
+<h2 id=micropython-general-refs>micropython general refs</h2>
+<ul>
+<li><a href=https://docs.micropython.org/en/latest/esp32/quickref.html>https://docs.micropython.org/en/latest/esp32/quickref.html</a></li>
+</ul>
+<h2 id=install-micropython-ide>Install micropython IDE</h2>
+<p>derived from <a href=https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/>here</a></p>
+<ul>
+<li>
+<p><a href=https://randomnerdtutorials.com/install-upycraft-ide-windows-pc-instructions/>Windows Instructions</a></p>
+</li>
+<li>
+<p><a href=https://randomnerdtutorials.com/install-upycraft-ide-mac-os-x-instructions/>Mac Instructions</a></p>
+</li>
+<li>
+<p><a href=https://randomnerdtutorials.com/install-upycraft-ide-linux-ubuntu-instructions/>Linux Instructions</a></p>
+</li>
+<li>
+<p><a href=https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>Using VSCode</a></p>
+</li>
+<li>
+<p><a href=https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/>Installing Thonny(randomnerd)</a></p>
+</li>
+<li>
+<p><a href=https://microcontrollerslab.com/getting-started-thonny-micropython-ide-esp32-esp8266/>Installing Thonny(microcontrollerslab)</a></p>
+<ol>
+<li>
+<p>Installing</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo pip3 install thonny
+</code></pre></div></li>
+</ol>
+<p>pip install thonny # use this if anaconda is installed
+```</p>
+<ol>
+<li>
+<p>Running</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>thonny
+</code></pre></div></li>
+</ol>
+</li>
+</ul>
+<h2 id=flash-mupython>Flash $\mu$python</h2>
+<p>You will need the esptool from espressif (<a href=https://github.com/espressif/esptool>github</a>)</p>
+<p>It can be installed via pip from command line:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>pip install esptool
+</code></pre></div><p>First erase the flash</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+</code></pre></div><p>From then on program the firmware starting at address 0x1000:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>esptool.py --chip esp32 --port /dev/ttyUSB0 --baud <span style=color:#ae81ff>460800</span> write_flash -z 0x1000 esp32-20190125-v1.10.bin
+</code></pre></div><ul>
+<li><a href=https://micropython.org/download/esp32/>https://micropython.org/download/esp32/</a></li>
+<li><a href=https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/>https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/</a></li>
+<li><a href=https://randomnerdtutorials.com/flash-upload-micropython-firmware-esp32-esp8266/>https://randomnerdtutorials.com/flash-upload-micropython-firmware-esp32-esp8266/</a></li>
+</ul>
+<h2 id=arduino-instructions>Arduino Instructions</h2>
+<p><a href=/notebook/computer-setup/03-common-tools>Install Arduino</a></p>
+<p>Follow this <a href=https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/>tutorial</a> to install ESP32 support on arduino</p>
+<h3 id=alert>Alert</h3>
+<p>If you have python3 installed and linked to python, you&rsquo;ll need to direct arduino to use it</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#111>echo</span> <span style=color:#d88200>&#34;alias python=python3&#34;</span> &gt;&gt; .bashrc
+</code></pre></div><p>then open arduino from the terminal</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>arduino
+</code></pre></div><h2 id=examples>Examples</h2>
+<h3 id=mqtt>MQTT</h3>
+<ul>
+<li><a href=https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/>MQTT tutorial</a>
+<ul>
+<li><a href=https://raw.githubusercontent.com/RuiSantosdotme/ESP-MicroPython/master/code/MQTT/umqttsimple.py>umqttsimple.py</a> from <a href=https://github.com/RuiSantosdotme/ESP-MicroPython/tree/master/code/MQTT>this github repo</a></li>
+</ul>
+</li>
+<li><a href=https://boneskull.com/micropython-on-esp32-part-2/>MQTT Example #2</a></li>
+<li><a href=https://github.com/gloveboxes/ESP32-MicroPython-BME280-MQTT-Sample/>MQTT Example #3</a></li>
+</ul>
+<h3 id=serial>Serial</h3>
+<ul>
+<li><a href=https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html</a></li>
+<li><a href=https://docs.micropython.org/en/latest/library/machine.UART.html>https://docs.micropython.org/en/latest/library/machine.UART.html</a></li>
+<li><a href=https://techoverflow.net/2020/02/22/micropython-esp32-minimal-uart-example/>https://techoverflow.net/2020/02/22/micropython-esp32-minimal-uart-example/</a></li>
+</ul>
+<h2 id=faq-from-amazon>FAQ (from amazon)</h2>
+<pre><code>1
+vote
+
+Question:
+What board should be selected from the arduino esp32 support?
+Answer:
+Please use the NodeMCU-32S profile
+By Xiuxin Seller on September 17, 2018
+
+1
+vote
+
+Question:
+What is the size of the Flash memory on the module?
+Answer:
+4MB
+By Xiuxin Seller on March 11, 2019
+
+0
+votes
+
+Question:
+What is the processor clock speed (Mhz) ?
+Answer:
+The processor clock speed is 240 MHz, as indicated by esptool.py during &quot;make flash:&quot;
+
+Chip is ESP32D0WDQ6 (revision 1) … see more
+By Music Maker on April 1, 2019
+2500 Mhz
+By Xiuxin Seller on January 7, 2019
+Collapse all answers
+
+0
+votes
+
+Question:
+Where can I find a schematic, or any documentation at all? It came with zilch.
+Answer:
+https://github.com/Nicholas3388/LuaNode
+By Christian U. on May 2, 2019
+https://spacehuhn.com
+By GEORGE ALLEN on May 1, 2019
+Collapse all answers
+
+0
+votes
+
+Question:
+What board should I choose? I followed espressif git configurations
+Answer:
+problem with this one is it's too wide to fit on a standard breadboard.. you'll need to be creative. https://www.youtube.com/watch?v=RtUIegaN644
+By I'm Rich James on August 2, 2018
+
+0
+votes
+
+Question:
+why is there a capacitor soldered from the &quot;en&quot; button to some weird point on the board. this does not show up in the description
+Answer:
+It allows the board to automatically enter boot mode to receive code uploads. Otherwise, you have to hold the boot button during code upload.
+By Spaceboyr00 on March 9, 2020
+Sorry I don’t know the answer.
+By Americubariqueño on November 18, 2019
+Collapse all answers
+
+0
+votes
+
+Question:
+Does this board can read in analog values?
+Answer:
+Yes, there are 15 analog inputs and the analog voltages 0v to 3.3v map to digital values of 0 to 4095 respectively.
+By Larry J. on January 29, 2019
+THere are 2 ADC's Each with about 7 AI's. However, ADC 2 is not available when WiFi is active. So, yes its there, but not really
+By jt on July 22, 2019
+Collapse all answers
+
+0
+votes
+
+Question:
+Where can I find a pinout? Which pins are analog?
+Answer:
+Google search with name of the board
+By Dawid W. on August 18, 2021
+
+0
+votes
+
+Question:
+can this charge a lipo battery?
+Answer:
+You need additional module to charge a battery
+By Dawid W. on August 18, 2021
+
+0
+votes
+
+Question:
+What is the spacing on the mounting holes?
+Answer:
+approx. 47mm x 23.5mm (I never use the mounting holes, 30 soldered pins is more than enough)
+By Steve Weingart on August 18, 2021
+They fit a standard breadboard. So 1/10&quot; or 2.54mm
+By Jerry Stephens on August 18, 2021
+46 x 18mm and 46 x 19mm on the other side as close as I can measure
+By Jim V on August 18, 2021
+The board is about quarter size in width
+By Dawid W. on August 18, 2021
+Collapse all answers 
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class=text-capitalize>
+<div class=container>
+<div class="row justify-content-center">
+<div class="col-12 border-top py-4 text-center">
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Contact Me</h6>
+<ul class=list-unstyled>
+<li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li>
+</li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>External</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li>
+<li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li>
+<li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Quick Links</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/about/>About</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/calendar/>Calendar</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/contact/>Contact</a></li>
+</ul>
+</div>
+<div class="col-12 mb-5 text-center">
+<a href=http://www.danaukes.com/><img src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+</div>
+<div class="col-12 mb-5 text-center">
+<p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/esp32-notes.md> Edit this Page</a></p>
+</div>
+</div>
+</div>
+</footer>
+<script>var indexURL="http://www.danaukes.com/index.json"</script>
+<script src=http://www.danaukes.com/plugins/jQuery/jquery.min.js></script>
+<script src=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
+<script src=http://www.danaukes.com/plugins/slick/slick.min.js></script>
+<script src=http://www.danaukes.com/plugins/venobox/venobox.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/fuse.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/mark.js></script>
+<script src=http://www.danaukes.com/plugins/search/search.js></script>
+<script src=http://www.danaukes.com/js/script.min.js></script>
+</body>
+</html>

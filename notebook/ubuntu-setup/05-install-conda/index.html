@@ -1,0 +1,284 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<title> 05-Conda Install | Dan Aukes </title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="This is meta description">
+<meta name=author content="Dan Aukes">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=stylesheet href=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/slick/slick.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/themify-icons/themify-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/venobox/venobox.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/scss/style.min.css media=screen>
+<link rel="shortcut icon" href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<link rel=icon href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'),ga('create','','auto'),ga('send','pageview')</script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body>
+<div class=preloader>
+</div>
+<header class=navigation>
+<div class=container>
+<nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+<a class="navbar-brand mobile-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i>
+</button>
+<div class="collapse navbar-collapse text-center" id=navigation>
+<div class=desktop-view>
+<ul class="navbar-nav mr-auto">
+<li class=nav-item>
+<a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a>
+</li>
+</ul>
+</div>
+<a class="navbar-brand mx-auto desktop-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<ul class=navbar-nav>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/bookmarks/>Bookmarks</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/notebook/>Notebook</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/recipes/>Recipes</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/websites/>Websites</a>
+</li>
+</ul>
+<div class="search pl-lg-4">
+<button id=searchOpen class=search-btn><i class=ti-search></i></button>
+<div class=search-wrapper>
+<form action=http://www.danaukes.com//search class=h-100>
+<input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter...">
+</form>
+<button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<section class=section-sm>
+<div class=container>
+<div class=text-center>
+<a href=/notebook>notebook</a>
+<i class=ti-arrow-right></i>
+<a href=/notebook/ubuntu-setup>ubuntu-setup</a>
+<i class=ti-arrow-right></i>
+<a href=./>05-install-conda</a>
+</div>
+<div class=row>
+<div class="col-lg-8 mx-auto">
+<h2>05-Conda Install</h2>
+<div class="mb-3 post-meta">
+<span>By Dan Aukes</span>
+</div>
+<div class="content mb-5">
+<h2 id=install-latest-anaconda--miniconda>Install Latest Anaconda / Miniconda</h2>
+<table>
+<thead>
+<tr>
+<th style=text-align:left>Windows</th>
+<th style=text-align:left>Linux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:left><a href=https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe>64-bit Miniconda</a></td>
+<td style=text-align:left><a href=https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh>64-bit Miniconda</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id=linux-install>Linux Install</h3>
+<pre tabindex=0><code>cd ~/Downloads
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+</code></pre><p>follow the instructions</p>
+<pre tabindex=0><code>cd ~/
+source ~/.bashrc
+</code></pre><h2 id=windows-install>Windows Install</h2>
+<p>Set powershell-specific security settings</p>
+<p>from <a href=https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell>https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell</a></p>
+<pre tabindex=0><code>Set-ExecutionPolicy remotesigned
+conda init powershell
+</code></pre><p>Other security options (may break conda script)</p>
+<pre tabindex=0><code>#Set-ExecutionPolicy AllSigned
+</code></pre><h2 id=install-packages>Install Packages</h2>
+<p>Update Conda</p>
+<pre tabindex=0><code>conda update -y -n base conda
+</code></pre><h3 id=install-full-anaconda>Install full anaconda</h3>
+<p>If you&rsquo;ve installed miniconda only and realize you want the full anaconda pipeline</p>
+<pre tabindex=0><code>conda install -y anaconda
+</code></pre><h3 id=conda-packages-not-included-in-anaconda>Conda packages not included in anaconda</h3>
+<pre tabindex=0><code>conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
+</code></pre><h3 id=install-pip-packages>Install pip packages</h3>
+<pre tabindex=0><code>python -m pip install --upgrade pip
+pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel
+</code></pre><h3 id=pandoc-citeproc>pandoc citeproc</h3>
+<p>windows</p>
+<pre tabindex=0><code>pip install pandoc-citeproc
+</code></pre><p>ubuntu</p>
+<pre tabindex=0><code>sudo apt install -y pandoc-citeproc
+</code></pre><h3 id=pip-packages-that-need-a-compiler-optional>Pip packages that need a compiler (optional)</h3>
+<pre tabindex=0><code>pip install spectrum pybullet roslibpy
+</code></pre><h3 id=update-everything-to-make-sure-its-all-consistent>Update everything to make sure it&rsquo;s all consistent</h3>
+<pre tabindex=0><code>conda update -y --all
+</code></pre><h3 id=map-miniconda-to-anaconda>map miniconda to anaconda</h3>
+<pre tabindex=0><code>mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+</code></pre><h2 id=other-environments>Other Environments</h2>
+<h3 id=pychrono>PyChrono</h3>
+<p>To install chrono, you must make a different environment, as it conflicts with some of the packages here.</p>
+<pre tabindex=0><code>sudo apt install libirrlicht-dev
+
+conda create -n chrono
+conda activate chrono
+conda install -y -c projectchrono/label/develop pychrono
+conda install -y spyder numpy matplotlib scipy
+conda install -c dlr-sc pythonocc-core #permits you to use python-occ to generate some geometry
+</code></pre><p>Options</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>conda install -y -c projectchrono pychrono <span style=color:#75715e># to install the stable install</span>
+conda install -y -c conda-forge irrlicht <span style=color:#75715e># not sure it&#39;s needed</span>
+</code></pre></div><hr>
+<h2 id=older-stuff>Older Stuff</h2>
+<h3 id=kivy-development-specific-packages-optional>Kivy Development specific packages (optional)</h3>
+<pre tabindex=0><code>#python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+#python -m pip install kivy.deps.gstreamer
+</code></pre><h3 id=packages-required-for-some-of-my-vision-based-packages-opencv-downgrades-python>Packages required for some of my vision based packages. (opencv downgrades python)</h3>
+<pre tabindex=0><code>conda install opencv
+pip install
+#pip install smtplib pygraphviz
+</code></pre><h3 id=cx_freeze>CX_freeze</h3>
+<p>Useful older package for making executables. Old instructions</p>
+<p>go to cx_freeze mod</p>
+<pre tabindex=0><code>python setup.py install
+</code></pre><h3 id=older-debuggable-python>Older debuggable python</h3>
+<pre tabindex=0><code>conda create -y -n debug python=3.5 spyder=3.1.4
+activate debug
+conda update conda
+conda install -y menuinst
+conda install -y  ipykernel=4.8 cython mkl imageio jinja2 jupyter lxml matplotlib networkx numpy pandoc pillow pyflakes pyqt pyyaml ruamel_yaml scipy setuptools sphinx spyder sympy tornado
+conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo
+#conda install -y -c conda-forge shapely
+conda install -y shapely
+conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
+python -m pip install --upgrade pip
+pip install meshio pygmsh ezdxf twine pypdf4
+
+#python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+#python -m pip install kivy.deps.gstreamer
+
+# go to cx_freeze mod
+python setup.py install
+
+conda update -y --all
+#stuff required for pydevtools
+conda install pycrypto opencv requests pyserial
+pip install ntplib pygame pygraphviz pysftp smtplib
+</code></pre><h3 id=pythonocc>PythonOCC</h3>
+<pre tabindex=0><code>conda create -y -n occ python ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
+activate occ
+conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
+conda install -y  ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
+conda update -y -n base conda
+conda update -y --all
+</code></pre><h3 id=opencv-install>OpenCV install</h3>
+<pre tabindex=0><code>conda create -n opencv python=3.7
+conda activate opencv
+conda install spyder opencv pyopencv
+pip install imutils
+</code></pre><h3 id=conda-packages-not-available-from-main-channels>Conda packages not available from main channels</h3>
+<pre tabindex=0><code>conda install -c conda-forge scikit-geometry poppler
+</code></pre><h3 id=pychrono-1>pychrono</h3>
+<pre tabindex=0><code>conda  install projectchrono/label/develop::pychrono
+</code></pre><hr>
+<h2 id=server-install>server install</h2>
+<p>Just for servers, no research code running</p>
+<pre tabindex=0><code>cd ~/Downloads
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+cd ~/
+source ~/.bashrc
+conda update -y -n base conda
+conda install -y pip gitpython requests[socks] pyyaml
+python -m pip install --upgrade pip
+pip install twine service_identity pygithub scp pysftp
+
+
+mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+
+
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class=text-capitalize>
+<div class=container>
+<div class="row justify-content-center">
+<div class="col-12 border-top py-4 text-center">
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Contact Me</h6>
+<ul class=list-unstyled>
+<li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li>
+</li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>External</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li>
+<li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li>
+<li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Quick Links</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/about/>About</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/calendar/>Calendar</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/contact/>Contact</a></li>
+</ul>
+</div>
+<div class="col-12 mb-5 text-center">
+<a href=http://www.danaukes.com/><img src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+</div>
+<div class="col-12 mb-5 text-center">
+<p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ubuntu-setup/05-install-conda.md> Edit this Page</a></p>
+</div>
+</div>
+</div>
+</footer>
+<script>var indexURL="http://www.danaukes.com/index.json"</script>
+<script src=http://www.danaukes.com/plugins/jQuery/jquery.min.js></script>
+<script src=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
+<script src=http://www.danaukes.com/plugins/slick/slick.min.js></script>
+<script src=http://www.danaukes.com/plugins/venobox/venobox.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/fuse.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/mark.js></script>
+<script src=http://www.danaukes.com/plugins/search/search.js></script>
+<script src=http://www.danaukes.com/js/script.min.js></script>
+</body>
+</html>

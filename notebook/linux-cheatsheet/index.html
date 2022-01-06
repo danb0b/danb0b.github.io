@@ -1,0 +1,273 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<title> Linux / Bash Cheatsheet | Dan Aukes </title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="This is meta description">
+<meta name=author content="Dan Aukes">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=stylesheet href=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/slick/slick.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/themify-icons/themify-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/venobox/venobox.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/scss/style.min.css media=screen>
+<link rel="shortcut icon" href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<link rel=icon href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'),ga('create','','auto'),ga('send','pageview')</script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body>
+<div class=preloader>
+</div>
+<header class=navigation>
+<div class=container>
+<nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+<a class="navbar-brand mobile-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i>
+</button>
+<div class="collapse navbar-collapse text-center" id=navigation>
+<div class=desktop-view>
+<ul class="navbar-nav mr-auto">
+<li class=nav-item>
+<a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a>
+</li>
+</ul>
+</div>
+<a class="navbar-brand mx-auto desktop-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<ul class=navbar-nav>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/bookmarks/>Bookmarks</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/notebook/>Notebook</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/recipes/>Recipes</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/websites/>Websites</a>
+</li>
+</ul>
+<div class="search pl-lg-4">
+<button id=searchOpen class=search-btn><i class=ti-search></i></button>
+<div class=search-wrapper>
+<form action=http://www.danaukes.com//search class=h-100>
+<input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter...">
+</form>
+<button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<section class=section-sm>
+<div class=container>
+<div class=text-center>
+<a href=/notebook>notebook</a>
+<i class=ti-arrow-right></i>
+<a href=./>linux-cheatsheet</a>
+</div>
+<div class=row>
+<div class="col-lg-8 mx-auto">
+<h2>Linux / Bash Cheatsheet</h2>
+<div class="mb-3 post-meta">
+<span>By Dan Aukes</span>
+</div>
+<div class="content mb-5">
+<h2 id=find-kernel-version>Find Kernel version</h2>
+<pre tabindex=0><code>uname -r
+</code></pre><p>More detailed information</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>uname -a
+</code></pre></div><h2 id=device--driver-info>Device / driver info</h2>
+<pre tabindex=0><code>lsmod
+lspci -k
+dmesg
+</code></pre><h2 id=search-path>search path</h2>
+<p>.bashrc holds path variables.</p>
+<h2 id=gui>GUI</h2>
+<p>ctrl-h hides and shows &ldquo;dot&rdquo; files in nautilus like <code>.config</code> or <code>.ssh/</code></p>
+<h2 id=password>Password</h2>
+<pre tabindex=0><code>sudo passwd &lt;username&gt;
+</code></pre><h2 id=networking>Networking</h2>
+<pre tabindex=0><code>ifconfig
+</code></pre><pre tabindex=0><code>ifconfig up [deviceid]
+</code></pre><pre tabindex=0><code>ip link
+</code></pre><pre tabindex=0><code>ip addr
+</code></pre><h2 id=apt--dpkg>APT / dpkg</h2>
+<pre tabindex=0><code>sudo apt list --installed &lt;package-name-start*&gt;
+</code></pre><pre tabindex=0><code>sudo apt --reinstall install &lt;package&gt;
+</code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>dpkg --list <span style=color:#111>|</span> grep &lt;package-name-fragment&gt;
+</code></pre></div><h2 id=devices>Devices</h2>
+<pre tabindex=0><code>sudo libinput --list-devices
+</code></pre><h2 id=findreplace>Find/Replace</h2>
+<p>To change the file in place:</p>
+<pre tabindex=0><code>sed -i &quot;s/regex/replace/&quot; file
+</code></pre><p>or</p>
+<pre tabindex=0><code>sed -i &quot;s|regex|replace|&quot; file
+</code></pre><p>To copy output to a new file</p>
+<pre tabindex=0><code>sed &quot;s/regex/replace/&quot; filein &gt; fileout
+</code></pre><p>List all kernel images installed:</p>
+<pre tabindex=0><code>$ dpkg --list | grep linux-image
+</code></pre><h2 id=ubuntu-specific>Ubuntu Specific</h2>
+<p>From <a href=https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>https://fostips.com/lid-close-action-ubuntu-21-04-laptop/</a></p>
+<p>edit <code>/etc/systemd/logind.conf</code> to configure power options such as lid closing opening,</p>
+<pre tabindex=0><code>HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+HandleLidSwitchDocked=ignore
+</code></pre><ol>
+<li>Restart Service</li>
+</ol>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>systemctl restart systemd-logind.service
+</code></pre></div><h2 id=users-groups>Users, groups</h2>
+<p>From:</p>
+<ul>
+<li><a href=https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/</a></li>
+<li><a href=https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the>https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the</a></li>
+</ul>
+<ol>
+<li>
+<p>Create a new user</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo adduser username
+</code></pre></div></li>
+<li>
+<p>Find groups associated with current user:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>groups <span style=color:#111>$USER</span>
+</code></pre></div></li>
+<li>
+<p>Add new user to new groups</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo usermod -aG adm username
+sudo usermod -aG sudo username
+<span style=color:#75715e>#...</span>
+</code></pre></div></li>
+</ol>
+<h3 id=remove-user>Remove User</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo deluser --remove-home username
+</code></pre></div><h3 id=force-new-password>Force new password</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>passwd --expire &lt;username_here&gt;
+</code></pre></div><h3 id=expire--unexpire>Expire / unexpire</h3>
+<p>from <a href=https://askubuntu.com/questions/282806/how-to-enable-or-disable-a-user>here</a></p>
+<p>Expire Account</p>
+<p>Let the account expire to disallowing a user from logging in from any source including ssh:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># disallow peter from logging in</span>
+sudo usermod --expiredate <span style=color:#ae81ff>1</span> peter
+</code></pre></div><p>This is how you can reenable that account:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># set expiration date of peter to Never</span>
+sudo usermod --expiredate <span style=color:#d88200>&#34;&#34;</span> peter
+</code></pre></div><h3 id=list-all-users--groups>List all users / groups</h3>
+<p>users:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cut -d: -f1 /etc/passwd
+getent passwd
+</code></pre></div><p>groups:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cut -d: -f1 /etc/group
+getent group
+</code></pre></div><h3 id=find-out-who-is-logged-on>find out who is logged on</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>users
+who
+</code></pre></div><h2 id=update-distro>Update Distro</h2>
+<p>Based on <a href=https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/>this link</a></p>
+<ol>
+<li>
+<p>Might as well be fully updated first</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt update
+sudo apt upgrade
+sudo shutdown -r now
+</code></pre></div></li>
+<li>
+<p>edit which upgrade you want to do (lts or normal)</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo nano /etc/update-manager/release-upgrades
+</code></pre></div><p>change <code>prompt=lts</code> to <code>prompt=normal</code></p>
+</li>
+<li>
+<p>run updater</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#00a8c8>do</span>-release-upgrade
+</code></pre></div><p>you may need to indicate what to do with specific config files that get updated.</p>
+</li>
+<li>
+<p>Restart</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo shutdown -r now
+</code></pre></div></li>
+</ol>
+<h2 id=get-ip-info>get ip info</h2>
+<p>from <a href=https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/>here</a></p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>ifconfig
+host myip.opendns.com resolver1.opendns.com
+dig @resolver4.opendns.com myip.opendns.com +short
+</code></pre></div><h3 id=get-mac>get mac</h3>
+<p><a href=https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132>https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132</a></p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>arp -a &lt;ip address&gt;
+</code></pre></div><h2 id=sudo>sudo</h2>
+<p>to run something as root</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo &lt;command&gt; <span style=color:#f92672>[</span><span style=color:#111>command</span> options<span style=color:#f92672>]</span>
+</code></pre></div><p>to run interactively as root</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo -i
+</code></pre></div><p>to run something as someone else</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo -i -u &lt;username&gt;
+</code></pre></div><p>run <code>exit</code> to leave that session</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class=text-capitalize>
+<div class=container>
+<div class="row justify-content-center">
+<div class="col-12 border-top py-4 text-center">
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Contact Me</h6>
+<ul class=list-unstyled>
+<li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li>
+</li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>External</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li>
+<li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li>
+<li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Quick Links</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/about/>About</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/calendar/>Calendar</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/contact/>Contact</a></li>
+</ul>
+</div>
+<div class="col-12 mb-5 text-center">
+<a href=http://www.danaukes.com/><img src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+</div>
+<div class="col-12 mb-5 text-center">
+<p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/linux-cheatsheet.md> Edit this Page</a></p>
+</div>
+</div>
+</div>
+</footer>
+<script>var indexURL="http://www.danaukes.com/index.json"</script>
+<script src=http://www.danaukes.com/plugins/jQuery/jquery.min.js></script>
+<script src=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
+<script src=http://www.danaukes.com/plugins/slick/slick.min.js></script>
+<script src=http://www.danaukes.com/plugins/venobox/venobox.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/fuse.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/mark.js></script>
+<script src=http://www.danaukes.com/plugins/search/search.js></script>
+<script src=http://www.danaukes.com/js/script.min.js></script>
+</body>
+</html>

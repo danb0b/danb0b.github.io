@@ -1,0 +1,306 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<title> 09-Install and Configure Atom | Dan Aukes </title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="This is meta description">
+<meta name=author content="Dan Aukes">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=stylesheet href=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/slick/slick.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/themify-icons/themify-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/venobox/venobox.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/scss/style.min.css media=screen>
+<link rel="shortcut icon" href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<link rel=icon href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'),ga('create','','auto'),ga('send','pageview')</script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body>
+<div class=preloader>
+</div>
+<header class=navigation>
+<div class=container>
+<nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+<a class="navbar-brand mobile-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i>
+</button>
+<div class="collapse navbar-collapse text-center" id=navigation>
+<div class=desktop-view>
+<ul class="navbar-nav mr-auto">
+<li class=nav-item>
+<a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a>
+</li>
+</ul>
+</div>
+<a class="navbar-brand mx-auto desktop-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<ul class=navbar-nav>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/bookmarks/>Bookmarks</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/notebook/>Notebook</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/recipes/>Recipes</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/websites/>Websites</a>
+</li>
+</ul>
+<div class="search pl-lg-4">
+<button id=searchOpen class=search-btn><i class=ti-search></i></button>
+<div class=search-wrapper>
+<form action=http://www.danaukes.com//search class=h-100>
+<input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter...">
+</form>
+<button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<section class=section-sm>
+<div class=container>
+<div class=text-center>
+<a href=/notebook>notebook</a>
+<i class=ti-arrow-right></i>
+<a href=/notebook/ubuntu-setup>ubuntu-setup</a>
+<i class=ti-arrow-right></i>
+<a href=./>09-install-atom</a>
+</div>
+<div class=row>
+<div class="col-lg-8 mx-auto">
+<h2>09-Install and Configure Atom</h2>
+<div class="mb-3 post-meta">
+<span>By Dan Aukes</span>
+</div>
+<div class="content mb-5">
+<ol>
+<li>
+<p>Install</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey <span style=color:#111>|</span> sudo apt-key add -
+sudo sh -c <span style=color:#d88200>&#39;echo &#34;deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main&#34; &gt; /etc/apt/sources.list.d/atom.list&#39;</span>
+sudo apt-get update
+sudo apt-get install -y atom
+apm install language-markdown markdown-preview-plus markdown-table-formatter wordcount
+<span style=color:#75715e># should already have texlive-full installed...</span>
+sudo apt install latexmk
+apm install language-latex latex pdf-view
+</code></pre></div></li>
+<li>
+<p>Load custom configuration file</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cp -r /my/remote/filesystem/atom/* ~/.atom/
+</code></pre></div></li>
+<li>
+<p>Current config file</p>
+<pre tabindex=0><code>&quot;*&quot;:
+  core:
+    disabledPackages: [
+      &quot;markdown-preview&quot;
+      &quot;markdown-scroll-sync&quot;
+      &quot;language-gfm&quot;
+      &quot;markdown-writer&quot;
+      &quot;busy-signal&quot;
+      &quot;intentions&quot;
+      &quot;linter&quot;
+      &quot;linter-ui-default&quot;
+      &quot;linter-markdown&quot;
+      &quot;whitespace&quot;
+      &quot;autocomplete-atom-api&quot;
+      &quot;autocomplete-plus&quot;
+      &quot;autocomplete-css&quot;
+      &quot;autocomplete-html&quot;
+      &quot;autocomplete-snippets&quot;
+      &quot;go-to-line&quot;
+      &quot;markdown-folding&quot;
+      &quot;markdown-table-editor&quot;
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      &quot;markdown-table-editor&quot;
+    ]
+    telemetryConsent: &quot;no&quot;
+    uriHandlerRegistration: &quot;always&quot;
+  editor:
+    fontSize: 15
+    preferredLineLength: 160
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  &quot;language-markdown&quot;:
+    autoIncrementListItems: false
+    indentListItems: false
+    removeEmptyListItems: false
+  latex: {}
+  &quot;markdown-preview-plus&quot;:
+    markdownItConfig:
+      blockMathSeparators: [
+        &quot;$$&quot;
+        &quot;$$&quot;
+      ]
+      inlineMathSeparators: [
+        &quot;$&quot;
+        &quot;$&quot;
+      ]
+      useCheckBoxes: false
+      useEmoji: false
+      useImsize: false
+      useLazyHeaders: false
+    mathConfig:
+      enableLatexRenderingByDefault: true
+      latexRenderer: &quot;HTML-CSS&quot;
+    pandocConfig:
+      pandocArguments: [
+        &quot;--citeproc&quot;
+      ]
+      pandocCSLFile: &quot;ieee.csl&quot;
+      pandocRemoveReferences: false
+    previewConfig: {}
+    renderer: &quot;pandoc&quot;
+    saveConfig:
+      saveToPDFOptions:
+        pageSize: &quot;Letter&quot;
+    syncConfig:
+      syncEditorOnPreviewScroll: true
+      syncPreviewOnChange: true
+      syncPreviewOnEditorScroll: true
+  &quot;markdown-table-editor&quot;: {}
+  &quot;markdown-table-formatter&quot;: {}
+  &quot;spell-check&quot;:
+    useLocales: false
+  &quot;tidy-markdown&quot;:
+    runOnSave: false
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+&quot;.md.text&quot;:
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: false
+</code></pre></li>
+<li>
+<p>Current <code>styles.less</code></p>
+<pre tabindex=0><code>/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}
+
+html[data-markdown-preview-plus-context=&quot;live-preview&quot;] body {
+  font-size: 12pt;
+  background-color: #ddd;
+  color: #000;
+
+  strong,h1,h2,h3,h4,h5 {
+  color: #000;
+  }
+  th {
+  color: #000;
+  }
+
+}
+</code></pre></li>
+<li>
+<p>Usage</p>
+<ul>
+<li>ctrl+shift+m to preview markdown pages</li>
+<li>ctrl+s updates table formats in markdown</li>
+<li>ctrl+alt+b to make pdf from latex</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class=text-capitalize>
+<div class=container>
+<div class="row justify-content-center">
+<div class="col-12 border-top py-4 text-center">
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Contact Me</h6>
+<ul class=list-unstyled>
+<li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li>
+</li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>External</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li>
+<li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li>
+<li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Quick Links</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/about/>About</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/calendar/>Calendar</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/contact/>Contact</a></li>
+</ul>
+</div>
+<div class="col-12 mb-5 text-center">
+<a href=http://www.danaukes.com/><img src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+</div>
+<div class="col-12 mb-5 text-center">
+<p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ubuntu-setup/09-install-atom.md> Edit this Page</a></p>
+</div>
+</div>
+</div>
+</footer>
+<script>var indexURL="http://www.danaukes.com/index.json"</script>
+<script src=http://www.danaukes.com/plugins/jQuery/jquery.min.js></script>
+<script src=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
+<script src=http://www.danaukes.com/plugins/slick/slick.min.js></script>
+<script src=http://www.danaukes.com/plugins/venobox/venobox.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/fuse.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/mark.js></script>
+<script src=http://www.danaukes.com/plugins/search/search.js></script>
+<script src=http://www.danaukes.com/js/script.min.js></script>
+</body>
+</html>

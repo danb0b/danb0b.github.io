@@ -1,0 +1,230 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<title> 04-Install Common Tools | Dan Aukes </title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="This is meta description">
+<meta name=author content="Dan Aukes">
+<meta name=generator content="Hugo 0.91.2">
+<link rel=stylesheet href=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/slick/slick.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/themify-icons/themify-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/plugins/venobox/venobox.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css>
+<link rel=stylesheet href=http://www.danaukes.com/scss/style.min.css media=screen>
+<link rel="shortcut icon" href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<link rel=icon href=http://www.danaukes.com/images/favicon.png type=image/x-icon>
+<script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'),ga('create','','auto'),ga('send','pageview')</script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+</head>
+<body>
+<div class=preloader>
+</div>
+<header class=navigation>
+<div class=container>
+<nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+<a class="navbar-brand mobile-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i>
+</button>
+<div class="collapse navbar-collapse text-center" id=navigation>
+<div class=desktop-view>
+<ul class="navbar-nav mr-auto">
+<li class=nav-item>
+<a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a>
+</li>
+</ul>
+</div>
+<a class="navbar-brand mx-auto desktop-view" href=http://www.danaukes.com/><img class=img-fluid src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<ul class=navbar-nav>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/bookmarks/>Bookmarks</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/code/>Code</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/notebook/>Notebook</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/recipes/>Recipes</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=http://www.danaukes.com/websites/>Websites</a>
+</li>
+</ul>
+<div class="search pl-lg-4">
+<button id=searchOpen class=search-btn><i class=ti-search></i></button>
+<div class=search-wrapper>
+<form action=http://www.danaukes.com//search class=h-100>
+<input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter...">
+</form>
+<button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<section class=section-sm>
+<div class=container>
+<div class=text-center>
+<a href=/notebook>notebook</a>
+<i class=ti-arrow-right></i>
+<a href=/notebook/ubuntu-setup>ubuntu-setup</a>
+<i class=ti-arrow-right></i>
+<a href=./>04-common-tools</a>
+</div>
+<div class=row>
+<div class="col-lg-8 mx-auto">
+<h2>04-Install Common Tools</h2>
+<div class="mb-3 post-meta">
+<span>By Dan Aukes</span>
+</div>
+<div class="content mb-5">
+<h2 id=install-common-tools>Install common tools</h2>
+<p>I&rsquo;ve lumped these all together to be able to run it more efficiently. You will need these tools.</p>
+<p>This assumes you installed a &ldquo;minimal&rdquo; version of Ubuntu</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt update
+sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap cheese p7zip-full sound-juicer
+sudo apt install -y cifs-utils
+sudo apt install -y inkscape
+sudo apt install -y paper-icon-theme
+sudo apt install -y openssh-client
+sudo apt install -y libinput-tools <span style=color:#75715e>#not sure what this is used for</span>
+sudo snap install shotcut --classic
+sudo snap install mqtt-explorer 
+sudo snap install hugo --channel<span style=color:#f92672>=</span>extended
+<span style=color:#75715e>#sudo snap install inkscape # doesn&#39;t work well on 21.10</span>
+</code></pre></div><h3 id=latex>Latex</h3>
+<p>This is a big install so plan it for when you can let it go a while</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt install -y texlive-full
+</code></pre></div><h2 id=optional>Optional</h2>
+<h3 id=arduino>Arduino</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#111>cd</span> ~/Downloads
+<span style=color:#75715e>#sudo apt install -y arduino #outdated</span>
+python -mwebbrowser <span style=color:#d88200>&#34;https://www.arduino.cc/en/software&#34;</span>
+wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz
+tar -xvf arduino*linux64.tar.xz 
+<span style=color:#111>cd</span> arduino-1.8.16
+sudo bash install.sh
+</code></pre></div><h3 id=numix-theme>Numix Theme</h3>
+<pre tabindex=0><code>sudo apt update
+sudo add-apt-repository ppa:numix/ppa
+sudo apt install -y gnome-tweaks numix-gtk-theme numix-icon-theme numix-icon-theme-circle
+</code></pre><p>open tweak tool and set icons and theme to numix</p>
+<h3 id=zoom>Zoom</h3>
+<pre tabindex=0><code>cd ~/Downloads
+wget https://asu.zoom.us/client/latest/zoom_amd64.deb
+sudo dpkg -i zoom_amd64.deb 
+sudo apt install -yf
+</code></pre><h3 id=mendeley>Mendeley</h3>
+<p>go to <a href=https://www.mendeley.com/download-mendeley-desktop-legacy#download>https://www.mendeley.com/download-mendeley-desktop-legacy#download</a></p>
+<pre tabindex=0><code>cd ~/Downloads
+sudo dpkg -i mendeleydesktop*.deb
+sudo apt-get install -yf
+</code></pre><h3 id=cisco-vpn-for-asu>Cisco VPN for ASU</h3>
+<ol>
+<li>
+<p>Go to <a href=https://sslvpn.asu.edu/>https://sslvpn.asu.edu/</a> and install the linux client</p>
+</li>
+<li>
+<p>Extract installer image. Locate the download file anyconnect-linux64-#.#.#####-core-vpn-webdeploy-k9.sh.</p>
+</li>
+<li>
+<p>Open Terminal and issue the command:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo bash anyconnect-linux*.sh
+</code></pre></div></li>
+<li>
+<p>add to path</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#111>echo</span> <span style=color:#d88200>&#34;export PATH=\$PATH:/opt/cisco/anyconnect/bin&#34;</span> &gt;&gt; ~/.bashrc
+<span style=color:#111>source</span> ~/.bashrc 
+</code></pre></div></li>
+<li>
+<p>to run from command line, run <code>vpn connect</code> or <code>vpn disconnect</code></p>
+</li>
+</ol>
+<h3 id=virtualbox>Virtualbox</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt install -y virtualbox virtualbox-ext-pack
+sudo usermod -a -G vboxusers <span style=color:#111>$USER</span>
+</code></pre></div><h3 id=flathub>flathub</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+</code></pre></div><h3 id=tor-browser>Tor Browser</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>flatpak install com.github.micahflee.torbrowser-launcher
+</code></pre></div><p>Old method:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e>#sudo add-apt-repository ppa:micahflee/ppa # this repository is deprecated</span>
+sudo apt update 
+sudo apt install torbrowser-launcher
+</code></pre></div><hr>
+<h2 id=deprecated>Deprecated</h2>
+<h3 id=ruby-and-jekyll-toolchain>Ruby and Jekyll Toolchain</h3>
+<p>Trying to move away from ruby and jekyll&mldr;too hard</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt-get update 
+sudo apt install -y ruby git  build-essential ruby-dev pandoc-citeproc
+sudo gem install bundler jekyll
+</code></pre></div><h3 id=screen>Screen</h3>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt install -y screen
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class=text-capitalize>
+<div class=container>
+<div class="row justify-content-center">
+<div class="col-12 border-top py-4 text-center">
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Contact Me</h6>
+<ul class=list-unstyled>
+<li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li>
+</li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>External</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li>
+<li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li>
+<li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li>
+</ul>
+</div>
+<div class="col-lg-4 col-sm-6 mb-5 text-center">
+<h6 class=mb-4>Quick Links</h6>
+<ul class=list-unstyled>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/about/>About</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/calendar/>Calendar</a></li>
+<li class=mb-3><a class=text-dark href=http://www.danaukes.com/contact/>Contact</a></li>
+</ul>
+</div>
+<div class="col-12 mb-5 text-center">
+<a href=http://www.danaukes.com/><img src=http://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+</div>
+<div class="col-12 mb-5 text-center">
+<p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ubuntu-setup/04-common-tools.md> Edit this Page</a></p>
+</div>
+</div>
+</div>
+</footer>
+<script>var indexURL="http://www.danaukes.com/index.json"</script>
+<script src=http://www.danaukes.com/plugins/jQuery/jquery.min.js></script>
+<script src=http://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
+<script src=http://www.danaukes.com/plugins/slick/slick.min.js></script>
+<script src=http://www.danaukes.com/plugins/venobox/venobox.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/fuse.min.js></script>
+<script src=http://www.danaukes.com/plugins/search/mark.js></script>
+<script src=http://www.danaukes.com/plugins/search/search.js></script>
+<script src=http://www.danaukes.com/js/script.min.js></script>
+</body>
+</html>
