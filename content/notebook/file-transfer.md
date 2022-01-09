@@ -1,6 +1,10 @@
 ---
 title: fixing file transfer bug in nautilus
 weight: 99
+tags: 
+  - ubuntu
+  - linux
+  - bash
 ---
 
 

@@ -1,6 +1,10 @@
 ---
 title: QR Code Tools
 weight: 99
+tags:
+  - linux
+  - ubuntu
+	- bash
 ---
 
 modified from [this site](https://linuxcommando.blogspot.com/2020/07/how-to-generate-and-read-qr-code-on.html)

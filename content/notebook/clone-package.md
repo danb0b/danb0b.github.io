@@ -1,6 +1,7 @@
 ---
 title: Duplicate Installed Packages
 tags:
+  - linux
   - ubuntu
 weight: 99
 ---

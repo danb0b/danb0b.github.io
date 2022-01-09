@@ -3,6 +3,7 @@ title: Installing Algo VPN
 tags:
 - ubuntu
 - linux
+- security
 weight: 99
 ---
 
@@ -92,7 +93,7 @@ It is sometimes necessary to create a virtual network to enable computers across
                 "\"#                     Local DNS resolver 172.31.126.44, fd00::f:7e2c                   #\"",
                 ""
             ],
-            "    \"#        The p12 and SSH keys password for new users is jSKjdHpXY       #\"\n",
+            "    \"#        The p12 and SSH keys password for new users is <hidden>       #\"\n",
             "    ",
             "    "
 
@@ -106,28 +107,47 @@ It is sometimes necessary to create a virtual network to enable computers across
 
 from here: <https://github.com/trailofbits/algo/blob/master/docs/client-linux-wireguard.md>
 
-```
-sudo apt update && sudo apt upgrade
-sudo apt install wireguard openresolv
-# Install the config file to the WireGuard configuration directory on your
-# Linux client:
-sudo install -o root -g root -m 600 <username>.conf /etc/wireguard/wg0.conf
+    ```bash
+    sudo apt update && sudo apt upgrade
+    sudo apt install wireguard openresolv
+    ```
 
-# Start the WireGuard VPN:
-sudo systemctl start wg-quick@wg0
+1. Install the config file to the WireGuard configuration directory on your linux client:
 
-# Check that it started properly:
-sudo systemctl status wg-quick@wg0
+    ```bash
+    sudo install -o root -g root -m 600 <username>.conf /etc/wireguard/wg0.conf
+    ```
 
-# Verify the connection to the AlgoVPN:
-sudo wg
+1. Start the WireGuard VPN:
 
-# See that your client is using the IP address of your AlgoVPN:
-curl ipv4.icanhazip.com
+    ```bash
+    sudo systemctl start wg-quick@wg0
+    ```
 
-# Optionally configure the connection to come up at boot time:
-sudo systemctl enable wg-quick@wg0
-```
+1. Check that it started properly:
+
+    ```bash
+    sudo systemctl status wg-quick@wg0
+    ```
+
+1. Verify the connection to the AlgoVPN:
+
+    ```bash
+    sudo wg
+    ```
+
+1. See that your client is using the IP address of your AlgoVPN:
+
+    ```bash
+    curl ipv4.icanhazip.com
+    ```
+
+1. Optionally configure the connection to come up at boot time:
+
+
+    ```bash
+    sudo systemctl enable wg-quick@wg0
+    ```
 
 ## Note:
 

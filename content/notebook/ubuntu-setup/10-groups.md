@@ -1,6 +1,9 @@
 ---
 title: 10-Set Up Groups
 weight: 10
+tags:
+- ubuntu
+- linux
 ---
 
 1. add yourself to device groups for access to some USB devices in python

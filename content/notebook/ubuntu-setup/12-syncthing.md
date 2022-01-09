@@ -1,6 +1,10 @@
 ---
 title: 12-Syncthing
 weight: 12
+tags:
+- ubuntu
+- linux
+- syncthing
 ---
 
 ## Install

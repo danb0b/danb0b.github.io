@@ -1,6 +1,9 @@
 ---
 title: 14-Install Google Fonts
 weight: 14
+tags:
+- ubuntu
+- linux
 ---
 
 The advice on whether to install these fonts is a bit outdated as many of the fonts are going "variable weight" which does not play nice with xetex and thus pandoc.  So the best thing to do would be to install an older version of google fonts, but I haven't found that older commit that works yet.

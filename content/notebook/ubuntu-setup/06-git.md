@@ -1,6 +1,10 @@
 ---
 title: 06-Install and Setup ```git```
 weight: 6
+tags:
+- ubuntu
+- linux
+- git
 ---
 
 ## Git

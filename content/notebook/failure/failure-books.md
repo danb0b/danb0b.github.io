@@ -1,5 +1,7 @@
 ---
 title: Books on Failure
+tags:
+  - failure
 ---
 
 # Failure in General

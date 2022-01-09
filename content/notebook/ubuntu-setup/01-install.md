@@ -1,6 +1,9 @@
 ---
 title: 01-Installation Notes
 weight: 1
+tags:
+- ubuntu
+- linux
 ---
 
 ## Introduction

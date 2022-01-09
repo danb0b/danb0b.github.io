@@ -1,6 +1,9 @@
 ---
 title: 99-Locking Down Ubuntu
 published: true
+tags:
+- ubuntu
+- linux
 ---
 
 1. Set bios admin password

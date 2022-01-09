@@ -4,6 +4,7 @@ tags:
   - ubuntu
   - linux
   - ssh
+  - security
 weight: 10
 ---
 

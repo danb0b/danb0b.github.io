@@ -1,5 +1,10 @@
 ---
 title: Korg Nano
+tags:
+- ros
+- ubuntu
+- linux
+- korg
 ---
 
 ```

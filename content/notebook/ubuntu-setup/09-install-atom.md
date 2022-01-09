@@ -1,6 +1,10 @@
 ---
 title: 09-Install and Configure Atom
 weight: 9
+tags:
+- ubuntu
+- linux
+- atom
 ---
 
 1. Install

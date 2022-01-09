@@ -1,7 +1,7 @@
 ---
 title: ASUS Zenbook Issues
 tags:
-  - ASUS
+  - asus
   - linux
   - ubuntu
 weight: 99

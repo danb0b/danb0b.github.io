@@ -1,9 +1,9 @@
 ---
 title: Useful Pandoc Commands
+weight: 99
 tags:
   - pandoc
   - bash
-weight: 99
 ---
 
 ## Get Current Templates

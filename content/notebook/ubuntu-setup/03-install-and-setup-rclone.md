@@ -1,6 +1,10 @@
 ---
 title: 03-Install and Setup ```rclone```
 weight: 3
+tags:
+- ubuntu
+- linux
+- rclone
 ---
 
 1. Install ```rclone```

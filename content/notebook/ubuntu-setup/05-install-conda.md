@@ -6,6 +6,9 @@ tags:
   - python
   - terminal
   - bash
+  - ubuntu
+  - linux
+  - anaconda
 ---
 
 ## Install Latest Anaconda / Miniconda

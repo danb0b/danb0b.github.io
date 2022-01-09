@@ -1,6 +1,10 @@
 ---
 title: 16-Disabling Printer Scanning
 weight: 16
+tags:
+- ubuntu
+- linux
+- printing
 ---
 
 <div class="alert alert-primary">

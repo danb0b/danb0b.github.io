@@ -1,6 +1,8 @@
 ---
 title: Setting up Bitwarden
 weight: 99
+tags:
+  - security
 ---
 
 ## Introduction

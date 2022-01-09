@@ -1,10 +1,10 @@
 ---
 title: Shapeoko Links
+weight: 90
 tags:
   - idealab
   - cnc
   - shapeoko
-weight: 90
 ---
 
 ## Search Results

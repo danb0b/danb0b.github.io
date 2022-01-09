@@ -1,8 +1,9 @@
 ---
 title: Using the ```find``` command in bash
 tags:
-  - bash
   - linux
+  - ubuntu
+  - bash
 weight: 10
 ---
 

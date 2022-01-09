@@ -1,6 +1,11 @@
 ---
 title: 02-Import Keys
 weight: 2
+tags:
+- ubuntu
+- linux
+- ssh
+- gpg
 ---
 
 ## Install and Setup

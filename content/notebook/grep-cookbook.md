@@ -1,9 +1,10 @@
 ---
 title: Grep Cookbook
 tags:
+  - linux
+  - ubuntu
   - grep
   - bash
-  - linux
 weight: 10
 ---  
 

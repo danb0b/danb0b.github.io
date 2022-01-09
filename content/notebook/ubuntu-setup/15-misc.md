@@ -1,6 +1,12 @@
 ---
 title: 15-Post-Install Miscellaneous Steps
 weight: 15
+tags:
+- ubuntu
+- linux
+- gnome
+- python
+- ssh
 ---
 
 ## Tweaking the GUI

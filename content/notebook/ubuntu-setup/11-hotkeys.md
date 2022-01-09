@@ -1,6 +1,9 @@
 ---
 title: 11-Setup Keyboard Shortcuts
 weight: 11
+tags:
+- ubuntu
+- linux
 ---
 
 ## Load your previously saved settings

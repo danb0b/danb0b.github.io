@@ -1,5 +1,7 @@
 ---
 title: failure misc
+tags:
+  - failure
 ---
 
 | Subjects          | Date | Link |

@@ -1,6 +1,9 @@
 ---
 title: 04-Install Common Tools
 weight: 4
+tags:
+- ubuntu
+- linux
 ---
 
 ## Install common tools
