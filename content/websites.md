@@ -30,7 +30,7 @@ menu:
 * [IDEAlab](https://idealab-asu.slack.com)
 * [SCRAMbots](https://scram-workspace.slack.com)
 * [kaiteki](https://kaiteki-asu.slack.com)
-* [EGR314](asu-2221-egr314-14618.slack.com)
+* [EGR314](https://asu-2221-egr314-14618.slack.com)
 <!--* [New Faculty](https://newfacultyatasu.slack.com)-->
 <!--* [EGR314](https://asu-2211-egr314-15063.slack.com)-->
 <!--* [EGR304](https://asu-2207-egr304-76246.slack.com)-->
