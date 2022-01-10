@@ -178,7 +178,7 @@ python3 -m virtualenv --python<span style=color:#f92672>=</span><span style=colo
             &quot;\&quot;#                     Local DNS resolver 172.31.126.44, fd00::f:7e2c                   #\&quot;&quot;,
             &quot;&quot;
         ],
-        &quot;    \&quot;#        The p12 and SSH keys password for new users is jSKjdHpXY       #\&quot;\n&quot;,
+        &quot;    \&quot;#        The p12 and SSH keys password for new users is &lt;hidden&gt;       #\&quot;\n&quot;,
         &quot;    &quot;,
         &quot;    &quot;
 
@@ -197,27 +197,38 @@ python3 -m virtualenv --python<span style=color:#f92672>=</span><span style=colo
 </li>
 </ol>
 <p>from here: <a href=https://github.com/trailofbits/algo/blob/master/docs/client-linux-wireguard.md>https://github.com/trailofbits/algo/blob/master/docs/client-linux-wireguard.md</a></p>
-<pre tabindex=0><code>sudo apt update &amp;&amp; sudo apt upgrade
+<pre><code>```bash
+sudo apt update &amp;&amp; sudo apt upgrade
 sudo apt install wireguard openresolv
-# Install the config file to the WireGuard configuration directory on your
-# Linux client:
-sudo install -o root -g root -m 600 &lt;username&gt;.conf /etc/wireguard/wg0.conf
-
-# Start the WireGuard VPN:
-sudo systemctl start wg-quick@wg0
-
-# Check that it started properly:
-sudo systemctl status wg-quick@wg0
-
-# Verify the connection to the AlgoVPN:
-sudo wg
-
-# See that your client is using the IP address of your AlgoVPN:
-curl ipv4.icanhazip.com
-
-# Optionally configure the connection to come up at boot time:
-sudo systemctl enable wg-quick@wg0
-</code></pre><h2 id=note>Note:</h2>
+```
+</code></pre>
+<ol>
+<li>
+<p>Install the config file to the WireGuard configuration directory on your linux client:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo install -o root -g root -m <span style=color:#ae81ff>600</span> &lt;username&gt;.conf /etc/wireguard/wg0.conf
+</code></pre></div></li>
+<li>
+<p>Start the WireGuard VPN:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo systemctl start wg-quick@wg0
+</code></pre></div></li>
+<li>
+<p>Check that it started properly:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo systemctl status wg-quick@wg0
+</code></pre></div></li>
+<li>
+<p>Verify the connection to the AlgoVPN:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo wg
+</code></pre></div></li>
+<li>
+<p>See that your client is using the IP address of your AlgoVPN:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>curl ipv4.icanhazip.com
+</code></pre></div></li>
+<li>
+<p>Optionally configure the connection to come up at boot time:</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo systemctl <span style=color:#111>enable</span> wg-quick@wg0
+</code></pre></div></li>
+</ol>
+<h2 id=note>Note:</h2>
 <p>Don&rsquo;t use the virtual host with the virtual algo guest, it will kill external communication to/from the guest.</p>
 </div>
 </div>

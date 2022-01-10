@@ -126,54 +126,8 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/13-logitech-c930e/>Getting the Logitech c930 working with ROS</a></h4>
-<p>Using a USB webcam (with virtualbox) Introduction Making a usb webcam work in Linux AND virtualbox is not as easy as it sounds.</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/camera class=text-primary>Camera</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/14-opencv/>Installing OpenCV</a></h4>
-<p>install opencv for python
-sudo apt update sudo apt install python3-opencv # may be done already depending on what you installed.</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/opencv class=text-primary>Opencv</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/camera class=text-primary>Camera</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/15-photon-tcp/>Creating a custom Photon Package</a></h4>
-<p>Introduction These instructions were used to create the photon package. Please see the package in the src directory to see the resulting code and setup</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/04-ros-bridge/>Installing, Running, and Using RosBridge</a></h4>
+<p>Introduction This section describes installing RosBridge, which is useful for communicating to devices which do not have ROS installed (like windows machines with custom drivers)</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
@@ -190,8 +144,8 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/16-raspbian/>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS</a></h4>
-<p>Introduction Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18.</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/06-custom-workspace-setup/>Clone and Setup Custom Workspace</a></h4>
+<p>Steps Install prerequisites sudo apt install ros-melodic-joy sudo apt install python3-numpy Install libnifalcon (instructions in Falcon tutorial)</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
@@ -208,9 +162,8 @@ sudo apt update sudo apt install python3-opencv # may be done already depending 
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/18-raspi4-uvc/>Getting UVC working with Raspberry Pi</a></h4>
-<p>install uvc stuff.
-sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo apt install uvccapture uvcdynctrl try guvcview or cheese to see if you can see video output(may need to install):</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/06.0-create-a-new-package/>Creating a new package</a></h4>
+<p>Create a new package <code>bash cd ~/code/code_idealab_ros/src/ catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscpp cd ~/code/code_idealab_ros/ catkin_make </code> Find package dependencies:</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
@@ -220,9 +173,6 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/camera class=text-primary>Camera</a>
 </li>
 </ul>
 </div>
@@ -230,8 +180,9 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/19-tracking/>CV Bridge and Python 3</a></h4>
-<p>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/06.1-create-messages/>Create a new message</a></h4>
+<p>Steps Create Message
+roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
@@ -241,12 +192,6 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/camera class=text-primary>Camera</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/opencv class=text-primary>Opencv</a>
 </li>
 </ul>
 </div>
@@ -254,8 +199,46 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/optitrack/>Setting up OptiTrack</a></h4>
-<p>Links <a href=http://wiki.ros.org/mocap_optitrack>http://wiki.ros.org/mocap_optitrack</a> Install sudo apt install ros-melodic-mocap-optitrack Create a rigid body and ensure it is being transmitted from Motiv Edit mocap.</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/06.2-create-scripts/>Creating Scripts</a></h4>
+<p>Steps see <a href=https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python)>https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python)</a> for details on how to customize
+create the scripts directory and pull talker and listener examples</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/07-mark-10/>Using the Mark-10</a></h4>
+<p>prep the host machine in a virtualbox environment Download and install drivers from the mark 10 website</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/08-ur5/>UR5 Information</a></h4>
+<p>Resources URX Python Package
+Universal Robots ROS Driver/Library</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
@@ -267,7 +250,61 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/optitrack class=text-primary>Optitrack</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/ur5 class=text-primary>Ur5</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/universal-robots class=text-primary>Universal robots</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/09-falcon/>Installing and Running the Novint Falcon</a></h4>
+<p>Introduction This tutorial describes how to install and run a Novint falcon in an Ubuntu virtual machine.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/asus-issues/>ASUS Zenbook Issues</a></h4>
+<p>I have an ASUS Zenbook UM425U, currently working great with Ubuntu 21.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/asus class=text-primary>Asus</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/clone-package/>Duplicate Installed Packages</a></h4>
+<p>To clone your system to another system. Or make a backup.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
 </ul>
 </div>
@@ -286,11 +323,6 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 </a>
 </li>
 <li class=page-item>
-<a href=/tags/ubuntu/ class=page-link>
-1
-</a>
-</li>
-<li class=page-item>
 <a href=/tags/ubuntu/page/2/ class=page-link>
 2
 </a>
@@ -305,6 +337,26 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 4
 </a>
 </li>
+<li class=page-item>
+<a href=/tags/ubuntu/page/5/ class=page-link>
+5
+</a>
+</li>
+<li class=page-item>
+<a href=/tags/ubuntu/page/6/ class=page-link>
+6
+</a>
+</li>
+<li class=page-item>
+<a href=/tags/ubuntu/page/5/ class=page-link>
+»
+</a>
+</li>
+<li class=page-item>
+<a class=page-link href=/tags/ubuntu/page/7/>
+»»
+</a>
+</li>
 </ul>
 </div>
 </div>
@@ -316,22 +368,30 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/anaconda>Anaconda</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/arduino>Arduino</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/asus>Asus</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/atom>Atom</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/bash>Bash</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/camera>Camera</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/choco>Choco</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/cnc>Cnc</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/django>Django</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/embedded-systems>Embedded systems</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/encryption>Encryption</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/failure>Failure</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/fun>Fun</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/git>Git</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/gnome>Gnome</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/gpg>Gpg</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/grep>Grep</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/hugo>Hugo</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/idealab>Idealab</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/keys>Keys</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/korg>Korg</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/laser>Laser</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/linux>Linux</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/maintenance>Maintenance</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/markdown>Markdown</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/mechatronics>Mechatronics</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/microcontroller>Microcontroller</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/nextcloud>Nextcloud</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/office>Office</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/opencv>Opencv</a></li>
@@ -341,13 +401,16 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/photo>Photo</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/photos>Photos</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/presentations>Presentations</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/printing>Printing</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/pyqt>Pyqt</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/python>Python</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/qt>Qt</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/rclone>Rclone</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/ros>Ros</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/security>Security</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/shapeoko>Shapeoko</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/ssh>SSH</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/syncthing>Syncthing</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/terminal>Terminal</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/thorlabs>Thorlabs</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/tmux>Tmux</a></li>
@@ -360,6 +423,7 @@ sudo apt update sudo apt install -y libuvc-dev guvcview cheese v4l-utils # sudo 
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/vnc>Vnc</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/websites>Websites</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/windows>Windows</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/youtube>Youtube</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/zoom>Zoom</a></li>
 </ul>
 </div>

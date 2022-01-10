@@ -126,12 +126,64 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/02.1-install-default-ros-workspace/>Installing and Configuring the default ROS Environment</a></h4>
-<p>This is not necessary if you will be creating your own custom workspace</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/07-install-and-setup-ssh/>Install and Setup SSH</a></h4>
+<p>Basic Steps Make a new directory for holding keys</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ssh class=text-primary>SSH</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/08-gitman/>08-install gitman</a></h4>
+<p>Gitman is my python based package for scanning a computer and pulling all your repositories off.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/git class=text-primary>Git</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/09-install-atom/>09-Install and Configure Atom</a></h4>
+<p>Install
+wget -qO - <a href=https://packagecloud.io/AtomEditor/atom/gpgkey>https://packagecloud.io/AtomEditor/atom/gpgkey</a> | sudo apt-key add - sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/atom class=text-primary>Atom</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/10-groups/>10-Set Up Groups</a></h4>
+<p>add yourself to device groups for access to some USB devices in python sudo usermod -a -G &lt;group1>,&lt;group2>,.</p>
+<ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
@@ -144,12 +196,11 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/03-ros-usage/>Navigating the Ros Filesystem (optional)</a></h4>
-<p>From here
-#sudo apt-get install ros-&lt;distro>-ros-tutorials sudo apt-get install ros-melodic-ros-tutorials #rospack find [package_name] rospack find roscpp #roscd [locationname[/subdir]] roscd roscpp #print the working directory using the Unix command pwd #To see what is in your ROS_PACKAGE_PATH, type: echo $ROS_PACKAGE_PATH #roscd can also move to a subdirectory of a package or stack.</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ssh/disable-password-ssh/>Disabling Password-based SSH</a></h4>
+<p>Settings for hardening ssh on Ubuntu</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/ssh class=text-primary>SSH</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
@@ -157,41 +208,69 @@
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/security class=text-primary>Security</a>
+</li>
 </ul>
 </div>
 </div>
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/04-ros-bridge/>Installing, Running, and Using RosBridge</a></h4>
-<p>Introduction This section describes installing RosBridge, which is useful for communicating to devices which do not have ROS installed (like windows machines with custom drivers)</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/grep-cookbook/>Grep Cookbook</a></h4>
+<p>Using grep by itself search for “searchtext”, ignoring case, ignoring binary files, recurisvely search, with line numbers, in this folder.</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/grep class=text-primary>Grep</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/bash class=text-primary>Bash</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ssh/remote-hd-unlock/>Remote Unlock your LUKS-encrypted Hard Drive</a></h4>
+<p>Install Software
+sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create and add key</p>
+<ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ssh class=text-primary>SSH</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/security class=text-primary>Security</a>
+</li>
 </ul>
 </div>
 </div>
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/06-custom-workspace-setup/>Clone and Setup Custom Workspace</a></h4>
-<p>Steps Install prerequisites sudo apt install ros-melodic-joy sudo apt install python3-numpy Install libnifalcon (instructions in Falcon tutorial)</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/find/>Using the <code>find</code> command in bash</a></h4>
+<p>Using the find command in bash Find all files below the current directory that match “tecmint.</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/bash class=text-primary>Bash</a>
 </li>
 </ul>
 </div>
@@ -199,83 +278,8 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/06.0-create-a-new-package/>Creating a new package</a></h4>
-<p>Create a new package <code>bash cd ~/code/code_idealab_ros/src/ catkin_create_pkg thorlabs_linear_actuator std_msgs rospy roscpp cd ~/code/code_idealab_ros/ catkin_make </code> Find package dependencies:</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/06.1-create-messages/>Create a new message</a></h4>
-<p>Steps Create Message
-roscd thorlabs_linear_actuator/ mkdir msg cd msg nano write.</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/06.2-create-scripts/>Creating Scripts</a></h4>
-<p>Steps see <a href=https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python)>https://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber(python)</a> for details on how to customize
-create the scripts directory and pull talker and listener examples</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/07-mark-10/>Using the Mark-10</a></h4>
-<p>prep the host machine in a virtualbox environment Download and install drivers from the mark 10 website</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/08-ur5/>UR5 Information</a></h4>
-<p>Resources URX Python Package
-Universal Robots ROS Driver/Library</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ros/01-virtualbox-setup/>Virtualbox Setup (optional)</a></h4>
+<p>Introduction This section discusses how to prepare a virtual machine for installing ROS.</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
@@ -287,10 +291,7 @@ Universal Robots ROS Driver/Library</p>
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ur5 class=text-primary>Ur5</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/universal-robots class=text-primary>Universal robots</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/virtualbox class=text-primary>Virtualbox</a>
 </li>
 </ul>
 </div>
@@ -298,12 +299,9 @@ Universal Robots ROS Driver/Library</p>
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/09-falcon/>Installing and Running the Novint Falcon</a></h4>
-<p>Introduction This tutorial describes how to install and run a Novint falcon in an Ubuntu virtual machine.</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/11-hotkeys/>11-Setup Keyboard Shortcuts</a></h4>
+<p>Load your previously saved settings dconf load /org/gnome/desktop/wm/keybindings/ &lt; my/remote/filesystem/keybindings.dconf dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; my/remote/filesystem/media-keys.</p>
 <ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
@@ -347,12 +345,17 @@ Universal Robots ROS Driver/Library</p>
 </a>
 </li>
 <li class=page-item>
+<a href=/tags/ubuntu/page/5/ class=page-link>
+5
+</a>
+</li>
+<li class=page-item>
 <a href=/tags/ubuntu/page/3/ class=page-link>
 »
 </a>
 </li>
 <li class=page-item>
-<a class=page-link href=/tags/ubuntu/page/4/>
+<a class=page-link href=/tags/ubuntu/page/7/>
 »»
 </a>
 </li>
@@ -367,22 +370,30 @@ Universal Robots ROS Driver/Library</p>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/anaconda>Anaconda</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/arduino>Arduino</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/asus>Asus</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/atom>Atom</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/bash>Bash</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/camera>Camera</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/choco>Choco</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/cnc>Cnc</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/django>Django</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/embedded-systems>Embedded systems</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/encryption>Encryption</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/failure>Failure</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/fun>Fun</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/git>Git</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/gnome>Gnome</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/gpg>Gpg</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/grep>Grep</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/hugo>Hugo</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/idealab>Idealab</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/keys>Keys</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/korg>Korg</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/laser>Laser</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/linux>Linux</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/maintenance>Maintenance</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/markdown>Markdown</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/mechatronics>Mechatronics</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/microcontroller>Microcontroller</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/nextcloud>Nextcloud</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/office>Office</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/opencv>Opencv</a></li>
@@ -392,13 +403,16 @@ Universal Robots ROS Driver/Library</p>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/photo>Photo</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/photos>Photos</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/presentations>Presentations</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/printing>Printing</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/pyqt>Pyqt</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/python>Python</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/qt>Qt</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/rclone>Rclone</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/ros>Ros</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/security>Security</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/shapeoko>Shapeoko</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/ssh>SSH</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/syncthing>Syncthing</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/terminal>Terminal</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/thorlabs>Thorlabs</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/tmux>Tmux</a></li>
@@ -411,6 +425,7 @@ Universal Robots ROS Driver/Library</p>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/vnc>Vnc</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/websites>Websites</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/windows>Windows</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/youtube>Youtube</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/zoom>Zoom</a></li>
 </ul>
 </div>

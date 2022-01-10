@@ -126,6 +126,21 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/01-install/>01-Installation Notes</a></h4>
+<p>Introduction These notes are from memory, so they may be out of order.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
 <h4 class="fw-bold mb-0"><a href=/notebook/linux-cheatsheet/>Linux / Bash Cheatsheet</a></h4>
 <p>Collected commands, tips, and tricks for working headless in Ubuntu</p>
 <ul class=list-inline>
@@ -186,6 +201,27 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/02-import-keys/>02-Import Keys</a></h4>
+<p>Install and Setup Install gnupg, nautilus integration (seahorse), and restart nautilus</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/ssh class=text-primary>SSH</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/gpg class=text-primary>Gpg</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
 <h4 class="fw-bold mb-0"><a href=/notebook/ssh/gpg-reference/>GPG Reference</a></h4>
 <p>List gpg keys gpg &ndash;list-keys gpg &ndash;list-secret-keys prints out ids</p>
 <ul class=list-inline>
@@ -210,30 +246,9 @@
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ssh/disable-password-ssh/>Disabling Password-based SSH</a></h4>
-<p>Settings for hardening ssh on Ubuntu</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ssh class=text-primary>SSH</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/security class=text-primary>Security</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ssh/remote-hd-unlock/>Remote Unlock your LUKS-encrypted Hard Drive</a></h4>
-<p>Install Software
-sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create and add key</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/03-install-and-setup-rclone/>03-Install and Setup <code>rclone</code></a></h4>
+<p>Install rclone
+sudo apt install -y curl curl https://rclone.</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
@@ -242,7 +257,7 @@ sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ssh class=text-primary>SSH</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/rclone class=text-primary>Rclone</a>
 </li>
 </ul>
 </div>
@@ -250,11 +265,36 @@ sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/01-virtualbox-setup/>Virtualbox Setup (optional)</a></h4>
-<p>Introduction This section discusses how to prepare a virtual machine for installing ROS.</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/04-common-tools/>04-Install Common Tools</a></h4>
+<p>Install common tools I’ve lumped these all together to be able to run it more efficiently.</p>
 <ul class=list-inline>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
+<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
+<div>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/05-install-conda/>05-Conda Install</a></h4>
+<p>Install Latest Anaconda / Miniconda Windows Linux 64-bit Miniconda 64-bit Miniconda Linux Install cd ~/Downloads
+wget https://repo.</p>
+<ul class=list-inline>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/anaconda class=text-primary>Anaconda</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/python class=text-primary>Python</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/terminal class=text-primary>Terminal</a>
+</li>
+<li class="list-inline-item mb-1 mr-2 mt-1">
+<a class="d-block p-2 bg-primary text-white" href=/tags/bash class=text-primary>Bash</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
@@ -263,7 +303,7 @@ sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create
 <a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/virtualbox class=text-primary>Virtualbox</a>
+<a class="d-block p-2 bg-primary text-white" href=/tags/anaconda class=text-primary>Anaconda</a>
 </li>
 </ul>
 </div>
@@ -271,12 +311,9 @@ sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create
 <div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
 <i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
 <div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/01.1-config-git/>Setting up Git</a></h4>
-<p>git config &ndash;global user.email "danaukes@gmail.com" git config &ndash;global user.name "Dan Aukes" Update git roscd thorlabs_linear_actuator/ git status git add -A git commit -m="&lt;INSERT YOUR MESSAGE HERE>" git push # supply username and pw</p>
+<h4 class="fw-bold mb-0"><a href=/notebook/ubuntu-setup/06-git/>06-Install and Setup <code>git</code></a></h4>
+<p>Git Git is the command line program for interacting with a git repository</p>
 <ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
 </li>
@@ -285,43 +322,6 @@ sudo apt update sudo apt -y upgrade sudo apt install -y busybox dropbear* Create
 </li>
 <li class="list-inline-item mb-1 mr-2 mt-1">
 <a class="d-block p-2 bg-primary text-white" href=/tags/git class=text-primary>Git</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/01.2-prerequisites/>IDEAlab ROS prerequisites</a></h4>
-<p>#update repository sudo apt update #visual package manager sudo apt install -y synaptic #ssh access sudo apt install -y openssh-server #python editor sudo apt install -y spyder3 #ifconfig command and other networking tools sudo apt install net-tools #misc sudo apt install -y curl #python packages sudo apt install -y python3-serial python3-pip</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col col-12 col-xl-6 d-flex align-items-start pb-3">
-<i style=font-size:2rem class="bi text-muted flex-shrink-0 mr-3 bi bi-file-text"></i>
-<div>
-<h4 class="fw-bold mb-0"><a href=/notebook/ros/02-ros-install-and-config/>ROS Installation Summary</a></h4>
-<p>This is derived from the official tutorial
-Run this code:</p>
-<ul class=list-inline>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ros class=text-primary>Ros</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a>
-</li>
-<li class="list-inline-item mb-1 mr-2 mt-1">
-<a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a>
 </li>
 </ul>
 </div>
@@ -350,12 +350,17 @@ Run this code:</p>
 </a>
 </li>
 <li class=page-item>
+<a href=/tags/ubuntu/page/5/ class=page-link>
+5
+</a>
+</li>
+<li class=page-item>
 <a href=/tags/ubuntu/page/2/ class=page-link>
 »
 </a>
 </li>
 <li class=page-item>
-<a class=page-link href=/tags/ubuntu/page/4/>
+<a class=page-link href=/tags/ubuntu/page/7/>
 »»
 </a>
 </li>
@@ -370,22 +375,30 @@ Run this code:</p>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/anaconda>Anaconda</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/arduino>Arduino</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/asus>Asus</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/atom>Atom</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/bash>Bash</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/camera>Camera</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/choco>Choco</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/cnc>Cnc</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/django>Django</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/embedded-systems>Embedded systems</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/encryption>Encryption</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/failure>Failure</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/fun>Fun</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/git>Git</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/gnome>Gnome</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/gpg>Gpg</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/grep>Grep</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/hugo>Hugo</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/idealab>Idealab</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/keys>Keys</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/korg>Korg</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/laser>Laser</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/linux>Linux</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/maintenance>Maintenance</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/markdown>Markdown</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/mechatronics>Mechatronics</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/microcontroller>Microcontroller</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/nextcloud>Nextcloud</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/office>Office</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/opencv>Opencv</a></li>
@@ -395,13 +408,16 @@ Run this code:</p>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/photo>Photo</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/photos>Photos</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/presentations>Presentations</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/printing>Printing</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/pyqt>Pyqt</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/python>Python</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/qt>Qt</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/rclone>Rclone</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/ros>Ros</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/security>Security</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/shapeoko>Shapeoko</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/ssh>SSH</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/syncthing>Syncthing</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/terminal>Terminal</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/thorlabs>Thorlabs</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/tmux>Tmux</a></li>
@@ -414,6 +430,7 @@ Run this code:</p>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/vnc>Vnc</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/websites>Websites</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/windows>Windows</a></li>
+<li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/youtube>Youtube</a></li>
 <li class=list-inline-item><a class="d-block p-2 bg-primary text-white" href=/tags/zoom>Zoom</a></li>
 </ul>
 </div>
