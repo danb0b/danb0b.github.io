@@ -27,4 +27,5 @@ tags:
 
 ## Lock down SSH
 
-See [how to disable passwords over ssh](/notebook/ssh/disable-password-ssh/)
+1. See [how to disable passwords over ssh](/notebook/ssh/disable-password-ssh/)
+1. Add a public key to your .ssh/authorized keys
