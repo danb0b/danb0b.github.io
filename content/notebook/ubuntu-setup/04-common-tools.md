@@ -14,7 +14,7 @@ This assumes you installed a "minimal" version of Ubuntu
 
 ```bash
 sudo apt update
-sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap cheese p7zip-full sound-juicer pdfgrep gnome-tweaks
+sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid
 sudo apt install -y cifs-utils
 sudo apt install -y inkscape
 sudo apt install -y paper-icon-theme
