@@ -32,6 +32,12 @@ Checkout and track a remote branch:
 git checkout --track origin/xyz
 ```
 
+Push a local branch to a new remote branch name
+
+```bash
+git push --set-upstream origin <remotebranchname>
+```
+
 ## Status
 
 Sometimes you want to see what has changed.  ```git status``` can be used to see which files have changed since the last commit.  Otherwise, you can use ```git diff``` to more closely inspect file changes line by line
