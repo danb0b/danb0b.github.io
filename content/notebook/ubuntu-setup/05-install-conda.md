@@ -67,7 +67,7 @@ conda install -y anaconda
 ### Conda packages not included in anaconda
 
 ```
-conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks]
+conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks] pandoc
 ```
 
 ### Install pip packages

@@ -29,7 +29,7 @@ git branch --remote
 Checkout and track a remote branch:
 
 ```bash
-git checkout –track origin/xyz
+git checkout --track origin/xyz
 ```
 
 ## Status
