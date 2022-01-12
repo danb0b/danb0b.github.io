@@ -29,7 +29,13 @@ git branch --remote
 Checkout and track a remote branch:
 
 ```bash
-git checkout –track origin/xyz
+git checkout –track origin/<remotebranchname>
+```
+
+Push a local branch to a new remote branch name
+
+```bash
+git push --set-upstream origin <remotebranchname>
 ```
 
 ## Status
