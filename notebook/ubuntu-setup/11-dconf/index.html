@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title> 11-Setup Keyboard Shortcuts | Dan Aukes </title>
+<title> 11-Setup Dconf | Dan Aukes </title>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name=description content="This is meta description">
 <meta name=author content="Dan Aukes">
@@ -81,15 +81,17 @@
 <i class=ti-arrow-right></i>
 <a href=/notebook/ubuntu-setup>ubuntu-setup</a>
 <i class=ti-arrow-right></i>
-<a href=./>11-hotkeys</a>
+<a href=./>11-dconf</a>
 </div>
 <div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>11-Setup Keyboard Shortcuts</h2>
+<h2>11-Setup Dconf</h2>
 <div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div>
 <div class="content mb-5">
+<h2 id=introduction>Introduction</h2>
+<p>Dconf is where many keyboard shortcuts and user preferences exist. I have a couple tweaks I like to load.</p>
 <h2 id=load-your-previously-saved-settings>Load your previously saved settings</h2>
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>
 dconf load /org/gnome/desktop/wm/keybindings/ &lt; my/remote/filesystem/keybindings.dconf
@@ -99,9 +101,11 @@ dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; my/remote/filesys
 <p>backup:</p>
 <pre tabindex=0><code>dconf dump /org/gnome/desktop/wm/keybindings/ &gt; keybindings.dconf
 dconf dump /org/gnome/settings-daemon/plugins/media-keys/ &gt; media-keys.dconf
+dconf dump /org/gnome/shell/extensions/dash-to-dock/ &gt; dash-to-dock.dconf
 </code></pre><p>restore</p>
 <pre tabindex=0><code>dconf load /org/gnome/desktop/wm/keybindings/ &lt; keybindings.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; media-keys.dconf
+dconf load /org/gnome/shell/extensions/dash-to-dock/ &lt; dash-to-dock.dconf
 </code></pre><h2 id=full-config>Full Config</h2>
 <p>suggestion from <a href=https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file>here</a>:</p>
 <pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; keybindings.dconf
@@ -122,8 +126,19 @@ EOT
 
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; media-keys.dconf
 
+
+cat &lt;&lt;EOT &gt;&gt; dash-to-tock.dconf
+[/]
+dash-max-icon-size=32
+extend-height=false
+preferred-monitor=0
+EOT
+
+dconf load /org/gnome/shell/extensions/dash-to-dock/ &lt; dash-to-dock.dconf
+
 rm keybindings.dconf
 rm media-keys.dconf
+rm dash-to-dock.dconf
 </code></pre>
 </div>
 </div>
@@ -163,7 +178,7 @@ rm media-keys.dconf
 </div>
 <div class="col-12 mb-5 text-center">
 <p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
-<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ubuntu-setup/11-hotkeys.md> Edit this Page</a></p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ubuntu-setup/11-dconf.md> Edit this Page</a></p>
 </div>
 </div>
 </div>
