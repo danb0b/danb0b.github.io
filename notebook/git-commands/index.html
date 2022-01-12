@@ -5,7 +5,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name=description content="This is meta description">
 <meta name=author content="Dan Aukes">
-<meta name=generator content="Hugo 0.91.2">
+<meta name=generator content="Hugo 0.92.0">
 <link rel=stylesheet href=https://danaukes.com/plugins/bootstrap/bootstrap.min.css>
 <link rel=stylesheet href=https://danaukes.com/plugins/slick/slick.css>
 <link rel=stylesheet href=https://danaukes.com/plugins/themify-icons/themify-icons.css>
@@ -96,7 +96,9 @@
 </code></pre></div><p>list remote branches:</p>
 <pre tabindex=0><code>git branch --remote
 </code></pre><p>Checkout and track a remote branch:</p>
-<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git checkout –track origin/xyz
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git checkout –track origin/&lt;remotebranchname&gt;
+</code></pre></div><p>Push a local branch to a new remote branch name</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git push --set-upstream origin &lt;remotebranchname&gt;
 </code></pre></div><h2 id=status>Status</h2>
 <p>Sometimes you want to see what has changed. <code>git status</code> can be used to see which files have changed since the last commit. Otherwise, you can use <code>git diff</code> to more closely inspect file changes line by line</p>
 <h2 id=pushing>Pushing</h2>
