@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title> 11-Setup Dconf | Dan Aukes </title>
+<title> Too Many Authentication Failures? | Dan Aukes </title>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name=description content="This is meta description">
 <meta name=author content="Dan Aukes">
@@ -79,67 +79,32 @@
 <div class=text-center>
 <a href=/notebook>notebook</a>
 <i class=ti-arrow-right></i>
-<a href=/notebook/ubuntu-setup>ubuntu-setup</a>
+<a href=/notebook/ssh>ssh</a>
 <i class=ti-arrow-right></i>
-<a href=./>11-dconf</a>
+<a href=./>too-many-authentication-failures</a>
 </div>
 <div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>11-Setup Dconf</h2>
+<h2>Too Many Authentication Failures?</h2>
 <div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div>
 <div class="content mb-5">
-<h2 id=introduction>Introduction</h2>
-<p>Dconf is where many keyboard shortcuts and user preferences exist. I have a couple tweaks I like to load.</p>
-<h2 id=load-your-previously-saved-settings>Load your previously saved settings</h2>
-<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>
-dconf load /org/gnome/desktop/wm/keybindings/ &lt; my/remote/filesystem/keybindings.dconf
-dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; my/remote/filesystem/media-keys.dconf
-</code></pre></div><h2 id=more-info-on-backup-and-restore-from-command-line>More Info on Backup and Restore From command line</h2>
-<p>from <a href=https://askubuntu.com/questions/682513/how-to-backup-restore-system-custom-keyboard-shortcuts>https://askubuntu.com/questions/682513/how-to-backup-restore-system-custom-keyboard-shortcuts</a>:</p>
-<p>backup:</p>
-<pre tabindex=0><code>dconf dump /org/gnome/desktop/wm/keybindings/ &gt; keybindings.dconf
-dconf dump /org/gnome/settings-daemon/plugins/media-keys/ &gt; media-keys.dconf
-dconf dump /org/gnome/shell/extensions/dash-to-dock/ &gt; dash-to-dock.dconf
-</code></pre><p>restore</p>
-<pre tabindex=0><code>dconf load /org/gnome/desktop/wm/keybindings/ &lt; keybindings.dconf
-dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; media-keys.dconf
-dconf load /org/gnome/shell/extensions/dash-to-dock/ &lt; dash-to-dock.dconf
-</code></pre><h2 id=full-config>Full Config</h2>
-<p>suggestion from <a href=https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file>here</a>:</p>
-<pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; keybindings.dconf
-[/]
-maximize=@as []
-minimize=['&lt;Super&gt;Down']
-show-desktop=['&lt;Super&gt;m']
-toggle-maximized=['&lt;Super&gt;Up']
-unmaximize=@as []
-EOT
-
-dconf load /org/gnome/desktop/wm/keybindings/ &lt; keybindings.dconf
-
-cat &lt;&lt;EOT &gt;&gt; media-keys.dconf
-[/]
-home=['&lt;Super&gt;e']
-EOT
-
-dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; media-keys.dconf
-
-
-cat &lt;&lt;EOT &gt;&gt; dash-to-dock.dconf
-[/]
-dash-max-icon-size=32
-extend-height=false
-preferred-monitor=0
-EOT
-
-dconf load /org/gnome/shell/extensions/dash-to-dock/ &lt; dash-to-dock.dconf
-
-rm keybindings.dconf
-rm media-keys.dconf
-rm dash-to-dock.dconf
-</code></pre>
+<h2 id=heading></h2>
+<pre tabindex=0><code>Received disconnect from ########## port 22:2: Too many authentication failures
+</code></pre><p>Add the <code>IdentitiesOnly</code> option to your config file</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>nano .ssh/config
+</code></pre></div><pre tabindex=0><code>Host &lt;myhost&gt;
+   User &lt;myusername&gt;
+   Hostname &lt;myhostname&gt;
+   Port 22
+   PreferredAuthentications publickey
+   IdentityFile &lt;path_to_key&gt;
+   IdentitiesOnly yes
+</code></pre><h2 id=resources>Resources</h2>
+<ul>
+<li><a href=https://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/>https://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -178,7 +143,7 @@ rm dash-to-dock.dconf
 </div>
 <div class="col-12 mb-5 text-center">
 <p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
-<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ubuntu-setup/11-dconf.md> Edit this Page</a></p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ssh/too-many-authentication-failures.md> Edit this Page</a></p>
 </div>
 </div>
 </div>

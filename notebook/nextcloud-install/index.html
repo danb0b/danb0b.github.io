@@ -100,16 +100,25 @@
 <li>
 <p>Configure</p>
 <pre tabindex=0><code>sudo nextcloud.manual-install &lt;username&gt; &lt;password&gt;
-</code></pre><pre tabindex=0><code>sudo nextcloud.occ config:system:set trusted_domains 1 --value=&lt;example.com&gt;
+</code></pre></li>
+<li>
+<p>Set Trusted Domain</p>
+<p>set it to the hostname that your server is at, or the ip it is at</p>
+<pre tabindex=0><code>sudo nextcloud.occ config:system:set trusted_domains 1 --value=&lt;example.com&gt;
 </code></pre><pre tabindex=0><code>sudo nextcloud.occ config:system:set trusted_domains 1 --value=192.168.0.219
-sudo ufw allow 22
-sudo ufw allow 80,443/tcp
 </code></pre></li>
 <li>
 <p>certificate</p>
+<p>open up some ports</p>
+<pre tabindex=0><code>sudo ufw allow 22
+sudo ufw allow 80,443/tcp
+</code></pre><p>select which encryption method</p>
 <pre tabindex=0><code>sudo nextcloud.enable-https lets-encrypt
 </code></pre><pre tabindex=0><code>sudo nextcloud.enable-https self-signed
 </code></pre></li>
+<li>
+<p>Go to the website, sign on as admin, and continue configuring.</p>
+</li>
 </ol>
 <h2 id=external-references>External References</h2>
 <p><a href=https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04>https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04</a></p>
