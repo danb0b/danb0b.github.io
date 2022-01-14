@@ -103,12 +103,9 @@ sudo apt install latexmk
 apm install language-latex latex pdf-view
 </code></pre></div></li>
 <li>
-<p>Load custom configuration file</p>
-<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cp -r /my/remote/filesystem/atom/* ~/.atom/
-</code></pre></div></li>
-<li>
-<p>Current config file</p>
-<pre tabindex=0><code>&quot;*&quot;:
+<p>Create custom configuration file</p>
+<pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; .atom/config.cson
+&quot;*&quot;:
   core:
     disabledPackages: [
       &quot;markdown-preview&quot;
@@ -137,10 +134,10 @@ apm install language-latex latex pdf-view
     telemetryConsent: &quot;no&quot;
     uriHandlerRegistration: &quot;always&quot;
   editor:
-    fontSize: 15
-    preferredLineLength: 160
+    fontSize: 13
     softWrap: true
-    softWrapAtPreferredLineLength: true
+  &quot;exception-reporting&quot;:
+    userId: &quot;10613451-9b64-4617-aaa9-d3c2e1770f35&quot;
   &quot;language-markdown&quot;:
     autoIncrementListItems: false
     indentListItems: false
@@ -191,10 +188,12 @@ apm install language-latex latex pdf-view
   editor:
     autoIndent: true
     autoIndentOnPaste: false
+EOT
 </code></pre></li>
 <li>
 <p>Current <code>styles.less</code></p>
-<pre tabindex=0><code>/*
+<pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; .atom/styles.less
+/*
  * Your Stylesheet
  *
  * This stylesheet is loaded when Atom starts up and is reloaded automatically
@@ -240,6 +239,7 @@ html[data-markdown-preview-plus-context=&quot;live-preview&quot;] body {
   }
 
 }
+EOT
 </code></pre></li>
 <li>
 <p>Usage</p>
