@@ -29,5 +29,10 @@ Gitman is my python based package for scanning a computer and pulling all your r
     echo "export PATH=\$PATH:$(realpath ~)/code/code_git_tools/python/git_manage" >> ~/.bashrc
     sudo chmod +x ~/code/code_git_tools/python/git_manage/gitman
     source ~/.bashrc
+    ```
+
+1. Finally clone your repositories.  Edit config in advance if you want to ignore certain repositories.
+
+    ```bash
     gitman clone
     ```
