@@ -32,6 +32,7 @@ tags:
 
 ## micropython general refs
 * <https://docs.micropython.org/en/latest/esp32/quickref.html>
+    * [webrepl](https://docs.micropython.org/en/latest/esp32/quickref.html?highlight=webrepl#webrepl-web-browser-interactive-prompt)
 
 ## Install micropython IDE
 
@@ -59,7 +60,10 @@ derived from [here](https://randomnerdtutorials.com/getting-started-micropython-
  
 ## Flash $\mu$python
 
+
 You will need the esptool from espressif ([github](https://github.com/espressif/esptool))
+
+
 
 It can be installed via pip from command line:
 ```bash
@@ -78,6 +82,7 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 
 * <https://micropython.org/download/esp32/>
 * <https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/>
 * <https://randomnerdtutorials.com/flash-upload-micropython-firmware-esp32-esp8266/>
+* <https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>
 
 
 ## Arduino Instructions
@@ -100,6 +105,10 @@ then open arduino from the terminal
 arduino
 ```
 
+## Pinout
+
+![from https://randomnerdtutorials.com/getting-started-with-esp32/](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-30-GPIOs-Copy.png)
+
 ## Examples
 
 ### MQTT
@@ -111,9 +120,28 @@ arduino
 
 ### Serial
 
-* <https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>
 * <https://docs.micropython.org/en/latest/library/machine.UART.html>
 * <https://techoverflow.net/2020/02/22/micropython-esp32-minimal-uart-example/>
+
+### Analog 
+
+* <https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/>
+
+    ![](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/analog_input_pot_esp32.png?resize=1024%2C436&quality=100&strip=all&ssl=1)
+
+    ```python
+    from machine import Pin, ADC
+    from time import sleep
+
+    pot = ADC(Pin(34))
+    pot.atten(ADC.ATTN_11DB)       #Full range: 3.3v
+
+    while True:
+      pot_value = pot.read()
+      print(pot_value)
+      sleep(0.1)
+    ```
+
 
 ## FAQ (from amazon)
 

@@ -280,3 +280,11 @@ sudo -i -u <username>
 ```
 
 run ```exit``` to leave that session
+
+## Package Management
+
+### Remove a repository
+
+```bash
+sudo add-apt-repository --remove ppa:PPA_Name/ppa
+```
