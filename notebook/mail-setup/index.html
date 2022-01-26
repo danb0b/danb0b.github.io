@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title> Nextcloud Installation | Dan Aukes </title>
+<title> mail setup | Dan Aukes </title>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name=description content="This is meta description">
 <meta name=author content="Dan Aukes">
@@ -79,50 +79,16 @@
 <div class=text-center>
 <a href=/notebook>notebook</a>
 <i class=ti-arrow-right></i>
-<a href=./>nextcloud-install</a>
+<a href=./>mail-setup</a>
 </div>
 <div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>Nextcloud Installation</h2>
+<h2>mail setup</h2>
 <div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div>
 <div class="content mb-5">
-<ol>
-<li>
-<p>Prerequisites</p>
-<pre tabindex=0><code>sudo apt install openssh-server net-tools
-</code></pre></li>
-<li>
-<p>Install</p>
-<pre tabindex=0><code>sudo snap install nextcloud
-</code></pre></li>
-<li>
-<p>Configure</p>
-<pre tabindex=0><code>sudo nextcloud.manual-install &lt;username&gt; &lt;password&gt;
-</code></pre></li>
-<li>
-<p>Set Trusted Domain</p>
-<p>set it to the hostname that your server is at, or the ip it is at</p>
-<pre tabindex=0><code>sudo nextcloud.occ config:system:set trusted_domains 1 --value=&lt;example.com&gt;
-</code></pre><pre tabindex=0><code>sudo nextcloud.occ config:system:set trusted_domains 1 --value=192.168.0.219
-</code></pre></li>
-<li>
-<p>certificate</p>
-<p>open up some ports</p>
-<pre tabindex=0><code>sudo ufw allow 22
-sudo ufw allow 80,443/tcp
-sudo ufw enable
-</code></pre><p>select which encryption method</p>
-<pre tabindex=0><code>sudo nextcloud.enable-https lets-encrypt
-</code></pre><pre tabindex=0><code>sudo nextcloud.enable-https self-signed
-</code></pre></li>
-<li>
-<p>Go to the website, sign on as admin, and continue configuring.</p>
-</li>
-</ol>
-<h2 id=external-references>External References</h2>
-<p><a href=https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04>https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04</a></p>
+<p><a href=https://ubuntu.com/server/docs/mail-dovecot>https://ubuntu.com/server/docs/mail-dovecot</a></p>
 </div>
 </div>
 </div>
@@ -161,7 +127,7 @@ sudo ufw enable
 </div>
 <div class="col-12 mb-5 text-center">
 <p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p>
-<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/nextcloud-install.md> Edit this Page</a></p>
+<p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/mail-setup.md> Edit this Page</a></p>
 </div>
 </div>
 </div>
