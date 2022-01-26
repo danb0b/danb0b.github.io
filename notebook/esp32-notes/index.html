@@ -119,7 +119,11 @@
 <p><a href=https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/</a></p>
 <h2 id=micropython-general-refs>micropython general refs</h2>
 <ul>
-<li><a href=https://docs.micropython.org/en/latest/esp32/quickref.html>https://docs.micropython.org/en/latest/esp32/quickref.html</a></li>
+<li><a href=https://docs.micropython.org/en/latest/esp32/quickref.html>https://docs.micropython.org/en/latest/esp32/quickref.html</a>
+<ul>
+<li><a href="https://docs.micropython.org/en/latest/esp32/quickref.html?highlight=webrepl#webrepl-web-browser-interactive-prompt">webrepl</a></li>
+</ul>
+</li>
 </ul>
 <h2 id=install-micropython-ide>Install micropython IDE</h2>
 <p>derived from <a href=https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/>here</a></p>
@@ -169,6 +173,7 @@
 <li><a href=https://micropython.org/download/esp32/>https://micropython.org/download/esp32/</a></li>
 <li><a href=https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/>https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/</a></li>
 <li><a href=https://randomnerdtutorials.com/flash-upload-micropython-firmware-esp32-esp8266/>https://randomnerdtutorials.com/flash-upload-micropython-firmware-esp32-esp8266/</a></li>
+<li><a href=https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html</a></li>
 </ul>
 <h2 id=arduino-instructions>Arduino Instructions</h2>
 <p><a href=/notebook/computer-setup/03-common-tools>Install Arduino</a></p>
@@ -178,7 +183,19 @@
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#111>echo</span> <span style=color:#d88200>&#34;alias python=python3&#34;</span> &gt;&gt; .bashrc
 </code></pre></div><p>then open arduino from the terminal</p>
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>arduino
-</code></pre></div><h2 id=examples>Examples</h2>
+</code></pre></div><h2 id=pinout>Pinout</h2>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class=text-center>
+<a href=https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-30-GPIOs-Copy.png><img src=https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-30-GPIOs-Copy.png alt="from https://randomnerdtutorials.com/getting-started-with-esp32/" style=max-width:80%;max-height:200px;width:auto;height:auto;text-align:center></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style=text-align:center>from https://randomnerdtutorials.com/getting-started-with-esp32/</div></td></tr>
+</tbody>
+</table>
+</p>
+<h2 id=examples>Examples</h2>
 <h3 id=mqtt>MQTT</h3>
 <ul>
 <li><a href=https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/>MQTT tutorial</a>
@@ -191,9 +208,27 @@
 </ul>
 <h3 id=serial>Serial</h3>
 <ul>
-<li><a href=https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html</a></li>
 <li><a href=https://docs.micropython.org/en/latest/library/machine.UART.html>https://docs.micropython.org/en/latest/library/machine.UART.html</a></li>
 <li><a href=https://techoverflow.net/2020/02/22/micropython-esp32-minimal-uart-example/>https://techoverflow.net/2020/02/22/micropython-esp32-minimal-uart-example/</a></li>
+</ul>
+<h3 id=analog>Analog</h3>
+<ul>
+<li>
+<p><a href=https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/>https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/</a></p>
+<p>
+<a href="https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/analog_input_pot_esp32.png?resize=1024%2C436&quality=100&strip=all&ssl=1"><img src="https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/analog_input_pot_esp32.png?resize=1024%2C436&quality=100&strip=all&ssl=1" alt></a>
+</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#f92672>from</span> <span style=color:#111>machine</span> <span style=color:#f92672>import</span> <span style=color:#111>Pin</span><span style=color:#111>,</span> <span style=color:#111>ADC</span>
+<span style=color:#f92672>from</span> <span style=color:#111>time</span> <span style=color:#f92672>import</span> <span style=color:#111>sleep</span>
+
+<span style=color:#111>pot</span> <span style=color:#f92672>=</span> <span style=color:#111>ADC</span><span style=color:#111>(</span><span style=color:#111>Pin</span><span style=color:#111>(</span><span style=color:#ae81ff>34</span><span style=color:#111>))</span>
+<span style=color:#111>pot</span><span style=color:#f92672>.</span><span style=color:#111>atten</span><span style=color:#111>(</span><span style=color:#111>ADC</span><span style=color:#f92672>.</span><span style=color:#111>ATTN_11DB</span><span style=color:#111>)</span>       <span style=color:#75715e>#Full range: 3.3v</span>
+
+<span style=color:#00a8c8>while</span> <span style=color:#00a8c8>True</span><span style=color:#111>:</span>
+  <span style=color:#111>pot_value</span> <span style=color:#f92672>=</span> <span style=color:#111>pot</span><span style=color:#f92672>.</span><span style=color:#111>read</span><span style=color:#111>()</span>
+  <span style=color:#111>print</span><span style=color:#111>(</span><span style=color:#111>pot_value</span><span style=color:#111>)</span>
+  <span style=color:#111>sleep</span><span style=color:#111>(</span><span style=color:#ae81ff>0.1</span><span style=color:#111>)</span>
+</code></pre></div></li>
 </ul>
 <h2 id=faq-from-amazon>FAQ (from amazon)</h2>
 <pre><code>1
