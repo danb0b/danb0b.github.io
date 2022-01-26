@@ -62,7 +62,7 @@ EOT
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys.dconf
 
 
-cat <<EOT >> dash-to-tock.dconf
+cat <<EOT >> dash-to-dock.dconf
 [/]
 dash-max-icon-size=32
 extend-height=false

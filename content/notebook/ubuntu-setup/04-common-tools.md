@@ -48,16 +48,6 @@ cd arduino-1.8.16
 sudo bash install.sh
 ```
 
-### Numix Theme
-
-```
-sudo apt update
-sudo add-apt-repository ppa:numix/ppa
-sudo apt install -y gnome-tweaks numix-gtk-theme numix-icon-theme numix-icon-theme-circle
-```
-
-open tweak tool and set icons and theme to numix
-
 
 ### Zoom
 
@@ -147,7 +137,15 @@ sudo apt install -y screen
 
 
 
+### Numix Theme
 
+```
+sudo apt update
+sudo add-apt-repository ppa:numix/ppa
+sudo apt install -y gnome-tweaks numix-gtk-theme numix-icon-theme numix-icon-theme-circle
+```
+
+open tweak tool and set icons and theme to numix
 
 
 

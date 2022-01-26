@@ -287,16 +287,24 @@ sudo -i -u <username>
 
 run ```exit``` to leave that session
 
+<<<<<<< HEAD
 
 
-# Show all manually-installed packages
+## Show all manually-installed packages
 
 ```
 apt-mark showmanual
 ```
 
-# close bash without saving history
+## close bash without saving history
 
 ```
 unset HISTFILE && exit
+
+## Package Management
+
+### Remove a repository
+
+```bash
+sudo add-apt-repository --remove ppa:PPA_Name/ppa
 ```

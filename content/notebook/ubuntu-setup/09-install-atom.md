@@ -20,15 +20,10 @@ tags:
     apm install language-latex latex pdf-view
     ```
 
-1. Load custom configuration file
-
-    ```bash
-    cp -r /my/remote/filesystem/atom/* ~/.atom/
-    ```
-    
-1. Current config file
+1. Create custom configuration file
 
     ```
+    cat <<EOT >> .atom/config.cson
     "*":
       core:
         disabledPackages: [
@@ -58,10 +53,10 @@ tags:
         telemetryConsent: "no"
         uriHandlerRegistration: "always"
       editor:
-        fontSize: 15
-        preferredLineLength: 160
+        fontSize: 13
         softWrap: true
-        softWrapAtPreferredLineLength: true
+      "exception-reporting":
+        userId: "10613451-9b64-4617-aaa9-d3c2e1770f35"
       "language-markdown":
         autoIncrementListItems: false
         indentListItems: false
@@ -112,10 +107,12 @@ tags:
       editor:
         autoIndent: true
         autoIndentOnPaste: false
+    EOT
     ```
 1. Current ```styles.less```
 
     ```
+    cat <<EOT >> .atom/styles.less
     /*
      * Your Stylesheet
      *
@@ -162,6 +159,7 @@ tags:
       }
 
     }
+    EOT
     ```
 
 1. Usage
