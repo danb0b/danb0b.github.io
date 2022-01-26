@@ -44,6 +44,7 @@ weight: 99
     ```
     sudo ufw allow 22
     sudo ufw allow 80,443/tcp
+    sudo ufw enable
     ```
 
     select which encryption method
