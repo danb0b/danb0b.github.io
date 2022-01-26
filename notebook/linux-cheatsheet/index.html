@@ -209,7 +209,9 @@ dig @resolver4.opendns.com myip.opendns.com +short
 </code></pre></div><h3 id=get-mac>get mac</h3>
 <p><a href=https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132>https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132</a></p>
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>arp -a &lt;ip address&gt;
-</code></pre></div><h2 id=sudo>sudo</h2>
+</code></pre></div><h3 id=wifi-scanning>Wifi Scanning</h3>
+<pre tabindex=0><code>nmcli d wifi
+</code></pre><h2 id=sudo>sudo</h2>
 <p>to run something as root</p>
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo &lt;command&gt; <span style=color:#f92672>[</span><span style=color:#111>command</span> options<span style=color:#f92672>]</span>
 </code></pre></div><p>to run interactively as root</p>
@@ -217,10 +219,19 @@ dig @resolver4.opendns.com myip.opendns.com +short
 </code></pre></div><p>to run something as someone else</p>
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo -i -u &lt;username&gt;
 </code></pre></div><p>run <code>exit</code> to leave that session</p>
-<h2 id=package-management>Package Management</h2>
-<h3 id=remove-a-repository>Remove a repository</h3>
-<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo add-apt-repository --remove ppa:PPA_Name/ppa
-</code></pre></div>
+<p>&#171;&#171;&#171;&lt; HEAD</p>
+<h2 id=show-all-manually-installed-packages>Show all manually-installed packages</h2>
+<pre tabindex=0><code>apt-mark showmanual
+</code></pre><h2 id=close-bash-without-saving-history>close bash without saving history</h2>
+<pre tabindex=0><code>unset HISTFILE &amp;&amp; exit
+
+## Package Management
+
+### Remove a repository
+
+```bash
+sudo add-apt-repository --remove ppa:PPA_Name/ppa
+</code></pre>
 </div>
 </div>
 </div>
