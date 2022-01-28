@@ -24,7 +24,7 @@ GSSAPIAuthentication no
 #UsePAM no
 X11Forwarding no
 AllowTcpForwarding no
-AllowAgentForwarding no
+AllowAgentForwarding yes
 MaxAuthTries 3
 LoginGraceTime 20
 PermitTunnel no
