@@ -259,6 +259,12 @@ dig @resolver4.opendns.com myip.opendns.com +short
 arp -a <ip address>
 ```
 
+### Wifi Scanning
+
+```
+nmcli d wifi
+```
+
 ## sudo
 
 to run something as root
@@ -280,6 +286,20 @@ sudo -i -u <username>
 ```
 
 run ```exit``` to leave that session
+
+<<<<<<< HEAD
+
+
+## Show all manually-installed packages
+
+```
+apt-mark showmanual
+```
+
+## close bash without saving history
+
+```
+unset HISTFILE && exit
 
 ## Package Management
 

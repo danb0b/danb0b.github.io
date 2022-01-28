@@ -23,8 +23,16 @@ tags:
     * other email programs
     * other browsers
 1. turn on firewall
+
+```bash
+sudo ufw allow 22
+sudo ufw enable
+sudo ufw status
+```
+
 1. install tor?
 1. add 2fa app?
 1. update frequently
 1. encrypt hard drive
 1. set up logging
+1. set / update vnc passwords
