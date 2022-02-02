@@ -255,3 +255,6 @@ arduino
     The board is about quarter size in width
     By Dawid W. on August 18, 2021
     Collapse all answers 
+## Ping
+
+https://forum.micropython.org/viewtopic.php?t=5287
