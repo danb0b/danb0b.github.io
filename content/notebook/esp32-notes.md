@@ -15,10 +15,10 @@ tags:
 ## External Links
 
 * Official MicroPython [Page](https://micropython.org/download/esp32/)
-* uPyCraft IDE [Github Repository](https://github.com/DFRobot/uPyCraft)
 
 ## Product Comparison
 
+* <https://johnmu.com/picking-esp32-dev-board/>
 * <https://makeradvisor.com/esp32-development-boards-review-comparison/>
 
 * <https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32D?qs=%252BEew9%252B0nqrDsObWEpDx6YQ%3D%3D&mgh=1&gclid=CjwKCAjwybyJBhBwEiwAvz4G74ePru_-tQfWS_DEqBxOR0LHcscr8IffqZhiS-5BOsP_XoH8helCLRoCF3wQAvD_BwE>
@@ -26,9 +26,7 @@ tags:
 * [mouser search](https://www.mouser.com/c/embedded-solutions/engineering-tools/embedded-processor-development-kits/?m=Espressif)
 * [digikey search](https://www.digikey.com/en/products/filter/rf-evaluation-and-development-kits-boards/859?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAusQA4AuUIAykwE4CWAdgOYgAvsQC0AFmQg0kLHiKkKIAGwBWAMywktISJAAmJflwNOx3N3QACACb4AblYBGJTJxt0hQA)
 
-## ESP32 Dev Board WROOM info
 
-<https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>
 
 ## micropython general refs
 * <https://docs.micropython.org/en/latest/esp32/quickref.html>
@@ -109,6 +107,17 @@ arduino
 
 ![from https://randomnerdtutorials.com/getting-started-with-esp32/](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-30-GPIOs-Copy.png)
 
+TL/DR:
+
+* RX0 / TX0 are used by the onboard silabs USB/serial chip
+
+Pinout Resources:
+
+* <https://johnmu.com/picking-esp32-dev-board/>
+* <https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>
+* <https://www.studiopieters.nl/esp32-pinout/>
+
+
 ## Examples
 
 ### MQTT
@@ -142,6 +151,17 @@ arduino
       sleep(0.1)
     ```
 
+### Other Micropython stuff...
+
+* Importing packages...use ```upip```
+
+
+* [Logging Info](https://forum.micropython.org/viewtopic.php?t=6838)
+    * Logging in python3 (not all features work): <https://docs.python.org/3/howto/logging.html>
+* [Python standard libraries available for micropython](https://docs.micropython.org/en/latest/library/index.html#python-standard-libraries-and-micro-libraries)
+* [micropython specific libraries](https://docs.micropython.org/en/latest/library/index.html#micropython-specific-libraries)
+* [ESP32 Specific Libraries](https://docs.micropython.org/en/latest/library/index.html#libraries-specific-to-the-esp8266-and-esp32)
+* Information on [ping](https://forum.micropython.org/viewtopic.php?t=5287)
 
 ## FAQ (from amazon)
 
@@ -255,6 +275,3 @@ arduino
     The board is about quarter size in width
     By Dawid W. on August 18, 2021
     Collapse all answers 
-## Ping
-
-https://forum.micropython.org/viewtopic.php?t=5287

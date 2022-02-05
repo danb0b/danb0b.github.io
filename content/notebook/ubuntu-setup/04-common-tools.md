@@ -26,6 +26,7 @@ sudo snap install shotcut --classic
 sudo snap install mqtt-explorer 
 sudo snap install hugo --channel=extended
 #sudo snap install inkscape # doesn't work well on 21.10
+sudo snap install chromium
 ```
 
 ### Latex

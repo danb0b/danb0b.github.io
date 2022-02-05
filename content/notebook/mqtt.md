@@ -23,3 +23,6 @@ sudo cp ~/mosquitto.conf /etc/mosquitto/conf.d/
 sudo snap install mqtt-explorer
 ```
 
+## Other Resources
+
+* [About Keepalive](https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over/)
