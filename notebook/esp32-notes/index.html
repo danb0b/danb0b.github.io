@@ -95,10 +95,12 @@
 <h2 id=external-links>External Links</h2>
 <ul>
 <li>Official MicroPython <a href=https://micropython.org/download/esp32/>Page</a></li>
-<li>uPyCraft IDE <a href=https://github.com/DFRobot/uPyCraft>Github Repository</a></li>
 </ul>
 <h2 id=product-comparison>Product Comparison</h2>
 <ul>
+<li>
+<p><a href=https://johnmu.com/picking-esp32-dev-board/>https://johnmu.com/picking-esp32-dev-board/</a></p>
+</li>
 <li>
 <p><a href=https://makeradvisor.com/esp32-development-boards-review-comparison/>https://makeradvisor.com/esp32-development-boards-review-comparison/</a></p>
 </li>
@@ -115,8 +117,6 @@
 <p><a href="https://www.digikey.com/en/products/filter/rf-evaluation-and-development-kits-boards/859?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAusQA4AuUIAykwE4CWAdgOYgAvsQC0AFmQg0kLHiKkKIAGwBWAMywktISJAAmJflwNOx3N3QACACb4AblYBGJTJxt0hQA">digikey search</a></p>
 </li>
 </ul>
-<h2 id=esp32-dev-board-wroom-info>ESP32 Dev Board WROOM info</h2>
-<p><a href=https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/</a></p>
 <h2 id=micropython-general-refs>micropython general refs</h2>
 <ul>
 <li><a href=https://docs.micropython.org/en/latest/esp32/quickref.html>https://docs.micropython.org/en/latest/esp32/quickref.html</a>
@@ -195,6 +195,16 @@
 </tbody>
 </table>
 </p>
+<p>TL/DR:</p>
+<ul>
+<li>RX0 / TX0 are used by the onboard silabs USB/serial chip</li>
+</ul>
+<p>Pinout Resources:</p>
+<ul>
+<li><a href=https://johnmu.com/picking-esp32-dev-board/>https://johnmu.com/picking-esp32-dev-board/</a></li>
+<li><a href=https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/</a></li>
+<li><a href=https://www.studiopieters.nl/esp32-pinout/>https://www.studiopieters.nl/esp32-pinout/</a></li>
+</ul>
 <h2 id=examples>Examples</h2>
 <h3 id=mqtt>MQTT</h3>
 <ul>
@@ -229,6 +239,30 @@
   <span style=color:#111>print</span><span style=color:#111>(</span><span style=color:#111>pot_value</span><span style=color:#111>)</span>
   <span style=color:#111>sleep</span><span style=color:#111>(</span><span style=color:#ae81ff>0.1</span><span style=color:#111>)</span>
 </code></pre></div></li>
+</ul>
+<h3 id=other-micropython-stuff>Other Micropython stuff&mldr;</h3>
+<ul>
+<li>
+<p>Importing packages&mldr;use <code>upip</code></p>
+</li>
+<li>
+<p><a href="https://forum.micropython.org/viewtopic.php?t=6838">Logging Info</a></p>
+<ul>
+<li>Logging in python3 (not all features work): <a href=https://docs.python.org/3/howto/logging.html>https://docs.python.org/3/howto/logging.html</a></li>
+</ul>
+</li>
+<li>
+<p><a href=https://docs.micropython.org/en/latest/library/index.html#python-standard-libraries-and-micro-libraries>Python standard libraries available for micropython</a></p>
+</li>
+<li>
+<p><a href=https://docs.micropython.org/en/latest/library/index.html#micropython-specific-libraries>micropython specific libraries</a></p>
+</li>
+<li>
+<p><a href=https://docs.micropython.org/en/latest/library/index.html#libraries-specific-to-the-esp8266-and-esp32>ESP32 Specific Libraries</a></p>
+</li>
+<li>
+<p>Information on <a href="https://forum.micropython.org/viewtopic.php?t=5287">ping</a></p>
+</li>
 </ul>
 <h2 id=faq-from-amazon>FAQ (from amazon)</h2>
 <pre><code>1
@@ -342,8 +376,6 @@ The board is about quarter size in width
 By Dawid W. on August 18, 2021
 Collapse all answers 
 </code></pre>
-<h2 id=ping>Ping</h2>
-<p><a href="https://forum.micropython.org/viewtopic.php?t=5287">https://forum.micropython.org/viewtopic.php?t=5287</a></p>
 </div>
 </div>
 </div>
