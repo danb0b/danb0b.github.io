@@ -35,7 +35,7 @@ This is a big install so plan it for when you can let it go a while
 
 ```bash
 #sudo apt install -y texlive-full
-sudo apt install -y texlive-minimal
+sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base
 ```
 
 ## Optional
