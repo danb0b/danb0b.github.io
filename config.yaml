@@ -11,11 +11,14 @@ taxonomies:
   recipe_tag: recipe_tags
 disqusShortname: ''
 languageCode: en-us
-#menu:
-#  footer:
-#  - URL: about
-#    name: About
-#    weight: 1
+menu:
+  footer:
+  - URL: https://idealab-asu.slack.com
+    name: IDEAlab Slack
+    weight: 1
+  - URL: https://asu-2221-egr314-14618.slack.com
+    name: EGR314 Slack
+    weight: 1
 #  main:
 #  - URL: notebook
 #    name: Notebook
