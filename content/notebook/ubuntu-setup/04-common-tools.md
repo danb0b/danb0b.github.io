@@ -21,7 +21,7 @@ sudo apt install firefox
 sudo apt install -y cifs-utils
 sudo apt install -y inkscape
 sudo apt install -y paper-icon-theme
-sudo apt install -y openssh-client
+#sudo apt install -y openssh-client #already installed
 sudo apt install -y libinput-tools #not sure what this is used for
 sudo snap install shotcut --classic
 sudo snap install mqtt-explorer 
@@ -35,7 +35,8 @@ sudo snap install chromium
 This is a big install so plan it for when you can let it go a while
 
 ```bash
-sudo apt install -y texlive-full
+#sudo apt install -y texlive-full
+sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base
 ```
 
 ## Optional

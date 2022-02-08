@@ -25,7 +25,9 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-follow the instructions
+1. follow the instructions
+2. use the default path
+3. say "yes" to initialize conda
 
 ```
 cd ~/
