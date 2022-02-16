@@ -97,3 +97,10 @@ Reusable links related to Arizona State University
 * <https://facultysearch.interfolio.com>
 * <https://poly.engineering.asu.edu/tps-support-services/>
 * [room reservations](https://poly.engineering.asu.edu/rooms/)
+* 
+
+## Barrett Info
+
+* [Honors Thesis Funding Options](https://barretthonors.asu.edu/thesis/funding)
+* [Thesis Pathways](https://barretthonors.asu.edu/thesis/pathways)
+* [Prospectus info](https://barretthonors.asu.edu/thesis/prospectus)
