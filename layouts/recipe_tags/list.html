@@ -9,26 +9,21 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
+      <h2> Recipes </h2>
         <div class="row">
-          <h1>{{ .Title }}</h1>
-          {{ .Content }}
-        </div>
-
-        <div class="row">
-          {{ $paginator := .Paginate .Pages }}
+          {{ $paginator := .Paginate .Pages 10 }}
           {{ range $paginator.Pages }}
           {{ .Render "post_little" }}
           {{ end }}
+        </div>
+        <!-- pagination -->
+        <div class="row justify-content-center">
+        {{ partial "paginator.html" . }}
         </div>
       </div>
       <!-- sidebar -->
         {{- block "sb" . }}{{- end }}
       <!-- /sidebar -->
-
-      <!-- pagination -->
-      <div class="col-12 mt-5">
-        {{ template "_internal/pagination.html" . }}
-      </div>
     </div>
   </div>
 </section>
