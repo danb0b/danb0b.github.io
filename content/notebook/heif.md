@@ -1,5 +1,10 @@
 ---
-title: Dealing with .heif images
+title: Dealing with .heif Images
+tags: 
+  - images
+  - heif
+  - ubuntu
+  - bash
 ---
 
 
