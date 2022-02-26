@@ -149,6 +149,18 @@ from here: <https://github.com/trailofbits/algo/blob/master/docs/client-linux-wi
     sudo systemctl enable wg-quick@wg0
     ```
 
+1. To stop the service,
+
+    ```bash
+    sudo systemctl stop wg-quick@wg0
+    ```
+
+1. To disable the service,
+
+    ```bash
+    sudo systemctl disable wg-quick@wg0
+    ```
+
 ## Note:
 
 Don't use the virtual host with the virtual algo guest, it will kill external communication to/from the guest.
