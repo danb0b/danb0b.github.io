@@ -1,0 +1,21 @@
+---
+title: Dealing with .heif images
+---
+
+
+
+<https://linuxnightly.com/convert-heif-images-to-jpg-or-png-on-linux/>
+
+```bash
+sudo apt install libheif-examples
+```
+
+```bash
+heif-convert image.HEIC new-image.jpg
+```
+
+using find...
+
+```bash
+find . -iname "*.heic" -exec heif-convert -q 100 {} {}.jpg \;
+```
