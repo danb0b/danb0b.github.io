@@ -227,6 +227,14 @@ sudo apt install wireguard openresolv
 <p>Optionally configure the connection to come up at boot time:</p>
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo systemctl <span style=color:#111>enable</span> wg-quick@wg0
 </code></pre></div></li>
+<li>
+<p>To stop the service,</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo systemctl stop wg-quick@wg0
+</code></pre></div></li>
+<li>
+<p>To disable the service,</p>
+<div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo systemctl disable wg-quick@wg0
+</code></pre></div></li>
 </ol>
 <h2 id=note>Note:</h2>
 <p>Don&rsquo;t use the virtual host with the virtual algo guest, it will kill external communication to/from the guest.</p>
