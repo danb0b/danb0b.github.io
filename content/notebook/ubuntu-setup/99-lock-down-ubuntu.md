@@ -28,6 +28,8 @@ tags:
 sudo ufw allow 22
 sudo ufw enable
 sudo ufw status
+sudo systemctl enable ufw
+sudo systemctl start ufw
 ```
 
 1. install tor?
