@@ -107,3 +107,5 @@ Reusable links related to Arizona State University
 * [FHA Pages](https://barretthonors.asu.edu/academics/advising-and-requirements/honors-opportunities-in-majors)
 * <https://skysong.inteum.com/skysong/inventorportal/mydisclosures.aspx>
 * <https://www.asu.edu/map/interactive/>
+* <https://www.asu.edu/map/interactive/?campus=polytechnic&building=PRLTA>
+* <https://www.asu.edu/map/interactive/?campus=polytechnic&building=TECH>
