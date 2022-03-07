@@ -55,15 +55,12 @@
 </form><button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
 </div></div></div></nav></div></header><section class=section-sm>
 <div class=container>
-<div class=text-center>
-<a href=/notebook>notebook</a>
-<i class=ti-arrow-right></i>
-<a href=/notebook/ros>ros</a>
-<i class=ti-arrow-right></i>
-<a href=./>13-logitech-c930e</a>
-</div><div class=row>
+<div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>Getting the Logitech c930 working with ROS</h2><div class="mb-3 post-meta">
+<div class=text-center>
+<nav style="--bs-breadcrumb-divider:'>'" aria-label=breadcrumb>
+<ol class=breadcrumb>
+<li class=breadcrumb-item><a href=/notebook>notebook</a></li><li class=breadcrumb-item><a href=/notebook/ros>ros</a></li><li class="breadcrumb-item active" aria-current=page>13-logitech-c930e</li></ol></nav></div><h2>Getting the Logitech c930 working with ROS</h2><div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div><div class="content mb-5">
 <h1 id=using-a-usb-webcam-with-virtualbox>Using a USB webcam (with virtualbox)</h1><h2 id=introduction>Introduction</h2><p>Making a usb webcam work in Linux AND virtualbox is not as easy as it sounds. These instructions were validated for the C930 Webcam by Logitech. Some steps need to change to make other cameras work. For this tutorial to work, the camera should be &ldquo;UVC compliant&rdquo;</p><p>You need to follow slightly different steps if you want to provide access to a built-in camera on your computer. This is possible but some of the USB-specific instructions will not work, as it won&rsquo;t be necessarily recognized as a usb device using libusb</p><h2 id=instructions>Instructions</h2><ol>

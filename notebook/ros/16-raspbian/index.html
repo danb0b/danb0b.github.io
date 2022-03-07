@@ -55,15 +55,12 @@
 </form><button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
 </div></div></div></nav></div></header><section class=section-sm>
 <div class=container>
-<div class=text-center>
-<a href=/notebook>notebook</a>
-<i class=ti-arrow-right></i>
-<a href=/notebook/ros>ros</a>
-<i class=ti-arrow-right></i>
-<a href=./>16-raspbian</a>
-</div><div class=row>
+<div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS</h2><div class="mb-3 post-meta">
+<div class=text-center>
+<nav style="--bs-breadcrumb-divider:'>'" aria-label=breadcrumb>
+<ol class=breadcrumb>
+<li class=breadcrumb-item><a href=/notebook>notebook</a></li><li class=breadcrumb-item><a href=/notebook/ros>ros</a></li><li class="breadcrumb-item active" aria-current=page>16-raspbian</li></ol></nav></div><h2>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS</h2><div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div><div class="content mb-5">
 <h2 id=introduction>Introduction</h2><p>Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18. Ubuntu 20.04 worked eventually, but initial startup took over 5 minutes for the device to show up on my network. Plus I was interested in installing ros melodic, which is built for ubuntu 18. So here are the steps I used. I installed raspbian buster and compiled ros from scratch.</p><h2 id=instructions>Instructions</h2><ol>

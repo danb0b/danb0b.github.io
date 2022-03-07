@@ -55,15 +55,12 @@
 </form><button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
 </div></div></div></nav></div></header><section class=section-sm>
 <div class=container>
-<div class=text-center>
-<a href=/notebook>notebook</a>
-<i class=ti-arrow-right></i>
-<a href=/notebook/ros>ros</a>
-<i class=ti-arrow-right></i>
-<a href=./>00-overview</a>
-</div><div class=row>
+<div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>Overview</h2><div class="mb-3 post-meta">
+<div class=text-center>
+<nav style="--bs-breadcrumb-divider:'>'" aria-label=breadcrumb>
+<ol class=breadcrumb>
+<li class=breadcrumb-item><a href=/notebook>notebook</a></li><li class=breadcrumb-item><a href=/notebook/ros>ros</a></li><li class="breadcrumb-item active" aria-current=page>00-overview</li></ol></nav></div><h2>Overview</h2><div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div><div class="content mb-5">
 <h2 id=introduction>Introduction</h2><p>The purpose of this project is to document our implementation of ROS and teach lab members how to use it for a number of purposes specific to the activities of a robotics lab like the IDEAlab.</p><p>In contrast with its name, ROS is not an operating system. It is a way to have vast, disparate sources of data come together in networked way in order to perform tasks important to robotics, such as simulation, sensing, control, learning, and teleoperation. It coordinates the transfer of information from one place to another in a way that is scalable</p><h2 id=integration>Integration</h2><p>The IDEAlab has a number of disparate pieces of hardware, each of which is controlled using a mix of standardized and proprietary protocols. It is important to be able to access that data in a standardized way so that we can run experiments more efficiently</p><p>Each device typically has an API or protocol that we can use to communicate with it, but these protocols are not standardized (nor should they be). In the past, when creating experimental data collection setups, we would write individual Matlab or Python-based scripts to communicate with the specific devices we needed. This led to non-standardized code with situation-specific instructions making it difficult to reuse the code for new purposes, limiting sharing. Secondly, as multiple devices were often integrated together within some sort of while loop, communication from multiple sources at different rates led to common problems with buffering and asynchronous communication, leading to poor performance. Through ROS, we have more control over each devices communication rate in a way that is non-blocking and variable depending on need.</p><h2 id=high-level-overview>High Level Overview</h2><p>There are a variety of terms used for the parts of ROS, and while there are good tutorials out there, it is nice to see a quick summary of terms in one place.</p><table>

@@ -55,15 +55,12 @@
 </form><button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
 </div></div></div></nav></div></header><section class=section-sm>
 <div class=container>
-<div class=text-center>
-<a href=/notebook>notebook</a>
-<i class=ti-arrow-right></i>
-<a href=/notebook/ssh>ssh</a>
-<i class=ti-arrow-right></i>
-<a href=./>port-forwarding-cheatsheet</a>
-</div><div class=row>
+<div class=row>
 <div class="col-lg-8 mx-auto">
-<h2>Port Forwarding Cheatsheet</h2><div class="mb-3 post-meta">
+<div class=text-center>
+<nav style="--bs-breadcrumb-divider:'>'" aria-label=breadcrumb>
+<ol class=breadcrumb>
+<li class=breadcrumb-item><a href=/notebook>notebook</a></li><li class=breadcrumb-item><a href=/notebook/ssh>ssh</a></li><li class="breadcrumb-item active" aria-current=page>port-forwarding-cheatsheet</li></ol></nav></div><h2>Port Forwarding Cheatsheet</h2><div class="mb-3 post-meta">
 <span>By Dan Aukes</span>
 </div><div class="content mb-5">
 <pre tabindex=0><code>ssh -L (localport):localhost:(remoteport) -C -N -l (username) hostname.domain -p (sshport)
