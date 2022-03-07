@@ -43,3 +43,9 @@ ps aux | grep python
 ```bash
 grep -Iirl "hello" --include=*.{cc,h} 
 ```
+
+## with newline
+
+```bash
+pcregrep -rIn -M "\n#{1} " --include=*.md .
+```
