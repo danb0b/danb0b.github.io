@@ -71,11 +71,23 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 
 ### General
 * <https://gohugo.io/getting-started/quick-start/>
+* [Page Variables](https://gohugo.io/variables/page/#pages)
+* [The Page Variable](https://gohugo.io/variables/page/#pages)
+
 
 ### Essential Add-ons
 * Original [liva theme](https://github.com/gethugothemes/liva-hugo)
 * [Citations for Hugo](https://github.com/loup-brun/hugo-cite)
 * [custom pagination](https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/)
+
+#### Search
+
+* <https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae>
+* <https://ben.land/post/2021/12/02/hugo-search-functionality/>
+
+#### JSON
+
+* <https://xdeb.org/post/2017/make-hugo-generate-a-json-search-index-and-json-feed/>
 
 ### Using with Github Actions
 * [automated deploytment on github pages](https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9)
@@ -85,4 +97,5 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 ### Themes and Examples
 * <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
 * <https://www.liwen.id.au/photoswipe/>
+
 

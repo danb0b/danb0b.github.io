@@ -109,3 +109,4 @@ Reusable links related to Arizona State University
 * <https://www.asu.edu/map/interactive/>
 * <https://www.asu.edu/map/interactive/?campus=polytechnic&building=PRLTA>
 * <https://www.asu.edu/map/interactive/?campus=polytechnic&building=TECH>
+* [ASU Remote Desktop](https://ets.engineering.asu.edu/remote-access-labs/)
