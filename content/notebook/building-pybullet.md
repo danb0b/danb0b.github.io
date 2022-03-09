@@ -7,19 +7,26 @@ tags:
   - pyBullet
 ---
 
+
 ```bash
 sudo apt  install cmake-curses-gui 
-``
-
+cd ~/Downloads
 git clone https://github.com/bulletphysics/bullet3.git
 cd bullet3
 ccmake .
+```
 
 then configure, generate
 
+```bash
 make
+```
 
+then wait for it to build and then
+
+```bash
 sudo make install
+```
 
 -------------
 
