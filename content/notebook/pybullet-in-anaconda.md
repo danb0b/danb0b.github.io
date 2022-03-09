@@ -15,6 +15,8 @@ search keywords:
 - swrast
 
 
+Trying to run a pyBullet script, I kept getting this kind of error:
+
 ```bash
 pybullet build time: Dec  1 2021 18:34:28
 startThreads creating 1 threads.
@@ -37,11 +39,17 @@ Failed to create GL 3.3 context ... using old-style GLX context
 Failed to create an OpenGL context
 ```
 
-after searching my anaconda directory for installations of libstdc++.so, I found multiple results
+I looked up this error, and there were lots of suggestions that didn't work, like exporting the right environment variable, installing the amdgpu-pro drivers, etc.  It turned out to be conflicts between the libstdc++ library expected by pyBullet and the version installed in my base anaconda environment.
+
+After searching my anaconda directory for installations of libstdc++.so, I found multiple conflicting results:
+
+Search:
 
 ```bash
 sudo find / -wholename "*conda*/**/libstdc++.so*"
 ```
+
+Result:
 
 ```
 /home/danaukes/miniconda3/lib/libstdc++.so.6.0.28
@@ -60,11 +68,17 @@ sudo find / -wholename "*conda*/**/libstdc++.so*"
 
 So I created a new environment, just for pybullet.
 
-
+```bash
 conda create -n pybullet
 conda activate pybullet
 conda install python
 conda install -c conda-forge gcc
 pip install pybullet
+```
 
+Spyder conflicts with this environment so I instead installed the ide-python package for atom.  See the instructions [here](/notebook/atom-for-python/)
+
+## External Resources
+
+* <https://askubuntu.com/questions/1352158/libgl-error-failed-to-load-drivers-iris-and-swrast-in-ubuntu-20-04>
 
