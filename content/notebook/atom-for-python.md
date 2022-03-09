@@ -1,0 +1,22 @@
+---
+title: Configuring Atom for Python
+tags:
+  - atom
+  - python
+---
+
+1. Activate whatever conda environment you need to
+
+```bash
+activate <environmentname>
+```
+
+1. Install packages for atom
+
+
+1. Install python support packages
+```bash
+apm install ide-python atom-python-run
+python3 -m pip install 'python-lsp-server[all]'
+python3 -m pip install git+https://github.com/tomv564/pyls-mypy.git
+```
