@@ -64,7 +64,7 @@
 <span>By Dan Aukes</span>
 </div><div class="content mb-5">
 <p>search keywords:</p><ul>
-<li>python</li><li>anaconda</li><li>conda</li><li>pybullet</li><li>Mesa</li><li>OpenGL</li><li>radeonsi</li><li>swrast</li></ul><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pybullet build time: Dec  <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>2021</span> 18:34:28
+<li>python</li><li>anaconda</li><li>conda</li><li>pybullet</li><li>Mesa</li><li>OpenGL</li><li>radeonsi</li><li>swrast</li></ul><p>Trying to run a pyBullet script, I kept getting this kind of error:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pybullet build time: Dec  <span style=color:#ae81ff>1</span> <span style=color:#ae81ff>2021</span> 18:34:28
 </span></span><span style=display:flex><span>startThreads creating <span style=color:#ae81ff>1</span> threads.
 </span></span><span style=display:flex><span>starting thread <span style=color:#ae81ff>0</span>
 </span></span><span style=display:flex><span>started thread <span style=color:#ae81ff>0</span> 
@@ -83,8 +83,8 @@
 </span></span><span style=display:flex><span>Creating context
 </span></span><span style=display:flex><span>Failed to create GL 3.3 context ... using old-style GLX context
 </span></span><span style=display:flex><span>Failed to create an OpenGL context
-</span></span></code></pre></div><p>after searching my anaconda directory for installations of libstdc++.so, I found multiple results</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo find / -wholename <span style=color:#d88200>&#34;*conda*/**/libstdc++.so*&#34;</span>
-</span></span></code></pre></div><pre tabindex=0><code>/home/danaukes/miniconda3/lib/libstdc++.so.6.0.28
+</span></span></code></pre></div><p>I looked up this error, and there were lots of suggestions that didn&rsquo;t work, like exporting the right environment variable, installing the amdgpu-pro drivers, etc. It turned out to be conflicts between the libstdc++ library expected by pyBullet and the version installed in my base anaconda environment.</p><p>After searching my anaconda directory for installations of libstdc++.so, I found multiple conflicting results:</p><p>Search:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo find / -wholename <span style=color:#d88200>&#34;*conda*/**/libstdc++.so*&#34;</span>
+</span></span></code></pre></div><p>Result:</p><pre tabindex=0><code>/home/danaukes/miniconda3/lib/libstdc++.so.6.0.28
 /home/danaukes/miniconda3/lib/libstdc++.so
 /home/danaukes/miniconda3/lib/libstdc++.so.6
 /home/danaukes/miniconda3/pkgs/libstdcxx-ng-9.3.0-hd4cf53a_17/lib/libstdc++.so.6.0.28
@@ -96,11 +96,13 @@
 /home/danaukes/miniconda3/pkgs/libstdcxx-ng-11.2.0-he4da1e4_13/lib/libstdc++.so
 /home/danaukes/miniconda3/pkgs/libstdcxx-ng-11.2.0-he4da1e4_13/lib/libstdc++.so.6
 /home/danaukes/miniconda3/pkgs/libstdcxx-ng-11.2.0-he4da1e4_13/lib/libstdc++.so.6.0.29
-</code></pre><p>So I created a new environment, just for pybullet.</p><p>conda create -n pybullet
-conda activate pybullet
-conda install python
-conda install -c conda-forge gcc
-pip install pybullet</p></div></div></div></div></section><footer class=text-capitalize>
+</code></pre><p>So I created a new environment, just for pybullet.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda create -n pybullet
+</span></span><span style=display:flex><span>conda activate pybullet
+</span></span><span style=display:flex><span>conda install python
+</span></span><span style=display:flex><span>conda install -c conda-forge gcc
+</span></span><span style=display:flex><span>pip install pybullet
+</span></span></code></pre></div><p>Spyder conflicts with this environment so I instead installed the ide-python package for atom. See the instructions <a href=/notebook/atom-for-python/>here</a></p><h2 id=external-resources>External Resources</h2><ul>
+<li><a href=https://askubuntu.com/questions/1352158/libgl-error-failed-to-load-drivers-iris-and-swrast-in-ubuntu-20-04>https://askubuntu.com/questions/1352158/libgl-error-failed-to-load-drivers-iris-and-swrast-in-ubuntu-20-04</a></li></ul></div></div></div></div></section><footer class=text-capitalize>
 <div class=container>
 <div class="row justify-content-center">
 <div class="col-12 border-top py-4 text-center">
