@@ -64,27 +64,22 @@
 <span>By Dan Aukes</span>
 </div><div class="content mb-5">
 <div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt  install cmake-curses-gui 
-</span></span><span style=display:flex><span><span style=color:#d88200>``</span>
-</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#111>cd</span> ~/Downloads
 </span></span><span style=display:flex><span>git clone https://github.com/bulletphysics/bullet3.git
 </span></span><span style=display:flex><span><span style=color:#111>cd</span> bullet3
 </span></span><span style=display:flex><span>ccmake .
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#00a8c8>then</span> configure, generate
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>make
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>sudo make install
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>-------------
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e>## Old</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>Things I tried that didn<span style=color:#960050;background-color:#1e0010>&#39;</span>t work at fixing my Mesa errors <span style=color:#f92672>(</span>it was anaconda the whole time!<span style=color:#f92672>)</span>
-</span></span></code></pre></div><p>sudo apt install mesa-utils
-sudo apt install &ndash;reinstall libgl1-mesa-dri</p><p>sudo apt install libopengl-dev libglx-dev libglfw3-dev
+</span></span></code></pre></div><p>then configure, generate</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>make
+</span></span></code></pre></div><p>then wait for it to build and then</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo make install
+</span></span></code></pre></div><hr>
+<h2 id=old>Old</h2><p>Things I tried that didn&rsquo;t work at fixing my Mesa errors (it was anaconda the whole time!)</p><pre tabindex=0><code>sudo apt install mesa-utils
+sudo apt install --reinstall libgl1-mesa-dri
+
+sudo apt install libopengl-dev libglx-dev libglfw3-dev
 sudo apt install freeglut3-dev libglw1-mesa-dev
-sudo apt install libglm-dev</p><p>sudo apt install &ndash;reinstall libglw1-mesa libglw1-mesa-dev</p><pre tabindex=0><code></code></pre></div></div></div></div></section><footer class=text-capitalize>
+sudo apt install libglm-dev
+
+sudo apt install --reinstall libglw1-mesa libglw1-mesa-dev 
+</code></pre></div></div></div></div></section><footer class=text-capitalize>
 <div class=container>
 <div class="row justify-content-center">
 <div class="col-12 border-top py-4 text-center">
