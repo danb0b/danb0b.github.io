@@ -1,161 +1,41 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<title> Running Ros on a Raspbery Pi 4 with Raspberry Pi OS | Dan Aukes </title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=description content="This is meta description">
-<meta name=author content="Dan Aukes">
-<meta name=generator content="Hugo 0.93.3">
-<link rel=stylesheet href=https://danaukes.com/plugins/bootstrap/bootstrap.min.css>
-<link rel=stylesheet href=https://danaukes.com/plugins/slick/slick.css>
-<link rel=stylesheet href=https://danaukes.com/plugins/themify-icons/themify-icons.css>
-<link rel=stylesheet href=https://danaukes.com/plugins/venobox/venobox.css>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css>
-<link rel=stylesheet href=https://danaukes.com/scss/style.min.css media=screen>
-<link rel="shortcut icon" href=https://danaukes.com/images/favicon.png type=image/x-icon>
-<link rel=icon href=https://danaukes.com/images/favicon.png type=image/x-icon>
-<script>(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)})(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create",'',"auto"),ga("send","pageview")</script>
-<script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
-</head><body>
-<div class=preloader>
-</div><header class=navigation>
-<div class=container>
-<nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-<a class="navbar-brand mobile-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><title>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS | Dan Aukes</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="This is meta description"><meta name=author content="Dan Aukes"><meta name=generator content="Hugo 0.94.0"><link rel=stylesheet href=https://danaukes.com/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://danaukes.com/plugins/slick/slick.css><link rel=stylesheet href=https://danaukes.com/plugins/themify-icons/themify-icons.css><link rel=stylesheet href=https://danaukes.com/plugins/venobox/venobox.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css><link rel=stylesheet href=https://danaukes.com/scss/style.min.css media=screen><link rel="shortcut icon" href=https://danaukes.com/images/favicon.png type=image/x-icon><link rel=icon href=https://danaukes.com/images/favicon.png type=image/x-icon><script>(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)})(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create",'',"auto"),ga("send","pageview")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script></head><body><div class=preloader></div><header class=navigation><div class=container><nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0"><a class="navbar-brand mobile-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a>
 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
-<i class=ti-menu></i>
-</button>
-<div class="collapse navbar-collapse text-center" id=navigation>
-<div class=desktop-view>
-<ul class="navbar-nav mr-auto">
-<li class=nav-item>
-<a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a>
-</li><li class=nav-item>
-<a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a>
-</li><li class=nav-item>
-<a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a>
-</li></ul></div><a class="navbar-brand mx-auto desktop-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a>
-<ul class=navbar-nav>
-<li class=nav-item>
-<a class=nav-link href=https://danaukes.com/bookmarks/>Bookmarks</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://danaukes.com/code/>Code</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://danaukes.com/notebook/>Notebook</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://danaukes.com/recipes/>Recipes</a>
-</li><li class=nav-item>
-<a class=nav-link href=https://danaukes.com/websites/>Websites</a>
-</li></ul><div class="search pl-lg-4">
-<button id=searchOpen class=search-btn><i class=ti-search></i></button>
-<div class=search-wrapper>
-<form action=https://danaukes.com/search class=h-100>
-<input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter...">
-</form><button id=searchClose class=search-close><i class="ti-close text-dark"></i></button>
-</div></div></div></nav></div></header><section class=section-sm>
-<div class=container>
-<div class=row>
-<div class="col-lg-8 mx-auto">
-<div class=text-center>
-<nav aria-label=breadcrumb>
-<ol class=breadcrumb>
-<li class=breadcrumb-item><a href=/notebook>notebook</a></li><li class=breadcrumb-item><a href=/notebook/ros>ros</a></li><li class="breadcrumb-item active" aria-current=page>16-raspbian</li></ol></nav></div><h2>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS</h2><div class="mb-3 post-meta">
-<span>By Dan Aukes</span>
-</div><div class="content mb-5">
-<h2 id=introduction>Introduction</h2><p>Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18. Ubuntu 20.04 worked eventually, but initial startup took over 5 minutes for the device to show up on my network. Plus I was interested in installing ros melodic, which is built for ubuntu 18. So here are the steps I used. I installed raspbian buster and compiled ros from scratch.</p><h2 id=instructions>Instructions</h2><ol>
-<li>
-<p>Download the Raspberry Pi Imager: <a href=https://www.raspberrypi.org/downloads/>https://www.raspberrypi.org/downloads/</a></p><p>Alternate imagers:</p><ul>
-<li>win32diskimager</li><li><a href=https://www.balena.io/etcher/>https://www.balena.io/etcher/</a></li></ul></li><li>
-<p>Download an Image: I used the lite version and then added packages as needed</p><ul>
-<li><a href=https://www.raspberrypi.org/downloads/raspbian/>https://www.raspberrypi.org/downloads/raspbian/</a></li></ul></li><li>
-<p>Install raspbian using the instructions for a headless install located here: <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>https://www.raspberrypi.org/documentation/configuration/wireless/headless.md</a></p><p>Alternate instructions:</p><ul>
-<li><a href=https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0>https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0</a></li></ul></li><li>
-<p>Make sure you follow the instructions below for setting up <a href=https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md>wireless</a> & <a href=https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md>ssh</a></p><p>Other information:</p><ul>
-<li>International codes: <a href=https://en.wikipedia.org/wiki/ISO_3166-1>https://en.wikipedia.org/wiki/ISO_3166-1</a></li><li>General: <a href=http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi>http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi</a></li></ul></li><li>
-<p>Find the Pi on your network (in linux). You can use a virtual machine to do this</p><pre tabindex=0><code>sudo apt install -y net-tools nmap
+<i class=ti-menu></i></button><div class="collapse navbar-collapse text-center" id=navigation><div class=desktop-view><ul class="navbar-nav mr-auto"><li class=nav-item><a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a></li><li class=nav-item><a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a></li><li class=nav-item><a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a></li></ul></div><a class="navbar-brand mx-auto desktop-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a><ul class=navbar-nav><li class=nav-item><a class=nav-link href=https://danaukes.com/bookmarks/>Bookmarks</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/code/>Code</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/notebook/>Notebook</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/recipes/>Recipes</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/websites/>Websites</a></li></ul><div class="search pl-lg-4"><button id=searchOpen class=search-btn><i class=ti-search></i></button><div class=search-wrapper><form action=https://danaukes.com/search class=h-100><input class="search-box px-4" id=search-query name=s type=search placeholder="Type & Hit Enter..."></form><button id=searchClose class=search-close><i class="ti-close text-dark"></i></button></div></div></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=/notebook>notebook</a></li><li class=breadcrumb-item><a href=/notebook/ros>ros</a></li><li class="breadcrumb-item active" aria-current=page>16-raspbian</li></ol></nav></div><h2>Running Ros on a Raspbery Pi 4 with Raspberry Pi OS</h2><div class="mb-3 post-meta"><span>By Dan Aukes</span></div><div class="content mb-5"><h2 id=introduction>Introduction</h2><p>Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu images seem good to go, I experienced unknown problems setting up a headless install of ubuntu 18. Ubuntu 20.04 worked eventually, but initial startup took over 5 minutes for the device to show up on my network. Plus I was interested in installing ros melodic, which is built for ubuntu 18. So here are the steps I used. I installed raspbian buster and compiled ros from scratch.</p><h2 id=instructions>Instructions</h2><ol><li><p>Download the Raspberry Pi Imager: <a href=https://www.raspberrypi.org/downloads/>https://www.raspberrypi.org/downloads/</a></p><p>Alternate imagers:</p><ul><li>win32diskimager</li><li><a href=https://www.balena.io/etcher/>https://www.balena.io/etcher/</a></li></ul></li><li><p>Download an Image: I used the lite version and then added packages as needed</p><ul><li><a href=https://www.raspberrypi.org/downloads/raspbian/>https://www.raspberrypi.org/downloads/raspbian/</a></li></ul></li><li><p>Install raspbian using the instructions for a headless install located here: <a href=https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>https://www.raspberrypi.org/documentation/configuration/wireless/headless.md</a></p><p>Alternate instructions:</p><ul><li><a href=https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0>https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0</a></li></ul></li><li><p>Make sure you follow the instructions below for setting up <a href=https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md>wireless</a> & <a href=https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md>ssh</a></p><p>Other information:</p><ul><li>International codes: <a href=https://en.wikipedia.org/wiki/ISO_3166-1>https://en.wikipedia.org/wiki/ISO_3166-1</a></li><li>General: <a href=http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi>http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi</a></li></ul></li><li><p>Find the Pi on your network (in linux). You can use a virtual machine to do this</p><pre tabindex=0><code>sudo apt install -y net-tools nmap
 arp -na
 nmap -sn 10.0.0.*
-</code></pre><p>Note the IP address</p></li><li>
-<p>log on using putty</p></li><li>
-<p>Define a static IP address (derived from <a href=https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/>here</a>)</p><ol>
-<li>
-<p>edit dhcpcd.conf</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo nano /etc/dhcpcd.conf
-</span></span></code></pre></div></li><li>
-<p>uncomment out lines for static ip/subnet and router and define them to what you need.</p></li><li>
-<p>Restart</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo reboot
-</span></span></code></pre></div></li></ol><p>Alternate Instructions(I didn&rsquo;t use):</p><ul>
-<li><a href=https://thepihut.com/blogs/raspberry-pi-tutorials/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address>https://thepihut.com/blogs/raspberry-pi-tutorials/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address</a></li><li><a href="https://www.raspberrypi.org/forums/viewtopic.php?t=133691">https://www.raspberrypi.org/forums/viewtopic.php?t=133691</a></li></ul></li><li>
-<p>install xrdp (using <a href=https://thepihut.com/blogs/raspberry-pi-tutorials/remotely-accessing-the-raspberry-pi-via-rdp-gui-mode>this tutorial</a>):</p></li><li>
-<p>install gedit</p><pre tabindex=0><code>sudo apt install gedit
-</code></pre></li><li>
-<p>Install ROS using <a href=http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi>this tutorial</a></p><p>Alternate Instructions(didn&rsquo;t use):</p><ul>
-<li><a href=https://www.seeedstudio.com/blog/2019/08/01/installing-ros-melodic-on-raspberry-pi-4-and-rplidar-a1m8/>https://www.seeedstudio.com/blog/2019/08/01/installing-ros-melodic-on-raspberry-pi-4-and-rplidar-a1m8/</a></li></ul></li><li>
-<p>change password for user pi</p><pre tabindex=0><code>passwd
-</code></pre></li><li>
-<p>Set up camera using this <a href=https://projects.raspberrypi.org/en/projects/getting-started-with-picamera>tutorial</a></p><ol>
-<li>
-<p>install other packages for viewing and programming</p><pre tabindex=0><code>sudo apt install gpicview vlc thonny
+</code></pre><p>Note the IP address</p></li><li><p>log on using putty</p></li><li><p>Define a static IP address (derived from <a href=https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/>here</a>)</p><ol><li><p>edit dhcpcd.conf</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo nano /etc/dhcpcd.conf
+</span></span></code></pre></div></li><li><p>uncomment out lines for static ip/subnet and router and define them to what you need.</p></li><li><p>Restart</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo reboot
+</span></span></code></pre></div></li></ol><p>Alternate Instructions(I didn&rsquo;t use):</p><ul><li><a href=https://thepihut.com/blogs/raspberry-pi-tutorials/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address>https://thepihut.com/blogs/raspberry-pi-tutorials/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address</a></li><li><a href="https://www.raspberrypi.org/forums/viewtopic.php?t=133691">https://www.raspberrypi.org/forums/viewtopic.php?t=133691</a></li></ul></li><li><p>install xrdp (using <a href=https://thepihut.com/blogs/raspberry-pi-tutorials/remotely-accessing-the-raspberry-pi-via-rdp-gui-mode>this tutorial</a>):</p></li><li><p>install gedit</p><pre tabindex=0><code>sudo apt install gedit
+</code></pre></li><li><p>Install ROS using <a href=http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi>this tutorial</a></p><p>Alternate Instructions(didn&rsquo;t use):</p><ul><li><a href=https://www.seeedstudio.com/blog/2019/08/01/installing-ros-melodic-on-raspberry-pi-4-and-rplidar-a1m8/>https://www.seeedstudio.com/blog/2019/08/01/installing-ros-melodic-on-raspberry-pi-4-and-rplidar-a1m8/</a></li></ul></li><li><p>change password for user pi</p><pre tabindex=0><code>passwd
+</code></pre></li><li><p>Set up camera using this <a href=https://projects.raspberrypi.org/en/projects/getting-started-with-picamera>tutorial</a></p><ol><li><p>install other packages for viewing and programming</p><pre tabindex=0><code>sudo apt install gpicview vlc thonny
 pip3 install picamera
-</code></pre></li><li>
-<p>After installing picamera there may be a warning. use the next lines to fix:</p><pre tabindex=0><code>echo &#34;export PATH=\$PATH:/home/pi/.local/bin&#34; &gt;&gt; ~/.bashrc
+</code></pre></li><li><p>After installing picamera there may be a warning. use the next lines to fix:</p><pre tabindex=0><code>echo &#34;export PATH=\$PATH:/home/pi/.local/bin&#34; &gt;&gt; ~/.bashrc
 source ~/.bashrc
-</code></pre></li></ol></li><li>
-<p>install opencv using <a href=https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>this tutorial</a></p><p>Notes:</p><ul>
-<li>I used option 4a</li><li>I didn&rsquo;t use virtualenv&mldr;space reasons.</li><li>use <code>sudo pip3 install</code> instead of <code>pip install</code> to install in python3</li></ul></li><li>
-<p>install other necessary packages</p><pre tabindex=0><code>sudo apt install -y libilmbase-dev libopenexr-dev libgstreamer1.0-dev
-</code></pre></li><li>
-<p>clone raspicam node</p><pre tabindex=0><code>git clone https://github.com/idealabasu/raspicam_node.git
-</code></pre></li><li>
-<p>not sure these packages are needed:</p><pre tabindex=0><code>sudo apt install python3-catkin-pkg
+</code></pre></li></ol></li><li><p>install opencv using <a href=https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>this tutorial</a></p><p>Notes:</p><ul><li>I used option 4a</li><li>I didn&rsquo;t use virtualenv&mldr;space reasons.</li><li>use <code>sudo pip3 install</code> instead of <code>pip install</code> to install in python3</li></ul></li><li><p>install other necessary packages</p><pre tabindex=0><code>sudo apt install -y libilmbase-dev libopenexr-dev libgstreamer1.0-dev
+</code></pre></li><li><p>clone raspicam node</p><pre tabindex=0><code>git clone https://github.com/idealabasu/raspicam_node.git
+</code></pre></li><li><p>not sure these packages are needed:</p><pre tabindex=0><code>sudo apt install python3-catkin-pkg
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo apt-get install python3-empy
-</code></pre></li><li>
-<p>update ros install with joystick and compressed image transport packages, following instructions <a href=http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Maintaining_a_Source_Checkout>here</a>:</p><p>and using</p><pre tabindex=0><code>rosinstall_generator ros_comm joystick_drivers compressed_image_transport camera_info_manager dynamic_reconfigure diagnostic_updater cv_bridge --rosdistro melodic --deps --wet-only --tar &gt; melodic-custom_ros.rosinstall
-</code></pre></li><li>
-<p>Add idealab ros workspace: (see other tutorial)</p></li><li>
-<p>checkout rpi4 branch</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git checkout rpi4
-</span></span></code></pre></div></li><li>
-<p><strong>(Mental Note)</strong> cloned and copied raspicam_node into code_idealab_ros/src (don&rsquo;t do, already done)</p><ol>
-<li>
-<p>Make projects</p><pre tabindex=0><code>cd ~/code/code_idealab_ros
+</code></pre></li><li><p>update ros install with joystick and compressed image transport packages, following instructions <a href=http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Maintaining_a_Source_Checkout>here</a>:</p><p>and using</p><pre tabindex=0><code>rosinstall_generator ros_comm joystick_drivers compressed_image_transport camera_info_manager dynamic_reconfigure diagnostic_updater cv_bridge --rosdistro melodic --deps --wet-only --tar &gt; melodic-custom_ros.rosinstall
+</code></pre></li><li><p>Add idealab ros workspace: (see other tutorial)</p></li><li><p>checkout rpi4 branch</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git checkout rpi4
+</span></span></code></pre></div></li><li><p><strong>(Mental Note)</strong> cloned and copied raspicam_node into code_idealab_ros/src (don&rsquo;t do, already done)</p><ol><li><p>Make projects</p><pre tabindex=0><code>cd ~/code/code_idealab_ros
 catkin_make
-</code></pre></li></ol></li><li>
-<p><strong>optional:</strong> change ros master uri to remote. Only necessary if you want the raspberry pi to work within a bigger ros network. Modify ip addresses to match desired network topology</p><pre tabindex=0><code>echo &#34;export MY_MASTER_IP=10.0.0.201&#34; &gt;&gt; .bashrc
+</code></pre></li></ol></li><li><p><strong>optional:</strong> change ros master uri to remote. Only necessary if you want the raspberry pi to work within a bigger ros network. Modify ip addresses to match desired network topology</p><pre tabindex=0><code>echo &#34;export MY_MASTER_IP=10.0.0.201&#34; &gt;&gt; .bashrc
 echo &#34;export MY_IP=10.0.0.200&#34; &gt;&gt; .bashrc
 echo &#34;export ROS_MASTER_URI=http://\$MY_MASTER_IP:11311&#34; &gt;&gt; .bashrc
 echo &#34;export ROS_IP=\$MY_IP&#34; &gt;&gt; .bashrc
 source .bashrc
-</code></pre></li><li>
-<p>Run Roslaunchp (modified from <a href=https://www.theconstructsim.com/publish-image-stream-ros-kinetic-raspberry-pi/>here</a></p><pre tabindex=0><code>#roslaunch raspicam_node camerav2_1280x720.launch
+</code></pre></li><li><p>Run Roslaunchp (modified from <a href=https://www.theconstructsim.com/publish-image-stream-ros-kinetic-raspberry-pi/>here</a></p><pre tabindex=0><code>#roslaunch raspicam_node camerav2_1280x720.launch
 #roslaunch raspicam_node camerav2_410x308_30fps.launch
 roslaunch raspicam_node dan_cam1.launch
-</code></pre></li><li>
-<p>on the host:</p><ol>
-<li>
-<p>in one terminal:</p><pre tabindex=0><code>roscore
-</code></pre></li><li>
-<p>in a second terminal:</p><pre tabindex=0><code>rosrun rqt_image_view rqt_image_view
-</code></pre></li></ol></li></ol></div></div></div></div></section><footer class=text-capitalize>
-<div class=container>
-<div class="row justify-content-center">
-<div class="col-12 border-top py-4 text-center">
-</div><div class="col-lg-4 col-sm-6 mb-5 text-center">
-<h6 class=mb-4>Contact Me</h6><ul class=list-unstyled>
-<li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center">
-<h6 class=mb-4>External</h6><ul class=list-unstyled>
-<li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center">
-<h6 class=mb-4>Quick Links</h6><ul class=list-unstyled>
-<li class=mb-3><a class=text-dark href=https://asu-2221-egr314-14618.slack.com>EGR314 Slack</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center">
-<a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a>
-</div><div class="col-12 mb-5 text-center">
-<p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ros/16-raspbian.md> Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script>
-<script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
+</code></pre></li><li><p>on the host:</p><ol><li><p>in one terminal:</p><pre tabindex=0><code>roscore
+</code></pre></li><li><p>in a second terminal:</p><pre tabindex=0><code>rosrun rqt_image_view rqt_image_view
+</code></pre></li></ol></li></ol></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://asu-2221-egr314-14618.slack.com>EGR314 Slack</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2021 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ros/16-raspbian.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script><script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
 <script src=https://danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
 <script src=https://danaukes.com/plugins/slick/slick.min.js></script>
 <script src=https://danaukes.com/plugins/venobox/venobox.min.js></script>
 <script src=https://danaukes.com/plugins/search/fuse.min.js></script>
 <script src=https://danaukes.com/plugins/search/mark.js></script>
 <script src=https://danaukes.com/plugins/search/search.js></script>
-<script src=https://danaukes.com/js/script.min.js></script>
-</body></html>
+<script src=https://danaukes.com/js/script.min.js></script></body></html>
