@@ -33,7 +33,7 @@ sudo systemctl start ufw
 ```
 
 1. install tor?
-1. add 2fa app?
+1. add bitwarden or other 2FA app
 1. update frequently
 1. encrypt hard drive
 1. set up logging
