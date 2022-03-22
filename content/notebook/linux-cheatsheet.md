@@ -287,9 +287,6 @@ sudo -i -u <username>
 
 run ```exit``` to leave that session
 
-<<<<<<< HEAD
-
-
 ## Show all manually-installed packages
 
 ```
@@ -307,4 +304,13 @@ unset HISTFILE && exit
 
 ```bash
 sudo add-apt-repository --remove ppa:PPA_Name/ppa
+```
+
+
+## Count files in bash
+
+source: <https://devconnected.com/how-to-count-files-in-directory-on-linux/>
+
+```bash
+ls | wc -l
 ```
