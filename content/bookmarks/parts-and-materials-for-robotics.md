@@ -67,6 +67,7 @@ This is probably dated and needs a good house-cleaning...
 
 #### sensors
 
+* [Types of Robot Sensors](https://www.robotplatform.com/knowledge/sensors/types_of_robot_sensors.html)
 * [0-1 Bar Altimeter Pressure Sensor - MS5540C Series - TE Connectivity](https://www.te.com/usa-en/product-CAT-BLPS0033.html?q=&n=135117%20540190&type=products&samples=N&instock=N)
 * [Angle Position On-Axis - ams](https://ams.com/angle-position-on-axis)
 * [fsr-force-sensing-resistor-robot-force-srobot-pressure-sensor-robot-touch-sensor](https://www.trossenrobotics.com/store/p/6496-1-5-Inch-Force-Sensing-Resistor-FSR.aspx)
