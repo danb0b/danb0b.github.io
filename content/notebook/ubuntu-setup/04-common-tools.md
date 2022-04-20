@@ -27,7 +27,16 @@ sudo snap install shotcut --classic
 sudo snap install mqtt-explorer 
 sudo snap install hugo --channel=extended
 #sudo snap install inkscape # doesn't work well on 21.10
+```
+
+### Chromium
+
+You need to add some permissions to get chromium working with microphones...
+
+```bash
 sudo snap install chromium
+snap connections chromium  # to list existing permissions
+sudo snap connect chromium:audio-record :audio-record  # to enable
 ```
 
 ### Latex
