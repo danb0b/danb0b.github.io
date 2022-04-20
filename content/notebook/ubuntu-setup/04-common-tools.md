@@ -33,6 +33,8 @@ sudo snap install hugo --channel=extended
 
 You need to add some permissions to get chromium working with microphones...
 
+[reference](https://askubuntu.com/questions/1148074/i-can-not-use-the-microphone-on-websites-using-chromium)
+
 ```bash
 sudo snap install chromium
 snap connections chromium  # to list existing permissions
