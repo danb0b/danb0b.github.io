@@ -127,7 +127,8 @@ It is sometimes necessary to create a virtual network to enable computers across
 
 1. copy configuation files to other machines for use
 1. run your virtualbox image as a service so it starts automatically.
-    * See <https://github.com/onlyfang/VBoxVmService>
+    * See <https://github.com/onlyfang/VBoxVmService> for windows insstructions
+    * see </notebook/virtualbox-service/> for linux instructions.
 
 ### Configure Router
 
