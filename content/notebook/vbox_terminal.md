@@ -33,11 +33,6 @@ vboxmanage showvminfo ubuntu
 
 Say we want to run the "ubuntu" VM as a headless instance. To do this, you would issue the command:
 
-
-```bash
-VBoxManage startvm "ubuntu" --type headless
-```
-
 ```bash
 VBoxManage startvm "ubuntu" --type headless
 ```
