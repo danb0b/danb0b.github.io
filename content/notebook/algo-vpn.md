@@ -74,11 +74,28 @@ It is sometimes necessary to create a virtual network to enable computers across
     ./algo
     ```
 
-    1. select "12"
-    1. retain pki keys - n
-    1. each user should have their own acct - n
+    1. provider: select "Install to existing Ubuntu 18.04 or 20.04 server"
+    1. select all defaults except the below:
+        1. retain pki keys - N (default)
+        1. each user should have their own acct - N (default)
+         
+        summary: 
+        
+        ```
+        algo_provider "local"
+        algo_ondemand_cellular "False"
+        algo_ondemand_wifi "False"
+        algo_ondemand_wifi_exclude "X251bGw="
+        algo_dns_adblocking "False"
+        algo_ssh_tunneling "False"
+        wireguard_enabled "True"
+        dns_encryption "False"
+        ```
+    
     1. deploy to localhost
     1. hostname = <my_dynamic_hostname>
+    1. run as root
+    1. public IP address or domain name of your server: confirm default of <my_dynamic_hostname>
 
 
 1. You should see a message like this:
