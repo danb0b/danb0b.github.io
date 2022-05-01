@@ -13,6 +13,8 @@ It is sometimes necessary to create a virtual network to enable computers across
 
 ## Instructions
 
+### VM Install
+
 1. create a new virtual machine
     1. turn off usb
     1. bridged mode networking
@@ -32,6 +34,8 @@ It is sometimes necessary to create a virtual network to enable computers across
             ```bash
             chmod 777 /mnt/share
             ```
+
+### Algo Install
 
 1. update computer and install necessary packages
 
@@ -76,12 +80,6 @@ It is sometimes necessary to create a virtual network to enable computers across
     1. deploy to localhost
     1. hostname = <my_dynamic_hostname>
 
-1. modify local router:
-1. give unique ip address
-1. forward ports to vm
-    1. 4160:4160 - doesn't apply for ubuntu
-    1. 51820:58120
-
 
 1. You should see a message like this:
     ```
@@ -102,6 +100,15 @@ It is sometimes necessary to create a virtual network to enable computers across
 1. copy configuation files to other machines for use
 1. run your virtualbox image as a service so it starts automatically.
     * See <https://github.com/onlyfang/VBoxVmService>
+
+### Configure Router
+
+1. give your new algo VM a unique ip address
+1. forward specific ports to vm
+    1. 4160:4160 - doesn't apply to ubuntu installs
+    1. 51820:58120
+
+### Configure other Computers
 
 1. Install linux client:
 

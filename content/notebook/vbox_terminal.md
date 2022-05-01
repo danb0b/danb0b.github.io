@@ -12,15 +12,30 @@ weight: 99
 
 Starting/stopping/pausing a VM
 
-Now the fun begins. First, you must know the name of the VM you want to run. To find a list of the VMs, issue the command VBoxManage list vms. This command will display all the VMs, as well as their unique IDs, in a form that you can use (Figure B).
-
-Say we want to run the "ubuntu" VM as a headless instance. To do this, you would issue the command:
+Now the fun begins. First, you must know the name of the VM you want to run. To find a list of the VMs, issue the command
 
 ```bash
 vboxmanage list vms
 ```
+This command will display all the VMs, as well as their unique IDs, in a form that you can use (Figure B).
+
+To find all the hard disk images, use the command:
+
 ```bash
 vboxmanage list hdds
+```
+
+To learn more detail about a specific instance, type
+
+```bash
+vboxmanage showvminfo ubuntu
+```
+
+Say we want to run the "ubuntu" VM as a headless instance. To do this, you would issue the command:
+
+
+```bash
+VBoxManage startvm "ubuntu" --type headless
 ```
 
 ```bash
@@ -45,6 +60,23 @@ To shut down the VM, issue the command:
 
 ```bash
 VBoxManage controlvm "ubuntu" poweroff
+```
+
+### Snapshot management
+
+```bash
+VBoxManage snapshot <uuid|vmname>
+VBoxManage snapshot <uuid|vmname> take <snapshot-name>
+VBoxManage snapshot <uuid|vmname> delete <snapshot-name>
+VBoxManage snapshot <uuid|vmname> restore <snapshot-name>
+VBoxManage snapshot <uuid|vmname> restorecurrent
+VBoxManage snapshot <uuid|vmname> edit <snapshot-name | --current>
+VBoxManage snapshot <uuid|vmname> list [--details | --machinereadable]
+VBoxManage snapshot <uuid|vmname> showvminfo <snapshot-name>
+```
+
+```bash
+vboxmanage snapshot ubuntu list
 ```
 
 ## External Links
