@@ -68,6 +68,19 @@ It is sometimes necessary to create a virtual network to enable computers across
 
     hit ```ctrl+s``` to save and ```ctrl+x``` to exit
 
+1. (optional) shutdown the virtual machine and take a snapshot
+    
+    ```bash
+    sudo shutdown now
+    ```
+    
+    take a snapshot of the machine, then restart and reconnect
+    
+    ```bash
+    sudo -i
+    cd /algo
+    ```
+
 1. run algo installer
 
     ```bash
