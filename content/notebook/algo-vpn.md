@@ -93,8 +93,6 @@ It is sometimes necessary to create a virtual network to enable computers across
         ```
     
     1. deploy to localhost
-    1. hostname = <my_dynamic_hostname>
-    1. run as root
     1. public IP address or domain name of your server: confirm default of <my_dynamic_hostname>
 
 
