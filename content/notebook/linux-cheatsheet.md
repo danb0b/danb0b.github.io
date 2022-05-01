@@ -334,3 +334,48 @@ Some default locations listed [here](https://askubuntu.com/questions/1146307/whi
 ~/.gnome/apps/gnome-terminal.desktop
 ```
 
+## Learn about your hardware
+
+### Get DMI/BIOS information
+
+```bash
+sudo dmidecode 
+sudo dmidecode -t0 # BIOS
+sudo dmidecode -t1 # System
+sudo dmidecode -t2 # Board
+sudo dmidecode -t3 # Enclosure or Chassis
+sudo dmidecode -t4 # Processor
+sudo dmidecode -t1 # System
+```
+
+### Hard drive information
+
+* <https://devconnected.com/how-to-list-disks-on-linux/>
+* <https://www.percona.com/blog/2017/02/09/using-nvme-command-line-tools-to-check-nvme-flash-health/>
+
+list disks with ```lsblk```
+
+```bash
+lsblk -f
+sudo lshw -class disk
+sudo fdisk -l
+sudo hwinfo --disk
+ls -l /dev/disk/by-path
+ls -l /dev/disk/by-id
+```
+
+get drive information:
+
+```
+sudo hdparm -I /dev/sda
+```
+
+if you have an NVMe device...
+
+```
+sudo apt install nvme-cli
+nvme list
+#sudo nvme smart-log <node_name> 
+sudo nvme smart-log /dev/nvme0n1 
+sudo nvme id-ctrl /dev/nvme0n1
+```

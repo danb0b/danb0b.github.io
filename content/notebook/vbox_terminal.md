@@ -77,4 +77,5 @@ vboxmanage snapshot ubuntu list
 ## External Links
 
 * [tech republic -- how to run virtualbox virtual machines from the command line](https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from-the-command-line/)
+* <https://www.virtualbox.org/manual/ch08.html>
 
