@@ -15,7 +15,15 @@
 </span></span><span style=display:flex><span>python3 -m virtualenv --python<span style=color:#f92672>=</span><span style=color:#d88200>&#34;</span><span style=color:#00a8c8>$(</span><span style=color:#111>command</span> -v python3<span style=color:#00a8c8>)</span><span style=color:#d88200>&#34;</span> .env <span style=color:#f92672>&amp;&amp;</span>   <span style=color:#111>source</span> .env/bin/activate <span style=color:#f92672>&amp;&amp;</span>   python3 -m pip install -U pip virtualenv <span style=color:#f92672>&amp;&amp;</span>   python3 -m pip install -r requirements.txt
 </span></span></code></pre></div></li><li><p>edit config file</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nano config.cfg
 </span></span></code></pre></div><ol><li>add users</li><li>disable &ldquo;BetweenClients_DROP&rdquo;, &ldquo;block_smb&rdquo;, and &ldquo;block_netbios&rdquo;</li><li>disable dns encryption</li></ol><p>hit <code>ctrl+s</code> to save and <code>ctrl+x</code> to exit</p></li><li><p>run algo installer</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>./algo
-</span></span></code></pre></div><ol><li>select &ldquo;12&rdquo;</li><li>retain pki keys - n</li><li>each user should have their own acct - n</li><li>deploy to localhost</li><li>hostname = &lt;my_dynamic_hostname></li></ol></li><li><p>You should see a message like this:</p><pre tabindex=0><code>            &#34;\&#34;#                          Congratulations!                            #\&#34;&#34;,
+</span></span></code></pre></div><ol><li><p>provider: select &ldquo;Install to existing Ubuntu 18.04 or 20.04 server&rdquo;</p></li><li><p>select all defaults except the below:</p><ol><li>retain pki keys - N (default)</li><li>each user should have their own acct - N (default)</li></ol><p>summary:</p><pre tabindex=0><code>algo_provider &#34;local&#34;
+algo_ondemand_cellular &#34;False&#34;
+algo_ondemand_wifi &#34;False&#34;
+algo_ondemand_wifi_exclude &#34;X251bGw=&#34;
+algo_dns_adblocking &#34;False&#34;
+algo_ssh_tunneling &#34;False&#34;
+wireguard_enabled &#34;True&#34;
+dns_encryption &#34;False&#34;
+</code></pre></li><li><p>deploy to localhost</p></li><li><p>hostname = &lt;my_dynamic_hostname></p></li><li><p>run as root</p></li><li><p>public IP address or domain name of your server: confirm default of &lt;my_dynamic_hostname></p></li></ol></li><li><p>You should see a message like this:</p><pre tabindex=0><code>            &#34;\&#34;#                          Congratulations!                            #\&#34;&#34;,
             &#34;\&#34;#                     Your Algo server is running.                     #\&#34;&#34;,
             &#34;\&#34;#    Config files and certificates are in the ./configs/ directory.    #\&#34;&#34;,
             &#34;\&#34;#              Go to https://whoer.net/ after connecting               #\&#34;&#34;,
