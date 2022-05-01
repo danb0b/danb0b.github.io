@@ -289,14 +289,15 @@ run ```exit``` to leave that session
 
 ## Show all manually-installed packages
 
-```
+```bash
 apt-mark showmanual
 ```
 
 ## close bash without saving history
 
-```
+```bash
 unset HISTFILE && exit
+```
 
 ## Package Management
 
@@ -306,11 +307,30 @@ unset HISTFILE && exit
 sudo add-apt-repository --remove ppa:PPA_Name/ppa
 ```
 
-
-## Count files in bash
+## Misc
+### Count files in bash
 
 source: <https://devconnected.com/how-to-count-files-in-directory-on-linux/>
 
 ```bash
 ls | wc -l
 ```
+
+### How to find .desktop file location for a particular application
+
+For example, if "Image Viewer" is in the name of the icon:
+
+```
+find / -name '*.desktop' -exec grep -H 'Image Viewer' {} \; 2>/dev/null
+```
+
+derived from [here](https://askubuntu.com/questions/1160737/how-to-find-desktop-file-location-for-a-particular-application):
+
+Some default locations listed [here](https://askubuntu.com/questions/1146307/which-desktop-files-belong-where):
+```
+/usr/share/applications/gnome-terminal.desktop
+~/.local/share/applications/gnome-terminal.desktop
+~/.config/gnome-panel/launchers/gnome-terminal.desktop
+~/.gnome/apps/gnome-terminal.desktop
+```
+

@@ -60,4 +60,6 @@ weight: 99
     
 ## External References
 
-<https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04>
+* <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04>
+* [syncing](https://docs.nextcloud.com/server/latest/user_manual/en/groupware/sync_android.html)
+* [android apps](https://livtec.ch/en/the-10-best-nextcloud-apps-for-your-android-smartphone/)

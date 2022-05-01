@@ -66,3 +66,4 @@ sudo systemctl start vbox_vm_start@<name of VM>
 * <https://www.pragmaticlinux.com/2020/10/start-a-virtualbox-vm-on-boot-with-systemd/>
 * <https://kifarunix.com/autostart-virtualbox-vms-on-system-boot-on-linux/>
 * [Windows instructions](https://github.com/onlyfang/VBoxVmService)
+* [Alternate way, using native vbox approach](https://kifarunix.com/autostart-virtualbox-vms-on-system-boot-on-linux/)
