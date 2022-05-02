@@ -40,3 +40,41 @@ docker run -v /home/<username>/<path>/:/test -it alpine sh
 docker pull ubuntu
 docker run -it ubuntu bash
 ```
+
+
+## 
+
+docker container ls -a
+docker container rm <id>
+
+docker image ls -a
+docker image rm <id>
+docker image rm -f <id>
+
+docker login
+docker commit <user/repo>
+docker push <user/repo>
+docker history --no-trunc <user/repo>
+
+## Make a fresh docker image
+
+mkdir docker
+cd docker
+nano Dockerfile
+
+```
+FROM  ubuntu:latest
+ 
+RUN apt update && apt install -y nginx 
+
+LABEL maintainer="danb0b"
+LABEL version="1.0"
+LABEL description="A simple image running Nginx on Debain 10"
+ 
+EXPOSE 80/tcp
+ 
+CMD ["nginx","-g","daemon off;"]
+```
+
+docker build -t myapp:v1 .
+docker run -p 80:80 myapp:v1
