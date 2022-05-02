@@ -10,6 +10,9 @@ tags:
 
 ### Ensure you are a member of vboxusers group
 
+```bash
+sudo usermod -a -G vboxusers $USER
+```
 
 ### Create a script
 
@@ -42,10 +45,10 @@ EOT
 sed -i "s/<put_your_username_here>/$USER/" vbox_vm_start@.service
 sudo cp vbox_vm_start@.service /etc/systemd/system/vbox_vm_start@.service
 rm vbox_vm_start@.service
-
+sudo systemctl daemon-reload
 ```
 
-### Get vm
+### Get vm name
 
 make sure your virtual machine doesn't have a space in it.
 
