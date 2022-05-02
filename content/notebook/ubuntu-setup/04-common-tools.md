@@ -29,17 +29,6 @@ sudo snap install hugo --channel=extended
 #sudo snap install inkscape # doesn't work well on 21.10
 ```
 
-### Chromium
-
-You need to add some permissions to get chromium working with microphones...
-
-[reference](https://askubuntu.com/questions/1148074/i-can-not-use-the-microphone-on-websites-using-chromium)
-
-```bash
-sudo snap install chromium
-snap connections chromium  # to list existing permissions
-sudo snap connect chromium:audio-record :audio-record  # to enable
-```
 
 ### Latex
 
@@ -166,6 +155,17 @@ open tweak tool and set icons and theme to numix
 
 
 
+### Chromium
+
+You need to add some permissions to get chromium working with microphones...
+
+[reference](https://askubuntu.com/questions/1148074/i-can-not-use-the-microphone-on-websites-using-chromium)
+
+```bash
+sudo snap install chromium
+snap connections chromium  # to list existing permissions
+sudo snap connect chromium:audio-record :audio-record  # to enable
+```
 
 
 
