@@ -19,7 +19,10 @@ dmesg
 </code></pre><p>or</p><pre tabindex=0><code>sed -i &#34;s|regex|replace|&#34; file
 </code></pre><p>To copy output to a new file</p><pre tabindex=0><code>sed &#34;s/regex/replace/&#34; filein &gt; fileout
 </code></pre><p>List all kernel images installed:</p><pre tabindex=0><code>$ dpkg --list | grep linux-image
-</code></pre><h2 id=ubuntu-specific>Ubuntu Specific</h2><p>From <a href=https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>https://fostips.com/lid-close-action-ubuntu-21-04-laptop/</a></p><p>edit <code>/etc/systemd/logind.conf</code> to configure power options such as lid closing opening,</p><pre tabindex=0><code>HandleLidSwitch=ignore
+</code></pre><h2 id=login-logout-restart>Login, Logout, Restart</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo reboot now
+</span></span><span style=display:flex><span>sudo shutdown now
+</span></span><span style=display:flex><span>gnome-session-quit
+</span></span></code></pre></div><h2 id=ubuntu-specific>Ubuntu Specific</h2><p>From <a href=https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>https://fostips.com/lid-close-action-ubuntu-21-04-laptop/</a></p><p>edit <code>/etc/systemd/logind.conf</code> to configure power options such as lid closing opening,</p><pre tabindex=0><code>HandleLidSwitch=ignore
 HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
 </code></pre><ol><li>Restart Service</li></ol><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>systemctl restart systemd-logind.service
