@@ -64,6 +64,13 @@ ssh-add -D
 ```
 ssh-keygen -p -f <path-to-key>
 ```
+
+### create cert/key
+
+from [here](https://support.microfocus.com/kb/doc.php?id=7013103):
+
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+
 ## References
 
 * <https://linuxnatives.net/2019/how-to-create-good-ssh-keys>

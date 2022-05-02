@@ -31,6 +31,7 @@ KillMode=process
 GuessMainPID=no
 RemainAfterExit=yes
 
+ExecStartPre=/bin/sleep 30
 ExecStart=/usr/bin/VBoxManage startvm %i --type headless
 ExecStop=/usr/bin/VBoxManage controlvm %i acpipowerbutton
 
@@ -59,6 +60,10 @@ save that
 ```bash
 sudo systemctl enable vbox_vm_start@<name of VM>
 sudo systemctl start vbox_vm_start@<name of VM>
+sudo systemctl status vbox_vm_start@<name of VM>
+sudo systemctl stop vbox_vm_start@<name of VM>
+sudo systemctl disable vbox_vm_start@<name of VM>
+sudo systemctl daemon-reload
 ```
 
 ## External References

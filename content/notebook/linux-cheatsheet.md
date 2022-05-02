@@ -105,6 +105,14 @@ List all kernel images installed:
 $ dpkg --list | grep linux-image
 ```
 
+## Login, Logout, Restart
+
+```bash
+sudo reboot now
+sudo shutdown now
+gnome-session-quit
+```
+
 ## Ubuntu Specific
 
 From <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>
