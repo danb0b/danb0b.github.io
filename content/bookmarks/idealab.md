@@ -525,6 +525,10 @@ Topics related to research and lab administration
 * [tufts-university-neuromechanics-and-biomimetics-devices-labhome](https://ase.tufts.edu/biology/labs/trimmer/)
 * [wpi-soft-robotics-lab](https://softrobotics.wpi.edu//?_ga=1.183899747.491479449.1471719215)
 * [zhi-ern-teoh-projects](http://www.zhiernteoh.com/)
+* [RoboMechanics Lab](https://www.andrew.cmu.edu/user/amj1/index.html)
+    * [youtube page](https://www.youtube.com/channel/UCKD78aZAsdB9-JTwrt6Q1KA)
+    * [ASME Talk](https://www.youtube.com/watch?v=sKl6gEnk9n4)
+* [Nathan Kau Research](https://nathankau.com/Research)
 
 ## Misc
 
@@ -532,3 +536,4 @@ Topics related to research and lab administration
 * [Run a design study in Solidworks](https://www.youtube.com/watch?v=JomOjlIX5QE)
 * [design study - solidworks 2016](http://help.solidworks.com/2016/english/solidworks/sldworks/t_creating_a_design_study.htm)
 * [Larry Howell Bending Video](https://www.youtube.com/watch?v=97t7Xj_iBv0)
+* [ASME DCSD page](https://www.youtube.com/channel/UCKZDGbU2OsXtBvX4d7iwYTA/videos)
