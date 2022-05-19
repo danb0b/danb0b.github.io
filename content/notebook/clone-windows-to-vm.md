@@ -40,4 +40,6 @@ From [here](http://underpop.online.fr/v/virtualbox/configuring-the-bios-dmi-info
 * <https://www.virtualbox.org/manual/ch08.html>
 * <https://superuser.com/questions/55561/how-can-i-change-the-bios-serial-number-in-virtualbox>
 * [Solidworks Spoof](https://gist.github.com/W-Floyd/7ccf5e4f074939e403bed483f82a4042)
+* <https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/>
+* <https://community.spiceworks.com/how_to/148559-windows-10-physical-to-virtualbox>
 
