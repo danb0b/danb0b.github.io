@@ -32,6 +32,12 @@ tags:
 1. run ```syncthing``` from bash to continue setup
 1. Once it is set up the way you want, enable it as a user service, as according to the [documentation](https://docs.syncthing.net/users/autostart.html#linux):
 
+    Edit using:
+
+    ```bash
+    systemctl --user edit syncthing.service
+    ```
+
     ```bash
     systemctl --user enable syncthing.service
     systemctl --user start syncthing.service  
@@ -43,11 +49,9 @@ tags:
     systemctl --user status syncthing.service
     ```
 
-    Edit using:
+    stop and disable using:
 
     ```bash
-    systemctl --user edit syncthing.service
-    ```
-
-    ```bash
+    systemctl --user stop syncthing.service  
+    systemctl --user disable syncthing.service  
     ```

@@ -14,7 +14,7 @@ This assumes you installed a "minimal" version of Ubuntu
 
 ```bash
 sudo apt update
-sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack
+sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack
 #sudo apt install mosquitto mosquitto_clients #only if you want mqtt
 sudo snap remove firefox
 sudo apt install firefox
