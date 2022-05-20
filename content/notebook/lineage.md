@@ -2,9 +2,16 @@
 title: installing lineage
 published: false
 ---
-https://wiki.lineageos.org/adb_fastboot_guide
 
-https://github.com/M0Rf30/android-udev-rules#installation
+## Install ADB
+
+<https://wiki.lineageos.org/adb_fastboot_guide>
+
+## Install udev rules
+
+Instructions taken from here:
+
+<https://github.com/M0Rf30/android-udev-rules#installation>
 
 
 ```
@@ -46,4 +53,11 @@ adb devices
 # You should now see your device
 ```
 
-https://wiki.lineageos.org/devices/herolte/install
+## Install lineage
+
+
+<https://wiki.lineageos.org/devices/herolte/install>
+
+<https://www.youtube.com/watch?time_continue=243&v=5aE_AX8HBDg&feature=emb_logo>
+
+<https://androidfilehost.com/?w=files&flid=304516>
