@@ -7,6 +7,12 @@ published: false
 
 <https://wiki.lineageos.org/adb_fastboot_guide>
 
+or
+
+```
+sudo apt install adb
+```
+
 ## Install udev rules
 
 Instructions taken from here:
