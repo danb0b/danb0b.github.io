@@ -1,5 +1,7 @@
 ---
 title: Clone Windows to Virtual Machine
+tags:
+  - virtualbox
 ---
 
 
@@ -20,6 +22,10 @@ From [here](http://underpop.online.fr/v/virtualbox/configuring-the-bios-dmi-info
 > and the DMI system information can be obtained with
 > 
 > dmidecode -t1
+
+```
+vboxmanage setextradata "my-guest-name" "VBoxInternal/Devices/pcbios/0/Config/DmiSystemSerial" "string:myserialnum"
+```
 
 ## Get DMI information from Windows
 
