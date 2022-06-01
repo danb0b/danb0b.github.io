@@ -2,6 +2,7 @@
 title: Clone Windows to Virtual Machine
 tags:
   - virtualbox
+published: false
 ---
 
 
@@ -26,6 +27,40 @@ From [here](http://underpop.online.fr/v/virtualbox/configuring-the-bios-dmi-info
 ```
 vboxmanage setextradata "my-guest-name" "VBoxInternal/Devices/pcbios/0/Config/DmiSystemSerial" "string:myserialnum"
 ```
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor" "LENOVO"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "20A7CTO1WW"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion" "SDK0E50512 Std"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial" "W1KS4411331"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVendor" "LENOVO"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "GRET44WW (1.21 )"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseDate" "3/19/2015"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMajor" "2"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMinor" "7"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMajor" "1"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor" "16"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial" ""
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVendor" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseDate" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMajor" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMinor" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMajor" ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor" ""
+
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemVendor" 
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" 
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "GRET44WW (1.21 )"
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "R901BPCA"
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemSKU"
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemFamily"
+VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemUuid" "6B35D381-52E1-11CB-B69C-BA65A3840C86"
 
 ## Get DMI information from Windows
 
