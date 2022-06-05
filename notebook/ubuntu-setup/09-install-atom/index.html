@@ -5,12 +5,14 @@
 </span></span><span style=display:flex><span>sudo sh -c <span style=color:#d88200>&#39;echo &#34;deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main&#34; &gt; /etc/apt/sources.list.d/atom.list&#39;</span>
 </span></span><span style=display:flex><span>sudo apt-get update
 </span></span><span style=display:flex><span>sudo apt-get install -y atom
-</span></span><span style=display:flex><span>apm install language-markdown markdown-preview-plus markdown-table-formatter wordcount
+</span></span><span style=display:flex><span>apm install language-markdown markdown-preview-plus markdown-table-formatter wordcount character-table
 </span></span><span style=display:flex><span><span style=color:#75715e># should already have texlive-full installed...</span>
 </span></span><span style=display:flex><span>sudo apt install latexmk
 </span></span><span style=display:flex><span>apm install language-latex latex pdf-view
 </span></span></code></pre></div></li><li><p>Create custom configuration file</p><pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; .atom/config.cson
 &#34;*&#34;:
+  &#34;atom-ide-outline&#34;:
+    initialDisplay: false
   core:
     disabledPackages: [
       &#34;markdown-preview&#34;
@@ -18,9 +20,6 @@
       &#34;language-gfm&#34;
       &#34;markdown-writer&#34;
       &#34;busy-signal&#34;
-      &#34;intentions&#34;
-      &#34;linter&#34;
-      &#34;linter-ui-default&#34;
       &#34;linter-markdown&#34;
       &#34;whitespace&#34;
       &#34;autocomplete-atom-api&#34;
@@ -39,7 +38,6 @@
     telemetryConsent: &#34;no&#34;
     uriHandlerRegistration: &#34;always&#34;
   editor:
-    fontSize: 13
     softWrap: true
   &#34;exception-reporting&#34;:
     userId: &#34;10613451-9b64-4617-aaa9-d3c2e1770f35&#34;
@@ -48,6 +46,8 @@
     indentListItems: false
     removeEmptyListItems: false
   latex: {}
+  &#34;linter-ui-default&#34;:
+    showPanel: true
   &#34;markdown-preview-plus&#34;:
     markdownItConfig:
       blockMathSeparators: [
