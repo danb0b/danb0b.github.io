@@ -67,6 +67,7 @@ cat <<EOT >> dash-to-dock.dconf
 dash-max-icon-size=32
 extend-height=false
 preferred-monitor=0
+show-trash=false
 EOT
 
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.dconf

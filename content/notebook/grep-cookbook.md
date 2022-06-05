@@ -49,3 +49,10 @@ grep -Iirl "hello" --include=*.{cc,h}
 ```bash
 pcregrep -rIn -M "\n#{1} " --include=*.md .
 ```
+
+## GUI
+
+```bash
+sudo apt-get install libgtk-3-dev
+pip install rummage
+```

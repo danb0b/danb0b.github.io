@@ -16,6 +16,7 @@ derived from [here](https://askubuntu.com/questions/345083/how-do-i-disable-auto
 ## Stop the Service
 
 ```bash
+sudo systemctl status cups-browsed.service 
 sudo systemctl stop cups-browsed.service 
 sudo systemctl disable cups-browsed.service 
 ```
