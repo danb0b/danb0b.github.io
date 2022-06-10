@@ -15,6 +15,7 @@ Reusable links related to Arizona State University
     * [aventri main page](https://aventri.asu.edu/)
 * [www.public.asu.edu/~daukes/](http://www.public.asu.edu/~daukes/)
 * [Remote Lab Desktop](https://ets.engineering.asu.edu/remote-access-labs/) ([Direct link](https://studentapps.asu.edu/))
+* [Student Cloud Computing](https://ets.engineering.asu.edu/fse-cloud-classroom/)
 
 
 ## Poly
