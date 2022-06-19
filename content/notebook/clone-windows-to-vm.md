@@ -28,10 +28,38 @@ From [here](http://underpop.online.fr/v/virtualbox/configuring-the-bios-dmi-info
 vboxmanage setextradata "my-guest-name" "VBoxInternal/Devices/pcbios/0/Config/DmiSystemSerial" "string:myserialnum"
 ```
 
+7c7a91c7d1d9
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemVendor"  "dmisystemvendor"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "dmisystemproduct"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor" "dmiboardvendor"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "dmiboardproduct"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion" "dmiboardversion"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial" "dmiboardserial"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVendor" "dmibiosvendor"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "dmibiosversion"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseDate" "dmibiosreleasedate"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMajor" "1"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMinor" "2"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMajor" "3"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor" "4"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemVendor"  "LENOVO"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "20A7CTO1WW"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "GRET44WW (1.21 )"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemSKU" "LENOVO_MT_20A7_BU_Think_FM_ThinkPad X1 Carbon 2nd"
+#VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemSerial" "R901BPCA"
+#VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemUuid" "6B35D381-52E1-11CB-B69C-BA65A3840C86"
+
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor" "LENOVO"
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "20A7CTO1WW"
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVersion" "SDK0E50512 Std"
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardSerial" "W1KS4411331"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiProcManufacturer"  "DmiProcManufacturer"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiProcVersion"       "DmiProcVersion"
 
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVendor" "LENOVO"
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion" "GRET44WW (1.21 )"
@@ -40,6 +68,13 @@ vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBI
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSReleaseMinor" "7"
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMajor" "1"
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBIOSFirmwareMinor" "16"
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/ahci/0/Config/Port0/SerialNumber" "2442396D"
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/ahci/0/Config/Port0/SerialNumber" ""
+VBoxManage internalcommands sethduuid "~/VirtualBox VMs/sara.vdi" A2697D5F-730A-4E7B-ACDB-B29743A0A108
+
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemVendor"  ""
+vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" ""
 
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardVendor" ""
 vboxmanage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" ""
@@ -64,6 +99,7 @@ VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSy
 
 ## Get DMI information from Windows
 
+* <https://www.addictivetips.com/windows-tips/find-disk-and-volume-guid-windows-10/>
 * <http://gnuwin32.sourceforge.net/packages/dmidecode.htm>
 * <http://www.fit-pc.com/wiki/index.php/How_to_retrieve_product_information_from_within_Windows_/_Linux>
 * <https://www.maketecheasier.com/get-bios-version-information-in-windows/>
@@ -73,6 +109,7 @@ VBoxManage setextradata sara-old-lenovo "VBoxInternal/Devices/efi/0/Config/DmiSy
 
 ## External Links
 
+* <https://docs.oracle.com/en/virtualization/virtualbox/6.0/admin/changedmi.html>
 * <https://www.virtualbox.org/manual/ch09.html#changedmi>
 * <https://www.virtualbox.org/manual/ch09.html#changeacpicust>
 * <https://forums.virtualbox.org/viewtopic.php?f=8&t=79879>
