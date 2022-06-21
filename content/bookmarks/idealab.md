@@ -436,7 +436,8 @@ Topics related to research and lab administration
 * [odepack-ordinary-differential-equation-solvers](https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html)
 * [openstax-cnx](https://cnx.org/contents/089ddf60-4a30-4870-80d5-a9434d9d0c05@2)
 * [scipyintegrateode-scipy-v110-reference-guide](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.ode.html)
-
+* [Approximation of Differential Equations by Numerical Integration](https://lpsa.swarthmore.edu/NumInt/NumIntIntro.html)
+* 
 ##### lcps
 
 * [not-found](https://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=3&f=G&l=50&co1=AND&d=PG01&s1=ageia&OS=ageia&RS=ageia)
