@@ -26,6 +26,7 @@ sudo apt install -y libinput-tools #not sure what this is used for
 sudo snap install shotcut --classic
 sudo snap install mqtt-explorer 
 sudo snap install hugo --channel=extended
+sudo snap install signal-desktop
 #sudo snap install inkscape # doesn't work well on 21.10
 ```
 
@@ -63,13 +64,29 @@ sudo dpkg -i zoom_amd64.deb
 sudo apt install -yf
 ```
 
-### Mendeley
+### Mendeley Reference Manager
+
+script to download 64-bit generic 
+
+```bash
+mkdir ~/apps
+cd ~/apps && \
+url="https://www.mendeley.com/download-reference-manager/linux" && \
+xpath="/html/body/div[2]/section[1]/div[1]/a" && \
+html=$(wget -q -O - "$url") && \
+dl_url=$(echo $html | xmllint --html --xpath "string($xpath/@href)" - 2>/dev/null | xargs)  && \
+wget "$dl_url" && \
+chmod +x mendeley*.AppImage
+```
+
+
+#### Mendeley Desktop on Ubuntu 22 and newer:
 
 go to https://www.mendeley.com/download-mendeley-desktop-legacy#download
 
 download 64-bit generic version, unzip and move to ~/apps
 
-OLD Instructions:
+#### Mendeley Desktop on Ubuntu 21 and older
 
 ```
 cd ~/Downloads
@@ -124,6 +141,14 @@ sudo apt update
 sudo apt install torbrowser-launcher
 ```
 
+### Vocal
+
+<https://flathub.org/apps/details/com.github.needleandthread.vocal>
+
+```
+flatpak install flathub com.github.needleandthread.vocal
+flatpak run com.github.needleandthread.vocal
+```
 ---
 
 ## Deprecated
