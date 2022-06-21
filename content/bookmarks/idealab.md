@@ -538,3 +538,12 @@ Topics related to research and lab administration
 * [design study - solidworks 2016](http://help.solidworks.com/2016/english/solidworks/sldworks/t_creating_a_design_study.htm)
 * [Larry Howell Bending Video](https://www.youtube.com/watch?v=97t7Xj_iBv0)
 * [ASME DCSD page](https://www.youtube.com/channel/UCKZDGbU2OsXtBvX4d7iwYTA/videos)
+
+## dynamic simulators
+
+* drake
+* mujoco
+* bullet
+* chrono
+* sofa
+* raisim
