@@ -8,15 +8,16 @@
 </span></span><span style=display:flex><span>python3 manage.py runserver
 </span></span></code></pre></div><p>hit ctrl+c to stop</p><p>Create a new script builder app</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python3 manage.py startapp scriptbuilder
 </span></span><span style=display:flex><span>nano murdermystery/settings.py
-</span></span></code></pre></div><p>INSTALLED_APPS = [
-&lsquo;django.contrib.admin&rsquo;,
-&lsquo;django.contrib.auth&rsquo;,
-&lsquo;django.contrib.contenttypes&rsquo;,
-&lsquo;django.contrib.sessions&rsquo;,
-&lsquo;django.contrib.messages&rsquo;,
-&lsquo;django.contrib.staticfiles&rsquo;,
-&lsquo;script_builder.apps.ScriptBuilderConfig&rsquo;
-]</p><p>Update Database if necessary.</p><pre tabindex=0><code>TIME_ZONE = &#39;UTC&#39;
+</span></span></code></pre></div><p>See this <a href=https://docs.djangoproject.com/en/4.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project>section</a> to pre-define a custom user class before creating any databases.</p><pre tabindex=0><code>INSTALLED_APPS = [
+    &#39;django.contrib.admin&#39;,
+    &#39;django.contrib.auth&#39;,
+    &#39;django.contrib.contenttypes&#39;,
+    &#39;django.contrib.sessions&#39;,
+    &#39;django.contrib.messages&#39;,
+    &#39;django.contrib.staticfiles&#39;,
+    &#39;script_builder.apps.ScriptBuilderConfig&#39;
+]
+</code></pre><p>Update Database if necessary.</p><pre tabindex=0><code>TIME_ZONE = &#39;UTC&#39;
 </code></pre><pre tabindex=0><code>TIME_ZONE = &#39;America/Phoenix&#39;
 </code></pre><p>Edit URL mappings</p><p>nano murdermystery/urls.py</p><p>add to bottom</p><pre tabindex=0><code># Use include() to add paths from the catalog application
 from django.urls import include
