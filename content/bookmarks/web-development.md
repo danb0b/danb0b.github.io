@@ -83,3 +83,8 @@ Some of my favorite bookmarks related to web development, websites, hosting, etc
 
 * <https://learndjango.com/tutorials/django-markdown-tutorial>
 * <https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django>
+* <https://python.plainenglish.io/how-to-create-a-django-image-gallery-website-in-2-hours-bdb42464fbfe>
+* <https://github.com/skolo-online/django-image-gallery>
+* <https://skolo-online.medium.com/getting-started-with-python-django-web-development-4e073e64c4a0>
+* <https://roytuts.com/how-to-create-photo-gallery-with-django/>
+* <https://confuzeus.com/hub/django-web-framework/save-existing-files-into-model/>

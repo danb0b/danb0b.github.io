@@ -24,6 +24,9 @@ python3 manage.py startapp scriptbuilder
 nano murdermystery/settings.py
 ```
 
+See this [section](https://docs.djangoproject.com/en/4.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project) to pre-define a custom user class before creating any databases.
+
+```
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -33,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'script_builder.apps.ScriptBuilderConfig'
 ]
+```
 
 Update Database if necessary.
 
