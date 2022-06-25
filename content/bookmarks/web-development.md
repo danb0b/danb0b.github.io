@@ -88,3 +88,5 @@ Some of my favorite bookmarks related to web development, websites, hosting, etc
 * <https://skolo-online.medium.com/getting-started-with-python-django-web-development-4e073e64c4a0>
 * <https://roytuts.com/how-to-create-photo-gallery-with-django/>
 * <https://confuzeus.com/hub/django-web-framework/save-existing-files-into-model/>
+* <https://stackoverflow.com/questions/35054230/custom-tag-not-loaded-in-template>
+* <https://docs.djangoproject.com/en/4.0/howto/custom-template-tags/>
