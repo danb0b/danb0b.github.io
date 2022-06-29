@@ -9,13 +9,46 @@ tags:
 weight: 10
 ---
 
-Derived from [this link](https://motorscript.com/security-hardening-ssh-linux-server/)
+test your current keys:
+
+```bash
+sudo sshd -t
+```
+
+retrieve your current config
+
+```bash
+sshd -T
+```
+
+from [here](https://www.sshaudit.com/hardening_guides.html#ubuntu_20_04_lts):
+
+save the original file:
+
+```bash
+sudo cp /etc/ssh/moduli /etc/ssh/moduli.old
+```
+
+remove small dixie hellman moduli
+
+```bash
+sudo -i
+awk '$5 >= 3071' /etc/ssh/moduli > /etc/ssh/moduli.safe
+mv /etc/ssh/moduli.safe /etc/ssh/moduli
+exit
+```
+
+Harden your config
+
+Derived from [this link](https://motorscript.com/security-hardening-ssh-linux-server/) and [this link](https://linux-audit.com/audit-and-harden-your-ssh-configuration/)
 
 ```
 cat <<EOT >> 99-local-sshd.conf
 #AllowUsers username1 username2
 #Port 23456
+IgnoreRhosts yes
 PermitRootLogin no
+PubkeyAuthentication yes
 PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
@@ -23,19 +56,25 @@ KerberosAuthentication no
 GSSAPIAuthentication no
 #UsePAM no
 X11Forwarding no
-AllowTcpForwarding no
-AllowAgentForwarding yes
 MaxAuthTries 3
 LoginGraceTime 20
+PermitUserEnvironment no
+DebianBanner no
+
+AllowAgentForwarding yes
+AllowTcpForwarding no
 PermitTunnel no
 
 HostKey /etc/ssh/ssh_host_ed25519_key
-#HostKey /etc/ssh/ssh_host_rsa_key
-HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
 
-KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256
+# Restrict key exchange, cipher, and MAC algorithms, as per sshaudit.com
+# hardening guide.
+KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha256
 Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
-MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,umac-128@openssh.com
+MACs hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,umac-128-etm@openssh.com
+HostKeyAlgorithms ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,sk-ssh-ed25519@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-512,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com
 
 LogLevel VERBOSE
 
@@ -50,6 +89,40 @@ sudo /etc/init.d/ssh reload #Reload or restart the ssh server
 rm 99-local-sshd.conf
 ```
 
+## install fail2ban
+
+from [here](https://blog.swmansion.com/limiting-failed-ssh-login-attempts-with-fail2ban-7da15a2313b):
+
+```bash
+sudo apt install fail2ban
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban 
+sudo systemctl status fail2ban 
+```
+
+enter interactive mode
+
+```bash
+sudo -i
+```
+
+config fail2ban for ufw
+
+```bash
+echo "[DEFAULT]" >> /etc/fail2ban/jail.local
+echo "banaction=ufw" >> /etc/fail2ban/jail.local
+exit
+
+```
+
+restart the service and check
+
+```
+sudo systemctl restart fail2ban 
+sudo fail2ban-client status
+sudo fail2ban-client status sshd
+
+```
 ## References
 
 * <https://motorscript.com/security-hardening-ssh-linux-server/>
