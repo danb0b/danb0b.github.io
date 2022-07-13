@@ -16,9 +16,12 @@ menu:
   - URL: https://idealab-asu.slack.com
     name: IDEAlab Slack
     weight: 1
-  - URL: https://asu-2221-egr314-14618.slack.com
-    name: EGR314 Slack
-    weight: 1
+  - URL: https://scram-workspace.slack.com
+    name: SCRAMbots
+    weight: 2
+  - URL: https://kaiteki-asu.slack.com
+    name: Kaiteki
+    weight: 3
 #  main:
 #  - URL: notebook
 #    name: Notebook
@@ -40,7 +43,7 @@ params:
   cookies:
     enable: false
     expire_days: 2
-  copyright: "|  copyright &copy; 2021 Daniel Aukes.  All Rights Reserved.  |"
+  copyright: "|  copyright &copy; 2022 Daniel Aukes.  All Rights Reserved.  |"
   description: This is meta description
   #email: 'danaukes at gmail.com'
   #googleAnalitycsID: Your ID
