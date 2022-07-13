@@ -39,3 +39,10 @@ sansfont: Roboto
 geometry: margin=1in
 ---
 ```
+
+### Reference docs
+
+```bash
+pandoc -o custom-reference.docx --print-default-data-file reference.docx
+pandoc -o custom-reference.odt --print-default-data-file reference.odt
+```
