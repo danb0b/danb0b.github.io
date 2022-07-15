@@ -38,3 +38,4 @@ sudo systemctl start ufw
 1. encrypt hard drive
 1. set up logging
 1. set / update vnc passwords
+1. check out AppArmor
