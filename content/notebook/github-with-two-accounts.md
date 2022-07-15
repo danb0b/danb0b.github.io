@@ -39,30 +39,30 @@ tags:
 
 1. Create/edit your ~/.ssh/config file
 
-Note: I have the following settings at the top of my config file to make it more secure:
+    Note: I have the following settings at the top of my config file to make it more secure:
 
-```
-AddKeysToAgent yes
+    ```
+    AddKeysToAgent yes
 
-Host *
-   IdentitiesOnly yes
-   PreferredAuthentications publickey 
-   #...and other settings
-```
+    Host *
+       IdentitiesOnly yes
+       PreferredAuthentications publickey 
+       #...and other settings
+    ```
 
-Then I add the following.  To ensure the gitman package is setup correctly, **make sure user1 and user2 are your _actual_ github usernames**
+    Then I add the following.  To ensure the gitman package is setup correctly, **make sure user1 and user2 are your _actual_ github usernames**
 
-```
-Host user1.github.com
-   HostName github.com
-   User git
-   IdentityFile /the/path/to/user1_github_key
-   
-Host user2.github.com
-   HostName github.com
-   User git
-   IdentityFile ~/the/path/to/user2_github_key
-```
+    ```
+    Host user1.github.com
+       HostName github.com
+       User git
+       IdentityFile /the/path/to/user1_github_key
+       
+    Host user2.github.com
+       HostName github.com
+       User git
+       IdentityFile ~/the/path/to/user2_github_key
+    ```
 
 ## External References:
 
