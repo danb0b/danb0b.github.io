@@ -16,7 +16,8 @@ Reusable links related to Arizona State University
 * [www.public.asu.edu/~daukes/](http://www.public.asu.edu/~daukes/)
 * [Remote Lab Desktop](https://ets.engineering.asu.edu/remote-access-labs/) ([Direct link](https://studentapps.asu.edu/))
 * [Student Cloud Computing](https://ets.engineering.asu.edu/fse-cloud-classroom/)
-
+* [ASU Course Catalog](https://webapp4.asu.edu/catalog/classlist)
+* [ASU Academic Calendar](https://students.asu.edu/academic-calendar)
 
 ## Poly
 * [Poly Contact Info](https://poly.engineering.asu.edu/contact/)
