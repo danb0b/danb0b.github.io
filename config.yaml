@@ -44,7 +44,7 @@ params:
     enable: false
     expire_days: 2
   copyright: "|  copyright &copy; 2022 Daniel Aukes.  All Rights Reserved.  |"
-  description: This is meta description
+  description: Dan Aukes' personal website
   #email: 'danaukes at gmail.com'
   #googleAnalitycsID: Your ID
   home: Home

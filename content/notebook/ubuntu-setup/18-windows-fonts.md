@@ -4,6 +4,7 @@ tags:
 - fonts
 - ubuntu
 - linux
+weight: 18
 ---
 
 Derived from [here](https://askubuntu.com/questions/651441/how-to-install-arial-font-and-other-windows-fonts-in-ubuntu):
