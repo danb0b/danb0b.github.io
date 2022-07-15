@@ -50,7 +50,7 @@ Host *
    #...and other settings
 ```
 
-Then I add the following.  To ensure the gitman package is setup correctly, make sure user1 and user2 are your _actual_ github usernames
+Then I add the following.  To ensure the gitman package is setup correctly, **make sure user1 and user2 are your _actual_ github usernames**
 
 ```
 Host user1.github.com
