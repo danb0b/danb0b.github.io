@@ -7,7 +7,11 @@ tags:
   - security
 ---
 
-from <https://grapheneos.org/install/cli>
+
+
+Instructions derived from <https://grapheneos.org/install/cli>
+
+## Download Developer Tools
 
 ```bash
 sudo apt install android-sdk-platform-tools-common
@@ -25,12 +29,24 @@ which fastboot
 fastboot --version
 ```
 
+## Download graphene
+
 go to <https://grapheneos.org/releases#bramble-stable>
 
 ```bash
 wget https://releases.grapheneos.org/bramble-factory-2022071300.zip.sig
 wget https://releases.grapheneos.org/bramble-factory-2022071300.zip
 ```
+
+## Prep Phone
+
+1. Turn on developer mode
+1. go to settings --> "about phone"
+1. press "build number" until developer mode is enabled
+1. exit out of settings so that the new menu can load
+1. go back to settings --> system --> developer options
+1. enable "OEM unlocking"
+1. restart phone in bootloader mode by restarting and holding the "volume down" button until the fastboot screen starts up.
 
 ```bash
 cd ~/adb
