@@ -309,6 +309,12 @@ unset HISTFILE && exit
 
 ## Package Management
 
+### List repositories
+
+```bash
+apt policy
+```
+
 ### Remove a repository
 
 ```bash
