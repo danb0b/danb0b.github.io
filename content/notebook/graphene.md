@@ -1,0 +1,61 @@
+---
+title: Installing GrapheneOS on a Pixel 4a
+tags:
+  - android
+  - grapheneos
+  - ubuntu
+  - security
+---
+
+from <https://grapheneos.org/install/cli>
+
+```bash
+sudo apt install android-sdk-platform-tools-common
+sudo apt install signify-openbsd
+alias signify=signify-openbsd
+sudo apt remove adb 
+mkdir ~/adb
+cd ~/adb
+sudo apt install libarchive-tools
+curl -O https://dl.google.com/android/repository/platform-tools_r33.0.1-linux.zip
+echo 'a339548918c3ab31c4d88416c21cee753bd942040540216c06e640f4b6db3ae2  platform-tools_r33.0.1-linux.zip' | sha256sum -c
+bsdtar xvf platform-tools_r33.0.1-linux.zip
+export PATH="$PWD/platform-tools:$PATH"
+which fastboot
+fastboot --version
+```
+
+go to <https://grapheneos.org/releases#bramble-stable>
+
+```bash
+wget https://releases.grapheneos.org/bramble-factory-2022071300.zip.sig
+wget https://releases.grapheneos.org/bramble-factory-2022071300.zip
+```
+
+```bash
+cd ~/adb
+wget https://releases.grapheneos.org/factory.pub
+cat factory.pub 
+signify -Cqp factory.pub -x bramble-factory-2022071300.zip.sig  && echo verified
+bsdtar xvf bramble-factory-2022071300.zip
+cd bramble-factory-2022071300/
+fastboot flashing unlock
+./flash-all.sh 
+fastboot flashing lock
+```
+
+## Next Steps
+
+* <https://f-droid.org/>
+* <https://auroraoss.com/>
+
+## To return to the original
+
+* <https://developers.google.com/android/images>
+* <https://developers.google.com/android/ota>
+* [factory image](https://dl.google.com/dl/android/aosp/bramble-sq3a.220705.003.a1-factory-87426cb6.zip)
+* [ota image](https://dl.google.com/dl/android/aosp/bramble-ota-sq3a.220705.003.a1-1fefa3a0.zip)
+
+## other resources
+
+* [platform-tools website](https://developer.android.com/studio/releases/platform-tools.html)

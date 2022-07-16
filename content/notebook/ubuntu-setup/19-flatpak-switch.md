@@ -30,12 +30,6 @@ sudo apt remove Inkscape -y
 flatpak install flathub org.inkscape.Inkscape -y
 ```
 
-## Kdiff
-
-```bash
-sudo apt remove kdiff3 -y
-flatpak install flathub org.kde.kdiff3 -y
-```
 
 ## firefox
 
@@ -90,4 +84,17 @@ flatpak install flathub com.slack.Slack
 ```bash
 sudo apt remove zoom
 flatpak install flathub us.zoom.Zoom
+```
+
+--------------------
+
+# Not Recommended
+
+## Kdiff
+
+didn't seem to work...
+
+```bash
+sudo apt remove kdiff3 -y
+flatpak install flathub org.kde.kdiff3 -y
 ```

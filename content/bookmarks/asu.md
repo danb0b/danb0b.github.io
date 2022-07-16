@@ -70,7 +70,7 @@ Reusable links related to Arizona State University
 ## Security
 * [GetProtected](https://getprotected.asu.edu)
 * [SSLVPN](https://sslvpn.asu.edu)
-* [2 Factor Auth](https://weblogin.asu.edu/2fa/selfservice)
+* [Duo 2 Factor Auth](https://weblogin.asu.edu/2fa/selfservice)
 
 ## Skysong
 * [Skysong Innovations](https://www.skysonginnovations.com/)
