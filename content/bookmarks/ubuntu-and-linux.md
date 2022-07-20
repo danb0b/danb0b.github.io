@@ -81,3 +81,4 @@ https://snwh.org/paper/download
 -   Talker
 -   Jbot
 -   Traffic
+- jitsi for zoom replacement
