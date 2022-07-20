@@ -8,7 +8,7 @@ tags:
 weight: 10
 ---
 
-
+Updated for Ubuntu 22.04
 
 1. Install Software
 
@@ -34,14 +34,14 @@ weight: 10
     
     ```bash
     sudo -i
-    sudo echo "mypublickeydata" >> /etc/dropbear-initramfs/authorized_keys
+    sudo echo "mypublickeydata" >> /etc/dropbear/initramfs/authorized_keys
     exit
     ```
 
 1. Update config (optional)
 
     ```bash
-    sudo nano /etc/dropbear-initramfs/config
+    sudo nano /etc/dropbear/initramfs/dropbear.conf
     ```
     Add these options: 
     
@@ -51,8 +51,9 @@ weight: 10
     * -p - listen on port 2222
     * -s - disable password logins
     
-    ```
-    DROPBEAR_OPTIONS="-I 180 –j –k –p 2222 -s"
+    ```bash
+    #DROPBEAR_OPTIONS="-I 180 –j –k –p 2222 -s"
+    DROPBEAR_OPTIONS="-p 2222"
     ```
 
 1. Set Static IP (optional)
@@ -68,7 +69,7 @@ weight: 10
     ```
     
     ```
-    IP=192.168.0.100::192.168.0.1:255.255.255.0:debian:enp2s0
+    IP=192.168.0.100::192.168.0.1:255.255.255.0:ubuntu:enp2s0
     ```
 
 1. Update initramfs
