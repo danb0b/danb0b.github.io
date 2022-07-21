@@ -86,6 +86,12 @@ sudo apt remove zoom
 flatpak install flathub us.zoom.Zoom
 ```
 
+## Cheese
+```bash
+sudo apt remove cheese
+flatpak install flathub org.gnome.Cheese
+```
+
 --------------------
 
 # Not Recommended

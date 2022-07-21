@@ -26,8 +26,9 @@ tags:
 1. Create file structure for rclone.  Let's say you have set up a remote filesystem called dropbox_personal.  
 
     ```bash
-    mkdir ~/cloud
-    mkdir ~/cloud/dropbox_personal
+    sudo mkdir /cloud
+    sudo chown username:groupname /cloud
+    mkdir /cloud/dropbox_personal
     #... 
     # repeat for any other cloud folders you have set up in config
     ```
@@ -35,7 +36,7 @@ tags:
 1. Mount
 
     ```bash
-    rclone mount dropbox_personal: ~/cloud/dropbox_personal --vfs-cache-mode full &
+    rclone mount dropbox_personal: /cloud/dropbox_personal --vfs-cache-mode full &
     #... 
     #repeat for any other cloud folders you have set up in config
     ```

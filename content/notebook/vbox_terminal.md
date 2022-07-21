@@ -57,6 +57,12 @@ To shut down the VM, issue the command:
 VBoxManage controlvm "ubuntu" poweroff
 ```
 
+Remove a vm
+
+```bash
+vboxmanage unregistervm ubuntu22 --delete
+```
+
 ### Snapshot management
 
 ```bash
