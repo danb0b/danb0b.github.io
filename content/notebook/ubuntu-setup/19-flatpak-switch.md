@@ -92,6 +92,14 @@ sudo apt remove cheese
 flatpak install flathub org.gnome.Cheese
 ```
 
+## LibreOffice
+
+```bash
+sudo apt remove libreoffice*
+sudo apt autoremove
+flatpak install flathub org.libreoffice.LibreOffice
+```
+
 --------------------
 
 # Not Recommended
