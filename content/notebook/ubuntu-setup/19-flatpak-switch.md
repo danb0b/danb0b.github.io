@@ -55,6 +55,8 @@ flatpak install flathub org.audacityteam.Audacity
 
 ## Webcamoid
 
+Note: Cannot currently install the virtual cam output due to missing libraries
+
 ```bash
 sudo apt remove webcamoid
 flatpak install flathub io.github.webcamoid.Webcamoid
@@ -98,6 +100,12 @@ flatpak install flathub org.gnome.Cheese
 sudo apt remove libreoffice*
 sudo apt autoremove
 flatpak install flathub org.libreoffice.LibreOffice
+```
+
+## Darktable
+
+```bash
+flatpak install flathub org.darktable.Darktable
 ```
 
 --------------------
