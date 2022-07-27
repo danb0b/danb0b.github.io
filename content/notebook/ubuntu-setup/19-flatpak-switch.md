@@ -108,6 +108,13 @@ flatpak install flathub org.libreoffice.LibreOffice
 flatpak install flathub org.darktable.Darktable
 ```
 
+## Gimp
+
+```bash
+sudo apt remove gimp
+flatpak install flathub org.gimp.GIMP
+```
+
 --------------------
 
 # Not Recommended
