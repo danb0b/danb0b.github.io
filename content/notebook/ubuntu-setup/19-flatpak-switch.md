@@ -115,6 +115,12 @@ sudo apt remove gimp
 flatpak install flathub org.gimp.GIMP
 ```
 
+## Gpodder
+
+```bash
+flatpak install flathub org.gpodder.gpodder
+```
+
 --------------------
 
 # Not Recommended
