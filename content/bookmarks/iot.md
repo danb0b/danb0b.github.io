@@ -22,3 +22,9 @@ tags:
 * <https://forum.level1techs.com/t/bluetooth-presence-detection-for-home-automation-the-level1-way/148516>
 * <https://docs.linuxserver.io/>
 * <https://shelly.cloud/products/shelly-25-smart-home-automation-relay/>
+* [*https://www.amazon.com/KAUF-Monitoring-ESPHome-Compatible-Assistant/dp/B09D68P39F/*](https://www.amazon.com/KAUF-Monitoring-ESPHome-Compatible-Assistant/dp/B09D68P39F/)
+* [*https://www.th3dstudio.com/product/ezplug-open-source-wifi-smart-plug/*](https://www.th3dstudio.com/product/ezplug-open-source-wifi-smart-plug/)
+* Rtsp camera
+* The internet of s\*\*\* blog
+* Esphome
+* Wise cam
