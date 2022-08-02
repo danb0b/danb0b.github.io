@@ -86,3 +86,13 @@ https://snwh.org/paper/download
 - Discourse app Linux
 - Proxmox cluster
 - [*Vikunja.io*](http://vikunja.io)
+https://hub.docker.com/u/linuxserver
+
+
+## Wayland, Zoom, USB Dock, OBS
+
+* https://forums.lenovo.com/t5/Ubuntu/ThinkPad-Hybrid-USB-C-with-USB-A-Dock-for-linux/td-p/4315328
+* https://support.zoom.us/hc/en-us/articles/6634039380877-Sharing-your-screen-on-Wayland
+* https://obsproject.com/
+* https://flathub.org/apps/details/com.obsproject.Studio
+* https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu

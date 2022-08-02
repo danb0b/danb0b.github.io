@@ -45,3 +45,18 @@ Creating and converting documents is not trivial.  I have a bunch of links that 
 ## Linux
 
 [Folder Structure control](https://web.physics.wustl.edu/alford/tex/tex_paths.html)
+
+## Joplin
+
+* <https://gitlab.com/charlescanato/google-keep-to-evernote-converter>
+* <https://blog.jfx.ac/moving-notes-from-google-keep-to-joplin.html>
+* <https://discourse.joplinapp.org/t/solved-importing-from-google-keep/1733>
+* <https://gist.github.com/itsjfx/689ae620222240911a3efae33e313b1b>
+
+```
+flatpak install flathub net.cozic.joplin_desktop
+```
+
+## Turtl
+
+* <https://turtlapp.com/>

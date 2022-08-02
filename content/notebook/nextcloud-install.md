@@ -63,3 +63,19 @@ weight: 99
 * <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04>
 * [syncing](https://docs.nextcloud.com/server/latest/user_manual/en/groupware/sync_android.html)
 * [android apps](https://livtec.ch/en/the-10-best-nextcloud-apps-for-your-android-smartphone/)
+
+
+----------------
+
+# Docker-Compose info
+
+* <https://help.nextcloud.com/t/nextcloud-docker-compose-how-to-update-domain-name-in-config-php/103522>
+* <https://docs.nextcloud.com/server/20/admin_manual/configuration_server/config_sample_php_parameters.html#default-parameters>
+* <https://docs.nextcloud.com/server/20/admin_manual/configuration_server/occ_command.html>
+* <https://github.com/nextcloud/docker#running-this-image-with-docker-compose>
+* <https://hub.docker.com/_/nextcloud>
+* <https://help.nextcloud.com/t/nexcloud-deployment-by-docker-compose/90660>
+* <https://blog.ssdnodes.com/blog/installing-nextcloud-docker/>
+* <
+* <
+* <

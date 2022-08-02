@@ -393,3 +393,17 @@ nvme list
 sudo nvme smart-log /dev/nvme0n1 
 sudo nvme id-ctrl /dev/nvme0n1
 ```
+
+## Trash
+
+
+59
+
+Files can be stuck in ~/.local/share/Trash/expunged when you delete from Nautilus a folder that belongs to you, but contains files which are belong to another user, and it is tricky for Nautilus to handle this situation correctly. To delete them try to use:
+
+```bash
+sudo -i
+rm -rv /home/<desired_user_name>/.local/share/Trash/expunged/*
+exit
+```
+
