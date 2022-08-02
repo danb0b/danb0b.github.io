@@ -17,6 +17,14 @@ docker ps
 docker attach 3378689f2069
 ```
 
+## Deleting, cleanup
+
+```bash
+docker run —rm image_name
+docker system prune
+docker container prune
+```
+
 ## Ubuntu Image
 
 ```bash
