@@ -7,6 +7,9 @@
 </span></span><span style=display:flex><span>docker create
 </span></span><span style=display:flex><span>docker ps
 </span></span><span style=display:flex><span>docker attach 3378689f2069
+</span></span></code></pre></div><h2 id=deleting-cleanup>Deleting, cleanup</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker run —rm image_name
+</span></span><span style=display:flex><span>docker system prune
+</span></span><span style=display:flex><span>docker container prune
 </span></span></code></pre></div><h2 id=ubuntu-image>Ubuntu Image</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull ubuntu
 </span></span><span style=display:flex><span>docker run -it ubuntu /bin/bash
 </span></span><span style=display:flex><span>apt-get update
