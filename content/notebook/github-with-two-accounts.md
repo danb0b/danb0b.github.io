@@ -66,8 +66,8 @@ tags:
 
 ## External References:
 
+* <https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca>
 * <https://gist.github.com/oanhnn/80a89405ab9023894df7>
 * <https://jeffbrown.tech/multiple-github-accounts-ssh/>
 * <https://www.section.io/engineering-education/using-multiple-ssh-keys-for-multiple-github-accounts/>
-* <https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca>
 * <https://stackoverflow.com/questions/3225862/multiple-github-accounts-ssh-config>
