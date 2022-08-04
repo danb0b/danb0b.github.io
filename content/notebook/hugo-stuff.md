@@ -77,7 +77,7 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 * <https://gohugo.io/getting-started/quick-start/>
 * [Page Variables](https://gohugo.io/variables/page/#pages)
 * [The Page Variable](https://gohugo.io/variables/page/#pages)
-
+* <https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/>
 
 ### Essential Add-ons
 * Original [liva theme](https://github.com/gethugothemes/liva-hugo)
