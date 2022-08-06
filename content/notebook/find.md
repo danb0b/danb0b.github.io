@@ -39,6 +39,11 @@ Find all files of type "txt"
 find . -type f -name "*.txt"
 ```
 
+Exclude directories
+
+```bash
+find . -not \( -path ./miniconda3 -prune \) -name \*.py -print
+```
 
 ## External Resources
 
@@ -63,3 +68,12 @@ Find "video_source" keys in yaml files ending in .yaml
 ```bash
 find . -iname "*.yaml" -exec grep -l 'video_source:' {} \+ 
 ```
+
+excluding directories
+
+```bash
+find . -not \( -path ./miniconda3 -prune \) -name \*.py -print  -exec grep -l 'html' {} \+ 
+```
+
+excluding multiple directoreis
+find . -type d \( -path ./miniconda3 -o -path ./.atom -o -path ./code_external -o -path ./websites -o -path ./.arduino15 \) -prune -o -name '*.py' -exec grep -l 'html' {} \+ 

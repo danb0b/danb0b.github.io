@@ -14,22 +14,51 @@ This assumes you installed a "minimal" version of Ubuntu
 
 ```bash
 sudo apt update
-sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld
+sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme
+
+#migrated away from or to flathub
+#sudo apt install -y gimp wireguard synaptic kicad audacity webcamoid vlc
+
 #sudo apt install mosquitto mosquitto_clients #only if you want mqtt
-sudo snap remove firefox
-sudo apt install firefox
-sudo apt install -y cifs-utils
-sudo apt install -y inkscape
-sudo apt install -y paper-icon-theme
+#sudo snap remove firefox
+#sudo apt install firefox
+#sudo apt install -y inkscape
 #sudo apt install -y openssh-client #already installed
 sudo apt install -y libinput-tools #not sure what this is used for
-sudo snap install shotcut --classic
+#sudo snap install shotcut --classic
 sudo snap install mqtt-explorer 
 sudo snap install hugo --channel=extended
-sudo snap install signal-desktop
+#sudo snap install signal-desktop
+
+# install
+sudo apt install flatpak
+#if you want to install from software GUI
+sudo apt install gnome-software-plugin-flatpak
+#add the flathub repo
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+flatpak install flathub org.inkscape.Inkscape -y
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.mozilla.firefox -y
+flatpak install flathub org.kicad.KiCad
+flatpak install flathub org.audacityteam.Audacity
+flatpak install flathub io.github.webcamoid.Webcamoid
+flatpak install flathub org.videolan.VLC
+flatpak install flathub com.bitwarden.desktop
+flatpak install flathub com.slack.Slack
+flatpak install flathub us.zoom.Zoom
+flatpak install flathub org.gnome.Cheese
+flatpak install flathub org.signal.Signal
+flatpak install flathub org.shotcut.Shotcut
+
 #sudo snap install inkscape # doesn't work well on 21.10
 ```
 
+### Bitwarden
+
+install browser plugins here:
+
+go here: <https://bitwarden.com/download/>
 
 ### Latex
 
@@ -55,14 +84,7 @@ sudo bash install.sh
 ```
 
 
-### Zoom
 
-```
-cd ~/Downloads
-wget https://asu.zoom.us/client/latest/zoom_amd64.deb
-sudo dpkg -i zoom_amd64.deb 
-sudo apt install -yf
-```
 
 ### Mendeley Reference Manager
 
@@ -196,7 +218,14 @@ snap connections chromium  # to list existing permissions
 sudo snap connect chromium:audio-record :audio-record  # to enable
 ```
 
+### Zoom
 
+```
+cd ~/Downloads
+wget https://asu.zoom.us/client/latest/zoom_amd64.deb
+sudo dpkg -i zoom_amd64.deb 
+sudo apt install -yf
+```
 
 
 
