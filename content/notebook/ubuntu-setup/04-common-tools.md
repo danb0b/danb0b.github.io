@@ -13,7 +13,7 @@ This assumes you installed a "minimal" version of Ubuntu
 ```bash
 sudo apt update && sudo apt upgrade-y
 ```bash
-sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr  v4l2loopback-dkms v4l-utils
+sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils
 ```
 
 ## Flatpak
