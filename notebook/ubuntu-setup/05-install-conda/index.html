@@ -7,6 +7,10 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 </code></pre><ol><li>follow the instructions</li><li>use the default path</li><li>say &ldquo;yes&rdquo; to initialize conda</li></ol><pre tabindex=0><code>cd ~/
 source ~/.bashrc
+</code></pre><h3 id=map-miniconda-to-anaconda>map miniconda to anaconda</h3><pre tabindex=0><code>mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+echo &#34;alias python=python3&#34; &gt;&gt; .bashrc
 </code></pre><h2 id=windows-install>Windows Install</h2><p>Set powershell-specific security settings</p><p>from <a href=https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell>https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell</a></p><pre tabindex=0><code>Set-ExecutionPolicy remotesigned
 conda init powershell
 </code></pre><p>Other security options (may break conda script)</p><pre tabindex=0><code>#Set-ExecutionPolicy AllSigned
@@ -19,9 +23,6 @@ pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 ser
 </code></pre><p>ubuntu</p><pre tabindex=0><code>sudo apt install -y pandoc-citeproc
 </code></pre><h3 id=pip-packages-that-need-a-compiler-optional>Pip packages that need a compiler (optional)</h3><pre tabindex=0><code>pip install spectrum pybullet roslibpy
 </code></pre><h3 id=update-everything-to-make-sure-its-all-consistent>Update everything to make sure it&rsquo;s all consistent</h3><pre tabindex=0><code>conda update -y --all
-</code></pre><h3 id=map-miniconda-to-anaconda>map miniconda to anaconda</h3><pre tabindex=0><code>mkdir ~/anaconda3
-mkdir ~/anaconda3/bin
-ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
 </code></pre><h2 id=other-environments>Other Environments</h2><h3 id=pychrono>PyChrono</h3><p>To install chrono, you must make a different environment, as it conflicts with some of the packages here.</p><pre tabindex=0><code>sudo apt install libirrlicht-dev
 
 conda create -n chrono
