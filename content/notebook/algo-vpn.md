@@ -201,19 +201,3 @@ from here: <https://github.com/trailofbits/algo/blob/master/docs/client-linux-wi
 
 Don't use the virtual host with the virtual algo guest, it will kill external communication to/from the guest.
 
-<!--
-## Old
-
-ALGO
-Open powershell in admin mode
-Create local directory c/users/danaukes/algo-data
-
-```bash
-docker run -it -v C:\Users\danaukes\code_external\algo:/algo ubuntu /bin/bash
-docker run --name=myalgo -it -v C:\Users\danaukes\algo-data:/algo-data ubuntu:bionic /bin/bash
-docker exec -it myalgo /bin/bash
-docker commit -m "installed and configged" -a "dan" 87efef64b227 test/new_image
-mkdir configs && ssh-keygen -b 2048 -C algo@local -t rsa -f configs/algo.pem -q -N ""
-```
-
--->

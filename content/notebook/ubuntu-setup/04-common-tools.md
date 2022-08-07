@@ -1,93 +1,123 @@
 ---
 title: 04-Install Common Tools
-weight: 4
+weight: 40
 tags:
 - ubuntu
 - linux
 ---
 
-## Install common tools
-
-I've lumped these all together to be able to run it more efficiently.  You will need these tools.
-
 This assumes you installed a "minimal" version of Ubuntu
 
+## ```apt``` packages first
+
 ```bash
-sudo apt update
-sudo apt install -y synaptic kdiff3 libreoffice samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme
+sudo apt update && sudo apt upgrade-y
+```bash
+sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr  v4l2loopback-dkms v4l-utils
+```
 
-#migrated away from or to flathub
-#sudo apt install -y gimp wireguard synaptic kicad audacity webcamoid vlc
+## Flatpak
 
-#sudo apt install mosquitto mosquitto_clients #only if you want mqtt
-#sudo snap remove firefox
-#sudo apt install firefox
-#sudo apt install -y inkscape
-#sudo apt install -y openssh-client #already installed
-sudo apt install -y libinput-tools #not sure what this is used for
-#sudo snap install shotcut --classic
-sudo snap install mqtt-explorer 
-sudo snap install hugo --channel=extended
-#sudo snap install signal-desktop
+If you haven't yet already...
 
+```bash
 # install
 sudo apt install flatpak
 #if you want to install from software GUI
 sudo apt install gnome-software-plugin-flatpak
 #add the flathub repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-flatpak install flathub org.inkscape.Inkscape -y
-flatpak install flathub org.gimp.GIMP
-flatpak install flathub org.mozilla.firefox -y
-flatpak install flathub org.kicad.KiCad
-flatpak install flathub org.audacityteam.Audacity
-flatpak install flathub io.github.webcamoid.Webcamoid
-flatpak install flathub org.videolan.VLC
-flatpak install flathub com.bitwarden.desktop
-flatpak install flathub com.slack.Slack
-flatpak install flathub us.zoom.Zoom
-flatpak install flathub org.gnome.Cheese
-flatpak install flathub org.signal.Signal
-flatpak install flathub org.shotcut.Shotcut
-
-#sudo snap install inkscape # doesn't work well on 21.10
 ```
 
-### Bitwarden
+## Install flatpaks
 
-install browser plugins here:
+```bash
+flatpak install flathub org.inkscape.Inkscape -y
+flatpak install flathub org.gimp.GIMP -y
+flatpak install flathub org.mozilla.firefox -y
+flatpak install flathub org.kicad.KiCad -y
+flatpak install flathub org.audacityteam.Audacity -y
+flatpak install flathub io.github.webcamoid.Webcamoid -y
+flatpak install flathub org.videolan.VLC -y
+flatpak install flathub com.bitwarden.desktop -y
+flatpak install flathub com.slack.Slack -y
+flatpak install flathub us.zoom.Zoom -y
+flatpak install flathub org.gnome.Cheese -y
+flatpak install flathub org.signal.Signal -y
+flatpak install flathub org.shotcut.Shotcut -y
+flatpak install com.github.micahflee.torbrowser-launcher -y
+flatpak install flathub com.axosoft.GitKraken -y
+flatpak install com.obsproject.Studio -y
+flatpak install org.libreoffice.LibreOffice -y
+flatpak install org.gpodder.gpodder -y
+flatpak install org.darktable.Darktable -y
+flatpak install flathub md.obsidian.Obsidian -y
+```
 
-go here: <https://bitwarden.com/download/>
+close and reopen terminal
+
+### Install snaps
+
+```bash
+sudo snap install mqtt-explorer
+sudo snap install hugo --channel=extended
+sudo snap install rpi-imager 
+```
+
+## Packages with options or multiple setup lines
+
+### Thunderbird
+
+```bash
+flatpak install flathub org.mozilla.Thunderbird
+```
+
+move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbird/
 
 ### Latex
 
+#### Full Install
+```bash
+sudo apt install -y texlive-full
+```
+
+#### Necessary Packages
 This is a big install so plan it for when you can let it go a while
 
 ```bash
-#sudo apt install -y texlive-full
 sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base
 ```
-
-## Optional
 
 ### Arduino
 
 ```bash
 cd ~/Downloads
 #sudo apt install -y arduino #outdated
-python -mwebbrowser "https://www.arduino.cc/en/software"
-wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz
-tar -xvf arduino*linux64.tar.xz 
-cd arduino-1.8.16
+python3 -mwebbrowser "https://www.arduino.cc/en/software"
+```
+
+To download version 1.8.19...
+
+```bash
+wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz
+tar -xvf arduino-1.8.19-linux64.tar.xz
+cd arduino-1.8.19-linux64
 sudo bash install.sh
 ```
 
-
-
-
 ### Mendeley Reference Manager
 
+go to [mendeley](https://www.mendeley.com/download-mendeley-desktop-legacy#download), download 64-bit generic version, unzip and move to ~/apps
+
+```bash
+mkdir ~/apps
+cd ~/apps
+wget https://www.mendeley.com/autoupdates/installer/Linux-x64/stable-incoming -O mendeley-desktop.tar.bz2
+tar -xvjf mendeley-desktop.tar.bz2 
+rm mendeley-desktop.tar.bz2 
+```
+
+<!--
 script to download 64-bit generic 
 
 ```bash
@@ -100,14 +130,11 @@ dl_url=$(echo $html | xmllint --html --xpath "string($xpath/@href)" - 2>/dev/nul
 wget "$dl_url" && \
 chmod +x mendeley*.AppImage
 ```
+-->
 
 
-#### Mendeley Desktop on Ubuntu 22 and newer:
 
-go to https://www.mendeley.com/download-mendeley-desktop-legacy#download
-
-download 64-bit generic version, unzip and move to ~/apps
-
+<!--
 #### Mendeley Desktop on Ubuntu 21 and older
 
 ```
@@ -115,6 +142,7 @@ cd ~/Downloads
 sudo dpkg -i mendeleydesktop*.deb
 sudo apt-get install -yf
 ```
+-->
 
 ### Cisco VPN for ASU
 
@@ -142,18 +170,17 @@ sudo apt install -y virtualbox virtualbox-ext-pack
 sudo usermod -a -G vboxusers $USER
 ```
 
-### flathub
+### Common Windows Fonts
+
+Derived from [here](https://askubuntu.com/questions/651441/how-to-install-arial-font-and-other-windows-fonts-in-ubuntu):
 
 ```bash
-sudo apt install flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install ttf-mscorefonts-installer
+sudo fc-cache -f
 ```
 
+<!--
 ### Tor Browser
-
-```bash
-flatpak install com.github.micahflee.torbrowser-launcher
-```
 
 Old method:
 
@@ -162,6 +189,21 @@ Old method:
 sudo apt update 
 sudo apt install torbrowser-launcher
 ```
+-->
+
+## Optional
+
+
+### Mosquitto
+
+```bash
+sudo apt install mosquitto mosquitto_clients
+```
+
+---
+
+## Deprecated
+
 
 ### Vocal
 
@@ -171,9 +213,6 @@ sudo apt install torbrowser-launcher
 flatpak install flathub com.github.needleandthread.vocal
 flatpak run com.github.needleandthread.vocal
 ```
----
-
-## Deprecated
 
 ### Ruby and Jekyll Toolchain
 
@@ -217,16 +256,6 @@ sudo snap install chromium
 snap connections chromium  # to list existing permissions
 sudo snap connect chromium:audio-record :audio-record  # to enable
 ```
-
-### Zoom
-
-```
-cd ~/Downloads
-wget https://asu.zoom.us/client/latest/zoom_amd64.deb
-sudo dpkg -i zoom_amd64.deb 
-sudo apt install -yf
-```
-
 
 
 

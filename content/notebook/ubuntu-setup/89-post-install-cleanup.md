@@ -1,6 +1,6 @@
 ---
-title: 13-Post-Install Cleanup steps
-weight: 13
+title: Post-Install Cleanup steps
+weight: 890
 tags:
 - ubuntu
 - linux

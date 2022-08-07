@@ -1,6 +1,6 @@
 ---
 title: 05-Conda Install
-weight: 5
+weight: 50
 tags:
   - anaconda
   - python
@@ -32,6 +32,15 @@ bash Miniconda3-latest-Linux-x86_64.sh
 ```
 cd ~/
 source ~/.bashrc
+```
+
+### map miniconda to anaconda
+
+```
+mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+echo "alias python=python3" >> .bashrc
 ```
 
 ## Windows Install
@@ -104,14 +113,6 @@ pip install spectrum pybullet roslibpy
 
 ```
 conda update -y --all
-```
-
-### map miniconda to anaconda
-
-```
-mkdir ~/anaconda3
-mkdir ~/anaconda3/bin
-ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
 ```
 
 ## Other Environments

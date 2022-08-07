@@ -1,6 +1,6 @@
 ---
 title: 12-Syncthing
-weight: 12
+weight: 120
 tags:
 - ubuntu
 - linux
@@ -55,3 +55,5 @@ tags:
     systemctl --user stop syncthing.service  
     systemctl --user disable syncthing.service  
     ```
+    
+1. Configure it to connect to your other computers

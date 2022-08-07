@@ -8,5 +8,6 @@ tags:
   - keys
 type: starred
 summary: Tools and topics specific to SSH, GPG, and encryption
+weight: 20
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 10-Set Up Groups
-weight: 10
+weight: 100
 tags:
 - ubuntu
 - linux

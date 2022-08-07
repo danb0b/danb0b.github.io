@@ -4,6 +4,7 @@ published: true
 tags:
 - ubuntu
 - linux
+weight: 999
 ---
 
 1. Set bios admin password
@@ -22,16 +23,9 @@ tags:
     * thunderbird
     * other email programs
     * other browsers
-1. turn on firewall
-
-```bash
-sudo ufw allow 22
-sudo ufw enable
-sudo ufw status
-sudo systemctl enable ufw
-sudo systemctl start ufw
-```
-
+1. Lock down SSH
+    1. See [how to disable passwords over ssh](/notebook/ssh/disable-password-ssh/)
+    1. enable [LUKS remote decrypt](/notebook/ssh/remote-hd-unlock.md)
 1. install tor?
 1. add bitwarden or other 2FA app
 1. update frequently

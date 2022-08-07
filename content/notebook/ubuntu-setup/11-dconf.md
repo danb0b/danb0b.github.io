@@ -1,6 +1,6 @@
 ---
 title: 11-Setup Dconf
-weight: 11
+weight: 110
 tags:
 - ubuntu
 - linux

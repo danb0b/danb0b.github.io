@@ -1,6 +1,5 @@
 ---
-title: 16-Disabling Printer Scanning
-weight: 16
+title: Disabling Printer Scanning
 tags:
 - ubuntu
 - linux

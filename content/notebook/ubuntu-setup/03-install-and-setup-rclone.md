@@ -1,6 +1,6 @@
 ---
 title: 03-Install and Setup ```rclone```
-weight: 3
+weight: 30
 tags:
 - ubuntu
 - linux
@@ -21,8 +21,7 @@ tags:
     mkdir ~/.config/rclone
     gpg --output ~/.config/rclone/rclone.conf --decrypt /my/remote/filesystem/backup_settings/rclone.conf.pgp
     ```
-    
-    
+
 1. Create file structure for rclone.  Let's say you have set up a remote filesystem called dropbox_personal.  
 
     ```bash

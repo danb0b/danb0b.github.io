@@ -3,6 +3,7 @@ title: Git Commands
 tags:
   - bash
   - git
+  - github
 weight: 10
 ---
 

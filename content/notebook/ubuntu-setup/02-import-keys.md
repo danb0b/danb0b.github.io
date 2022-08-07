@@ -1,6 +1,6 @@
 ---
 title: 02-Import Keys
-weight: 2
+weight: 20
 tags:
 - ubuntu
 - linux

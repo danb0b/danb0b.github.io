@@ -1,6 +1,6 @@
 ---
-title: 15-Post-Install Miscellaneous Steps
-weight: 15
+title: Post-Install Miscellaneous Steps
+weight: 900
 tags:
 - ubuntu
 - linux
@@ -12,6 +12,10 @@ tags:
 ## Tweaking the GUI
 
 1. Open "Extensions" and turn off desktop icons
+
+## Update firefox settings
+
+flatpak firefox settings are located in ```~/.var```
 
 ## Update Environment Variables
 
@@ -25,7 +29,10 @@ tags:
 
 * [top-things-to-do-after-installing-ubuntu-1504-unixmen](https://www.unixmen.com/top-things-installing-ubuntu-14-1014-0413-1013-0412-1012-04/)
 
-## Lock down SSH
 
-1. See [how to disable passwords over ssh](/notebook/ssh/disable-password-ssh/)
-1. Add a public key to your .ssh/authorized keys
+## Install drivers for docking hub
+
+Steps found [here](https://forums.lenovo.com/t5/Ubuntu/ThinkPad-Hybrid-USB-C-with-USB-A-Dock-for-linux/td-p/4315328)
+
+<https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu>
+

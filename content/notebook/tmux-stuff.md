@@ -10,6 +10,10 @@ tags:
 weight: 99
 ---
 
+```bash
+sudo apt install -y tmux
+```
+
 ## Basic Functionality
 
 To get the same functionality as explained in the answer recommending screen, you would need to do the following:

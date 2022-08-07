@@ -1,6 +1,5 @@
 ---
-title: 14-Install Google Fonts
-weight: 14
+title: Install Google Fonts
 tags:
 - ubuntu
 - linux

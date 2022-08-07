@@ -1,6 +1,6 @@
 ---
 title: 08-install gitman
-weight: 8
+weight: 80
 tags:
 - ubuntu
 - linux

@@ -1,13 +1,12 @@
 ---
 title: Ros Tutorial
-weight: 0
+weight: 30
 summary: Lab instructions for setting up ROS
 tags:
 - ros
 - ubuntu
 - linux
 type: starred
-weight: 2
 ---
 
 The purpose of this project is to document our implementation of ROS and teach lab members how to use it for a number of purposes specific to the activities of a robotics lab like the IDEAlab.

@@ -1,6 +1,6 @@
 ---
 title: Install and Setup SSH
-weight: 7
+weight: 70
 tags:
 - ubuntu
 - linux

@@ -8,6 +8,8 @@ tags:
   - embedded-systems
 ---
 
+please see [these pages](https://embedded-systems-design.github.io/tutorials/microcontrollers/esp32/)
+
 ## Example Projects
 
 * <https://randomnerdtutorials.com/projects-esp32/>

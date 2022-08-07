@@ -3,6 +3,7 @@ title: Install Docker
 tags:
   - docker
   - linux
+weight: 10
 ---
 
 From [here](https://docs.docker.com/engine/install/ubuntu/)
