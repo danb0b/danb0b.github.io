@@ -48,6 +48,11 @@ https://snwh.org/paper/download
 
 <https://www.truenas.com/docs/core/gettingstarted/corehardwareguide/>
 
+## btrfs
+
+* <https://reckoning.dev/blog/ubuntu-btrfs-guide/>
+* <https://github.com/BinaryShrub/ubuntu-btrfs-luks>
+
 ## Things to look up
 
 -   Mailspring
