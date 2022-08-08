@@ -25,7 +25,6 @@
 </span></span><span style=display:flex><span>flatpak install flathub org.signal.Signal -y
 </span></span><span style=display:flex><span>flatpak install flathub org.shotcut.Shotcut -y
 </span></span><span style=display:flex><span>flatpak install com.github.micahflee.torbrowser-launcher -y
-</span></span><span style=display:flex><span>flatpak install flathub com.axosoft.GitKraken -y
 </span></span><span style=display:flex><span>flatpak install com.obsproject.Studio -y
 </span></span><span style=display:flex><span>flatpak install org.libreoffice.LibreOffice -y
 </span></span><span style=display:flex><span>flatpak install org.gpodder.gpodder -y
@@ -34,7 +33,10 @@
 </span></span></code></pre></div><p>close and reopen terminal</p><h3 id=install-snaps>Install snaps</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo snap install mqtt-explorer
 </span></span><span style=display:flex><span>sudo snap install hugo --channel<span style=color:#f92672>=</span>extended
 </span></span><span style=display:flex><span>sudo snap install rpi-imager 
-</span></span></code></pre></div><h2 id=packages-with-options-or-multiple-setup-lines>Packages with options or multiple setup lines</h2><h3 id=thunderbird>Thunderbird</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>flatpak install flathub org.mozilla.Thunderbird
+</span></span></code></pre></div><h2 id=packages-with-options-or-multiple-setup-lines>Packages with options or multiple setup lines</h2><h3 id=gitkraken>GitKraken</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>cd</span> ~/Downloads
+</span></span><span style=display:flex><span>wget https://release.axocdn.com/linux-standalone/gitkraken-amd64.deb
+</span></span><span style=display:flex><span>sudo dpkg -i gitkraken-amd64.deb
+</span></span></code></pre></div><h3 id=thunderbird>Thunderbird</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>flatpak install flathub org.mozilla.Thunderbird
 </span></span></code></pre></div><p>move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbird/</p><h3 id=latex>Latex</h3><h4 id=full-install>Full Install</h4><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y texlive-full
 </span></span></code></pre></div><h4 id=necessary-packages>Necessary Packages</h4><p>This is a big install so plan it for when you can let it go a while</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base
 </span></span></code></pre></div><h3 id=arduino>Arduino</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>cd</span> ~/Downloads
