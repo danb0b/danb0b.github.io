@@ -46,7 +46,6 @@ flatpak install flathub org.gnome.Cheese -y
 flatpak install flathub org.signal.Signal -y
 flatpak install flathub org.shotcut.Shotcut -y
 flatpak install com.github.micahflee.torbrowser-launcher -y
-flatpak install flathub com.axosoft.GitKraken -y
 flatpak install com.obsproject.Studio -y
 flatpak install org.libreoffice.LibreOffice -y
 flatpak install org.gpodder.gpodder -y
@@ -65,6 +64,14 @@ sudo snap install rpi-imager
 ```
 
 ## Packages with options or multiple setup lines
+
+### GitKraken
+
+```bash
+cd ~/Downloads
+wget https://release.axocdn.com/linux-standalone/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
+```
 
 ### Thunderbird
 
