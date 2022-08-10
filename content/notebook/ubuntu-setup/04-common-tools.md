@@ -52,6 +52,7 @@ flatpak install org.libreoffice.LibreOffice -y
 flatpak install org.gpodder.gpodder -y
 flatpak install org.darktable.Darktable -y
 flatpak install flathub md.obsidian.Obsidian -y
+flatpak install flathub org.gnome.gitg
 ```
 
 close and reopen terminal
