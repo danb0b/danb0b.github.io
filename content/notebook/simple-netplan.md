@@ -11,6 +11,13 @@ tags:
 * update enp0s3 to match your ethernet interface
 * update ip4 address to match an available address
 
+```bash
+sudo cp /etc/netplan/01-network-manager-all.yaml /etc/netplan/01-network-manager-all.yaml.bak
+sudo nano /etc/netplan/01-network-manager-all.yaml
+```
+
+edit the file, making sure to update the desired ip address, the name of the interface
+
 ```
 network:
     version: 2
@@ -29,3 +36,4 @@ network:
                 - to: default
                   via: 192.168.0.1
 ```
+

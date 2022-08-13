@@ -24,10 +24,10 @@ Updated for Ubuntu 22.04
     ssh-keygen -b 4096 -t rsa -f ~/luks_unlock_key -N=""
     ```
 
-    then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear-initramfs/authorized_keys.
+    then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear/initramfs/authorized_keys.
     
     ```bash
-    sudo cat ~/lucks_unlock_key.pub >> /etc/dropbear-initramfs/authorized_keys
+    sudo cat ~/lucks_unlock_key.pub >> /etc/dropbear/initramfs/authorized_keys
     ```
     
     or, if you need to do it as root:

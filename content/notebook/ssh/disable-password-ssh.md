@@ -35,10 +35,15 @@ save the original file:
 sudo cp /etc/ssh/moduli /etc/ssh/moduli.old
 ```
 
-remove small dixie hellman moduli
+enter root mode
 
 ```bash
 sudo -i
+```
+
+paste in the following to remove small moduli
+
+```bash
 awk '$5 >= 3071' /etc/ssh/moduli > /etc/ssh/moduli.safe
 mv /etc/ssh/moduli.safe /etc/ssh/moduli
 exit
