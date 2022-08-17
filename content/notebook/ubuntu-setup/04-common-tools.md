@@ -1,5 +1,5 @@
 ---
-title: 04-Install Common Tools
+title: Install Common Tools
 weight: 40
 tags:
 - ubuntu
@@ -13,7 +13,7 @@ This assumes you installed a "minimal" version of Ubuntu
 ```bash
 sudo apt update && sudo apt upgrade-y
 ```bash
-sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing audacity dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks webcamoid etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg
+sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl clementine httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop
 ```
 
 ## Flatpak
@@ -37,7 +37,7 @@ flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub org.mozilla.firefox -y
 flatpak install flathub org.kicad.KiCad -y
 flatpak install flathub org.audacityteam.Audacity -y
-flatpak install flathub io.github.webcamoid.Webcamoid -y
+#flatpak install flathub io.github.webcamoid.Webcamoid -y #virtual camera driver not working
 flatpak install flathub org.videolan.VLC -y
 flatpak install flathub com.bitwarden.desktop -y
 flatpak install flathub com.slack.Slack -y
@@ -65,14 +65,6 @@ sudo snap install rpi-imager
 
 ## Packages with options or multiple setup lines
 
-### GitKraken
-
-```bash
-cd ~/Downloads
-wget https://release.axocdn.com/linux-standalone/gitkraken-amd64.deb
-sudo dpkg -i gitkraken-amd64.deb
-```
-
 ### Thunderbird
 
 ```bash
@@ -88,11 +80,24 @@ move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbir
 sudo apt install -y texlive-full
 ```
 
+<!--
 #### Necessary Packages
 This is a big install so plan it for when you can let it go a while
 
 ```bash
-sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base
+sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base texlive-fonts-extra
+```
+-->
+
+### Webcamoid
+
+```bash
+cd Downloads
+wget "https://github.com/webcamoid/webcamoid/releases/download/9.0.0/webcamoid-portable-linux-9.0.0-x86_64.AppImage"
+mv webcamoid-portable-linux-9.0.0-x86_64.AppImage cd ~/apps
+cd ~/apps
+chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
+./webcamoid-portable-linux-9.0.0-x86_64.AppImage
 ```
 
 ### Arduino
@@ -264,6 +269,13 @@ snap connections chromium  # to list existing permissions
 sudo snap connect chromium:audio-record :audio-record  # to enable
 ```
 
+### GitKraken
+
+```bash
+cd ~/Downloads
+wget https://release.axocdn.com/linux-standalone/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
+```
 
 
 
