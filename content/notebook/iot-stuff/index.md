@@ -46,3 +46,7 @@ Following these links:
     
 1. Find the tasmota device Wifi SSID, connect, and set up your home wifi
 1. connect to the new ip address and configure further 
+
+```bash
+SetOption19 on
+```
