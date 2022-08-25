@@ -92,3 +92,7 @@ https://snwh.org/paper/download
 - Proxmox cluster
 - [*Vikunja.io*](http://vikunja.io)
 
+## Wireguard setup info
+
+
+* <https://spin.atomicobject.com/2020/05/24/private-network-wireguard/>
