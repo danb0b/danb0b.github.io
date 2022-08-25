@@ -56,3 +56,8 @@ SetOption19 on
 ```bash
 esptool.py --chip esp32 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_size detect 0x0 tasmota32.factory.bin
 ```
+
+1. relay pulse time
+
+
+<https://tasmota.github.io/docs/Commands/#control>
