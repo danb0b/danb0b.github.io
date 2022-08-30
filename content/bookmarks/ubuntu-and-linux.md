@@ -95,5 +95,6 @@ https://snwh.org/paper/download
 ## Wireguard setup info
 
 
-* <https://spin.atomicobject.com/2020/05/24/private-network-wireguard/>
+* <https://www.buymeacoffee.com/linuxshots/setup-your-private-vpn-wireguard>
+* <https://spin.atomicobject.com/2020/05/24/private-network-wireguard/> (has some errors)
 * <https://github.com/adrianmihalko/raspberrypiwireguard/wiki/User-management-with-Wireguard-User-Management-script>

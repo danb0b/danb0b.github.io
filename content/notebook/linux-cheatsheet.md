@@ -407,3 +407,12 @@ rm -rv /home/<desired_user_name>/.local/share/Trash/expunged/*
 exit
 ```
 
+## octal file permissions
+
+```bash
+stat /path/to/filename
+```
+
+```bash
+stat -c '%A %a %n' /path/to/filename
+```
