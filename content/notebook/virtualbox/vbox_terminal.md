@@ -16,6 +16,7 @@ Now the fun begins. First, you must know the name of the VM you want to run. To 
 
 ```bash
 vboxmanage list vms
+vboxmanage list runningvms
 ```
 This command will display all the VMs, as well as their unique IDs, in a form that you can use (Figure B).
 
