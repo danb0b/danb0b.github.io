@@ -24,3 +24,8 @@ gpg --delete-secret-keys KEYIDFROMABOVE
 gpg --delete-keys KEYIDFROMABOVE
 ```
 
+### decrypt
+
+```bash
+gpg --output /my/path/to/output_file.ext --decrypt /my/encrypted/source/file.gpg
+```
