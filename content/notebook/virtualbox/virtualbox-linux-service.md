@@ -3,6 +3,10 @@ title: Start Virtualbox as a Service in Linux
 ---
 
 ```bash
+sudo apt reinstall virtualbox-dkms virtualbox-ext-pack virtualbox-qt virtualbox
+```
+
+```bash
 sudo nano /etc/default/virtualbox 
 ```
 
@@ -23,6 +27,7 @@ sudo mkdir /etc/vbox
 sudo chgrp vboxusers /etc/vbox
 sudo chmod g+w /etc/vbox
 sudo chmod +t /etc/vbox
+sudo chmod 755 /etc/vbox
 
 sudo nano /etc/vbox/autostartvm.cfg
 ```
@@ -49,13 +54,14 @@ VBoxManage startvm home-assistant --type headless
 
 
 ```
+sudo -i
 cd /etc/init.d/
 services=(vboxautostart-service vboxweb-service vboxballoonctrl-service)
 base_url="https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Installer/linux"
 for service in "${services[@]}"
     do
-      sudo wget "${base_url}/${service}".sh -O "${service}" \
-      && sudo chmod +x "$service"  \
+      wget "${base_url}/${service}".sh -O "${service}" \
+      && chmod +x "$service"  \
       && update-rc.d "$service" defaults 90 10
     done
 ```
@@ -72,3 +78,4 @@ sudo systemctl disable vboxautostart-service
 * <https://kifarunix.com/autostart-virtualbox-vms-on-system-boot-on-linux/>
 * <https://roamingthings.de/posts/vboxautostart-service/>
 * <https://askubuntu.com/questions/1131056/virtualbox-web-service-missing-after-clean-installation-on-ubuntu-18-04-1-lts>
+* <https://unix.stackexchange.com/questions/202826/how-to-start-virtual-box-service-on-linux>
