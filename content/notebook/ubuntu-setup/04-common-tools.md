@@ -101,6 +101,7 @@ sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive
 ### Webcamoid
 
 ```bash
+mkdir ~/apps
 cd Downloads
 wget "https://github.com/webcamoid/webcamoid/releases/download/9.0.0/webcamoid-portable-linux-9.0.0-x86_64.AppImage"
 mv webcamoid-portable-linux-9.0.0-x86_64.AppImage cd ~/apps
@@ -122,7 +123,7 @@ To download version 1.8.19...
 ```bash
 wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz
 tar -xvf arduino-1.8.19-linux64.tar.xz
-cd arduino-1.8.19-linux64
+cd arduino-1.8.19
 sudo bash install.sh
 ```
 
