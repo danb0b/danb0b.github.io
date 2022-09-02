@@ -56,6 +56,7 @@ To shut down the VM, issue the command:
 
 ```bash
 VBoxManage controlvm "ubuntu" poweroff
+VBoxManage controlvm "ubuntu" acpipowerbutton
 ```
 
 Remove a vm
