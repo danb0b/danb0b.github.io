@@ -40,6 +40,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ## Install flatpaks
 
 ```bash
+flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub org.inkscape.Inkscape -y
 flatpak install flathub org.gimp.GIMP -y
 flatpak install flathub org.mozilla.firefox -y
