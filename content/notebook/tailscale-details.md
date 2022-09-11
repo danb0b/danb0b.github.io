@@ -3,7 +3,8 @@ title: Tailscale Details
 ---
 
 
-from [here](https://tailscale.com/kb/1103/exit-nodes/)
+* from [here about exit nodes](https://tailscale.com/kb/1103/exit-nodes/)
+* and [subnets](https://tailscale.com/kb/1019/subnets/)
 
 ## IP Forwarding
 
@@ -18,3 +19,7 @@ sudo sysctl -p /etc/sysctl.conf
 ```bash
 sudo tailscale up --advertise-exit-node
 ```
+
+sudo tailscale up --advertise-routes=192.168.0.0/24
+
+sudo tailscale up --advertise-routes=192.168.0.0/24 --advertise-exit-node
