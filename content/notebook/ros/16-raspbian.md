@@ -23,7 +23,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
     * <https://www.raspberrypi.org/downloads/raspbian/>
 
-1. Install raspbian using the instructions for a headless install located here:  <https://www.raspberrypi.org/documentation/configuration/wireless/headless.md>
+1. Install raspbian using the instructions for a headless install located here:  <https://www.raspberrypi.com/documentation/computers/configuration.html#setting-up-a-headless-raspberry-pi>
 
     Alternate instructions:
 
@@ -89,6 +89,8 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
     ```
 
 1. Set up camera using this [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+
+  Note: This section may be outdated.  Please see this [section about libcamera](/notebook/ros/17-libcamera/)
 
     1. install other packages for viewing and programming
 

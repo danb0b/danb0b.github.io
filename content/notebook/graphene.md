@@ -65,6 +65,13 @@ fastboot flashing lock
 * <https://f-droid.org/>
 * <https://auroraoss.com/>
 
+## VPN Issue
+
+1. After installing tailscale, turn off blocking in vpn settings
+
+<https://github.com/GrapheneOS/os-issue-tracker/issues/183>
+
+
 ## To return to the original
 
 * <https://developers.google.com/android/images>

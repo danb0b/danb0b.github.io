@@ -1,5 +1,5 @@
 ---
-title: IOT stuff
+title: Sonoff S31 Smart Plug Mod
 tags: 
   - iot
   - tasmota
@@ -7,19 +7,6 @@ tags:
   - smart-plug
 ---
 
-Sonoff S31
-
-Following these links:
-
-* <https://tasmota.github.io/docs/devices/Sonoff-S31/>
-* <http://lukeknipe.com/s31-tasmota/>
-* <https://www.youtube.com/watch?v=kKtLKjI4wA0>
-* <https://templates.blakadder.com/sonoff_S31.html>
-* <https://tasmota.github.io/docs/Flash-Sonoff-using-Raspberry-Pi/>
-
-* [Tasmota Docs](https://tasmota.github.io/docs/#license)
-* [Tasmota Supported Devices Repository](https://templates.blakadder.com/)
-* [Tasmota Supported Modules](https://tasmota.github.io/docs/Supported-Modules/)
 
 ## Steps
 
@@ -45,11 +32,12 @@ Following these links:
     ```
     
 1. Find the tasmota device Wifi SSID, connect, and set up your home wifi
-1. connect to the new ip address and configure further 
+1. connect to the new ip address and configure further, from [here](https://siytek.com/how-to-set-up-tasmota-mqtt-auto-discovery-for-home-assistant/)
 
 ```bash
 SetOption19 on
 ```
+
 
 1. For ESP32 devices, get the tasmota32.factory.bin
 
@@ -61,3 +49,20 @@ esptool.py --chip esp32 --baud 921600 --before default_reset --after hard_reset 
 
 
 <https://tasmota.github.io/docs/Commands/#control>
+
+## Resources
+
+Sonoff Specific:
+
+* <https://tasmota.github.io/docs/devices/Sonoff-S31/>
+* <https://tasmota.github.io/docs/Flash-Sonoff-using-Raspberry-Pi/>
+* <http://lukeknipe.com/s31-tasmota/>
+* <https://www.youtube.com/watch?v=kKtLKjI4wA0>
+* <https://templates.blakadder.com/sonoff_S31.html>
+* <https://siytek.com/how-to-set-up-tasmota-mqtt-auto-discovery-for-home-assistant/>
+
+Tasmota Documentation
+
+* [Tasmota Docs](https://tasmota.github.io/docs/#license)
+* [Tasmota Supported Devices Repository](https://templates.blakadder.com/)
+* [Tasmota Supported Modules](https://tasmota.github.io/docs/Supported-Modules/)

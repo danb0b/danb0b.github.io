@@ -15,8 +15,12 @@ tags:
 
 ## Update firefox settings
 
-1. copy flatpak firefox settings to ```~/.var```
+1. flatpak firefox settings found in ```~/.var```
 2. enable home directory access through flatseal
+    
+    settings then found in ```~/.mozilla```
+
+2. add "multi account containers" extension
 
 ## Update Environment Variables
 
