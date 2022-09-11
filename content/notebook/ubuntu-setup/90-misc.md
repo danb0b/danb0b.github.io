@@ -15,7 +15,8 @@ tags:
 
 ## Update firefox settings
 
-flatpak firefox settings are located in ```~/.var```
+1. copy flatpak firefox settings to ```~/.var```
+2. enable home directory access through flatseal
 
 ## Update Environment Variables
 
