@@ -434,3 +434,11 @@ sudo umount -a
 # force unmount
 sudo umount -f /mount/danaukes/backup
 ```
+
+## Recursively find storage space of a directory
+
+from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-find-the-amount-stored-in-directory)
+
+```bash
+du -sh /path/to/my/dir
+```
