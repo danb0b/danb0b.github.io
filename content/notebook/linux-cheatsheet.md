@@ -416,3 +416,21 @@ stat /path/to/filename
 ```bash
 stat -c '%A %a %n' /path/to/filename
 ```
+
+## Drives
+
+From [here](https://linuxhint.com/how-to-mount-drive-in-ubuntu/)
+
+```bash
+##list disks
+sudo fdisk -l
+#if you know the disk you want info about:
+sudo fdisk -l /dev/sdd 
+sudo mount /dev/sdd1 /mount/danaukes/backup
+# unmount
+sudo umount /mount/danaukes/backup
+# unmount all
+sudo umount -a
+# force unmount
+sudo umount -f /mount/danaukes/backup
+```
