@@ -442,3 +442,10 @@ from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-fi
 ```bash
 du -sh /path/to/my/dir
 ```
+
+## Recursively list files
+
+from [here](https://www.cyberciti.biz/faq/how-to-show-recursive-directory-listing-on-linux-or-unix/)
+```bash
+tree /path/to/dir
+```
