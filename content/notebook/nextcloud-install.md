@@ -58,6 +58,14 @@ weight: 99
 
 1. Go to the website, sign on as admin, and continue configuring.
     
+## Warning
+
+Hard to backup and manage files because snap data is stored in  root.
+
+Workaround: 
+
+<https://github.com/nextcloud-snap/nextcloud-snap/wiki/Change-data-directory-to-use-another-disk-partition>
+
 ## External References
 
 * <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-20-04>
@@ -67,7 +75,7 @@ weight: 99
 
 ----------------
 
-# Docker-Compose info
+## Docker-Compose info
 
 * <https://help.nextcloud.com/t/nextcloud-docker-compose-how-to-update-domain-name-in-config-php/103522>
 * <https://docs.nextcloud.com/server/20/admin_manual/configuration_server/config_sample_php_parameters.html#default-parameters>
@@ -76,6 +84,9 @@ weight: 99
 * <https://hub.docker.com/_/nextcloud>
 * <https://help.nextcloud.com/t/nexcloud-deployment-by-docker-compose/90660>
 * <https://blog.ssdnodes.com/blog/installing-nextcloud-docker/>
-* <
-* <
-* <
+
+More Recent
+
+* <https://adamtheautomator.com/nextcloud-docker/>
+* <https://github.com/nextcloud/docker>
+* <https://hub.docker.com/_/nextcloud>

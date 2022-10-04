@@ -449,3 +449,12 @@ from [here](https://www.cyberciti.biz/faq/how-to-show-recursive-directory-listin
 ```bash
 tree /path/to/dir
 ```
+
+## Recursively chown
+
+from [here](https://devconnected.com/how-to-chown-recursive-on-linux/)
+
+```bash
+#chown -R <owner> <folder_1> <folder_2> ... <folder_n>
+chown -R user /home/user
+```
