@@ -68,3 +68,14 @@ sudo systemctl status mosquitto
 
 * <https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/>
 * [About Keepalive](https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over/)
+
+---
+
+# Docker focused instructions
+
+## docker info
+
+* <https://techoverflow.net/2021/11/25/how-to-setup-standalone-mosquitto-mqtt-broker-using-docker-compose/>
+* <https://hub.docker.com/_/eclipse-mosquitto>
+* [home assistant tuning](https://www.homeautomationguy.io/docker-tips/configuring-the-mosquitto-mqtt-docker-container-for-use-with-home-assistant/)
+* [random example](https://github.com/vvatelot/mosquitto-docker-compose/blob/master/docker-compose.yaml)
