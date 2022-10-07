@@ -30,8 +30,11 @@ docker container prune
 
 ```bash
 docker pull ubuntu
+docker run -d -t ubuntu # run detached
 docker run -it ubuntu /bin/bash
+docker exec -it /bin/bash
 apt-get update
+docker compose run -it web /bin/bash
 ```
 
 ## Anaconda Image
