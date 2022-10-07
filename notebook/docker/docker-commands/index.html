@@ -11,8 +11,11 @@
 </span></span><span style=display:flex><span>docker system prune
 </span></span><span style=display:flex><span>docker container prune
 </span></span></code></pre></div><h2 id=ubuntu-image>Ubuntu Image</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull ubuntu
+</span></span><span style=display:flex><span>docker run -d -t ubuntu <span style=color:#75715e># run detached</span>
 </span></span><span style=display:flex><span>docker run -it ubuntu /bin/bash
+</span></span><span style=display:flex><span>docker <span style=color:#111>exec</span> -it /bin/bash
 </span></span><span style=display:flex><span>apt-get update
+</span></span><span style=display:flex><span>docker compose run -it web /bin/bash
 </span></span></code></pre></div><h2 id=anaconda-image>Anaconda Image</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull continuumio/anaconda3
 </span></span><span style=display:flex><span>docker run -it continuumio/anaconda3 /bin/bash
 </span></span></code></pre></div><h2 id=set-up-gui>Set up gui:</h2><p><a href=https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde><em>https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde</em></a></p><h2 id=ros-stuff>ROS Stuff:</h2><p>Modified from:<a href=https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/><em>https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/</em></a></p><h3 id=to-download-and-install-and-run-ros>To download and install and run ros:</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull osrf/ros:melodic-desktop-full
