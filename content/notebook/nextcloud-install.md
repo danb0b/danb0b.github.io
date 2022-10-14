@@ -75,6 +75,13 @@ Workaround:
 
 ----------------
 
+```bash
+docker compose exec --user www-data app php occ config:system:get  trusted_domains
+docker compose exec --user www-data app php occ config:system:get  trusted_domains 0
+docker compose exec --user www-data app php occ config:system:set  trusted_domains 4 --value=<hostnameorip>
+```
+
+
 ## Docker-Compose info
 
 * <https://help.nextcloud.com/t/nextcloud-docker-compose-how-to-update-domain-name-in-config-php/103522>
