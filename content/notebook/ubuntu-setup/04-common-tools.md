@@ -73,6 +73,12 @@ sudo snap install hugo --channel=extended
 sudo snap install rpi-imager 
 ```
 
+### Remove Firefox AGAIN
+
+```bash
+sudo snap remove firefox
+```
+
 ## Packages with options or multiple setup lines
 
 ### Thunderbird
