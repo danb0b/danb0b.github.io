@@ -5,7 +5,8 @@ title: Create a ```systemd``` service
 
 ## Docker Compose Example
 
-go to the folder where your docker-compose.yml file is
+copy and paste the folowing text into a new file called ~/script.sh
+
 
 ```bash
 #!/bin/bash
@@ -23,9 +24,9 @@ Restart=always
 User=root
 Group=docker
 WorkingDirectory=$(pwd)
-ExecStartPre=$(which docker-compose) -f docker-compose.yml down
-ExecStart=$(which docker-compose) -f docker-compose.yml up
-ExecStop=$(which docker-compose) -f docker-compose.yml down
+ExecStartPre=$(which docker) compose -f docker-compose.yml down
+ExecStart=$(which docker) compose -f docker-compose.yml up
+ExecStop=$(which docker) compose -f docker-compose.yml down
 
 [Install]
 WantedBy=multi-user.target
@@ -35,6 +36,16 @@ sudo systemctl enable $SERVICENAME.service
 sudo systemctl start $SERVICENAME.service
 ```
 
+```bash
+chmod +x ~/script.sh
+```
+
+go to the folder where your docker-compose.yml file is,
+
+```bash
+sudo bash ~/script.sh
+```
+
 ## External Resources
 
-from [here](https://techoverflow.net/2020/10/24/create-a-systemd-service-for-your-docker-compose-project-in-10-seconds/)
+edited from [here](https://techoverflow.net/2020/10/24/create-a-systemd-service-for-your-docker-compose-project-in-10-seconds/)
