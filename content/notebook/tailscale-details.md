@@ -16,10 +16,20 @@ sudo sysctl -p /etc/sysctl.conf
 
 ## Exit Node
 
+to advertise as an exit node
+
 ```bash
 sudo tailscale up --advertise-exit-node
 ```
 
-sudo tailscale up --advertise-routes=192.168.0.0/24
+to map a subnet
 
-sudo tailscale up --advertise-routes=192.168.0.0/24 --advertise-exit-node
+```bash
+sudo tailscale up --advertise-routes=192.168.0.0/24
+```
+
+to map specific ip addresses
+
+```bash
+sudo tailscale up --advertise-routes=192.168.0.100/24,192.168.0.101/24 --advertise-exit-node
+```
