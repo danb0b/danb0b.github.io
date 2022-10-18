@@ -61,6 +61,7 @@ flatpak install org.gpodder.gpodder -y
 #flatpak install org.darktable.Darktable -y # font issue
 flatpak install flathub md.obsidian.Obsidian -y
 flatpak install flathub org.gnome.Rhythmbox3 -y
+flatpak install flathub org.raspberrypi.rpi-imager -y
 ```
 
 close and reopen terminal
@@ -70,7 +71,6 @@ close and reopen terminal
 ```bash
 sudo snap install mqtt-explorer
 sudo snap install hugo --channel=extended
-sudo snap install rpi-imager 
 ```
 
 ### Remove Firefox AGAIN
