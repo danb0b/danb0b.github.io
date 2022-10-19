@@ -11,7 +11,12 @@ A lot of inside baseball on things I need to remember
 
 ## Misc
 
--   [Downloading an Entire Web Site with wget](https://www.linuxjournal.com/content/downloading-entire-web-site-wget)
+-   Downloading an Entire Web Site
+    * WGET
+        * <https://www.linuxjournal.com/content/downloading-entire-web-site-wget>
+        * <https://askubuntu.com/questions/786145/how-to-copy-a-website-completely-offline>
+        * <https://alvinalexander.com/linux-unix/how-to-make-offline-mirror-copy-website-with-wget/>
+    * [httrack example](https://www.techrepublic.com/article/how-to-clone-a-website-with-httrack/)
 -   [uset bash history](https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/)
 
 ## Samba
