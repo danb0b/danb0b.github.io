@@ -7,10 +7,11 @@
 </span></span></code></pre></div><p>edit the file, making sure to update the desired ip address, the name of the interface</p><pre tabindex=0><code>network:
     version: 2
     ethernets:
-        enp0s3:
+        eno1:
             addresses:
-            - 192.168.0.121/24
-            dhcp4: false
+            - 192.168.0.120/24
+            dhcp4: no
+            dhcp6: no
             nameservers:
                 addresses:
                 - 1.1.1.1
@@ -20,6 +21,20 @@
             routes:
                 - to: default
                   via: 192.168.0.1
+    wifis:
+        wlp2s0:
+            dhcp4: no
+            dhcp6: no
+            addresses:
+            - 192.168.0.121/24
+            nameservers:
+                addresses:
+                - 1.1.1.1
+                - 8.8.8.8
+                - 8.8.4.4
+            access-points:
+                &#34;&lt;enter-your-ssid&gt;&#34;:
+                    password: &#34;&lt;enter-your-password&gt;&#34;
 </code></pre></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2022 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/simple-netplan.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script><script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
 <script src=https://danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
 <script src=https://danaukes.com/plugins/slick/slick.min.js></script>
