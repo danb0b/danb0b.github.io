@@ -458,3 +458,9 @@ from [here](https://devconnected.com/how-to-chown-recursive-on-linux/)
 #chown -R <owner> <folder_1> <folder_2> ... <folder_n>
 chown -R user /home/user
 ```
+
+## Print your environment variables
+
+```bash
+printenv | grep ROS
+```
