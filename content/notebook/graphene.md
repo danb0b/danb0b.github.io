@@ -21,9 +21,9 @@ sudo apt remove adb
 mkdir ~/adb
 cd ~/adb
 sudo apt install libarchive-tools
-curl -O https://dl.google.com/android/repository/platform-tools_r33.0.1-linux.zip
-echo 'a339548918c3ab31c4d88416c21cee753bd942040540216c06e640f4b6db3ae2  platform-tools_r33.0.1-linux.zip' | sha256sum -c
-bsdtar xvf platform-tools_r33.0.1-linux.zip
+curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
+echo 'ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7  platform-tools_r33.0.3-linux.zip' | sha256sum -c
+bsdtar xvf platform-tools_r33.0.3-linux.zip
 export PATH="$PWD/platform-tools:$PATH"
 which fastboot
 fastboot --version
