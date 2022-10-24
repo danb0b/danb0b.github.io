@@ -9,9 +9,9 @@
 </span></span><span style=display:flex><span>mkdir ~/adb
 </span></span><span style=display:flex><span><span style=color:#111>cd</span> ~/adb
 </span></span><span style=display:flex><span>sudo apt install libarchive-tools
-</span></span><span style=display:flex><span>curl -O https://dl.google.com/android/repository/platform-tools_r33.0.1-linux.zip
-</span></span><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#39;a339548918c3ab31c4d88416c21cee753bd942040540216c06e640f4b6db3ae2  platform-tools_r33.0.1-linux.zip&#39;</span> <span style=color:#111>|</span> sha256sum -c
-</span></span><span style=display:flex><span>bsdtar xvf platform-tools_r33.0.1-linux.zip
+</span></span><span style=display:flex><span>curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
+</span></span><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#39;ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7  platform-tools_r33.0.3-linux.zip&#39;</span> <span style=color:#111>|</span> sha256sum -c
+</span></span><span style=display:flex><span>bsdtar xvf platform-tools_r33.0.3-linux.zip
 </span></span><span style=display:flex><span><span style=color:#111>export</span> <span style=color:#111>PATH</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;</span><span style=color:#111>$PWD</span><span style=color:#d88200>/platform-tools:</span><span style=color:#111>$PATH</span><span style=color:#d88200>&#34;</span>
 </span></span><span style=display:flex><span>which fastboot
 </span></span><span style=display:flex><span>fastboot --version
