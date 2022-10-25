@@ -222,11 +222,14 @@ sudo apt install torbrowser-launcher
 
 ## VS Code
 
+Download from [here](https://code.visualstudio.com/Download)
 ```bash
 cd ~/Downloads
-wget https://go.microsoft.com/fwlink/?LinkID=760868
-#https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+sudo dpkg -i code_1.72.2-1665614327_amd64.deb 
+sudo apt install -yf
 ```
+
+install python, c/c++, html css, jupyter
 
 ## Optional
 
