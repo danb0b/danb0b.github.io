@@ -443,6 +443,12 @@ from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-fi
 du -sh /path/to/my/dir
 ```
 
+## Find the free space of a drive
+
+```bash
+df -H
+```
+
 ## Recursively list files
 
 from [here](https://www.cyberciti.biz/faq/how-to-show-recursive-directory-listing-on-linux-or-unix/)
