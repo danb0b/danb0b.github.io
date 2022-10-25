@@ -220,6 +220,14 @@ sudo apt install torbrowser-launcher
 ```
 -->
 
+## VS Code
+
+```bash
+cd ~/Downloads
+wget https://go.microsoft.com/fwlink/?LinkID=760868
+#https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+```
+
 ## Optional
 
 
