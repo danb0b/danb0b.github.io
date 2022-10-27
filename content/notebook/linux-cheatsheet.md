@@ -470,3 +470,8 @@ chown -R user /home/user
 ```bash
 printenv | grep ROS
 ```
+
+## mount information
+
+
+[information on nautilus-aware mount locations](https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt)
