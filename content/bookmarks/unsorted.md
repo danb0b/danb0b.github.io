@@ -163,3 +163,8 @@ Unsorted bookmarks that need a good sorting
 * [I want to build an EV! Where do I start? \| DIY Electric Car Forums](https://www.diyelectriccar.com/threads/i-want-to-build-an-ev-where-do-i-start.6441/)
 * [Porsche 911 (996) Tesla Swap \| DIY Electric Car Forums](https://www.diyelectriccar.com/threads/porsche-911-996-tesla-swap.205641/)
 * [iCalendar Validator](https://icalendar.org/validator.html#results)
+
+
+## github
+
+* [list of repositories including ones that I am a collaborator on](https://github.com/settings/repositories)
