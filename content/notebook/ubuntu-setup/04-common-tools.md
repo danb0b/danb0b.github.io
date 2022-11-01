@@ -19,7 +19,7 @@ sudo apt update && sudo apt upgrade -y
 Install new packages
 
 ```bash
-sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop
+sudo apt install -y synaptic kdiff3 samba gimp ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad vlc openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl httrack webhttrack yt-dlp youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop solaar
 # sudo apt install -y clementine # not my favorite
 sudo apt install -y darktable
 ```
