@@ -18,6 +18,7 @@ Reusable links related to Arizona State University
 * [Student Cloud Computing](https://ets.engineering.asu.edu/fse-cloud-classroom/)
 * [ASU Course Catalog](https://webapp4.asu.edu/catalog/classlist)
 * [ASU Academic Calendar](https://students.asu.edu/academic-calendar)
+* <https://skysong.inteum.com/skysong/InventorPortal/Default.aspx>
 
 ## Poly
 * [Poly Contact Info](https://poly.engineering.asu.edu/contact/)
@@ -75,8 +76,7 @@ Reusable links related to Arizona State University
 
 ## Skysong
 * [Skysong Innovations](https://www.skysonginnovations.com/)
-* <https://skysong.inteum.com/skysong/inventorportal/mydisclosures.aspx>
-* [Skysong Dashboard](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fwebapp4.asu.edu%252Finteum-sso%252Fauthn%253Finit%253Dfalse%2526returnTo%253Dhttp%253A%252F%252Fskysong.inteum.com%252Fskysong%252Finventorportal%252Flogin.aspx)
+* <https://skysong.inteum.com/skysong/InventorPortal/Default.aspx>
 
 ## EHS
 * [Environmental Health and Safety (EHSA) Login](https://ehsaweb.asu.edu/)
