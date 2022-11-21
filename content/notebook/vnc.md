@@ -68,3 +68,4 @@ sudo systemctl status vncserver@1
 ## External Links
 
 * <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04>
+* <https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/>
