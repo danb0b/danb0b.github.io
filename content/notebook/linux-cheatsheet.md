@@ -443,6 +443,11 @@ from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-fi
 du -sh /path/to/my/dir
 ```
 
+list directories, one level only, from [here](https://linuxhint.com/du-one-level-only/)
+
+```bash
+du -h  --max-depth 1 /path/to/my/dir
+```
 ## Find the free space of a drive
 
 ```bash
