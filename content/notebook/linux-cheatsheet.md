@@ -484,6 +484,9 @@ printenv | grep ROS
 
 ## Read from Serial
 
+```bash
 sudo apt install cu
 cu -l /dev/ttyACM0 -s 9600
+```
 
+To exit enter tilde dot (~.)
