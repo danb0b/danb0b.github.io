@@ -475,3 +475,10 @@ printenv | grep ROS
 
 
 [information on nautilus-aware mount locations](https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt)
+
+
+## Read from Serial
+
+sudo apt install cu
+cu -l /dev/ttyACM0 -s 9600
+
