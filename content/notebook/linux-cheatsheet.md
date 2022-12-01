@@ -484,9 +484,16 @@ printenv | grep ROS
 
 ## Read from Serial
 
+from [here](https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/)
+
 ```bash
 sudo apt install cu
 cu -l /dev/ttyACM0 -s 9600
 ```
 
 To exit enter tilde dot (~.)
+
+```bash
+sudo apt install screen
+screen /dev/ttyACM0 9600
+```
