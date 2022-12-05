@@ -30,9 +30,9 @@ If you haven't yet already...
 
 ```bash
 # install
-sudo apt install flatpak
+sudo apt install -y flatpak
 #if you want to install from software GUI
-sudo apt install gnome-software-plugin-flatpak
+sudo apt install -y gnome-software-plugin-flatpak
 #add the flathub repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
@@ -84,7 +84,7 @@ sudo snap remove firefox
 ### Thunderbird
 
 ```bash
-flatpak install flathub org.mozilla.Thunderbird
+flatpak install flathub org.mozilla.Thunderbird -y
 ```
 
 move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbird/
@@ -204,7 +204,7 @@ sudo usermod -a -G vboxusers $USER
 Derived from [here](https://askubuntu.com/questions/651441/how-to-install-arial-font-and-other-windows-fonts-in-ubuntu):
 
 ```bash
-sudo apt install ttf-mscorefonts-installer
+sudo apt install -y ttf-mscorefonts-installer
 sudo fc-cache -f
 ```
 
