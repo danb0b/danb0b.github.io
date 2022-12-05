@@ -28,7 +28,21 @@ tags:
 
 ## Power Options
 
-* <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>
+from [here](https://fostips.com/lid-close-action-ubuntu-21-04-laptop/)
+
+```bash
+cat <<EOT | sudo tee -a /etc/systemd/logind.conf
+HandleLidSwitch=ignore 
+HandleLidSwitchExternalPower=ignore 
+HandleLidSwitchDocked=ignore
+EOT
+```
+
+save your work and then run
+
+```bash
+systemctl restart systemd-logind.service
+```
 
 ## External References
 
