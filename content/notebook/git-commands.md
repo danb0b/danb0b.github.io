@@ -122,3 +122,9 @@ git checkout tags/Ubuntu-5.13.0-21.21 -b Ubuntu-5.13.0-21.21
 ## External references
 
 * <https://devconnected.com/how-to-checkout-git-tags/>
+
+## Remove files from git tree without deleting
+
+```bash
+git rm --cached path/to/the/file
+```
