@@ -220,11 +220,12 @@ sudo apt install torbrowser-launcher
 ```
 -->
 
-## VS Code
+### VS Code
 
 Find help [here](https://code.visualstudio.com/docs/setup/linux)
 
 Download from [here](https://code.visualstudio.com/Download)
+
 ```bash
 cd ~/Downloads
 sudo dpkg -i code_1.72.2-1665614327_amd64.deb 
