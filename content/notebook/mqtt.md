@@ -21,12 +21,26 @@ sudo snap install mqtt-explorer
 sudo cp /usr/share/doc/mosquitto/examples/mosquitto.conf /etc/mosquitto/conf.d/
 ```
 
+## Firewall
+
+If you have UFW set up make sure you add permission:
+
+```bash
+sudo ufw allow 1883
+```
+
 ## Simple Setup
 
 ```bash
+MYIP1="<put your first ip address here>"
+MYIP2="<put your second ip address here>"
+```
+
+
+```bash
 cat <<EOT > ~/mosquitto.conf
-listener 1883 <ip_address_1>
-listener 1883 <ip_address_1>
+listener 1883 $MYIP1
+listener 1883 $MYIP2
 allow_anonymous true
 EOT
 sudo install -o root -g root -m 644 mosquitto.conf /etc/mosquitto/conf.d/mosquitto.conf
@@ -39,8 +53,12 @@ rm ~/mosquitto.conf
 This setup could be used for many users, to limit footprint
 
 ```bash
+MYIP="<put your ip address here>"
+```
+
+```bash
 cat <<EOT > ~/mosquitto.conf
-listener 1883 <ip_address_1>
+listener 1883 $MYIP
 allow_anonymous true
 max_inflight_messages 1
 max_inflight_bytes 500
@@ -50,7 +68,6 @@ max_queued_messages 3
 #memory_limit 2000000
 EOT
 sudo install -o root -g root -m 644 mosquitto.conf /etc/mosquitto/conf.d/mosquitto.conf
-sudo systemctl restart mosquitto
 rm ~/mosquitto.conf
 ```
 
@@ -59,15 +76,22 @@ rm ~/mosquitto.conf
 ```bash
 sudo systemctl enable mosquitto
 sudo systemctl start mosquitto
+sudo systemctl status mosquitto
+```
+
+Other Useful commands
+
+```bash
+sudo systemctl restart mosquitto
 sudo systemctl stop mosquitto
 sudo systemctl disable mosquitto
-sudo systemctl status mosquitto
 ```
 
 ## Other Resources
 
 * <https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/>
 * [About Keepalive](https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over/)
+* <http://www.steves-internet-guide.com/mossquitto-conf-file/>
 
 ## Secure MQTT info
 
@@ -83,5 +107,4 @@ sudo systemctl status mosquitto
 * <https://hub.docker.com/_/eclipse-mosquitto>
 * [home assistant tuning](https://www.homeautomationguy.io/docker-tips/configuring-the-mosquitto-mqtt-docker-container-for-use-with-home-assistant/)
 * [random example](https://github.com/vvatelot/mosquitto-docker-compose/blob/master/docker-compose.yaml)
-
 
