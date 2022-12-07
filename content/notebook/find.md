@@ -77,3 +77,11 @@ find . -not \( -path ./miniconda3 -prune \) -name \*.py -print  -exec grep -l 'h
 
 excluding multiple directoreis
 find . -type d \( -path ./miniconda3 -o -path ./.atom -o -path ./code_external -o -path ./websites -o -path ./.arduino15 \) -prune -o -name '*.py' -exec grep -l 'html' {} \+ 
+
+## find with maximum depth
+
+from [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
+
+```bash
+find . -iname "*.docx" -maxdepth 2
+```
