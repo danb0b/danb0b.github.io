@@ -32,9 +32,9 @@ from [here](https://fostips.com/lid-close-action-ubuntu-21-04-laptop/)
 
 ```bash
 cat <<EOT | sudo tee -a /etc/systemd/logind.conf
-HandleLidSwitch=ignore 
-HandleLidSwitchExternalPower=ignore 
-HandleLidSwitchDocked=ignore
+HandleLidSwitch=lock 
+HandleLidSwitchExternalPower=lock
+HandleLidSwitchDocked=lock
 EOT
 ```
 
