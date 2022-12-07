@@ -97,3 +97,14 @@ More Recent
 * <https://adamtheautomator.com/nextcloud-docker/>
 * <https://github.com/nextcloud/docker>
 * <https://hub.docker.com/_/nextcloud>
+
+## Nextcloud Integration
+
+- https://addons.thunderbird.net/en-US/thunderbird/addon/dav-4-tbsync/?src=search
+- https://addons.thunderbird.net/en-US/thunderbird/addon/tbsync/?src=search
+- https://github.com/jobisoft/DAV-4-TbSync/
+- https://github.com/jobisoft/TbSync
+
+## Google Calendar
+
+https://addons.thunderbird.net/en-US/thunderbird/addon/provider-for-google-calendar/?src=search
