@@ -125,6 +125,8 @@ git checkout tags/Ubuntu-5.13.0-21.21 -b Ubuntu-5.13.0-21.21
 
 ## Remove files from git tree without deleting
 
+<https://stackoverflow.com/questions/1143796/remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesyste>
+
 ```bash
 git rm --cached path/to/the/file
 ```
