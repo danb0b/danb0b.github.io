@@ -1,3 +1,6 @@
+---
+Title: NoIP Client Configuration
+---
 ## To Make and Install the Client
 
 1. Go to noip's [dynamic update client for ubuntu](https://www.noip.com/support/knowledgebase/installing-the-linux-dynamic-update-client-on-ubuntu/) (noip2)
