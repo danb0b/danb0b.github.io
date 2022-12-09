@@ -17,11 +17,12 @@ Usage: code [options][paths...]
 ```
 
 Example:
+
 ```
 code -n ~/websites/danb0b.github.io/
 ```
 
-will open a new 
+will open a new
 
 ```
   -a --add <folder>      Add folder(s) to the last active window.
@@ -40,16 +41,23 @@ will open a new
 
 ## Shortcuts
 
-| Key Combination | Description              |
-|:---------------:|:------------------------ |
+| Key Combination |       Description        |
+| :-------------: | :----------------------: |
 |  ctrl+shift+p   | opens the command window |
-|  ctrl+shift+e   | opens explorer           |
-|  ctrl+shift+x   | opens extensions         |
-|  ctrl+shift+g   | opens git                |
-|  ctrl+shift+f   | opens search             |
+|  ctrl+shift+e   |      opens explorer      |
+|  ctrl+shift+x   |     opens extensions     |
+|  ctrl+shift+g   |        opens git         |
+|  ctrl+shift+f   |       opens search       |
+|  ctrl+shift+k   |       remove line        |
+|  ctrl+shift+/   |      comment line:       |
+|     ctrl+up     |       move line up       |
+|    ctrl+down    |      move line down      |
+|    ctrl+k,v     |         preview          |
+|  ctrl+shift+i   |     format document      |
+|     ctrl+i      |   italicize selection    |
+|     ctrl+b      |      bold selection      |
 
-
-##  Extensions
+## Extensions
 
 from [here](https://code.visualstudio.com/docs/editor/command-line)
 
@@ -62,6 +70,10 @@ code --install-extension yzhang.markdown-all-in-one
 code --install-extension bierner.markdown-yaml-preamble
 code --install-extension Pycom.pymakr-preview
 code --install-extension ms-python.python
+code --install-extension shd101wyy.markdown-preview-enhanced
+#code --install-extension darkriszty.markdown-table-prettify #doesn't work without npm
+#code --install-extension esbenp.prettier-vscode # markdown allinone formats just fine.
+code --install-extension davidanson.vscode-markdownlint #highlight file problems
 ```
 
 ```bash
@@ -70,27 +82,32 @@ code --list-extensions
 
 ## Plugins
 
-###  micropython ide (bao phan)
+### micropython ide (bao phan)
 
 ```bash
 pip install adafruit-ampy
 pip3 install rshell
 ```
 
-### pymaker 
+## Markdown all-in-one
 
+go to settings
+@id:editor.defaultFormatter @lang:markdown formatter
+ctrl_+ shift + I then formats your document
+
+### pymaker
 
 1. install pymakr preview
 
-	```
-	code --install-extension Pycom.pymakr-preview
-	```
+ ```
+ code --install-extension Pycom.pymakr-preview
+ ```
 
 1. navigate to pymakr tab
-	1. list devices
-	2. connect device
-	3. open device in workspace
-2. create project:  ```ctrl+shift+p``` then 
+   2. list devices
+   3. connect device
+   4. open device in workspace
+5. create project:  ```ctrl+shift+p``` then
 
 #### External Resources
 
@@ -98,39 +115,38 @@ pip3 install rshell
 2. <https://marketplace.visualstudio.com/items?itemName=pycom.Pymakr>
 
 Other:
-https://randomnerdtutorials.com/micropython-esp32-esp8266-vs-code-pymakr/
-https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide
-https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide
-https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/vscode-setup.html
-https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython
-
-
+<https://randomnerdtutorials.com/micropython-esp32-esp8266-vs-code-pymakr/>
+<https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>
+<https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>
+<https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/vscode-setup.html>
+<https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython>
 
 ## Interesting Packages
 
 - general
-	- python
-	- python extension pack
-	- jupyter
-	- html css
-	- c/c++ extension pack
+  - python
+  - python extension pack
+  - jupyter
+  - html css
+  - c/c++ extension pack
 - yaml
 - markdown
-	- markdown all in one
-	- mardkown preview ehnanced
-	- markdown pdf
-	- markdown lint
-	- markdown yaml preamble
+  - markdown all in one
+  - mardkown preview ehnanced
+  - markdown pdf
+  - markdown lint
+  - markdown yaml preamble
 - vscode pandoc
 - git
-	- git history
-	- gitlens
-	- git graph
+  - git history
+  - gitlens
+  - git graph
 - esp32 / micropython
-	- micropython ide (bao phan)
-	- espressif idf
+  - micropython ide (bao phan)
+  - espressif idf
 
 after installing the above:
+
 ```
 batisteo.vscode-django
 bierner.markdown-yaml-preamble

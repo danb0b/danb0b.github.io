@@ -107,4 +107,6 @@ More Recent
 
 ## Google Calendar
 
+https://www.lifewire.com/how-to-sync-google-calendar-with-thunderbird-4691009
+
 https://addons.thunderbird.net/en-US/thunderbird/addon/provider-for-google-calendar/?src=search
