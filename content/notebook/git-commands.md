@@ -143,3 +143,10 @@ git stash --include-untracked
 
 git stash pop
 ```
+
+## git merge
+
+```bash
+git checkout master
+git merge featureBranch
+```
