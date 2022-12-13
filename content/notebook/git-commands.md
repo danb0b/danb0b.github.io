@@ -130,3 +130,16 @@ git checkout tags/Ubuntu-5.13.0-21.21 -b Ubuntu-5.13.0-21.21
 ```bash
 git rm --cached path/to/the/file
 ```
+
+
+## Stash changes
+
+from [here](https://www.freecodecamp.org/news/git-stash-commands/)
+
+```bash
+git stash
+
+git stash --include-untracked
+
+git stash pop
+```
