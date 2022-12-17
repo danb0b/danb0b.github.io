@@ -38,6 +38,10 @@ tags:
 SetOption19 on
 ```
 
+1. set up mqtt
+   1. go to configuration --> mqtt
+   2. define the server, port, and any other advanced settings you might need.
+
 
 1. For ESP32 devices, get the tasmota32.factory.bin
 

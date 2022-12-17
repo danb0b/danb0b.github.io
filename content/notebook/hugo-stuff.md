@@ -102,4 +102,10 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 * <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
 * <https://www.liwen.id.au/photoswipe/>
 
-
+#### Documentation themes
+* <https://themes.gohugo.io/tags/docs/>
+* <https://github.com/NotWoods/hugo-bootstrap-5>
+* https://github.com/h-enk/doks  (relies on npm and nodejs, no deal)
+* https://github.com/zerostaticthemes/hugo-whisper-theme
+* https://hbs.razonyang.com/v1/en/
+* <https://geekdocs.de/usage/getting-started/> (good one)
