@@ -85,7 +85,7 @@ conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely py
 
 ```
 python -m pip install --upgrade pip
-pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel esptool thonny pyexiftool mkdocs
+pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool mkdocs
 ```
 
 ### pandoc citeproc
@@ -105,7 +105,8 @@ sudo apt install -y pandoc-citeproc
 ### Pip packages that need a compiler (optional)
 
 ```
-pip install spectrum pybullet roslibpy
+sudo apt install -y build-essential
+pip install spectrum pybullet roslibpy esptool
 ```
 
 
