@@ -104,8 +104,14 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 
 #### Documentation themes
 * <https://themes.gohugo.io/tags/docs/>
+
+Ones I didn't like as much
+
 * <https://github.com/NotWoods/hugo-bootstrap-5>
-* https://github.com/h-enk/doks  (relies on npm and nodejs, no deal)
-* https://github.com/zerostaticthemes/hugo-whisper-theme
-* https://hbs.razonyang.com/v1/en/
-* <https://geekdocs.de/usage/getting-started/> (good one)
+* [Doks](https://github.com/h-enk/doks)  (relies on npm and nodejs, no deal)
+* [Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme)
+* [HBS](https://hbs.razonyang.com/v1/en/)
+
+Good one:
+
+* [Geek Docs](<https://geekdocs.de/usage/getting-started/>)

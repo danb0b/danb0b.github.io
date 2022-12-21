@@ -134,6 +134,11 @@ tar -xvf arduino-1.8.19-linux64.tar.xz
 cd arduino-1.8.19
 sudo bash install.sh
 ```
+you need to modify .bashrc to point python3 to python because we use anaconda
+
+```bash
+echo "alias python=python3" >> ~/.bashrc
+```
 
 ### Mendeley Reference Manager
 
