@@ -38,11 +38,11 @@ Derived from these instructions on [HowToGeek](https://www.howtogeek.com/312883/
 1. Find the virtual hard drive you want to shrink.  In the host OS, type:
 
     ```bash
-    VBoxManage.exe list hdds
+    VBoxManage list hdds
     ```
 
 1. Execute the shrink command
 
     ```bash
-    VBoxManage.exe modifymedium disk "/path/to/disk" --compact
+    VBoxManage modifymedium disk "/path/to/disk" --compact
     ```
