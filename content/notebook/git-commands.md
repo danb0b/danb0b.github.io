@@ -43,6 +43,13 @@ git push --set-upstream origin <remotebranchname>
 
 Sometimes you want to see what has changed.  ```git status``` can be used to see which files have changed since the last commit.  Otherwise, you can use ```git diff``` to more closely inspect file changes line by line
 
+```bash
+git status
+```
+
+```bash
+git diff
+```
 
 ## Pushing
 
@@ -67,7 +74,67 @@ or combined:
 git add * && git commit -m "update" && git push
 ```
 
+## log
+
+```bash
+git log
+```
+
+use this to find the commit hash for prior commits.  you can use this to reset
+
+## reset
+
+reset to head
+
+```bash
+git reset
+```
+
+reset to specific commit
+
+```bash
+git reset <hash>
+```
+
+reset index to head and reset files
+
+```bash
+git reset --hard
+```
+
+## clean
+
+interactive clean
+
+```bash
+git clean -i
+```
+
+force the removal of all untracked files
+
+```bash
+git clean -dxf
+```
+## restore
+
+```bash
+git restore <path/to/file>
+```
+
+restore all files of the type ```.c```
+
+```bash
+git restore '*.c'
+```
+
+
 ## Submodules
+
+create
+
+```
+git submodule add <repo_address> <your/local/path>
+```
 
 from [here](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules)
 
@@ -94,11 +161,6 @@ if not check one out
 git checkout [branchname]
 ```
 
-## clean
-
-```bash
-git clean -dxf
-```
 
 ## feetch all remote tags
 
@@ -118,6 +180,10 @@ example
 ```bash
 git checkout tags/Ubuntu-5.13.0-21.21 -b Ubuntu-5.13.0-21.21
 ```
+
+## ignore
+
+echo "docs/lectures/lecture.html" >> .gitignore
 
 ## External references
 
