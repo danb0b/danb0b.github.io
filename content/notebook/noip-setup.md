@@ -74,7 +74,7 @@ sudo systemctl status noip2
 Other Useful commands: 
 
 ```bash
-sudo systemctl stop
+sudo systemctl stop noip2
 sudo systemctl disable noip2
 ```
 
