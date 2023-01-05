@@ -188,3 +188,87 @@ wholroyd.jinja
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
 ```
+
+
+## Keybindings
+
+```json
+[
+    {
+        "key": "ctrl+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "markdown.extension.editing.toggleList"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "markdownlint.fixAll"
+    }
+]
+```
+
+
+## User Settings
+
+> I removed unused pymakr devices for brevity
+
+```json
+{
+    "workbench.colorTheme": "Default Dark+",
+    "git.confirmSync": false,
+    "pymakr.devices.configs": {
+        "serial:///dev/ttyUSB0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "pymakr.misc.notifications": {
+        "Uploading a project will delete all existing files on the device before uploading the project folder. After uploading a project, you can start it by restarting the device. For faster uploads without file deletion, please put the device in dev mode.": "Don't show again"
+    },
+    "editor.fontSize": 12,
+    "markdownlint.config": {
+        "default": true,
+        "MD007": { "indent": 4 }
+    },
+    "markdown.extension.orderedList.autoRenumber": false,
+    "markdown.extension.list.indentationSize": "inherit"
+}
+```
