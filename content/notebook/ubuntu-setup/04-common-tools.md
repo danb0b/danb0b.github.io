@@ -64,6 +64,13 @@ flatpak install flathub org.gnome.Rhythmbox3 -y
 flatpak install flathub org.raspberrypi.rpi-imager -y
 flatpak install flathub com.authy.Authy
 ```
+optional
+
+```bash
+flatpak install flathub org.openscad.OpenSCAD
+flatpak install flathub net.meshlab.MeshLab
+flatpak install flathub org.blender.Blender
+```
 
 close and reopen terminal
 
@@ -242,6 +249,12 @@ sudo apt install -yf
 install python, c/c++, html css, jupyter
 
 ## Optional
+
+### FreeCad
+
+```bash
+wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-Linux-x86_64-py310.AppImage
+```
 
 ### Mosquitto
 
