@@ -39,6 +39,18 @@ Push a local branch to a new remote branch name
 git push --set-upstream origin <remotebranchname>
 ```
 
+delete local git branch 
+
+```bash
+git branch -d <local name>
+```
+
+delete remote branch
+
+```bash
+git push origin --delete <remote/branch-name>
+```
+
 ## Status
 
 Sometimes you want to see what has changed.  ```git status``` can be used to see which files have changed since the last commit.  Otherwise, you can use ```git diff``` to more closely inspect file changes line by line
