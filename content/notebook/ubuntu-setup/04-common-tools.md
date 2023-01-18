@@ -126,6 +126,12 @@ chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
 ./webcamoid-portable-linux-9.0.0-x86_64.AppImage
 ```
 
+### Cura
+
+```bash
+flatpak install flathub com.ultimaker.cura
+```
+
 ### Arduino
 
 ```bash
