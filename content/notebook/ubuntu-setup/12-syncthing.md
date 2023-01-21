@@ -55,5 +55,12 @@ tags:
     systemctl --user stop syncthing.service  
     systemctl --user disable syncthing.service  
     ```
+
+1. add syncthing to your firewall rules
+
+```bash
+sudo ufw allow syncthing
+sudo ufw allow syncthing-gui
+```
     
 1. Configure it to connect to your other computers
