@@ -24,7 +24,7 @@ sudo sshd -t
 retrieve your current config
 
 ```bash
-sshd -T
+sudo sshd -T
 ```
 
 from [here](https://www.sshaudit.com/hardening_guides.html#ubuntu_20_04_lts):
