@@ -9,7 +9,8 @@ lspci -k
 dmesg
 </code></pre><h2 id=search-path>search path</h2><p>.bashrc holds path variables.</p><h2 id=gui>GUI</h2><p>ctrl-h hides and shows &ldquo;dot&rdquo; files in nautilus like <code>.config</code> or <code>.ssh/</code></p><h2 id=password>Password</h2><pre tabindex=0><code>sudo passwd &lt;username&gt;
 </code></pre><h2 id=networking>Networking</h2><pre tabindex=0><code>ifconfig
-</code></pre><pre tabindex=0><code>ifconfig up [deviceid]
+</code></pre><pre tabindex=0><code>ifconfig &lt;network interface&gt; down
+ifconfig &lt;network interface&gt; up
 </code></pre><pre tabindex=0><code>ip link
 </code></pre><pre tabindex=0><code>ip addr
 </code></pre><h2 id=apt--dpkg>APT / dpkg</h2><pre tabindex=0><code>sudo apt list --installed &lt;package-name-start*&gt;
