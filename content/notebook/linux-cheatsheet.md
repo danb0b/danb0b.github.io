@@ -48,7 +48,8 @@ ifconfig
 ```
 
 ```
-ifconfig up [deviceid]
+ifconfig <network interface> down
+ifconfig <network interface> up
 ```
 
 ```
