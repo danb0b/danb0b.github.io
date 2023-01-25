@@ -6,15 +6,24 @@ tags:
   - networking
 ---
 
+
+
 ## Example
 
-* update enp0s3 to match your ethernet interface
-* update ip4 address to match an available address
+> update enp0s3 to match your ethernet interface
+
+<p></p>
+
+> update ip4 address to match an available address
+
+### Backup your config
 
 ```bash
 sudo cp /etc/netplan/01-network-manager-all.yaml /etc/netplan/01-network-manager-all.yaml.bak
 sudo nano /etc/netplan/01-network-manager-all.yaml
 ```
+
+### Update your config
 
 edit the file, making sure to update the desired ip address, the name of the interface
 
@@ -51,3 +60,9 @@ network:
                 "<enter-your-ssid>":
                     password: "<enter-your-password>"
 ```
+
+## External References
+
+
+* <https://netplan.io/examples>
+* <https://ubuntu.com/core/docs/networkmanager/networkmanager-and-netplan>

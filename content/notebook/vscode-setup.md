@@ -60,6 +60,7 @@ will open a new
 |  ctrl+shift+i   |     format document      |
 |     ctrl+i      |   italicize selection    |
 |     ctrl+b      |      bold selection      |
+|      alt+z      |  switch text wrap mode   |
 
 ## Extensions
 
@@ -272,3 +273,13 @@ yzhang.markdown-all-in-one
     "markdown.extension.list.indentationSize": "inherit"
 }
 ```
+
+## Working with Python
+
+ctrl+shift+p then "python select interpreter"
+
+https://code.visualstudio.com/docs/python/python-tutorial
+
+https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/
+
+https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/
