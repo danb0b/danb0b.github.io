@@ -66,15 +66,16 @@ ChallengeResponseAuthentication no
 KerberosAuthentication no
 GSSAPIAuthentication no
 #UsePAM no
-X11Forwarding no
 MaxAuthTries 3
 LoginGraceTime 20
 PermitUserEnvironment no
 DebianBanner no
 
+# adjust the following to fit your needs and "threat profile"
+X11Forwarding yes
 AllowAgentForwarding yes
-AllowTcpForwarding no
-PermitTunnel no
+AllowTcpForwarding yes
+PermitTunnel yes
 
 HostKey /etc/ssh/ssh_host_ed25519_key
 HostKey /etc/ssh/ssh_host_rsa_key
