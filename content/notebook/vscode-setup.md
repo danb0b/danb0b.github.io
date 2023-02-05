@@ -10,7 +10,7 @@ Download from [here](https://code.visualstudio.com/Download)
 
 ```bash
 cd ~/Downloads
-sudo dpkg -i code_1.7 #.... tab complete
+sudo dpkg -i code_1.7* #.... tab complete
 sudo apt install -yf
 ```
 
@@ -87,12 +87,14 @@ code --list-extensions
 
 ## Plugins
 
+<!--
 ### micropython ide (bao phan)
 
 ```bash
 pip install adafruit-ampy
 pip3 install rshell
 ```
+-->
 
 ## Markdown all-in-one
 
