@@ -11,6 +11,8 @@ pip install mkdocs mkdocs-material
 * <https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax>
 * <https://www.mkdocs.org/user-guide/writing-your-docs/>
 * <https://squidfunk.github.io/mkdocs-material/>
+* <https://www.markdownguide.org/tools/mkdocs/>
+* <https://facelessuser.github.io/pymdown-extensions/extensions/>
 
 load mathjax at the beginning:
 
