@@ -34,3 +34,8 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 
 echo -ne "\x10\xff\x0b\x1e\x00\x00\x00" | sudo tee /dev/[the device] # function keys default
 echo -ne "\x10\xff\x0b\x1e\x01\x00\x00" | sudo tee /dev/[the device] # media keys default
+
+
+## Better
+
+<https://github.com/danb0b/external_k380-function-keys-conf>
