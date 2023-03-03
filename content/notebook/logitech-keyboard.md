@@ -24,11 +24,15 @@ hid-generic 0005:046D:B342.002E: input,hidraw11: BLUETOOTH HID v42.01 Keyboard [
 
 ## not quite working:
 
+```
 cat << EOT | sudo tee /etc/udev/rules.d/70-logi-k380.rules
 ACTION=="add", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", SUBSYSTEMS=="hid", KERNELS=="*:046D:B342.*", RUN+="/bin/bash -c \"echo -ne '\x10\xff\x0b\x1e\x00\x00\x00' > /dev/%k\""
 EOT
+```
 
+```bash
 sudo udevadm control --reload-rules && sudo udevadm trigger
+```
 
 ## This works
 
