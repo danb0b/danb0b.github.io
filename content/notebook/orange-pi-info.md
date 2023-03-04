@@ -19,6 +19,8 @@ sudo apt install python3-lgpio
 
 ## Other Resources
 
+
+* Main [Wiki](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_Zero_2)
 * <https://www.instructables.com/Orange-Pi-One-Python-GPIO-basic/>
 * <https://www.youtube.com/watch?v=ruxkz7TlgM4>
 * <https://github.com/eutim/OPI.GPIO>
