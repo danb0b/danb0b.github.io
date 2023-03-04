@@ -61,6 +61,7 @@ From [here](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview):
 
 sudo apt install python3-lgpio
 sudo apt install python3-pip
+sudo apt install libpython3-dev
 
 ## OLED and SSD1306 Driver
 
