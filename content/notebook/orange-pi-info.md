@@ -7,15 +7,69 @@ tags:
 - sbcs
 ---
 
-From [here](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview):
+```
+sudo mv /etc/netplan/orangepi-default.yaml /etc/netplan/orangepi-default.yaml.bk
+echo << EOL | sudo tee /etc/netplan/00-home.yaml
+network:
+    version: 2
+    ethernets:
+        eno1:
+            addresses:
+            - 192.168.0.140/24
+            dhcp4: no
+            dhcp6: no
+            nameservers:
+                addresses:
+                - 1.1.1.1
+                - 1.0.0.1
+                - 8.8.8.8
+                - 8.8.4.4
+            optional: true
+    wifis:
+        wlan0:
+            dhcp4: yes
+            dhcp6: yes
+            addresses:
+            - 192.168.0.141/24
+            nameservers:
+                addresses:
+                - 1.1.1.1
+                - 1.0.0.1
+                - 8.8.8.8
+                - 8.8.4.4
+            access-points:
+                senorita-fussy-bubbles:
+                    password: ic5D4CHJV0X3
+            routes:
+                - to: default
+                  via: 192.168.0.1
+EOL
+```
+
+
 
 ```bash
 sudo orangepi-config
 ```
 
-sudo apt install openssh-server tmux
+
 sudo apt update
+sudo apt install openssh-server tmux
+
+From [here](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview):
+
+
 sudo apt install python3-lgpio
+sudo apt install python3-pip
+
+## OLED and SSD1306 Driver
+
+- <https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/ref=sr_1_4?crid=1NJ0QBLD94E5L&keywords=SSD1306&qid=1668732264>
+- https://pypi.org/project/Adafruit-SSD1306/
+
+```bash
+sudo pip3 install Adafruit-SSD1306
+```
 
 ## Other Resources
 
