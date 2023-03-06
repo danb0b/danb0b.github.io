@@ -85,3 +85,19 @@ sudo pip3 install Adafruit-SSD1306
 * <https://circuitpython.org/blinka/orange_pi_zero2/>
 * <https://www.tomshardware.com/news/orange-pi-zero2-small-powerful-cost-effective>
 
+----------------
+
+```bash
+sudo apt-get install -y python3 git python3-pip
+sudo apt-get install libgpiod2 python3-libgpiod
+pip3 install gpiod
+sudo apt update && sudo apt upgrade -y
+sudo pip3 install --upgrade setuptools
+
+sudo apt install -y python-smbus python-dev i2c-tools
+sudo adduser $USER i2c
+pip3 freeze - local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U
+
+pip3 install adafruit-blinka
+
+echo "overlays=uart3 i2c0 spi-spidev\nparam_spidev_spi_bus=0" | sudo tee -a /boot/orangepiEnv.txt
