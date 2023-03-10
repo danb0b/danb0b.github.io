@@ -52,9 +52,9 @@ Note: the most important and helpful resource is the manual, which is available 
                         password: ic5D4CHJV0X3
                 routes:
                     - to: default
-                    via: 192.168.0.1
+                      via: 192.168.0.1
     EOL
-    sudo chmod 644 99-home.yaml
+    sudo chmod 664 99-home.yaml
     ```
 
 ## Connect
