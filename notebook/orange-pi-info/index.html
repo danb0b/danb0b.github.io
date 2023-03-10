@@ -36,9 +36,9 @@
 </span></span></span><span style=display:flex><span><span style=color:#d88200>                    password: ic5D4CHJV0X3
 </span></span></span><span style=display:flex><span><span style=color:#d88200>            routes:
 </span></span></span><span style=display:flex><span><span style=color:#d88200>                - to: default
-</span></span></span><span style=display:flex><span><span style=color:#d88200>                via: 192.168.0.1
+</span></span></span><span style=display:flex><span><span style=color:#d88200>                  via: 192.168.0.1
 </span></span></span><span style=display:flex><span><span style=color:#d88200>EOL</span>
-</span></span><span style=display:flex><span>sudo chmod <span style=color:#ae81ff>644</span> 99-home.yaml
+</span></span><span style=display:flex><span>sudo chmod <span style=color:#ae81ff>664</span> 99-home.yaml
 </span></span></code></pre></div></li></ol><h2 id=connect>Connect</h2><p>With these changes you should be able to connect in a headless way</p><ol><li>SSH</li></ol><pre tabindex=0><code>ssh orangepi@192.168.0.141
 #default password is orangepi
 </code></pre><p>harden ssh:</p><ul><li><a href=https://danaukes.com/notebook/ssh/ssh-reference/>https://danaukes.com/notebook/ssh/ssh-reference/</a></li><li><a href=https://danaukes.com/notebook/ssh/disable-password-ssh/>https://danaukes.com/notebook/ssh/disable-password-ssh/</a></li></ul><ol><li>install tmux</li></ol><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt update <span style=color:#f92672>&amp;&amp;</span> sudo apt install -y tmux
