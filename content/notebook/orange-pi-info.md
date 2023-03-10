@@ -7,6 +7,10 @@ tags:
 - sbcs
 ---
 
+## Introduction
+
+Note: the most important and helpful resource is the manual, which is available [here](https://drive.google.com/drive/folders/1T7NCV5ZBg1TrB1q_QUQ93GMbq0IlKLFn).
+
 ## Prepare the SD card
 
 1. Copy the orange pi image over to an sd card
@@ -94,6 +98,7 @@ sudo orangepi-config
 ## Update systems
 
 ```bash
+sudo adduser $USER i2c
 echo "overlays=i2c3" | sudo tee -a /boot/orangepiEnv.txt && sudo reboot now
 ```
 
@@ -112,8 +117,6 @@ you will need some prerequisites:
 sudo apt install -y python3-pip swig
 #required
 sudo apt install -y libpython3-dev
-#required
-sudo adduser $USER i2c
 ```
 
 ## (optional) Install WiringOP
