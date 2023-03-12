@@ -49,7 +49,6 @@ find . -not \( -path ./miniconda3 -prune \) -name \*.py -print
 
 * <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
 
-
 ## Find and Replace with find and sed
 
 ```bash
@@ -63,6 +62,7 @@ Find links in markdown files ending in .mp4
 ```bash
 find . -iname "*.md" -exec grep -l '.mp4)' {} \+ 
 ```
+
 Find "video_source" keys in yaml files ending in .yaml
 
 ```bash
@@ -75,8 +75,11 @@ excluding directories
 find . -not \( -path ./miniconda3 -prune \) -name \*.py -print  -exec grep -l 'html' {} \+ 
 ```
 
-excluding multiple directoreis
-find . -type d \( -path ./miniconda3 -o -path ./.atom -o -path ./code_external -o -path ./websites -o -path ./.arduino15 \) -prune -o -name '*.py' -exec grep -l 'html' {} \+ 
+excluding multiple directories
+
+```bash
+find . \( -path ./.config -prune -o -path ./miniconda3 -prune -o -path ./.local -prune \) -o -iname "*.md" -exec grep -l 'esptool' {} \+ 
+```
 
 ## find with maximum depth
 
