@@ -551,3 +551,7 @@ Topics related to research and lab administration
 ## arduino code examples
 
 * [arduino sweep](https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep)
+
+## zotero
+
+* [syncing info](https://www.zotero.org/support/sync)
