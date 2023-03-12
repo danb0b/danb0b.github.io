@@ -60,3 +60,7 @@ flatpak install flathub net.cozic.joplin_desktop
 ## Turtl
 
 * <https://turtlapp.com/>
+
+## Pandoc with github actions?
+
+* <https://github.com/pandoc/pandoc-action-example>

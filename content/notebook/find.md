@@ -81,6 +81,8 @@ excluding multiple directories
 find . \( -path ./.config -prune -o -path ./miniconda3 -prune -o -path ./.local -prune \) -o -iname "*.md" -exec grep -l 'esptool' {} \+ 
 ```
 
+tips from [here](https://linuxhandbook.com/find-command-exclude-directories/)
+
 ## find with maximum depth
 
 from [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
