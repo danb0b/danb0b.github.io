@@ -177,3 +177,7 @@ Older stuff
 * <https://www.pyimagesearch.com/2017/11/27/image-hashing-opencv-python/>
 * <https://github.com/JohannesBuchner/imagehash>
 * [algorithm - What is image hashing used for- - Stack Overflow](https://stackoverflow.com/questions/998662/what-is-image-hashing-used-for)
+
+## VS Code
+
+* <https://opensourceoptions.com/blog/4-ways-to-run-python-code-in-visual-studio-code/>
