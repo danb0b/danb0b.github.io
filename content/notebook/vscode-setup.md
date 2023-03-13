@@ -2,11 +2,12 @@
 title: VS Code Setup and Usage
 ---
 
+
 ## Installation
 
-Find help [here](https://code.visualstudio.com/docs/setup/linux)
-
-Download from [here](https://code.visualstudio.com/Download)
+- Main [Website](https://code.visualstudio.com/)
+- Find help [here](https://code.visualstudio.com/docs/setup/linux)
+- Download from [here](https://code.visualstudio.com/Download)
 
 ```bash
 cd ~/Downloads
@@ -22,13 +23,13 @@ Usage: code [options][paths...]
 
 Example:
 
-```
+```bash
 code -n ~/websites/danb0b.github.io/
 ```
 
 will open a new
 
-```
+```bash
   -a --add <folder>      Add folder(s) to the last active window.
   -n --new-window        Force to open a new window.
   -r --reuse-window      Force to open a file or folder in an already opened window.
@@ -68,7 +69,7 @@ from [here](https://code.visualstudio.com/docs/editor/command-line)
 
 Slimmed Down:
 
-```
+```bash
 code --install-extension redhat.vscode-yaml
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
@@ -106,7 +107,7 @@ ctrl_+ shift + I then formats your document
 
 1. install pymakr preview
 
- ```
+ ```bash
  code --install-extension Pycom.pymakr-preview
  ```
 
@@ -131,30 +132,30 @@ Other:
 ## Interesting Packages
 
 - general
-  - python
-  - python extension pack
-  - jupyter
-  - html css
-  - c/c++ extension pack
+    - python
+    - python extension pack
+    - jupyter
+    - html css
+    - c/c++ extension pack
 - yaml
 - markdown
-  - markdown all in one
-  - mardkown preview ehnanced
-  - markdown pdf
-  - markdown lint
-  - markdown yaml preamble
+    - markdown all in one
+    - mardkown preview ehnanced
+    - markdown pdf
+    - markdown lint
+    - markdown yaml preamble
 - vscode pandoc
 - git
-  - git history
-  - gitlens
-  - git graph
+    - git history
+    - gitlens
+    - git graph
 - esp32 / micropython
-  - micropython ide (bao phan)
-  - espressif idf
+    - micropython ide (bao phan)
+    - espressif idf
 
 after installing the above:
 
-```
+```bash
 batisteo.vscode-django
 bierner.markdown-yaml-preamble
 DavidAnson.vscode-markdownlint
@@ -192,8 +193,9 @@ yzane.markdown-pdf
 yzhang.markdown-all-in-one
 ```
 
-
 ## Keybindings
+
+located in ```~/.config/Code/User/keybindings.json```
 
 ```json
 [
@@ -238,8 +240,9 @@ yzhang.markdown-all-in-one
 ]
 ```
 
-
 ## User Settings
+
+located in ```~/.config/Code/User/settings.json```
 
 > I removed unused pymakr devices for brevity
 
@@ -280,8 +283,6 @@ yzhang.markdown-all-in-one
 
 ctrl+shift+p then "python select interpreter"
 
-https://code.visualstudio.com/docs/python/python-tutorial
-
-https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/
-
-https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/
+- <https://code.visualstudio.com/docs/python/python-tutorial>
+- <https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/>
+- <https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/>
