@@ -2,38 +2,38 @@
 <script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script></head><body><div class=preloader></div><header class=navigation><div class=container><nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0"><a class="navbar-brand mobile-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a>
 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
 <i class=ti-menu></i></button><div class="collapse navbar-collapse text-center" id=navigation><div class=desktop-view><ul class="navbar-nav mr-auto"><li class=nav-item><a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a></li><li class=nav-item><a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a></li><li class=nav-item><a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a></li></ul></div><a class="navbar-brand mx-auto desktop-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a><ul class=navbar-nav><li class=nav-item><a class=nav-link href=https://danaukes.com/bookmarks/>Bookmarks</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/code/>Code</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/notebook/>Notebook</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/recipes/>Recipes</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/websites/>Websites</a></li></ul><form action=https://danaukes.com/search class=d-flex><input class="form-control me-2" id=search-query name=s type=s placeholder=Search aria-label=Search>
-<button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://danaukes.com/notebook/>Notebook</a></li><li class="breadcrumb-item active"><a href=https://danaukes.com/notebook/vscode-setup/>VS Code Setup and Usage</a></li></ol></nav></div><h2>VS Code Setup and Usage</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline></ul><div class="content mb-5"><h2 id=installation>Installation</h2><p>Find help <a href=https://code.visualstudio.com/docs/setup/linux>here</a></p><p>Download from <a href=https://code.visualstudio.com/Download>here</a></p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>cd</span> ~/Downloads
+<button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://danaukes.com/notebook/>Notebook</a></li><li class="breadcrumb-item active"><a href=https://danaukes.com/notebook/vscode-setup/>VS Code Setup and Usage</a></li></ol></nav></div><h2>VS Code Setup and Usage</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline></ul><div class="content mb-5"><h2 id=installation>Installation</h2><ul><li>Main <a href=https://code.visualstudio.com/>Website</a></li><li>Find help <a href=https://code.visualstudio.com/docs/setup/linux>here</a></li><li>Download from <a href=https://code.visualstudio.com/Download>here</a></li></ul><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>cd</span> ~/Downloads
 </span></span><span style=display:flex><span>sudo dpkg -i code_1.7* <span style=color:#75715e>#.... tab complete</span>
 </span></span><span style=display:flex><span>sudo apt install -yf
 </span></span></code></pre></div><h2 id=useful-command-line-arguments>Useful command-line arguments</h2><pre tabindex=0><code>Usage: code [options][paths...]
-</code></pre><p>Example:</p><pre tabindex=0><code>code -n ~/websites/danb0b.github.io/
-</code></pre><p>will open a new</p><pre tabindex=0><code>  -a --add &lt;folder&gt;      Add folder(s) to the last active window.
-  -n --new-window        Force to open a new window.
-  -r --reuse-window      Force to open a file or folder in an already opened window.
-  --extensions-dir &lt;dir&gt; Set the root path for extensions.
-  --list-extensions      List the installed extensions.
-  --show-versions        Show versions of installed extensions, when using --list-extensions.
-  --install-extension &lt;ext-id | path&gt; Installs or updates an extension. 
-  --uninstall-extension &lt;ext-id&gt;      Uninstalls an extension.
-  --enable-proposed-api &lt;ext-id&gt;      Enables proposed API features for
-  --disable-extensions            Disable all installed extensions.
-  --disable-extension &lt;ext-id&gt;    Disable an extension.
-  --sync &lt;on | off&gt;               Turn sync on or off.
-</code></pre><h2 id=shortcuts>Shortcuts</h2><table><thead><tr><th style=text-align:center>Key Combination</th><th style=text-align:center>Description</th></tr></thead><tbody><tr><td style=text-align:center>ctrl+shift+p</td><td style=text-align:center>opens the command window</td></tr><tr><td style=text-align:center>ctrl+shift+e</td><td style=text-align:center>opens explorer</td></tr><tr><td style=text-align:center>ctrl+shift+x</td><td style=text-align:center>opens extensions</td></tr><tr><td style=text-align:center>ctrl+shift+g</td><td style=text-align:center>opens git</td></tr><tr><td style=text-align:center>ctrl+shift+f</td><td style=text-align:center>opens search</td></tr><tr><td style=text-align:center>ctrl+shift+k</td><td style=text-align:center>remove line</td></tr><tr><td style=text-align:center>ctrl+shift+/</td><td style=text-align:center>comment line:</td></tr><tr><td style=text-align:center>ctrl+up</td><td style=text-align:center>move line up</td></tr><tr><td style=text-align:center>ctrl+down</td><td style=text-align:center>move line down</td></tr><tr><td style=text-align:center>ctrl+k,v</td><td style=text-align:center>preview</td></tr><tr><td style=text-align:center>ctrl+shift+i</td><td style=text-align:center>format document</td></tr><tr><td style=text-align:center>ctrl+i</td><td style=text-align:center>italicize selection</td></tr><tr><td style=text-align:center>ctrl+b</td><td style=text-align:center>bold selection</td></tr><tr><td style=text-align:center>alt+z</td><td style=text-align:center>switch text wrap mode</td></tr></tbody></table><h2 id=extensions>Extensions</h2><p>from <a href=https://code.visualstudio.com/docs/editor/command-line>here</a></p><p>Slimmed Down:</p><pre tabindex=0><code>code --install-extension redhat.vscode-yaml
-code --install-extension yzane.markdown-pdf
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension bierner.markdown-yaml-preamble
-code --install-extension Pycom.pymakr-preview
-code --install-extension ms-python.python
-code --install-extension shd101wyy.markdown-preview-enhanced
-#code --install-extension darkriszty.markdown-table-prettify #doesn&#39;t work without npm
-#code --install-extension esbenp.prettier-vscode # markdown allinone formats just fine.
-code --install-extension davidanson.vscode-markdownlint #highlight file problems
-</code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>code --list-extensions
+</code></pre><p>Example:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>code -n ~/websites/danb0b.github.io/
+</span></span></code></pre></div><p>will open a new</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>  -a --add &lt;folder&gt;      Add folder<span style=color:#f92672>(</span>s<span style=color:#f92672>)</span> to the last active window.
+</span></span><span style=display:flex><span>  -n --new-window        Force to open a new window.
+</span></span><span style=display:flex><span>  -r --reuse-window      Force to open a file or folder in an already opened window.
+</span></span><span style=display:flex><span>  --extensions-dir &lt;dir&gt; Set the root path <span style=color:#00a8c8>for</span> extensions.
+</span></span><span style=display:flex><span>  --list-extensions      List the installed extensions.
+</span></span><span style=display:flex><span>  --show-versions        Show versions of installed extensions, when using --list-extensions.
+</span></span><span style=display:flex><span>  --install-extension &lt;ext-id <span style=color:#111>|</span> path&gt; Installs or updates an extension. 
+</span></span><span style=display:flex><span>  --uninstall-extension &lt;ext-id&gt;      Uninstalls an extension.
+</span></span><span style=display:flex><span>  --enable-proposed-api &lt;ext-id&gt;      Enables proposed API features <span style=color:#00a8c8>for</span>
+</span></span><span style=display:flex><span>  --disable-extensions            Disable all installed extensions.
+</span></span><span style=display:flex><span>  --disable-extension &lt;ext-id&gt;    Disable an extension.
+</span></span><span style=display:flex><span>  --sync &lt;on <span style=color:#111>|</span> off&gt;               Turn sync on or off.
+</span></span></code></pre></div><h2 id=shortcuts>Shortcuts</h2><table><thead><tr><th style=text-align:center>Key Combination</th><th style=text-align:center>Description</th></tr></thead><tbody><tr><td style=text-align:center>ctrl+shift+p</td><td style=text-align:center>opens the command window</td></tr><tr><td style=text-align:center>ctrl+shift+e</td><td style=text-align:center>opens explorer</td></tr><tr><td style=text-align:center>ctrl+shift+x</td><td style=text-align:center>opens extensions</td></tr><tr><td style=text-align:center>ctrl+shift+g</td><td style=text-align:center>opens git</td></tr><tr><td style=text-align:center>ctrl+shift+f</td><td style=text-align:center>opens search</td></tr><tr><td style=text-align:center>ctrl+shift+k</td><td style=text-align:center>remove line</td></tr><tr><td style=text-align:center>ctrl+shift+/</td><td style=text-align:center>comment line:</td></tr><tr><td style=text-align:center>ctrl+up</td><td style=text-align:center>move line up</td></tr><tr><td style=text-align:center>ctrl+down</td><td style=text-align:center>move line down</td></tr><tr><td style=text-align:center>ctrl+k,v</td><td style=text-align:center>preview</td></tr><tr><td style=text-align:center>ctrl+shift+i</td><td style=text-align:center>format document</td></tr><tr><td style=text-align:center>ctrl+i</td><td style=text-align:center>italicize selection</td></tr><tr><td style=text-align:center>ctrl+b</td><td style=text-align:center>bold selection</td></tr><tr><td style=text-align:center>alt+z</td><td style=text-align:center>switch text wrap mode</td></tr></tbody></table><h2 id=extensions>Extensions</h2><p>from <a href=https://code.visualstudio.com/docs/editor/command-line>here</a></p><p>Slimmed Down:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>code --install-extension redhat.vscode-yaml
+</span></span><span style=display:flex><span>code --install-extension yzane.markdown-pdf
+</span></span><span style=display:flex><span>code --install-extension yzhang.markdown-all-in-one
+</span></span><span style=display:flex><span>code --install-extension bierner.markdown-yaml-preamble
+</span></span><span style=display:flex><span>code --install-extension Pycom.pymakr-preview
+</span></span><span style=display:flex><span>code --install-extension ms-python.python
+</span></span><span style=display:flex><span>code --install-extension shd101wyy.markdown-preview-enhanced
+</span></span><span style=display:flex><span><span style=color:#75715e>#code --install-extension darkriszty.markdown-table-prettify #doesn&#39;t work without npm</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#code --install-extension esbenp.prettier-vscode # markdown allinone formats just fine.</span>
+</span></span><span style=display:flex><span>code --install-extension davidanson.vscode-markdownlint <span style=color:#75715e>#highlight file problems</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>code --list-extensions
 </span></span></code></pre></div><h2 id=plugins>Plugins</h2><h2 id=markdown-all-in-one>Markdown all-in-one</h2><p>go to settings
 @id:editor.defaultFormatter @lang:markdown formatter
-ctrl_+ shift + I then formats your document</p><h3 id=pymaker>pymaker</h3><ol><li>install pymakr preview</li></ol><pre tabindex=0><code>code --install-extension Pycom.pymakr-preview
-</code></pre><ol><li>navigate to pymakr tab
+ctrl_+ shift + I then formats your document</p><h3 id=pymaker>pymaker</h3><ol><li>install pymakr preview</li></ol><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>code --install-extension Pycom.pymakr-preview
+</span></span></code></pre></div><ol><li>navigate to pymakr tab
 2. list devices
 3. connect device
 4. open device in workspace</li><li>create project: <code>ctrl+shift+p</code> then</li></ol><h4 id=external-resources>External Resources</h4><ol><li><a href=https://github.com/pycom/pymakr-vsc/blob/HEAD/GET_STARTED.md>https://github.com/pycom/pymakr-vsc/blob/HEAD/GET_STARTED.md</a></li><li><a href="https://marketplace.visualstudio.com/items?itemName=pycom.Pymakr">https://marketplace.visualstudio.com/items?itemName=pycom.Pymakr</a></li></ol><p>Other:
@@ -41,42 +41,42 @@ ctrl_+ shift + I then formats your document</p><h3 id=pymaker>pymaker</h3><ol><l
 <a href=https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide</a>
 <a href=https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide</a>
 <a href=https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/vscode-setup.html>https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/vscode-setup.html</a>
-<a href=https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython>https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython</a></p><h2 id=interesting-packages>Interesting Packages</h2><ul><li>general<ul><li>python</li><li>python extension pack</li><li>jupyter</li><li>html css</li><li>c/c++ extension pack</li></ul></li><li>yaml</li><li>markdown<ul><li>markdown all in one</li><li>mardkown preview ehnanced</li><li>markdown pdf</li><li>markdown lint</li><li>markdown yaml preamble</li></ul></li><li>vscode pandoc</li><li>git<ul><li>git history</li><li>gitlens</li><li>git graph</li></ul></li><li>esp32 / micropython<ul><li>micropython ide (bao phan)</li><li>espressif idf</li></ul></li></ul><p>after installing the above:</p><pre tabindex=0><code>batisteo.vscode-django
-bierner.markdown-yaml-preamble
-DavidAnson.vscode-markdownlint
-donjayamanne.githistory
-donjayamanne.python-environment-manager
-donjayamanne.python-extension-pack
-DougFinke.vscode-pandoc
-dphans.micropython-ide-vscode
-eamodio.gitlens
-ecmel.vscode-html-css
-espressif.esp-idf-extension
-KevinRose.vsc-python-indent
-mhutchie.git-graph
-ms-python.isort
-ms-python.python
-ms-python.vscode-pylance
-ms-toolsai.jupyter
-ms-toolsai.jupyter-keymap
-ms-toolsai.jupyter-renderers
-ms-toolsai.vscode-jupyter-cell-tags
-ms-toolsai.vscode-jupyter-slideshow
-ms-vscode.cmake-tools
-ms-vscode.cpptools
-ms-vscode.cpptools-extension-pack
-ms-vscode.cpptools-themes
-njpwerner.autodocstring
-Pycom.pymakr
-redhat.vscode-yaml
-shd101wyy.markdown-preview-enhanced
-twxs.cmake
-VisualStudioExptTeam.intellicode-api-usage-examples
-VisualStudioExptTeam.vscodeintellicode
-wholroyd.jinja
-yzane.markdown-pdf
-yzhang.markdown-all-in-one
-</code></pre><h2 id=keybindings>Keybindings</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span><span style=color:#111>[</span>
+<a href=https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython>https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython</a></p><h2 id=interesting-packages>Interesting Packages</h2><ul><li>general<ul><li>python</li><li>python extension pack</li><li>jupyter</li><li>html css</li><li>c/c++ extension pack</li></ul></li><li>yaml</li><li>markdown<ul><li>markdown all in one</li><li>mardkown preview ehnanced</li><li>markdown pdf</li><li>markdown lint</li><li>markdown yaml preamble</li></ul></li><li>vscode pandoc</li><li>git<ul><li>git history</li><li>gitlens</li><li>git graph</li></ul></li><li>esp32 / micropython<ul><li>micropython ide (bao phan)</li><li>espressif idf</li></ul></li></ul><p>after installing the above:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>batisteo.vscode-django
+</span></span><span style=display:flex><span>bierner.markdown-yaml-preamble
+</span></span><span style=display:flex><span>DavidAnson.vscode-markdownlint
+</span></span><span style=display:flex><span>donjayamanne.githistory
+</span></span><span style=display:flex><span>donjayamanne.python-environment-manager
+</span></span><span style=display:flex><span>donjayamanne.python-extension-pack
+</span></span><span style=display:flex><span>DougFinke.vscode-pandoc
+</span></span><span style=display:flex><span>dphans.micropython-ide-vscode
+</span></span><span style=display:flex><span>eamodio.gitlens
+</span></span><span style=display:flex><span>ecmel.vscode-html-css
+</span></span><span style=display:flex><span>espressif.esp-idf-extension
+</span></span><span style=display:flex><span>KevinRose.vsc-python-indent
+</span></span><span style=display:flex><span>mhutchie.git-graph
+</span></span><span style=display:flex><span>ms-python.isort
+</span></span><span style=display:flex><span>ms-python.python
+</span></span><span style=display:flex><span>ms-python.vscode-pylance
+</span></span><span style=display:flex><span>ms-toolsai.jupyter
+</span></span><span style=display:flex><span>ms-toolsai.jupyter-keymap
+</span></span><span style=display:flex><span>ms-toolsai.jupyter-renderers
+</span></span><span style=display:flex><span>ms-toolsai.vscode-jupyter-cell-tags
+</span></span><span style=display:flex><span>ms-toolsai.vscode-jupyter-slideshow
+</span></span><span style=display:flex><span>ms-vscode.cmake-tools
+</span></span><span style=display:flex><span>ms-vscode.cpptools
+</span></span><span style=display:flex><span>ms-vscode.cpptools-extension-pack
+</span></span><span style=display:flex><span>ms-vscode.cpptools-themes
+</span></span><span style=display:flex><span>njpwerner.autodocstring
+</span></span><span style=display:flex><span>Pycom.pymakr
+</span></span><span style=display:flex><span>redhat.vscode-yaml
+</span></span><span style=display:flex><span>shd101wyy.markdown-preview-enhanced
+</span></span><span style=display:flex><span>twxs.cmake
+</span></span><span style=display:flex><span>VisualStudioExptTeam.intellicode-api-usage-examples
+</span></span><span style=display:flex><span>VisualStudioExptTeam.vscodeintellicode
+</span></span><span style=display:flex><span>wholroyd.jinja
+</span></span><span style=display:flex><span>yzane.markdown-pdf
+</span></span><span style=display:flex><span>yzhang.markdown-all-in-one
+</span></span></code></pre></div><h2 id=keybindings>Keybindings</h2><p>located in <code>~/.config/Code/User/keybindings.json</code></p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span><span style=color:#111>[</span>
 </span></span><span style=display:flex><span>    <span style=color:#111>{</span>
 </span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;key&#34;</span><span style=color:#111>:</span> <span style=color:#d88200>&#34;ctrl+down&#34;</span><span style=color:#111>,</span>
 </span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;command&#34;</span><span style=color:#111>:</span> <span style=color:#d88200>&#34;editor.action.moveLinesDownAction&#34;</span><span style=color:#111>,</span>
@@ -116,7 +116,7 @@ yzhang.markdown-all-in-one
 </span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;command&#34;</span><span style=color:#111>:</span> <span style=color:#d88200>&#34;markdownlint.fixAll&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#111>}</span>
 </span></span><span style=display:flex><span><span style=color:#111>]</span>
-</span></span></code></pre></div><h2 id=user-settings>User Settings</h2><blockquote><p>I removed unused pymakr devices for brevity</p></blockquote><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span><span style=color:#111>{</span>
+</span></span></code></pre></div><h2 id=user-settings>User Settings</h2><p>located in <code>~/.config/Code/User/settings.json</code></p><blockquote><p>I removed unused pymakr devices for brevity</p></blockquote><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span><span style=color:#111>{</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;workbench.colorTheme&#34;</span><span style=color:#111>:</span> <span style=color:#d88200>&#34;Default Dark+&#34;</span><span style=color:#111>,</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;git.confirmSync&#34;</span><span style=color:#111>:</span> <span style=color:#00a8c8>false</span><span style=color:#111>,</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;pymakr.devices.configs&#34;</span><span style=color:#111>:</span> <span style=color:#111>{</span>
@@ -146,7 +146,7 @@ yzhang.markdown-all-in-one
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;markdown.extension.orderedList.autoRenumber&#34;</span><span style=color:#111>:</span> <span style=color:#00a8c8>false</span><span style=color:#111>,</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;markdown.extension.list.indentationSize&#34;</span><span style=color:#111>:</span> <span style=color:#d88200>&#34;inherit&#34;</span>
 </span></span><span style=display:flex><span><span style=color:#111>}</span>
-</span></span></code></pre></div><h2 id=working-with-python>Working with Python</h2><p>ctrl+shift+p then &ldquo;python select interpreter&rdquo;</p><p><a href=https://code.visualstudio.com/docs/python/python-tutorial>https://code.visualstudio.com/docs/python/python-tutorial</a></p><p><a href=https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/>https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/</a></p><p><a href=https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/>https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/</a></p></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2022 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/vscode-setup.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script><script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
+</span></span></code></pre></div><h2 id=working-with-python>Working with Python</h2><p>ctrl+shift+p then &ldquo;python select interpreter&rdquo;</p><ul><li><a href=https://code.visualstudio.com/docs/python/python-tutorial>https://code.visualstudio.com/docs/python/python-tutorial</a></li><li><a href=https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/>https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/</a></li><li><a href=https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/>https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/</a></li></ul></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2022 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/vscode-setup.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script><script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
 <script src=https://danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
 <script src=https://danaukes.com/plugins/slick/slick.min.js></script>
 <script src=https://danaukes.com/plugins/venobox/venobox.min.js></script>
