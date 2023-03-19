@@ -48,8 +48,8 @@ Note: the most important and helpful resource is the manual, which is available 
                     - 8.8.8.8
                     - 8.8.4.4
                 access-points:
-                    senorita-fussy-bubbles:
-                        password: ic5D4CHJV0X3
+                    <put your wifi ssid here>:
+                        password: <put yoru wifi password here>
                 routes:
                     - to: default
                       via: 192.168.0.1
