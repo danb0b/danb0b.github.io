@@ -16,7 +16,7 @@ Instructions derived from <https://grapheneos.org/install/cli>
 ```bash
 sudo apt install android-sdk-platform-tools-common
 sudo apt install signify-openbsd
-alias signify=signify-openbsd
+echo "export signify=signify-openbsd" >> ~/.bashrc
 sudo apt remove adb 
 mkdir ~/adb
 cd ~/adb
@@ -24,7 +24,7 @@ sudo apt install libarchive-tools
 curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
 echo 'ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7  platform-tools_r33.0.3-linux.zip' | sha256sum -c
 bsdtar xvf platform-tools_r33.0.3-linux.zip
-export PATH="$PWD/platform-tools:$PATH"
+echo "export PATH=\$PATH:/home/danaukes/adb/platform-tools" >> ~/.bashrc
 which fastboot
 fastboot --version
 ```
@@ -52,7 +52,7 @@ wget https://releases.grapheneos.org/bramble-factory-2022071300.zip
 cd ~/adb
 wget https://releases.grapheneos.org/factory.pub
 cat factory.pub 
-signify -Cqp factory.pub -x bramble-factory-2022071300.zip.sig  && echo verified
+signify-bsd -Cqp factory.pub -x bramble-factory-2022071300.zip.sig  && echo verified
 bsdtar xvf bramble-factory-2022071300.zip
 cd bramble-factory-2022071300/
 fastboot flashing unlock
