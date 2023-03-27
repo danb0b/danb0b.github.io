@@ -16,7 +16,7 @@ Instructions derived from <https://grapheneos.org/install/cli>
 ```bash
 sudo apt install android-sdk-platform-tools-common
 sudo apt install signify-openbsd
-echo "export signify=signify-openbsd" >> ~/.bashrc
+echo "alias signify=signify-openbsd" >> ~/.bashrc
 sudo apt remove adb 
 mkdir ~/adb
 cd ~/adb
