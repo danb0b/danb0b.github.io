@@ -198,6 +198,7 @@ yzhang.markdown-all-in-one
 located in ```~/.config/Code/User/keybindings.json```
 
 ```json
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+down",
@@ -236,6 +237,10 @@ located in ```~/.config/Code/User/keybindings.json```
     {
         "key": "ctrl+alt+i",
         "command": "markdownlint.fixAll"
+    },
+    {
+        "key": "ctrl+shift+e ctrl+shift+-",
+        "command": "workbench.files.action.collapseExplorerFolders"
     }
 ]
 ```
