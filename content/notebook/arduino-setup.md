@@ -10,3 +10,7 @@ title: Arduino IDE setup
 
 library manager
 dynamixel2arduino
+
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libc6:i386
