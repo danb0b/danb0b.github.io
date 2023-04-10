@@ -63,7 +63,7 @@ Other security options (may break conda script)
 
 Update Conda
 
-```
+```bash
 conda update -y -n base conda
 ```
 
@@ -71,22 +71,24 @@ conda update -y -n base conda
 
 If you've installed miniconda only and realize you want the full anaconda pipeline
 
-```
+```bash
 conda install -y anaconda
 ```
 
 ### Conda packages not included in anaconda
 
-```
+```bash
 conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo shapely pycrypto requests[socks] pandoc
 ```
 
 ### Install pip packages
 
-```
+```bash
 python -m pip install --upgrade pip
-pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool mkdocs xlsxgrep yt-dlp
+pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool mkdocs xlsxgrep yt-dlp 
 ```
+
+
 
 ### pandoc citeproc
 
