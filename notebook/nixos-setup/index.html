@@ -1,0 +1,73 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><title>NixOS Setup | Dan Aukes</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="Dan Aukes' personal website"><meta name=author content="Dan Aukes"><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://danaukes.com/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://danaukes.com/plugins/slick/slick.css><link rel=stylesheet href=https://danaukes.com/plugins/themify-icons/themify-icons.css><link rel=stylesheet href=https://danaukes.com/plugins/venobox/venobox.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css><link rel=stylesheet href=https://danaukes.com/scss/style.min.css media=screen><link rel="shortcut icon" href=https://danaukes.com/images/favicon.png type=image/x-icon><link rel=icon href=https://danaukes.com/images/favicon.png type=image/x-icon><script>(function(e,t,n,s,o,i,a){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=t.createElement(n),a=t.getElementsByTagName(n)[0],i.async=1,i.src=s,a.parentNode.insertBefore(i,a)})(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","","auto"),ga("send","pageview")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script></head><body><div class=preloader></div><header class=navigation><div class=container><nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0"><a class="navbar-brand mobile-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i></button><div class="collapse navbar-collapse text-center" id=navigation><div class=desktop-view><ul class="navbar-nav mr-auto"><li class=nav-item><a class=nav-link href=https://twitter.com/danaukes><i class=ti-twitter-alt></i></a></li><li class=nav-item><a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a></li><li class=nav-item><a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a></li></ul></div><a class="navbar-brand mx-auto desktop-view" href=https://danaukes.com><img class=img-fluid src=https://danaukes.com/da-small.png alt="Dan Aukes"></a><ul class=navbar-nav><li class=nav-item><a class=nav-link href=https://danaukes.com/bookmarks/>Bookmarks</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/code/>Code</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/notebook/>Notebook</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/recipes/>Recipes</a></li><li class=nav-item><a class=nav-link href=https://danaukes.com/websites/>Websites</a></li></ul><form action=https://danaukes.com/search class=d-flex><input class="form-control me-2" id=search-query name=s type=s placeholder=Search aria-label=Search>
+<button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://danaukes.com/notebook/>Notebook</a></li><li class="breadcrumb-item active"><a href=https://danaukes.com/notebook/nixos-setup/>NixOS Setup</a></li></ol></nav></div><h2>NixOS Setup</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a></li><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/nixos class=text-primary>Nixos</a></li></ul><div class="content mb-5"><h2 id=external-resources>External Resources</h2><ul><li><a href=https://nixos.org/manual/nixos/stable/index.html#preface>https://nixos.org/manual/nixos/stable/index.html#preface</a></li><li><a href=https://nixos.org/manual/nixos/stable/index.html#sec-changing-config>https://nixos.org/manual/nixos/stable/index.html#sec-changing-config</a></li><li><a href=https://nixos.org/manual/nixos/stable/index.html#ch-configuration>https://nixos.org/manual/nixos/stable/index.html#ch-configuration</a></li></ul><pre tabindex=0><code>
+  networking.hostName = &#34;dannix&#34;;
+  nixpkgs.config.allowUnfree = true;
+
+  #virtualisation.virtualbox.host.enable = true;
+  #users.extraGroups.vboxusers.members = [ &#34;user-with-access-to-virtualbox&#34; ];
+  #virtualisation.virtualbox.host.enableExtensionPack = true;
+
+  services.openssh.enable = true;
+  users.users.danaukes.openssh.authorizedKeys.keys = [ &#34;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICBtlkBLsL3EMYRjY9eI9lA3xe8goNWAJnyo+TaKxq/y danaukes@danaukes-Precision-7920-Tower&#34; ];
+
+  networking.firewall.enable = true;
+  networking.firewall.allowedTCPPorts = [ 22 ];
+
+  system.autoUpgrade.enable = true;
+  system.autoUpgrade.allowReboot = true;
+
+  virtualisation.virtualbox.guest.enable = true;
+  virtualisation.virtualbox.guest.x11 = true;
+
+  services.flatpak.enable = true;
+  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-kde ];
+</code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+</span></span></code></pre></div><h2 id=virtualbox>Virtualbox</h2><p><a href=https://nixos.wiki/wiki/VirtualBox>https://nixos.wiki/wiki/VirtualBox</a></p><h2 id=install-flatpaks>Install flatpaks</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>flatpak install -y flathub <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.github.tchx84.Flatseal <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.inkscape.Inkscape <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.gimp.GIMP <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.mozilla.firefox <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.kicad.KiCad <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.audacityteam.Audacity <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.videolan.VLC <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.bitwarden.desktop <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.slack.Slack <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>us.zoom.Zoom <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.gnome.Cheese <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.signal.Signal <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.shotcut.Shotcut <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.github.micahflee.torbrowser-launcher <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.obsproject.Studio <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.libreoffice.LibreOffice <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.gpodder.gpodder <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>md.obsidian.Obsidian <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.gnome.Rhythmbox3 <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.raspberrypi.rpi-imager <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.authy.Authy
+</span></span></code></pre></div><h2 id=vscode>VSCode</h2><p>from: <a href=https://nixos.wiki/wiki/Visual_Studio_Code>https://nixos.wiki/wiki/Visual_Studio_Code</a></p><p>environment.systemPackages = with pkgs; [ vscode ];</p><p>environment.systemPackages = with pkgs; [
+(vscode-with-extensions.override {
+vscodeExtensions = with vscode-extensions; [
+bbenoist.nix
+ms-python.python
+ms-azuretools.vscode-docker
+ms-vscode-remote.remote-ssh
+] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+{
+name = &ldquo;remote-ssh-edit&rdquo;;
+publisher = &ldquo;ms-vscode-remote&rdquo;;
+version = &ldquo;0.47.2&rdquo;;
+sha256 = &ldquo;1hp6gjh4xp2m1xlm1jsdzxw9d8frkiidhph6nvl24d0h8z34w49g&rdquo;;
+}
+];
+})
+];</p></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2022 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/nixos-setup.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script><script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
+<script src=https://danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://danaukes.com/plugins/slick/slick.min.js></script>
+<script src=https://danaukes.com/plugins/venobox/venobox.min.js></script>
+<script src=https://danaukes.com/plugins/search/fuse.min.js></script>
+<script src=https://danaukes.com/plugins/search/mark.js></script>
+<script src=https://danaukes.com/plugins/search/search.js></script>
+<script src=https://danaukes.com/js/script.min.js></script></body></html>
