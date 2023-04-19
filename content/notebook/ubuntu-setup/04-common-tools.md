@@ -41,29 +41,30 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ## Install flatpaks
 
 ```bash
-flatpak install flathub com.github.tchx84.Flatseal -y
-flatpak install flathub org.inkscape.Inkscape -y
-flatpak install flathub org.gimp.GIMP -y
-flatpak install flathub org.mozilla.firefox -y
-flatpak install flathub org.kicad.KiCad -y
-flatpak install flathub org.audacityteam.Audacity -y
-#flatpak install flathub io.github.webcamoid.Webcamoid -y #virtual camera driver not working
-flatpak install flathub org.videolan.VLC -y
-flatpak install flathub com.bitwarden.desktop -y
-flatpak install flathub com.slack.Slack -y
-flatpak install flathub us.zoom.Zoom -y
-flatpak install flathub org.gnome.Cheese -y
-flatpak install flathub org.signal.Signal -y
-flatpak install flathub org.shotcut.Shotcut -y
-flatpak install com.github.micahflee.torbrowser-launcher -y
-flatpak install com.obsproject.Studio -y
-flatpak install org.libreoffice.LibreOffice -y
-flatpak install org.gpodder.gpodder -y
-#flatpak install org.darktable.Darktable -y # font issue
-flatpak install flathub md.obsidian.Obsidian -y
-flatpak install flathub org.gnome.Rhythmbox3 -y
-flatpak install flathub org.raspberrypi.rpi-imager -y
-flatpak install flathub com.authy.Authy
+flatpak install -y flathub \
+com.github.tchx84.Flatseal \
+org.inkscape.Inkscape \
+org.gimp.GIMP \
+org.mozilla.firefox \
+org.kicad.KiCad \
+org.audacityteam.Audacity \
+org.videolan.VLC \
+com.bitwarden.desktop \
+com.slack.Slack \
+us.zoom.Zoom \
+org.gnome.Cheese \
+org.signal.Signal \
+org.shotcut.Shotcut \
+com.github.micahflee.torbrowser-launcher \
+com.obsproject.Studio \
+org.libreoffice.LibreOffice \
+org.gpodder.gpodder \
+md.obsidian.Obsidian \
+org.gnome.Rhythmbox3 \
+org.raspberrypi.rpi-imager \
+com.authy.Authy
+#flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
+#flatpak install flathub org.darktable.Darktable  # font issue
 ```
 optional
 
