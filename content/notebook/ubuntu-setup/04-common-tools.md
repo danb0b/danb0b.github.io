@@ -89,6 +89,11 @@ sudo snap install hugo --channel=extended
 sudo snap remove firefox
 ```
 
+### Ubuntu Mainline
+
+sudo add-apt-repository ppa:cappelikan/ppa
+sudo apt update && sudo apt install mainline
+
 ## Packages with options or multiple setup lines
 
 ### Thunderbird
