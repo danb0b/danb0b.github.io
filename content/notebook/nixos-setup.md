@@ -98,3 +98,10 @@ environment.systemPackages = with pkgs; [
     ];
   })
 ];
+
+
+## Home Manager
+
+### Installation
+
+<https://nix-community.github.io/home-manager/index.html#sec-install-standalone>
