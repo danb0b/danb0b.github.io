@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "git.confirmSync": false,
+    "pymakr.devices.configs": {
+        "serial:///dev/ttyUSB0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "pymakr.misc.notifications": {
+        "Uploading a project will delete all existing files on the device before uploading the project folder. After uploading a project, you can start it by restarting the device. For faster uploads without file deletion, please put the device in dev mode.": "Don't show again",
+        "ttyUSB0 / unknown seems to be busy. Do you wish restart it in safe mode": "No and don't ask again",
+        "Could not safeboot device. Please hard reset the device and verify that a shield is installed.": "Don't show again",
+        "A terminal for ttyUSB0 / unknown already exists.": "No and don't ask again",
+        "A terminal for ttyUSB0 / OLED-and-Graphing already exists.": "No and don't ask again"
+    },
+    "editor.fontSize": 12,
+    "markdownlint.config": {
+        "default": true,
+        "MD007": { "indent": 4 }
+    },
+    "markdown.extension.orderedList.autoRenumber": false,
+    "markdown.extension.list.indentationSize": "inherit",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.startupEditor": "none",
+    "extensions.ignoreRecommendations": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.enableSmartCommit": true,
+    "markdown.experimental.editor.pasteLinks.enabled": false,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.orderedList.marker": "one",
+    "files.hotExit": "off"
+}
