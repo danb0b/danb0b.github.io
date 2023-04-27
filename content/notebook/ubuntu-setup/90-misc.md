@@ -55,3 +55,10 @@ Steps found [here](https://forums.lenovo.com/t5/Ubuntu/ThinkPad-Hybrid-USB-C-wit
 
 <https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu>
 
+## Remove
+
+There were errors related to newer kernels in 23.04
+
+```bash
+sudo displaylink-installer uninstall 
+```
