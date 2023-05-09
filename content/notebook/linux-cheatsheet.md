@@ -363,6 +363,31 @@ sudo dmidecode -t4 # Processor
 sudo dmidecode -t1 # System
 ```
 
+
+## Trash
+
+
+Files can be stuck in ~/.local/share/Trash/expunged when you delete from Nautilus a folder that belongs to you, but contains files which are belong to another user, and it is tricky for Nautilus to handle this situation correctly. To delete them try to use:
+
+```bash
+sudo -i
+rm -rv /home/<desired_user_name>/.local/share/Trash/expunged/*
+exit
+```
+
+## octal file permissions
+
+```bash
+stat /path/to/filename
+```
+
+```bash
+stat -c '%A %a %n' /path/to/filename
+```
+
+## Drives
+
+
 ### Hard drive information
 
 * <https://devconnected.com/how-to-list-disks-on-linux/>
@@ -371,7 +396,7 @@ sudo dmidecode -t1 # System
 list disks with ```lsblk```
 
 ```bash
-lsblk -f
+lsblk -f #list device details like uuid
 sudo lshw -class disk
 sudo fdisk -l
 sudo hwinfo --disk
@@ -395,30 +420,7 @@ sudo nvme smart-log /dev/nvme0n1
 sudo nvme id-ctrl /dev/nvme0n1
 ```
 
-## Trash
-
-
-59
-
-Files can be stuck in ~/.local/share/Trash/expunged when you delete from Nautilus a folder that belongs to you, but contains files which are belong to another user, and it is tricky for Nautilus to handle this situation correctly. To delete them try to use:
-
-```bash
-sudo -i
-rm -rv /home/<desired_user_name>/.local/share/Trash/expunged/*
-exit
-```
-
-## octal file permissions
-
-```bash
-stat /path/to/filename
-```
-
-```bash
-stat -c '%A %a %n' /path/to/filename
-```
-
-## Drives
+### Mounting
 
 From [here](https://linuxhint.com/how-to-mount-drive-in-ubuntu/)
 
@@ -427,13 +429,31 @@ From [here](https://linuxhint.com/how-to-mount-drive-in-ubuntu/)
 sudo fdisk -l
 #if you know the disk you want info about:
 sudo fdisk -l /dev/sdd 
-sudo mount /dev/sdd1 /mount/danaukes/backup
+sudo mount /dev/sdd1 /media/backup
 # unmount
-sudo umount /mount/danaukes/backup
+sudo umount /media/backup
 # unmount all
 sudo umount -a
 # force unmount
-sudo umount -f /mount/danaukes/backup
+sudo umount -f /media/backup
+```
+
+### mounting with fstab
+
+- <https://linuxconfig.org/how-fstab-works-introduction-to-the-etc-fstab-file-on-linux>
+- <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
+
+you can get most information from lsblk if you have temporarily mounted it...
+
+```bash
+#UUID=<yourUUID>                           <mount_location> <filesystem>  <options>  <dump(use 0)>  <order(use 2)>
+UUID=24df9215-550f-4ca0-a9f1-8f0efd2  /media/backup    ext4          defaults   0       2
+```
+
+once you have edited, check by running
+
+```bash
+mount -a
 ```
 
 ## Recursively find storage space of a directory
