@@ -2,6 +2,10 @@
 title: Arduino IDE setup
 ---
 
+```bash
+sudo apt install fuse3 libfuse2 libfuse3-3
+```
+
 ## board libraries
 
 - <https://dl.espressif.com/dl/package_esp32_index.json>
@@ -10,6 +14,11 @@ title: Arduino IDE setup
 
 library manager
 dynamixel2arduino
+
+## Board manager
+
+ESP32
+OpenCM9.04
 
 ## Solving the Compiler error in linux
 
