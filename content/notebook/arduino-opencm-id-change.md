@@ -18,43 +18,26 @@ This code can be used to change the id of an XL-320 servo from 1 to 2.
 
 #include <DynamixelSDK.h>
 
-#define ADDR_PRO_TORQUE_ENABLE          24                
-#define ADDR_PRO_GOAL_POSITION          30
-#define ADDR_PRO_PRESENT_POSITION       37
-
 #define PROTOCOL_VERSION                2.0                
 
 #define DXL_ID                          1                  
 #define BAUDRATE                        1000000
 #define DEVICENAME                      "1"                
 
-#define TORQUE_ENABLE                   1                   
-#define TORQUE_DISABLE                  0                   
-#define DXL_MINIMUM_POSITION_VALUE      100                 
-#define DXL_MAXIMUM_POSITION_VALUE      900                 
-#define DXL_MOVING_STATUS_THRESHOLD     20                  
-
-#define ESC_ASCII_VALUE                 0x1b
-
-
 
 void setup() {
   Serial.begin(115200);
   while(!Serial);
 
-
   Serial.println("Start..");
 
   dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler(DEVICENAME);
-
   dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
 
   int index = 0;
   int dxl_comm_result = COMM_TX_FAIL;             
-  int dxl_goal_position[2] = {DXL_MINIMUM_POSITION_VALUE, DXL_MAXIMUM_POSITION_VALUE};
 
   uint8_t dxl_error = 0;
-  int16_t dxl_present_position = 0;
   uint8_t my_id;
 
   if (portHandler->openPort())
