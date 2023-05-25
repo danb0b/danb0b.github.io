@@ -23,6 +23,7 @@ sudo apt install -y synaptic kdiff3 samba ffmpeg qdirstat net-tools wireguard op
 # sudo apt install -y clementine # not my favorite
 sudo apt install -y darktable
 sudo apt install -y wkhtmltopdf
+sudo apt install -y exfat-fuse exfatprogs
 ```
 
 ## Flatpak
