@@ -4,10 +4,6 @@ title: ubuntu and linux
 
 A lot of inside baseball on things I need to remember
 
-```{=html}
-<!--more-->
-```
-
 # Ubuntu and Linux
 
 ## Misc
