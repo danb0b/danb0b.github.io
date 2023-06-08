@@ -2,6 +2,108 @@
 title: ZFS info
 ---
 
+
+https://illumos.org/books/zfs-admin/
+
+https://blog.victormendonca.com/2020/11/03/zfs-for-dummies/
+https://www.willhaley.com/blog/zfs-cheat-sheet/
+
+```bash
+sudo apt install -y zfsutils-linux
+sudo fdisk -l
+lsblk
+lsblk -f
+```
+
+## permission
+
+sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount storage
+sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount coldstorage
+sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount coldstorage/nas
+
+## pools
+
+sudo zpool create -f storage mirror /dev/sdb /dev/sdc
+sudo zpool create -f coldstorage mirror /dev/sda /dev/sde
+sudo zpool create -f coldstorage mirror /dev/sda /dev/sdb
+
+zpool status
+zpool status -v
+zpool list
+
+sudo zpool destroy <pool-name>
+
+sudo zpool mount coldstorage
+sudo zpool unmount coldstorage
+sudo zpool online coldstorage
+sudo zpool offline coldstorage
+sudo zpool detatch coldstarge /dev/sdb1
+sudo zpool replace -f coldstorage 11380073923137715223 /dev/sdb
+
+
+## import / export
+
+sudo zpool export coldstorage
+sudo zpool import coldstorage -d /dev/
+
+## filesystems
+
+<https://docs.oracle.com/cd/E19253-01/819-5461/gfkco/index.html>
+
+sudo zfs create coldstorage/nas
+zfs set readonly=on coldstorage/nas
+
+zfs get mountpoint coldstorage/nas
+
+zfs list
+
+sudo zfs rollback <pool>/<datastore>@<identifier>
+sudo zfs rollback coldstorage/nas@test
+
+on colorado
+sudo zpool create -f coldstorage mirror /dev/sda /dev/sdb
+sudo zfs create coldstorage/nas
+
+
+
+
+zfs send -v -i storage@test storage@2022-05-27 | ssh colorado zfs recv coldstorage/nas
+
+
+sudo zfs set readonly=on coldstorage/nas
+sudo zfs rollback coldstorage/nas@test
+
+
+## List all data
+
+zfs list
+zfs list -t filesystem
+zfs list -t snapshot
+
+## snapshots
+
+
+zfs snapshot <pool>@<data>/<identifier>
+
+zfs snapshot "storage@$(date +"%Y-%m-%d_%H-%M")"
+
+zfs send -v -i <last_snapshot> <current-snapshot> | ssh <secondary-machine> zfs recv <pool/data>
+zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs recv coldstorage/nas
+
+## Sending recursive snapshots to another locally
+
+zfs send -R -v storage@test | zfs recv -F coldstorage/nas
+
+## Sending recursive snapshots to another datastore remotely
+
+zfs send -R -v storage@test | ssh colorado zfs recv -F coldstorage/nas
+
+## debugging
+
+sudo dmesg | grep -i zfs
+
+## External links
+
 - [can I zfs send to a zfs pool of a different size? - Google Search](https://www.google.com/search?client=firefox-b-1-d&q=can+I+zfs+send+to+a+zfs+pool+of+a+different+size%3F)
 - [replication - how to one-way mirror an entire zfs pool to another zfs pool - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/263677/how-to-one-way-mirror-an-entire-zfs-pool-to-another-zfs-pool)
 - [How to zfs send to another computer ssh - Google Search](https://www.google.com/search?q=How+to+zfs+send+to+another+computer+ssh&client=firefox-b-1-d&ei=pqdrZJ2eLpL9kPIP38u4kA4&ved=0ahUKEwidiaH3uon_AhWSPkQIHd8lDuIQ4dUDCBA&uact=5&oq=How+to+zfs+send+to+another+computer+ssh&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAE6CggAEEcQ1gQQsAM6CAgAEIoFEJECOgUIABCABDoLCC4QgAQQsQMQ1AI6CAgAEIAEELEDOgYIABAWEB46CAgAEBYQHhAPOggIABCKBRCGAzoFCCEQqwI6CAghEBYQHhAdOgcIIRCgARAKSgQIQRgAUMYhWOFbYOtcaARwAXgAgAGRAYgBuh6SAQUxMS4yNZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp)
