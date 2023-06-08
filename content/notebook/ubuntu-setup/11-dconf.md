@@ -53,6 +53,7 @@ unmaximize=@as []
 EOT
 
 dconf load /org/gnome/desktop/wm/keybindings/ < keybindings.dconf
+rm keybindings.dconf
 
 cat <<EOT >> media-keys.dconf
 [/]
@@ -60,7 +61,7 @@ home=['<Super>e']
 EOT
 
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys.dconf
-
+rm media-keys.dconf
 
 cat <<EOT >> dash-to-dock.dconf
 [/]
@@ -71,10 +72,17 @@ show-trash=false
 EOT
 
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.dconf
-
-rm keybindings.dconf
-rm media-keys.dconf
 rm dash-to-dock.dconf
+
+cat <<EOT >> interface.dconf
+[/]
+text-scaling-factor=0.85
+EOT
+
+dconf load /org/gnome/desktop/interface/ < interface.dconf
+rm interface.dconf
+
+
 ```
 
 
