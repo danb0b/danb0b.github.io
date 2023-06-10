@@ -63,7 +63,8 @@ org.gpodder.gpodder \
 md.obsidian.Obsidian \
 org.gnome.Rhythmbox3 \
 org.raspberrypi.rpi-imager \
-com.authy.Authy
+com.authy.Authy \
+com.jetpackduba.Gitnuro \
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
 ```
