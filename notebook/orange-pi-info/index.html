@@ -48,9 +48,7 @@
 </span></span><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#34;overlays=i2c3&#34;</span> <span style=color:#111>|</span> sudo tee -a /boot/orangepiEnv.txt <span style=color:#f92672>&amp;&amp;</span> sudo reboot now
 </span></span></code></pre></div><p>once restarted run</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo i2cdetect -y <span style=color:#ae81ff>3</span>
 </span></span></code></pre></div><h2 id=working-with-io>Working with I/O</h2><p>you will need some prerequisites:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#required</span>
-</span></span><span style=display:flex><span>sudo apt install -y python3-pip swig
-</span></span><span style=display:flex><span><span style=color:#75715e>#required</span>
-</span></span><span style=display:flex><span>sudo apt install -y libpython3-dev
+</span></span><span style=display:flex><span>sudo apt install -y python3-pip swig python3-dev python3-setuptools
 </span></span></code></pre></div><h2 id=optional-install-wiringop>(optional) Install WiringOP</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>orangepi@orangepi:~$ sudo apt update
 </span></span><span style=display:flex><span>orangepi@orangepi:~$ sudo apt install -y git
 </span></span><span style=display:flex><span>orangepi@orangepi:~$ git clone https://github.com/orangepi-xunlong/wiringOP
