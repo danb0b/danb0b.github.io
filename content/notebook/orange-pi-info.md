@@ -79,9 +79,9 @@ harden ssh:
 sudo apt update && sudo apt install -y tmux
 ```
 
-1. (optional) install tailscale
-
 then open a new tmux window using the ```tmux``` command and upgrade your packages
+
+1. (optional) install tailscale
 
 you can use [these instructions](/notebook/ubuntu-setup/01.2-tailscale/)
 
