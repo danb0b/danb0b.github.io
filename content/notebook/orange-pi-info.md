@@ -114,9 +114,7 @@ you will need some prerequisites:
 
 ```bash
 #required
-sudo apt install -y python3-pip swig
-#required
-sudo apt install -y libpython3-dev
+sudo apt install -y python3-pip swig python3-dev python3-setuptools
 ```
 
 ## (optional) Install WiringOP
