@@ -63,41 +63,41 @@ With these changes you should be able to connect in a headless way
 
 1. SSH
 
-```
-ssh orangepi@192.168.0.141
-#default password is orangepi
-```
+    ```
+    ssh orangepi@192.168.0.141
+    #default password is orangepi
+    ```
 
-harden ssh:
+    harden ssh:
 
-* <https://danaukes.com/notebook/ssh/ssh-reference/>
-* <https://danaukes.com/notebook/ssh/disable-password-ssh/>
+    * <https://danaukes.com/notebook/ssh/ssh-reference/>
+    * <https://danaukes.com/notebook/ssh/disable-password-ssh/>
 
 1. install tmux
 
-```bash
-sudo apt update && sudo apt install -y tmux
-```
+    ```bash
+    sudo apt update && sudo apt install -y tmux
+    ```
 
-then open a new tmux window using the ```tmux``` command and upgrade your packages
+    then open a new tmux window using the ```tmux``` command and upgrade your packages
 
 1. (optional) install tailscale
 
-you can use [these instructions](/notebook/ubuntu-setup/01.2-tailscale/)
+    you can use [these instructions](/notebook/ubuntu-setup/01.2-tailscale/)
 
 1. (optional, can do later) Upgrade
 
-```bash
-sudo apt upgrade -y
-```
+    ```bash
+    sudo apt upgrade -y
+    ```
 
-use ```ctrl+b``` then ```d``` to exit and let the install run.  You will need to check in periodically to intervene
+    use ```ctrl+b``` then ```d``` to exit and let the install run.  You will need to check in periodically to intervene
 
 1. (Optional) Set up orange pi config
 
-```bash
-sudo orangepi-config
-```
+    ```bash
+    sudo orangepi-config
+    ```
 
 ## Update systems
 
