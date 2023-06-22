@@ -1,0 +1,113 @@
+---
+title: Annual Backup Process
+tags: 
+  - ubuntu
+  - linux
+  - computer
+  - backup
+---
+
+## Refresh documents
+
+- Update cv
+- Update Mendeley
+- Update idealab website
+
+## Online Storage
+
+- Backup onedrive
+- Backup google drive
+- Backup Dropbox
+- Move old "active" idealab project folders to archive
+- Sort downloads folder
+- Sort "to sort" folders
+- sort syncthing folders
+- go through starred email
+- Archive email
+- Download zoom videos
+
+## Courses - General
+
+- backup and zip class folders
+- Backup canvas
+- Backup slack
+- Download grades
+- Backup final submissions
+- move backup canvas to sandbox
+    - unpublish assignments
+
+## Foldable Class
+
+- Copy git repositories from foldable
+- Download YouTube videos from foldable
+- backup mendeley
+- unpublish assignments on foldable-robotics website
+
+## Deployable Class
+
+- unpublish assignments on foldable-robotics website
+- Copy git repositories from foldable
+- Download YouTube videos from foldable
+
+## Security
+
+- backup authenticator app config to separate device(s).
+- Backup photos
+- Find best of last year's photos
+- Find best of best photos  
+- Arrange this year's photos
+- backup password manager
+
+## Misc
+
+- Backup Sara computers
+- back up contacts  
+- Organize and sort contacts
+- Download past years statements
+- check and update scans of important documents
+- reset passwords
+    - wifi
+    - computer
+    - ssh
+- backup .ssh/config
+- backup /etc/hosts
+- backup .config
+- backup .bashrc
+    - netplan
+    - podcasts
+    - thunderbird
+    - k9 config
+    - docker stuff
+    - keys
+    - texmf directory
+    - browser bookmarks
+    - samba credentials
+
+## ZFS
+
+- take a zfs snapshot
+- send to backup computer
+- take a zenbook backup
+- backup NAS to usb drive
+
+----
+
+## Notes
+
+## Comsol
+
+- Delete Solutions in .mph files: <https://www.youtube.com/watch?v=MgZak4oJ_Ck>
+
+## Ansys
+
+- remove .rst (results) files
+
+discussion: <https://www.researchgate.net/post/What-is-the-use-of-the-extension-files-generated-in-ansys>
+
+## Animations
+
+- remove individual screenshots once the video has been rendered
+
+## Raw files
+
+compress .avi to .mp4

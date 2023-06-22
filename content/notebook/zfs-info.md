@@ -102,6 +102,24 @@ zfs send -R -v storage@test | ssh colorado zfs recv -F coldstorage/nas
 
 sudo dmesg | grep -i zfs
 
+
+## backup process
+
+log in to primary
+
+sudo apt update && sudo apt full upgrade -y
+
+zfs snapshot "storage@$(date +"%Y-%m-%d_%H-%M")"
+zfs list -t snapshot
+
+check secondary machine for last snapshot
+
+send it over
+
+zfs send -v -i <last_snapshot> <current-snapshot> | ssh <secondary-machine> zfs recv <pool/data>
+zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs recv coldstorage/nas
+
+
 ## External links
 
 - [can I zfs send to a zfs pool of a different size? - Google Search](https://www.google.com/search?client=firefox-b-1-d&q=can+I+zfs+send+to+a+zfs+pool+of+a+different+size%3F)
