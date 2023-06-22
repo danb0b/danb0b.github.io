@@ -17,12 +17,15 @@ lsblk -f
 
 ## permission
 
+```bash
 sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount storage
 sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount coldstorage
 sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount coldstorage/nas
+```
 
 ## pools
 
+```bash
 sudo zpool create -f storage mirror /dev/sdb /dev/sdc
 sudo zpool create -f coldstorage mirror /dev/sda /dev/sde
 sudo zpool create -f coldstorage mirror /dev/sda /dev/sdb
@@ -39,17 +42,21 @@ sudo zpool online coldstorage
 sudo zpool offline coldstorage
 sudo zpool detatch coldstarge /dev/sdb1
 sudo zpool replace -f coldstorage 11380073923137715223 /dev/sdb
+```
 
 
 ## import / export
 
+```bash
 sudo zpool export coldstorage
 sudo zpool import coldstorage -d /dev/
+```
 
 ## filesystems
 
 <https://docs.oracle.com/cd/E19253-01/819-5461/gfkco/index.html>
 
+```bash
 sudo zfs create coldstorage/nas
 zfs set readonly=on coldstorage/nas
 
@@ -59,65 +66,80 @@ zfs list
 
 sudo zfs rollback <pool>/<datastore>@<identifier>
 sudo zfs rollback coldstorage/nas@test
+```
 
 on colorado
+
+```bash
 sudo zpool create -f coldstorage mirror /dev/sda /dev/sdb
 sudo zfs create coldstorage/nas
-
-
-
 
 zfs send -v -i storage@test storage@2022-05-27 | ssh colorado zfs recv coldstorage/nas
 
 
 sudo zfs set readonly=on coldstorage/nas
 sudo zfs rollback coldstorage/nas@test
+```
 
 
 ## List all data
 
+```bash
 zfs list
 zfs list -t filesystem
 zfs list -t snapshot
+```
 
 ## snapshots
 
 
+```bash
 zfs snapshot <pool>@<data>/<identifier>
 
 zfs snapshot "storage@$(date +"%Y-%m-%d_%H-%M")"
 
 zfs send -v -i <last_snapshot> <current-snapshot> | ssh <secondary-machine> zfs recv <pool/data>
 zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs recv coldstorage/nas
+```
 
 ## Sending recursive snapshots to another locally
 
+```bash
 zfs send -R -v storage@test | zfs recv -F coldstorage/nas
+```
 
 ## Sending recursive snapshots to another datastore remotely
 
+```bash
 zfs send -R -v storage@test | ssh colorado zfs recv -F coldstorage/nas
+```
 
 ## debugging
 
+```bash
 sudo dmesg | grep -i zfs
+```
 
 
 ## backup process
 
 log in to primary
 
+```bash
 sudo apt update && sudo apt full upgrade -y
 
 zfs snapshot "storage@$(date +"%Y-%m-%d_%H-%M")"
 zfs list -t snapshot
+```
 
 check secondary machine for last snapshot
 
 send it over
 
+```bash
 zfs send -v -i <last_snapshot> <current-snapshot> | ssh <secondary-machine> zfs recv <pool/data>
 zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs recv coldstorage/nas
+```
 
 
 ## External links
