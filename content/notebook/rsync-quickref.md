@@ -91,7 +91,6 @@ without the hidden files
 | --delete-excluded             | also delete excluded files from dest dirs                                                                                   |
 | --dry-run or -n               | dry run option                                                                                                              |
 
-
 ## Exclude file
 
 an example for my home backup
