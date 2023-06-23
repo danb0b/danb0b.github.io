@@ -11,7 +11,7 @@ weight: 200
 Derived from [here](https://blog.swmansion.com/limiting-failed-ssh-login-attempts-with-fail2ban-7da15a2313b):
 
 ```bash
-sudo apt install fail2ban
+sudo apt install -y fail2ban
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban 
 sudo systemctl status fail2ban 
