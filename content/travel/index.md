@@ -1,0 +1,21 @@
+---
+title: Travel
+---
+
+### Monday June 26th
+
+Headed to Minneapolis from Phoenix with Dan, Ben, Sam, and Max.  Mom finished up picking up the house, cleaning, and washing the walls, while we headed to Aunt Alison and Nick's.
+
+### Tuesday June 27th
+
+We went to Lucy lake, did some paddle boarding.  stayed with max for the second round of paddle boarding while he played in the sand and we share an ice cream sandwich  met up with Mike Stern and Katrina and family at a local brewery, had empanadas and tacos.
+
+### Wednesday June 28th
+
+I caught up on a little work, reading Yuhao's thesis in the morning. took the kids to the park. Sammy had a meltdown and had to come home early. I cooked sausages and corn on the grill.
+
+### Thursday June 29th
+
+went to lake minnewashta in the morning, walked around a little bit by myself, pushed the kids in the swing
+
+
