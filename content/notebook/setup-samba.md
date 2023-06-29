@@ -21,10 +21,10 @@ sudo nano /etc/samba/smb.conf
 ```
 
 ```
-# Adrian's share
-[happy]
-  comment = Welcome to Happyland
-  path = ~/happy
+# Networked Attached Storage Share
+[nas]
+  comment = welcome to NAS
+  path = /storage/nas
   read only = no
   guest ok = no
   browsable = yes
