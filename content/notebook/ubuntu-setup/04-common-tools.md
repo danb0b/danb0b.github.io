@@ -65,6 +65,7 @@ org.gnome.Rhythmbox3 \
 org.raspberrypi.rpi-imager \
 com.authy.Authy \
 com.jetpackduba.Gitnuro \
+org.kiwix.desktop \
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
 ```
