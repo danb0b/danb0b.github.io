@@ -63,6 +63,10 @@ git status
 git diff
 ```
 
+```bash
+git diff --color=always <commit hash> | less -r
+```
+
 ## Pushing
 
 Push a quick commit:
