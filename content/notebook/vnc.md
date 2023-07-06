@@ -64,6 +64,9 @@ vncserver -kill :1
 sudo systemctl start vncserver@1
 sudo systemctl status vncserver@1
 ```
+## Port forward to VNC
+
+ssh -L 59000:localhost:5901 -C -N <servername>
 
 ## External Links
 
