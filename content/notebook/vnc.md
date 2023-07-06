@@ -66,7 +66,9 @@ sudo systemctl status vncserver@1
 ```
 ## Port forward to VNC
 
+```bash
 ssh -L 59000:localhost:5901 -C -N <servername>
+```
 
 ## External Links
 
