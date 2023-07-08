@@ -1,5 +1,6 @@
 ---
-title: 00-Minnesota
+title: Pre-Trip Visit to Minnesota
+date: 2023-06-23
 ---
 
 ## Minnesota
@@ -135,3 +136,14 @@ We went to the lake all day, came home for a break, and went on an evening cruis
 We went to the fourth of July parade.  We lit fireworks at home, and while captain nuclear was underwhelming, the flaming frog was great.  We went to the fireworks overlooking Lake Minnetonka in Excelsior, and made it home quite late.
 
 ### Wednesday, July 5
+
+Today was a recovery day; everyone slept in.  Sara and I worked, the kids played and watched some "octonauts" so we could begin preparing for our trip, and we endured a rough patch with Sam & August because they were so tired.  Made some major headway on Harry Potter and the Prisoner of Azkaban though!  Ate BBQ from Buddy Boy.  Sara taught the kids how to blow bubbles with bubble gum.
+
+### Thursday, July 6.  
+
+Last day in Minnesota.  Final Packing, final syncing of computers (took longer than I would have hoped).  The kids played well most of the day, we ate leftovers, and generally took it easy.  Blew bubbles.
+
+Headed to the airport around 3pm.  It was rough for the kids, especially Astrid.  
+
+Checkin, security, and boarding went relatively smoothly.  Our carrier was Condor, and there was a bit of a panic as to whether we would actually be fed on the plane or if we would need to buy our own overpriced snacks.  Fortunately, dinner and breakfast was included!
+
