@@ -1,5 +1,5 @@
 ---
-title: Pre-Trip Visit to Minnesota
+title: Pre-Trip to Minnesota
 date: 2023-06-23
 ---
 
