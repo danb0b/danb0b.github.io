@@ -3,6 +3,13 @@ title: Nice, France
 date: 2023-07-07
 ---
 
+
+![caption](/images/travel/PXL_20230707_082005775.jpg) 
+![caption](/images/travel/PXL_20230707_152815813.MP.jpg) 
+![caption](/images/travel/PXL_20230707_164446447.jpg) 
+![caption](/images/travel/PXL_20230707_164456997.jpg) 
+![caption](/images/travel/PXL_20230707_164506132.MP.jpg)
+
 ### Friday, July 7
 
 We arrived Friday morning in Frankfurt.  Sara didn't sleep much at all.  I got a bit of sleep. but we're talking maybe 1-2 hours?  The kids were zombies when they had to leave the plane.

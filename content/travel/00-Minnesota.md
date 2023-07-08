@@ -141,6 +141,9 @@ Today was a recovery day; everyone slept in.  Sara and I worked, the kids played
 
 ### Thursday, July 6.  
 
+![caption](/images/travel/PXL_20230706_205824641.jpg) 
+![caption](/images/travel/PXL_20230706_210211799.MP.jpg) 
+
 Last day in Minnesota.  Final Packing, final syncing of computers (took longer than I would have hoped).  The kids played well most of the day, we ate leftovers, and generally took it easy.  Blew bubbles.
 
 Headed to the airport around 3pm.  It was rough for the kids, especially Astrid.  
