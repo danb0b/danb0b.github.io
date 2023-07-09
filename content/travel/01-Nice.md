@@ -4,7 +4,7 @@ date: 2023-07-07
 ---
 
 
-## Nice, France
+<!-- ## Nice, France -->
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bEfAwkkqDugbkyTRCxiFMt3YXHrM3XM&ehbc=2E312F" width="640" height="480"></iframe>
 

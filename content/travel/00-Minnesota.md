@@ -3,7 +3,7 @@ title: Pre-Trip to Minnesota
 date: 2023-06-23
 ---
 
-## Minnesota
+<!-- ## Minnesota -->
 
 ### Monday June 26th
 
