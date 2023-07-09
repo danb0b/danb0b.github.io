@@ -4,6 +4,10 @@ date: 2023-07-07
 ---
 
 
+## Nice, France
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bEfAwkkqDugbkyTRCxiFMt3YXHrM3XM&ehbc=2E312F" width="640" height="480"></iframe>
+
 ![caption](/images/travel/PXL_20230707_082005775.jpg) 
 ![caption](/images/travel/PXL_20230707_152815813.MP.jpg) 
 ![caption](/images/travel/PXL_20230707_164446447.jpg) 
@@ -23,3 +27,15 @@ We arrived in Nice minus Sam's bag.  The AirBNB doesn't have a street number so 
 We got our internet working and before we collapsed, went down to the port to meet up with Mark and Shayna.  They have been here over 2 weeks, and were able to orient us pretty quickly.  We got a quick drink / snack, found some gelato for the kids, got tickets for the bus, identified the famous free sparkling water station, and took a bus back to our AirBNB, where we collapsed pretty quickly at 6pm. 
 
 It was a really windy day, but hot, and there was some debate in my mind whether we should use the A/C or leave the windows open.  The AirBNB Host said there could be mosquitos, but we kept them open anyways.  I may have gotten some bug bites and probably didn't sleep as well, but I did sleep 12 hours.
+
+### Saturday, July 8
+
+We walked the city with Mark and Shayna across the whole day.  The map above spells out our route.  Some features included:
+
+A secret walkway down to the city
+A children's park
+Taking the tram to Mark and Shayna's apartment
+The fountains where the kids played in the water
+Our walk through the Vielle Ville, then along the quay towards the port
+
+We ended with dinner a la fresca at our place.  The kids stayed up late.
