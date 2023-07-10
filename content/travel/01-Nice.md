@@ -32,10 +32,10 @@ It was a really windy day, but hot, and there was some debate in my mind whether
 
 We walked the city with Mark and Shayna across the whole day.  The map above spells out our route.  Some features included:
 
-A secret walkway down to the city
-A children's park
-Taking the tram to Mark and Shayna's apartment
-The fountains where the kids played in the water
-Our walk through the Vielle Ville, then along the quay towards the port
+* A secret walkway down to the city
+* A children's park
+* Taking the tram to Mark and Shayna's apartment
+* The fountains where the kids played in the water
+* Our walk through the Vielle Ville, then along the quay towards the port
 
 We ended with dinner a la fresca at our place.  The kids stayed up late.
