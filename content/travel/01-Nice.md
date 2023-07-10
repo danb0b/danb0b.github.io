@@ -39,3 +39,7 @@ We walked the city with Mark and Shayna across the whole day.  The map above spe
 * Our walk through the Vielle Ville, then along the quay towards the port
 
 We ended with dinner a la fresca at our place.  The kids stayed up late.
+
+### Sunday July 9th
+
+On our second full Day in Nice, we went to Monaco.  Mark and Shayna stayed in Nice.  We walked down from our house to villefranche sur mer, and hopped on the bus.  We walked along the esplanade, visited the market where we had lunch, drank coffees in the plaza, walked up to the palace and vielle ville, walked through an exotic garden on a path high on a cliff above the sea, wound our way down to a secret beach(that was closed), and had a dip in the ocean along a concrete pier.  The water felt great, but without life preservers, the big waves and deep water were too dangerous for more than one kid to be in the water at a time.  We walked through the vielle ville on our way back and each got a gelato. On our way back, we took the local train.
