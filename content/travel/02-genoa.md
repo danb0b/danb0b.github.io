@@ -31,6 +31,8 @@ And this was before we even got there!
 
 ### Other Problems
 
+Other things we found out after we arrived
+
 * Mold on bathroom wall
 * various internet services were blocked:
     * whatsapp
@@ -41,3 +43,12 @@ And this was before we even got there!
 * no soap provided.  No A/C (which was not necessarily expected, but it was really uncomfortable)
 * The french windows with the built-in seats below them are quite dangerous for the young ones.
 * No salt and pepper, or any condiments.  EVERY AirBNB has salt and pepper, cmon!
+
+## Tuesday, July 11
+
+* First day of the conference.  Mostly bio-related talks.
+* Met up with my old advisor, Mark, for lunch.
+* Got a behind-the-scenes tour of the Aquarium where the conference was held.  We got to see lots of tanks
+* The welcome reception was really nice, but outside, and really hot.
+
+Sounds like mom and the kids had a blast in cinque terra.
