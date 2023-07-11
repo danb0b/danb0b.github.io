@@ -31,12 +31,11 @@ And this was before we even got there!
 
 ### Other Problems
 
-Mold on bathroom wall
-various internet services were blocked:
-
-* whatsapp
-* github
-* google voice
+* Mold on bathroom wall
+* various internet services were blocked:
+    * whatsapp
+    * github
+    * google voice
 * the pictures from AirBNB were old and not reflective of the current state of the place
 * The instructions for entering the apartment were not clear.
 * no soap provided.  No A/C (which was not necessarily expected, but it was really uncomfortable)
