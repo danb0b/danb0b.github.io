@@ -52,3 +52,9 @@ Other things we found out after we arrived
 * The welcome reception was really nice, but outside, and really hot.
 
 Sounds like mom and the kids had a blast in cinque terra.
+
+## Wednesday, July 12
+
+Day 2 of the conference was great.  The focus of the day was more robotics related.  Oussama Khatib presented after lunch on Ocean 1K, and Anson presented his work right after; his presentation went well!  We got coffee and met Sara and the kids for gelato.  Anson and his sister then walked around with me and the kids for a bit, took pictures by the fountain, and then I headed back to the conference for the banquet.
+
+The banquet was at an impressive estate that appears to be a wedding venue.  There were drinks and appetizers, some vocalists sang, dinner, dessert, and then dancing.  I went home after dessert, which was served around 10:45, after talking to Nick and Mike.
