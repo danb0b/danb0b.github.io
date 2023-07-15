@@ -5,6 +5,21 @@ date: 2023-07-10
 
 ## Monday July 10th
 
+
+
+
+![caption](/images/travel/PXL_20230710_071912119.jpg) 
+
+![caption](/images/travel/PXL_20230710_132102579.MP.jpg) 
+
+![caption](/images/travel/PXL_20230710_145554633.jpg) 
+
+![caption](/images/travel/PXL_20230710_153222447.jpg) 
+
+![caption](/images/travel/PXL_20230710_161400646.jpg) 
+
+![caption](/images/travel/PXL_20230710_181809770.jpg)
+
 We woke up and packed our bags in preparation for checking out.  Our Airbnb hosts met us at 9:45 and offered to take some of our bags down to the bus stop.  It had been a very pleasant stay and that act of generosity was much appreciated
 
 I went with the car, and when Sara and the kids arrived down the hill she asked, "did you bring the sandwiches?" We looked at each other, and after looking at the bus schedule she ran back up the hill and returned just as our bus was getting ready to go.  So much for staying cool.
@@ -46,6 +61,20 @@ Other things we found out after we arrived
 
 ## Tuesday, July 11
 
+
+
+![caption](/images/travel/PXL_20230711_151154793.MP.jpg) 
+
+![caption](/images/travel/PXL_20230711_151505262.MP.jpg) 
+
+![caption](/images/travel/PXL_20230711_154745115.jpg) 
+
+![caption](/images/travel/PXL_20230711_155118776.MP.jpg) 
+
+![caption](/images/travel/PXL_20230711_161350738.jpg) 
+
+![caption](/images/travel/PXL_20230711_162307999.MP.jpg)
+
 * First day of the conference.  Mostly bio-related talks.
 * Met up with my PhD advisor, Mark, for lunch.  Talked tech, sabbatical, and other fun stuff.
 * Got a behind-the-scenes tour of the Aquarium where the conference was held.  We got to see lots of tanks.
@@ -54,6 +83,24 @@ Other things we found out after we arrived
 Sounds like mom and the kids had a blast in cinque terra.
 
 ## Wednesday, July 12
+
+
+
+![caption](/images/travel/PXL_20230712_082226861.MP.jpg) 
+
+![caption](/images/travel/PXL_20230712_082758142.MP.jpg) 
+
+![caption](/images/travel/PXL_20230712_083741347.jpg) 
+
+![caption](/images/travel/PXL_20230712_103023251.jpg) 
+
+![caption](/images/travel/PXL_20230712_160215544.jpg) 
+
+![caption](/images/travel/PXL_20230712_165049872.jpg) 
+
+![caption](/images/travel/PXL_20230712_165312620.jpg) 
+
+![caption](/images/travel/PXL_20230712_175613867.jpg)
 
 Day 2 of the conference was great.  The focus of the day was more robotics related.  Oussama Khatib presented after lunch on Ocean 1K, and Anson presented his work right after; his presentation went well!  We got coffee and met Sara and the kids for gelato.  Anson and his sister then walked around with me and the kids for a bit, took pictures by the fountain, and then I headed back to the conference for the banquet.
 
@@ -64,6 +111,24 @@ The banquet was at an impressive estate that appears to be a wedding venue.  The
 Surprisingly, it rained overnight.
 
 ## Thursday, July 13
+
+
+
+![caption](/images/travel/PXL_20230713_094430456.MP.jpg) 
+
+![caption](/images/travel/PXL_20230713_094447815.MP.jpg) 
+
+![caption](/images/travel/PXL_20230713_094719449.MP.jpg) 
+
+![caption](/images/travel/PXL_20230713_094754069.jpg) 
+
+![caption](/images/travel/PXL_20230713_095830165.jpg) 
+
+![caption](/images/travel/PXL_20230713_172519365.jpg) 
+
+![caption](/images/travel/PXL_20230713_172624296.jpg) 
+
+![caption](/images/travel/PXL_20230713_173119541.jpg)
 
 The last day of the conference went quickly.  Kyujin Cho spoke first, and Olga Speck had a plenary talk after lunch.  Both were great, and I particularly liked learning about the "biomechanics of plants".  Something I haven't thought much about, but has a lot of relevance to some of  my teaching.
 

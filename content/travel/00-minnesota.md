@@ -63,7 +63,7 @@ We went to lake Minnewashta in the morning, walked around a little bit by myself
 
 ![caption](/images/travel/PXL_20230630_001533948.jpg)
 
-![caption](/images/travel/PXL_20230630_140253891.jpg)
+![caption](/images/travel/PXL_20230630_140255671.jpg)
 
 ![caption](/images/travel/PXL_20230630_184052954.jpg)
 
@@ -77,23 +77,25 @@ Spent the morning at home, walked to the park, had a water blaster fight, did th
 
 ![caption](/images/travel/PXL_20230701_023824389.jpg)
 
-![caption](/images/travel/PXL_20230701_040952016.jpg)
+![caption](/images/travel/IMG-20230701-WA0001.jpg)
 
 started the morning off with pancakes. headed to the lake around 11:00 and stayed most of the afternoon.  came home, let the kids play in the basement, began a new book, had pizza and finished Big hero 6.  Sara got in late.
 
 ### Sunday July 2nd
 
-![caption](/images/travel/PXL_20230702_214049797.jpg)
+![caption](/images/travel/PXL_20230702_213933518.jpg) 
 
-![caption](/images/travel/PXL_20230702_214133781.jpg)
+![caption](/images/travel/PXL_20230702_214049797.jpg) 
 
-![caption](/images/travel/PXL_20230702_215040320.jpg)
+![caption](/images/travel/PXL_20230702_215040320.jpg) 
 
-![caption](/images/travel/PXL_20230702_215914908.jpg)
+![caption](/images/travel/PXL_20230702_215914908.jpg) 
 
-![caption](/images/travel/PXL_20230702_221038179.MP.jpg)
+![caption](/images/travel/PXL_20230702_220506646.PORTRAIT.jpg) 
 
-![caption](/images/travel/PXL_20230702_230138632.jpg)
+![caption](/images/travel/PXL_20230702_221038179.MP.jpg) 
+
+![caption](/images/travel/PXL_20230702_230138632.jpg) 
 
 ![caption](/images/travel/PXL_20230702_232805189.jpg)
 
@@ -101,48 +103,69 @@ We went to the pancake house for breakfast, came home, relaxed, and went to fami
 
 ### Monday, July 3rd
 
-![caption](/images/travel/PXL_20230703_130139774.jpg)
+![caption](/images/travel/IMG-20230703-WA0011.jpg) 
+
+![caption](/images/travel/IMG-20230703-WA0057.jpg) 
+
+![caption](/images/travel/PXL_20230703_130139774.jpg) 
+
+![caption](/images/travel/PXL_20230703_130154323.PORTRAIT.ORIGINAL.jpg) 
 
 ![caption](/images/travel/PXL_20230703_183922822.jpg)
 
-![caption](/images/travel/IMG-20230703-WA0017.jpg)
+![caption](/images/travel/PXL_20230704_010056582.PORTRAIT.jpg) 
 
-![caption](/images/travel/IMG-20230703-WA0028.jpg)
+![caption](/images/travel/PXL_20230704_010235437.PORTRAIT.jpg) 
 
-![caption](/images/travel/IMG-20230703-WA0032.jpg)
+![caption](/images/travel/PXL_20230704_010413244.PORTRAIT.jpg) 
 
-![caption](/images/travel/IMG-20230703-WA0040.jpg)
-
-![caption](/images/travel/IMG-20230703-WA0041.jpg)
-
-![caption](/images/travel/IMG-20230703-WA0047.jpg)
-
-![caption](/images/travel/IMG-20230703-WA0049.jpg)
-
-![caption](/images/travel/IMG-20230703-WA0057.jpg)
+![caption](/images/travel/PXL_20230704_010959872.PORTRAIT.jpg) 
 
 We went to the lake all day, came home for a break, and went on an evening cruise on lake Minnetonka.
 
 ### Tuesday, July 4
 
-![caption](/images/travel/PXL_20230704_194615223.jpg)
+![caption](/images/travel/PXL_20230704_194615223.jpg) 
 
 ![caption](/images/travel/PXL_20230704_212827207.MP.jpg)
 
-![caption](/images/travel/IMG-20230704-WA0012.jpg)
+![caption](/images/travel/PXL_20230705_011149990.MP.jpg) 
 
-![caption](/images/travel/PXL_20230705_012008453.jpg)
+![caption](/images/travel/PXL_20230705_012008453.jpg) 
 
 We went to the fourth of July parade.  We lit fireworks at home, and while captain nuclear was underwhelming, the flaming frog was great.  We went to the fireworks overlooking Lake Minnetonka in Excelsior, and made it home quite late.
 
 ### Wednesday, July 5
 
+
+![caption](/images/travel/PXL_20230705_125159023.jpg) 
+
+![caption](/images/travel/PXL_20230705_130103441.jpg) 
+
+![caption](/images/travel/PXL_20230705_130417134.MP.jpg) 
+
+![caption](/images/travel/PXL_20230705_142732761.jpg) 
+
+![caption](/images/travel/PXL_20230705_212728393.MP.jpg) 
+
+![caption](/images/travel/PXL_20230705_212755442.jpg) 
+
+![caption](/images/travel/PXL_20230705_212806455.MP.jpg) 
+
+![caption](/images/travel/PXL_20230705_214109125.jpg)
+
 Today was a recovery day; everyone slept in.  Sara and I worked, the kids played and watched some "octonauts" so we could begin preparing for our trip, and we endured a rough patch with Sam & August because they were so tired.  Made some major headway on Harry Potter and the Prisoner of Azkaban though!  Ate BBQ from Buddy Boy.  Sara taught the kids how to blow bubbles with bubble gum.
 
 ### Thursday, July 6.  
 
-![caption](/images/travel/PXL_20230706_205824641.jpg) 
-![caption](/images/travel/PXL_20230706_210211799.MP.jpg) 
+
+
+![caption](/images/travel/PXL_20230706_122140319.jpg) 
+
+![caption](/images/travel/PXL_20230706_190337681.jpg) 
+
+![caption](/images/travel/PXL_20230706_190448199.jpg)
+
 
 Last day in Minnesota.  Final Packing, final syncing of computers (took longer than I would have hoped).  The kids played well most of the day, we ate leftovers, and generally took it easy.  Blew bubbles.
 
