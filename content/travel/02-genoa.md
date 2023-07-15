@@ -47,8 +47,8 @@ Other things we found out after we arrived
 ## Tuesday, July 11
 
 * First day of the conference.  Mostly bio-related talks.
-* Met up with my old advisor, Mark, for lunch.
-* Got a behind-the-scenes tour of the Aquarium where the conference was held.  We got to see lots of tanks
+* Met up with my PhD advisor, Mark, for lunch.  Talked tech, sabbatical, and other fun stuff.
+* Got a behind-the-scenes tour of the Aquarium where the conference was held.  We got to see lots of tanks.
 * The welcome reception was really nice, but outside, and really hot.
 
 Sounds like mom and the kids had a blast in cinque terra.
