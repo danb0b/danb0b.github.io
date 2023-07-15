@@ -59,6 +59,9 @@ It was a really windy day, but hot, and there was some debate in my mind whether
 
 ![caption](/images/travel/PXL_20230708_173618993.jpg)
 
+![caption](/images/travel/PXL_20230708_173651243.jpg)
+
+
 We walked the city with Mark and Shayna across the whole day.  The map above spells out our route.  Some features included:
 
 * A secret walkway down to the city
