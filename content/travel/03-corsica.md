@@ -31,3 +31,13 @@ Ben made a good point that we used a lot of different modes of transportation ye
 We found our AirBNB pretty easily.  Again, the host didn't reveal the true location until we were already in Calvi.  Is this the new normal?  If so, it is an annoying normal.  Erin and I walked into town to look for food, got pizzas and wine, brought them back, and had a short and fast dinner before bed.
 
 ## Saturday
+
+Sara and Erin took the kids to the beach while I caught up on work.  The kids came home for lunch and had a 3-hour quiet time, which **everyone** needed.
+
+After that, the kids got to watch a "Wild Kratts" while Sara and I headed to the store.  We all ate pasta for dinner, and the kids went to bed early
+
+Some times we need a rebuilding day.
+
+## Sunday
+
+The day got going slowly.  The kids in the bunkroom all got up earlier, but I woke later.  Sara and Erin took the kids to a slightly further beach; I still need to catch up on finishing dissertation edits; approval is due tomorrow.
