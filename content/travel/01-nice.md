@@ -11,8 +11,6 @@ date: 2023-07-07
 
 ## Friday, July 7
 
-
-
 ![caption](/images/travel/PXL_20230707_074237233.jpg) 
 
 ![caption](/images/travel/PXL_20230707_074246209.jpg) 

@@ -166,6 +166,10 @@ Today was a recovery day; everyone slept in.  Sara and I worked, the kids played
 
 ![caption](/images/travel/PXL_20230706_190448199.jpg)
 
+![caption](/images/travel/PXL_20230706_210211799.MP.jpg) 
+
+![caption](/images/travel/PXL_20230706_205824641.jpg)
+
 
 Last day in Minnesota.  Final Packing, final syncing of computers (took longer than I would have hoped).  The kids played well most of the day, we ate leftovers, and generally took it easy.  Blew bubbles.
 
