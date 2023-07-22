@@ -1,6 +1,7 @@
 ---
-title: San Marino
+title: San Marino, San Marino
 date: 2023-07-20
+summary: Italy's nesting doll of a country couldn't be cuter!
 ---
 
 ## Thursday, July 20

@@ -1,6 +1,7 @@
 ---
 title: Nice, France
 date: 2023-07-07
+summary: Bagettues, Nutella, Wine, the Medeterranean...
 ---
 
 

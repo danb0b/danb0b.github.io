@@ -1,6 +1,7 @@
 ---
 title: Genoa, Italy
 date: 2023-07-10
+summary: Dan's conference plus some fun explorations of the city.
 ---
 
 ## Monday July 10th

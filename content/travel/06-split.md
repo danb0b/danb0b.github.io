@@ -1,6 +1,7 @@
 ---
 title: Split, Croatia
 date: 2023-07-22
+summary: Our adventure in the balkans begins...
 ---
 
 ## Saturday, July 22

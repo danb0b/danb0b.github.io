@@ -1,6 +1,7 @@
 ---
 title: Pre-Trip to Minnesota
 date: 2023-06-23
+summary: We visited my sister and her wonderful family.
 ---
 
 <!-- ## Minnesota -->
