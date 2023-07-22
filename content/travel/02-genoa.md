@@ -5,18 +5,15 @@ date: 2023-07-10
 
 ## Monday July 10th
 
+![Our bags before we headed out](/images/travel/PXL_20230710_071912119.jpg)
 
+![The train car we picked](/images/travel/PXL_20230710_132102579.MP.jpg)
 
+![Reward for an intense travel day: Gelato](/images/travel/PXL_20230710_145554633.jpg)
 
-![Our bags before we headed out](/images/travel/PXL_20230710_071912119.jpg) 
+![Ben and Dad out to dinner.  Dad had an octopus sandwich](/images/travel/PXL_20230710_153222447.jpg)
 
-![The train car we picked](/images/travel/PXL_20230710_132102579.MP.jpg) 
-
-![Reward for an intense travel day: Gelato](/images/travel/PXL_20230710_145554633.jpg) 
-
-![Ben and Dad out to dinner.  Dad had an octopus sandwich](/images/travel/PXL_20230710_153222447.jpg) 
-
-![Ben and Dad out for a walk](/images/travel/PXL_20230710_161400646.jpg) 
+![Ben and Dad out for a walk](/images/travel/PXL_20230710_161400646.jpg)
 
 ![The view of the piazza from our window.](/images/travel/PXL_20230710_181809770.jpg)
 
@@ -30,7 +27,7 @@ I also tested how well my international phone plan worked as we cross the border
 
 We knew we had to switch trains in Savona, so we got off the first train, headed down the stairs to cross to another track, looked at the monitors and realized....we had to go back to the same track!  By the time we got back up, the train (same? different?  We never really figured it out.) was ready to leave.  The AC in the car we picked was dead, so we baked all the way in to Genoa.
 
-Once we left the train in Genoa, we decided to hoof it to our place, which was a "19 minute walk" according to Google.  It took a little longer, but the boys picked that because we threw in Gelato if they walked.  We went along a very small street nearly the whole way there, staying out of the direct sun.  It was still brutal, and we saw some interesting sights (brothel?), but we made it to our place, with a gelato place right across the square! 
+Once we left the train in Genoa, we decided to hoof it to our place, which was a "19 minute walk" according to Google.  It took a little longer, but the boys picked that because we threw in Gelato if they walked.  We went along a very small street nearly the whole way there, staying out of the direct sun.  It was still brutal, and we saw some interesting sights (brothel?), but we made it to our place, with a gelato place right across the square!
 
 Ben and I had dinner to ourselves.  I had an octopus "burger", and Ben had a salmon sandwich.  He did not like the coke I bought him.  We met up with Anson, who found us as we got our food.  Ben was super excited to hear the bell at 6pm and to realize that he could actually see the bell swinging!
 
@@ -61,17 +58,15 @@ Other things we found out after we arrived
 
 ## Tuesday, July 11
 
+![Under the aquarium](/images/travel/PXL_20230711_151154793.MP.jpg)
 
+![Under the aquarium](/images/travel/PXL_20230711_151505262.MP.jpg)
 
-![Under the aquarium](/images/travel/PXL_20230711_151154793.MP.jpg) 
+![Sleepy seahorses](/images/travel/PXL_20230711_154745115.jpg)
 
-![Under the aquarium](/images/travel/PXL_20230711_151505262.MP.jpg) 
+![Moray Eels](/images/travel/PXL_20230711_155118776.MP.jpg)
 
-![Sleepy seahorses](/images/travel/PXL_20230711_154745115.jpg) 
-
-![Moray Eels](/images/travel/PXL_20230711_155118776.MP.jpg) 
-
-![Pirhana](/images/travel/PXL_20230711_161350738.jpg) 
+![Pirhana](/images/travel/PXL_20230711_161350738.jpg)
 
 ![Ineractive dolphin](/images/travel/PXL_20230711_162307999.MP.jpg)
 
@@ -84,21 +79,19 @@ Sounds like mom and the kids had a blast in cinque terra.
 
 ## Wednesday, July 12
 
+![Pirate Ship with Mom](/images/travel/PXL_20230712_082226861.MP.jpg)
 
+![Arrrgh!](/images/travel/PXL_20230712_082758142.MP.jpg)
 
-![Pirate Ship with Mom](/images/travel/PXL_20230712_082226861.MP.jpg) 
+![Pirate Ship with Mom](/images/travel/PXL_20230712_083741347.jpg)
 
-![Arrrgh!](/images/travel/PXL_20230712_082758142.MP.jpg) 
+![](/images/travel/PXL_20230712_103023251.jpg)
 
-![Pirate Ship with Mom](/images/travel/PXL_20230712_083741347.jpg) 
+![Kids looking at where the fountain goes](/images/travel/PXL_20230712_160215544.jpg)
 
-![](/images/travel/PXL_20230712_103023251.jpg) 
+![The banquet location](/images/travel/PXL_20230712_165049872.jpg)
 
-![Kids looking at where the fountain goes](/images/travel/PXL_20230712_160215544.jpg) 
-
-![The banquet location](/images/travel/PXL_20230712_165049872.jpg) 
-
-![The back lawn at the banquet](/images/travel/PXL_20230712_165312620.jpg) 
+![The back lawn at the banquet](/images/travel/PXL_20230712_165312620.jpg)
 
 ![Drinks at the banquet](/images/travel/PXL_20230712_175613867.jpg)
 
@@ -112,21 +105,19 @@ Surprisingly, it rained overnight.
 
 ## Thursday, July 13
 
+![Children's museum with mom](/images/travel/PXL_20230713_094430456.MP.jpg)
 
+![Children's museum with mom](/images/travel/PXL_20230713_094447815.MP.jpg)
 
-![Children's museum with mom](/images/travel/PXL_20230713_094430456.MP.jpg) 
+![Children's museum with mom](/images/travel/PXL_20230713_094719449.MP.jpg)
 
-![Children's museum with mom](/images/travel/PXL_20230713_094447815.MP.jpg) 
+![Children's museum with mom](/images/travel/PXL_20230713_094754069.jpg)
 
-![Children's museum with mom](/images/travel/PXL_20230713_094719449.MP.jpg) 
+![Children's museum with mom](/images/travel/PXL_20230713_095830165.jpg)
 
-![Children's museum with mom](/images/travel/PXL_20230713_094754069.jpg) 
+![Dinner in Genoa](/images/travel/PXL_20230713_172519365.jpg)
 
-![Children's museum with mom](/images/travel/PXL_20230713_095830165.jpg) 
-
-![Dinner in Genoa](/images/travel/PXL_20230713_172519365.jpg) 
-
-![Dinner in Genoa](/images/travel/PXL_20230713_172624296.jpg) 
+![Dinner in Genoa](/images/travel/PXL_20230713_172624296.jpg)
 
 ![Dinner in Genoa](/images/travel/PXL_20230713_173119541.jpg)
 
