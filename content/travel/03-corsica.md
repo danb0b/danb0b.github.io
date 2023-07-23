@@ -6,18 +6,17 @@ summary: We traveled with Sara's sister and kids, visited the beach, ate some wo
 
 ## Friday, July 14, 2023
 
+![Walking across the piazza on our way to the Genoa train station](/images/travel/PXL_20230714_050422000.jpg)
 
-![Walking across the piazza on our way to the Genoa train station](/images/travel/PXL_20230714_050422000.jpg) 
+![Sweaty at the Genoa train station waiting for the train.](/images/travel/PXL_20230714_054438790.MP.jpg)
 
-![Sweaty at the Genoa train station waiting for the train.](/images/travel/PXL_20230714_054438790.MP.jpg) 
+![In the taxi to the Corsica Ferry](/images/travel/PXL_20230714_100514750.MP.jpg)
 
-![In the taxi to the Corsica Ferry](/images/travel/PXL_20230714_100514750.MP.jpg) 
+![Waiting to board the Corsica Ferry](/images/travel/PXL_20230714_102150278.jpg)
 
-![Waiting to board the Corsica Ferry](/images/travel/PXL_20230714_102150278.jpg) 
+![Driving to Calvi, Corsica](/images/travel/PXL_20230714_163714866.MP.jpg)
 
-![Driving to Calvi, Corsica](/images/travel/PXL_20230714_163714866.MP.jpg) 
-
-![Driving to Calvi, Corsica](/images/travel/PXL_20230714_170435188.jpg) 
+![Driving to Calvi, Corsica](/images/travel/PXL_20230714_170435188.jpg)
 
 We left our apartment around 7am, traveled from Genoa to Livorno by train, and then took a ferry from Livorno to Bastia, Corsica.  Erin arrived around 11:45, which was pretty tight for getting there by 1pm, and supposedly around a 40 minute walk (it would have been double that for our family, especially in the heat).  So we waited by the taxi stall and a taxi-van arrived just in time.  There are two different ferry docks in Livorno, which can get confusing.  Luckily, we went to the (correct) Corsica Ferry pier, and our driver found our boat for us.  It couldn't have been smoother, but what if anything had gone wrong?
 
@@ -42,7 +41,7 @@ This was our review we were working on before they tried to charge us $6000 for 
 
 ----------------------------------
 
-TL/DR: 
+TL/DR:
 
 The AirBNB we stayed at was a relativly modern 3 bedroom place with tile floors, a back patio, A/C, the slowest wifi, and a washer/dryer.  We were greeted at the driveway by our host.  She and her partner showed us around and gave us the rundown of the apartment.  They told us the places to visit, and how to find parking. The place was clean and relativly nice.  they gave us a bag of local biscuits.
 
@@ -69,13 +68,13 @@ Plus, the wifi is TERRIBLE. It barely works.  I wouldn't be surprised if they we
 
 ## Saturday, July 15
 
-![Kids at the beach](/images/travel/PXL_20230715_090856450.MP.jpg) 
+![Kids at the beach](/images/travel/PXL_20230715_090856450.MP.jpg)
 
-![Kids at the beach](/images/travel/PXL_20230715_090957432.jpg) 
+![Kids at the beach](/images/travel/PXL_20230715_090957432.jpg)
 
-![Dinner](/images/travel/PXL_20230715_174000595.jpg) 
+![Dinner](/images/travel/PXL_20230715_174000595.jpg)
 
-![Badminton](/images/travel/PXL_20230715_184118521.MP.jpg) 
+![Badminton](/images/travel/PXL_20230715_184118521.MP.jpg)
 
 Sara and Erin took the kids to the beach while I caught up on work.  The kids came home for lunch and had a 3-hour quiet time, which **everyone** needed.
 
@@ -85,40 +84,39 @@ Some times we need a rebuilding day.
 
 ## Sunday, July 16
 
+![Kids at the beach](/images/travel/PXL_20230716_090142660.MP.jpg)
 
-![Kids at the beach](/images/travel/PXL_20230716_090142660.MP.jpg) 
+![Kids at the beach](/images/travel/PXL_20230716_094048002.jpg)
 
-![Kids at the beach](/images/travel/PXL_20230716_094048002.jpg) 
+![Kids at the beach](/images/travel/PXL_20230716_100232987.jpg)
 
-![Kids at the beach](/images/travel/PXL_20230716_100232987.jpg) 
+![Kids at the beach](/images/travel/PXL_20230716_100421169.MP.jpg)
 
-![Kids at the beach](/images/travel/PXL_20230716_100421169.MP.jpg) 
+![Gone in 60 Second"](/images/travel/PXL_20230716_110555178.jpg)
 
-![Gone in 60 Second"](/images/travel/PXL_20230716_110555178.jpg) 
+![The restaurant](/images/travel/PXL_20230716_173322619.jpg)
 
-![The restaurant](/images/travel/PXL_20230716_173322619.jpg) 
+![The restaurant](/images/travel/PXL_20230716_173415648.jpg)
 
-![The restaurant](/images/travel/PXL_20230716_173415648.jpg) 
+![Sunset over Corsica](/images/travel/PXL_20230716_184717133.jpg)
 
-![Sunset over Corsica](/images/travel/PXL_20230716_184717133.jpg) 
+![Boys at Sunset](/images/travel/PXL_20230716_185706275.jpg)
 
-![Boys at Sunset](/images/travel/PXL_20230716_185706275.jpg) 
+![Boys at Sunset](/images/travel/PXL_20230716_185911816.jpg)
 
-![Boys at Sunset](/images/travel/PXL_20230716_185911816.jpg) 
+![Boys at Sunset](/images/travel/PXL_20230716_185933565.jpg)
 
-![Boys at Sunset](/images/travel/PXL_20230716_185933565.jpg) 
+![Boys at Sunset](/images/travel/PXL_20230716_190008274.jpg)
 
-![Boys at Sunset](/images/travel/PXL_20230716_190008274.jpg) 
+![Family at Sunset](/images/travel/PXL_20230716_190246008.jpg)
 
-![Family at Sunset](/images/travel/PXL_20230716_190246008.jpg) 
+![Family at Sunset](/images/travel/PXL_20230716_190316721.jpg)
 
-![Family at Sunset](/images/travel/PXL_20230716_190316721.jpg) 
+![Boys at Sunset](/images/travel/PXL_20230716_190331305.jpg)
 
-![Boys at Sunset](/images/travel/PXL_20230716_190331305.jpg) 
+![Boys at Sunset](/images/travel/PXL_20230716_190344755.jpg)
 
-![Boys at Sunset](/images/travel/PXL_20230716_190344755.jpg) 
-
-![Sunset in a box . . . in a box . . . in a box](/images/travel/PXL_20230716_190754872.jpg) 
+![Sunset in a box . . . in a box . . . in a box](/images/travel/PXL_20230716_190754872.jpg)
 
 The day got going slowly.  The kids in the bunkroom all got up earlier, but I woke later.  Sara and Erin took the kids to a slightly further beach; I still need to catch up on finishing dissertation edits; approval is due tomorrow!
 
@@ -136,25 +134,25 @@ Sara and Erin snuck out after the kids went to bed for an evening drink together
 
 ## Monday, July 17
 
-![Walking up into the citadel](/images/travel/PXL_20230717_082018270.jpg) 
+![Walking up into the citadel](/images/travel/PXL_20230717_082018270.jpg)
 
-![Citadel walls](/images/travel/PXL_20230717_082139536.jpg) 
+![Citadel walls](/images/travel/PXL_20230717_082139536.jpg)
 
-![In the citadel](/images/travel/PXL_20230717_082317225.jpg) 
+![In the citadel](/images/travel/PXL_20230717_082317225.jpg)
 
-![The citadel walls](/images/travel/PXL_20230717_083418045.jpg) 
+![The citadel walls](/images/travel/PXL_20230717_083418045.jpg)
 
-![The citadel walls](/images/travel/PXL_20230717_083835743.PANO.jpg) 
+![The citadel walls](/images/travel/PXL_20230717_083835743.PANO.jpg)
 
-![Sara and Erin on the citadel walls](/images/travel/PXL_20230717_085108376.MP.jpg) 
+![Sara and Erin on the citadel walls](/images/travel/PXL_20230717_085108376.MP.jpg)
 
-![Kids + gelato = happiness](/images/travel/PXL_20230717_091027282.jpg) 
+![Kids + gelato = happiness](/images/travel/PXL_20230717_091027282.jpg)
 
-![Peace](/images/travel/PXL_20230717_143510615.jpg) 
+![Peace](/images/travel/PXL_20230717_143510615.jpg)
 
-![Citadel from a distance](/images/travel/PXL_20230717_144054801.jpg) 
+![Citadel from a distance](/images/travel/PXL_20230717_144054801.jpg)
 
-![drinks along the quay](/images/travel/PXL_20230717_194432612.jpg) 
+![drinks along the quay](/images/travel/PXL_20230717_194432612.jpg)
 
 Sara woke up early for a run.  After breakfast, Ben, Avery, Sam and I  walked to the citadel in the morning while the moms drove the younger ones.  We met them in a playground and then walked up into the citadel.  The old town in the citadel is occupied by residents, and had a lived-in feel.  We found some great views and watched an artisan in his shop show Ben and Sam how he makes his knives from steel bar stock and a ram's horn (for the handle). He talked the kids through the process while I interpreted (really I just told the kids what I already know about the process as I loosely followed his words), and then we watched him assemble a blade to the handle.  He cut a small metal shaft and smoothed it with a gr to make a pin, inserted it into the handle and attched the blade, put on two brass washers, and pounded it all in with a small hammer.  He was very generous with his time; I would have bought a knive, but it was 120 Euros.
 
@@ -166,17 +164,26 @@ Sara and I snuck out ourselves and walked into "downtown" Calvi and found the qu
 
 ## Tuesday July 18
 
+![Lunch](/images/travel/PXL_20230718_110017928.jpg)
 
-![Lunch](/images/travel/PXL_20230718_110017928.jpg) 
-
-![Lunch](/images/travel/PXL_20230718_110021196.MP.jpg) 
+![Lunch](/images/travel/PXL_20230718_110021196.MP.jpg)
 
 ![Lunch](/images/travel/PXL_20230718_110214098.jpg)
-
 
 The last full day of our time in Corsica, we had to split up.  I stayed at the apartment with Sam while he and I sorted out some issues, while Sara and Erin and the rest of the kids went to a winery.  Sam and I got ourselves sorted out (calmed down, folded laundry, and did some journaling) and then we walked into town to the nearest train station.  We tried asking some folks where to buy tickets and got different answers.  The first lady pointed us to a ticket machine...for the parking lot.  The second couple told us we needed to buy tickets IN Calvi, which didn't make a whole lot of sense.  But since it was 10 minutes till the train came, Sam and I had a chance to make it to the next stop down, at the end of the line in "downtown" Calvi.  We ran as fast as we could and Sam kept up well.  We made it to the next station with 3-4 minutes to spare, asked someone at the information booth where to buy tickets and she said, "dans le tren", which means "on the train".  So we had worn ourselves out for nothing.  We hopped on the very hot train and at the end of the day, the conductor was not able to process my credit card, so he just let us go.  What a ride.  We got off the train about 5 stops away near the second beach everyone had gone to on Sunday, but this time with a reservation at the restaurant.  We had some great food.  Octopus, tuna tartare, two risottos, fish, a fancy burrata plate.  It was really good.  We proceeded to the beach after lunch; I didn't remember my swim trunks and didn't really want to expose myself to the sun again, so I hid under the umbrellas.  Sam had to go home early because he wasn't listening; we lost a pair of shoes (we think) in the melee.  Sam recovered again, but we were really tired.  After reading to the kids and mom at bedtime, the adults opened one of the bottles from the winery and packed and did laundry and chatted until bedtime.  
 
 ## Wednesday, July 19
+
+![Busted bridge](/images/travel/PXL_20230719_083812045.jpg)
+
+![Busted bridge](/images/travel/PXL_20230719_084225794.jpg)
+
+![Train station to Bastia](/images/travel/PXL_20230719_102359352.jpg)
+
+![All aboard!](/images/travel/PXL_20230719_114329888.jpg)
+
+![Sam showing off his art](/images/travel/PXL_20230719_142753018.jpg)
+
 
 We got going earlier on our last day in Corsica.  We cleaned and packed and had a bit of a "discussion" with our host as we checked out....more on that later.  We had a bit of a drive to return the cars and get to the ferry by 2.  Our drive took about two hours, and we stopped once at an old bridge.  The history of the area was described in a little park nearby, which seemed to be at the center of the Corsican indpendence movement as well.
 
