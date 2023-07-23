@@ -4,6 +4,8 @@ date: 2023-07-22
 summary: Our adventure in the balkans begins...
 ---
 
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1f-t4wrLjshW73uWtKc_PHqi_AxSdTN8&ehbc=2E312F" width="640" height="480"></iframe>
+
 ## Saturday, July 22
 
 ![Anthropology museum](/images/travel/PXL_20230722_073334353.jpg)
