@@ -8,4 +8,5 @@ https://docs.docker.com/compose/networking/
 https://docs.docker.com/engine/reference/commandline/compose_down/
 https://docs.docker.com/engine/reference/commandline/compose_up/
 https://medium.com/trabe/use-your-local-ssh-keys-inside-a-docker-container-ea1d117515dc
-ssh agent issues: https://stackoverflow.</description></item></channel></rss>
+ssh agent issues: https://stackoverflow.</description></item><item><title>getting docker networking working with ros2</title><link>https://danaukes.com/notebook/docker/docker-with-ros2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danaukes.com/notebook/docker/docker-with-ros2/</guid><description>Virtualbox guest master setup Networking Select Internal networking
+according to here, internal networking fully supports broadcast.</description></item></channel></rss>
