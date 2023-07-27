@@ -7,166 +7,166 @@
 </span></span></code></pre></div></li><li><p><a href=/notebook/docker/install-docker/>install docker</a>, ensuring to add docker group to your user.</p></li><li><p>install vm guest additions prerequisites</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y gcc make perl
 </span></span></code></pre></div></li><li><p>install vm guest additions</p><ol><li>go to virtualbox menu and select &ldquo;install guest additions&rdquo;</li><li>navigate to the cdrom and run autorun.sh</li></ol></li><li><p>restart</p></li><li><p>pull your desired ros2 image. For example:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull osrf/ros:galactic-desktop
 </span></span></code></pre></div></li><li><p>shutdown the guest</p></li><li><p>save a snapshot</p></li><li><p>create two linked clones, regenerating all network interface ids and MACs.</p></li></ol><h2 id=internal-networking>Internal Networking</h2><h3 id=guest-1-setup>Guest 1 Setup</h3><h4 id=configuration>configuration</h4><p>select &ldquo;internal network&rdquo;</p><h4 id=netplan>netplan</h4><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
-</span></span><span style=display:flex><span>cat EOT<span style=color:#d88200>&lt;&lt; sudo tee /etc/netplan/00-ins</span>taller-config.yaml 
-</span></span><span style=display:flex><span>network:
-</span></span><span style=display:flex><span>  ethernets:
-</span></span><span style=display:flex><span>    enp0s3:
-</span></span><span style=display:flex><span>      addresses:
-</span></span><span style=display:flex><span>      - 192.168.0.120/24
-</span></span><span style=display:flex><span>      dhcp4: no
-</span></span><span style=display:flex><span>      dhcp6: no
-</span></span><span style=display:flex><span>  version: <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span>EOT
+</span></span><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT sudo tee /etc/netplan/00-installer-config.yaml 
+</span></span></span><span style=display:flex><span><span style=color:#d88200>network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ethernets:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    enp0s3:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      addresses:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      - 192.168.0.120/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp4: no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp6: no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  version: 2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
 </span></span></code></pre></div><h4 id=docker-compose>docker-compose</h4><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>mkdir ~/docker
 </span></span><span style=display:flex><span><span style=color:#111>cd</span> ~/docker
-</span></span><span style=display:flex><span>cat EOT&lt;&lt; &gt;docker-compose.yml
-</span></span><span style=display:flex><span>version: <span style=color:#d88200>&#39;2&#39;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>services:
-</span></span><span style=display:flex><span>  ros:
-</span></span><span style=display:flex><span>    container_name: ros2
-</span></span><span style=display:flex><span>    image: osrf/ros:galactic-desktop
-</span></span><span style=display:flex><span>    hostname: ros-host
-</span></span><span style=display:flex><span>    domainname: <span style=color:#111>test</span>
-</span></span><span style=display:flex><span>    networks:
-</span></span><span style=display:flex><span>      network:
-</span></span><span style=display:flex><span>        ipv4_address: 192.168.0.121
-</span></span><span style=display:flex><span>    command: ros2 run demo_nodes_cpp talker
-</span></span><span style=display:flex><span>    restart: unless-stopped
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>networks:
-</span></span><span style=display:flex><span>  network:
-</span></span><span style=display:flex><span>    driver: ipvlan
-</span></span><span style=display:flex><span>    driver_opts:
-</span></span><span style=display:flex><span>      parent: enp0s3
-</span></span><span style=display:flex><span>      ipvlan-mode: l2
-</span></span><span style=display:flex><span>    ipam:
-</span></span><span style=display:flex><span>      driver: default
-</span></span><span style=display:flex><span>      config:
-</span></span><span style=display:flex><span>        - subnet: 192.168.0.0/24
-</span></span><span style=display:flex><span>          gateway: 192.168.0.1
-</span></span><span style=display:flex><span>          ip_range: 192.168.0.1/24
-</span></span><span style=display:flex><span>EOT
+</span></span><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT &gt;docker-compose.yml
+</span></span></span><span style=display:flex><span><span style=color:#d88200>version: &#39;2&#39;
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>services:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ros:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    container_name: ros2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    image: osrf/ros:galactic-desktop
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    hostname: ros-host
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    domainname: test
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        ipv4_address: 192.168.0.121
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    command: ros2 run demo_nodes_cpp talker
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    restart: unless-stopped
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver: ipvlan
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver_opts:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      parent: enp0s3
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      ipvlan-mode: l2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    ipam:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      driver: default
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      config:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        - subnet: 192.168.0.0/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          gateway: 192.168.0.1
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          ip_range: 192.168.0.1/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
 </span></span></code></pre></div><h3 id=guest-2>Guest 2</h3><h4 id=configuration-1>configuration</h4><p>select &ldquo;internal network&rdquo;</p><h4 id=netplan-1>netplan</h4><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
-</span></span><span style=display:flex><span>cat EOT<span style=color:#d88200>&lt;&lt; sudo tee /etc/netplan/00-ins</span>taller-config.yaml 
-</span></span><span style=display:flex><span>network:
-</span></span><span style=display:flex><span>  ethernets:
-</span></span><span style=display:flex><span>    enp0s3:
-</span></span><span style=display:flex><span>      addresses:
-</span></span><span style=display:flex><span>      - 192.168.0.130/24
-</span></span><span style=display:flex><span>      dhcp4: no
-</span></span><span style=display:flex><span>      dhcp6: no
-</span></span><span style=display:flex><span>  version: <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span>EOT
+</span></span><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT sudo tee /etc/netplan/00-installer-config.yaml 
+</span></span></span><span style=display:flex><span><span style=color:#d88200>network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ethernets:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    enp0s3:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      addresses:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      - 192.168.0.130/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp4: no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp6: no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  version: 2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
 </span></span></code></pre></div><h4 id=docker-compose-1>docker-compose</h4><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>mkdir ~/docker
 </span></span><span style=display:flex><span><span style=color:#111>cd</span> ~/docker
-</span></span><span style=display:flex><span>cat EOT&lt;&lt; &gt;docker-compose.yml
-</span></span><span style=display:flex><span>version: <span style=color:#d88200>&#39;2&#39;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>services:
-</span></span><span style=display:flex><span>  ros:
-</span></span><span style=display:flex><span>    container_name: ros2
-</span></span><span style=display:flex><span>    image: osrf/ros:galactic-desktop
-</span></span><span style=display:flex><span>    hostname: ros-host
-</span></span><span style=display:flex><span>    domainname: <span style=color:#111>test</span>
-</span></span><span style=display:flex><span>    networks:
-</span></span><span style=display:flex><span>      network:
-</span></span><span style=display:flex><span>        ipv4_address: 192.168.0.131
-</span></span><span style=display:flex><span>    command: ros2 run demo_nodes_cpp listener
-</span></span><span style=display:flex><span>    restart: unless-stopped
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>networks:
-</span></span><span style=display:flex><span>  network:
-</span></span><span style=display:flex><span>    driver: ipvlan
-</span></span><span style=display:flex><span>    driver_opts:
-</span></span><span style=display:flex><span>      parent: enp0s3
-</span></span><span style=display:flex><span>      ipvlan-mode: l2
-</span></span><span style=display:flex><span>    ipam:
-</span></span><span style=display:flex><span>      driver: default
-</span></span><span style=display:flex><span>      config:
-</span></span><span style=display:flex><span>        - subnet: 192.168.0.0/24
-</span></span><span style=display:flex><span>          gateway: 192.168.0.1
-</span></span><span style=display:flex><span>          ip_range: 192.168.0.1/24
-</span></span><span style=display:flex><span>EOT
+</span></span><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT &gt;docker-compose.yml
+</span></span></span><span style=display:flex><span><span style=color:#d88200>version: &#39;2&#39;
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>services:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ros:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    container_name: ros2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    image: osrf/ros:galactic-desktop
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    hostname: ros-host
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    domainname: test
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        ipv4_address: 192.168.0.131
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    command: ros2 run demo_nodes_cpp listener
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    restart: unless-stopped
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver: ipvlan
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver_opts:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      parent: enp0s3
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      ipvlan-mode: l2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    ipam:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      driver: default
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      config:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        - subnet: 192.168.0.0/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          gateway: 192.168.0.1
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          ip_range: 192.168.0.1/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
 </span></span></code></pre></div><h3 id=run>Run</h3><p>in clone 1 and 2, navigate to ~/docker and type</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker compose up
 </span></span></code></pre></div><p>when done, please ensure you clean up your network interfaces on each guest clone by typing</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker compose down
-</span></span></code></pre></div><h2 id=bridged-networking-with-a-physical-router>Bridged Networking with a physical router</h2><p>This example assumes a subnet of 192.168.8.xxx from the router. Go to both guests and select bridged networking. The guests ip addresses themselves can be assigned by the router&rsquo;s dhcp server in this example.</p><h3 id=clone-1-netplan>clone 1 netplan</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat EOT<span style=color:#d88200>&lt;&lt; sudo tee /etc/netplan/00-ins</span>taller-config.yaml 
-</span></span><span style=display:flex><span>network:
-</span></span><span style=display:flex><span>  ethernets:
-</span></span><span style=display:flex><span>    enp0s3:
-</span></span><span style=display:flex><span><span style=color:#75715e>#      addresses:</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#      - 192.168.8.10/24</span>
-</span></span><span style=display:flex><span>      dhcp4: yes
-</span></span><span style=display:flex><span>      dhcp6: no
-</span></span><span style=display:flex><span>  version: <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span>EOT
-</span></span></code></pre></div><h3 id=clone-1-docker-composeyml>clone 1 docker-compose.yml</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat EOT&lt;&lt; &gt;~/docker/docker-compose.yml
-</span></span><span style=display:flex><span>version: <span style=color:#d88200>&#39;2&#39;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>services:
-</span></span><span style=display:flex><span>  ros:
-</span></span><span style=display:flex><span>    container_name: ros2
-</span></span><span style=display:flex><span>    image: osrf/ros:galactic-desktop
-</span></span><span style=display:flex><span>    hostname: ros-host
-</span></span><span style=display:flex><span>    domainname: <span style=color:#111>test</span>
-</span></span><span style=display:flex><span>    networks:
-</span></span><span style=display:flex><span>      network:
-</span></span><span style=display:flex><span>        ipv4_address: 192.168.8.11
-</span></span><span style=display:flex><span>    command: ros2 run demo_nodes_cpp talker
-</span></span><span style=display:flex><span>    restart: unless-stopped
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>networks:
-</span></span><span style=display:flex><span>  network:
-</span></span><span style=display:flex><span>    driver: ipvlan
-</span></span><span style=display:flex><span>    driver_opts:
-</span></span><span style=display:flex><span>      parent: enp0s3
-</span></span><span style=display:flex><span>      ipvlan-mode: l2
-</span></span><span style=display:flex><span>    ipam:
-</span></span><span style=display:flex><span>      driver: default
-</span></span><span style=display:flex><span>      config:
-</span></span><span style=display:flex><span>        - subnet: 192.168.8.0/24
-</span></span><span style=display:flex><span>          gateway: 192.168.8.1
-</span></span><span style=display:flex><span>          ip_range: 192.168.8.1/24
-</span></span><span style=display:flex><span>EOT
-</span></span></code></pre></div><h3 id=clone-2-netplan>clone 2 netplan</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat EOT<span style=color:#d88200>&lt;&lt; sudo tee /etc/netplan/00-installer-config.yaml 
-</span></span></span><span style=display:flex><span><span style=color:#d88200># This is the network config written by &#39;su</span>biquity<span style=color:#960050;background-color:#1e0010>&#39;</span>
-</span></span><span style=display:flex><span>network:
-</span></span><span style=display:flex><span>  ethernets:
-</span></span><span style=display:flex><span>    enp0s3:
-</span></span><span style=display:flex><span><span style=color:#75715e>#      addresses:</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#      - 192.168.8.20/24</span>
-</span></span><span style=display:flex><span>      dhcp4: yes
-</span></span><span style=display:flex><span>      dhcp6: no
-</span></span><span style=display:flex><span>  version: <span style=color:#ae81ff>2</span>
-</span></span><span style=display:flex><span>EOT
-</span></span></code></pre></div><h3 id=clone-1-docker-composeyml-1>clone 1 docker-compose.yml</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat EOT&lt;&lt; &gt;~/docker/docker-compose.yml
-</span></span><span style=display:flex><span>version: <span style=color:#d88200>&#39;2&#39;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>services:
-</span></span><span style=display:flex><span>  ros:
-</span></span><span style=display:flex><span>    container_name: ros2
-</span></span><span style=display:flex><span>    image: osrf/ros:galactic-desktop
-</span></span><span style=display:flex><span>    hostname: ros-host
-</span></span><span style=display:flex><span>    domainname: <span style=color:#111>test</span>
-</span></span><span style=display:flex><span>    networks:
-</span></span><span style=display:flex><span>      network:
-</span></span><span style=display:flex><span>        ipv4_address: 192.168.8.21
-</span></span><span style=display:flex><span>    command: ros2 run demo_nodes_cpp listener
-</span></span><span style=display:flex><span>    restart: unless-stopped
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>networks:
-</span></span><span style=display:flex><span>  network:
-</span></span><span style=display:flex><span>    driver: ipvlan
-</span></span><span style=display:flex><span>    driver_opts:
-</span></span><span style=display:flex><span>      parent: enp0s3
-</span></span><span style=display:flex><span>      ipvlan-mode: l2
-</span></span><span style=display:flex><span>    ipam:
-</span></span><span style=display:flex><span>      driver: default
-</span></span><span style=display:flex><span>      config:
-</span></span><span style=display:flex><span>        - subnet: 192.168.8.0/24
-</span></span><span style=display:flex><span>          gateway: 192.168.8.1
-</span></span><span style=display:flex><span>          ip_range: 192.168.8.1/24
-</span></span><span style=display:flex><span>EOT
+</span></span></code></pre></div><h2 id=bridged-networking-with-a-physical-router>Bridged Networking with a physical router</h2><p>This example assumes a subnet of 192.168.8.xxx from the router. Go to both guests and select bridged networking. The guests ip addresses themselves can be assigned by the router&rsquo;s dhcp server in this example.</p><h3 id=clone-1-netplan>clone 1 netplan</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT sudo tee /etc/netplan/00-installer-config.yaml 
+</span></span></span><span style=display:flex><span><span style=color:#d88200>network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ethernets:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    enp0s3:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>#      addresses:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>#      - 192.168.8.10/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp4: yes
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp6: no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  version: 2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
+</span></span></code></pre></div><h3 id=clone-1-docker-composeyml>clone 1 docker-compose.yml</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT &gt;~/docker/docker-compose.yml
+</span></span></span><span style=display:flex><span><span style=color:#d88200>version: &#39;2&#39;
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>services:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ros:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    container_name: ros2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    image: osrf/ros:galactic-desktop
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    hostname: ros-host
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    domainname: test
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        ipv4_address: 192.168.8.11
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    command: ros2 run demo_nodes_cpp talker
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    restart: unless-stopped
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver: ipvlan
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver_opts:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      parent: enp0s3
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      ipvlan-mode: l2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    ipam:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      driver: default
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      config:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        - subnet: 192.168.8.0/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          gateway: 192.168.8.1
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          ip_range: 192.168.8.1/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
+</span></span></code></pre></div><h3 id=clone-2-netplan>clone 2 netplan</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT sudo tee /etc/netplan/00-installer-config.yaml 
+</span></span></span><span style=display:flex><span><span style=color:#d88200># This is the network config written by &#39;subiquity&#39;
+</span></span></span><span style=display:flex><span><span style=color:#d88200>network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ethernets:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    enp0s3:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>#      addresses:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>#      - 192.168.8.20/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp4: yes
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      dhcp6: no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  version: 2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
+</span></span></code></pre></div><h3 id=clone-1-docker-composeyml-1>clone 1 docker-compose.yml</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT &gt;~/docker/docker-compose.yml
+</span></span></span><span style=display:flex><span><span style=color:#d88200>version: &#39;2&#39;
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>services:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  ros:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    container_name: ros2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    image: osrf/ros:galactic-desktop
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    hostname: ros-host
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    domainname: test
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        ipv4_address: 192.168.8.21
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    command: ros2 run demo_nodes_cpp listener
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    restart: unless-stopped
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>networks:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>  network:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver: ipvlan
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    driver_opts:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      parent: enp0s3
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      ipvlan-mode: l2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>    ipam:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      driver: default
+</span></span></span><span style=display:flex><span><span style=color:#d88200>      config:
+</span></span></span><span style=display:flex><span><span style=color:#d88200>        - subnet: 192.168.8.0/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          gateway: 192.168.8.1
+</span></span></span><span style=display:flex><span><span style=color:#d88200>          ip_range: 192.168.8.1/24
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
 </span></span></code></pre></div></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://twitter.com/danaukes>twitter</a></li><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://danaukes.com/contact/>Contact</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://danaukes.com><img src=https://danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2022 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/docker/docker-with-ros2.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://danaukes.com/index.json"</script><script src=https://danaukes.com/plugins/jQuery/jquery.min.js></script>
 <script src=https://danaukes.com/plugins/bootstrap/bootstrap.min.js></script>
 <script src=https://danaukes.com/plugins/slick/slick.min.js></script>
