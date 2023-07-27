@@ -59,7 +59,7 @@ select "internal network"
 
 ```bash
 sudo cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
-cat EOT<< sudo tee /etc/netplan/00-installer-config.yaml 
+cat << EOT sudo tee /etc/netplan/00-installer-config.yaml 
 network:
   ethernets:
     enp0s3:
@@ -76,7 +76,7 @@ EOT
 ```bash
 mkdir ~/docker
 cd ~/docker
-cat EOT<< >docker-compose.yml
+cat << EOT >docker-compose.yml
 version: '2'
 
 services:
@@ -116,7 +116,7 @@ select "internal network"
 
 ```bash
 sudo cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.bak
-cat EOT<< sudo tee /etc/netplan/00-installer-config.yaml 
+cat << EOT sudo tee /etc/netplan/00-installer-config.yaml 
 network:
   ethernets:
     enp0s3:
@@ -133,7 +133,7 @@ EOT
 ```bash
 mkdir ~/docker
 cd ~/docker
-cat EOT<< >docker-compose.yml
+cat << EOT >docker-compose.yml
 version: '2'
 
 services:
@@ -184,7 +184,7 @@ This example assumes a subnet of 192.168.8.xxx from the router.  Go to both gues
 ### clone 1 netplan
 
 ```bash
-cat EOT<< sudo tee /etc/netplan/00-installer-config.yaml 
+cat << EOT sudo tee /etc/netplan/00-installer-config.yaml 
 network:
   ethernets:
     enp0s3:
@@ -199,7 +199,7 @@ EOT
 ### clone 1 docker-compose.yml
 
 ```bash
-cat EOT<< >~/docker/docker-compose.yml
+cat << EOT >~/docker/docker-compose.yml
 version: '2'
 
 services:
@@ -232,7 +232,7 @@ EOT
 ### clone 2 netplan
 
 ```bash
-cat EOT<< sudo tee /etc/netplan/00-installer-config.yaml 
+cat << EOT sudo tee /etc/netplan/00-installer-config.yaml 
 # This is the network config written by 'subiquity'
 network:
   ethernets:
@@ -248,7 +248,7 @@ EOT
 ### clone 1 docker-compose.yml
 
 ```bash
-cat EOT<< >~/docker/docker-compose.yml
+cat << EOT >~/docker/docker-compose.yml
 version: '2'
 
 services:
