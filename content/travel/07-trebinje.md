@@ -1,11 +1,10 @@
 ---
 title: Trebinje, Bosnia and Herzegovina
+date: 2023-07-27
 ---
 
 
 ## July 26
-
-
 
 [caption](/images/travel/PXL_20230726_112552538.MP.jpg) 
 
