@@ -2,6 +2,9 @@
 title: Removing Firefox and Snap
 ---
 
+
+This is useful for stalled updates when installing ubuntu-desktop-minimal on a server.  the firefox snap package seems to hang.
+
 derived from [here](https://www.debugpoint.com/remove-snap-ubuntu/)
 
 ```bash
