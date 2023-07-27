@@ -78,4 +78,6 @@ date: 2023-07-27
 
 ## July 27
 
-[Title](07-trebinje.md) ![Title](../../static/images/travel/PXL_20230727_073258822.jpg) ![Title](../../static/images/travel/PXL_20230727_070234673.jpg)
+![caption](/images/travel/PXL_20230727_073258822.jpg) 
+
+![caption](/images/travel/PXL_20230727_070234673.jpg)
