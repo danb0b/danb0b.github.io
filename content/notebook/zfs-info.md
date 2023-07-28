@@ -141,6 +141,9 @@ zfs send -v -i <last_snapshot> <current-snapshot> | ssh <secondary-machine> zfs 
 zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs recv coldstorage/nas
 ```
 
+## Highlighted External Links
+
+- [Managing ZFS File Systems - ZFS Administration Guide](https://illumos.org/books/zfs-admin/gavwq.html#gazvb)
 
 ## External links
 
@@ -172,7 +175,6 @@ zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs re
 - [SOLVED - Manual zfs replication issue \| TrueNAS Community](https://www.truenas.com/community/threads/manual-zfs-replication-issue.87812/)
 - [file-level backup vs zfs - Google Search](https://www.google.com/search?q=file-level+backup+vs+zfs&client=firefox-b-1-d&ei=Gr1rZJe2G7f8kPIPwpKUoAE&ved=0ahUKEwiXq_Oxz4n_AhU3PkQIHUIJBRQQ4dUDCBA&uact=5&oq=file-level+backup+vs+zfs&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABOgoIABBHENYEELADOgYIABAHEB46BQgAEIAEOgQIABAeOgYIABAWEB46CAgAEBYQHhAPOggIABCKBRCGAzoICCEQFhAeEB1KBAhBGABQjxRYxC9g-jNoAnABeACAAcYBiAGAC5IBAzMuOZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp)
 - [ZFS vs Borg for incremental backup of media files to cold storage? : r/zfs](https://www.reddit.com/r/zfs/comments/z8b87o/zfs_vs_borg_for_incremental_backup_of_media_files/)
-- [Managing ZFS File Systems - ZFS Administration Guide](https://illumos.org/books/zfs-admin/gavwq.html#gazvb)
 - [ZFS File System (Introduction) - ZFS Administration Guide](https://illumos.org/books/zfs-admin/zfsover-1.html#gbcpt)
 - [list all datasets zfs - Google Search](https://www.google.com/search?client=firefox-b-1-d&q=list+all+datasets+zfs)
 - [change files in a root pool to a dataset zfs - Google Search](https://www.google.com/search?q=change+files+in+a+root+pool+to+a+dataset+zfs&client=firefox-b-1-d&ei=3cFrZN6ON_zdkPIP8KO-2AQ&ved=0ahUKEwie8bD304n_AhX8LkQIHfCRD0sQ4dUDCBA&uact=5&oq=change+files+in+a+root+pool+to+a+dataset+zfs&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAEyBQghEKABOgoIABBHENYEELADOggIABCKBRCRAjoTCC4QigUQsQMQgwEQxwEQ0QMQQzoRCC4QgAQQsQMQgwEQxwEQ0QM6CwguEIoFELEDEIMBOgsIABCABBCxAxCDAToRCC4QgwEQxwEQsQMQ0QMQgAQ6CAgAEIAEELEDOgsIABCKBRCxAxCDAToOCC4QgAQQsQMQxwEQ0QM6BQgAEIAEOgoIABCKBRCxAxBDOhMILhCDARDHARCxAxDRAxCKBRBDOg0ILhCKBRCxAxDUAhBDOgcIABCKBRBDOggIABCABBDJAzoICAAQigUQkgM6BQguEIAEOggILhCABBCxAzoLCC4QgAQQxwEQrwE6CwguEIAEELEDENQCOgYIABAWEB46CAgAEBYQHhAPOgUIIRCrAjoICCEQFhAeEB06CAgAEIoFEIYDOgoIIRAWEB4QDxAdOgUIABCiBEoECEEYAFDGMVjqX2CqYGgDcAF4AIABrgGIAbsmkgEFMTMuMzCYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp)
