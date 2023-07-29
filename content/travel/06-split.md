@@ -30,39 +30,53 @@ I woke at 5am, and, looking out the porthole, saw land!  We were at Croatia!  We
 
 ## Sunday, July 23
 
-![caption](/images/travel/PXL_20230723_054143016.jpg)
+![down the steps toward the south gate](/images/travel/PXL_20230723_054143016.jpg)
 
-![caption](/images/travel/PXL_20230723_054237932.jpg)
+![subterranean passage](/images/travel/PXL_20230723_054237932.jpg)
 
-![caption](/images/travel/PXL_20230723_054958635.jpg)
+![ruins of the palace wall](/images/travel/PXL_20230723_054958635.jpg)
 
-![caption](/images/travel/PXL_20230723_055157463.jpg)
+![the cathedral](/images/travel/PXL_20230723_055157463.jpg)
 
-![caption](/images/travel/PXL_20230723_060240498.jpg)
+![Inside the old dome](/images/travel/PXL_20230723_060240498.jpg)
 
-![caption](/images/travel/PXL_20230723_060333218.jpg)
+![brick and stone patterns in the wall](/images/travel/PXL_20230723_060333218.jpg)
 
-![caption](/images/travel/PXL_20230723_062149447.jpg)
+![cafe](/images/travel/PXL_20230723_062149447.jpg)
 
-![caption](/images/travel/PXL_20230723_145814900.jpg)
+![putting out the laundry](/images/travel/PXL_20230723_145814900.jpg)
 
-## July 24
 
-![caption](/images/travel/PXL_20230724_080222211.jpg)
+One of the places we had tried to go on Saturday was Diocletian's palace.  We arrived there to find the square filled with people, roman soldiers, tour groups...there was nowhere to sit, stand, or breathe, and it had been so hot!
+So on Sunday morning we decided to try again.  After an early bedtime the night before, we ate a quick breakfast and went back.  It was empty!  Apparently the ferries and cruise ships had not disembarked many tourists by ~8am.
 
-![caption](/images/travel/PXL_20230724_080503670.MP.jpg)
+We strolled around the whole palace area, with the place to ourselves.  A favorite was the South gate, which has a subterranean exit to a lower town plaza and pier.  This used to go straight to the water in Diocletian's day.
 
-![caption](/images/travel/PXL_20230724_081701092.jpg)
+We had a quick bite in a cafe, chatted with some actual locals, and went back home for school.  We had a day inside for most of the rest of the morning.
 
-![caption](/images/travel/PXL_20230724_084026616.MP.jpg)
+We went to a local beach in the afternoon and I accidentally stepped on an urchin or two.  I went home to pick glass out of my feet
 
-![caption](/images/travel/PXL_20230724_163338657.jpg)
+## Monday, July 24
 
-![caption](/images/travel/PXL_20230724_170254126.MP.jpg)
+![overlook in the park](/images/travel/PXL_20230724_080222211.jpg)
+
+![overlook in the park](/images/travel/PXL_20230724_080503670.MP.jpg)
+
+![overlook in the park](/images/travel/PXL_20230724_081701092.jpg)
+
+![hike down the hill](/images/travel/PXL_20230724_084026616.MP.jpg)
+
+![gelato](/images/travel/PXL_20230724_163338657.jpg)
+
+![go fish!](/images/travel/PXL_20230724_170254126.MP.jpg)
+
+I took the kids out for a hike up the hill and into the park.  We took in the sights from the overlook, the kids played in the playground, and I took them on a proper scramble down the back side of the hill in search of a cafe.  We never made it; it was time for school and way to hot, so we headed home.
+
+We went out for gelato in the evening and played go fish as a family before bed.
 
 ## July 25
 
-![caption](/images/travel/PXL_20230725_082122011.jpg)
+![a true water closet](/images/travel/PXL_20230725_082122011.jpg)
 
 ![caption](/images/travel/PXL_20230725_084905379.jpg)
 
@@ -95,3 +109,6 @@ I woke at 5am, and, looking out the porthole, saw land!  We were at Croatia!  We
 ![caption](/images/travel/PXL_20230725_170255548.jpg)
 
 ![caption](/images/travel/PXL_20230725_173728824.jpg)
+
+
+We got up early and headed into the palace area to catch up with a tour group that would take us to one of Croatia's nearest national parks.  When we got there it was cloudy and almost raining, a nice break from the heat.  We walked around a set of preserved buildings that had once housed a hydroelectric plant installed by Tesla, that also looked like it had been a small town.  Walking the boardwalk through the network of interconnected pools, streams, and waterfalls was neat, but way too overcrowded.  We couldn't stop, nor could we all get out to the crowded overlooks...just too many people.  By the time we finished the boardwalk it was lunchtime, hot, and overfull.  Sara and the boys took the boat back to Skradin, the nearest town, while I walked the 3km just to get in a proper walk away from the crowds.  It was lovely.  We got back on the bus at 3:10 and headed back to Split where we had a nice dinner out to celebrate Sam's birthday.  We shared two slices of chocolate cake and then let the kids run up the steps to the nearest hill and burn off the sugar and chocolate.
