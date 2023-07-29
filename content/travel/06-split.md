@@ -74,41 +74,43 @@ I took the kids out for a hike up the hill and into the park.  We took in the si
 
 We went out for gelato in the evening and played go fish as a family before bed.
 
-## July 25
+## Tuesday, July 25
 
 ![a true water closet](/images/travel/PXL_20230725_082122011.jpg)
 
-![caption](/images/travel/PXL_20230725_084905379.jpg)
+![krka national park](/images/travel/PXL_20230725_084905379.jpg)
 
-![caption](/images/travel/PXL_20230725_091226372.jpg)
+![krka national park](/images/travel/PXL_20230725_091226372.jpg)
 
-![caption](/images/travel/PXL_20230725_091354292.jpg)
+![kids, what kids?](/images/travel/PXL_20230725_091354292.jpg)
 
-![caption](/images/travel/PXL_20230725_092439619.jpg)
+![oh, there they are](/images/travel/PXL_20230725_092439619.jpg)
 
-![caption](/images/travel/PXL_20230725_092626604.jpg)
+![krka national park](/images/travel/PXL_20230725_092626604.jpg)
 
-![caption](/images/travel/PXL_20230725_093426696.jpg)
+![krka national park](/images/travel/PXL_20230725_093426696.jpg)
 
-![caption](/images/travel/PXL_20230725_093619010.jpg)
+![krka national park](/images/travel/PXL_20230725_093619010.jpg)
 
-![caption](/images/travel/PXL_20230725_094738953.jpg)
+![krka national park](/images/travel/PXL_20230725_094738953.jpg)
 
-![caption](/images/travel/PXL_20230725_100228807.MP.jpg)
+![krka national park](/images/travel/PXL_20230725_100228807.MP.jpg)
 
-![caption](/images/travel/PXL_20230725_110814107.jpg)
+![krka national park](/images/travel/PXL_20230725_110814107.jpg)
 
-![caption](/images/travel/PXL_20230725_111005636.jpg)
+![krka national park](/images/travel/PXL_20230725_111005636.jpg)
 
-![caption](/images/travel/PXL_20230725_111052934.jpg)
+![krka national park](/images/travel/PXL_20230725_111052934.jpg)
 
-![caption](/images/travel/PXL_20230725_115941234.jpg)
+![walking to Skradin along the river](/images/travel/PXL_20230725_115941234.jpg)
 
-![caption](/images/travel/PXL_20230725_163222480.jpg)
+![Sammy's birthday dinner](/images/travel/PXL_20230725_163222480.jpg)
 
-![caption](/images/travel/PXL_20230725_170255548.jpg)
+![Birthday cake](/images/travel/PXL_20230725_170255548.jpg)
 
-![caption](/images/travel/PXL_20230725_173728824.jpg)
+![Letting off steam](/images/travel/PXL_20230725_173728824.jpg)
 
 
-We got up early and headed into the palace area to catch up with a tour group that would take us to one of Croatia's nearest national parks.  When we got there it was cloudy and almost raining, a nice break from the heat.  We walked around a set of preserved buildings that had once housed a hydroelectric plant installed by Tesla, that also looked like it had been a small town.  Walking the boardwalk through the network of interconnected pools, streams, and waterfalls was neat, but way too overcrowded.  We couldn't stop, nor could we all get out to the crowded overlooks...just too many people.  By the time we finished the boardwalk it was lunchtime, hot, and overfull.  Sara and the boys took the boat back to Skradin, the nearest town, while I walked the 3km just to get in a proper walk away from the crowds.  It was lovely.  We got back on the bus at 3:10 and headed back to Split where we had a nice dinner out to celebrate Sam's birthday.  We shared two slices of chocolate cake and then let the kids run up the steps to the nearest hill and burn off the sugar and chocolate.
+We got up early and headed into the palace area to catch up with a tour group that would take us to one of Croatia's nearest national parks.  When we got there it was cloudy and almost raining, a nice break from the heat.  We walked around a set of preserved buildings that had once housed a hydroelectric plant installed by Tesla, that also looked like it had been a small town.  Walking the boardwalk through the network of interconnected pools, streams, and waterfalls was neat, but way too overcrowded.  We couldn't stop, nor could we all get out to the crowded overlooks...just too many people.  By the time we finished the boardwalk it was lunchtime, hot, and overfull.  Sara and the boys took the boat back to Skradin, the nearest town, while I walked the 3km just to get in a proper walk away from the crowds.  It was lovely.  We got back on the bus at 3:10 and headed back to Split
+
+We had a nice dinner out near our apartment to celebrate Sam's birthday.  We shared two slices of chocolate cake and then let the kids run up the steps to the nearest hill and burn off the sugar and chocolate.
