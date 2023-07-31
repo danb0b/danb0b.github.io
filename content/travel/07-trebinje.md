@@ -91,10 +91,16 @@ After lunch we took an alternate route around a lake, up a winding, single-lane 
 
 We ate an early breakfast, walked into Trebinje's old town, and had a coffee in a little cafe while the kids played in an alley.
 
-We came home, did school, and I tried to workm in the din.
+We came home, did school, and I tried to work in the din.
 
 In the late afternoon we walked to a pretty poor playground in a local neighborhood.  The kids still needed it.  We got some veggies and fruit, came home and made a wonderful salad for dinner.
 
 ## July 28
 
 Mom took the kids to a monastery while I tried to play catch-up on my email and some long-standing issues with class prep.  They picked me up around 10:45 and we headed to a winery where we tried some nice local wine and talked to a young woman about the wine, our travels, and her experiences in the US.  It was pleasant.  We looked for lunch at a second winery, with no luck.  We headed home for lunch, did school, had some quiet time, and went out to dinner at "Market 99", a nearby restaurant.  We walked to a park carved out of the river and watched the kids play, walked home, got some popcorn, and headed to bed.  A nice day.
+
+## July 29
+
+On our last day in Trebinje, we walked up to the Orthodox Church at the top of the hill overlooking Trebinje.  It was hot.  On our way down, we took an overgrown path and spotted a tortoise.  Back at the apartment we did some school and Dad and Sam headed to the store to look for food for dinner and traveling the next day.  I got some sausage that looked like ham, some more summer-sausagy looking thing, what I thought was ricotta or similar but just turned out to be butter, some cheese chunks, dried apricots, figs, dates, etc., and a lot of veggies and peaches...I also got "flower" bread, which was 7 dinner-sized rolls (6 around, one in the middle).
+
+In the afternoon, after reading and math we headed to the park and the kids played soccer with a dad and his son.  We walked over to the old arch bridge, and then Mom met us with the car and we headed up out of town and hiked to an old tower.  The stairs to the entrance were collapsed but we were able to climb up enough to look in...there was a peephole and a doorway up to a higher level, and the ceiling on the first level was still intact, in the form of a bricked in dome.  I invented "ham" and "butter" sandwiches; mom added cucumber and pepper to make it healthier.  The kids loved them :)
