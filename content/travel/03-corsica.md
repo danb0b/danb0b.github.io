@@ -33,39 +33,6 @@ Ben made a good point that we used a lot of different modes of transportation on
 
 We found our AirBNB pretty easily.  Again, the host didn't reveal the true location until we were already in Calvi.  Is this the new normal?  If so, it is an annoying normal.  Erin and I walked into town to look for food, got pizzas and wine, brought them back, and had a short and fast dinner before bed.
 
-### The place
-
-Do not stay at this apartment.  The owners will scour the apartment looking for damage and assume it was you.  
-
-This was our review we were working on before they tried to charge us $6000 for damages:
-
-----------------------------------
-
-TL/DR:
-
-The AirBNB we stayed at was a relativly modern 3 bedroom place with tile floors, a back patio, A/C, the slowest wifi, and a washer/dryer.  We were greeted at the driveway by our host.  She and her partner showed us around and gave us the rundown of the apartment.  They told us the places to visit, and how to find parking. The place was clean and relativly nice.  they gave us a bag of local biscuits.
-
-The issue was that the place, as stocked, was barely functional for a group of 8.  They supplied us with one roll of toilet paper, no paper towels, one pod for the washing machine, and two pods for the dishwasher.  At home, we fill the dishwasher almost every day.  8 people eating at home for 2-3 meals a day?
-
-A rundown of how this played out throughout the apartment:
-
-* 2 dishwasher pods
-* 2 tablespoons of oil
-* 1 washing machine pod
-* no paper towels
-* one roll of toilet paper
-* two coffee pods (for three adults?)
-* 2 hotel-sized hand soaps
-* no shampoo or bath soap
-
-We felt like we were being treated like long-term renters.  They viewed the supplies that they did leave us us as their "gift" to us (their words), or some sort of starter, but this ignores the economics of the situation.  We paid $400 a night for five nights for the use of their house.  We're expected to run to the local shop to run the dishes or use the bathroom?  We are traveling internationally with kids.  We can't take our extra pods with us, and is a major inconvenience if we were to have to do this at every place we stayed.
-
-When we use AirBNB, our expectation is that the house works while they're there. Our arrival was late in the evening after the shops closed to one roll of toilet paper.  It didn't make it through the night!  (We accidentally dropped it in the toilet)  They did give us 2 more, but we ended up quibbling about this, and it left us with the feeling that it was given begrudgingly.
-
-If we're paying $2000, put a package of toilet paper in the closet, and some bargain basement washing machine liquid in there too.  Include those small charges in your price.  
-
-Plus, the wifi is TERRIBLE. It barely works.  I wouldn't be surprised if they were throttling it.
-
 ## Saturday, July 15
 
 ![Kids at the beach](/images/travel/PXL_20230715_090856450.MP.jpg)
