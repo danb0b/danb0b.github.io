@@ -43,7 +43,7 @@ params:
   cookies:
     enable: false
     expire_days: 2
-  copyright: "|  copyright &copy; 2022 Daniel Aukes.  All Rights Reserved.  |"
+  copyright: "|  copyright &copy; 2023 Daniel Aukes.  All Rights Reserved.  |"
   description: Dan Aukes' personal website
   #email: 'danaukes at gmail.com'
   #googleAnalitycsID: Your ID
