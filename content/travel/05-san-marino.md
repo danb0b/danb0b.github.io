@@ -7,19 +7,12 @@ summary: Italy's nesting doll of a country couldn't be cuter!
 ## Thursday, July 20
 
 ![Driving to San Marino](/images/travel/PXL_20230720_114939393.jpg)
-
 ![Driving to San Marino](/images/travel/PXL_20230720_114948388.jpg)
-
 ![The view from our hotel](/images/travel/PXL_20230720_165645977.jpg)
-
 ![Next to our restaurant](/images/travel/PXL_20230720_181107654.jpg)
-
 ![Restaurant](/images/travel/PXL_20230720_191444041.MP.jpg)
-
 ![Dusk in San Marino](/images/travel/PXL_20230720_191459796.jpg)
-
 ![Birthday ice cream](/images/travel/PXL_20230720_193931100.MP.jpg)
-
 ![Walking home](/images/travel/PXL_20230720_195212309.jpg)
 
 We drove across the country to San Marino.  Pretty uneventful, but one highlight was the many tunnels we went through.  The kids slept most of the way.
@@ -29,53 +22,29 @@ As we got off the autostrada, we started heading up in elevation.  As we kept go
 ## Friday, July 21
 
 ![Breakfast outdoors](/images/travel/PXL_20230721_064728586.jpg)
-
 ![Walking the tower trail](/images/travel/PXL_20230721_072357100.jpg)
-
 !["The Witches Walk"](/images/travel/PXL_20230721_072454431.jpg)
-
 ![Sisters](/images/travel/PXL_20230721_072525459.jpg)
-
 ![Look what we found!](/images/travel/PXL_20230721_072644623.jpg)
-
 ![Quiddich champ](/images/travel/PXL_20230721_072711475.jpg)
-
 ![Tower trail](/images/travel/PXL_20230721_073412619.jpg)
-
 ![The third tower](/images/travel/PXL_20230721_074604750.jpg)
-
 ![Tower trail](/images/travel/PXL_20230721_075203654.jpg)
-
 ![Tower trail](/images/travel/PXL_20230721_075242443.jpg)
-
 ![Family photo](/images/travel/PXL_20230721_080807989.jpg)
-
 ![Cousins](/images/travel/PXL_20230721_080854329.jpg)
-
 ![Second tower](/images/travel/PXL_20230721_083134744.jpg)
-
 ![Archers along the wall](/images/travel/PXL_20230721_084116690.jpg)
-
 ![Blowing bubbles](/images/travel/PXL_20230721_092038132.jpg)
-
 ![The main drag](/images/travel/PXL_20230721_092552834.jpg)
-
 ![View of the town](/images/travel/PXL_20230721_102441625.jpg)
-
 ![Waiting at the ferry terminal](/images/travel/PXL_20230721_133553212.jpg)
-
 ![Fishing boat](/images/travel/PXL_20230721_143125620.jpg)
-
 ![The fishing port](/images/travel/PXL_20230721_144009947.jpg)
-
 ![Security line for the ferry](/images/travel/PXL_20230721_161520078.jpg)
-
 ![Walk-ons](/images/travel/PXL_20230721_162306356.MP.jpg)
-
 ![Entering the boat](/images/travel/PXL_20230721_162402516.jpg)
-
 ![A scene from appetizers](/images/travel/PXL_20230721_170905418.jpg)
-
 ![Ancona from the ferry](/images/travel/PXL_20230721_172559329.jpg)
 
 

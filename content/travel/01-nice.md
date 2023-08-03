@@ -57,7 +57,6 @@ It was a really windy day, but hot, and there was some debate in my mind whether
 ![The kids had a break at the water park](/images/travel/PXL_20230708_144651181.jpg) 
 
 ![Dinner al Fresco](/images/travel/PXL_20230708_173618993.jpg)
-
 ![Dinner al Fresco](/images/travel/PXL_20230708_173651243.jpg)
 
 

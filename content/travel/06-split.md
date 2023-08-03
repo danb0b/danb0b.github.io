@@ -9,21 +9,13 @@ summary: Our adventure in the balkans begins...
 ## Saturday, July 22
 
 ![Anthropology museum](/images/travel/PXL_20230722_073334353.jpg)
-
 ![View from the park overlook](/images/travel/PXL_20230722_113811833.jpg)
-
 ![View from the park overlook](/images/travel/PXL_20230722_115327496.jpg)
-
 ![Wetting heads in a public fountain](/images/travel/PXL_20230722_115402767.jpg)
-
 ![Wetting heads in a public fountain](/images/travel/PXL_20230722_115444313.NIGHT.jpg)
-
 ![Wetting heads in a public fountain](/images/travel/PXL_20230722_115453477.MP.jpg)
-
 ![Three cool boys](/images/travel/PXL_20230722_115807935.MP.jpg)
-
 ![Ducks in a row](/images/travel/PXL_20230722_120851483.jpg)
-
 ![The walk home](/images/travel/PXL_20230722_121137769.jpg)
 
 I woke at 5am, and, looking out the porthole, saw land!  We were at Croatia!  We disembarked around 7am and burned some time in Split until our apartment opened around 2pm.  Sara got food at the grocery store, and we relaxed.
@@ -31,19 +23,12 @@ I woke at 5am, and, looking out the porthole, saw land!  We were at Croatia!  We
 ## Sunday, July 23
 
 ![down the steps toward the south gate](/images/travel/PXL_20230723_054143016.jpg)
-
 ![subterranean passage](/images/travel/PXL_20230723_054237932.jpg)
-
 ![ruins of the palace wall](/images/travel/PXL_20230723_054958635.jpg)
-
 ![the cathedral](/images/travel/PXL_20230723_055157463.jpg)
-
 ![Inside the old dome](/images/travel/PXL_20230723_060240498.jpg)
-
 ![brick and stone patterns in the wall](/images/travel/PXL_20230723_060333218.jpg)
-
 ![cafe](/images/travel/PXL_20230723_062149447.jpg)
-
 ![putting out the laundry](/images/travel/PXL_20230723_145814900.jpg)
 
 
@@ -59,15 +44,10 @@ We went to a local beach in the afternoon and I accidentally stepped on an urchi
 ## Monday, July 24
 
 ![overlook in the park](/images/travel/PXL_20230724_080222211.jpg)
-
 ![overlook in the park](/images/travel/PXL_20230724_080503670.MP.jpg)
-
 ![overlook in the park](/images/travel/PXL_20230724_081701092.jpg)
-
 ![hike down the hill](/images/travel/PXL_20230724_084026616.MP.jpg)
-
 ![gelato](/images/travel/PXL_20230724_163338657.jpg)
-
 ![go fish!](/images/travel/PXL_20230724_170254126.MP.jpg)
 
 I took the kids out for a hike up the hill and into the park.  We took in the sights from the overlook, the kids played in the playground, and I took them on a proper scramble down the back side of the hill in search of a cafe.  We never made it; it was time for school and way to hot, so we headed home.
@@ -77,37 +57,21 @@ We went out for gelato in the evening and played go fish as a family before bed.
 ## Tuesday, July 25
 
 ![a true water closet](/images/travel/PXL_20230725_082122011.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_084905379.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_091226372.jpg)
-
 ![kids, what kids?](/images/travel/PXL_20230725_091354292.jpg)
-
 ![oh, there they are](/images/travel/PXL_20230725_092439619.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_092626604.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_093426696.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_093619010.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_094738953.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_100228807.MP.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_110814107.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_111005636.jpg)
-
 ![krka national park](/images/travel/PXL_20230725_111052934.jpg)
-
 ![walking to Skradin along the river](/images/travel/PXL_20230725_115941234.jpg)
-
 ![Sammy's birthday dinner](/images/travel/PXL_20230725_163222480.jpg)
-
 ![Birthday cake](/images/travel/PXL_20230725_170255548.jpg)
-
 ![Letting off steam](/images/travel/PXL_20230725_173728824.jpg)
 
 
