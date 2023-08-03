@@ -2,6 +2,7 @@
 title: Split, Croatia
 date: 2023-07-22
 summary: Our adventure in the balkans begins...
+image: /images/travel/PXL_20230723_054143016.jpg
 ---
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1f-t4wrLjshW73uWtKc_PHqi_AxSdTN8&ehbc=2E312F" width="640" height="480"></iframe>

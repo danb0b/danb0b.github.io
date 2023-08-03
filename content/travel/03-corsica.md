@@ -2,6 +2,7 @@
 title: Corsica, France
 date: 2023-07-14
 summary: We traveled with Sara's sister and kids, visited the beach, ate some wonderful food, and tried some wine.
+image: /images/travel/PXL_20230716_185933565.jpg
 ---
 
 ## Friday, July 14, 2023

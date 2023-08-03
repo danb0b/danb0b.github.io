@@ -2,6 +2,7 @@
 title: Pre-Trip to Minnesota
 date: 2023-06-23
 summary: We visited my sister and her wonderful family.
+image: /images/travel/PXL_20230701_015204927.jpg
 ---
 
 <!-- ## Minnesota -->
@@ -56,7 +57,7 @@ Spent the morning at home, walked to the park, had a water blaster fight, did th
 
 ### Saturday July 1st
 
-![Fire and S'mores](/images/travel/PXL_20230701_015204927.jpg)
+![Fire and Smores](/images/travel/PXL_20230701_015204927.jpg)
 ![Sam snuggled with Alison quite a bit on our trip](/images/travel/PXL_20230701_023824389.jpg)
 ![Peace](/images/travel/IMG-20230701-WA0001.jpg)
 

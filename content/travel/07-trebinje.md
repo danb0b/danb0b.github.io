@@ -2,6 +2,7 @@
 title: Trebinje, Bosnia and Herzegovina
 date: 2023-07-27
 summary: Going deeper into the unknown...
+image: /images/travel/PXL_20230726_150740704.jpg
 ---
 
 

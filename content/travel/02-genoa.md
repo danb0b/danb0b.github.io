@@ -2,6 +2,7 @@
 title: Genoa, Italy
 date: 2023-07-10
 summary: Dan's conference plus some fun explorations of the city.
+image: /images/travel/PXL_20230714_050422000.jpg
 ---
 
 ## Monday July 10th
@@ -73,7 +74,7 @@ Sounds like mom and the kids had a blast in cinque terra.
 ![Pirate Ship with Mom](/images/travel/PXL_20230712_082226861.MP.jpg)
 ![Arrrgh!](/images/travel/PXL_20230712_082758142.MP.jpg)
 ![Pirate Ship with Mom](/images/travel/PXL_20230712_083741347.jpg)
-![](/images/travel/PXL_20230712_103023251.jpg)
+![Lunch](/images/travel/PXL_20230712_103023251.jpg)
 ![Kids looking at where the fountain goes](/images/travel/PXL_20230712_160215544.jpg)
 ![The banquet location](/images/travel/PXL_20230712_165049872.jpg)
 ![The back lawn at the banquet](/images/travel/PXL_20230712_165312620.jpg)

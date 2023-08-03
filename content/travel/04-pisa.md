@@ -2,6 +2,7 @@
 title: Pisa, Italy
 date: 2023-07-19
 summary: A one-night stop to visit a particular engineering marvel.
+image: /images/travel/PXL_20230720_075749822.jpg
 ---
 
 ## Wednesday, July 19

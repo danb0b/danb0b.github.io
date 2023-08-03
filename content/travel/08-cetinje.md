@@ -2,6 +2,7 @@
 title: Cetinje, Montenegro
 date: 2023-07-30
 summary: Day trips from within Lovcen National Park
+image: /images/travel/PXL_20230730_132655038.jpg
 ---
 
 ## Sunday, July 30, 2023
