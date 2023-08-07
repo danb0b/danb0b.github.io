@@ -23,7 +23,9 @@ Electrical issues:
 * miswiring
 * overheating
 
-Of course, you can avoid all of these issues simply by paying more for a higher-quality part.  This is what we do in research.  But think about the challenges of teaching a course...each dollar you spend on parts gets multiplied many times over.  A simple robot, consisting of 4 servos, will cost the course 4 \* 30 \* $5 = $600.  Upgrading to a $10 motor with bearings and metal gears costs $600 more!  This not a sustainable move in a college setting, let alone a k-12 classroom, even if you utilize project teams
+Of course, you can avoid all of these issues simply by paying more for a higher-quality part.  This is what we do in research.  But think about the challenges of teaching a course...each dollar you spend on parts gets multiplied many times over.  A simple robot, consisting of 4 servos, will cost the course 4 \* 30 \* $5 = $600 for a 30 person class.  Upgrading to a $10 motor with bearings and metal gears costs $600 more!  This is not sustainable in a college setting, let alone a K-12 classroom, even if you utilize project teams to reduce the number of systems.
 
-If you find a servo that avoids the worst of these issues, One of the most pernicious issues that 
+But, if you do happen to find a servo that avoids the worst of these issues, One of the most pernicious things I've found that crops up, even with a fairly robust, low-cost servo happens as you start to scale up the number of servos, and this relates to the stall-torque.
+
+Stall torque, as you may know, is the highest amount of current a motor can draw during normal operation, when the motor is not moving, or stalled.  This is not a special case -- in robotics applications, your motors may be at rest much of the time.  So when ever
 * current issues
