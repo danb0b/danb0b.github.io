@@ -6,4 +6,5 @@ menu:
   main:
     order: 4
     name: Code
+    parent: Misc
 ---
