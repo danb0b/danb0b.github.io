@@ -1,5 +1,5 @@
 ---
-title: Notebook
+title: Work Journal
 image: images/notebook.jpg
 summary: More of a daily work blog
   main:
