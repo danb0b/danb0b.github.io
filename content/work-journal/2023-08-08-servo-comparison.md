@@ -43,6 +43,10 @@ rm peaks.  What about when your power draw over 10-100ms continues to exceed you
 But, for small, low-power robotics projects, we often don't need that kind of power.  The rest of this article describes my search for motors that didn't innately need mitigatiosn like capacitors or draw too much current.
 
 
+## Test Conditions
+
+I tried a number of mitigations to find the limitations of 
+the servos I was testing.  I tried using USB power from my 
 Part | link | brownout at x4 | brownout at x4 w/ cap
 -|-|-|
 Servo | [link](http://www.amazong.com)
