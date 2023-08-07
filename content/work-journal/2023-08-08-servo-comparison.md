@@ -41,3 +41,8 @@ What are some mitigations?  You can add a big capacitor in parallel, to average 
 rm peaks.  What about when your power draw over 10-100ms continues to exceed your power supply's available budget?    Another good way, for example, is to power the servo directly from a high capacity lithium ion battery that has a relatively high current availability (unlike the smaller currents available through regulated supplies).  But that increased capacity comes at a high cost in the classroom which we've already said we'd like to avoid.
 
 But, for small, low-power robotics projects, we often don't need that kind of power.  The rest of this article describes my search for motors that didn't innately need mitigatiosn like capacitors or draw too much current.
+
+
+Part | link | needed capacitor? | 
+-|-|-|
+Servo | [link](http://www.amazong.com)
