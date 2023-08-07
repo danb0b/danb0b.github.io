@@ -9,7 +9,7 @@ However, RC servo motors -- to a robotics professor like me -- are one of the co
 If the servo doesn't work right, there is a learning gap.  So, over the years, as I've hit the challenge of 
 "how do you find cheap (and I mean _cheap_) rc servos that can survive for a week or even a semester, that behave nicely when you try to use 4-6 of them off the same low power microcontroller?"
 
-Tis is harder than it might seem.  RC servo motors are incredibly complex systems, if you think about it.  They include a housing, a transmission usually composed of multiple gear stages, a motor, feedback, and often a microcontroller or circuit-based control scheme to provide feedback.  And the cheapest servos are only a couple dollars a piece!
+Tis is harder than it might seem.  Even the cheapest RC servo motors are incredibly complex systems, if you think about it.  They include a (plastic) housing, a (plastic) transmission usually composed of multiple gear stages, a motor, feedback, and often a microcontroller or circuit-based control scheme to provide feedback.  And the cheapest servos are only a couple dollars a piece!
 
 Typical mechanical issues:
 
@@ -22,6 +22,8 @@ Electrical issues:
 * over-voltage
 * miswiring
 * overheating
+
+Of course, you can avoid all of these issues simply by paying more for a higher-quality part.  This is what we do in research.  But think about the challenges of teaching a course...each dollar you spend on parts gets multiplied many times over.  A simple robot, consisting of 4 servos, will cost the course 4 \* 30 \* $5 = $600.  Upgrading to a $10 motor with bearings and metal gears costs $600 more!  This not a sustainable move in a college setting, let alone a k-12 classroom, even if you utilize project teams
 
 If you find a servo that avoids the worst of these issues, One of the most pernicious issues that 
 * current issues
