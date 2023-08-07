@@ -14,12 +14,20 @@ Brainstorming some things I'd like to get done before the semester begins
   * [ ] add compliance
   * [ ] add model fitting
   * [ ] add design optimization
-* [ ] 
+* [ ] begin a scaled down version of our quadruped for class
+* [ ] locate rc servos
+* [ ] Get Fuchen and Yuhao's walkers working and provide access to them in class
 * [ ] ...
 
 Projects for the year
 
 * [ ] Fun project on turning images into triangulations
-* [ ] 
+* [ ] Work on a textbook
 
+This is incomplete... I will add to and refine my list as I keep thinking.
 
+Longer-term questions:
+
+*How can I continue to work on this stuff through my sabbatical with kids school, continued upheaval due to travel, and teaching obligations ramping up in Turkey and beyond?
+* What is the point of all this?  What is my long term goal? 
+* What will I do when sabbatical is over?
