@@ -28,6 +28,19 @@ This is incomplete... I will add to and refine my list as I keep thinking.
 
 Longer-term questions:
 
-*How can I continue to work on this stuff through my sabbatical with kids school, continued upheaval due to travel, and teaching obligations ramping up in Turkey and beyond?
+* How can I continue to work on this stuff through my sabbatical with kids school, continued upheaval due to travel, and teaching obligations ramping up in Turkey and beyond?
 * What is the point of all this?  What is my long term goal? 
 * What will I do when sabbatical is over?
+* how can I increase the visibility of my work?  How can I impact more people during my sabbatical and beyond?
+
+I would like to be recognized as a leader in this, so one of the things I hope to do after the summer 
+travel vacation is over is to 
+
+* connect to more people
+* get more involved in educational efforts
+* write/publish more
+* make my work more visible
+  * youtube?
+  * linkedin posts?
+  * work on this website more to create a useful resource for others, not just myself.
+  * 
