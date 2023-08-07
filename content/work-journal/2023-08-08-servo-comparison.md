@@ -37,18 +37,33 @@ Again, you could solve the problem in a "real" system by simply buying a beefy p
 
 What happens when you do draw too much power?  In a typical microcontrollera-driven application, you "pull down" the voltage too much.  For example, if using an ESP32 development board powered by your USB port on your computer (with a 1-2A limit), it needs (let's say) 3.8V in order to supply the microcontroller with the required 3.3V for it to operate.  If you start up several servos simultaneously and pull down the current, you can 1) damage your USB port (not as likely), or at the very least pull down the output voltage below the ESP32 dev board's minimum threshold, causing a "brownout".  Why is this a big deal?  It resets your microcontroller, putting it in an unexpected state.  It can also interrupt the PWM signal being sent to the servos, causing the servo to jiggle or jump.  Jumping servos also act like a motor starting from rest, causing another brownout and another reset sequence.  This can become an endless loop with your microcontroller continually resetting itself, and never recovering.
 
-What are some mitigations?  You can add a big capacitor in parallel, to average out the absolute peaks.  But that only eliminates short-te
-rm peaks.  What about when your power draw over 10-100ms continues to exceed your power supply's available budget?    Another good way, for example, is to power the servo directly from a high capacity lithium ion battery that has a relatively high current availability (unlike the smaller currents available through regulated supplies).  But that increased capacity comes at a high cost in the classroom which we've already said we'd like to avoid.
+What are some mitigations?  You can add a big capacitor in parallel, to average out the transient peaks.  But that only eliminates short-term peaks.  What about when your power draw over 50-100ms continues to exceed your power supply's available budget?   Another good solution is to power the servo directly from a high capacity lithium ion battery; these have a relatively high current availability (unlike the smaller currents available through chip-basd regulated supplies).  But that increased capacity comes at a high cost to the classroom, which we've already said we'd like to avoid.
 
 But, for small, low-power robotics projects, we often don't need that kind of power.  The rest of this article describes my search for motors that didn't innately need mitigatiosn like capacitors or draw too much current.
 
 ## Test Conditions
 
-I tried a number of mitigations to find the limitations of the servos I was testing.  I tried using USB power from my computer as well as a 3A, 5V USB charger I had lying around.  I tried using one or more 100uF Electrolytic capacitors across the power rails as well.  I ordered 4x of each, and tried to adjust the timing of startup as well as to increase or decrease the frequency of motion.
+I tried a number of strategies to find the limitations of the servos I was testing.  I tried using USB power from my computer as well as a 3A, 5V USB charger I had lying around.  I tried using one or more 100uF Electrolytic capacitors across the power rails as well.  I ordered 4x of each, and tested 1x, 2x, and 4x of each.  I also tried to adjust the timing of startup to lower current requirements as well as to push the limits of the servos by increasing the speed or frequency of changing positions.
 
+Body Style|[link](URL)|Price per package|# per package|Price per servo|Cheapest package|# per package|cheapest price|Needed Cap|Brownout at x2|Brownout at x4|Notes
+-|-|-|-|-|-|-|-|-|-|-|-
+SG92R|[link](https://www.adafruit.com/product/169)|5.95|1|5.95|53.6|10|5.36|y|y|y|High stall current caused brownouts, even with 2-3 motors attached.
+SG90|[link](https://www.amazon.com/gp/product/B0BJQ2QTHG/ref=ox_sc_act_title_2?smid=A2QTZX14X1D97I&psc=1)|10.99|5|2.198|26.99|16|1.686875|n|n|n|The best one I tested.  Didn’t require a capacitor
+SG90|[link](https://www.amazon.com/gp/product/B09Y55C21K/ref=ox_sc_act_title_3?smid=A10MX0RD2LYNQR&psc=1)|9.29|4|2.3225|18.88|10|1.888|n|n|n|Seemed like a good choice. I broke one easily by mis-wiring it
+SG90|[link](https://www.amazon.com/gp/product/B08KCTQQM8/ref=ox_sc_act_title_6?smid=A2JLTKYCWT3GQ2&psc=1)|14.99|8|1.87375|14.99|8|1.87375|y|n|n|This servo had some mechanical issues and required a capacitor
+MG90S|[link](https://www.amazon.com/gp/product/B07L6FZVT1/ref=ox_sc_act_title_5?smid=A2QTZX14X1D97I&psc=1)|14.98|4|3.745|24.98|8|3.1225|y|n|y|It seemed that 1-2 worked okay, but you could not use four at the same time
+PS-1171MG|[link](https://www.amazon.com/gp/product/B07PMBF45T/ref=ox_sc_act_title_7?smid=AOLMYPIAI5LNM&psc=1)|10.79|1|10.79|10.79|1|10.79|?|?|?|too expensive
+PDI-1181MG|[link](https://www.amazon.com/gp/product/B07QPM6D5J/ref=ox_sc_act_title_8?smid=AOLMYPIAI5LNM&psc=1)|11.99|1|11.99|11.99|1|11.99|?|?|?|too expensive
+ES08A II|[link](https://www.amazon.com/gp/product/B081YXX77X/ref=ox_sc_act_title_1?smid=A32A7V0ESA8D26&psc=1)|10.99|1|10.99|10.99|1|10.99|?|?|?|too expensive
 
-Part | link | brownout at x4 | brownout at x4 w/ cap
--|-|-|
-Servo | [link](http://www.amazong.com)
+## Conclusions
 
+I'm writing this mostly from memory about 2 months after running my tests, so I have already forgotton some of the finer details of the procedure.  This writeup is based now only upon my recollection.  One unfortunate thing I found as writing this up, however, was that many of the product descriptions and images have already changed, as has availability.  I think by the time you find this article, it will be out of date, because it is out of date as of this writing already!
 
+So instead of drawing any direct conclusions about which RC servo to purchase for your class, here are my concluding thoughts:
+
+* Pre-testing the cheapest of the cheap servos is required if you're trying to save money in the long term.
+* Buy everything you need all at once
+* Buy extras because you will experience some attrition and initially non-working parts.
+* Test many servos before committing using conditions you might expect
+* Consider the cost of power when selecting RC Servos.
