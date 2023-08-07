@@ -27,5 +27,5 @@ Of course, you can avoid all of these issues simply by paying more for a higher-
 
 But, if you do happen to find a servo that avoids the worst of these issues, One of the most pernicious things I've found that crops up, even with a fairly robust, low-cost servo happens as you start to scale up the number of servos, and this relates to the stall-torque.
 
-Stall torque, as you may know, is the highest amount of current a motor can draw during normal operation, when the motor is not moving, or stalled.  This is not a special case -- in robotics applications, your motors may be at rest much of the time.  So when ever
-* current issues
+Stall torque, as you may know, is the highest amount of current a motor can draw during normal operation, when the motor is not moving, or stalled.  This is not a special case -- in robotics applications, your motors may be at rest much of the time.  So whenever you are starting a motor from rest, you will observe a short perio
+d wher the motor is using the highest amount of power.  This is related directly to the motors coil resistance and the voltage it is driven ata through Ohm's law, or $V=IR$.  Once the motor starts moving, it generates velocity-dependent back-emf through its coil windings that lowers the amount of current being drawn.
