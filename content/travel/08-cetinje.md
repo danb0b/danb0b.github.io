@@ -133,3 +133,14 @@ This is a great place...
 
 ![Art time at home](/images/travel/PXL_20230803_115226891.jpg)
 ![Mom reading before bed](/images/travel/PXL_20230803_171403187.jpg)
+
+morning
+Mom took kids to hotel for coffee and trampoline while I worked
+afternoon school
+
+## Friday, August 4
+morning school
+dad took kids to hotel for coffee and trampoline
+adventure Park and mausoleum 
+
+
