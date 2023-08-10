@@ -134,19 +134,22 @@ This is a great place...
 ![Art time at home](/images/travel/PXL_20230803_115226891.jpg)
 ![Mom reading before bed](/images/travel/PXL_20230803_171403187.jpg)
 
+In the morning, Mom took kids to hotel for coffee and trampoline while I worked.  In the afternoon we continued "double potions" with extra reading, writing, and 'rithmetic.
 
 ## August 4, 2023
 
-![caption](/images/travel/PXL_20230804_100741898.jpg) 
-![caption](/images/travel/PXL_20230804_103314326.jpg) 
-![caption](/images/travel/PXL_20230804_124409137.jpg) 
-![caption](/images/travel/PXL_20230804_125253422.jpg) 
-![caption](/images/travel/PXL_20230804_125612122.MP.jpg) 
-![caption](/images/travel/PXL_20230804_130058324.jpg) 
-![caption](/images/travel/PXL_20230804_130807987.MP.jpg) 
-![caption](/images/travel/PXL_20230804_133024292.jpg) 
-![caption](/images/travel/PXL_20230804_143813326.jpg) 
-![caption](/images/travel/PXL_20230804_143926639.jpg) 
-![caption](/images/travel/PXL_20230804_144353624.jpg) 
-![caption](/images/travel/PXL_20230804_154613161.jpg) 
+![caption](/images/travel/PXL_20230804_100741898.jpg)
+![caption](/images/travel/PXL_20230804_103314326.jpg)
+![caption](/images/travel/PXL_20230804_124409137.jpg)
+![caption](/images/travel/PXL_20230804_125253422.jpg)
+![caption](/images/travel/PXL_20230804_125612122.MP.jpg)
+![caption](/images/travel/PXL_20230804_130058324.jpg)
+![caption](/images/travel/PXL_20230804_130807987.MP.jpg)
+![caption](/images/travel/PXL_20230804_133024292.jpg)
+![caption](/images/travel/PXL_20230804_143813326.jpg)
+![caption](/images/travel/PXL_20230804_143926639.jpg)
+![caption](/images/travel/PXL_20230804_144353624.jpg)
+![caption](/images/travel/PXL_20230804_154613161.jpg)
 
+In the morning we did some school, then this time I took the kids to the nearby hotel for coffee (for me) and trampoline (for them)
+In the afternoon we took the kids to an adventure park and visited a nearby mausoleum.
