@@ -98,6 +98,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      # extensions:
+        # typographer: false
   highlight:
     style: monokailight
     noClasses: true
