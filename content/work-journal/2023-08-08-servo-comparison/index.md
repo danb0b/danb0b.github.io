@@ -61,7 +61,7 @@ I tried a number of strategies to find the nominal and worst-case performance of
 
 ### Code
 
-I used the following code to test 1, 2, and 4 servos.  I set ```l1```, ```l2``` , ```l3```, and ```l4``` to 0 to synchronize their motion so they all moved simultaneously, or to 0, 0.25, 0.5, and 0.75 duty cycle, respectivly, to distribute their motion throughout a cycle. To play with frequency and amplitude I increased ```f``` to 1 or 2 Hz to increase the frequency of cycling.  I increased ```A``` to move from a smooth, sinusoidal motion to a sharper transition (note the use of output limits to protect the servo when increaing A.)
+I used the following code to test 1, 2, and 4 servos.  I set ```l1```, ```l2``` , ```l3```, and ```l4``` to 0 to synchronize their motion so they all moved simultaneously, or to 0, 0.25, 0.5, and 0.75 duty cycle, respectivly, to distribute their motion throughout a cycle. To play with frequency and amplitude I increased ```f``` to 1 or 2 Hz to increase the frequency of cycling.  I increased ```A``` to move from a smooth, sinusoidal motion to a sharper transition (note the use of output limits to protect the servo when increasing A.)
 
 ```python
 #import all the libraries
