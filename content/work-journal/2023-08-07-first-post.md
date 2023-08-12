@@ -1,5 +1,6 @@
 ---
-title: first post
+title: First Post
+date: 2023-08-07
 ---
 
 The idea of this section of my website is to document some of my daily work during my sabbatical year and hopefully onward.  
