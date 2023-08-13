@@ -25,6 +25,15 @@ image: /images/travel/PXL_20230807_054627293.jpg
 ![Lights under the arbor, with the restaurant behind it](/images/travel/PXL_20230806_181107343.jpg) 
 ![Simple dinner](/images/travel/PXL_20230806_185247388.jpg) 
 
+We left Podgorica in the morning via bus.  The trip was supposed to take 4 hours.  Instead it took nearly seven, and for no specific reason other than traffic.  traffic out in the middle of the countryside, traffic at a traffic circle, traffic into town.  The whole route into Tirana from Podgorica is on what seems to be a local highway that the whole country uses to get North and South.  There is no autostrada.  Furthermore, the bus has to take the same route even if there's a shorter path.  to add insult to injury, Max said he had to pee before we even left the bus station. I had to run out the door with him to let him pee on a tire right before we left.
+
+This just goes to say that travel days are hard.  We made it into Tirana and quickly caught a cab to the airport to get our rental car.  Albanian cash exchange does not take Bosnian currency, by the way.
+
+We packed our things into our next vehicle and drove another two hours to our final destination that day, the town of Roshnik I Vogel, outside of Berat. The drive was scenic, and we kept getting glimpses of a lonely mountain sticking up in the distance. our route took us on quite small roads, with us passing the occasional donkey pulling a cart.
+
+We got in close to 7, unloaded the car, and put the kids to bed.  our destination was Alpeta winery, a charming little winery with restaurant tucked at the end of the road in town.  Sara got a salad to supplement our relatively sparse "car dinner", and we were pleasantly surprised at how lovely it was.  wesplit a pitcher of their house wine and sat on the porch until bed.  there was an engagement party going on, and I caught a glimpse of some traditional dancing under the arbor beneath the restaurant.
+
+
 ## August 7, 2023
 
 ![Kids up early writing in their journals](/images/travel/PXL_20230807_050735933.jpg) 
