@@ -1,4 +1,4 @@
-test---
+songstest---
 title: Alpeta Winery, Albania
 date: 2023-08-06
 summary: What a find!
@@ -95,7 +95,7 @@ The next day was a school day. The kids worked in their journals on the deck and
 ![Back at the winery](/images/travel/PXL_20230808_163204738.jpg) 
 ![Wine tour, but where are the kids??](/images/travel/PXL_20230808_165616488.jpg) 
 
-We visited Berat on Tuesday.  We parked and walked into town, grabbed a coffee in a cafe overlooking the park, and hiked up to the castle at the top of the hill.  There views were great.  There are the ruins of a mosque as well as an underground cistern, which looked like a chapel buried underground at the top of the hill and filled with water.   Extraordinary!  We had lunch up at the top and then hiked down a very sketchy, slippery path to the old town at the bottom.  in search of gelato, we crossed two old bridges and toured both banks of the river.  After ice cream we drove back to the winery for the wine tour, letting the kids stay in the room by themselves. It was worth it; we met some fun people and had some adult fun that has been rare on our trip.
+We visited Berat on Tuesday.  We parked and walked into town, grabbed a coffee in a cafe overlooking the park, and hiked up to the castle at the top of the hill.  There views were great.  There are the ruins of a mosque as well as an underground cistern, which looked like a chapel buried underground at the top of the hill and filled with water.   Extraordinary!  We had lunch up at the top and then hiked down a very sketchy, slippery path to the old town at the bottom.  in search of gelato, we crossed two old bridges and toured both banks of the river.  After ice cream we drove back to the winery, seemed the kids dinner and stayed for the wine tour, letting the kids stay in the room by themselves. It was worth it; we met some fun people and had some adult fun that has been rare on our trip.
 
 ## August 9, 2023
 
@@ -112,8 +112,18 @@ We visited Berat on Tuesday.  We parked and walked into town, grabbed a coffee i
 ![Rooftop deck view](/images/travel/PXL_20230809_155834759.jpg) 
 ![Dinner on the deck.](/images/travel/PXL_20230809_162806955.jpg) 
 
+the next day we hit the books early and hard.  The reward after lunch was a hike with me, Ben, and Sam.  We tried to follow a local trail but just ended up walking along the road, going above a nearby town that offered views of the winery and Tomorri mountain, the subject of most of my outdoor scenery photos.
+
+nature was on display during our hike.  we saw three frogs, a jumping stick bug, a water snake, I caught a glimpse of a fox darting into the brush, and the kids found two more tortoises.
+
+On our way back down the hill, am older man flagged use down on the road as he came out of his field carrying an armful of grapes. he thrust then at me, telling me in so much Albanian to give them to my kids.  I tried to give them each a grape and he said no, and gave me the whole armful.  We said thank you as he walked back to his field.  We are grapes the rest of the way home.
+
+This experience turned out to be quite typical during our time in Albania.  The people are so friendly, giving, and joyful, especially around our kids.  The servers would play with our kids in the restaurant or come over just to tousle their hair.  The folks at the winery gave and got so many hugs from the kids, and clearly enjoyed them.  Sam got a couple wasp stings and was surrounded by adults wanting to hold him, help, or comfort him.
+
 ## August 10, 2023
 
 ![Kids picking tomatoes](/images/travel/PXL_20230810_063209688.jpg) 
 ![Hello Frog!](/images/travel/PXL_20230810_082903121.jpg) 
 ![Goodbye hugs with one of our hosts](/images/travel/PXL_20230810_083936173.MP.jpg) 
+
+on our last morning at the winery the kids were invited to pick tomatoes with one of the farm workers.
