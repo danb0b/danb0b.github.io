@@ -7,7 +7,7 @@ type : "contact"
 show_front: false
 menu:
   footer:
-    order: 2
+    weight: 2
     name: Contact
 ---
 

@@ -4,7 +4,7 @@ image: images/notebook.jpg
 summary: travel journal
 menu:
   main:
-    order: 2
+    weight: 30
     name: Travel
 ---
 

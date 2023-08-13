@@ -5,7 +5,7 @@ summary: Find out what's on my schedule
 type: starred
 menu:
   footer:
-    order: 3
+    weight: 3
     name: Calendar
 ---
 

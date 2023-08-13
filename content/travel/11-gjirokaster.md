@@ -2,14 +2,12 @@
 title: Gjirokaster, Albania
 date: 2023-08-10
 summary: Visiting southern Albania
+image: /images/travel/PXL_20230810_155300465.jpg
 ---
 
 ## August 10, 2023
 
-![caption](/images/travel/PXL_20230810_063209688.jpg) 
-![caption](/images/travel/PXL_20230810_082903121.jpg) 
-![caption](/images/travel/PXL_20230810_083936173.MP.jpg) 
-![caption](/images/travel/PXL_20230810_112504028.jpg) 
+![The Museum at Apolinia](/images/travel/PXL_20230810_112504028.jpg) 
 ![caption](/images/travel/PXL_20230810_112543574.jpg) 
 ![caption](/images/travel/PXL_20230810_114456872.jpg) 
 ![caption](/images/travel/PXL_20230810_114843893.jpg) 

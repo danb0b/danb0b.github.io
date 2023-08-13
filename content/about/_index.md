@@ -11,7 +11,7 @@ type : "about"
 show_front: false
 menu:
   footer:
-    order: 1
+    weight: 1
     name: About
 ---
 

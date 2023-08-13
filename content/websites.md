@@ -5,8 +5,9 @@ image: box.png
 summary: Sites I have had a hand in developing
 menu:
   main:
-    order: 3
+    weight: 20
     name: Websites
+    parent: Misc
 ---
 
 

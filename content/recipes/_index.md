@@ -3,7 +3,7 @@ title: Recipes
 image: images/recipes.jpg
 menu:
   main:
-    order: 2
+    weight: 40
     name: Recipes
 ---
 

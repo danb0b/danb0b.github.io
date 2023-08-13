@@ -2,6 +2,7 @@
 title: Alpeta Winery, Albania
 date: 2023-08-06
 summary: What a find!
+image: /images/travel/PXL_20230807_054627293.jpg
 ---
 
 
@@ -98,3 +99,8 @@ summary: What a find!
 ![caption](/images/travel/PXL_20230809_155834759.jpg) 
 ![caption](/images/travel/PXL_20230809_162806955.jpg) 
 
+## August 10, 2023
+
+![caption](/images/travel/PXL_20230810_063209688.jpg) 
+![caption](/images/travel/PXL_20230810_082903121.jpg) 
+![caption](/images/travel/PXL_20230810_083936173.MP.jpg) 

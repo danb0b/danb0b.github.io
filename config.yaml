@@ -22,10 +22,9 @@ menu:
   - URL: https://kaiteki-asu.slack.com
     name: Kaiteki
     weight: 3
-#  main:
-#  - URL: notebook
-#    name: Notebook
-#    weight: 4
+  main:
+  - name: Misc
+    weight: 99
 outputs:
   home:
   - HTML
@@ -81,9 +80,9 @@ params:
 #  - icon: ti-facebook
 #    link: '#'
 #    title: facebook
-  - icon: ti-twitter-alt
-    link: 'https://twitter.com/danaukes'
-    title: twitter
+  # - icon: ti-twitter-alt
+  #   link: 'https://twitter.com/danaukes'
+    # title: twitter
 #  - icon: ti-instagram
 #    link: '#'
 #    title: instagram

@@ -48,7 +48,7 @@ Some times we need a rebuilding day.
 ![Kids at the beach](/images/travel/PXL_20230716_094048002.jpg)
 ![Kids at the beach](/images/travel/PXL_20230716_100232987.jpg)
 ![Kids at the beach](/images/travel/PXL_20230716_100421169.MP.jpg)
-![Gone in 60 Second"](/images/travel/PXL_20230716_110555178.jpg)
+!["Gone in 60 Seconds"](/images/travel/PXL_20230716_110555178.jpg)
 ![The restaurant](/images/travel/PXL_20230716_173322619.jpg)
 ![The restaurant](/images/travel/PXL_20230716_173415648.jpg)
 ![Sunset over Corsica](/images/travel/PXL_20230716_184717133.jpg)

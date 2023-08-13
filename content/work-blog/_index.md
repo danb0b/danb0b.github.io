@@ -1,10 +1,10 @@
 ---
-title: Work Journal
+title: Work Blog
 image: images/notebook.jpg
 summary: more of a daily work blog
 menu: 
   main:
-    order: 10
-    name: Journal
+    name: Work Blog
+    weight: 10
 ---
 

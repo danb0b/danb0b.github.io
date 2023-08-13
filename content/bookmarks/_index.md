@@ -3,7 +3,7 @@ title: Bookmarks
 image: images/bookmark_scaled.jpg
 menu:
   main:
-    order: 1
+    weight: 30
     name: Bookmarks
     parent: Misc
 ---
