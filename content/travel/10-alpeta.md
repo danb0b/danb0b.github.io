@@ -1,4 +1,4 @@
----
+test---
 title: Alpeta Winery, Albania
 date: 2023-08-06
 summary: What a find!
@@ -58,6 +58,8 @@ We got in close to 7, unloaded the car, and put the kids to bed.  our destinatio
 ![Dinner](/images/travel/PXL_20230807_170104857.jpg) 
 ![Dinner](/images/travel/PXL_20230807_172851318.jpg) 
 
+The next day was a school day. The kids worked in their journals on the deck and then moved to the terrace.  We read outside all morning.  We had breakfast, lunch, and dinner at the winery, all lovely.  Before dinner I took the boys on a hike, where we found wild berries, a pair of tortoises, walnut trees, wild cherries... and some great views.
+
 ## August 8, 2023
 
 ![Cafe in Berat](/images/travel/PXL_20230808_082021016.jpg) 
@@ -92,6 +94,8 @@ We got in close to 7, unloaded the car, and put the kids to bed.  our destinatio
 ![Much needed gelato break](/images/travel/PXL_20230808_124440144.jpg) 
 ![Back at the winery](/images/travel/PXL_20230808_163204738.jpg) 
 ![Wine tour, but where are the kids??](/images/travel/PXL_20230808_165616488.jpg) 
+
+We visited Berat on Tuesday.  We parked and walked into town, grabbed a coffee in a cafe overlooking the park, and hiked up to the castle at the top of the hill.  There views were great.  There are the ruins of a mosque as well as an underground cistern, which looked like a chapel buried underground at the top of the hill and filled with water.   Extraordinary!  We had lunch up at the top and then hiked down a very sketchy, slippery path to the old town at the bottom.  in search of gelato, we crossed two old bridges and toured both banks of the river.  After ice cream we drove back to the winery for the wine tour, letting the kids stay in the room by themselves. It was worth it; we met some fun people and had some adult fun that has been rare on our trip.
 
 ## August 9, 2023
 
