@@ -7,6 +7,12 @@ image: /images/travel/PXL_20230805_134113861.jpg
 
 ## August 5, 2023
 
+We left our lovely place in Lovcen and stopped by Lipa Cave, the first and only limestone cave open to the public since 2015.  Though Ben and Sam had been to a similar cave in AZ before, they were all much better ages to appreciate it this time.  We had fun descending down into the cave; Ben attempted to listen to the tour guide as she talked about the cave's history and formations.  Impressive.
+
+After the cave we drove to Podgorica and Sara dropped off the car.  We stayed at the Hotel Evropa, a historic old hotel by the bus and train station.  It obviously had once been a great hotel, but didn't quite make as much sense any more.  Still, the sheets were clean and the staff was very friendly and helpful.
+
+We walked around the center of town after a meaty lunch that I picked out, seeing an old bridge, the ruins of a castle, the old town and clock tower, and other neat features.  We got juice and coffees at "Gandalf", a neat little cafe in central Podgorica...it was great until we realized it was almost 5 and we were all mostly full from lunch, but very tired.  We struggled home with the kids and stuffed their faces with the last meat sandwich we had saved from lunch and put them to bed with Mom.  I slept in a little matchbox of a room on the third floor, in the smoking section of the hotel, since the suite was short a bed.
+
 ![On the trolley going down to the cave](/images/travel/PXL_20230805_075713754.jpg) 
 ![Lipa Cave](/images/travel/PXL_20230805_082520630.jpg) 
 ![Lipa Cave](/images/travel/PXL_20230805_082735957.jpg) 
@@ -38,10 +44,3 @@ image: /images/travel/PXL_20230805_134113861.jpg
 ![Prison panorama](/images/travel/PXL_20230805_161925782.PANO.jpg) 
 ![Redrum...redrum](/images/travel/PXL_20230805_172936913.jpg) 
 ![Not my favorite room](/images/travel/PXL_20230805_173403947.jpg) 
-
-
-We left our lovely place in Lovcen and stopped by Lipa Cave, the first and only limestone cave open to the public since 2015.  Though Ben and Sam had been to a similar cave in AZ before, they were all much better ages to appreciate it this time.  We had fun descending down into the cave; Ben attempted to listen to the tour guide as she talked about the cave's history and formations.  Impressive.
-
-After the cave we drove to Podgorica and Sara dropped off the car.  We stayed at the Hotel Evropa, a historic old hotel by the bus and train station.  It obviously had once been a great hotel, but didn't quite make as much sense any more.  Still, the sheets were clean and the staff was very friendly and helpful.
-
-We walked around the center of town after a meaty lunch that I picked out, seeing an old bridge, the ruins of a castle, the old town and clock tower, and other neat features.  We got juice and coffees at "Gandalf", a neat little cafe in central Podgorica...it was great until we realized it was almost 5 and we were all mostly full from lunch, but very tired.  We struggled home with the kids and stuffed their faces with the last meat sandwich we had saved from lunch and put them to bed with Mom.  I slept in a little matchbox of a room on the third floor, in the smoking section of the hotel, since the suite was short a bed.

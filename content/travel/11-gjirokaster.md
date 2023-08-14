@@ -1,5 +1,5 @@
 ---
-title: Gjirokaster, Albania
+title: Gjirokaster, Albania (DRAFT)
 date: 2023-08-10
 summary: Visiting southern Albania
 image: /images/travel/PXL_20230810_155300465.jpg
@@ -25,10 +25,21 @@ Leaving Alpeta winery and heading south, we stopped first at the site of Apollin
 ![Kids worried they're not getting ice cream](/images/travel/PXL_20230810_170835302.jpg) 
 ![But we got it.](/images/travel/PXL_20230810_172010348.jpg)
 
+## August 11
+
+Breakfast was great, but we had an encounter with bees.  The kids could barely focus, and were waving their cutlery at the bees to scare them away, but just succeeded in flinging sweet sticky breakfast cake soaked in honey all over the table.  Guess what bees love?  It was kinda miserable after that, as swarms of bees progressively took over our table.  
+
+We did school in the morning on patio of the bar next to our room, then walked to a cafe halfway up to the castle.  We came down afterwards instead of going to the castle just due to timing.  We had some quiet time, then walked to the cold war bunker underneath the castle.  It was a 30 minute tour, and we got to see a good portion of the bunker.  Apparently some parts of it are in poor condition and have collapsed, but our section was "much stronger".  Still, neat to see evidence of Albania's cold war past hasn't all disappeared.
+
+We attempted the castle afterwards, but changed course at the gate after realizing that the kids were worn out.  Saying it was "closing", we moved on straight to dinner at a little restaurant at the top of the hill, rather than go back down.  Again, a bit of a debacle.  They turned on the music videos on a giant screen facing our table right after we sat down, so the kids were entranced and had a tough time finding their mouths with their forks.  We also had to eat inside, which was a bit hotter and nowhere to escape with a misbehaving kid.
+
+One thing I will also say about Albania is that eating at a restaurant is a process.  Dishes come out in ones and twos, and if you order a special dish, you should be prepared to wait 30-40 minutes.  That's not a problem, as many dishes come right away, but you have to plan for a full hour, which ...
+
 ## August 12
 
-Breakfast was great
+We 
 
-We did school in the morning, then walked to a cafe halfway up to the castle.  We came down afterwards instead of going to the castle just due to timing, then walked instead to the cold war bunker underneath the castle.  It was a 30 minute tour, and we got to see a good portion of the bunker.  Apparently some parts of it were in poor condition and had collapsed, but our section was "much stronger".  Still, neat to see evidence of Albania's cold war past hasn't all disappeared.
+
+At dinner
 
 ## August 13
