@@ -222,11 +222,25 @@ def start_server():
 start_server()
 ```
 
+## External resources
+
 ### Other microdot info
 
 - <https://www.donskytech.com/how-to-create-a-micropython-web-server-the-easy-way/>
 - <https://www.donskytech.com/microdot-micropython-handling-dynamic-content/>
 - <https://microdot.readthedocs.io/en/latest/intro.html#running-with-micropython>
+- <https://microdot.readthedocs.io/en/latest/api.html#microdot-asyncio-module>
+
+### Fech API
+
+- <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data>
+- <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>
+
+## Asyncio info
+
+- <https://github.com/miguelgrinberg/microdot/issues/17>
+- <https://github.com/miguelgrinberg/microdot/issues/19>
+- <https://stackoverflow.com/questions/62528272/what-does-asyncio-create-task-do>
 
 
 ## External Links
