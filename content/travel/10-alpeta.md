@@ -6,7 +6,7 @@ image: /images/travel/PXL_20230807_054627293.jpg
 ---
 
 
-## August 6, 2023
+## Sunday, August 6, 2023
 
 We left Podgorica in the morning via bus.  The trip was supposed to take 4 hours.  Instead it took nearly seven, and for no specific reason other than traffic.  traffic out in the middle of the countryside, traffic at a traffic circle, traffic into town.  The whole route into Tirana from Podgorica is on what seems to be a local highway that the whole country uses to get North and South.  There is no autostrada.  Furthermore, the bus has to take the same route even if there's a shorter path.  to add insult to injury, Max said he had to pee before we even left the bus station. I had to run out the door with him to let him pee on a tire right before we left.
 
@@ -33,7 +33,7 @@ We got in close to 7, unloaded the car, and put the kids to bed.  our destinatio
 ![Lights under the arbor, with the restaurant behind it](/images/travel/PXL_20230806_181107343.jpg)
 ![Simple dinner](/images/travel/PXL_20230806_185247388.jpg)
 
-## August 7, 2023
+## Monday, August 7, 2023
 
 The next day was a school day. The kids worked in their journals on the deck and then moved to the terrace.  We read outside all morning.  We had breakfast, lunch, and dinner at the winery, all lovely.  Before dinner I took the boys on a hike, where we found wild berries, a pair of tortoises, walnut trees, wild cherries... and some great views.
 
@@ -59,7 +59,7 @@ The next day was a school day. The kids worked in their journals on the deck and
 ![Dinner](/images/travel/PXL_20230807_170104857.jpg)
 ![Dinner](/images/travel/PXL_20230807_172851318.jpg)
 
-## August 8, 2023
+## Tuesday, August 8, 2023
 
 We visited Berat on Tuesday.  We parked and walked into town, grabbed a coffee in a cafe overlooking the park, and hiked up to the castle at the top of the hill.  There views were great.  There are the ruins of a mosque as well as an underground cistern, which looked like a chapel buried underground at the top of the hill and filled with water.   Extraordinary!  We had lunch up at the top and then hiked down a very sketchy, slippery path to the old town at the bottom.  in search of gelato, we crossed two old bridges and toured both banks of the river.  After ice cream we drove back to the winery, seemed the kids dinner and stayed for the wine tour, letting the kids stay in the room by themselves. It was worth it; we met some fun people and had some adult fun that has been rare on our trip.
 
@@ -97,7 +97,7 @@ We visited Berat on Tuesday.  We parked and walked into town, grabbed a coffee i
 ![Wine tour, but where are the kids??](/images/travel/PXL_20230808_165616488.jpg)
 
 
-## August 9, 2023
+## Wednesday, August 9, 2023
 
 The next day we hit the books early and hard.  The reward after lunch was a hike with me, Ben, and Sam.  We tried to follow a local trail but just ended up walking along the road, going above a nearby town that offered views of the winery and Tomorri mountain, the subject of most of my outdoor scenery photos.
 
@@ -121,7 +121,7 @@ This experience turned out to be quite typical during our time in Albania.  The 
 ![Dinner on the deck.](/images/travel/PXL_20230809_162806955.jpg)
 
 
-## August 10, 2023
+## Thursday, August 10, 2023
 
 On our last morning at the winery the kids were invited to pick tomatoes with one of the farm workers.
 

@@ -160,7 +160,7 @@ After we got down, we had lunch with Uncle Roy.  It was great to see him and tal
 
 In the morning, Mom took kids to hotel for coffee and trampoline while I worked.  In the afternoon we continued "double potions" with extra reading, writing, and 'rithmetic to make up for the last couple (wonderful) days off school.
 
-## August 4, 2023
+## Friday, August 4, 2023
 
 ![Haircut for Max](/images/travel/PXL_20230804_100741898.jpg)
 ![Max's haircut](/images/travel/PXL_20230804_103314326.jpg)

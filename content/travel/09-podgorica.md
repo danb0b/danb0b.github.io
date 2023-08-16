@@ -5,7 +5,7 @@ summary: A travel day with some neat finds in southern Montenegro
 image: /images/travel/PXL_20230805_134113861.jpg
 ---
 
-## August 5, 2023
+## Saturday, August 5, 2023
 
 We left our lovely place in Lovcen and stopped by Lipa Cave, the first and only limestone cave open to the public since 2015.  Though Ben and Sam had been to a similar cave in AZ before, they were all much better ages to appreciate it this time.  We had fun descending down into the cave; Ben attempted to listen to the tour guide as she talked about the cave's history and formations.  Impressive.
 
