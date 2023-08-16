@@ -33,7 +33,7 @@ We did school in the morning on patio of the bar next to our room, then walked t
 
 We attempted the castle afterwards, but changed course at the gate after realizing that the kids were worn out.  Saying it was "closing", we moved on straight to dinner at a little restaurant at the top of the hill, rather than go back down.  Again, a bit of a debacle.  They turned on the music videos on a giant screen facing our table right after we sat down, so the kids were entranced and had a tough time finding their mouths with their forks.  We also had to eat inside, which was a bit hotter and nowhere to escape with a misbehaving kid.
 
-One thing I will also say about Albania is that eating at a restaurant is a process.  Dishes come out in ones and twos, and if you order a special dish, you should be prepared to wait 30-40 minutes.  That's not a problem, as many dishes come right away, but you have to plan for a full hour, which ...
+One thing I will also say about Albania is that eating at a restaurant is a process.  Dishes come out in ones and twos, and if you order a special dish, you should be prepared to wait 30-40 minutes.  That's not a problem, as many dishes come right away, but you have to plan for a full hour, which is not so easy to do with young kids.
 
 After dinner we walked to an aqueduct up the hill from our restaurant. It was a nice walk to do after dinner near dusk. Mom took Ben and Sam across, while I waited on the near side.  I was not going to cross that bridge... My arms were able to span it's width!  Mom came back and brought Max over in her arms and once we were back on the same side then we all walked back to the hotel.
 
@@ -109,4 +109,3 @@ At dinner we ate near the bazaar and practiced various accents.  Mom had the kid
 ## Sunday, August 13
 
 We ate breakfast, packed our bags, and said goodbye to our hosts at the hotel.  The lady gave all the kids hugs.  Sara drive out of the city a much easier way than we had come in on.
-
