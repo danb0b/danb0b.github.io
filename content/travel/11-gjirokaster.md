@@ -33,7 +33,7 @@ We did school in the morning on patio of the bar next to our room, then walked t
 
 We attempted the castle afterwards, but changed course at the gate after realizing that the kids were worn out.  Saying it was "closing", we moved on straight to dinner at a little restaurant at the top of the hill, rather than go back down.  Again, a bit of a debacle.  They turned on the music videos on a giant screen facing our table right after we sat down, so the kids were entranced and had a tough time finding their mouths with their forks.  We also had to eat inside, which was a bit hotter and nowhere to escape with a misbehaving kid.
 
-One thing I will also say about Albania is that eating at a restaurant is a process.  Dishes come out in ones and twos, and if you order a special dish, you should be prepared to wait 30-40 minutes.  That's not a problem, as many dishes come right away, but you have to plan for a full hour, which ...
+One thing I will also say about Albania is that eating at a restaurant is a process.  Dishes come out in ones and twos, and if you order a special dish, you should be prepared to wait 30-40 minutes.  That's not a problem, as many dishes come right away, but you have to plan for a full hour, which is not so easy to do with young kids.
 
 ## August 12
 
