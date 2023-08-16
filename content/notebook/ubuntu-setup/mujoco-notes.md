@@ -42,7 +42,7 @@ conda remove --name mujoco_env --all
 ```
 ### Resources
 
-* <https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment>
+* <https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>
 
 
 ## External Resources
