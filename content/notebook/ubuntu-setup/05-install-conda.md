@@ -13,12 +13,12 @@ tags:
 
 ## Install Latest Anaconda / Miniconda
 
-| Windows                                                                            | Linux                                                                           |
-|:-----------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
+| Windows                                                                                      | Linux                                                                                     |
+| :------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
 | [64-bit Miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) | [64-bit Miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) |
 
-
 ### Linux Install
+
 ```
 cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -55,6 +55,7 @@ conda init powershell
 ```
 
 Other security options (may break conda script)
+
 ```
 #Set-ExecutionPolicy AllSigned
 ```
@@ -110,7 +111,6 @@ sudo apt install -y pandoc-citeproc
 sudo apt install -y build-essential
 pip install spectrum pybullet roslibpy esptool
 ```
-
 
 ### Update everything to make sure it's all consistent
 
@@ -208,8 +208,8 @@ conda update -y -n base conda
 conda update -y --all
 ```
 
-
 ### OpenCV install
+
 ```
 conda create -n opencv python=3.7
 conda activate opencv
