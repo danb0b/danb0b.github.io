@@ -117,6 +117,12 @@ ctrl_+ shift + I then formats your document
    4. open device in workspace
 5. create project:  ```ctrl+shift+p``` then
 
+## Python
+
+### Debugging
+
+see this [reference](https://codelovingyogi.medium.com/vscode-debugging-python-scripts-with-args-d8ac1cf9a191) to add a debug configuration
+
 #### External Resources
 
 1. <https://github.com/pycom/pymakr-vsc/blob/HEAD/GET_STARTED.md>
