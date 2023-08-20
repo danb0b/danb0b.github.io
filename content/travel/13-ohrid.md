@@ -1,8 +1,8 @@
 ---
 title: Ohrid, North Macedonia (DRAFT)
 date: 2023-08-16
-# summary: Back to modernity for a minute.
-# image: /images/travel/PXL_20230810_155300465.jpg
+summary: A calm couple days by Lake Ohrid.
+image: /images/travel/PXL_20230817_102621249.jpg
 ---
 
 ## Wednesday, August 16, 2023
@@ -16,6 +16,95 @@ date: 2023-08-16
 ![caption](/images/travel/PXL_20230816_150603029.jpg)
 ![caption](/images/travel/PXL_20230816_153709677.jpg)
 ![caption](/images/travel/PXL_20230816_153823485.jpg)
-<!-- ![caption](/images/travel/PXL_20230816_153828822.jpg) -->
 ![caption](/images/travel/PXL_20230816_161744949.jpg)
 ![caption](/images/travel/PXL_20230816_170906180.jpg)
+
+## Thursday, August 17, 2023
+
+![caption](/images/travel/PXL_20230817_082014605.jpg)
+![caption](/images/travel/PXL_20230817_082130013.jpg)
+![caption](/images/travel/PXL_20230817_083242028.MP.jpg)
+![caption](/images/travel/PXL_20230817_083412539.jpg)
+![caption](/images/travel/PXL_20230817_083637483.jpg)
+![caption](/images/travel/PXL_20230817_084028612.jpg)
+![caption](/images/travel/PXL_20230817_084152300.jpg)
+![caption](/images/travel/PXL_20230817_084307217.jpg)
+![caption](/images/travel/PXL_20230817_084425012.jpg)
+![caption](/images/travel/PXL_20230817_084518366.jpg)
+![caption](/images/travel/PXL_20230817_084627452.jpg)
+![caption](/images/travel/PXL_20230817_084729531.jpg)
+![caption](/images/travel/PXL_20230817_085239262.jpg)
+![caption](/images/travel/PXL_20230817_085552850.MP.jpg)
+![caption](/images/travel/PXL_20230817_090327314.jpg)
+![caption](/images/travel/PXL_20230817_090400985.jpg)
+![caption](/images/travel/PXL_20230817_090409371.jpg)
+![caption](/images/travel/PXL_20230817_090500152.jpg)
+![caption](/images/travel/PXL_20230817_090659467.jpg)
+![caption](/images/travel/PXL_20230817_090815255.jpg)
+![caption](/images/travel/PXL_20230817_091650341.jpg)
+![caption](/images/travel/PXL_20230817_092908429.jpg)
+![caption](/images/travel/PXL_20230817_094015564.jpg)
+![caption](/images/travel/PXL_20230817_095009567.MP.jpg)
+![caption](/images/travel/PXL_20230817_095522851.jpg)
+![caption](/images/travel/PXL_20230817_100223553.jpg)
+![caption](/images/travel/PXL_20230817_100740953.jpg)
+![caption](/images/travel/PXL_20230817_100815539.jpg)
+![caption](/images/travel/PXL_20230817_101148416.jpg)
+![caption](/images/travel/PXL_20230817_101447913.jpg)
+![caption](/images/travel/PXL_20230817_101457151.jpg)
+![caption](/images/travel/PXL_20230817_101537681.jpg)
+![caption](/images/travel/PXL_20230817_101718915.jpg)
+![caption](/images/travel/PXL_20230817_101808152.MP.jpg)
+![caption](/images/travel/PXL_20230817_102621249.jpg)
+![caption](/images/travel/PXL_20230817_103404893.jpg)
+![caption](/images/travel/PXL_20230817_105547924.jpg)
+![caption](/images/travel/PXL_20230817_120219529.jpg)
+![caption](/images/travel/PXL_20230817_143537784.jpg)
+![caption](/images/travel/PXL_20230817_164502115.jpg)
+
+## Friday, August 18, 2023
+
+![caption](/images/travel/PXL_20230818_045438403.jpg)
+![caption](/images/travel/PXL_20230818_065051593.jpg)
+![caption](/images/travel/PXL_20230818_093002765.jpg)
+![caption](/images/travel/PXL_20230818_100423150.jpg)
+![caption](/images/travel/PXL_20230818_105025775.MP.jpg)
+![caption](/images/travel/PXL_20230818_110126007.jpg)
+![caption](/images/travel/PXL_20230818_111607242.MP.jpg)
+![caption](/images/travel/PXL_20230818_111739778.jpg)
+![caption](/images/travel/PXL_20230818_113412241.jpg)
+![caption](/images/travel/PXL_20230818_145218753.jpg)
+![caption](/images/travel/PXL_20230818_153035376.jpg)
+![caption](/images/travel/PXL_20230818_160533467.jpg)
+![caption](/images/travel/PXL_20230818_162745466.jpg)
+![caption](/images/travel/PXL_20230818_163900352.jpg)
+![caption](/images/travel/PXL_20230818_163909159.jpg)
+
+## Saturday, August 19, 2023
+
+![caption](/images/travel/PXL_20230819_071504680.MP.jpg)
+![caption](/images/travel/PXL_20230819_095553209.jpg)
+![caption](/images/travel/PXL_20230819_095910130.MP.jpg)
+![caption](/images/travel/PXL_20230819_100026064.jpg)
+![caption](/images/travel/PXL_20230819_100313065.jpg)
+![caption](/images/travel/PXL_20230819_101927473.MP.jpg)
+![caption](/images/travel/PXL_20230819_104206549.jpg)
+![caption](/images/travel/PXL_20230819_104731296.jpg)
+![caption](/images/travel/PXL_20230819_104940884.MP.jpg)
+![caption](/images/travel/PXL_20230819_155330431.jpg)
+![caption](/images/travel/PXL_20230819_160954774.jpg)
+![caption](/images/travel/PXL_20230819_194510119.jpg)
+![caption](/images/travel/PXL_20230819_194601188.jpg)
+
+## Sunday, August 20, 2023
+
+![caption](/images/travel/PXL_20230820_062937879.MP.jpg)
+![caption](/images/travel/PXL_20230820_074153003.jpg)
+![caption](/images/travel/PXL_20230820_112003990.jpg)
+![caption](/images/travel/PXL_20230820_135529297.MP.jpg)
+![caption](/images/travel/PXL_20230820_160914476.MP.jpg)
+![caption](/images/travel/PXL_20230820_161408234.MP.jpg)
+![caption](/images/travel/PXL_20230820_162116931.jpg)
+![caption](/images/travel/PXL_20230820_163253685.jpg)
+![caption](/images/travel/PXL_20230820_163331965.jpg)
+![It's just a matter of perspective](/images/travel/PXL_20230820_170007789.jpg)

@@ -2,7 +2,7 @@
 title: Tirana, Albania (DRAFT)
 date: 2023-08-13
 summary: Back to modernity for a minute.
-# image: /images/travel/PXL_20230810_155300465.jpg
+image: /images/travel/PXL_20230814_145601455.jpg
 ---
 
 ## Sunday, August 13
