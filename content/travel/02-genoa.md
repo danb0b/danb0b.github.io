@@ -7,13 +7,6 @@ image: /images/travel/PXL_20230714_050422000.jpg
 
 ## Monday July 10th
 
-![Our bags before we headed out](/images/travel/PXL_20230710_071912119.jpg)
-![The train car we picked](/images/travel/PXL_20230710_132102579.MP.jpg)
-![Reward for an intense travel day: Gelato](/images/travel/PXL_20230710_145554633.jpg)
-![Ben and Dad out to dinner.  Dad had an octopus sandwich](/images/travel/PXL_20230710_153222447.jpg)
-![Ben and Dad out for a walk](/images/travel/PXL_20230710_161400646.jpg)
-![The view of the piazza from our window.](/images/travel/PXL_20230710_181809770.jpg)
-
 We woke up and packed our bags in preparation for checking out.  Our Airbnb hosts met us at 9:45 and offered to take some of our bags down to the bus stop.  It had been a very pleasant stay and that act of generosity was much appreciated
 
 I went with the car, and when Sara and the kids arrived down the hill she asked, "did you bring the sandwiches?" We looked at each other, and after looking at the bus schedule she ran back up the hill and returned just as our bus was getting ready to go.  So much for staying cool.
@@ -53,14 +46,14 @@ Other things we found out after we arrived
 * The french windows with the built-in seats below them are quite dangerous for the young ones.
 * No salt and pepper, or any condiments.  EVERY AirBNB has salt and pepper, cmon!
 
-## Tuesday, July 11
+![Our bags before we headed out](/images/travel/PXL_20230710_071912119.jpg)
+![The train car we picked](/images/travel/PXL_20230710_132102579.MP.jpg)
+![Reward for an intense travel day: Gelato](/images/travel/PXL_20230710_145554633.jpg)
+![Ben and Dad out to dinner.  Dad had an octopus sandwich](/images/travel/PXL_20230710_153222447.jpg)
+![Ben and Dad out for a walk](/images/travel/PXL_20230710_161400646.jpg)
+![The view of the piazza from our window.](/images/travel/PXL_20230710_181809770.jpg)
 
-![Under the aquarium](/images/travel/PXL_20230711_151154793.MP.jpg)
-![Under the aquarium](/images/travel/PXL_20230711_151505262.MP.jpg)
-![Sleepy seahorses](/images/travel/PXL_20230711_154745115.jpg)
-![Moray Eels](/images/travel/PXL_20230711_155118776.MP.jpg)
-![Pirhana](/images/travel/PXL_20230711_161350738.jpg)
-![Ineractive dolphin](/images/travel/PXL_20230711_162307999.MP.jpg)
+## Tuesday, July 11
 
 * First day of the conference.  Mostly bio-related talks.
 * Met up with my PhD advisor, Mark, for lunch.  Talked tech, sabbatical, and other fun stuff.
@@ -69,7 +62,22 @@ Other things we found out after we arrived
 
 Sounds like mom and the kids had a blast in cinque terra.
 
+![Under the aquarium](/images/travel/PXL_20230711_151154793.MP.jpg)
+![Under the aquarium](/images/travel/PXL_20230711_151505262.MP.jpg)
+![Sleepy seahorses](/images/travel/PXL_20230711_154745115.jpg)
+![Moray Eels](/images/travel/PXL_20230711_155118776.MP.jpg)
+![Pirhana](/images/travel/PXL_20230711_161350738.jpg)
+![Ineractive dolphin](/images/travel/PXL_20230711_162307999.MP.jpg)
+
 ## Wednesday, July 12
+
+Day 2 of the conference was great.  The focus of the day was more robotics related.  Oussama Khatib presented after lunch on Ocean 1K, and Anson presented his work right after; his presentation went well!  We got coffee and met Sara and the kids for gelato.  Anson and his sister then walked around with me and the kids for a bit, took pictures by the fountain, and then I headed back to the conference for the banquet.
+
+Something I learned today: "A working principle is a disposition".  For more information, I suggest you read the paper.
+
+The banquet was at an impressive estate that appears to be a wedding venue.  There were drinks and appetizers, some vocalists sang, dinner, dessert, and then dancing.  I went home after dessert, which was served around 10:45, after talking to Nick and Mike.
+
+Surprisingly, it rained overnight.
 
 ![Pirate Ship with Mom](/images/travel/PXL_20230712_082226861.MP.jpg)
 ![Arrrgh!](/images/travel/PXL_20230712_082758142.MP.jpg)
@@ -80,15 +88,13 @@ Sounds like mom and the kids had a blast in cinque terra.
 ![The back lawn at the banquet](/images/travel/PXL_20230712_165312620.jpg)
 ![Drinks at the banquet](/images/travel/PXL_20230712_175613867.jpg)
 
-Day 2 of the conference was great.  The focus of the day was more robotics related.  Oussama Khatib presented after lunch on Ocean 1K, and Anson presented his work right after; his presentation went well!  We got coffee and met Sara and the kids for gelato.  Anson and his sister then walked around with me and the kids for a bit, took pictures by the fountain, and then I headed back to the conference for the banquet.
-
-Something I learned today: "A working principle is a disposition".  For more information, I suggest you read the paper.
-
-The banquet was at an impressive estate that appears to be a wedding venue.  There were drinks and appetizers, some vocalists sang, dinner, dessert, and then dancing.  I went home after dessert, which was served around 10:45, after talking to Nick and Mike.
-
-Surprisingly, it rained overnight.
-
 ## Thursday, July 13
+
+The last day of the conference went quickly.  Kyujin Cho spoke first, and Olga Speck had a plenary talk after lunch.  Both were great, and I particularly liked learning about the "biomechanics of plants".  Something I haven't thought much about, but has a lot of relevance to some of  my teaching.
+
+We went to dinner that night as a family.  It was a bit difficult, as the kids had not had the restful day I had hoped for.  They went to the kids museum and played hard, for far too long...but enjoyed it.  I got home and had to deal with discipline issues from tired kids before we could go out.  Sara walked them around so I could get 45 minutes of work in before dinner.  I met them there, and we gobbled up 3 dishes and 2 appetizers.
+
+We packed that night after a fun and interesting trip to Genoa, in preparation for a busy travel day to Corsica.
 
 ![Children's museum with mom](/images/travel/PXL_20230713_094430456.MP.jpg)
 ![Children's museum with mom](/images/travel/PXL_20230713_094447815.MP.jpg)
@@ -98,9 +104,3 @@ Surprisingly, it rained overnight.
 ![Dinner in Genoa](/images/travel/PXL_20230713_172519365.jpg)
 ![Dinner in Genoa](/images/travel/PXL_20230713_172624296.jpg)
 ![Dinner in Genoa](/images/travel/PXL_20230713_173119541.jpg)
-
-The last day of the conference went quickly.  Kyujin Cho spoke first, and Olga Speck had a plenary talk after lunch.  Both were great, and I particularly liked learning about the "biomechanics of plants".  Something I haven't thought much about, but has a lot of relevance to some of  my teaching.
-
-We went to dinner that night as a family.  It was a bit difficult, as the kids had not had the restful day I had hoped for.  They went to the kids museum and played hard, for far too long...but enjoyed it.  I got home and had to deal with discipline issues from tired kids before we could go out.  Sara walked them around so I could get 45 minutes of work in before dinner.  I met them there, and we gobbled up 3 dishes and 2 appetizers.
-
-We packed that night after a fun and interesting trip to Genoa, in preparation for a busy travel day to Corsica.

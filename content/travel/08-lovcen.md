@@ -9,6 +9,12 @@ image: /images/travel/PXL_20230730_132655038.jpg
 
 ## Sunday, July 30, 2023
 
+We left Trebinje and drove into Montenegro.  The border crossing took about an hour; about 20 minutes to leave Bosnia, and about 40 minutes to enter Montenegro.  The checkpoints were about a mile or two apart.  We attempted to go to the Ostrog Monastery, but the line of cars going up the hill -- on a one-lane road, on a Sunday -- was too daunting considering our passengers.  We turned around and continued on, though we saw the monastery in the distance up along the cliff.  Still cool.
+
+We made it into Cetinje and headed out of town towards Lovcen National park, the site of our AirBnB.  It took a while to find it due to some lagging communication but we eventually found it -- a lower floor apartment of a house that looks out upon fields and mountains.  Gorgeous!
+
+We walked next door to the hotel and spent 2.5 hours ordering coffee, beer, letting the kids jump on the trampoline and play on the swingset, and, afterwards having dinner.  We walked up to the cafe up the hill for ice cream, then headed home.  Travel days are long.
+
 ![Drive to Cetinje](/images/travel/PXL_20230730_075847169.jpg)
 ![Welcome to Montenegro](/images/travel/PXL_20230730_084021860.MP.jpg)
 ![That's a cow, not a goat](/images/travel/PXL_20230730_092030023.jpg)
@@ -21,13 +27,17 @@ image: /images/travel/PXL_20230730_132655038.jpg
 ![Kids playing outside before dinner](/images/travel/PXL_20230730_151759208.jpg)
 ![Fried trout](/images/travel/PXL_20230730_154214370.jpg)
 
-We left Trebinje and drove into Montenegro.  The border crossing took about an hour; about 20 minutes to leave Bosnia, and about 40 minutes to enter Montenegro.  The checkpoints were about a mile or two apart.  We attempted to go to the Ostrog Monastery, but the line of cars going up the hill -- on a one-lane road, on a Sunday -- was too daunting considering our passengers.  We turned around and continued on, though we saw the monastery in the distance up along the cliff.  Still cool.
-
-We made it into Cetinje and headed out of town towards Lovcen National park, the site of our AirBnB.  It took a while to find it due to some lagging communication but we eventually found it -- a lower floor apartment of a house that looks out upon fields and mountains.  Gorgeous!
-
-We walked next door to the hotel and spent 2.5 hours ordering coffee, beer, letting the kids jump on the trampoline and play on the swingset, and, afterwards having dinner.  We walked up to the cafe up the hill for ice cream, then headed home.  Travel days are long.
-
 ## Monday, July 31, 2023
+
+Ben and sam woke up at about 6am hoping to play outside.  We made them wait till 7 to keep from waking the neighbors.  We had breakfast and the boys and I went on a 5-hour hike in the park.  Mom drove us to the trailhead, and after hiking back a bit to give her back the house keys, we headed up into stands of beech trees, then some limestone Karst.  We started seeing sinks, where the water obviously flows into the limestone, and started thinking about all the caves we must be walking over.  
+
+I spotted one sinkhole with a gaping hole in the middle and investigated.  Walking back to the trail I found wild strawberries; then Sam found raspberries!  We stopped for a bit to eat them.
+
+In and among the Karst, Sam found wild onions and we spotted some larger caves and crevices.  Continuing on, I looked at the map and saw a cave -- slightly off the main trail but accessible in my opinion.  We took an overgrown trail to it and slid down the slope to find the entrance.  It was massive.  The pictures don't do it justice, but it was quite a deep hole.   We scrambled back up and headed toward the town of Dolovi to meet Mom.  Along the way, we turned a corner and found the coast, including the town of Radovici, Durasevici, Mrcevac, and Tivat, as well as an abandoned town.  We continued on, finding mom in Dolovi, ate lunch at about 1, and headed back to the car.  An amazing hike.
+
+After we got home, we read and did school outside for a while, then had an early dinner at the local pizza place.  The kids played with a dog while we ordered.  We ate fast, mom and the kids had ice cream, and we headed home where the boys played more.
+
+This is a great place...
 
 ![At the beginning of our hike](/images/travel/PXL_20230731_070054099.jpg)
 ![Beech trees](/images/travel/PXL_20230731_071847687.MP.jpg)
@@ -59,17 +69,13 @@ We walked next door to the hotel and spent 2.5 hours ordering coffee, beer, lett
 ![Montenegrin bidet?](/images/travel/PXL_20230731_115951461.jpg)
 ![Outdoor school](/images/travel/PXL_20230731_120509485.jpg)
 
-Ben and sam woke up at about 6am hoping to play outside.  We made them wait till 7 to keep from waking the neighbors.  We had breakfast and the boys and I went on a 5-hour hike in the park.  Mom drove us to the trailhead, and after hiking back a bit to give her back the house keys, we headed up into stands of beech trees, then some limestone Karst.  We started seeing sinks, where the water obviously flows into the limestone, and started thinking about all the caves we must be walking over.  
-
-I spotted one sinkhole with a gaping hole in the middle and investigated.  Walking back to the trail I found wild strawberries; then Sam found raspberries!  We stopped for a bit to eat them.
-
-In and among the Karst, Sam found wild onions and we spotted some larger caves and crevices.  Continuing on, I looked at the map and saw a cave -- slightly off the main trail but accessible in my opinion.  We took an overgrown trail to it and slid down the slope to find the entrance.  It was massive.  The pictures don't do it justice, but it was quite a deep hole.   We scrambled back up and headed toward the town of Dolovi to meet Mom.  Along the way, we turned a corner and found the coast, including the town of Radovici, Durasevici, Mrcevac, and Tivat, as well as an abandoned town.  We continued on, finding mom in Dolovi, ate lunch at about 1, and headed back to the car.  An amazing hike.
-
-After we got home, we read and did school outside for a while, then had an early dinner at the local pizza place.  The kids played with a dog while we ordered.  We ate fast, mom and the kids had ice cream, and we headed home where the boys played more.
-
-This is a great place...
-
 ## Tuesday, August 1, 2023
+
+We decided to take a windy road down to the town of Kotor, which is an ancient sea-port with lots of history.  On the way down from the park, we hit the "serpentine", a series of 16 back-to-back switchbacks on what can legally only be called a one-way road.  Sara braved the cliffs, making it down without scraping off a single mirror.  Good job mom!
+
+On the way down, we stopped off at Gorazda Fortress, a much newer fort than all the old castles we'd seen so far.  It was an old Austro-Hungarian outpost that had been repurposed over the years.  One of the biggest "features" of this fort was the extra large turret still mounted on the top  of the fort.  It was spooky, and relatively untouched, like the rest of the places we visited in Montenegro.
+
+Getting down to Kotor, we finally encountered the tourists again.  I had already forgotton how glad I was to be away from them since Split.  But there we were again, down low at sea level, back in the heat, tossed back into the meat grinder with all the cruise-ship crowds.  Tour groups stretched across whole town squares as we jostled our way to a lunchtime table.  We were hot, we were tired, but the city itself still kept some of its charm nonetheless.  The city walls pop out all over the place, the town is easily explorable in an hour, but the nooks and crannies keep things interesting.  We found that Montenegro, and Kotor to be the patron of many stray cats.  The kids had fun petting ALL of them.  We realized, as we were down there, that we would have to come back the next day to find Uncle Roy, so, due to the heat and our exhaustion from the drive and the heat and the fort, we left early, stopping by a grocery store and gas station to re-stock ourselves before going back to the park.  Sara did a great job getting us back home through the serpentine yet again.
 
 ![On the way down the mountain](/images/travel/PXL_20230801_080326364.jpg)
 ![The serpentine](/images/travel/PXL_20230801_081822377.jpg)
@@ -98,13 +104,23 @@ This is a great place...
 ![Quick dip in the Sea](/images/travel/PXL_20230801_124750226.MP.jpg)
 ![Dinner](/images/travel/PXL_20230801_162129778.jpg)
 
-We decided to take a windy road down to the town of Kotor, which is an ancient sea-port with lots of history.  On the way down from the park, we hit the "serpentine", a series of 16 back-to-back switchbacks on what can legally only be called a one-way road.  Sara braved the cliffs, making it down without scraping off a single mirror.  Good job mom!
-
-On the way down, we stopped off at Gorazda Fortress, a much newer fort than all the old castles we'd seen so far.  It was an old Austro-Hungarian outpost that had been repurposed over the years.  One of the biggest "features" of this fort was the extra large turret still mounted on the top  of the fort.  It was spooky, and relatively untouched, like the rest of the places we visited in Montenegro.
-
-Getting down to Kotor, we finally encountered the tourists again.  I had already forgotton how glad I was to be away from them since Split.  But there we were again, down low at sea level, back in the heat, tossed back into the meat grinder with all the cruise-ship crowds.  Tour groups stretched across whole town squares as we jostled our way to a lunchtime table.  We were hot, we were tired, but the city itself still kept some of its charm nonetheless.  The city walls pop out all over the place, the town is easily explorable in an hour, but the nooks and crannies keep things interesting.  We found that Montenegro, and Kotor to be the patron of many stray cats.  The kids had fun petting ALL of them.  We realized, as we were down there, that we would have to come back the next day to find Uncle Roy, so, due to the heat and our exhaustion from the drive and the heat and the fort, we left early, stopping by a grocery store and gas station to re-stock ourselves before going back to the park.  Sara did a great job getting us back home through the serpentine yet again.
-
 ## Wednesday, August 2, 2023
+
+We decided to do Kotor a bit differently on Wednesday.  Instead of have a lesiurely breakfast at the Hotel Monte Rosa, we got out early to beat the crowds, get a better parking spot, and "Do Kotor Right".  We were not prepared.  There was a slight drizzle as we left, and thankfully we threw the rain jackets in the car as we left.  
+
+My rain jacket is from circa 2010, was starting to "delaminate", and was not prepared.  More on that later.
+
+As we came down the hill for the second time in as many days, we saw a brilliant double rainbow.  Don't rainbows usually come out after the storm?  Sara kept driving and things just got worse and worse.  By the time we hit the serpentine, it was "spitting" rain; we pitied a couple hardcore cyclists in full panniers slowly rolling up the hill...but I did not envy them that day.
+
+By the time we got to Kotor, it was a full downpour.  We got a good spot on the south side of town, within a couple blocks of the old town.  Still, it was raining cats and dogs and our rain jackets -- jackets, not rain coats, mind you -- were in the trunk.  Ben opened the trunk from the inside and we slowly donned our rain jackets and waited, and waited.  Finally, I made the call...it was time to go.  We hopped out and 2 minutes later I was soaked from head to foot.  The jacket did nothing but delay the water from coming in a bit.
+
+By the time we got to the old town, our feet were waterlogged, my phone was on the fritz because I couldn't use the touchscreen...it was so wet!  I took off the rain jacket and wrung it out.  One of the shops was selling cheap vinyl rain jackets so I bought one for 10 Euro.  We tried to hide under porticoes and arches, but we really had nowhere to go; all the outdoor cafes were shuttered and their tents put away.
+
+We made ran through the town to the maritime museum and stripped off our wet jackets, hung them up, and went inside....and the lights were all off!  The power was out, and so we waited inside, slowly letting the water drip out of every pore.  The lights eventually came back on and we toured the museum for a while.
+
+Once we were done with the museum we went back outside and the skies had cleared.  We made our way toward the stairs up to the top of the Kotor fortress and hiked to the top; Ben counted 1,359 steps up.  Great views!
+
+After we got down, we had lunch with Uncle Roy.  It was great to see him and talk about our respective trips.  After lunch we got gelato with him and saw him back to his tour group.  We walked along the city walls, made it to a beach, and let the kids (and me) jump in the water for a bit.  The water was not as warm as I would have wanted but was still refreshing.  We made it home that night and ate at the hotel that night...it had been a long day.
 
 ![The rainbow did not appropriately prepare us. . .](/images/travel/PXL_20230802_053759003.MP.jpg)
 ![Rain on the serpentine](/images/travel/PXL_20230802_060105637.MP.jpg)
@@ -137,30 +153,16 @@ Getting down to Kotor, we finally encountered the tourists again.  I had already
 ![Family photo](/images/travel/PXL_20230802_123442787.jpg)
 ![On the city walls](/images/travel/PXL_20230802_124330955.jpg)
 
-We decided to do Kotor a bit differently on Wednesday.  Instead of have a lesiurely breakfast at the Hotel Monte Rosa, we got out early to beat the crowds, get a better parking spot, and "Do Kotor Right".  We were not prepared.  There was a slight drizzle as we left, and thankfully we threw the rain jackets in the car as we left.  
-
-My rain jacket is from circa 2010, was starting to "delaminate", and was not prepared.  More on that later.
-
-As we came down the hill for the second time in as many days, we saw a brilliant double rainbow.  Don't rainbows usually come out after the storm?  Sara kept driving and things just got worse and worse.  By the time we hit the serpentine, it was "spitting" rain; we pitied a couple hardcore cyclists in full panniers slowly rolling up the hill...but I did not envy them that day.
-
-By the time we got to Kotor, it was a full downpour.  We got a good spot on the south side of town, within a couple blocks of the old town.  Still, it was raining cats and dogs and our rain jackets -- jackets, not rain coats, mind you -- were in the trunk.  Ben opened the trunk from the inside and we slowly donned our rain jackets and waited, and waited.  Finally, I made the call...it was time to go.  We hopped out and 2 minutes later I was soaked from head to foot.  The jacket did nothing but delay the water from coming in a bit.
-
-By the time we got to the old town, our feet were waterlogged, my phone was on the fritz because I couldn't use the touchscreen...it was so wet!  I took off the rain jacket and wrung it out.  One of the shops was selling cheap vinyl rain jackets so I bought one for 10 Euro.  We tried to hide under porticoes and arches, but we really had nowhere to go; all the outdoor cafes were shuttered and their tents put away.
-
-We made ran through the town to the maritime museum and stripped off our wet jackets, hung them up, and went inside....and the lights were all off!  The power was out, and so we waited inside, slowly letting the water drip out of every pore.  The lights eventually came back on and we toured the museum for a while.
-
-Once we were done with the museum we went back outside and the skies had cleared.  We made our way toward the stairs up to the top of the Kotor fortress and hiked to the top; Ben counted 1,359 steps up.  Great views!
-
-After we got down, we had lunch with Uncle Roy.  It was great to see him and talk about our respective trips.  After lunch we got gelato with him and saw him back to his tour group.  We walked along the city walls, made it to a beach, and let the kids (and me) jump in the water for a bit.  The water was not as warm as I would have wanted but was still refreshing.  We made it home that night and ate at the hotel that night...it had been a long day.
-
 ## Thursday, August 3, 2023
+
+In the morning, Mom took kids to hotel for coffee and trampoline while I worked.  In the afternoon we continued "double potions" with extra reading, writing, and 'rithmetic to make up for the last couple (wonderful) days off school.
 
 ![Art time at home](/images/travel/PXL_20230803_115226891.jpg)
 ![Mom reading before bed](/images/travel/PXL_20230803_171403187.jpg)
 
-In the morning, Mom took kids to hotel for coffee and trampoline while I worked.  In the afternoon we continued "double potions" with extra reading, writing, and 'rithmetic to make up for the last couple (wonderful) days off school.
-
 ## Friday, August 4, 2023
+
+In the morning we hit school hard.  Mid-morning I took the kids to the nearby hotel for coffee (for me) and trampoline (for them).  In the afternoon we took the kids to an adventure park and visited a nearby mausoleum.  Had a nice dinner outside and packed for our next travel day.
 
 ![Haircut for Max](/images/travel/PXL_20230804_100741898.jpg)
 ![Max's haircut](/images/travel/PXL_20230804_103314326.jpg)
@@ -174,5 +176,3 @@ In the morning, Mom took kids to hotel for coffee and trampoline while I worked.
 ![Top of the Mausoleum](/images/travel/PXL_20230804_143926639.jpg)
 ![Top of the Mausoleum](/images/travel/PXL_20230804_144353624.jpg)
 ![Last dinner in Lovcen](/images/travel/PXL_20230804_154613161.jpg)
-
-In the morning we hit school hard.  Mid-morning I took the kids to the nearby hotel for coffee (for me) and trampoline (for them).  In the afternoon we took the kids to an adventure park and visited a nearby mausoleum.  Had a nice dinner outside and packed for our next travel day.

@@ -8,6 +8,12 @@ image: /images/travel/PXL_20230726_150740704.jpg
 
 ## July 26
 
+Our trip from Split to Treibinje took us over the border into Bosnia.  The drive was pretty, with many relatively unpopulated vistas and old towns.
+
+I navigated us to the town of Pocitelj for lunch, which was a treat!  We ate by the river and threw in some rocks after.  The town features a medieval castle with still-standing tower, mosque, and ramparts.  We hiked up past the mosque as the prayer call began.  Nowhere else in our trip so far was the history as accessible, unsafe, and untouristed.  There were maybe 15 people in the tower, no safety mechanisms of any kind, no tickets or regulation, and it was great!  
+
+After lunch we took an alternate route around a lake, up a winding, single-lane highway, and along a rural route that was a converted railroad line overlooking a national park([link](https://goo.gl/maps/yLiETx9jU9uwtaEe9)).  I thought of my trip through eastern europe by bike, as this road was also a bike route.  The route kept getting smaller and smaller!  By the time we were a mile from the M6, the main route was closed and we were on a gravel road detour through a field.  But we made it back to the M6 and sailed into Trebinje.
+
 ![Drive from Split to Trebinje](/images/travel/PXL_20230726_112552538.MP.jpg)
 ![Drive from Split to Trebinje](/images/travel/PXL_20230726_112730846.MP.jpg)
 ![Drive from Split to Trebinje](/images/travel/PXL_20230726_114008945.jpg)
@@ -44,16 +50,7 @@ image: /images/travel/PXL_20230726_150740704.jpg
 ![Trying to get to the M6](/images/travel/PXL_20230726_165146471.MP.jpg)
 ![Almost to Trebinje](/images/travel/PXL_20230726_165651883.jpg)
 
-Our trip from Split to Treibinje took us over the border into Bosnia.  The drive was pretty, with many relatively unpopulated vistas and old towns.
-
-I navigated us to the town of Pocitelj for lunch, which was a treat!  We ate by the river and threw in some rocks after.  The town features a medieval castle with still-standing tower, mosque, and ramparts.  We hiked up past the mosque as the prayer call began.  Nowhere else in our trip so far was the history as accessible, unsafe, and untouristed.  There were maybe 15 people in the tower, no safety mechanisms of any kind, no tickets or regulation, and it was great!  
-
-After lunch we took an alternate route around a lake, up a winding, single-lane highway, and along a rural route that was a converted railroad line overlooking a national park([link](https://goo.gl/maps/yLiETx9jU9uwtaEe9)).  I thought of my trip through eastern europe by bike, as this road was also a bike route.  The route kept getting smaller and smaller!  By the time we were a mile from the M6, the main route was closed and we were on a gravel road detour through a field.  But we made it back to the M6 and sailed into Trebinje.
-
 ## July 27
-
-![View of the city walls from the Trebisnjica river](/images/travel/PXL_20230727_073258822.jpg)
-![Coffee within the old city walls](/images/travel/PXL_20230727_070234673.jpg)
 
 We ate an early breakfast, walked into Trebinje's old town, and had a coffee in a little cafe while the kids played in an alley.
 
@@ -61,7 +58,12 @@ We came home, did school, and I tried to work in the din.
 
 In the late afternoon we walked to a pretty poor playground in a local neighborhood.  The kids still needed it.  We got some veggies and fruit, came home and made a wonderful salad for dinner.
 
+![View of the city walls from the Trebisnjica river](/images/travel/PXL_20230727_073258822.jpg)
+![Coffee within the old city walls](/images/travel/PXL_20230727_070234673.jpg)
+
 ## July 28
+
+Mom took the kids to a monastery while I tried to play catch-up on my email and some long-standing issues with class prep.  They picked me up around 10:45 and we headed to a winery where we tried some nice local wine and talked to a young woman about the wine, our travels, and her experiences in the US.  It was pleasant.  We looked for lunch at a second winery, with no luck.  We headed home for lunch, did school, had some quiet time, and went out to dinner at "Market 99", a nearby restaurant.  We walked to a park carved out of the river and watched the kids play, walked home, got some popcorn, and headed to bed.  A nice day.
 
 ![Winery](/images/travel/PXL_20230728_091819795.jpg)
 ![Kids occupying themselves at the winery](/images/travel/PXL_20230728_100403206.MP.jpg)
@@ -70,9 +72,11 @@ In the late afternoon we walked to a pretty poor playground in a local neighborh
 ![Romantic!](/images/travel/PXL_20230728_164753114.jpg)
 ![Park after dinner](/images/travel/PXL_20230728_170825566.jpg)
 
-Mom took the kids to a monastery while I tried to play catch-up on my email and some long-standing issues with class prep.  They picked me up around 10:45 and we headed to a winery where we tried some nice local wine and talked to a young woman about the wine, our travels, and her experiences in the US.  It was pleasant.  We looked for lunch at a second winery, with no luck.  We headed home for lunch, did school, had some quiet time, and went out to dinner at "Market 99", a nearby restaurant.  We walked to a park carved out of the river and watched the kids play, walked home, got some popcorn, and headed to bed.  A nice day.
-
 ## July 29
+
+On our last day in Trebinje, we walked up to the Orthodox Church at the top of the hill overlooking Trebinje.  It was hot.  On our way down, we took an overgrown path and spotted a tortoise.  Back at the apartment we did some school and Dad and Sam headed to the store to look for food for dinner and traveling the next day.  I got some sausage that looked like ham, some more summer-sausagy looking thing, what I thought was ricotta or similar but just turned out to be butter, some cheese chunks, dried apricots, figs, dates, etc., and a lot of veggies and peaches...I also got "flower" bread, which was 7 dinner-sized rolls (6 around, one in the middle).
+
+In the afternoon, after reading and math we headed to the park and the kids played soccer with a dad and his son.  We walked over to the old arch bridge, and then Mom met us with the car and we headed up out of town and hiked to an old tower.  The stairs to the entrance were collapsed but we were able to climb up enough to look in...there was a peephole and a doorway up to a higher level, and the ceiling on the first level was still intact, in the form of a bricked in dome.  I invented "ham" and "butter" sandwiches; mom added cucumber and pepper to make it healthier.  The kids loved them :)
 
 ![Overlooking Trebinje](/images/travel/PXL_20230729_081348727.jpg)
 ![Kids at the Orthodox Church](/images/travel/PXL_20230729_081731139.jpg)
@@ -94,7 +98,3 @@ Mom took the kids to a monastery while I tried to play catch-up on my email and 
 ![Storming the tower at sunset](/images/travel/PXL_20230729_160906382.jpg)
 ![Peek inside the tower](/images/travel/PXL_20230729_161230051.jpg)
 ![Looking down](/images/travel/PXL_20230729_161245019.jpg)
-
-On our last day in Trebinje, we walked up to the Orthodox Church at the top of the hill overlooking Trebinje.  It was hot.  On our way down, we took an overgrown path and spotted a tortoise.  Back at the apartment we did some school and Dad and Sam headed to the store to look for food for dinner and traveling the next day.  I got some sausage that looked like ham, some more summer-sausagy looking thing, what I thought was ricotta or similar but just turned out to be butter, some cheese chunks, dried apricots, figs, dates, etc., and a lot of veggies and peaches...I also got "flower" bread, which was 7 dinner-sized rolls (6 around, one in the middle).
-
-In the afternoon, after reading and math we headed to the park and the kids played soccer with a dad and his son.  We walked over to the old arch bridge, and then Mom met us with the car and we headed up out of town and hiked to an old tower.  The stairs to the entrance were collapsed but we were able to climb up enough to look in...there was a peephole and a doorway up to a higher level, and the ceiling on the first level was still intact, in the form of a bricked in dome.  I invented "ham" and "butter" sandwiches; mom added cucumber and pepper to make it healthier.  The kids loved them :)
