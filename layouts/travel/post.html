@@ -1,5 +1,6 @@
 <div class="col-md-4 mb-4">
     <article class="card h-100 bg-light">
+        <a href="{{ .Permalink }}">
         {{ if .Params.Image }}
         <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
         {{ else }}
@@ -7,7 +8,7 @@
         <div class="text-center" style="font-size:5rem;line-height:1;"><i class="{{.Params.icon }}"></i></div>
         {{else}}
         <div class="text-center" style="font-size:5rem;line-height:1;"><i class="{{.Site.Params.default_icon}}"></i></div>
-        {{ end }}{{ end }}
+        {{ end }}{{ end }}</a>
         <div class="card-body px-0">
         {{ range .Params.Categories }}
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"

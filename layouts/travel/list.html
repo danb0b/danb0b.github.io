@@ -56,7 +56,7 @@
       <h2> Posts</h2>
       {{end}}
         <div class="row">
-          {{ $paginator := .Paginate ( where (where .Pages ".Type" "!=" "featured") ".Type" "!=" "starred" ) 10 }}
+          {{ $paginator := .Paginate ( where (where .Pages ".Type" "!=" "featured") ".Type" "!=" "starred" ) 6 }}
           {{ range $paginator.Pages }}
           {{ .Render "post" }}
           {{ end }}
