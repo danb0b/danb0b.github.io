@@ -18,6 +18,7 @@ conda install -c anaconda mesa-libgl-cos6-x86_64
 conda install -c menpo glfw3
 pip install mujoco
 pip install mediapy
+pip install mujoco-python-viewer
 ```
 
 ```python

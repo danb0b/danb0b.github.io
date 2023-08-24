@@ -7,6 +7,8 @@ image: /images/travel/PXL_20230817_102621249.jpg
 
 ## Wednesday, August 16, 2023
 
+After a twisty and turny bus ride, we arrived in Ohrid late in the day and found a taxi into the old town.  Most cars aren't allowed in without a pass, so we were dropped off outside the gate and rolled in through the arch.  Our house was quite close.  We dumped our bags and, after a long day, headed to "Pizza Leonardo" where we got four "standard-size" pizzas (we never found out whether it was the Balkan standard #4 pizza or more of a EU standard).  Sunset on the lake was really pretty from our balcony.
+
 ![On the bus from Tirana](/images/travel/PXL_20230816_105156565.jpg)
 ![Concrete train bridge](/images/travel/PXL_20230816_124730284.MP.jpg)
 ![Border crossing into North Macedonia](/images/travel/PXL_20230816_134236565.jpg)
@@ -15,11 +17,15 @@ image: /images/travel/PXL_20230817_102621249.jpg
 ![Taxi into old town](/images/travel/PXL_20230816_145035098.jpg)
 ![The view from our balcony](/images/travel/PXL_20230816_150603029.jpg)
 ![Walking to dinner](/images/travel/PXL_20230816_153709677.jpg)
-![Old church](/images/travel/PXL_20230816_153823485.jpg)
+![Old church next to pizza](/images/travel/PXL_20230816_153823485.jpg)
 ![Pizza Leonardo](/images/travel/PXL_20230816_161744949.jpg)
 ![Sunset](/images/travel/PXL_20230816_170906180.jpg)
 
 ## Thursday, August 17, 2023
+
+The next morning we headed out to "Samuel's Fortress", a castle once occupied by Tsar Samuel amongst various invaders and siege-layers over the years.  The castle had been rebuilt; the castellations at the top were complete (and used concrete to hold it together), and some of the new walkways did not exactly match up with the old walls.  But at least there was a railing, in contrast to Albania.
+
+Walking down the hill from the castle, we walked by an archaeological site within a monastery; we didn't go in because we were getting a little hangry.  Stopping for a snack outside of the monastery, the kids did some reading and writing.  We walked into town and headed along the shore on a boardwalk, which took us by a couple small beaches and bars to a fantastic find of a restaurant (It was highly rated in Sara's Eastern Europe book 15 years ago).  We ate a great lunch featuring a bunch of different fish.  We walked back to the apartment; Max and I napped while the kids did some school.  Dinner was at home that night.
 
 ![The front of Fortress "Samuel"](/images/travel/PXL_20230817_082014605.jpg)
 ![Inspecting the perimeter](/images/travel/PXL_20230817_082130013.jpg)
@@ -63,6 +69,12 @@ image: /images/travel/PXL_20230817_102621249.jpg
 ![Early Dinner](/images/travel/PXL_20230817_164502115.jpg)
 
 ## Friday, August 18, 2023
+
+Max woke up early and went out to the living room by himself.  He was so quiet for so long that we had to check in on him...we found him quietly at work on his "workbook", a pre-school level book we brought with us for him to work on colors, letters, and numbers.  Very impressive.  We did some school in the morning and then headed out to find a park and learn about boat rental options.  Mom went for a walk while I watched the kids, and then we switched; I made it up the main walkway all the way to the bazaar before turning around.  We got Doner Kebabs for lunch and brought them back to the park. 
+
+At the park, Sara met up with a woman she had been chatting with recently about a pop-up school she was setting up in Ohrid; she lives in Canada and had her two kids with her, and were staying, along with her mom, in Ohrid for several months.  Ben, Sam, and Max really enjoyed playing with them at the park.  I headed back to the apartment to get some work done, and they met me at home for a brief wind-down.  
+
+We met back up
 
 ![We found Max up early, working on his workbook](/images/travel/PXL_20230818_045438403.jpg)
 ![Me and Sam doing some bananagram spelling](/images/travel/PXL_20230818_065051593.jpg)
