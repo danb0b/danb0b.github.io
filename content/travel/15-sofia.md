@@ -1,5 +1,8 @@
 ---
 title: Sofia, Bulgaria (draft)
+date: 2023-08-25
+summary: Meeting some friends for a whirlwind 12 days around Bulgaria
+image: /images/travel/PXL_20230825_161716025.jpg
 ---
 
 ## Friday, August 25, 2023

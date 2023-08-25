@@ -94,15 +94,15 @@ We met back up for a beach dinner while the kids used their new nets that Sara g
 
 ## Saturday, August 19, 2023
 
-The kids woke up and did school early.  After that We met up with our friends and made our way to the "semi-submarine", to get there a little bit before the 11:00 a.m. departure, but it was full. We decided to stick around for the 12:00 p.m. tour.  The kids played in the park, I went to the bakery and got some different things to try, and we embarked at noon on our voyage under the lake.
+The kids woke up and did school early.  After that We met up with our friends and made our way to the "semi-submarine", to get there a little bit before the 11:00 a.m. departure, but found it full. We decided to stick around for the 12:00 p.m. tour.  The kids played in the park, I went to the bakery and got some different things to try, and at noon we embarked on our voyage under the lake.
 
-It was actually pretty cool! We saw lots of little fish, I saw a water snake on the lake bed, and we saw a lot of different seaweed. The boat itself doesn't ever go underwater but, unlike a glass bottom boat, you're fully emerged in the water when you're downstairs. It was also a little disorienting to look out to thick glass as it move forward, because the warping of the view made it look like you were constantly twisting.
+It was a pretty neat tour.  We saw lots of little fish, I saw a water snake swimming on the lake bed, and we saw a lot of seaweed. The boat itself doesn't ever go underwater but, unlike a glass bottom boat, you're fully immersed in the water when you're downstairs. It was also a little disorienting to look out the thick glass as the boat moved forward, because the warped view through the thick glass made it look like you were moving inside a kaliedescope.
 
-We got off the boat and made our way to a water taxi and immediately took a short little tour, followed by a trip to a nearby beach recommended by our friend.  We spent the whole afternoon there, with our kids in the water almost the whole time.  Has the afternoon war on, we had to keep moving our chairs because they kept moving into the sun. Luckily, there was a bar nearby and we finished off the afternoon with beer.
+We got off the boat and made our way to a water taxi and immediately took a short little tour on our way to a nearby beach recommended by our friend.  We spent the whole afternoon there, with our kids in the water almost the whole time.  Though the sun was hot, there was luckily a bar nearby; we finished off the afternoon with some beers.
 
-Looking across the lake, we saw thunderheads forming and decided we needed to make our way back to Ohrid.  It was five anyways and we knew our kids would fall apart soon if they didn't get a proper dinner.  The water taxi came back for us and we made our way home. Dinner that night was very simple and satisfying, with a lot of veggies.
+Looking across the lake, we saw thunderheads forming and decided we needed to make our way back to Ohrid before it caught us.  It was 5:00 anyways and we knew our kids would fall apart soon if they didn't get a proper dinner.  The water taxi came back for us and we made our way home.  Dinner that night was very simple and satisfying, with a lot of veggies.
 
-The thunderstorm finally hit later that night with some pretty dramatic lighting across the water.
+The thunderstorm finally hit later that night with some pretty dramatic lightning across the water.
 
 ![Early morning reading](/images/travel/PXL_20230819_071504680.MP.jpg)
 ![In the "semi"-submarine](/images/travel/PXL_20230819_095553209.jpg)
@@ -120,9 +120,9 @@ The thunderstorm finally hit later that night with some pretty dramatic lighting
 
 ## Sunday, August 20, 2023
 
-Sam and I walked into town to grab some donuts and sweet pastries for breakfast.  We again did some schoolwork in the morning followed by lunch, but one in our midst was a bit emotional. Max couldn't ask anything nicely without falling apart crying if he heard a no.  Seeing that this wasn't going to end unless we put a stop to it, Max and I stayed at home so that he could take a nap. We had had a long couple days and he needed some extra sleep.  Sarah and the other two boys went to the beach to meet up with ouir friends again a little way down the shore.
+Sam and I walked into town to grab some donuts and sweet pastries for breakfast.  We again did some schoolwork in the morning followed by lunch, but one in our midst was a bit emotional. Max couldn't ask anything nicely without falling apart crying if he heard a no.  Seeing that this wasn't going to end unless we put a stop to it, Max and I stayed at home so that he could take a nap. We had had a long couple days and he needed some extra sleep.  Sara and the other boys went to the beach to meet up with ouir friends again a little way down the shore.
 
-I got some work done while Max slept, and then when he woke up, in a much better mood, we made our way to the other kids at the beach.  I rented a stand-up paddle board and took Ben and Sam out for a short trip each.
+I got some work done while Max slept, and then when he woke up -- in a much better mood -- we made our way to the other kids at the beach.  I rented a stand-up paddle board and took Ben and Sam out for a short trip each.
 
 We walked back to town together with our friends and said goodbye along the quay.  Our trip to Skopje would begin tomorrow...
 
