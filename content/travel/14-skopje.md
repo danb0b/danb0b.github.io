@@ -86,6 +86,7 @@ After walking home we walked through the local school yard where about 100 kids 
 ![Freezing, freezing!](/images/travel/PXL_20230823_093653350.jpg)
 ![I'm cold!](/images/travel/PXL_20230823_100036936.jpg)
 ![Family fun](/images/travel/PXL_20230823_100807668.jpg)
+<video src="/videos/travel/PXL_20230823_100744231.TS.mp4" controls title="Title" width="100%"></video>
 ![In the cave](/images/travel/PXL_20230823_103628790.jpg)
 ![In the cave, in front of a lake](/images/travel/PXL_20230823_103810145.jpg)
 ![The second lake](/images/travel/PXL_20230823_104005023.jpg)

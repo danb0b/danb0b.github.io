@@ -90,6 +90,8 @@ We went to the lake all day, came home for a break, and went on an evening cruis
 ![Watermelon monster](/images/travel/IMG-20230703-WA0057.jpg)
 ![Pontoon pilot training](/images/travel/PXL_20230704_010959872.PORTRAIT.jpg)
 
+<video src="/videos/travel/VID-20230703-WA0000.mp4" controls title="Title" width="100%"></video>
+
 ### Tuesday, July 4
 
 We went to the fourth of July parade.  We lit fireworks at home, and while captain nuclear was underwhelming, the flaming frog was great.  We went to the fireworks overlooking Lake Minnetonka in Excelsior, and made it home quite late.

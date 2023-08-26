@@ -41,6 +41,9 @@ Walking down the hill from the castle, we walked by an archaeological site withi
 ![Coming down some steep steps](/images/travel/PXL_20230817_084729531.jpg)
 ![View of the new town](/images/travel/PXL_20230817_085239262.jpg)
 ![Helical plants](/images/travel/PXL_20230817_085552850.MP.jpg)
+
+<video src="/videos/travel/PXL_20230817_085942086.TS.mp4" controls title="Title" height="400px"></video>
+
 ![Ben on the wall](/images/travel/PXL_20230817_090327314.jpg)
 ![Sam and Max](/images/travel/PXL_20230817_090400985.jpg)
 ![Ben and Mom](/images/travel/PXL_20230817_090409371.jpg)
@@ -62,6 +65,8 @@ Walking down the hill from the castle, we walked by an archaeological site withi
 ![Looking for the restaurant](/images/travel/PXL_20230817_101718915.jpg)
 ![Along the path...](/images/travel/PXL_20230817_101808152.MP.jpg)
 ![Aah, there it is](/images/travel/PXL_20230817_102621249.jpg)
+
+<video src="/videos/travel/PXL_20230817_105159365.TS.mp4" controls title="Title" height="400px"></video>
 ![Ben's "field notes"](/images/travel/PXL_20230817_103404893.jpg)
 ![Lunch: Fish soup, "trout in prison", sea breem, salad.](/images/travel/PXL_20230817_105547924.jpg)
 ![Local passionfruit](/images/travel/PXL_20230817_120219529.jpg)

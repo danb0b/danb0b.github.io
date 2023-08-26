@@ -33,6 +33,8 @@ We got in close to 7, unloaded the car, and put the kids to bed.  our destinatio
 ![Lights under the arbor, with the restaurant behind it](/images/travel/PXL_20230806_181107343.jpg)
 ![Simple dinner](/images/travel/PXL_20230806_185247388.jpg)
 
+[Title](01-nice.md) <video src="/videos/travel/PXL_20230806_193838558.TS.mp4" controls title="Title" width="100%"></video>
+
 ## Monday, August 7, 2023
 
 The next day was a school day. The kids worked in their journals on the deck and then moved to the terrace.  We read outside all morning.  We had breakfast, lunch, and dinner at the winery, all lovely.  Before dinner I took the boys on a hike, where we found wild berries, a pair of tortoises, walnut trees, wild cherries... and some great views.

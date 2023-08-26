@@ -75,3 +75,10 @@ On our second full Day in Nice, we went to Monaco.  Mark and Shayna stayed in Ni
 ![Walking through town](/images/travel/PXL_20230709_122256461.jpg)
 ![Walking through town](/images/travel/PXL_20230709_122421848.jpg)
 ![How many steps and stairs we did that day.](/images/travel/PXL_20230709_191556082.jpg)
+
+
+![](/videos/travel/PXL_20230709_113931353.TS.mp4)
+
+<video src="/videos/travel/PXL_20230709_113931353.TS.mp4" controls title="Title" height="400px"></video>
+<video src="/videos/travel/PXL_20230709_114249646.TS.mp4" controls title="Title" height="400px"></video>
+<video src="/videos/travel/PXL_20230709_114056639.TS.mp4" controls title="Title" height="400px"></video>
