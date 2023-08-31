@@ -1,5 +1,10 @@
 ---
 title: getting docker networking working with ros2
+tags:
+- docker
+- ros
+- ros2
+- linux
 ---
 
 
