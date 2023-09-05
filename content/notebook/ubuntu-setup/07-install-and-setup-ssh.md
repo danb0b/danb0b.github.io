@@ -5,6 +5,7 @@ tags:
 - ubuntu
 - linux
 - ssh
+- keys
 ---
 
 ## Basic Steps

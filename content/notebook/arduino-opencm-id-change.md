@@ -1,5 +1,10 @@
 ---
 title: Arduino OpenCM9.04 SDK ID Change
+tags:
+- arduino
+- dynamixel
+- opencm
+- xl320
 ---
 
 ## Intro

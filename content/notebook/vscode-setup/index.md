@@ -1,5 +1,7 @@
 ---
 title: VS Code Setup and Usage
+tags:
+- vscode
 ---
 
 

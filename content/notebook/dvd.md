@@ -1,5 +1,7 @@
 ---
 title: DVD backup
+tags:
+- dvd
 ---
 
 sudo apt-get install k3b 

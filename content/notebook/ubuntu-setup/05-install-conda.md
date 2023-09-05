@@ -2,13 +2,12 @@
 title: 05-Conda Install
 weight: 50
 tags:
-  - anaconda
-  - python
-  - terminal
-  - bash
-  - ubuntu
-  - linux
-  - anaconda
+- anaconda
+- python
+- terminal
+- bash
+- ubuntu
+- linux
 ---
 
 ## Install Latest Anaconda / Miniconda

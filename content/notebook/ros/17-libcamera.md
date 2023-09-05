@@ -1,7 +1,8 @@
 ---
 title: LibCamera Info
 tags:
-  - raspberry-pi
+- raspberry-pi
+- ubuntu
 ---
 
 ## LibCamera

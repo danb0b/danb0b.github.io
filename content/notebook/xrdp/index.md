@@ -1,5 +1,9 @@
 ---
 title: RDP to another computer
+tags:
+- linux
+- ubuntu
+- rdp
 ---
 
 Derived from [here](https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10)

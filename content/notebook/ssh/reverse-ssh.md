@@ -2,6 +2,10 @@
 title: Reverse SSH Tunnel
 summary: Auto-reconnecting reverse tunnel quickstart
 weight: 99
+tags
+- ssh
+- ports
+- security
 ---
 
 ## Installation

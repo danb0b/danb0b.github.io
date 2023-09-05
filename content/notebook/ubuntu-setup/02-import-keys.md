@@ -6,6 +6,7 @@ tags:
 - linux
 - ssh
 - gpg
+- keys
 ---
 
 ## Install and Setup

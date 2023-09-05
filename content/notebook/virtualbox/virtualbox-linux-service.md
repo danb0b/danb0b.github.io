@@ -1,5 +1,10 @@
 ---
 title: Start Virtualbox as a Service in Linux
+tags:
+- virtualbox
+- linux
+- ubuntu
+- bash
 ---
 
 ```bash

@@ -4,6 +4,7 @@ weight: 100
 tags:
 - ubuntu
 - linux
+- security
 ---
 
 1. add yourself to device groups for access to some USB devices in python

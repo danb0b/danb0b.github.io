@@ -231,7 +231,7 @@ start_server()
 - <https://microdot.readthedocs.io/en/latest/intro.html#running-with-micropython>
 - <https://microdot.readthedocs.io/en/latest/api.html#microdot-asyncio-module>
 
-### Fech API
+### Fetch API
 
 - <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data>
 - <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API>

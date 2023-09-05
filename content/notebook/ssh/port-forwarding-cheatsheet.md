@@ -1,7 +1,10 @@
 ---
 title: Port Forwarding Cheatsheet
 tags:
-  - ssh
+- ssh
+- ubuntu
+- linux
+- keys
 weight: 99
 ---
 

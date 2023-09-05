@@ -1,3 +1,11 @@
+---
+title: overleaf projects
+tags: 
+- idealab
+- overleaf
+- latex
+---
+
 when making a new overleaf project:
 
 integrate with github by creating a new repositoiry.

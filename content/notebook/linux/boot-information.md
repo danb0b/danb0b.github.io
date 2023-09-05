@@ -1,5 +1,8 @@
 ---
 title: Find Boot Information
+tags:
+- linux
+- ubuntu
 ---
 
 ## List login times including boots

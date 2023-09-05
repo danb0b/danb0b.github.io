@@ -4,6 +4,7 @@ published: true
 tags:
 - ubuntu
 - linux
+- security
 weight: 999
 ---
 
