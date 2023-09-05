@@ -5,10 +5,9 @@ tags:
   - ubuntu
   - linux
   - bash
+  - nautilus
+  - file-transfer
 ---
-
-
-
 
 Issue: Nautilus hangs when I try to copy large files to a NAS.
 
@@ -31,8 +30,7 @@ type ```crontab -e``` and paste in the following:
 @reboot ~/test.bash
 ```
 
-
-originally from: 
+## External references
 
 * <https://blog.programster.org/fix-freezes-when-transferring-files>
 * <https://www.raspberrypi.org/forums/viewtopic.php?t=215262>
