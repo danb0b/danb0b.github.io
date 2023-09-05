@@ -28,7 +28,7 @@ We walked out to a park to help the kids let off some steam.  The playground in 
 
 ## Saturday, August 26
 
-We learned that our friends would not be joining us on their original flight, as there had been some 
+We learned that our friends would not be joining us on their original flight, as there had been some
 
 We did school in the morning and then walked through town.  We walked through Knyazheska Garden, where we found a remnant of Bulgaria's communist past, fenced in to stave off the graffitos.
 
@@ -68,25 +68,25 @@ We drove out of Sophia heading for baliko ternavo.  Along the way, we stopped to
 
 in a little town just outside for a late lunch/early dinner. Finally getting to our place around 6:00, we found ourselves rolling our bags along a a very old cobblestonestreet w to our one night Airbnb. We had been particularly excited about this place, but it turned out to be a little sketchier than our expectations. We did however find an underground lair that seemed to be a former communist drinking hangout. As we sat there after the kids went to bed though, we started hearing scratching all around us. It turned out to be wood beetles eating away at the building surrounding us. It was both spooky and scary to hear the building be eaten to dust.  We resolved to tell our host about that little detail.
 
-For breakfast we went to the pinko Cafe, a pink-themed cafe filled with different pink creatures and pink dishes. I think it was also a reference to Bulgaria's communist past, being nestled in the hotel Kiev. We then hiked to the castle.  The kids investigated a scorpion and a catapult and we talked about how each one stored energy to launch projectiles.  Sam wasn't feeling well so he and Sara waited while the rest of us climbed up to the strangest church we'd ever been inside at the top. The interior was something... Gothic? Brutalist? Slavic? We couldn't pick the name for whatever it was, but it seemed like an interior shot from game of thrones.  The mural itself was also pretty different for the inside of church.  After that we hustled back to the apartment and packed our bags.  We drove on to Byala.  The kids found the Black Sea while (Big) Ben and I went and got dinner, which included some adventurous food, including fried scad.
-
 ## Wednesday, August 30
 
-We played on the beach, the kids went to a water slide, I caught up on email, and we went to dinner.  It was a great, relaxing day
+For breakfast we went to the pinko Cafe, a pink-themed cafe filled with different pink creatures and pink dishes. I think it was also a reference to Bulgaria's communist past, being nestled in the hotel Kiev. We then hiked to the castle.  The kids investigated a scorpion and a catapult and we talked about how each one stored energy to launch projectiles.  Sam wasn't feeling well so he and Sara waited while the rest of us climbed up to the strangest church we'd ever been inside at the top. The interior was something... Gothic? Brutalist? Slavic? We couldn't pick the name for whatever it was, but it seemed like an interior shot from game of thrones.  The mural itself was also pretty different for the inside of church.  After that we hustled back to the apartment and packed our bags.  We drove on to Byala.  The kids found the Black Sea while (Big) Ben and I went and got dinner, which included some adventurous food, including fried scad.
 
 ## Thursday, August 31
 
-We packed our things and moved on to Nessabar for a quick stop.  We got lunch at a wonderful spot, said goodbye to the Black Sea, and continued on to Plovdiv.  We got to our place right in the middle of town, and found dinner in Plovdiv at a wonderful restaruant down the street.  The whole center of town comes alive at night with restaurants spilling out onto the street.
+We played on the beach, the kids went to a water slide, I caught up on email, and we went to dinner.  It was a great, relaxing day
 
 ## Friday, September 1
 
-We hiked up three of Plovdiv's seven hills and saw lots of sights.  Laura, (little) Ben, and I hiked up to the top of the monument.  We met up with the rest of the crowd, ate a quick lunch at the end of the children's train line, and continued on to the children's train.  It didn't run again for a couple hours, so we let the kids play in a playground while we got coffee and beer.  We were all feeling tired and a bit out of it.  The children's train was stuffy and slow, and not worth the time or hike.  We taxied home and ate dinner on the roof.
+We packed our things and moved on to Nessabar for a quick stop.  We got lunch at a wonderful spot, said goodbye to the Black Sea, and continued on to Plovdiv.  We got to our place right in the middle of town, and found dinner in Plovdiv at a wonderful restaruant down the street.  The whole center of town comes alive at night with restaurants spilling out onto the street.
 
 ## Saturday, September 2
 
-I woke up feeling a cold coming on.  We hiked up into the old town
+We hiked up three of Plovdiv's seven hills and saw lots of sights.  Laura, (little) Ben, and I hiked up to the top of the monument.  We met up with the rest of the crowd, ate a quick lunch at the end of the children's train line, and continued on to the children's train.  It didn't run again for a couple hours, so we let the kids play in a playground while we got coffee and beer.  We were all feeling tired and a bit out of it.  The children's train was stuffy and slow, and not worth the time or hike.  We taxied home and ate dinner on the roof.
 
 ## Sunday, September 3
+
+I woke up feeling a cold coming on.  We hiked up into the old town
 
 ## Monday, September 4
 
