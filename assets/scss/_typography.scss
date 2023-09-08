@@ -1,5 +1,4 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
 
 body {
   line-height: 1.4;
@@ -9,11 +8,20 @@ body {
   color: $text-color;
 }
 
-p, .paragraph {
+p, .paragraph{
   font-weight: 400;
   color: $text-color;
   font-size: 16px;
   line-height: 1.4;
+  font-family: $primary-font;
+  margin-bottom: 10px;
+}
+
+li {
+  font-weight: 400;
+  color: $text-color;
+  font-size: 16px;
+  line-height: 1.0;
   font-family: $primary-font;
   margin-bottom: 10px;
 }

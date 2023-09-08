@@ -12,6 +12,7 @@ conda create -n mujoco_env python=3.9
 conda activate mujoco_env
 # cannot install jupyter, but you can install jupyter lab, according to this: <https://stackoverflow.com/questions/50675004/conflicting-python-version-in-jupyter-notebookconda>
 conda install jupyterlab
+conda install scipy
 conda install -c conda-forge glew
 conda install -c conda-forge mesalib
 conda install -c anaconda mesa-libgl-cos6-x86_64
@@ -53,6 +54,8 @@ conda remove --name mujoco_env --all
 * [Binary Releases](https://github.com/deepmind/mujoco/releases)
 * [Documentation](https://mujoco.readthedocs.io/)
 * Mujoco interactive [tutorial](https://colab.research.google.com/github/deepmind/mujoco/blob/main/python/tutorial.ipynb)
+* https://pab47.github.io/mujoco.html
+    * https://pab47.github.io/mujoco2022.html
 
 --------------------
 
