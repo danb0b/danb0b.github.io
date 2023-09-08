@@ -127,3 +127,53 @@ On our way home, Sam tripped over Max while teasing him.  The goose egg he got s
 ![Ben digging in to the fish soup.](/images/travel/PXL_20230824_165456265.jpg)
 ![Sammy destroying the pizza and tomato soup](/images/travel/PXL_20230824_165540266.MP.jpg)
 ![Sammy's injury](/images/travel/PXL_20230824_174241379.jpg)
+
+
+-------
+
+## Notes from Skopje Tour
+
+- Macedonian Color revolution
+- Two ATMs that don't charge commission
+    - Pink ATMS
+    - halkbank (turkish)
+- Millennium cross
+- Bus
+    - Daily ticket
+- 500 to take boat in Canyon
+- Produce market
+- Mall
+- Burek == Bypek
+    - In the morning
+    - Smaller the better
+- Make dox event in Skopje
+- Rebuilt with new street names
+- Bus 25 tires thru Frida
+- Bus 60 to the canyon
+- 120 cash
+- Brahzhov
+- Project 2014
+- Free train station museum
+- Macedonian struggle
+- Gebbermalo with traditional music
+    - Bohemian district
+    - Slower food
+- Ladino Jewish language
+    - Exiled Spanish
+- Churches built after mid 1800
+- Hammam ottoman bath
+    - Not a bath
+- Bazaar
+    - Last thematic street is gold/jewelry
+- Karabanserie
+    - Colective had the craft beer
+- Hidden church
+- Food
+    - Tafche grafche baked beans
+    - Chopska salad
+    - Ajvar ayvar red pepper spread
+- Drink
+    - Vranac
+    - Rakia like grappa.
+    - Yellow 40-45
+    - "Drink slowly and combine"

@@ -3,6 +3,7 @@ title: Sofia, Bulgaria (draft)
 date: 2023-08-25
 summary: Meeting some friends for a whirlwind 12 days around Bulgaria
 image: /images/travel/PXL_20230825_161716025.jpg
+draft: true
 ---
 
 ## Friday, August 25, 2023
@@ -91,3 +92,29 @@ I woke up feeling a cold coming on.  We hiked up into the old town
 ## Monday, September 4
 
 ## Tuesday, September 5
+
+
+
+----
+
+## Notes from Sofia Walking Tour
+
+- Lion
+- Tsar Boris assassination
+- 40 hot mineral springs
+- Square of tolerance
+- Sallow makers 
+- Public bath
+- Mineral springs
+- Bankia
+- Pancherevo
+- Presidency has hotel and casino and church
+- Bath house to church logically
+- Church to mosque to church
+- Every Sunday is an impromptu dance
+- Marchiniza
+- Red and white ties
+- Hang on first blossoming tree
+- Kornac
+- National gallery
+- St Sofia church Justinian 6 th century
