@@ -60,7 +60,7 @@ params:
     css:
     - URL: plugins/bootstrap/bootstrap.min.css
     - URL: plugins/slick/slick.css
-    # - URL: plugins/themify-icons/themify-icons.css
+    - URL: plugins/themify-icons/themify-icons.css
     - URL: plugins/venobox/venobox.css
     - URL: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css
     js:
