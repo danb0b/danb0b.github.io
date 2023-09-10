@@ -56,6 +56,8 @@ conda remove --name mujoco_env --all
 * Mujoco interactive [tutorial](https://colab.research.google.com/github/deepmind/mujoco/blob/main/python/tutorial.ipynb)
 * https://pab47.github.io/mujoco.html
     * https://pab47.github.io/mujoco2022.html
+* [a comprehensive mujoco tutorial](https://github.com/tayalmanan28/Mujoco-Tutorial)
+    * [accompanying blog post](https://tayalmanan28.github.io/my_blogs/mujoco/simulations/robotics/2022/01/21/MuJoCo.html)
 
 --------------------
 
