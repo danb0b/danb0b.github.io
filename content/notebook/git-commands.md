@@ -232,3 +232,19 @@ git stash pop
 git checkout master
 git merge featureBranch
 ```
+
+## pull and merge upstream changes into forked branch
+
+git clone path/to/my_repo.git
+cd my_repo
+git remote add upstream path/to/upstream_repo.git
+git fetch upstream
+
+git pull upstream master
+or
+git rebase upstream/master
+
+git push --force
+git push origin main
+
+from [here](https://stackoverflow.com/questions/40983514/most-efficient-way-to-keep-a-fork-up-to-date) and [here](https://www.digitalocean.com/community/questions/how-to-keep-your-forked-github-repository-up-to-date)
