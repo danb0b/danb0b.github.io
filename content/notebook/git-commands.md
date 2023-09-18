@@ -248,3 +248,16 @@ git push --force
 git push origin main
 
 from [here](https://stackoverflow.com/questions/40983514/most-efficient-way-to-keep-a-fork-up-to-date) and [here](https://www.digitalocean.com/community/questions/how-to-keep-your-forked-github-repository-up-to-date)
+
+
+## Adding a second remote
+
+git remote add <name-of-new-remote> https://github.com/OWNER/REPOSITORY.git
+git remote -v
+git push <name-of-new-remote> <branch>
+
+https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+
+git push --set-upstream <name-of-new-remote> <branch>
+
+git branch --track <name-of-new-remote> <branch>
