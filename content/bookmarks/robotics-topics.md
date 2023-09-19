@@ -33,3 +33,26 @@ This still needs to be filled in, but...
 ## Matlab 
 
 * <http://www.petercorke.com/RTB/r9/html/SerialLink.html>
+
+## Voxel based Robots
+
+<https://www.creativemachineslab.com/titan-library.html>
+
+
+## FEA
+
+https://www.simscale.com/forum/t/fluid-structure-interaction-modelling-with-simscale/14020
+
+## Granular Approaches
+
+* RFT
+- EDEM
+- Abaqus
+- Mujoco
+* material point method
+* EDEM
+* PFC / FLAC
+    * <https://docs.itascacg.com/pfc600/pfc/docproject/source/manual/examples/examples/granular/granular.html>
+    * <https://link.springer.com/article/10.1007/s10035-018-0841-y>
+* https://yade-dem.org/doc/
+

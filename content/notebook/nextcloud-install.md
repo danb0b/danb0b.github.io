@@ -110,3 +110,11 @@ More Recent
 https://www.lifewire.com/how-to-sync-google-calendar-with-thunderbird-4691009
 
 https://addons.thunderbird.net/en-US/thunderbird/addon/provider-for-google-calendar/?src=search
+
+
+## Upgrading Nextcloud on Docker
+
+* <https://help.nextcloud.com/t/whats-the-right-way-to-upgrade-nextcloud-on-docker/139411>
+* <https://nubisoft.io/blog/how-to-upgrade-dockerized-nextcloud/>
+* <https://philenius.github.io/cloud/2022/11/13/how-to-updade-nextcloud-docker-installation-to-latest-version.html>
+* <https://forum.openmediavault.org/index.php?thread/31542-how-to-upgrade-nextcloud-in-docker/>

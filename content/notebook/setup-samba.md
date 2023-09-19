@@ -31,9 +31,15 @@ sudo nano /etc/samba/smb.conf
 ```
 
 ```bash
+# sudo service smbd restart
 sudo /etc/init.d/smbd restart
 sudo ufw allow samba
 sudo smbpasswd -a <username>
 ```
 
-## Then connect to your new share!
+> Then connect to your new share!
+
+
+## External References
+
+- [SAMBA - do not have permission to access....[SOLVED]](https://forums.linuxmint.com/viewtopic.php?t=245005)
