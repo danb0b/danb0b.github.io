@@ -24,12 +24,6 @@ sudo dpkg -i code_1.7* #.... tab complete
 sudo apt install -yf
 ```
 
-## Video
-
-<iframe width="720" height="480" src="https://www.youtube.com/embed/Polis0zBkFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Thanks to Wyatte for this helpful video
-
 ## Useful command-line arguments
 
 > Note: this only works if you added vscode to your system ```PATH```
