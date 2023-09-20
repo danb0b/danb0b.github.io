@@ -10,7 +10,7 @@ tags:
 ## Refresh documents
 
 - Update cv
-- Update Mendeley
+- Update zotero and backup
 - Update idealab website
 
 ## Online Storage
