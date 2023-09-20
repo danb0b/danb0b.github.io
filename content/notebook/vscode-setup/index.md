@@ -112,7 +112,19 @@ go to settings
 @id:editor.defaultFormatter @lang:markdown formatter
 ctrl_+ shift + I then formats your document
 
-### pymaker
+## Python
+
+When working with multiple python environments, you should make sure to use the correct one for the task you are doing.  To do this, you will need to select from a list of python interpreters.  Type ctrl+shift+p then type / select "python select interpreter" from the list.
+
+- <https://code.visualstudio.com/docs/python/python-tutorial>
+- <https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/>
+- <https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/>
+
+### Debugging Python Code
+
+see this [reference](https://codelovingyogi.medium.com/vscode-debugging-python-scripts-with-args-d8ac1cf9a191) to add a debug configuration
+
+## pymaker
 
 1. install pymakr preview
 
@@ -120,7 +132,7 @@ ctrl_+ shift + I then formats your document
     code --install-extension Pycom.pymakr-preview
     ```
 
-#### Getting Started with Pymakr (from [here](https://github.com/pycom/pymakr-vsc/blob/HEAD/GET_STARTED.md))
+### Getting Started with Pymakr (from [here](https://github.com/pycom/pymakr-vsc/blob/HEAD/GET_STARTED.md))
 
 1. In File explorer(```ctrl+shift+e```)
     1. add or create a project folder for holding your micropython code (suggestion: name it "micropython").  Consider creating one in your "code" git repository.
@@ -172,7 +184,7 @@ ctrl_+ shift + I then formats your document
 
         ![Figure](disconnect-button.png)
 
-#### Working with Micropython
+### Working with Micropython
 
 Micropython can either run code from the interpreter (the "terminal" as VSCode puts it), or by loading a file from its onboard storage.  When the ESP32 is reset (using the EN button), it looks for two files, in a specific order:
 
@@ -183,7 +195,7 @@ if there are any loops in these files that prevent execution from ending, you mu
 
 > You must always stop execution on the ESP32 before trying to upload files to it.
 
-#### Saving files to/from the ESP32
+### Saving files to/from the ESP32
 
 Within the "Pymakr: Projects" workspace there are several other buttons that you can use to sync files to the esp32
 
@@ -193,19 +205,8 @@ Within the "Pymakr: Projects" workspace there are several other buttons that you
 
 From the file explorer window, you can also right click and select "pymakr-->upload to device" to upload individual files
 
-## Python
 
-When working with multiple python environments, you should make sure to use the correct one for the task you are doing.  To do this, you will need to select from a list of python interpreters.  Type ctrl+shift+p then type / select "python select interpreter" from the list.
-
-- <https://code.visualstudio.com/docs/python/python-tutorial>
-- <https://www.pythontutorial.net/getting-started/setup-visual-studio-code-for-python/>
-- <https://theproductiveengineer.net/how-to-set-up-vs-code-for-python/>
-
-### Debugging Python Code
-
-see this [reference](https://codelovingyogi.medium.com/vscode-debugging-python-scripts-with-args-d8ac1cf9a191) to add a debug configuration
-
-#### External Resources
+### External Resources
 
 - VSCode
     - Main [Website](https://code.visualstudio.com/)
@@ -218,6 +219,11 @@ see this [reference](https://codelovingyogi.medium.com/vscode-debugging-python-s
     - <https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>
     - <https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/vscode-setup.html>
     - <https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython>
+
+
+----------------
+
+# My notes
 
 ## Interesting Packages
 
