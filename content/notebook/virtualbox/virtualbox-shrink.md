@@ -7,17 +7,20 @@ tags:
 
 Derived from these instructions on [HowToGeek](https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/)
 
-
 1. Clean up files
 2. Clean up system files
 3. Turn off hibernate
+
+    ```bash
+    powercfg.exe -h off
+    ```
+
 5. Turn off page file
 4. Turn off system restore
 
-    <https://www.howtogeek.com/howto/5482/make-system-restore-use-less-space-in-windows-7/>
+    <https://www.howtogeek.com/5482/make-system-restore-use-less-space-in-windows-7/>
 
 5. defrag hard drive
-
 
     ```cmd
     defrag c: /U /V

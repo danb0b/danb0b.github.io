@@ -75,13 +75,22 @@ Slimmed Down:
 code --install-extension redhat.vscode-yaml
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension PKief.markdown-checkbox
 code --install-extension bierner.markdown-yaml-preamble
 code --install-extension Pycom.pymakr-preview
 code --install-extension ms-python.python
 code --install-extension shd101wyy.markdown-preview-enhanced
-#code --install-extension darkriszty.markdown-table-prettify #doesn't work without npm
-#code --install-extension esbenp.prettier-vscode # markdown allinone formats just fine.
 code --install-extension davidanson.vscode-markdownlint #highlight file problems
+code --install-extension James-Yu.latex-workshop
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code --install-extension ms-toolsai.vscode-jupyter-slideshow
+code --install-extension tamasfe.even-better-toml
+code --install-extension tecosaur.latex-utilities
+code --install-extension torn4dom4n.latex-support
 ```
 
 ```bash
