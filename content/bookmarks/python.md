@@ -178,6 +178,6 @@ Older stuff
 * <https://github.com/JohannesBuchner/imagehash>
 * [algorithm - What is image hashing used for- - Stack Overflow](https://stackoverflow.com/questions/998662/what-is-image-hashing-used-for)
 
-## VS Code
+## VSCode
 
 * <https://opensourceoptions.com/blog/4-ways-to-run-python-code-in-visual-studio-code/>
