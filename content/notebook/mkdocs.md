@@ -5,7 +5,7 @@ title: mkdocs info
 ## External Resources
 
 ```bash
-pip install mkdocs mkdocs-material
+pip install mkdocs mkdocs-material mkdocs-glightbox
 ```
 
 * <https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax>

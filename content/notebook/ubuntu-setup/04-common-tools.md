@@ -19,7 +19,7 @@ sudo apt update && sudo apt upgrade -y
 Install new packages
 
 ```bash
-sudo apt install -y synaptic kdiff3 samba ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl httrack webhttrack youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop solaar tree etherwake ethtool iperf kiwix-tools
+sudo apt install -y synaptic kdiff3 samba ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl httrack webhttrack youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop solaar tree etherwake ethtool iperf kiwix-tools ipe
 # sudo apt install -y clementine # not my favorite
 sudo apt install -y darktable
 sudo apt install -y wkhtmltopdf
@@ -66,6 +66,7 @@ org.raspberrypi.rpi-imager \
 com.authy.Authy \
 com.jetpackduba.Gitnuro \
 org.kiwix.desktop \
+net.xm1math.Texmaker\
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
 ```
