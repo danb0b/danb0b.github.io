@@ -235,6 +235,7 @@ git merge featureBranch
 
 ## pull and merge upstream changes into forked branch
 
+```bash
 git clone path/to/my_repo.git
 cd my_repo
 git remote add upstream path/to/upstream_repo.git
@@ -246,18 +247,32 @@ git rebase upstream/master
 
 git push --force
 git push origin main
+```
 
 from [here](https://stackoverflow.com/questions/40983514/most-efficient-way-to-keep-a-fork-up-to-date) and [here](https://www.digitalocean.com/community/questions/how-to-keep-your-forked-github-repository-up-to-date)
 
 
 ## Adding a second remote
 
+```bash
 git remote add <name-of-new-remote> https://github.com/OWNER/REPOSITORY.git
 git remote -v
 git push <name-of-new-remote> <branch>
+```
 
 https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 
+```bash
 git push --set-upstream <name-of-new-remote> <branch>
-
 git branch --track <name-of-new-remote> <branch>
+```
+
+### push all branches and tags from one remote to another
+
+assuming your original remote is called "origin"
+
+```bash
+git push <name-of-new-remote> --tags "refs/remotes/origin/*:refs/heads/*"
+```
+
+<https://stackoverflow.com/questions/37884832/git-push-all-branches-from-one-remote-to-another-remote>
