@@ -8,18 +8,15 @@ If you've got conda, you should use conda packages, otherwise the render engine 
 
 ```python
 #conda create --name mujoco_env
-conda create -n mujoco_env python=3.9
-conda activate mujoco_env
+conda create -n mujoco python=3.9
+conda activate mujoco
 # cannot install jupyter, but you can install jupyter lab, according to this: <https://stackoverflow.com/questions/50675004/conflicting-python-version-in-jupyter-notebookconda>
-conda install jupyterlab
-conda install scipy
+conda install jupyterlab scipy
 conda install -c conda-forge glew
 conda install -c conda-forge mesalib
 conda install -c anaconda mesa-libgl-cos6-x86_64
 conda install -c menpo glfw3
-pip install mujoco
-pip install mediapy
-pip install mujoco-python-viewer
+pip install mujoco mediapy mujoco-python-viewer
 ```
 
 ```python
