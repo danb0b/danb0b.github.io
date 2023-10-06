@@ -81,7 +81,13 @@ excluding multiple directories
 find . \( -path ./.config -prune -o -path ./miniconda3 -prune -o -path ./.local -prune \) -o -iname "*.md" -exec grep -l 'esptool' {} \+ 
 ```
 
-tips from [here](https://linuxhandbook.com/find-command-exclude-directories/)
+alternate:
+
+```bash
+(base) find . -iname "*.py" ! -path './miniconda*' ! -path './.config*' ! -path '*zenbook-backup*' -exec grep -l 'import network' {} \+ 
+```
+
+tips from [here](https://linuxhandbook.com/find-command-exclude-directories/) and [here](https://www.baeldung.com/linux/find-exclude-paths)
 
 ## find with maximum depth
 
