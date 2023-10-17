@@ -57,16 +57,28 @@ But that may not work.  The following links gave me some hints (most helpful to 
 * <https://robotics.stackexchange.com/questions/101962/ros2-colcon-build>
 * <https://robotics.stackexchange.com/questions/88848/can-not-compile-ros-2-cmake-error-installexport-given-unknown-export-has-li>
 
+I was not able to compile without not building ros-visualization.  Not needed anyways.
+
 ```bash
-export MAKEFLAGS="-j1"
 cd ros-visualization
 touch COLCON_IGNORE
+cd ../
+```
+
+Then it would crash termux without warning.  I reduced the number of processors and told colcon to build sequentially
+
+```bash
+export MAKEFLAGS="-j1"
 colcon build --symlink-install --parallel-workers 1 --executor sequential
 ```
 
 And then wait two weeks.  Not kidding.
 
+The following  might be needed to be compatible with other ROS2 implementations.
+
+```bash
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+```
 
 ## External Resources
 
