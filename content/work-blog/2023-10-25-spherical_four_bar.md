@@ -76,7 +76,7 @@ for ii,(a,b) in enumerate(ab):
 
 >I got some warnings about meshio here, which can be ignored.  
 
-It should be noted that pygmsh does not do a good job of finding the proper triangle orientation, which could lead to improper mass calculations if not handled properly by mujoco.  Future work should include finding a better mesher, or, temporarily, using meshlab to correct triangle normals to face outward, as is standard.
+It should be noted that pygmsh does not do a good job of finding the proper vertex order for identifying outward normal vectors for faces, which could lead to improper mass calculations if not handled properly by mujoco.  Future work should include finding a better mesher, or, temporarily, using meshlab to correct triangle normals to face outward, as is standard.
 
 Define xml template.  The filenames and joint axes are automatically generated. 
 
