@@ -80,6 +80,37 @@ The following  might be needed to be compatible with other ROS2 implementations.
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ```
 
+## Storage
+
+This installation takes about 14 Gb, including proot, ubuntu, ROS dependencies, etc.
+
+## Where I'm stuck
+
+after  doing:
+
+```bash
+. ~/ros2_humble/install/local_setup.bash
+ros2 run demo_nodes_cpp talker
+```
+
+I get
+
+```
+getifaddrs: Permission denied
+```
+
+<https://www.reddit.com/r/termux/comments/143y69f/patching_getifaddrs_permission_denied/>
+
+
+This seems like a ROS2 problem to patch, rather than a termux or proot issue.  proot/termux just doesn't support this functionality...
+
+## Future Work
+
+
+How can I route android sensor data to this?  I will need to check out this website...
+
+<https://wiki.termux.com/wiki/Termux-sensor>
+
 ## External Resources
 
 * <https://answers.ros.org/question/304300/compilling-ros2-on-rasperry-pi/>
