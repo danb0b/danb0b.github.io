@@ -24,7 +24,7 @@ I've created a little MicroPython-based project on that combines the following:
     * the microdot web "micro" framework for serving a simple web app for controlling gait parameters
     * The ability to work on either an existing wifi network or standalone as an access point.
 
-The project can be found on Github. Here's how to get it running:
+The project can be [found on Github](https://github.com/idealabasu/code_esp32_servo_gaits). Here's how to get it running:
 
 1. Install a code editor for working with the ESP32.  I prefer VSCode with the Pymakr-preview plugin; Thonny is a rudimentary yet functioning alternative
 1. Flash micropython v1.20 or newer on to your ESP

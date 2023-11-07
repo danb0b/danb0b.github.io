@@ -67,6 +67,7 @@ com.authy.Authy \
 com.jetpackduba.Gitnuro \
 org.kiwix.desktop \
 net.xm1math.Texmaker\
+com.github.xournalpp.xournalpp \
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
 ```
