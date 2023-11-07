@@ -1,5 +1,5 @@
 ---
-title: Adjusting Gait Timing with an ESP32-based WebvFramework in MicroPython
+title: Adjusting Gait Timing with an ESP32-based Web Framework in MicroPython
 date: 2023-11-07
 tags: 
 - micropython
