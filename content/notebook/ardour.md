@@ -6,6 +6,12 @@ tags:
 - ardour
 ---
 
+## Intro
+
+The steps for building ardour are not complete [on their website](https://ardour.org/building_linux.html).  Here are a couple helpful things for automating it more.
+
+
+
 
 ## Install Prerequisites
 

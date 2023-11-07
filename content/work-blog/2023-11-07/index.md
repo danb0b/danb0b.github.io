@@ -1,5 +1,5 @@
 ---
-title: Adjusting gait timing with an ESP32-based web micro-framework in MicroPython
+title: Adjusting Gait Timing with an ESP32-based WebvFramework in MicroPython
 date: 2023-11-07
 tags: 
 - micropython
@@ -88,7 +88,8 @@ Or you can sequence two to be nearly on top of one another:
 
 ## Videos
 
-### Programming the ESP
+<!-- ### Programming the ESP -->
 
 ### Controlling Gait parameters
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m382Uk8sjKo?si=YJiVvnw2934qE8wO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
