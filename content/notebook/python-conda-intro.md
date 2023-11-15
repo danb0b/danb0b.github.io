@@ -128,6 +128,14 @@ conda list -n <env name> -r
 conda install --revision <revision-num>
 ```
 
+```bash
+conda activate
+conda init --reverse --all
+rm -rf ~/anaconda3
+rm -rf ~/miniconda3
+```
+
+<https://docs.anaconda.com/free/anaconda/install/uninstall/>
 <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>
 
 ## Conda & ROS
