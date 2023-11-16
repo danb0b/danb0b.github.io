@@ -29,7 +29,7 @@ The project can be [found on Github](https://github.com/idealabasu/code_esp32_se
 1. Install a code editor for working with the ESP32.  I prefer VSCode with the Pymakr-preview plugin; Thonny is a rudimentary yet functioning alternative
 1. Flash micropython v1.20 or newer on to your ESP
 1. Open up the project and define an internet-connected wifi access point to connect to (for the first time).
-1. Upload the project to the microcontroller and reset the ESP.
+1. Upload the project to the microcvontroller and reset the ESP.
 
 > I have tutorials for each of these steps.  Please reach out if you would like more details.
 
@@ -60,7 +60,7 @@ where $y$ is the desired angle, $t$ is the current time in seconds, and the othe
 
 This gives you the ability to control the amplitude of your signal with $A$:
 
-![Amplitude](plt-amplitude.png
+![Amplitude](plt-amplitude.png)
 
 You can also change the frequency of your signal using $f$:
 
