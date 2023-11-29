@@ -58,12 +58,14 @@ params:
     title: Join Our Newsletter
   plugins:
     css:
+    - URL: plugins/glightbox/css/glightbox.css
     - URL: plugins/bootstrap/bootstrap.min.css
     - URL: plugins/slick/slick.css
     - URL: plugins/themify-icons/themify-icons.css
     - URL: plugins/venobox/venobox.css
     - URL: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css
     js:
+    - URL: plugins/glightbox/js/glightbox.js
     - URL: plugins/jQuery/jquery.min.js
     - URL: plugins/bootstrap/bootstrap.min.js
     - URL: plugins/slick/slick.min.js
