@@ -109,7 +109,7 @@ After walking home we walked through the local school yard where about 100 kids 
 
 ## Thursday, August 24, 2023
 
-On our last full day in Skopje, Sarah and I mixed a little bit of work time with school time for the kids.  The kids were all a bit twitchy, and had a rougher time than usual concentrating on school work; Max won our game of "whoever is the most efficient at getting their work done gets to go get coffee with dad".
+On our last full day in Skopje, Sara and I mixed a little bit of work time with school time for the kids.  The kids were all a bit twitchy, and had a rougher time than usual concentrating on school work; Max won our game of "whoever is the most efficient at getting their work done gets to go get coffee with dad".
 
 We are breakfast and lunch at home on our last day, trying to finish up all the fresh food in the fridge.
 
