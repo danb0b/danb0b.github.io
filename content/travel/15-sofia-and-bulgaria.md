@@ -138,7 +138,7 @@ That evening we had a great dinner at a local restaurant that included algae-tin
 
 ## Tuesday, August 29
 
-The next morning, I hiked over to the train station and got our tickets for Istanbul while Sarah and Ben headed to the airport to get the rental cars for our trip into Bulgaria. After getting back I helped watch the kids in pack while we waited for the cars.
+The next morning, I hiked over to the train station and got our tickets for Istanbul while Sara and Ben headed to the airport to get the rental cars for our trip into Bulgaria. After getting back I helped watch the kids in pack while we waited for the cars.
 
 We drove out of Sophia heading for baliko ternavo.  Along the way, we stopped to visit a particularly cool cave that sometimes is the site for chamber music and other concerts. We had already seen two other caves, but this one was particularly cool because of the size of the chambers as well as the age of some of the stalactites. One of the largest columns was over 3 million years old and 60 m in circumference, according to our guide. Big Ben did a great job translating, even though some of the other tourists had to help out from time to time.
 
@@ -228,7 +228,7 @@ We played on the beach, the kids went to a water slide, I caught up on email, an
 
 ## Friday, September 1
 
-We packed our things and moved on to Nessabar for a quick stop.  We got lunch at a wonderful spot, said goodbye to the Black Sea, and continued on to Plovdiv.  We got to our place right in the middle of town, and found dinner in Plovdiv at a wonderful restaruant down the street.  The whole center of town comes alive at night with restaurants spilling out onto the street.
+We packed our things and moved on to Nessabar for a quick stop.  We got lunch at a quaint spot and then walked around the town a bit while the girls did some shopping on their own.  We found said goodbye to the Black Sea, walked back to our cars, and continued on to Plovdiv.  We got to our place nestled right in the middle of the old part of town, and walked to dinner at a place down the street.  The whole center of town comes alive at night with restaurants spilling out onto the street.  We got the kids ice cream as we meandered home.
 
 ![All the kids hard at work in the car.](/images/travel/PXL_20230901_074420852.MP.jpg)
 ![Walking through Nessabar's old town](/images/travel/PXL_20230901_083914766.jpg)
@@ -313,61 +313,61 @@ I woke up feeling a cold coming on.  We hiked up into the old town
 ![Waiting for the show to start](/images/travel/PXL_20230903_163035721.jpg)
 ![The show started around sunset](/images/travel/PXL_20230903_171044836.MP.jpg)
 ![Aerobic violin](/images/travel/PXL_20230903_172129163.jpg)
-![caption](/images/travel/PXL_20230903_172148040.jpg)
-![caption](/images/travel/PXL_20230903_172233853.jpg)
-![caption](/images/travel/PXL_20230903_174941508.jpg)
-![caption](/images/travel/PXL_20230903_184650721.MP.jpg)
+![Concert](/images/travel/PXL_20230903_172148040.jpg)
+![Sam was enraptured](/images/travel/PXL_20230903_172233853.jpg)
+![Getting dark, getting late...](/images/travel/PXL_20230903_174941508.jpg)
+![And still Sam and Ben are watching intently.](/images/travel/PXL_20230903_184650721.MP.jpg)
 
 ## Monday, September 4
 
-![caption](/images/travel/PXL_20230904_082527599.jpg)
-![caption](/images/travel/PXL_20230904_083030882.jpg)
-![caption](/images/travel/PXL_20230904_083606553.jpg)
-![caption](/images/travel/PXL_20230904_083710645.jpg)
-![caption](/images/travel/PXL_20230904_083946461.MP.jpg)
-![caption](/images/travel/PXL_20230904_084055118.jpg)
-![caption](/images/travel/PXL_20230904_084458465.jpg)
-![caption](/images/travel/PXL_20230904_084857067.jpg)
-![caption](/images/travel/PXL_20230904_085315376.jpg)
-![caption](/images/travel/PXL_20230904_090437704.jpg)
-![caption](/images/travel/PXL_20230904_090457151.jpg)
-![caption](/images/travel/PXL_20230904_090645398.jpg)
-![caption](/images/travel/PXL_20230904_090655580.jpg)
-![caption](/images/travel/PXL_20230904_135818226.MP.jpg)
-![caption](/images/travel/PXL_20230904_142502816.jpg)
-![caption](/images/travel/PXL_20230904_150907683.jpg)
-![caption](/images/travel/PXL_20230904_152048548.jpg)
-![caption](/images/travel/PXL_20230904_152905748.jpg)
-![caption](/images/travel/PXL_20230904_160143107.jpg)
+![Entrance to the Monastery](/images/travel/PXL_20230904_082527599.jpg)
+![Old cypress from Asia](/images/travel/PXL_20230904_083030882.jpg)
+![Walls of the monastery](/images/travel/PXL_20230904_083606553.jpg)
+![Inside the chapel](/images/travel/PXL_20230904_083710645.jpg)
+![Inside the chapel](/images/travel/PXL_20230904_083946461.MP.jpg)
+![Inside the chapel](/images/travel/PXL_20230904_084055118.jpg)
+![Inner courtyard of the Monastery](/images/travel/PXL_20230904_084458465.jpg)
+![Walking around](/images/travel/PXL_20230904_084857067.jpg)
+![Interesting spigot](/images/travel/PXL_20230904_085315376.jpg)
+![Inside the old kitchen](/images/travel/PXL_20230904_090437704.jpg)
+![We actually weren't allowed in there because we hadn't paid to enter the museum.](/images/travel/PXL_20230904_090457151.jpg)
+![Other interesting water fountain](/images/travel/PXL_20230904_090645398.jpg)
+![Is that a seal?](/images/travel/PXL_20230904_090655580.jpg)
+![Picking up our luggage](/images/travel/PXL_20230904_135818226.MP.jpg)
+![The kids are so hungary they could eat Max!](/images/travel/PXL_20230904_142502816.jpg)
+![Our last dinner together](/images/travel/PXL_20230904_150907683.jpg)
+![We got a Turkish food preview](/images/travel/PXL_20230904_152048548.jpg)
+![Hugs](/images/travel/PXL_20230904_152905748.jpg)
+![Travel is not complete without...gelato.](/images/travel/PXL_20230904_160143107.jpg)
 
 ## Tuesday, September 5
 
-![caption](/images/travel/PXL_20230905_063037032.jpg)
-![caption](/images/travel/PXL_20230905_110320600.jpg)
-![caption](/images/travel/PXL_20230905_110601174.jpg)
-![caption](/images/travel/PXL_20230905_112116707.jpg)
-![caption](/images/travel/PXL_20230905_112130928.MP.jpg)
-![caption](/images/travel/PXL_20230905_112248527.jpg)
-![caption](/images/travel/PXL_20230905_113227320.jpg)
-![caption](/images/travel/PXL_20230905_113232068.jpg)
-![caption](/images/travel/PXL_20230905_113402764.jpg)
-![caption](/images/travel/PXL_20230905_113611676.jpg)
-![caption](/images/travel/PXL_20230905_113736488.jpg)
-![caption](/images/travel/PXL_20230905_114041693.jpg)
-![caption](/images/travel/PXL_20230905_114141112.jpg)
-![caption](/images/travel/PXL_20230905_114155484.jpg)
-![caption](/images/travel/PXL_20230905_114317446.jpg)
-![caption](/images/travel/PXL_20230905_114437623.jpg)
-![caption](/images/travel/PXL_20230905_115029638.jpg)
-![caption](/images/travel/PXL_20230905_121009213.MP.jpg)
-![caption](/images/travel/PXL_20230905_142706363.MP.jpg)
-![caption](/images/travel/PXL_20230905_143516250.jpg)
-![caption](/images/travel/PXL_20230905_145603149.jpg)
-![caption](/images/travel/PXL_20230905_152423602.jpg)
-![caption](/images/travel/PXL_20230905_152556327.MP.jpg)
-![caption](/images/travel/PXL_20230905_152752734.jpg)
-![caption](/images/travel/PXL_20230905_152251226.jpg)
-![caption](/images/travel/PXL_20230905_154445592.jpg)
+![Little bird in his nesst](/images/travel/PXL_20230905_063037032.jpg)
+![Leaning tower of Sofia?](/images/travel/PXL_20230905_110320600.jpg)
+![Alexander Nevsky Church](/images/travel/PXL_20230905_110601174.jpg)
+![Inside the church of St. Sofia](/images/travel/PXL_20230905_112116707.jpg)
+![Interesting brickwork](/images/travel/PXL_20230905_112130928.MP.jpg)
+![The ceiling of St. Sofia](/images/travel/PXL_20230905_112248527.jpg)
+![Into the crypt](/images/travel/PXL_20230905_113227320.jpg)
+![The crypt of St. Sofia](/images/travel/PXL_20230905_113232068.jpg)
+![The crypt of St. Sofia](/images/travel/PXL_20230905_113402764.jpg)
+![The crypt of St. Sofia](/images/travel/PXL_20230905_113611676.jpg)
+![The crypt of St. Sofia](/images/travel/PXL_20230905_113736488.jpg)
+![View of the church from the crypt](/images/travel/PXL_20230905_114041693.jpg)
+![Mosaic](/images/travel/PXL_20230905_114141112.jpg)
+![Mosaic](/images/travel/PXL_20230905_114155484.jpg)
+![Mosaic](/images/travel/PXL_20230905_114317446.jpg)
+![The crypt of St. Sofia](/images/travel/PXL_20230905_114437623.jpg)
+![View of a fresco in a crypt](/images/travel/PXL_20230905_115029638.jpg)
+![Jumping over lava](/images/travel/PXL_20230905_121009213.MP.jpg)
+![Ready to leave our AirBnB](/images/travel/PXL_20230905_142706363.MP.jpg)
+![In the taxi to the train](/images/travel/PXL_20230905_143516250.jpg)
+![Leftovers from last night's dinner.  Yummy](/images/travel/PXL_20230905_145603149.jpg)
+![Max on the train](/images/travel/PXL_20230905_152423602.jpg)
+![Wait, don't leave us!](/images/travel/PXL_20230905_152556327.MP.jpg)
+![Turkey symbol looking out on the tracks.](/images/travel/PXL_20230905_152752734.jpg)
+![View of our cabin](/images/travel/PXL_20230905_152251226.jpg)
+![Dinner that night](/images/travel/PXL_20230905_154445592.jpg)
 
 ----
 
