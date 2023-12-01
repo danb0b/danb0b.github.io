@@ -58,15 +58,15 @@ I already have my computer set up with the following tools
 1. I then plugged in my ESP32 to a half-size breadboard and wired up my servo.  I hung the end of the servo off the edge of a desk and weighted it down so it wouldn't move.
 1. I wrapped a wire around my AA battery to rigidly attach it to the servo's horn.  I mounted the battery so it was mounted symmetrically about the rotational center of the servo.
 
-    {{< figure src="PXL_20231129_164917375.jpg" caption="PXL_20231129_164917375.jpg" width="50%">}}
+    {{< figure src="PXL_20231129_164917375.jpg" caption="My Inertial Load" width="50%">}}
 
 1. I weighed my battery for use later
 
-    {{< figure src="PXL_20231113_081629467.jpg" caption="PXL_20231113_081629467.jpg" width="50%" >}}
+    {{< figure src="PXL_20231113_081629467.jpg" caption="Weighing my mass" width="50%" >}}
 
 1. I used a small tripod to hold my cell phone approximately 12 inches away from my scene.  I made sure my servo was in the center of my frame, that my camera was perpendicular to the plane of my experiment, and that my zoom was such that I was not using the "fish-eye" lens of my camera...in the case of a google pixel 6a, anything less than 1x uses the fish-eye lens that exhibits more warping around the edges.  I did not bother to zoom in much, though, since I am not sure where digital zoom takes over.  (Digital zoom doesn't add any more information to the experiment, and can result in a worse image due to the extra image processing performed by the camera.)
 
-    {{< figure src="PXL_20231129_165723609.jpg" caption="PXL_20231129_165723609.jpg" width="50%">}}
+    {{< figure src="PXL_20231129_165723609.jpg" caption="The camera mount" width="50%">}}
 
     > **Note 1:** It is important that your scene is as centered as possible in your image, and that the plane of motion is as perpendicular as possible to your camera lens's radial axis.  This will minimize the amount of warping seen in your image.
 
@@ -74,9 +74,9 @@ I already have my computer set up with the following tools
 
 1. I took several practice videos and checked them to ensure the camera didn't move, the base of the servo didn't shake or move, and that my scene was well-lit and in focus.  
 
-{{< figure src="video-still.png" caption="" >}}
+{{< figure src="video-still.png" caption="The servo stopped; no blur visible" >}}
 
-{{< figure src="video-motion.png" caption="" >}}
+{{< figure src="video-motion.png" caption="The servo moving; it is still relatively easy to identify key points" >}}
 
 ### Part 2: Image tracking
 
@@ -209,7 +209,7 @@ plt.axis('equal')
      -1.101215392464636,
      1.0497984175353638)
 
-{{< figure src="output_17_1.png" caption="png" >}}
+{{< figure src="output_17_1.png" caption="Circular Motion" >}}
 
 The angle of each vector can be computed by taking the arctan of the x and y components of vector 1 and 2.  Plot the result.
 
@@ -222,7 +222,7 @@ plt.plot(t,theta_v2)
 
     [<matplotlib.lines.Line2D at 0x7f4e40ade990>]
 
-{{< figure src="output_19_1.png" caption="png" >}}
+{{< figure src="output_19_1.png" caption="Rotation Angle with atan2 jumps." >}}
 
 This data has some discrete jumps in it, though.  Why? The issue is that the theta value recovered "jumps" when it exceeds $|\pi|$. We can further work with the data to "unwrap this value.  Any value that jumps more than $\pi$ between individual timesteps by the arctan2 function can be interpreted to actually be continuously increasing (or decreasing) past that value.  We just need to keep track of how many times from the beginning of our data we have crossed this threshold, and add it to our original measurement.  Thus, we have the ```unwrap()``` function.
 
@@ -281,7 +281,7 @@ plt.plot(t,theta_v2_u)
 
     [<matplotlib.lines.Line2D at 0x7f4e4150a010>]
 
-{{< figure src="output_27_1.png" caption="png" >}}
+{{< figure src="output_27_1.png" caption="The two measurements" >}}
 
 Compute the average of these two samples.  Adding even more points to this analysis would give us a more accurate measurement of theta.
 
@@ -294,7 +294,7 @@ plt.plot(t,theta_u,'r-')
 
     [<matplotlib.lines.Line2D at 0x7f4e40b67e50>]
 
-{{< figure src="output_29_1.png" caption="png" >}}
+{{< figure src="output_29_1.png" caption="Average of the two measurements" >}}
 
 Out of curiosity, what is the maximum value of our guessed value of theta?
 
@@ -336,7 +336,7 @@ plt.plot(t[t_0_kk],theta_u[t_0_kk],'ro')
 
     [<matplotlib.lines.Line2D at 0x7f4e4153e910>]
 
-{{< figure src="output_38_1.png" caption="png" >}}
+{{< figure src="output_38_1.png" caption="The point motion starts" >}}
 
 This means the signal must have been sent at least one time-step before this.  Maybe more, but the best-case scenario for lag would be one frame of video.
 
@@ -370,7 +370,7 @@ plt.plot(t[t_0_kk],theta_u[t_0_kk],'ro')
 
     [<matplotlib.lines.Line2D at 0x7f4e40c70fd0>]
 
-{{< figure src="output_41_1.png" caption="png" >}}
+{{< figure src="output_41_1.png" caption="The guessed control signal" >}}
 
 Now lets check our results over all the collected data
 
@@ -381,7 +381,7 @@ plt.plot(t,theta_u)
 
     [<matplotlib.lines.Line2D at 0x7f4e40c74850>]
 
-{{< figure src="output_43_1.png" caption="png" >}}
+{{< figure src="output_43_1.png" caption="Checking our work" >}}
 
 it looks good!  Now let's save some of our work for use in other code
 

@@ -39,9 +39,9 @@ The ESP, when started up, will download a couple libraries from the internet and
 
 I have provided a basic example with four servos.  The schematic can be seen here:
 
-![Schematic](servos_schem.png) 
+{{< figure src="servos_schem.png" caption="Schematic" >}} 
 
-![Breadboard](servos_bb.png)
+{{< figure src="servos_bb.png" caption="Breadboard" >}}
 
 ## Sinusoidal Control
 
@@ -60,19 +60,19 @@ where $y$ is the desired angle, $t$ is the current time in seconds, and the othe
 
 This gives you the ability to control the amplitude of your signal with $A$:
 
-![Amplitude](plt-amplitude.png)
+{{< figure src="plt-amplitude.png" caption="Amplitude" >}}
 
 You can also change the frequency of your signal using $f$:
 
-![Frequency](plt-frequency.png)
+{{< figure src="plt-frequency.png" caption="Frequency" >}}
 
 You can shift the output of the desired output up or down with $b$
 
-![Y-Offset](plt-offset.png)
+{{< figure src="plt-offset.png" caption="Y-Offset" >}}
 
 You can also shift the timing of your signal by playing with $l_x$
 
-![Time Offset](plt-time-offset1.png)
+{{< figure src="plt-time-offset1.png" caption="Time Offset" >}}
 
 ## Gaits
 
@@ -80,11 +80,11 @@ The time offset paramters, $l_x$, are specified in fractions of a full cycle.  T
 
 You can adjust all $l_1$, $l_2$, $l_3$, $l_4$ to be evenly distributed in time:
 
-![Four Servos](four-servos.png)
+{{< figure src="four-servos.png" caption="Four Servos" >}}
 
 Or you can sequence two to be nearly on top of one another:
 
-![Different Timings](four-servos2.png)
+{{< figure src="four-servos2.png" caption="Different Timings" >}}
 
 ## Videos
 

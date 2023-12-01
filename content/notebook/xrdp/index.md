@@ -27,11 +27,15 @@ sudo service xrdp start
 1. open remmina
 
 1. enter the remote server name
-![](screenshot02.png)
+
+    {{< figure src="screenshot02.png" caption="" >}}
 
 1. Select the default Xorg
-![](screenshot04.png)
-![](screenshot05.png)
+
+    {{< figure src="screenshot04.png" caption="" >}}
+
+    {{< figure src="screenshot05.png" caption="" >}}
 
 1. Select "Dynamic Resolution Update" icon from the left panel.
-![](screenshot01.png)
+
+    {{< figure src="screenshot01.png" caption="" >}}
