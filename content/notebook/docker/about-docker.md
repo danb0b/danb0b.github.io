@@ -7,6 +7,7 @@ tags:
 * https://docs.docker.com/network/host/
 * https://docs.docker.com/get-started/
 * https://github.com/docker/awesome-compose/tree/master/wireguard
+* https://docs.docker.com/compose/compose-file/compose-file-v3/
 * https://docs.docker.com/compose/gettingstarted/
 * https://docs.docker.com/compose/networking/
 * https://docs.docker.com/engine/reference/commandline/compose_down/

@@ -110,3 +110,22 @@ docker run \--name myjekyll -v c:/users/danaukes/websites:/srv/jekyll -it jekyll
   [*https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde*]: https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
   [*https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/*]: https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/
   [*https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device*]: https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device
+
+
+
+## SEe the dockerfile
+
+from [here](https://stackoverflow.com/questions/77057173/how-to-download-dockerfile-from-docker-hub)
+
+You cannot see the Dockerfile from Docker Hub, unless the maintainer add it. Many Docker hub repos add the GitHub link to point the Dockerfile but this is up to the maintaner.
+
+What you can do to see the dockerfile is:
+
+    pull the Docker image with docker pull <image-name>
+    docker history <image-name>
+
+From the docker history command, the first line indicates the parent docker image and in the following lines you can see all the steps used to compose the final image.
+
+```bash
+docker history --no-trunc <imagename>
+```
