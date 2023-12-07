@@ -1,3 +1,0 @@
-Modeling motors and servos for use in the classroom is hard. In the follow-up to last week's article, I walk through how I take relatively informal data collected from a low-fidelity experiment (perhaps as a student might do it) and use it to model and fit the parameters of an ultra-affordable RC servo motor for use in my robotics class. I use MuJoCo to model the physics and obtain the optimal parameters.
-
-Join us for the thrilling conclusion...
