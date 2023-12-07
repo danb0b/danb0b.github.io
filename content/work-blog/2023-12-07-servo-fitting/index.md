@@ -3,7 +3,7 @@ title: "Micro Servo Data Collection, Parameter Identification, and Modeling: Par
 date: 2023-12-07
 ---
 
-<video controls loop autoplay muted src="output.mp4">
+<video controls width="100%" loop autoplay muted src="servo-fitting.mp4">
 This browser does not support the video tag.
 </video>
 
