@@ -129,3 +129,10 @@ From the docker history command, the first line indicates the parent docker imag
 ```bash
 docker history --no-trunc <imagename>
 ```
+
+
+## force rebuild
+
+```bash
+docker build --no-cache
+```
