@@ -71,17 +71,29 @@ tags:
     - ssh
 - backup .ssh/config
 - backup /etc/hosts
-- backup .config
+- backup .config, especially
+    - gitman config
+    - rclone config
+    - 
 - backup .bashrc
+- things to review
     - netplan
     - podcasts
     - thunderbird
     - k9 config
     - docker stuff
-    - keys
+    - ssh keys
     - texmf directory
     - browser bookmarks
     - samba credentials
+    - vs code configuation
+    - virtualbox images
+    - docker data
+        - nextcloud
+        - gitman
+        - photoprism
+        - immich
+        - home assistant
 
 ## ZFS
 

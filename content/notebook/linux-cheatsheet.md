@@ -518,3 +518,29 @@ To exit enter tilde dot (~.)
 sudo apt install screen
 screen /dev/ttyACM0 9600
 ```
+## tail
+
+From [here](https://www.howtogeek.com/481766/how-to-use-the-tail-command-on-linux/)
+
+see the last few lines
+
+```bash
+#tail -100 <filename>
+tail -100 history.txt
+```
+
+see real-time changes to files as they get appended:
+
+```bash
+tail -f history.txt
+```
+
+see line 196-200 of a file
+
+```bash
+head -200 history.txt | tail -5
+```
+
+## More
+
+see [this page](/bookmarks/linux-cheatsheet-links/) for more links
