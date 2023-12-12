@@ -58,11 +58,11 @@ sudo ip link set up dev tun0
 ### Do it yourself
 
 * <https://rnorth.org/tailscale-docker/>
-* https://www.reddit.com/r/Tailscale/comments/w8gda3/official_docker_image_with_subnet_routing/
-* https://hub.docker.com/r/fastandfearless/tailscale/dockerfile
-* https://forum.level1techs.com/t/truenas-scale-ultimate-home-setup-incl-tailscale/186444/3
-* https://pastebin.com/vC2vzyjG
-* https://www.reddit.com/r/Tailscale/comments/103ib0a/tailscale_on_portainer_via_stack/
+* <https://www.reddit.com/r/Tailscale/comments/w8gda3/official_docker_image_with_subnet_routing/>
+* <https://hub.docker.com/r/fastandfearless/tailscale/dockerfile>
+* <https://forum.level1techs.com/t/truenas-scale-ultimate-home-setup-incl-tailscale/186444/3>
+* <https://pastebin.com/vC2vzyjG>
+* <https://www.reddit.com/r/Tailscale/comments/103ib0a/tailscale_on_portainer_via_stack/>
 * jonohill
-    * https://github.com/hillnz/docker-tailscale
-    * https://hub.docker.com/r/jonoh/tailscale
+    * <https://github.com/hillnz/docker-tailscale>
+    * <https://hub.docker.com/r/jonoh/tailscale>
