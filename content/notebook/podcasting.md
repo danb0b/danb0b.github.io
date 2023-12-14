@@ -23,6 +23,9 @@ title: Podcasting
 * [Podcasting 2.0 Documentation - Podcast Mirror](https://www.podcastmirror.com/podcasting-2-0-documentation/)
 * [How to Start a Podcast \| Complete Step-by-Step Guide for 2023](https://riverside.fm/blog/how-to-start-a-podcast)
 * [An Introduction to Podcasting 2.0 \| by Gary Arndt \| Medium](https://medium.com/@everywheretrip/an-introduction-to-podcasting-2-0-3c4f61ea17f4)
+* <https://www.reddit.com/r/selfhosted/comments/kain8w/how_do_you_self_host_your_podcast/>
+* <https://www.padizio.com/blog/2014/a-podcaster-is-me/>
+
 
 ## Podcasts
 
