@@ -100,16 +100,18 @@ More Recent
 
 ## Nextcloud Integration
 
-- https://addons.thunderbird.net/en-US/thunderbird/addon/dav-4-tbsync/?src=search
-- https://addons.thunderbird.net/en-US/thunderbird/addon/tbsync/?src=search
-- https://github.com/jobisoft/DAV-4-TbSync/
-- https://github.com/jobisoft/TbSync
+### With Thunderbird
+
+* <https://docs.nextcloud.com/server/19/user_manual/pim/sync_thunderbird.html>
+* <https://addons.thunderbird.net/en-US/thunderbird/addon/dav-4-tbsync/?src=search>
+* <https://addons.thunderbird.net/en-US/thunderbird/addon/tbsync/?src=search>
+* <https://github.com/jobisoft/DAV-4-TbSync/>
+* <https://github.com/jobisoft/TbSync>
 
 ## Google Calendar
 
-https://www.lifewire.com/how-to-sync-google-calendar-with-thunderbird-4691009
-
-https://addons.thunderbird.net/en-US/thunderbird/addon/provider-for-google-calendar/?src=search
+* <https://www.lifewire.com/how-to-sync-google-calendar-with-thunderbird-4691009>
+* <https://addons.thunderbird.net/en-US/thunderbird/addon/provider-for-google-calendar/?src=search>
 
 
 ## Upgrading Nextcloud on Docker
