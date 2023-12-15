@@ -62,3 +62,7 @@ There were errors related to newer kernels in 23.04
 ```bash
 sudo displaylink-installer uninstall 
 ```
+
+## Fix wpasupplicant issue
+
+<https://devicetests.com/fix-hotspot-connection-issues-ubuntu-22-04-1-lts-android-11>
