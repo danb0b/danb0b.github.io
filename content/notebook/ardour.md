@@ -58,6 +58,16 @@ sudo apt install -y libdbus-1-dev
 sudo apt install -y libudev-dev
 sudo apt install -y libclang-dev
 sudo apt install -y clang-15
+sudo apt install -y lib64readline8
+sudo apt install -y lib64readline-dev 
+sudo apt install -y libreadline-dev 
+sudo apt install -y librubberband-dev
+sudo apt install -y libclang-dev
+sudo apt install -y clang-15
+sudo apt install -y libclang-15-dev
+sudo apt install -y clang
+sudo apt install -y clang-14 clang-13 clang-12
+sudo apt install -y libclang-14-dev libclang-13-dev libclang-12-dev
 ```
 
 ## Clone Repository 
