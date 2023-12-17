@@ -343,9 +343,3 @@ cd ~/Downloads
 wget https://release.axocdn.com/linux-standalone/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
 ```
-
-
-
-
-
-
