@@ -66,3 +66,11 @@ sudo displaylink-installer uninstall
 ## Fix wpasupplicant issue
 
 <https://devicetests.com/fix-hotspot-connection-issues-ubuntu-22-04-1-lts-android-11>
+https://askubuntu.com/questions/580433/how-can-i-allow-ap-hotspot-in-ufw-ubuntu-14-04
+
+in /etc/ufw/sysctl.conf, uncomment
+net/ipv6/conf/all/forwarding=1
+
+<https://devicetests.com/fix-ubuntu-2204-hotspot-connection-issues> 
+sudo ufw allow in on wlp1s0
+sudo ufw route allow out on enx0050b6bd4061
