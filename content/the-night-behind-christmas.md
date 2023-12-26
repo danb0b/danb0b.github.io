@@ -2,9 +2,6 @@
 title: The Night Behind Christmas
 ---
 
-The Night Behind Christmas
-By Dan Aukes
-
 'Twas two nights before Christmas, and all through the house,  
 Not a creature was stirring, because they were dead.
 
