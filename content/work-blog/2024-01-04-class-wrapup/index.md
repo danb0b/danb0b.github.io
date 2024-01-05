@@ -141,13 +141,13 @@ I found a solution later in the semester that I hope to implement in future iter
 
 Below are some pictures and videos from the final presentations in the last lecture. I was proud of the students' progress, and though not every robot performed as well as the students would have wanted, the students themselves displayed a thorough command of their work.  
 
-<!-- ![](IMG_20231214_160858_124.jpg)
-![](IMG_20231214_160901_010.jpg)
-![](IMG_20231214_161741_907.jpg)
-![](IMG_20231214_161743_112.jpg)
-![](IMG_20231214_161842_163.jpg)
-![](IMG_20231214_161846_241.jpg)
-![](IMG_20231214_161849_233.jpg)
+<!-- ![](IMG_20231214_160858_124.jpg) -->
+<!-- ![](IMG_20231214_160901_010.jpg) -->
+<!-- ![](IMG_20231214_161741_907.jpg) -->
+<!-- ![](IMG_20231214_161743_112.jpg) -->
+<!-- ![](IMG_20231214_161842_163.jpg) -->
+<!-- ![](IMG_20231214_161846_241.jpg) -->
+<!-- ![](IMG_20231214_161849_233.jpg) -->
 ![](IMG_20231214_161902_255.jpg)
 ![](IMG_20231214_162107_114.jpg)
 ![](IMG_20231214_162108_759.jpg)
@@ -156,17 +156,17 @@ Below are some pictures and videos from the final presentations in the last lect
 ![](IMG_20231214_162957_462.jpg)
 ![](IMG_20231214_163000_103.jpg)
 ![](IMG_20231214_163003_161.jpg)
-![](IMG_20231214_163008_077.jpg)
-![](IMG_20231214_163022_924.jpg)
-![](IMG_20231214_163223_869.jpg) -->
+![](IMG_20231214_163223_869.jpg)
+<!-- ![](IMG_20231214_163008_077.jpg) -->
+<!-- ![](IMG_20231214_163022_924.jpg) -->
 
 <!-- ![](IMG_20231214_163610_609.jpg) -->
 
 <!-- ## Videos -->
 
-<!-- <video src="VID_20231214_161654.mp4" controls title="Title" style="height:200px;"></video>
+<!-- <video src="VID_20231214_161654.mp4" controls title="Title" style="height:200px;"></video> -->
 <video src="VID_20231214_162300.mp4" controls title="Title" style="height:200px;"></video>
-<video src="VID_20231214_163923.mp4" controls title="Title" style="height:200px;"></video> -->
+<video src="VID_20231214_163923.mp4" controls title="Title" style="height:200px;"></video>
 
 <!-- <video src="VID_20231214_161916.mp4" controls title="Title" style="height:200px;"></video> -->
 <!-- <video src="VID_20231214_162117.mp4" controls title="Title" style="height:200px;"></video> -->
