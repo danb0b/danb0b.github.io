@@ -164,9 +164,11 @@ Below are some pictures and videos from the final presentations in the last lect
 
 <!-- ## Videos -->
 
-<!-- <video src="VID_20231214_161654.mp4" controls title="Title" style="height:200px;"></video> -->
-<video src="VID_20231214_162300.mp4" controls title="Title" style="height:200px;"></video>
-<video src="VID_20231214_163923.mp4" controls title="Title" style="height:200px;"></video>
+<video src="VID_20231214_161654-2.mp4" controls title="Title" style="width:100%;"></video>
+
+<video src="VID_20231214_162300.mp4" controls title="Title" style="width:100%;"></video>
+
+<video src="VID_20231214_163923.mp4" controls title="Title" style="width:100%;"></video>
 
 <!-- <video src="VID_20231214_161916.mp4" controls title="Title" style="height:200px;"></video> -->
 <!-- <video src="VID_20231214_162117.mp4" controls title="Title" style="height:200px;"></video> -->
