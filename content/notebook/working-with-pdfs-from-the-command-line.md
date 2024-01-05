@@ -16,6 +16,16 @@ sudo apt install pdftk
 pdftk file1.pdf file2.pdf cat output mergedfile.pdf
 ```
 
+from [here](https://www.maketecheasier.com/combine-multiple-pdf-files-with-pdftk/)
+
+## Merge using ghostscript:
+
+```bash
+gs -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=merged.pdf simple1.pdf simple2.pdf simple3.pdf
+```
+
+from [here](https://www.baeldung.com/linux/merge-pdf-files)
+
 ## Shrink a PDF from the command line
 
 ```bash
