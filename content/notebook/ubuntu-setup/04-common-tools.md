@@ -109,6 +109,11 @@ flatpak install flathub org.mozilla.Thunderbird -y
 
 move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbird/
 
+### Pandoc
+
+* <https://github.com/jgm/pandoc/releases/latest>
+* <https://pandoc.org/installing.html>
+
 ### Latex
 
 #### Full Install
@@ -125,24 +130,6 @@ This is a big install so plan it for when you can let it go a while
 sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base texlive-fonts-extra
 ```
 -->
-
-### Webcamoid
-
-```bash
-mkdir ~/apps
-cd Downloads
-wget "https://github.com/webcamoid/webcamoid/releases/download/9.0.0/webcamoid-portable-linux-9.0.0-x86_64.AppImage"
-mv webcamoid-portable-linux-9.0.0-x86_64.AppImage cd ~/apps
-cd ~/apps
-chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
-./webcamoid-portable-linux-9.0.0-x86_64.AppImage
-```
-
-### Cura
-
-```bash
-flatpak install flathub com.ultimaker.cura
-```
 
 ### Arduino
 
@@ -166,44 +153,6 @@ you need to modify .bashrc to point python3 to python because we use anaconda
 echo "alias python=python3" >> ~/.bashrc
 ```
 
-### Mendeley Reference Manager
-
-go to [mendeley](https://www.mendeley.com/download-mendeley-desktop-legacy#download), download 64-bit generic version, unzip and move to ~/apps
-
-```bash
-mkdir ~/apps
-cd ~/apps
-wget https://www.mendeley.com/autoupdates/installer/Linux-x64/stable-incoming -O mendeley-desktop.tar.bz2
-tar -xvjf mendeley-desktop.tar.bz2 
-rm mendeley-desktop.tar.bz2 
-```
-
-<!--
-script to download 64-bit generic 
-
-```bash
-mkdir ~/apps
-cd ~/apps && \
-url="https://www.mendeley.com/download-reference-manager/linux" && \
-xpath="/html/body/div[2]/section[1]/div[1]/a" && \
-html=$(wget -q -O - "$url") && \
-dl_url=$(echo $html | xmllint --html --xpath "string($xpath/@href)" - 2>/dev/null | xargs)  && \
-wget "$dl_url" && \
-chmod +x mendeley*.AppImage
-```
--->
-
-
-
-<!--
-#### Mendeley Desktop on Ubuntu 21 and older
-
-```
-cd ~/Downloads
-sudo dpkg -i mendeleydesktop*.deb
-sudo apt-get install -yf
-```
--->
 
 ### Cisco VPN for ASU
 
@@ -240,19 +189,12 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo fc-cache -f
 ```
 
-<!--
-### Tor Browser
-
-Old method:
-
-```bash
-#sudo add-apt-repository ppa:micahflee/ppa # this repository is deprecated
-sudo apt update 
-sudo apt install torbrowser-launcher
-```
--->
 
 ### VSCode
+
+</notebook/vscode-setup/>
+
+#### old
 
 Find help [here](https://code.visualstudio.com/docs/setup/linux)
 
@@ -266,13 +208,6 @@ sudo apt install -yf
 
 install python, c/c++, html css, jupyter
 
-## Optional
-
-### FreeCad
-
-```bash
-wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-Linux-x86_64-py310.AppImage
-```
 
 ### Mosquitto
 
@@ -280,9 +215,93 @@ wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-
 sudo apt install mosquitto mosquitto_clients
 ```
 
+--------------------------------
+
+## Optional
+
+
+### Webcamoid
+
+```bash
+mkdir ~/apps
+cd Downloads
+wget "https://github.com/webcamoid/webcamoid/releases/download/9.0.0/webcamoid-portable-linux-9.0.0-x86_64.AppImage"
+mv webcamoid-portable-linux-9.0.0-x86_64.AppImage cd ~/apps
+cd ~/apps
+chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
+./webcamoid-portable-linux-9.0.0-x86_64.AppImage
+```
+
+### Cura
+
+```bash
+flatpak install flathub com.ultimaker.cura
+```
+
+
+<!--
+script to download 64-bit generic 
+
+```bash
+mkdir ~/apps
+cd ~/apps && \
+url="https://www.mendeley.com/download-reference-manager/linux" && \
+xpath="/html/body/div[2]/section[1]/div[1]/a" && \
+html=$(wget -q -O - "$url") && \
+dl_url=$(echo $html | xmllint --html --xpath "string($xpath/@href)" - 2>/dev/null | xargs)  && \
+wget "$dl_url" && \
+chmod +x mendeley*.AppImage
+```
+-->
+
+
+
+<!--
+#### Mendeley Desktop on Ubuntu 21 and older
+
+```
+cd ~/Downloads
+sudo dpkg -i mendeleydesktop*.deb
+sudo apt-get install -yf
+```
+-->
+
+<!--
+### Tor Browser
+
+Old method:
+
+```bash
+#sudo add-apt-repository ppa:micahflee/ppa # this repository is deprecated
+sudo apt update 
+sudo apt install torbrowser-launcher
+```
+-->
+
+
+### FreeCad
+
+```bash
+wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-Linux-x86_64-py310.AppImage
+```
+
 ---
 
 ## Deprecated
+
+
+
+### Mendeley Reference Manager
+
+go to [mendeley](https://www.mendeley.com/download-mendeley-desktop-legacy#download), download 64-bit generic version, unzip and move to ~/apps
+
+```bash
+mkdir ~/apps
+cd ~/apps
+wget https://www.mendeley.com/autoupdates/installer/Linux-x64/stable-incoming -O mendeley-desktop.tar.bz2
+tar -xvjf mendeley-desktop.tar.bz2 
+rm mendeley-desktop.tar.bz2 
+```
 
 ### Vocal
 
