@@ -78,7 +78,8 @@ conda install -y anaconda
 ### Conda packages not included in anaconda
 
 ```bash
-conda install -y django pyqtgraph pyopengl gitpython pycairo shapely pandoc
+conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
+#conda install -y pandoc
 #conda install -y paramiko pyqtgraph pycrypto requests[socks]
 ```
 
@@ -86,7 +87,8 @@ conda install -y django pyqtgraph pyopengl gitpython pycairo shapely pandoc
 
 ```bash
 python -m pip install --upgrade pip
-pip install meshio gmsh pygmsh ezdxf twine pandoc-fignos pandoc-eqnos pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt pandoc-crossref scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp mkdocs mkdocs-material mkdocs-glightbox microdot 
+pip install meshio gmsh pygmsh ezdxf twine  pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp mkdocs mkdocs-material mkdocs-glightbox microdot 
+pip install pandoc-fignos pandoc-eqnos pandoc-crossref
 ```
 
 
