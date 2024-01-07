@@ -64,3 +64,8 @@ sudo ufw allow syncthing-gui
 ```
     
 1. Configure it to connect to your other computers
+
+
+## External Resources
+
+<https://docs.syncthing.net/users/faq.html#how-do-i-reset-the-gui-password>

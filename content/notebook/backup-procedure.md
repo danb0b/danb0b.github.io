@@ -13,6 +13,10 @@ tags:
 - Update zotero and backup
 - Update idealab website
 
+## check app passwords
+
+<https://myaccount.google.com/apppasswords>
+
 ## Online Storage
 
 - Backup onedrive
@@ -41,13 +45,23 @@ tags:
 - Copy git repositories from foldable
 - Download YouTube videos from foldable
 - backup mendeley
-- unpublish assignments on foldable-robotics website
+- unpublish assignments on foldable website
+- download all forum questions
 
 ## Deployable Class
 
 - unpublish assignments on foldable-robotics website
 - Copy git repositories from foldable
 - Download YouTube videos from foldable
+- download all forum questions
+
+## Flexible Class
+
+- unpublish assignments on foldable website
+- download assignments
+- download final grades
+- download moodle snapshot
+- download all forum questions
 
 ## Security
 
@@ -57,6 +71,21 @@ tags:
 - Find best of best photos  
 - Arrange this year's photos
 - backup password manager
+
+## Home and root folders
+- backup .ssh/config
+- backup /etc/hosts
+- backup .config, especially
+- texmf directory
+- netplan
+- thunderbird config
+- mozilla config
+- rclone config
+- gitman config
+- rclone config
+- network configs in  /etc/NetworkManager/system-connections/
+
+
 
 ## Misc
 
@@ -68,22 +97,13 @@ tags:
 - reset passwords
     - wifi
     - computer
-    - ssh
-- backup .ssh/config
-- backup /etc/hosts
-- backup .config, especially
-    - gitman config
-    - rclone config
-    - 
 - backup .bashrc
 - things to review
-    - netplan
     - podcasts
     - thunderbird
     - k9 config
     - docker stuff
     - ssh keys
-    - texmf directory
     - browser bookmarks
     - samba credentials
     - vs code configuation

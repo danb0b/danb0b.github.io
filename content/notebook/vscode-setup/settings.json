@@ -304,7 +304,7 @@
             "username": "micro",
             "password": "python",
             "hidden": false,
-            "rootPath": null,
+            "rootPath": "/",
             "adapterOptions": {}
         },
         "MCHP3246051800004899": {
@@ -317,6 +317,24 @@
             "adapterOptions": {}
         },
         "serial:///dev/ttyACM0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "R52N90WC4MY": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "497225893638": {
             "autoConnect": "onLostConnection",
             "name": "",
             "username": "micro",
@@ -337,7 +355,10 @@
         "Could not safeboot device. Please hard reset the device and verify that a shield is installed.": "Don't show again",
         "A terminal for ttyUSB0 / unknown already exists.": "No and don't ask again",
         "A terminal for ttyUSB0 / OLED-and-Graphing already exists.": "No and don't ask again",
-        "ttyUSB0 / OLED-and-Graphing seems to be busy. Do you wish restart it in safe mode": "No and don't ask again"
+        "ttyUSB0 / OLED-and-Graphing seems to be busy. Do you wish restart it in safe mode": "No and don't ask again",
+        "A terminal for ttyUSB0 / code_esp32_servo_gaits already exists.": "Open existing terminal",
+        "ttyUSB0 / danscode seems to be busy. Do you wish restart it in safe mode": "Don't show again",
+        "A terminal for ttyUSB0 / danscode already exists.": "No and don't ask again"
     },
     "editor.fontSize": 12,
     "markdownlint.config": {
@@ -360,5 +381,11 @@
     "files.hotExit": "off",
     "latex-workshop.message.information.show": true,
     "editor.wordWrap": "on",
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDelete": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
     "window.zoomLevel": 1
 }
