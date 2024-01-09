@@ -28,3 +28,11 @@ markdown_extensions:
 ```
 
 * <https://facelessuser.github.io/pymdown-extensions/extensions/tilde/>
+
+
+## New Project
+
+```bash
+mkdocs new my-project
+cd my-project
+```

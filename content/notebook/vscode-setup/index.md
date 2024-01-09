@@ -81,25 +81,26 @@ from [here](https://code.visualstudio.com/docs/editor/command-line)
 open a terminal window and paste the following in:
 
 ```bash
-code --install-extension redhat.vscode-yaml
-code --install-extension yzane.markdown-pdf
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension PKief.markdown-checkbox
 code --install-extension bierner.markdown-yaml-preamble
-code --install-extension Pycom.pymakr-preview
-code --install-extension ms-python.python
-code --install-extension shd101wyy.markdown-preview-enhanced
-code --install-extension davidanson.vscode-markdownlint #highlight file problems
+code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension James-Yu.latex-workshop
+code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-toolsai.jupyter
 code --install-extension ms-toolsai.jupyter-keymap
 code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension ms-toolsai.vscode-jupyter-cell-tags
 code --install-extension ms-toolsai.vscode-jupyter-slideshow
+code --install-extension PKief.markdown-checkbox
+code --install-extension Pycom.pymakr-preview
+code --install-extension redhat.vscode-yaml
+code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension tamasfe.even-better-toml
 code --install-extension tecosaur.latex-utilities
 code --install-extension torn4dom4n.latex-support
+code --install-extension yzane.markdown-pdf
+code --install-extension yzhang.markdown-all-in-one
 ```
 
 ```bash
@@ -205,7 +206,6 @@ Within the "Pymakr: Projects" workspace there are several other buttons that you
 
 From the file explorer window, you can also right click and select "pymakr-->upload to device" to upload individual files
 
-
 ### External Resources
 
 - VSCode
@@ -219,75 +219,6 @@ From the file explorer window, you can also right click and select "pymakr-->upl
     - <https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide>
     - <https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/vscode-setup.html>
     - <https://stackoverflow.com/questions/67647095/how-to-setup-windows-10-vscode-pymakr-for-python-programming-micropython>
-
-
-----------------
-
-# My notes
-
-## Interesting Packages
-
-- general
-    - python
-    - python extension pack
-    - jupyter
-    - html css
-    - c/c++ extension pack
-- yaml
-- markdown
-    - markdown all in one
-    - mardkown preview ehnanced
-    - markdown pdf
-    - markdown lint
-    - markdown yaml preamble
-- vscode pandoc
-- git
-    - git history
-    - gitlens
-    - git graph
-- esp32 / micropython
-    - micropython ide (bao phan)
-    - espressif idf
-
-after installing the above:
-
-```bash
-batisteo.vscode-django
-bierner.markdown-yaml-preamble
-DavidAnson.vscode-markdownlint
-donjayamanne.githistory
-donjayamanne.python-environment-manager
-donjayamanne.python-extension-pack
-DougFinke.vscode-pandoc
-dphans.micropython-ide-vscode
-eamodio.gitlens
-ecmel.vscode-html-css
-espressif.esp-idf-extension
-KevinRose.vsc-python-indent
-mhutchie.git-graph
-ms-python.isort
-ms-python.python
-ms-python.vscode-pylance
-ms-toolsai.jupyter
-ms-toolsai.jupyter-keymap
-ms-toolsai.jupyter-renderers
-ms-toolsai.vscode-jupyter-cell-tags
-ms-toolsai.vscode-jupyter-slideshow
-ms-vscode.cmake-tools
-ms-vscode.cpptools
-ms-vscode.cpptools-extension-pack
-ms-vscode.cpptools-themes
-njpwerner.autodocstring
-Pycom.pymakr
-redhat.vscode-yaml
-shd101wyy.markdown-preview-enhanced
-twxs.cmake
-VisualStudioExptTeam.intellicode-api-usage-examples
-VisualStudioExptTeam.vscodeintellicode
-wholroyd.jinja
-yzane.markdown-pdf
-yzhang.markdown-all-in-one
-```
 
 ## Keybindings
 
