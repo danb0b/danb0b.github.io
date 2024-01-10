@@ -66,3 +66,14 @@ sudo ip link set up dev tun0
 * jonohill
     * <https://github.com/hillnz/docker-tailscale>
     * <https://hub.docker.com/r/jonoh/tailscale>
+
+### ROS-related
+
+* https://husarnet.com/blog/ros2-docker
+* https://discourse.ros.org/t/connecting-remote-ros-2-nodes-using-docker-vpn/21484
+* https://discourse.ros.org/t/ros-2-remote-connection-through-vpn/34207
+* https://serverfault.com/questions/1125825/setting-up-a-vpn-with-ros-2-seamless
+* https://ros-realtime.github.io/Guides/Configure-RMW-Implementation/Cyclone-DDS.html
+* https://adityakamath.hashnode.dev/ros-2-and-vpns
+* https://www.rogerfrost.com/tailscale-remote-access-to-your-network/
+* https://www.thesmarthomebook.com/2021/07/24/the-holy-grail-of-networking-tailscale/
