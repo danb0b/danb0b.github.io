@@ -1,5 +1,9 @@
 ---
 title: Python / Conda Intro
+tags:
+- python
+- anaconda
+- conda
 ---
 
 ## Python

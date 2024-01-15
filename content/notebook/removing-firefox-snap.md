@@ -1,5 +1,9 @@
 ---
 title: Removing Firefox and Snap
+tags:
+- ubuntu
+- firefox
+- snap
 ---
 
 

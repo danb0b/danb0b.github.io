@@ -1,5 +1,10 @@
 ---
 title: Splitting and Merging tar files
+tags:
+- compression
+- ubuntu
+- bash
+- linux
 ---
 
 

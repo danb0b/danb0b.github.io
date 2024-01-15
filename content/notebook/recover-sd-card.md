@@ -1,5 +1,10 @@
 ---
 title: recover data from an sd card
+tags:
+- sd-card
+- backup
+- recovery
+- ubuntu
 ---
 
 

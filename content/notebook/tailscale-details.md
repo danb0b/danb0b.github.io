@@ -1,5 +1,9 @@
 ---
 title: Tailscale Details
+tags:
+- tailscale
+- bash
+- networking
 ---
 
 

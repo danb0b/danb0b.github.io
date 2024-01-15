@@ -1,5 +1,9 @@
 ---
 title: Start docker automatically as a ```systemd``` service
+tags:
+- ubuntu
+- bash
+- docker
 ---
 
 

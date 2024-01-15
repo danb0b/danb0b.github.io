@@ -1,5 +1,9 @@
 ---
 title: identify packages added using apt's log
+tags:
+- logging
+- ubuntu
+- apt
 ---
 
 first step is to  find the first line number where a particular date occurs

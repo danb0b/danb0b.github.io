@@ -1,5 +1,11 @@
 ---
 title: quick scripts for openscad
+tags:
+- bash
+- flatpak
+- openscad
+- cad
+- scripting
 ---
 
 ```

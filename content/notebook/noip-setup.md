@@ -1,5 +1,8 @@
 ---
 Title: NoIP Client Configuration
+tags:
+- ddns
+- noip
 ---
 ## To Make and Install the Client
 

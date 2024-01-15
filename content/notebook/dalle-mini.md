@@ -1,5 +1,9 @@
 ---
 title: Dalle-mini Notes
+tags:
+- ai
+- images
+- image-generation
 ---
 
 ## External Resources

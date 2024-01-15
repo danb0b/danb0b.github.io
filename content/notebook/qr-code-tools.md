@@ -5,6 +5,7 @@ tags:
 - linux
 - ubuntu
 - bash
+- tools
 ---
 
 modified from [this site](https://linuxcommando.blogspot.com/2020/07/how-to-generate-and-read-qr-code-on.html)

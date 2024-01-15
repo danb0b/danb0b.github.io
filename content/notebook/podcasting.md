@@ -1,5 +1,7 @@
 ---
 title: Podcasting
+tags:
+- podcasting
 ---
 
 
@@ -57,3 +59,44 @@ title: Podcasting
 * <https://gimletmedia.com/shows/544-days>
 * <https://gimletmedia.com/shows/startup>
 * [The daily](https://www.nytimes.com/column/the-daily)
+
+
+* <https://www.buzzsprout.com/blog/10-tips-create-awesome-podcast-artwork?referrer_id=52989>
+* <https://riverside.fm/blog/how-to-start-a-podcast>
+* <https://www.reddit.com/r/selfhosted/comments/kain8w/comment/gfc0nur/>
+* <https://podba.se/validate/>
+* <https://podcasters.apple.com/support/823-podcast-requirements>
+* <https://gist.github.com/vsoch/4898025919365bf23b6f>
+* <https://bunny.net/>
+* <https://github.com/fukawi2/podnounce>
+* <https://www.padizio.com/blog/category/i-like-juice/>
+* <https://github.com/podlove/radiator>
+* <https://duckduckgo.com/?q=how+to+track+podcast+downloads+self+hosted&t=fpas&ia=web>
+* <https://www.wholewhale.com/tips/measure-podcast-downloads/>
+* <https://shanebarker.com/blog/podcast-analytics-tools/>
+* <https://hackaday.com/2018/12/07/liberating-birds-for-a-cheap-electric-scooter/>
+* <https://www.buzzsprout.com/blog/10-tips-create-awesome-podcast-artwork?referrer_id=52989>
+* <https://riverside.fm/blog/how-to-start-a-podcast>
+* <https://www.reddit.com/r/selfhosted/comments/kain8w/comment/gfc0nur/>
+* <https://podba.se/validate/>
+* <https://podcasters.apple.com/support/823-podcast-requirements>
+* <https://gist.github.com/vsoch/4898025919365bf23b6f>
+* <https://bunny.net/>
+* <https://github.com/fukawi2/podnounce>
+* <https://www.padizio.com/blog/category/i-like-juice/>
+* <https://github.com/podlove/radiator>
+* <https://duckduckgo.com/?q=how+to+track+podcast+downloads+self+hosted&t=fpas&ia=web>
+* <https://www.wholewhale.com/tips/measure-podcast-downloads/>
+* <https://shanebarker.com/blog/podcast-analytics-tools/>
+
+
+### RSS
+
+* <https://www.captivate.fm/learn-podcasting/podcast-rss-feeds>
+* <https://help.apple.com/itc/podcasts_connect/#/itcbaf351599>
+* <https://feeds.captivate.fm/insider/>
+* <view-source:https://feeds.captivate.fm/insider/>
+* <https://rss.com/>
+* <https://podcasters.apple.com/support/837-change-the-rss-feed-url>
+* <https://help.apple.com/itc/podcasts_connect/#/itcb54353390>
+* <https://podcasters.apple.com/support/1691-apple-podcasts-categories>

@@ -1,5 +1,9 @@
 ---
 title: using wine
+tags:
+- ubuntu
+- linux
+- wine
 ---
 
 ```bash

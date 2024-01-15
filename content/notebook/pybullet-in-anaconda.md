@@ -1,5 +1,12 @@
 ---
 title: getting pyBullet working in Anaconda
+tags:
+- pybullet
+- anaconda
+- bash
+- ubuntu
+- simulation
+- python
 ---
 
 

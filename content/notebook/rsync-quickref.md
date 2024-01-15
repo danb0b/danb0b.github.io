@@ -1,5 +1,9 @@
 ---
 title: Rsync Quickref
+tags:
+- rsync
+- bash
+- linux
 ---
 
 

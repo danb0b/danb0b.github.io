@@ -1,5 +1,8 @@
 ---
 title: getting Ubuntu 20.04.5 installed and working on a raspberry pi
+tags:
+- rpi
+- ubuntu
 ---
 
 https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/

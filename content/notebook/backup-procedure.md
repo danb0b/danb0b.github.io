@@ -73,6 +73,7 @@ tags:
 - backup password manager
 
 ## Home and root folders
+
 - backup .ssh/config
 - backup /etc/hosts
 - backup .config, especially
@@ -84,8 +85,6 @@ tags:
 - gitman config
 - rclone config
 - network configs in  /etc/NetworkManager/system-connections/
-
-
 
 ## Misc
 
@@ -143,3 +142,45 @@ discussion: <https://www.researchgate.net/post/What-is-the-use-of-the-extension-
 ## Raw files
 
 compress .avi to .mp4
+
+## Things to preserve in Linux
+  
+- Crontab  
+- Netplan  
+- .config  
+- .thunderbird profile  
+- mozilla settings --> find ~/.var -iname "prefs.js"  
+
+/Etc/  
+
+- netplan  
+- initramfs-tools/initramf.conf  
+- hosts
+
+~/.ssh  
+~/.keys  
+~/.bashrc  
+
+```bash
+#apm list >> atom-packages.txt  
+snap list >> snap-packages.txt  
+flatpak list >> flat-packages.txt  
+apt-mark showmanual >> apt-packages.txt  
+conda env export > base.yml 
+conda activate pybullet
+conda env export > pybullet.yml 
+```  
+
+directories  
+~/Desktop  
+~/Downloads  
+~/Documents  
+~/Pictures  
+~/Videos  
+~/adb  
+~/prism  
+~/Zoom  
+~/gPodder  
+~/texmf  
+~/Virtual Machine VMs  
+  

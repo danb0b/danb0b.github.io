@@ -1,5 +1,9 @@
 ---
 title: Multiple Clocks in Ubuntu / Gnome
+tags:
+- ubuntu
+- gnome
+- flatpak
 ---
 
 ```bash

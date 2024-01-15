@@ -1,5 +1,9 @@
 ---
 title: Mujoco / Conda Usage notes
+tags:
+- mujoco
+- simulation
+- ubuntu
 ---
 
 ## Conda-based installation

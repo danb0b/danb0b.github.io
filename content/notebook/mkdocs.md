@@ -1,5 +1,9 @@
 ---
 title: mkdocs info
+tags:
+- websites
+- markdown
+- mkdocs
 ---
 
 ## External Resources

@@ -1,5 +1,9 @@
 ---
 title: Measuring Speed Between Computers
+tags:
+- bash
+- linux
+- networking
 ---
 
 

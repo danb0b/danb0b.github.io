@@ -1,5 +1,9 @@
 ---
 title: Logitech K380 function keys
+tags:
+- logitech
+- ubuntu
+- linux
 ---
 
 * <https://support.logi.com/hc/en-us/community/posts/360037026053-k380-use-all-f1-f2-etc-keys-as-standard-function-keys->

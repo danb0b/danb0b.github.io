@@ -5,6 +5,8 @@ tags:
 - mqtt
 - linux
 - ubuntu
+- iot
+- embedded-systems
 ---
 
 ## Installation

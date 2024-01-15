@@ -1,5 +1,8 @@
 ---
 title: The Night Behind Christmas
+author: Daniel M. Aukes
+tags:
+- fun
 ---
 
 'Twas two nights before Christmas, and all through the house,  

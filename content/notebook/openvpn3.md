@@ -1,5 +1,8 @@
 ---
 title: OpenVPN3 for Ubuntu
+tags:
+- vpn
+- openvpn
 ---
 
 ```bash

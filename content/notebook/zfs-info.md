@@ -1,5 +1,11 @@
 ---
 title: ZFS info
+tags:
+- ubuntu
+- linux
+- backup
+- restore
+- storage
 ---
 
 

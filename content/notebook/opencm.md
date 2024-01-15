@@ -1,5 +1,9 @@
 ---
 title: OpenCM Information
+tags:
+- robotis
+- opencm
+- arduino
 ---
 
 https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md

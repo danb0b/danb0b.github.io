@@ -4,6 +4,7 @@ tags:
   - android
   - bash
   - termux
+  - linux
 ---
  
 ```bash
