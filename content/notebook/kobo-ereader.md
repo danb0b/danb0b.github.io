@@ -6,6 +6,10 @@ tags:
 - kobo
 ---
 
+This link was the most helpful overview: <https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers>
+
+## External Links
+
 * <https://duckduckgo.com/?q=flash+kobo+nia+reader+firmware&t=fpas&ia=web>
 * <https://wiki.mobileread.com/wiki/Kobo_Firmware>
 * <https://wiki.mobileread.com/wiki/Kobo_Firmware_Releases>
@@ -17,7 +21,6 @@ tags:
 * <https://www.mobileread.com/forums/showthread.php?t=295612>
 * <https://wiki.mobileread.com/wiki/Kobo_eReader_hacks>
 * <https://www.mobileread.com/forums/showthread.php?t=337972>
-* <https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers>
 * <https://blog.the-ebook-reader.com/2018/03/17/list-of-hacks-mods-and-add-ons-for-kobo-ereaders/>
 * <https://github.com/koreader/koreader>
 * <https://koreader.rocks/>
