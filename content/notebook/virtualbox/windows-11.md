@@ -1,5 +1,8 @@
 ---
 title: Installing Windows 11 on Virtualbox
+tags:
+- virtualbox
+- windows
 ---
 
 ## External Links

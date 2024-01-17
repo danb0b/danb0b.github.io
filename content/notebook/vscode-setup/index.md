@@ -2,6 +2,10 @@
 title: VSCode Setup and Usage
 tags:
 - vscode
+- linux
+- windows
+- bash
+- command-line
 ---
 
 

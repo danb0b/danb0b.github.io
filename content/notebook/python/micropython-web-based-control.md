@@ -1,5 +1,9 @@
 ---
 title: Web-Based Control in Micropython
+tags:
+- python
+- micropython
+- microdot
 ---
 
 

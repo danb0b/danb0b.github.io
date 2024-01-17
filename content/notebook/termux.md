@@ -9,11 +9,12 @@ tags:
  
 ```bash
 pkg install openssl openssh gnupg iproute2
-pkg install nmap openssl
-pkg install python3 git
-termux-setup-storage
-pkg update
+pkg install nmap # port scanning
+pkg install dnsutils # dig
 pkg install termux-tools
+termux-setup-storage
+pkg install python3 git
+pkg update
 pkg install tsu # is this necessary?
 pkg install nmap
 pkg install texlive-bin

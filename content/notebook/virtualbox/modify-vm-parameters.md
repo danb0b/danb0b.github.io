@@ -1,5 +1,7 @@
 ---
 title: Modify VM Machine Information
+tags:
+  - virtualbox
 ---
 
 Sometimes its useful to declare your computer type in virtualbox as something other than a virtual machine.

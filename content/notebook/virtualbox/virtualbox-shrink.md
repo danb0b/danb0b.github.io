@@ -7,6 +7,8 @@ tags:
 
 Derived from these instructions on [HowToGeek](https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/)
 
+In this tutorial we assume a linux host and a windows guest
+
 1. Clean up files
 2. Clean up system files
 3. Turn off hibernate

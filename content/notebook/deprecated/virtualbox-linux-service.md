@@ -5,6 +5,7 @@ tags:
 - linux
 - ubuntu
 - bash
+- systemd
 ---
 
 ```bash
