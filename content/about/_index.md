@@ -15,5 +15,5 @@ menu:
     name: About
 ---
 
-I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), and Assistant Professor in the Ira A. Fulton Schools of Engineering, Arizona State University.  This is my personal website 
+I am a Robotics Researcher, director of the [IDEAlab](http://idealab.asu.edu), and Associate Professor in the Ira A. Fulton Schools of Engineering, Arizona State University.  This is my personal website 
 

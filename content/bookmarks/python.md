@@ -181,3 +181,8 @@ Older stuff
 ## VSCode
 
 * <https://opensourceoptions.com/blog/4-ways-to-run-python-code-in-visual-studio-code/>
+
+
+## Unsorted
+
+* [ ] <https://martinheinz.dev/blog/96>

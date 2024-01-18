@@ -84,7 +84,7 @@ find . \( -path ./.config -prune -o -path ./miniconda3 -prune -o -path ./.local 
 alternate:
 
 ```bash
-(base) find . -iname "*.py" ! -path './miniconda*' ! -path './.config*' ! -path '*zenbook-backup*' -exec grep -l 'import network' {} \+ 
+find . -iname "*.py" ! -path './miniconda*' ! -path './.config*'  ! -path './apps*'  ! -path './.vscode*' ! -path '*zenbook-backup*' -exec grep -l 'import network' {} \+ 
 ```
 
 tips from [here](https://linuxhandbook.com/find-command-exclude-directories/) and [here](https://www.baeldung.com/linux/find-exclude-paths)
