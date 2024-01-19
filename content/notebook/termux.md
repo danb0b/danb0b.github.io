@@ -13,13 +13,20 @@ pkg install nmap # port scanning
 pkg install dnsutils # dig
 pkg install termux-tools
 termux-setup-storage
+
 pkg install python3 git
+pkg install cmake
+pip install matplotlib
 pkg update
 pkg install tsu # is this necessary?
 pkg install nmap
 pkg install texlive-bin
+#pkg install texlive-full 
 pkg upgrade
 termux-change-repo
+termux-install-tl
+tlmgr update --all
+
 ```
 
 
