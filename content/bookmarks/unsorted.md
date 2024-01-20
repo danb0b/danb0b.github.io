@@ -93,7 +93,6 @@ Unsorted bookmarks that need a good sorting
 * <https://tge.readthedocs.io/en/latest/index.html>
 * <https://microchipdeveloper.com/xpress:detecting-missed-events-using-tmr2-with-hlt>
 * <https://nval.andreasherten.de/2016/01/26/latex-beamer-with-markdown.html>
-* <https://maehr.github.io/academic-pandoc-template/markdown.html>
 * <https://github.com/burningion/pygame-video-synthesizer>
 * <https://www.sumatrapdfreader.org/free-pdf-reader.html>
 * <https://en.wikipedia.org/wiki/George_H._Heilmeier#Heilmeier%27s_Catechism>

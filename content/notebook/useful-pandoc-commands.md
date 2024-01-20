@@ -46,3 +46,18 @@ geometry: margin=1in
 pandoc -o custom-reference.docx --print-default-data-file reference.docx
 pandoc -o custom-reference.odt --print-default-data-file reference.odt
 ```
+
+
+## External links
+
+### Automation
+
+* <https://github.com/maehr/academic-pandoc-template>
+
+### Creating books
+
+* <https://medium.com/@sydasif78/book-creation-with-pandoc-and-markdown-893c7d72cb35>
+* <https://github.com/sydasif/my-pandoc-book>
+* <https://learnbyexample.github.io/customizing-pandoc/>
+* <https://www.thepolyglotdeveloper.com/2019/10/creating-ebook-pandoc-markdown/>
+* <https://scastiel.dev/how-i-use-pandoc-to-create-my-programming-ebooks>
