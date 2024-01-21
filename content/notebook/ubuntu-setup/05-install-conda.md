@@ -79,7 +79,7 @@ conda install -y anaconda
 
 ```bash
 conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
-#conda install -y pandoc
+#conda install -y pandoc #the version of pandoc shipped by conda is old.
 #conda install -y paramiko pyqtgraph pycrypto requests[socks]
 ```
 
@@ -87,9 +87,18 @@ conda install -y django pyqtgraph pyopengl gitpython pycairo shapely
 
 ```bash
 python -m pip install --upgrade pip
-pip install meshio gmsh pygmsh ezdxf twine  pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot
-pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin
+pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot
+pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify
 pip install pandoc-fignos pandoc-eqnos pandoc-crossref
+```
+
+### gmsh
+
+the pip version of gmsh has issues on ubuntu, so  use apt to install
+
+```bash
+#pip install gmsh
+pip installl pygmsh
 ```
 
 

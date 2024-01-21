@@ -114,6 +114,12 @@ move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbir
 * <https://github.com/jgm/pandoc/releases/latest>
 * <https://pandoc.org/installing.html>
 
+dependencies
+
+```bash
+sudo apt install -y librsvg2-bin
+```
+
 ### Latex
 
 #### Full Install
