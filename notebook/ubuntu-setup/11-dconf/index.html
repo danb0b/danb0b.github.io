@@ -9,9 +9,11 @@
 </span></span></code></pre></div><h2 id=more-info-on-backup-and-restore-from-command-line>More Info on Backup and Restore From command line</h2><p>from <a href=https://askubuntu.com/questions/682513/how-to-backup-restore-system-custom-keyboard-shortcuts>https://askubuntu.com/questions/682513/how-to-backup-restore-system-custom-keyboard-shortcuts</a>:</p><p>backup:</p><pre tabindex=0><code>dconf dump /org/gnome/desktop/wm/keybindings/ &gt; keybindings.dconf
 dconf dump /org/gnome/settings-daemon/plugins/media-keys/ &gt; media-keys.dconf
 dconf dump /org/gnome/shell/extensions/dash-to-dock/ &gt; dash-to-dock.dconf
+dconf dump /org/gnome/desktop/interface/ &gt; interface.dconf
 </code></pre><p>restore</p><pre tabindex=0><code>dconf load /org/gnome/desktop/wm/keybindings/ &lt; keybindings.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; media-keys.dconf
 dconf load /org/gnome/shell/extensions/dash-to-dock/ &lt; dash-to-dock.dconf
+dconf load /org/gnome/desktop/interface/ &lt; interface.dconf
 </code></pre><h2 id=full-config>Full Config</h2><p>suggestion from <a href=https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file>here</a>:</p><pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; keybindings.dconf
 [/]
 maximize=@as []
@@ -36,7 +38,7 @@ cat &lt;&lt;EOT &gt;&gt; dash-to-dock.dconf
 [/]
 dash-max-icon-size=32
 extend-height=false
-preferred-monitor=0
+preferred-monitor-by-connector=&#39;primary&#39;
 show-trash=false
 EOT
 
@@ -45,6 +47,17 @@ rm dash-to-dock.dconf
 
 cat &lt;&lt;EOT &gt;&gt; interface.dconf
 [/]
+clock-format=&#39;12h&#39;
+color-scheme=&#39;prefer-light&#39;
+cursor-theme=&#39;Yaru&#39;
+document-font-name=&#39;Sans 11&#39;
+font-antialiasing=&#39;rgba&#39;
+font-hinting=&#39;slight&#39;
+font-name=&#39;Ubuntu 11&#39;
+gtk-theme=&#39;Yaru&#39;
+icon-theme=&#39;Yaru&#39;
+monospace-font-name=&#39;Ubuntu Mono 13&#39;
+show-battery-percentage=true
 text-scaling-factor=0.85
 EOT
 
