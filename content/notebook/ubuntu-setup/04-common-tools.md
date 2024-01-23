@@ -13,7 +13,9 @@ This assumes you installed a "minimal" version of Ubuntu
 Update your software first
 
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
+#save this for the end
+# sudo apt upgrade -y  
 ```
 
 Install new packages
@@ -94,10 +96,18 @@ sudo snap install hugo --channel=extended
 sudo snap remove firefox
 ```
 
+### Flatseal config
+
+* add whole filesystem to mozilla
+* add user files to thunderbird
+
+
 ### Ubuntu Mainline
 
+```bash
 sudo add-apt-repository ppa:cappelikan/ppa
 sudo apt update && sudo apt install mainline
+```
 
 ## Packages with options or multiple setup lines
 
@@ -119,6 +129,13 @@ dependencies
 ```bash
 sudo apt install -y librsvg2-bin
 ```
+
+### Other tutorials
+
+- [world clocks](/notebook/multiple-clocks/)
+- [git clients](/notebook/install-git-clients/)
+- [vscode]((/notebook/vscode-setup/))
+- [docker](/notebook/docker/install-docker/)
 
 ### Latex
 

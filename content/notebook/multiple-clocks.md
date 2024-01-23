@@ -7,12 +7,13 @@ tags:
 ---
 
 ```bash
-sudo apt install gnome-clocks
+sudo apt install -y gnome-clocks
 ```
 
 ```bash
-flatpak install com.mattjakeman.ExtensionManager
+flatpak install -y com.mattjakeman.ExtensionManager
 ```
+
 ```bash
 flatpak run com.mattjakeman.ExtensionManager
 ```

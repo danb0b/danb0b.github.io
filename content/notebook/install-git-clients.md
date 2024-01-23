@@ -7,12 +7,15 @@ tags:
 
 
 ```bash
-flatpak install flathub io.github.gitahead.GitAhead -y
-flatpak install flathub com.github.Murmele.Gittyup
-flatpak install flathub com.github.git_cola.git-cola
-flatpak install flathub com.syntevo.SmartGit -y
-flatpak install flathub im.gitter.Gitter
-flatpak install flathub io.github.shiftey.Desktop
-flatpak install flathub com.jetpackduba.Gitnuro -y
-flatpak install flathub com.sublimemerge.App -y
+flatpak install -y flathub \ 
+com.jetpackduba.Gitnuro
+# io.github.gitahead.GitAhead \
+# com.github.Murmele.Gittyup \
+# com.github.git_cola.git-cola \
+# com.syntevo.SmartGit \
+# im.gitter.Gitter \
+# io.github.shiftey.Desktop \
+# com.sublimemerge.App
 ```
+
+sudo apt install -y gitg

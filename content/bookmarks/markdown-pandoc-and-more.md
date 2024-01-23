@@ -54,7 +54,7 @@ Creating and converting documents is not trivial.  I have a bunch of links that 
 * <https://gist.github.com/itsjfx/689ae620222240911a3efae33e313b1b>
 
 ```
-flatpak install flathub net.cozic.joplin_desktop
+flatpak install -y flathub net.cozic.joplin_desktop
 ```
 
 ## Turtl

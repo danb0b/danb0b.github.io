@@ -83,7 +83,6 @@ tags:
 - mozilla config
 - rclone config
 - gitman config
-- rclone config
 - network configs in  /etc/NetworkManager/system-connections/
 
 ## Misc

@@ -26,6 +26,16 @@ tags:
 
 1. Add folders to PATH and PYTHONPATH
 
+## Configure /etc
+
+* /etc/netplan (if applicable)
+* /etc/hosts
+* /etc/network-manager configs
+
+## Configure SSH
+
+## Configure VSCode
+
 ## Power Options
 
 from [here](https://fostips.com/lid-close-action-ubuntu-21-04-laptop/)

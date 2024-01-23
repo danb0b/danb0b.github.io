@@ -28,6 +28,7 @@ backup:
 dconf dump /org/gnome/desktop/wm/keybindings/ > keybindings.dconf
 dconf dump /org/gnome/settings-daemon/plugins/media-keys/ > media-keys.dconf
 dconf dump /org/gnome/shell/extensions/dash-to-dock/ > dash-to-dock.dconf
+dconf dump /org/gnome/desktop/interface/ > interface.dconf
 ```
 
 restore
@@ -36,6 +37,7 @@ restore
 dconf load /org/gnome/desktop/wm/keybindings/ < keybindings.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys.dconf
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.dconf
+dconf load /org/gnome/desktop/interface/ < interface.dconf
 ```
 
 
@@ -68,7 +70,7 @@ cat <<EOT >> dash-to-dock.dconf
 [/]
 dash-max-icon-size=32
 extend-height=false
-preferred-monitor=0
+preferred-monitor-by-connector='primary'
 show-trash=false
 EOT
 
@@ -77,6 +79,17 @@ rm dash-to-dock.dconf
 
 cat <<EOT >> interface.dconf
 [/]
+clock-format='12h'
+color-scheme='prefer-light'
+cursor-theme='Yaru'
+document-font-name='Sans 11'
+font-antialiasing='rgba'
+font-hinting='slight'
+font-name='Ubuntu 11'
+gtk-theme='Yaru'
+icon-theme='Yaru'
+monospace-font-name='Ubuntu Mono 13'
+show-battery-percentage=true
 text-scaling-factor=0.85
 EOT
 
