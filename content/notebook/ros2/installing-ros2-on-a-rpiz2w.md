@@ -1,10 +1,12 @@
 ---
-title: Installing ROS2 on a Raspberry Pi Zero 2W
+title: Installing ROS2 on a Raspberry Pi
 tags:
 - ros2
 - ubuntu
 - linux
+- tailscale
 ---
+
 
 ## Flashing
 
@@ -109,61 +111,7 @@ sudo apt install net-tools
 ifconfig
 ```
 
-create a cyclonedds config file for your local network
 
-```bash
-cat <<EOT >> ~/cyclonedds_local.xml
-<CycloneDDS>
-    <Domain>
-        <General>
-            <DontRoute>true</DontRoute>        
-            <AllowMulticast>false</AllowMulticast>
-            <EnableMulticastLoopback>true</EnableMulticastLoopback>
-        </General>
-        <Discovery>
-          <ParticipantIndex>auto</ParticipantIndex>
-          <Peers>
-            <Peer Address="<the local ip address of the rpi2w>"/>
-            <Peer Address="<the local ip address of other machine>"/>
-            <Peer Address="<...>"/>
-          </Peers>
-    </Discovery>
-    </Domain>
-</CycloneDDS>
-EOT
-sudo mv ~/cyclonedds_local.xml /etc/
-```
-
-create a cyclonedds config file for your tailscale network network:
-
-```bash
-tailscale status
-```
-
-this will tell you about your tailscale ip addresses.
-
-```bash
-cat <<EOT >> ~/cyclonedds_ts.xml
-<CycloneDDS>
-    <Domain>
-        <General>
-            <DontRoute>true</DontRoute>        
-            <AllowMulticast>false</AllowMulticast>
-            <EnableMulticastLoopback>true</EnableMulticastLoopback>
-        </General>
-        <Discovery>
-          <ParticipantIndex>auto</ParticipantIndex>
-          <Peers>
-            <Peer Address="<the tailscale ip address of the rpi2w>"/>
-            <Peer Address="<the tailscale ip address of other machine>"/>
-            <Peer Address="<...>"/>
-          </Peers>
-    </Discovery>
-    </Domain>
-</CycloneDDS>
-EOT
-sudo mv ~/cyclonedds_ts.xml /etc/
-```
 
 fastrtps
 
@@ -295,7 +243,7 @@ sudo apt install ros-humble-desktop -->
 
 https://adityakamath.hashnode.dev/ros-2-and-vpns
 
-### Less-helpful resources
+### Oter Resources
 
 * <https://stackoverflow.com/questions/55723797/how-to-join-the-default-bridge-and-user-defined-bridge-with-docker-compose-v3>
 * <https://github.com/docker/compose/issues/3012>

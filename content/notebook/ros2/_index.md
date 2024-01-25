@@ -1,5 +1,5 @@
 ---
-title: ROS2 Tutorial
+title: ROS2 Tutorial Pages
 weight: 30
 summary: A Walkthrough of current ROS2 topics
 tags:
