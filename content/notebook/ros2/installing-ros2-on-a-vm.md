@@ -72,6 +72,7 @@ Finally first update and upgrade your apt installation, power down the machine a
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
+
 ## Instructions
 
 Starting from a blank ubuntu server 22.04 vm, check for updates (if the vm has been off for a while, especially) and install the minimal ubuntu-desktop metapackage
@@ -92,10 +93,10 @@ ip a
 I did another full upgrade
 
 ```bash
-sudo apt update && sudo apt full-upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
-I then installed ros2, using the instructions from 
+I then installed ros2, using the instructions from [here](https://docs.ros.org/en/humble/Installation.html)
 
 ```bash
 sudo apt install software-properties-common
@@ -131,19 +132,21 @@ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
 echo "source /opt/ros/humble/setup.bash" >> .bashrc
 ```
 
-and tested in two windows
+and tested.
+
+First in one terminal window:
 
 ```bash
 ros2 run demo_nodes_cpp talker
 ```
 
-in another window
+and in a second terminal window:
 
 ```bash
 ros2 run demo_nodes_cpp listener
 ```
 
-I modified  the server's netplan, according to [this post](/notebook/virtualbox/two-clones/), which helped eliminate getting an identical ip address
+Now to clone to two virtual machines.  I modified  the server's netplan, according to [this post](/notebook/virtualbox/two-clones/), which helped eliminate getting an identical ip address
 
 ```bash
 sudo nano /etc/netplan/00-installer-config.yaml
