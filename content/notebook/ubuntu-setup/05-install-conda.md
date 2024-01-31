@@ -92,6 +92,14 @@ pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slu
 pip install pandoc-fignos pandoc-eqnos pandoc-crossref
 ```
 
+### Fix for pandoc eqnos
+
+```bash
+pip3 install --force-reinstall git+https://github.com/nandokawka/pandoc-xnos@284474574f51888be75603e7d1df667a0890504d#egg=pandoc-xnos
+```
+
+according to [here](https://github.com/tomduck/pandoc-xnos/pull/29), until the PR is merged, do the above.
+
 ### gmsh
 
 the pip version of gmsh has issues on ubuntu, so  use apt to install
