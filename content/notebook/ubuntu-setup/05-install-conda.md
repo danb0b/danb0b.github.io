@@ -81,6 +81,7 @@ conda install -y anaconda
 conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
 #conda install -y pandoc #the version of pandoc shipped by conda is old.
 #conda install -y paramiko pyqtgraph pycrypto requests[socks]
+conda install -c conda-forge scikit-fem
 ```
 
 ### Install pip packages
