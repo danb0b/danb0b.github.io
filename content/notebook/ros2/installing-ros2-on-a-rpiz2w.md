@@ -1,5 +1,6 @@
 ---
 title: Installing ROS2 on a Raspberry Pi
+weight: 11
 tags:
 - ros2
 - ubuntu

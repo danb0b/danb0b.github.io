@@ -1,5 +1,6 @@
 ---
-title: Using ROS2 over a VPN with Tailscale
+title: Configuring ROS2 over a Tailscale VPN on Ubuntu
+weight: 30
 tags:
 - ros2
 - ubuntu
@@ -9,7 +10,7 @@ tags:
 
 ## Prerequisites
 
-This tutorial assumes you have already installed ROS2 on a PC, Raspberry pi, or virtual machine.  For those tutorials, please see:
+This tutorial assumes you have already installed ROS2 on a PC, Raspberry pi, or virtual machine running Ubuntu.  For those tutorials, please see:
 
 * [Installing ROS2 on a Raspberry Pi](/notebook/ros2/installing-ros2-on-a-rpiz2w/)
 * [Installing ROS2 on a Virtual Machine](/notebook/ros2/installing-ros2-on-a-vm/)

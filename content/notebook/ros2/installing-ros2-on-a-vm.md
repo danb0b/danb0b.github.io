@@ -1,5 +1,6 @@
 ---
 title: Installing ROS2 Humble on a Virtualbox VM
+weight: 10
 date: 2023-09-17
 tags:
 - virtualbox

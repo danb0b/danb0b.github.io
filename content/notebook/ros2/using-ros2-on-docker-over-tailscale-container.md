@@ -1,5 +1,11 @@
 ---
 title: Using ROS2 in a Docker container running Tailscale
+weight: 32
+tags:
+- docker
+- ros2
+- tailscale
+- vpn
 ---
 ## Introduction
 

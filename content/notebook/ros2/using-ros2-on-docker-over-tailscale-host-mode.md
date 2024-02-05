@@ -1,10 +1,16 @@
 ---
-title: Using ROS2 over tailscale using docker host-mode networking
+title: Using ROS2 over tailscale using Docker's Host-mode networking
+weight: 31
+tags:
+- docker
+- ros2
+- tailscale
+- vpn
 ---
 
 ## Introduction
 
-This example shows you how to create a docker-compose based container that uses "host-mode" networking
+This example shows you how to create a docker-compose based container that uses "host-mode" networking.  Host  mode networking can be simpler because it doesn't have to be managed by docker itself.  Just get your tailscale client up and running on the host computer, and your docker instance can use it.
 
 ## Instructions
 
