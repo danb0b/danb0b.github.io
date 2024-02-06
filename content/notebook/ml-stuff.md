@@ -26,6 +26,11 @@ https://stable-baselines3.readthedocs.io/
 https://github.com/DLR-RM/stable-baselines3?tab=readme-ov-file
 https://araffin.github.io/post/sb3/
 
+### Colab Notebooks
+
+https://github.com/araffin/rl-tutorial-jnrr19 (made local)
+https://github.com/Stable-Baselines-Team/rl-colab-notebooks/tree/sb3 (made local)
+
 
 ## Mujoco
 https://pypi.org/project/mujoco/#history
@@ -68,3 +73,26 @@ https://github.com/DLR-RM/rl-baselines3-zoo
 
 
 https://huggingface.co/MattStammers/appo-mujoco_ant-sota
+
+
+## 
+https://www.science.org/doi/10.1126/scirobotics.aau5872
+
+https://www.youtube.com/watch?v=aTDkYFZFWug
+
+https://rlsummerschool.com/
+
+https://mrs.felk.cvut.cz/summer-school-2023/
+
+
+https://wandb.ai/site
+
+https://link.springer.com/article/10.1007/s12555-021-0099-8
+https://arxiv.org/pdf/2104.04644.pdf
+https://arxiv.org/pdf/2308.03014.pdf
+https://arxiv.org/pdf/1812.11103.pdf
+
+https://www.nature.com/articles/s41598-023-32106-5
+https://www.nature.com/articles/s42254-021-00314-5
+https://www.nature.com/articles/s41598-022-18536-7
+https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/csy2.12062

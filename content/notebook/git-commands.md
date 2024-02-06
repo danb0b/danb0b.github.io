@@ -276,3 +276,14 @@ git push <name-of-new-remote> --tags "refs/remotes/origin/*:refs/heads/*"
 ```
 
 <https://stackoverflow.com/questions/37884832/git-push-all-branches-from-one-remote-to-another-remote>
+
+
+## Gitignore
+
+To check what gitignore rule is causing a particular path to be ignored, run git check-ignore:
+
+```bash
+git check-ignore -v path/to/check
+```
+
+from [here](https://stackoverflow.com/questions/49638204/the-following-paths-are-ignored-by-one-of-your-gitignore-files)
