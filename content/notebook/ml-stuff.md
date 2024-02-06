@@ -15,6 +15,13 @@ echo "export PATH=\$PATH:$HOME/.local/bin" >> .bashrc
 conda deactivate && conda activate mujoco
 ```
 
+## 
+
+1. conda activate sb3
+1. git clone rl zoo
+1. cd rl zoo
+1. pip install -e .
+
 ## Pytorch workflow
 
 https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
@@ -31,6 +38,13 @@ https://araffin.github.io/post/sb3/
 https://github.com/araffin/rl-tutorial-jnrr19 (made local)
 https://github.com/Stable-Baselines-Team/rl-colab-notebooks/tree/sb3 (made local)
 
+tensorboard: https://stable-baselines3.readthedocs.io/en/master/guide/tensorboard.html
+
+## RL baselines zoo
+https://github.com/DLR-RM/rl-baselines3-zoo
+
+
+https://huggingface.co/MattStammers/appo-mujoco_ant-sota
 
 ## Mujoco
 https://pypi.org/project/mujoco/#history
@@ -50,6 +64,8 @@ https://gymnasium.farama.org/environments/mujoco/
 
 https://pypi.org/project/gymnasium/
 https://gymnasium.farama.org/environments/mujoco/half_cheetah/
+https://github.com/Farama-Foundation/Gymnasium/
+https://github.com/Farama-Foundation/gym-examples
 
 
 RL within gym
@@ -68,11 +84,6 @@ https://stackoverflow.com/questions/77438425/mujoco-structs-mjdata-object-has-no
 https://github.com/Farama-Foundation/Gymnasium/pull/746
 https://github.com/Farama-Foundation/Gymnasium/issues/749
 
-## RL aselines zoo
-https://github.com/DLR-RM/rl-baselines3-zoo
-
-
-https://huggingface.co/MattStammers/appo-mujoco_ant-sota
 
 
 ## 
@@ -96,3 +107,36 @@ https://www.nature.com/articles/s41598-023-32106-5
 https://www.nature.com/articles/s42254-021-00314-5
 https://www.nature.com/articles/s41598-022-18536-7
 https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/csy2.12062
+
+
+## Time Series forecasting
+
+https://machinelearningmastery.com/how-to-develop-convolutional-neural-network-models-for-time-series-forecasting/
+https://blog.research.google/2021/12/interpretable-deep-learning-for-time.html
+https://www.sciencedirect.com/science/article/pii/S0169207021000637
+
+
+https://bookdown.org/rdpeng/timeseriesbook/general-kalman-filter.html
+https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/resources/mit14_384f13_lec21/
+
+https://www.baeldung.com/cs/reinforcement-learning-neural-network
+
+https://www.cs.rice.edu/~vardi/dag01/givan1.pdf
+
+https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/download/
+
+https://www.youtube.com/watch?v=ZoJ2OctrFLA&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3
+
+## Kalman Filter
+
+https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/download/
+
+https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/resources/mit14_384f13_lec21/
+
+https://bookdown.org/rdpeng/timeseriesbook/general-kalman-filter.html
+
+## Hessian
+
+https://math.stackexchange.com/questions/3680708/what-is-the-difference-between-the-jacobian-hessian-and-the-gradient
+
+https://en.wikipedia.org/wiki/Hessian_matrix
