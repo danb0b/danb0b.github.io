@@ -1,5 +1,9 @@
 ---
 title: using ssh inside docker
+tags:
+- docker
+- ssh
+- ubuntu
 ---
 
 ## Introduction

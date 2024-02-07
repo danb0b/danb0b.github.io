@@ -73,30 +73,6 @@ Workaround:
 * [android apps](https://livtec.ch/en/the-10-best-nextcloud-apps-for-your-android-smartphone/)
 
 
-----------------
-
-```bash
-docker compose exec --user www-data app php occ config:system:get  trusted_domains
-docker compose exec --user www-data app php occ config:system:get  trusted_domains 0
-docker compose exec --user www-data app php occ config:system:set  trusted_domains 4 --value=<hostnameorip>
-```
-
-
-## Docker-Compose info
-
-* <https://help.nextcloud.com/t/nextcloud-docker-compose-how-to-update-domain-name-in-config-php/103522>
-* <https://docs.nextcloud.com/server/20/admin_manual/configuration_server/config_sample_php_parameters.html#default-parameters>
-* <https://docs.nextcloud.com/server/20/admin_manual/configuration_server/occ_command.html>
-* <https://github.com/nextcloud/docker#running-this-image-with-docker-compose>
-* <https://hub.docker.com/_/nextcloud>
-* <https://help.nextcloud.com/t/nexcloud-deployment-by-docker-compose/90660>
-* <https://blog.ssdnodes.com/blog/installing-nextcloud-docker/>
-
-More Recent
-
-* <https://adamtheautomator.com/nextcloud-docker/>
-* <https://github.com/nextcloud/docker>
-* <https://hub.docker.com/_/nextcloud>
 
 ## Nextcloud Integration
 
@@ -113,10 +89,3 @@ More Recent
 * <https://www.lifewire.com/how-to-sync-google-calendar-with-thunderbird-4691009>
 * <https://addons.thunderbird.net/en-US/thunderbird/addon/provider-for-google-calendar/?src=search>
 
-
-## Upgrading Nextcloud on Docker
-
-* <https://help.nextcloud.com/t/whats-the-right-way-to-upgrade-nextcloud-on-docker/139411>
-* <https://nubisoft.io/blog/how-to-upgrade-dockerized-nextcloud/>
-* <https://philenius.github.io/cloud/2022/11/13/how-to-updade-nextcloud-docker-installation-to-latest-version.html>
-* <https://forum.openmediavault.org/index.php?thread/31542-how-to-upgrade-nextcloud-in-docker/>
