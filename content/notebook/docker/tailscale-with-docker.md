@@ -26,6 +26,7 @@ title: Using tailscale with docker
 sudo docker run -d --name=tailscaled -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tun --network=host --cap-add=NET_ADMIN --restart unless-stopped --cap-add=NET_RAW --env TS_AUTHKEY=[AUTH KEY] --env TS_EXTRA_ARGS=--advertise-exit-node --env TS_ROUTES=[SUBNET] tailscale/tailscale
 ```
 
+## Deprecated suggestions
 
 sudo ip tuntap add dev tun0 mode tun
 sudo ip addr add 10.0.0.1/24 dev tun0

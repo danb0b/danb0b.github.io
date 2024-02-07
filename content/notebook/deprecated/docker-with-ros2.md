@@ -8,6 +8,13 @@ tags:
 ---
 
 
+## Deprecated
+
+This tutorial is deprecated because
+
+it uses ipvlan instead of macvlan, making it not useful for wifi nics
+it's about installing docker inside two vms... I have better examples now.
+
 ## Virtualbox guest master setup
 
 - Networking

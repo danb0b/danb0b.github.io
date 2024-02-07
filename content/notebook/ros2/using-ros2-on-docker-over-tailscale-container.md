@@ -55,6 +55,7 @@ services:
       - ./shared:/root/shared
     hostname: docker-ub
     environment:
+      - TS_AUTHKEY=${DOCKERKEY_PERM}
       - TS_ROUTES=10.0.0.0/8
       - TS_USERSPACE=0
       - TS_STATE_DIR=/var/lib/tailscale
@@ -62,8 +63,9 @@ services:
     cap_add: 
       - NET_ADMIN
       - NET_RAW
-    command: bash -c "tailscaled & tailscale up --authkey ${DOCKERKEY_PERM} && source /opt/ros/humble/setup.bash && ros2 run demo_nodes_cpp talker"
+    command: bash -c "tailscaled & tailscale up --authkey ${TS_AUTHKEY} && source /opt/ros/humble/setup.bash && ros2 run demo_nodes_cpp talker"
     restart: unless-stopped
+
 ```
 
 create a subfolder called ```shared```.  Inside, create a file called ```fast.xml``` and paste in the following contents:
