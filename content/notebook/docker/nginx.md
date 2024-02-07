@@ -17,3 +17,23 @@ services:
     volumes:
       - ./html:/usr/share/nginx/html
 ```
+
+## Folder Structure
+
+```txt
+.
+├── docker-compose.yml
+├── html
+│   └── index.html
+```
+
+Html
+
+```html
+Hello, I'm Dan, at  <a href='https://danaukes.com/'>danaukes.com</a>
+```
+
+
+## External Resources
+
+* <https://awstip.com/creating-a-simple-web-server-with-docker-a-step-by-step-guide-to-running-your-web-server-as-a-2992ce2051e3>
