@@ -1,5 +1,5 @@
 ---
-title: Demonstrating Unicast in ROS2 on a local network with CycloneDDS
+title: Demonstrating Unicast in ROS2 on virtual machines over a local network using CycloneDDS
 weight: 20
 tags:
 - virtualbox

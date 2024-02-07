@@ -1,13 +1,17 @@
 ---
-title: Setting up a ROS2 docker image and container for rosbridge
+title: Setting up Rosbridge in a docker container
+tags:
+- docker
+- ros2
+- rosbridge
 ---
 
 ## Introduction
 
 This article shows the following:
 
+* how to get rosbridge working in a docker container
 * How to create a custom user in a dockerfile
-* how to get rosbridge working
 * how to set up rosbridge for use with a physical network, even one through a wifi NIC (which has historically been harder)
 
 ## Folder structure
@@ -116,6 +120,30 @@ docker exec -it --user user1 d64dd7a05bb3 /bin/bash
 
 ```
 echo "export PATH=/opt/ros/galactic/bin:\$PATH" >> ~/.bashrc
+```
+
+### old docker compose stuff
+
+```yaml
+services:
+  ros2:
+    build: ./build
+    # container_name: ros2
+    user: danaukes
+    # hostname: ros2
+    # domainname: test
+    networks:
+      network:
+        ipv4_address: "192.168.4.8"
+    dns:
+      - 192.168.4.1
+    ports:
+      # - 22/tcp
+      - "9090:9090"
+    # command: bash -c "sudo service ssh start && sleep infinity"
+    # command: bash -c "sleep infinity"
+    command: bash -c "source /opt/ros/humble/setup.bash && ros2 launch rosbridge_server rosbridge_websocket_launch.xml"
+    # restart: unless-stopped
 ```
 
 ### Old dockerfile commands

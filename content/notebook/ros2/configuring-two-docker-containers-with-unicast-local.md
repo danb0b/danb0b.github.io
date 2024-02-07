@@ -1,5 +1,5 @@
 ---
-title: Demonstrating Unicast in ROS2 on a two docker containers with CycloneDDS
+title: Demonstrating Unicast in ROS2 on two docker containers with CycloneDDS
 weight: 21
 tags:
 - docker
