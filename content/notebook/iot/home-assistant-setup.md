@@ -112,6 +112,23 @@ server info:
 ```bash
 vboxmanage unregistervm --delete home-assistant
 ```
+
+## Docker version
+
+```
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+```
+
 ## Resources
 
 * <https://www.home-assistant.io/installation/linux>
