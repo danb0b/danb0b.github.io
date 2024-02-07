@@ -30,6 +30,7 @@ This allows your computers to refer to each other by name rather than IP address
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>./shared:/root/shared</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>hostname</span><span style=color:#111>:</span> <span style=color:#ae81ff>docker-ub</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>environment</span><span style=color:#111>:</span>
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>TS_AUTHKEY=${DOCKERKEY_PERM}</span>
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>TS_ROUTES=10.0.0.0/8</span>
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>TS_USERSPACE=0</span>
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>TS_STATE_DIR=/var/lib/tailscale</span>
@@ -37,7 +38,7 @@ This allows your computers to refer to each other by name rather than IP address
 </span></span><span style=display:flex><span>    <span style=color:#f92672>cap_add</span><span style=color:#111>:</span> 
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>NET_ADMIN</span>
 </span></span><span style=display:flex><span>      - <span style=color:#ae81ff>NET_RAW</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>command</span><span style=color:#111>:</span> <span style=color:#ae81ff>bash -c &#34;tailscaled &amp; tailscale up --authkey ${DOCKERKEY_PERM} &amp;&amp; source /opt/ros/humble/setup.bash &amp;&amp; ros2 run demo_nodes_cpp talker&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>command</span><span style=color:#111>:</span> <span style=color:#ae81ff>bash -c &#34;tailscaled &amp; tailscale up --authkey ${TS_AUTHKEY} &amp;&amp; source /opt/ros/humble/setup.bash &amp;&amp; ros2 run demo_nodes_cpp talker&#34;</span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>restart</span><span style=color:#111>:</span> <span style=color:#ae81ff>unless-stopped</span>
 </span></span></code></pre></div><p>create a subfolder called <code>shared</code>. Inside, create a file called <code>fast.xml</code> and paste in the following contents:</p><p>Replace <code>[HOSTNAME1]</code> and <code>[HOSTNAME2]</code> with the hostname or IP address of your computers as seen in the tailscale administrative interface. If you anticipate the ip address changing, for example if one of the machines is a docker container without ip address permanence enabled, it is suggested to use the hostname. This is only possible with &ldquo;magicdns&rdquo; enabled.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=display:flex><span><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; ?&gt;</span>
 </span></span><span style=display:flex><span><span style=color:#f92672>&lt;profiles</span> <span style=color:#75af00>xmlns=</span><span style=color:#d88200>&#34;http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles&#34;</span><span style=color:#f92672>&gt;</span>
