@@ -396,7 +396,10 @@ stat -c '%A %a %n' /path/to/filename
 list disks with ```lsblk```
 
 ```bash
-lsblk -f #list device details like uuid
+lsblk -f #list filesystem details
+lsblk -t #show topology
+lsblk -i # use ascii
+lsblk -o NAME,UUID # show specific columns
 sudo lshw -class disk
 sudo fdisk -l
 sudo hwinfo --disk
