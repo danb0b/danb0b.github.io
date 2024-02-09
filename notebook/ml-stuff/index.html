@@ -12,9 +12,15 @@
 </span></span><span style=display:flex><span><span style=color:#75715e># pip install git+https://github.com/Farama-Foundation/Gymnasium.git # addresses issue between mujoco3 and gymnasium .29</span>
 </span></span><span style=display:flex><span>conda install jupyter
 </span></span><span style=display:flex><span>conda install -c conda-forge libstdcxx-ng <span style=color:#75715e>#fix for anaconda linux, found here: https://stackoverflow.com/questions/71010343/cannot-load-swrast-and-iris-drivers-in-fedora-35/72200748#72200748</span>
-</span></span><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#34;export PATH=\$PATH:</span><span style=color:#111>$HOME</span><span style=color:#d88200>/.local/bin&#34;</span> &gt;&gt; .bashrc
 </span></span><span style=display:flex><span><span style=color:#75715e># conda env config vars set MUJOCO_GL=glfw PYOPENGL_PLATFORM=glfw</span>
 </span></span><span style=display:flex><span>conda deactivate <span style=color:#f92672>&amp;&amp;</span> conda activate mujoco
+</span></span></code></pre></div><p>plain python environment</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python3 -m venv ~/envs/sb3
+</span></span><span style=display:flex><span>. envs/sb3/bin/activate
+</span></span><span style=display:flex><span>pip install stable-baselines3<span style=color:#f92672>[</span>extra<span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>pip install <span style=color:#111>mujoco</span><span style=color:#f92672>==</span>2.3.7
+</span></span><span style=display:flex><span>pip install gymnasium<span style=color:#f92672>[</span>mujoco<span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>pip install jupyter
+</span></span></code></pre></div><p>some things get installed in .local/bin, so we need to do</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#34;export PATH=\$PATH:</span><span style=color:#111>$HOME</span><span style=color:#d88200>/.local/bin&#34;</span> &gt;&gt; .bashrc
 </span></span></code></pre></div><h2 id=heading></h2><ol><li>conda activate sb3</li><li>git clone rl zoo</li><li>cd rl zoo</li><li>pip install -e .</li></ol><h2 id=pytorch-workflow>Pytorch workflow</h2><p><a href=https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/>https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/</a>
 <a href=https://keras.io/guides/writing_a_custom_training_loop_in_torch/>https://keras.io/guides/writing_a_custom_training_loop_in_torch/</a></p><h2 id=sb3>SB3</h2><p><a href=https://stable-baselines3.readthedocs.io/>https://stable-baselines3.readthedocs.io/</a>
 <a href="https://github.com/DLR-RM/stable-baselines3?tab=readme-ov-file">https://github.com/DLR-RM/stable-baselines3?tab=readme-ov-file</a>
