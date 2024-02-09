@@ -14,12 +14,15 @@ systemctl status fstrim
 ```
 
 check swappiness
+
+```bash
 cat /etc/sysctl.conf | grep -i swappiness
+```
 
-sudo nano /etc/sysctl.conf
-
-echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.conf
+```bash
+echo "vm.swappiness = 10" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
+```
 
 apt clean - add to cron
 

@@ -54,7 +54,7 @@ Harden your config
 Derived from [this link](https://motorscript.com/security-hardening-ssh-linux-server/) and [this link](https://linux-audit.com/audit-and-harden-your-ssh-configuration/)
 
 ```
-cat <<EOT >> 99-local-sshd.conf
+cat <<EOT | sudo tee  /etc/ssh/sshd_config.d/99-local-sshd.conf
 #AllowUsers username1 username2
 #Port 23456
 IgnoreRhosts yes
@@ -95,10 +95,8 @@ ClientAliveCountMax 0
 
 EOT
 
-chmod 644 99-local-sshd.conf
-sudo cp 99-local-sshd.conf /etc/ssh/sshd_config.d/
-sudo /etc/init.d/ssh reload #Reload or restart the ssh server
-rm 99-local-sshd.conf
+sudo chmod 644 /etc/ssh/sshd_config.d/99-local-sshd.conf
+sudo systemctl restart ssh 
 ```
 
 

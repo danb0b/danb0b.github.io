@@ -17,18 +17,11 @@ sudo systemctl start fail2ban
 sudo systemctl status fail2ban 
 ```
 
-enter interactive mode
-
-```bash
-sudo -i
-```
-
 config fail2ban for ufw
 
 ```bash
-echo "[DEFAULT]" >> /etc/fail2ban/jail.local
-echo "banaction=ufw" >> /etc/fail2ban/jail.local
-exit
+echo "[DEFAULT]" | sudo tee -a /etc/fail2ban/jail.local
+echo "banaction=ufw" | sudo tee -a /etc/fail2ban/jail.local
 ```
 
 restart the service and check

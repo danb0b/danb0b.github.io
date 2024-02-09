@@ -21,11 +21,58 @@ sudo apt update
 Install new packages
 
 ```bash
-sudo apt install -y synaptic kdiff3 samba ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl httrack webhttrack youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop solaar tree etherwake ethtool iperf kiwix-tools ipe
+sudo apt install -y synaptic \
+kdiff3 \
+samba \
+ffmpeg \
+qdirstat \
+net-tools \
+wireguard \
+openresolv \
+fritzing  \
+dconf-editor \
+kicad \
+openssh-server \
+remmina \
+usb-creator-gtk \
+gmsh \
+tmux \
+nmap \
+p7zip-full \
+sound-juicer \
+pdfgrep \
+gnome-tweaks \
+etherwake \
+ethtool \
+fonts-roboto* \
+libimage-exiftool-perl \
+httrack \
+webhttrack \
+youtube-dl \
+meld \
+cifs-utils \
+paper-icon-theme \
+gnome-shell-extensions \
+libheif-examples \
+autossh \
+qrencode \
+zbar-tools \
+qtqr \
+v4l2loopback-dkms \
+v4l-utils \
+gitg \
+htop \
+solaar \
+tree \
+etherwake \
+ethtool \
+iperf \
+kiwix-tools \
+ipe \
+darktable \
+wkhtmltopdf \
+exfat-fuse exfatprogs \
 # sudo apt install -y clementine # not my favorite
-sudo apt install -y darktable
-sudo apt install -y wkhtmltopdf
-sudo apt install -y exfat-fuse exfatprogs
 ```
 
 ## Flatpak
@@ -190,7 +237,7 @@ echo "alias python=python3" >> ~/.bashrc
 1. add to path
 
     ```bash
-    echo "export PATH=\$PATH:/opt/cisco/anyconnect/bin" >> ~/.bashrc
+    echo "export PATH=\$PATH:/opt/cisco/secureclient/bin" >> ~/.bashrc
     source ~/.bashrc 
     ```
 

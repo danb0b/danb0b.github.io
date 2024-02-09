@@ -9,6 +9,12 @@ tags:
 - ssh
 ---
 
+## Install gnome tweaks
+
+```bash
+sudo apt install gnome-tweaks
+```
+
 ## Tweaking the GUI
 
 1. Open "Extensions" and turn off desktop icons
