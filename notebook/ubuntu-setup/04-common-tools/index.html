@@ -6,11 +6,58 @@
 <button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://danaukes.com/notebook/>Notebook</a></li><li class=breadcrumb-item><a href=https://danaukes.com/notebook/ubuntu-setup/>Ubuntu Setup</a></li><li class="breadcrumb-item active"><a href=https://danaukes.com/notebook/ubuntu-setup/04-common-tools/>Install Common Tools</a></li></ol></nav></div><h2>Install Common Tools</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a></li><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a></li></ul><div class="content mb-5"><p>This assumes you installed a &ldquo;minimal&rdquo; version of Ubuntu</p><h2 id=apt-packages-first><code>apt</code> packages first</h2><p>Update your software first</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt update
 </span></span><span style=display:flex><span><span style=color:#75715e>#save this for the end</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># sudo apt upgrade -y  </span>
-</span></span></code></pre></div><p>Install new packages</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y synaptic kdiff3 samba ffmpeg qdirstat net-tools wireguard openresolv fritzing  dconf-editor kicad openssh-server remmina usb-creator-gtk gmsh tmux nmap p7zip-full sound-juicer pdfgrep gnome-tweaks etherwake ethtool fonts-roboto* libimage-exiftool-perl httrack webhttrack youtube-dl meld cifs-utils paper-icon-theme gnome-shell-extensions libheif-examples autossh qrencode zbar-tools qtqr v4l2loopback-dkms v4l-utils gitg htop solaar tree etherwake ethtool iperf kiwix-tools ipe
-</span></span><span style=display:flex><span><span style=color:#75715e># sudo apt install -y clementine # not my favorite</span>
-</span></span><span style=display:flex><span>sudo apt install -y darktable
-</span></span><span style=display:flex><span>sudo apt install -y wkhtmltopdf
-</span></span><span style=display:flex><span>sudo apt install -y exfat-fuse exfatprogs
+</span></span></code></pre></div><p>Install new packages</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y synaptic <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>kdiff3 <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>samba <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ffmpeg <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>qdirstat <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>net-tools <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>wireguard <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>openresolv <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>fritzing  <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>dconf-editor <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>kicad <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>openssh-server <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>remmina <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>usb-creator-gtk <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>gmsh <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>tmux <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>nmap <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>p7zip-full <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>sound-juicer <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>pdfgrep <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>gnome-tweaks <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>etherwake <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ethtool <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>fonts-roboto* <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>libimage-exiftool-perl <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>httrack <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>webhttrack <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>youtube-dl <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>meld <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>cifs-utils <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>paper-icon-theme <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>gnome-shell-extensions <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>libheif-examples <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>autossh <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>qrencode <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>zbar-tools <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>qtqr <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>v4l2loopback-dkms <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>v4l-utils <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>gitg <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>htop <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>solaar <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>tree <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>etherwake <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ethtool <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>iperf <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>kiwix-tools <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ipe <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>darktable <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>wkhtmltopdf <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>exfat-fuse exfatprogs <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span><span style=color:#75715e># sudo apt install -y clementine # not my favorite</span>
 </span></span></code></pre></div><h2 id=flatpak>Flatpak</h2><p>If you haven&rsquo;t yet already&mldr;</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># install</span>
 </span></span><span style=display:flex><span>sudo apt install -y flatpak
 </span></span><span style=display:flex><span><span style=color:#75715e>#if you want to install from software GUI</span>
@@ -65,7 +112,7 @@
 </span></span><span style=display:flex><span>sudo bash install.sh
 </span></span></code></pre></div><p>you need to modify .bashrc to point python3 to python because we use anaconda</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#34;alias python=python3&#34;</span> &gt;&gt; ~/.bashrc
 </span></span></code></pre></div><h3 id=cisco-vpn-for-asu>Cisco VPN for ASU</h3><ol><li><p>Go to <a href=https://sslvpn.asu.edu/>https://sslvpn.asu.edu/</a> and install the linux client</p></li><li><p>Extract installer image. Locate the download file anyconnect-linux64-#.#.#####-core-vpn-webdeploy-k9.sh.</p></li><li><p>Open Terminal and issue the command:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo bash anyconnect-linux*.sh
-</span></span></code></pre></div></li><li><p>add to path</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#34;export PATH=\$PATH:/opt/cisco/anyconnect/bin&#34;</span> &gt;&gt; ~/.bashrc
+</span></span></code></pre></div></li><li><p>add to path</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>echo</span> <span style=color:#d88200>&#34;export PATH=\$PATH:/opt/cisco/secureclient/bin&#34;</span> &gt;&gt; ~/.bashrc
 </span></span><span style=display:flex><span><span style=color:#111>source</span> ~/.bashrc 
 </span></span></code></pre></div></li><li><p>to run from command line, run <code>vpn connect</code> or <code>vpn disconnect</code></p></li></ol><h3 id=virtualbox>Virtualbox</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-guest-utils
 </span></span><span style=display:flex><span>sudo usermod -a -G vboxusers <span style=color:#111>$USER</span>
