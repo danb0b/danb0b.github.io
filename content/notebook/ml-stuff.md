@@ -10,9 +10,25 @@ pip install gymnasium[mujoco]
 # pip install git+https://github.com/Farama-Foundation/Gymnasium.git # addresses issue between mujoco3 and gymnasium .29
 conda install jupyter
 conda install -c conda-forge libstdcxx-ng #fix for anaconda linux, found here: https://stackoverflow.com/questions/71010343/cannot-load-swrast-and-iris-drivers-in-fedora-35/72200748#72200748
-echo "export PATH=\$PATH:$HOME/.local/bin" >> .bashrc
 # conda env config vars set MUJOCO_GL=glfw PYOPENGL_PLATFORM=glfw
 conda deactivate && conda activate mujoco
+```
+
+plain python environment
+
+```bash
+python3 -m venv ~/envs/sb3
+. envs/sb3/bin/activate
+pip install stable-baselines3[extra]
+pip install mujoco==2.3.7
+pip install gymnasium[mujoco]
+pip install jupyter
+```
+
+some things get installed in .local/bin, so we need to do
+
+```bash
+echo "export PATH=\$PATH:$HOME/.local/bin" >> .bashrc
 ```
 
 ##
