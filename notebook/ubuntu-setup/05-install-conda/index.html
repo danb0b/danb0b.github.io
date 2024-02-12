@@ -18,25 +18,29 @@ conda init powershell
 </code></pre><h2 id=install-packages>Install Packages</h2><p>Update Conda</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda update -y -n base conda
 </span></span></code></pre></div><h3 id=install-full-anaconda>Install full anaconda</h3><p>If you&rsquo;ve installed miniconda only and realize you want the full anaconda pipeline</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda install -y anaconda
 </span></span></code></pre></div><h3 id=conda-packages-not-included-in-anaconda>Conda packages not included in anaconda</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
+</span></span><span style=display:flex><span>conda install -y -c conda-forge scikit-fem
 </span></span><span style=display:flex><span><span style=color:#75715e>#conda install -y pandoc #the version of pandoc shipped by conda is old.</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#conda install -y paramiko pycrypto requests[socks]</span>
-</span></span><span style=display:flex><span>conda install -c conda-forge scikit-fem
 </span></span></code></pre></div><h3 id=install-pip-packages>Install pip packages</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python -m pip install --upgrade pip
-</span></span><span style=display:flex><span>pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot
-</span></span><span style=display:flex><span>pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify
-</span></span><span style=display:flex><span>pip install pandoc-fignos pandoc-eqnos pandoc-crossref
+</span></span><span style=display:flex><span>pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>pandoc-fignos pandoc-eqnos pandoc-crossref
 </span></span></code></pre></div><h3 id=fix-for-pandoc-eqnos>Fix for pandoc eqnos</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pip3 install --force-reinstall git+https://github.com/nandokawka/pandoc-xnos@284474574f51888be75603e7d1df667a0890504d#egg<span style=color:#f92672>=</span>pandoc-xnos
 </span></span></code></pre></div><p>according to <a href=https://github.com/tomduck/pandoc-xnos/pull/29>here</a>, until the PR is merged, do the above.</p><h3 id=gmsh>gmsh</h3><p>the pip version of gmsh has issues on ubuntu, so use apt to install</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#pip install gmsh</span>
-</span></span><span style=display:flex><span>pip installl pygmsh
-</span></span></code></pre></div><h3 id=pandoc-citeproc>pandoc citeproc</h3><p>windows</p><pre tabindex=0><code>pip install pandoc-citeproc
-</code></pre><p>ubuntu</p><pre tabindex=0><code>sudo apt install -y pandoc-citeproc
-</code></pre><h3 id=pip-packages-that-need-a-compiler-optional>Pip packages that need a compiler (optional)</h3><pre tabindex=0><code>sudo apt install -y build-essential
-pip install spectrum pybullet roslibpy esptool
-</code></pre><h3 id=update-everything-to-make-sure-its-all-consistent>Update everything to make sure it&rsquo;s all consistent</h3><pre tabindex=0><code>conda update -y --all
+</span></span><span style=display:flex><span>pip install pygmsh
+</span></span></code></pre></div><h3 id=pandoc-citeproc>pandoc citeproc</h3><p>windows</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pip install pandoc-citeproc
+</span></span></code></pre></div><p>ubuntu</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#deprecated, not available</span>
+</span></span><span style=display:flex><span>sudo apt install -y pandoc-citeproc
+</span></span></code></pre></div><h3 id=pip-packages-that-need-a-compiler-optional>Pip packages that need a compiler (optional)</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y build-essential
+</span></span><span style=display:flex><span>pip install esptool
+</span></span><span style=display:flex><span><span style=color:#75715e>#pip install spectrum pybullet roslibpy # not used</span>
+</span></span></code></pre></div><h3 id=update-everything-to-make-sure-its-all-consistent>Update everything to make sure it&rsquo;s all consistent</h3><pre tabindex=0><code>conda update -y --all
 </code></pre><h2 id=other-environments>Other Environments</h2><h3 id=pychrono>PyChrono</h3><p>To install chrono, you must make a different environment, as it conflicts with some of the packages here.</p><pre tabindex=0><code>sudo apt install libirrlicht-dev
 
 conda create -n chrono
 conda activate chrono
+conda install pip
 conda install -y -c projectchrono/label/develop pychrono
 conda install -y spyder numpy matplotlib scipy
 conda install -c dlr-sc pythonocc-core #permits you to use python-occ to generate some geometry
@@ -51,6 +55,7 @@ pip install
 </code></pre><h3 id=older-debuggable-python>Older debuggable python</h3><pre tabindex=0><code>conda create -y -n debug python=3.5 spyder=3.1.4
 activate debug
 conda update conda
+conda install pip
 conda install -y menuinst
 conda install -y  ipykernel=4.8 cython mkl imageio jinja2 jupyter lxml matplotlib networkx numpy pandoc pillow pyflakes pyqt pyyaml ruamel_yaml scipy setuptools sphinx spyder sympy tornado
 conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo
@@ -72,12 +77,14 @@ conda install pycrypto opencv requests pyserial
 pip install ntplib pygame pygraphviz pysftp smtplib
 </code></pre><h3 id=pythonocc>PythonOCC</h3><pre tabindex=0><code>conda create -y -n occ python ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
 activate occ
+conda install pip
 conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
 conda install -y  ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
 conda update -y -n base conda
 conda update -y --all
 </code></pre><h3 id=opencv-install>OpenCV install</h3><pre tabindex=0><code>conda create -n opencv python=3.7
 conda activate opencv
+conda install pip
 conda install spyder opencv pyopencv
 pip install imutils
 </code></pre><h3 id=conda-packages-not-available-from-main-channels>Conda packages not available from main channels</h3><pre tabindex=0><code>conda install -c conda-forge scikit-geometry poppler
