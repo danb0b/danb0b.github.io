@@ -208,6 +208,7 @@ ffmpeg gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-u
 ```bash
 conda create -n cv
 conda activate cv
+conda install pip
 conda install -y jupyter matplotlib numpy scipy
 conda install -y -c conda-forge opencv
 ```

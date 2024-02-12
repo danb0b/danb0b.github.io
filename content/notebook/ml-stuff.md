@@ -1,17 +1,19 @@
 ## Commands
 
 ```bash
-conda create -y -n sb3
+conda create -y -n sb3 python=3.11 # no mujoco2.3.7 version for python 3.12
 conda activate sb3
-pip install stable-baselines3[extra]
+conda install pip
 pip install mujoco==2.3.7
-# pip install gymnasium
 pip install gymnasium[mujoco]
+pip install stable-baselines3[extra]
+# pip install gymnasium
 # pip install git+https://github.com/Farama-Foundation/Gymnasium.git # addresses issue between mujoco3 and gymnasium .29
-conda install jupyter
-conda install -c conda-forge libstdcxx-ng #fix for anaconda linux, found here: https://stackoverflow.com/questions/71010343/cannot-load-swrast-and-iris-drivers-in-fedora-35/72200748#72200748
+conda install -y jupyter
+conda install -y -c conda-forge libstdcxx-ng #fix for anaconda linux, found here: https://stackoverflow.com/questions/71010343/cannot-load-swrast-and-iris-drivers-in-fedora-35/72200748#72200748
 # conda env config vars set MUJOCO_GL=glfw PYOPENGL_PLATFORM=glfw
-conda deactivate && conda activate mujoco
+conda env config vars set MUJOCO_GL=osmesa PYOPENGL_PLATFORM=osmesa
+conda deactivate && conda activate sb3
 ```
 
 plain python environment

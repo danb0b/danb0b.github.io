@@ -79,18 +79,19 @@ conda install -y anaconda
 
 ```bash
 conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
+conda install -y -c conda-forge scikit-fem
 #conda install -y pandoc #the version of pandoc shipped by conda is old.
 #conda install -y paramiko pycrypto requests[socks]
-conda install -c conda-forge scikit-fem
 ```
 
 ### Install pip packages
 
 ```bash
 python -m pip install --upgrade pip
-pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot
-pip install mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify
-pip install pandoc-fignos pandoc-eqnos pandoc-crossref
+pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem \
+fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot \
+mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify \
+pandoc-fignos pandoc-eqnos pandoc-crossref
 ```
 
 ### Fix for pandoc eqnos
@@ -107,7 +108,7 @@ the pip version of gmsh has issues on ubuntu, so  use apt to install
 
 ```bash
 #pip install gmsh
-pip installl pygmsh
+pip install pygmsh
 ```
 
 
@@ -116,21 +117,23 @@ pip installl pygmsh
 
 windows
 
-```
+```bash
 pip install pandoc-citeproc
 ```
 
 ubuntu
 
-```
+```bash
+#deprecated, not available
 sudo apt install -y pandoc-citeproc
 ```
 
 ### Pip packages that need a compiler (optional)
 
-```
+```bash
 sudo apt install -y build-essential
-pip install spectrum pybullet roslibpy esptool
+pip install esptool
+#pip install spectrum pybullet roslibpy # not used
 ```
 
 ### Update everything to make sure it's all consistent
@@ -150,6 +153,7 @@ sudo apt install libirrlicht-dev
 
 conda create -n chrono
 conda activate chrono
+conda install pip
 conda install -y -c projectchrono/label/develop pychrono
 conda install -y spyder numpy matplotlib scipy
 conda install -c dlr-sc pythonocc-core #permits you to use python-occ to generate some geometry
@@ -197,6 +201,7 @@ python setup.py install
 conda create -y -n debug python=3.5 spyder=3.1.4
 activate debug
 conda update conda
+conda install pip
 conda install -y menuinst
 conda install -y  ipykernel=4.8 cython mkl imageio jinja2 jupyter lxml matplotlib networkx numpy pandoc pillow pyflakes pyqt pyyaml ruamel_yaml scipy setuptools sphinx spyder sympy tornado
 conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo
@@ -223,6 +228,7 @@ pip install ntplib pygame pygraphviz pysftp smtplib
 ```
 conda create -y -n occ python ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
 activate occ
+conda install pip
 conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
 conda install -y  ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
 conda update -y -n base conda
@@ -234,6 +240,7 @@ conda update -y --all
 ```
 conda create -n opencv python=3.7
 conda activate opencv
+conda install pip
 conda install spyder opencv pyopencv
 pip install imutils
 ```

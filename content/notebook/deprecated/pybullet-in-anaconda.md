@@ -79,6 +79,7 @@ So I created a new environment, just for pybullet.
 conda create -n pybullet
 conda activate pybullet
 conda install python
+conda install pip
 conda install -c conda-forge gcc
 pip install pybullet
 ```
