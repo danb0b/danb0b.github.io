@@ -79,7 +79,7 @@ conda install -y anaconda
 
 ```bash
 conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
-conda install -y -c conda-forge scikit-fem
+conda install -y -c conda-forge scikit-fem vispy
 #conda install -y pandoc #the version of pandoc shipped by conda is old.
 #conda install -y paramiko pycrypto requests[socks]
 ```
@@ -141,6 +141,15 @@ pip install esptool
 ```
 conda update -y --all
 ```
+
+### Wayland Pyqtgraph / qt5 issue
+
+<https://stackoverflow.com/questions/69994530/qt-qpa-plugin-could-not-find-the-qt-platform-plugin-wayland>
+
+add this to .bashrc
+
+export QT_QPA_PLATFORM="xcb"
+
 
 ## Other Environments
 
