@@ -155,3 +155,19 @@ gym jupyter stable baselines You tried to call render() but no `render_mode` was
 <https://math.stackexchange.com/questions/3680708/what-is-the-difference-between-the-jacobian-hessian-and-the-gradient>
 
 <https://en.wikipedia.org/wiki/Hessian_matrix>
+
+
+## Donkeycar
+
+https://medium.com/@vigosslive2/self-driving-with-reinforcement-learning-in-donkeycar-simulator-ea4f3f85c609
+https://mushr.io/tutorials/deep_learning/
+
+
+Duckietown
+
+<https://github.com/orgs/duckietown/repositories?type=all>
+<https://duckietown.com/guides/start-teaching/>
+<https://duckietown.com/educational-resources/>
+
+turtlebot 
+https://github.com/ITTcs/gym-turtlebot3
