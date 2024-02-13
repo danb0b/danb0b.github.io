@@ -584,3 +584,10 @@ use pkexec to do things you would normally do with sudo, like
 pkexec cp /path/to/sudo/backup /etc/sudoers
 
 great advice from here: <https://askubuntu.com/questions/438123/accidentally-deleted-etc-sudoers-file>
+
+
+## Networking
+
+```bash
+nm-connection-editor
+```
