@@ -85,26 +85,6 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 
 * <https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>
 
 
-## Arduino Instructions
-
-[Install Arduino](/notebook/computer-setup/03-common-tools)
-
-Follow this [tutorial](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/) to install ESP32 support on arduino
-
-### Alert
-
-If you have python3 installed and linked to python, you'll need to direct arduino to use it
-
-```bash
-echo "alias python=python3" >> .bashrc
-```
-
-then open arduino from the terminal
-
-```bash
-arduino
-```
-
 ## Pinout
 
 ![from https://randomnerdtutorials.com/getting-started-with-esp32/](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/08/ESP32-DOIT-DEVKIT-V1-Board-Pinout-30-GPIOs-Copy.png)

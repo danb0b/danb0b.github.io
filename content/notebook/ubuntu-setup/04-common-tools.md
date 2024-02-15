@@ -62,7 +62,6 @@ v4l2loopback-dkms \
 v4l-utils \
 gitg \
 htop \
-solaar \
 tree \
 etherwake \
 ethtool \
@@ -71,7 +70,8 @@ kiwix-tools \
 ipe \
 darktable \
 wkhtmltopdf \
-exfat-fuse exfatprogs \
+exfat-fuse exfatprogs
+# solaar # battery drain?
 # sudo apt install -y clementine # not my favorite
 ```
 
@@ -101,7 +101,6 @@ org.audacityteam.Audacity \
 org.videolan.VLC \
 com.bitwarden.desktop \
 com.slack.Slack \
-us.zoom.Zoom \
 org.gnome.Cheese \
 org.signal.Signal \
 org.shotcut.Shotcut \
@@ -116,7 +115,8 @@ com.authy.Authy \
 com.jetpackduba.Gitnuro \
 org.kiwix.desktop \
 net.xm1math.Texmaker\
-com.github.xournalpp.xournalpp \
+com.github.xournalpp.xournalpp
+#us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
 ```
@@ -148,6 +148,10 @@ sudo snap remove firefox
 * add whole filesystem to mozilla
 * add user files to thunderbird
 
+
+### Zoom
+
+<https://zoom.us/download#client_4meeting>
 
 ### Ubuntu Mainline
 

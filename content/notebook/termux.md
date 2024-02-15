@@ -40,3 +40,13 @@ ip a
 https://www.modmy.com/how-modify-hosts-file-your-android-device
 ./adb pull /system/etc/hosts ./
 
+## Termux api
+
+install termux api package from fdroid
+
+pkg install termux-api
+
+termux-microphone record -l 3 -f test.aac -e aac
+termux-camera-photo -c 0 test.jpg
+
+<https://wiki.termux.com/wiki/Termux:API>
