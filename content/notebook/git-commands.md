@@ -51,6 +51,14 @@ delete remote branch
 git push origin --delete <remote/branch-name>
 ```
 
+check out all remote branches to a local branch:
+
+```bash
+for remote in `git branch -r | grep -v /HEAD`; do git checkout --track $remote ; done
+```
+
+from [here](https://stackoverflow.com/questions/379081/track-all-remote-git-branches-as-local-branches)
+
 ## Status
 
 Sometimes you want to see what has changed.  ```git status``` can be used to see which files have changed since the last commit.  Otherwise, you can use ```git diff``` to more closely inspect file changes line by line

@@ -136,3 +136,9 @@ docker history --no-trunc <imagename>
 ```bash
 docker build --no-cache
 ```
+
+## see all text
+
+```bash
+docker build --progress plain
+```
