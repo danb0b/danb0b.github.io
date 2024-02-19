@@ -126,3 +126,8 @@ This is probably dated and needs a good house-cleaning...
 
 * [Smooth-On, Inc. - Mold Making & Casting Materials - Rubbers, Plastics, Foams & More!](https://www.smooth-on.com/)
 * [Specialty Silicones Manufacturer - Quantum Silicones - QSi](http://www.quantumsilicones.com/)
+
+## 3D Printing soft filament
+
+* <https://recreus.com/gb/content/35-filaflex>
+* <https://www.esun3d.com/elastic-tpe-83a-product/>
