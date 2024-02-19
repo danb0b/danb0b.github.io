@@ -24,6 +24,8 @@ docker attach 3378689f2069
 docker run —rm image_name
 docker system prune
 docker container prune
+docker network prune
+docker image prune
 ```
 
 ## Ubuntu Image
@@ -32,7 +34,7 @@ docker container prune
 docker pull ubuntu
 docker run -d -t ubuntu # run detached
 docker run -it ubuntu /bin/bash
-docker exec -it /bin/bash
+docker exec -it <containername> /bin/bash
 apt-get update
 docker compose run -it web /bin/bash
 ```
@@ -107,10 +109,6 @@ docker run \--name myjekyll -v c:/users/danaukes/websites:/srv/jekyll -it jekyll
 ```
 
 
-  [*https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde*]: https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
-  [*https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/*]: https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/
-  [*https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device*]: https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device
-
 
 
 ## SEe the dockerfile
@@ -142,3 +140,10 @@ docker build --no-cache
 ```bash
 docker build --progress plain
 ```
+
+
+
+  [*https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde*]: https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
+  [*https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/*]: https://jack-kawell.com/2019/09/11/setting-up-ros-in-windows-through-docker/
+  [*https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device*]: https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device
+

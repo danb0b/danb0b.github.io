@@ -35,20 +35,6 @@ sudo usermod -a -G vboxusers $USER
 
 
 
-
-## Docker info
-
-https://towardsdatascience.com/how-to-run-jupyter-notebook-on-docker-7c9748ed209f
-https://medium.com/@18bhavyasharma/setting-up-and-running-jupyter-notebook-in-a-docker-container-d2acd713ce66
-https://www.dataquest.io/blog/docker-data-science/
-https://towardsdev.com/run-a-jupyter-notebook-in-a-docker-container-on-your-local-device-80ccd9570e4f
-
-## Jupyter setup and security
-
-https://jupyter-server.readthedocs.io/en/latest/operators/security.html#
-https://jupyter-server.readthedocs.io/en/latest/users/configuration.html\
-
-
 ## Coding
 
 
