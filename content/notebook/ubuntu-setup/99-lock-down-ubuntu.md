@@ -34,3 +34,4 @@ weight: 999
 1. set up logging
 1. set / update vnc passwords
 1. check out AppArmor
+1. enable global privacy control: https://blog.mozilla.org/netpolicy/2021/10/28/implementing-global-privacy-control/
