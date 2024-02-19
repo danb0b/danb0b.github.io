@@ -17,13 +17,14 @@ ubuntu 22.04 only:
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install libpython3.8 python3.8 python3-pip python3.8-distutils #https://stackoverflow.com/questions/77233855/why-did-i-got-an-error-modulenotfounderror-no-module-named-distutils
-python3.8 -m pip install numpy scipy jupyter
+sudo apt remove python3-pil
+python3.8 -m pip install numpy scipy jupyter matplotlib pillow
 sudo apt install libopengl0
 add to bashrc
 export PATH=/home/danaukes/.local/bin:$PATH
 
 export SOFA_ROOT=/home/danaukes/sofa/SOFA_v23.06.00_Linux
-export PYTHONPATH=/home/danaukes/sofa/SOFA_v23.06.00_Linux/plugins/SofaPython3/lib/python3/site-packages:$PYTHONPATH
+export PYTHONPATH=$PYTHONPATH:/home/danaukes/sofa/SOFA_v23.06.00_Linux/plugins/SofaPython3/lib/python3/site-packages
 export PATH=/home/danaukes/sofa/SOFA_v23.06.00_Linux/bin:$PATH
 
      
@@ -51,10 +52,8 @@ https://jupyter-server.readthedocs.io/en/latest/users/configuration.html\
 ## Coding
 
 
-https://sofapython3.readthedocs.io/en/latest/content/FirstSteps.html
-
-https://sofapython3.readthedocs.io/en/latest/content/FirstSteps.html
-https://sofapython3.readthedocs.io/en/latest/content/CustomModule.html
+* <https://sofapython3.readthedocs.io/en/latest/content/FirstSteps.html>
+* <https://sofapython3.readthedocs.io/en/latest/content/CustomModule.html>
 
 ## GL issues
 
