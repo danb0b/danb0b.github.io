@@ -1,5 +1,5 @@
 ---
-ubuntu studio
+title: ubuntu studio
 ---
 
 get a message about kvm
