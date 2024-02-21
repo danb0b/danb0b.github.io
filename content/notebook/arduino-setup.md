@@ -1,10 +1,11 @@
 ---
-title: Arduino IDE setup for Dynamixel
+title: Arduino IDE setup for Dynamixel, ESP32, and other IDEAlab devices
 tags:
 - arduino
 - dynamixel
 - opencm
 - ESP32
+- idealab
 ---
 
 ```bash
@@ -18,6 +19,7 @@ sudo apt install fuse3 libfuse2 libfuse3-3
 
 library manager
 dynamixel2arduino
+simplefoc
 
 ## Board manager
 
