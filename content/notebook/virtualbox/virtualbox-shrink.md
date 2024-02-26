@@ -41,7 +41,6 @@ In this tutorial we assume a linux host and a windows guest
 1. write zeros to hard drive
 
     ```cmd
-    cd z:/
     .\sdelete.exe c: -z   
     ```
 
