@@ -27,6 +27,10 @@ lspci -k
 dmesg
 ```
 
+## Crontab
+
+how to run python scripts: <https://www.geeksforgeeks.org/how-to-schedule-python-scripts-as-cron-jobs-with-crontab/>
+
 ## search path
 
 .bashrc holds path variables.
