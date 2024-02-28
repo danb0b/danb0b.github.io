@@ -24,7 +24,7 @@ There are also some significant downsides to using it, including:
 * dockerfiles are a black box.  Unless they were intentionally shared and documented, you don't necessarily know what the creator put inside.  This can be a security issue, but in terms of education it obscures some of the learning.  (This can be a good thing _and_ a bad thing.)
 * then you have to learn docker too!
 
-But, we have interactive web apps like Jupyter that can bridge some of the gap.  Docker compose has also taken much of the configuration issue away from traditional docker images and containers, because you can put almost everything you need in a much better, self-documented yaml file.
+But, we have interactive web apps like Jupyter that can bridge some of the gap.  Docker compose has also solved some of the configuration issues associatd with running traditional docker images and containers, because you can put almost everything you need in a much better, self-documented yaml file.
 
 Finally, while tools like Google Colab may use similar approaches to provide a jupyter front-end to python over the web, there is no guarantee that those tools are going to be available and free in the longer term.  I thought it would be a good idea to see what the state of Jupyter over Docker is, to see if I can commonize the Python experience for students and take some of the installation guesswork out of the process, while enabling as much of the traditional python programming experience as I can.
 
@@ -120,6 +120,16 @@ services:
     ports:
       - 8888:8888  
 ```
+
+## Words of warning
+
+This solution does not work very well for cases that
+
+* require hardware acceleration
+* require opengl
+* require PyQt5 or other GUIs
+
+this all comes down to the fact that docker out of the box does not support guis or connect well to user-specific hardware.  I have gotten some workarounds to this, but nothing coherent enough that it provides a general solution to the above problems.  So for now, its great for basic computing, but not so great for visualization or accelerated tasks.
 
 ## External Resources
 
