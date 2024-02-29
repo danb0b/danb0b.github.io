@@ -9,13 +9,13 @@ draft: true
 
 The purpose of this article is to document some of my best practices in my work setup.  I will try to detail how they are all connected together in this blog, and connect it to specific tutorials and how-to's located elsewhere, if necessary.
 
-Keep in mind that many of the projects I've listed here have been 5+ years in the making; I have slowly, glacially, changed as my needs have gotten more pressing.  First one thing, then the other.
+Keep in mind that many of these platforms I've switched to listed here have taken multiple years to make the switch smoothly; I have slowly, glacially, changed as my needs have gotten more pressing.  First one thing, then the other.  Perhaps for you it will be easier, with tools that are more mature (and some advice from me).
 
 ## Software Stack
 
 ### Ubuntu
 
-I finally switched over to Ubuntu full time about 2 years ago, though te love affair goes back decades.  My original Linux installation was dapper drake, some time in the 2005-2007 time frame, on a home-built pc I put together.  It was great, and I didn't just try it out briefly but had it installed for a while.  I even got RAID working with my built in motherboard controller, which was impressive for me at the time, but ultimately it didn't work, because some of my favorite software from work and school, including Matlab, Solidworks, Visual Studio, etc, were not released for Linux, requiring me to have a second computer.
+I finally switched over to Ubuntu full time about 2 years ago, though the love affair goes back decades.  My original Linux installation was dapper drake, some time in the 2005-2007 time frame, on a home-built pc I put together.  I was proud that I did it myself back then, and I didn't just try it out briefly but had it installed for a while.  I even got RAID working with my built in motherboard controller, which was impressive for me at the time, but ultimately it didn't work, because some of my favorite software from work and school, including Matlab, Solidworks, Visual Studio, etc, were not released for Linux, requiring me to have a second computer.
 
 Moving forward to grad school, I was doing my PhD when ROS first came on the market.  It was inextricably tied to Ubuntu at the time, which gave me a reason to revisit it.  I got into linux again for the second time.  It was usable, but again, I was still tied to Solidworks.
 
@@ -24,6 +24,10 @@ It was also during this time that I made the migration from Matlab to Python, be
 I finally made the plunge, not so much because I was no longer using Solidworks (which I hadn't used consistently in a long time), but because I was no longer in control of my Windows experience at work.  So many things had been locked down that it was harder to manage my own networking needs, install my own software, or remove "required" bloatware that was bogging down my system.  Linux was still the wild west for my IT department, which gave me the freedom to self manage my own networking and security.
 
 So I re-installed Ubuntu (20.04) and started solving the problems associated with disconnecting from Windows, Office, and the like.  I stick with LTS releases of Ubuntu to minimize any stability issues, and to hone in on best practices for each major release than to constantly be missing a moving target.
+
+### Coding
+
+It should be no surprise that I am fully into Python, 
 
 ### Writing
 

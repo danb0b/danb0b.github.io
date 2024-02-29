@@ -10,27 +10,13 @@ tags:
 
 ## Introduction
 
-Python is a bit of a mess these days.  There are a number of ways to install packages, and no one seems to agree what the right way forward is.  Dependencies work or don't work depending on how the package was installed.  Anaconda, which used to be my tried-and-true approach to a uniform experience across operating systems, has fallen victim to both "dependency hell" and a number of graphics issues on Linux lately for me.
-
-So, to support courses and to provide a uniform experience, I've been looking into docker  more.  There are a number of good reasons to use Docker, including
-
-* You get the same experience everywhere
-* A lot of the installation fuss is taken care of (by me)
-* You can share a small image with the whole class that is pre-tested
-
-There are also some significant downsides to using it, including:
-
-* Traditional GUI-based windowing systems are not supported.  Linux's migration towards Wayland has complicated matters that may have been solved earlier.
-* dockerfiles are a black box.  Unless they were intentionally shared and documented, you don't necessarily know what the creator put inside.  This can be a security issue, but in terms of education it obscures some of the learning.  (This can be a good thing _and_ a bad thing.)
-* then you have to learn docker too!
-
-But, we have interactive web apps like Jupyter that can bridge some of the gap.  Docker compose has also solved some of the configuration issues associatd with running traditional docker images and containers, because you can put almost everything you need in a much better, self-documented yaml file.
-
-Finally, while tools like Google Colab may use similar approaches to provide a jupyter front-end to python over the web, there is no guarantee that those tools are going to be available and free in the longer term.  I thought it would be a good idea to see what the state of Jupyter over Docker is, to see if I can commonize the Python experience for students and take some of the installation guesswork out of the process, while enabling as much of the traditional python programming experience as I can.
+This tutorial makes it possible to spin up a container with everything you need to run Python in a Jupyter notebook.
 
 ## Implementation
 
 ### File Structure
+
+The following is the folder structure of the project.
 
 ```bash
 .
@@ -38,7 +24,7 @@ Finally, while tools like Google Colab may use similar approaches to provide a j
 │   └── Dockerfile
 ├── build.bash
 ├── code
-│   └── your_code.py
+│   └── your_code.ipynb
 ├── docker-compose.yaml
 └── jupyter-config
     ├── jupyter_server_config.py
@@ -46,14 +32,13 @@ Finally, while tools like Google Colab may use similar approaches to provide a j
 
 ### Dockerfile
 
-in ```./build``` make a file called ```Dockerfile```.  Paste in the following
+in ```./build```, create an empty text file called ```Dockerfile```.  Paste in the following:
 
 ```dockerfile
 FROM python:3.11-bookworm
 WORKDIR /code
 
 RUN apt update && apt install -y python3-distutils python3-pip && \
-python -m pip install --upgrade pip && \
 python -m pip install numpy scipy jupyter matplotlib pillow
 #... add any other packages here
 #RUN python -m pip install ...
@@ -61,14 +46,16 @@ python -m pip install numpy scipy jupyter matplotlib pillow
 EXPOSE 8888 
 ```
 
+This short script is the recipe to create a new docker "image".  A docker image is a static, portable, shareable, and minimal operating system, with everything you need to perform typically one task.  In this case, the docker image starts from a release of Debian called "bookworm" with python 3.11 installed on top of it.  From this base image, we install the numpy, scipy, jupyter, matplotlib, and pillow packages.  This is enough to do some serious computing and plotting!
+
 ### Build Script
 
-create a new file called ```build.bash```
+Next, in the top folder, create a new file called ```build.bash```.  
 
 ```bash
 #!/usr/bin/bash
 
-docker build ./build/ -t jupyter
+docker build ./build/ -t my_jupyter_image
 ```
 
 To build it for the first time, make it executable with ```chmod +x build.bash```, then run it with
@@ -77,13 +64,22 @@ To build it for the first time, make it executable with ```chmod +x build.bash``
 . build.bash
 ```
 
-There are a lot of other useful build options.  For more ideas, see here
+This will create a new image called "my_jupyter_image"
+
+Why do I like to create my own build script?  Because if I want to customize how I built the image, I can store that approach in a clearly-labeled file rather than remember I built it a certain way last time.  (I can also comment out other approaches in case I want to switch back).  There are a lot of other useful build options.  For more ideas, see [here](/notebook/docker/docker-commands/#build-options)
 
 ### Jupyter Config File
 
-By default, Jupyter lab requires a token.  Normally when you boot up jupyter using ```jupyter lab```, the command line will spit out a link with the token embedded in it.  In a (personal) dockerized environment using docker compose, the token is not as easy to find on the command line because the ```docker compose -d``` command will hide output from the container.  
+By default, Jupyter lab requires a token for logging on to the website, and normally when you boot up jupyter using ```jupyter lab```, the command line will spit out a link with the token embedded in it.  In a (personal) dockerized environment using docker compose, the token is not as easy to find on the command line, because the ```docker compose -d``` command will hide output from the container.  
 
-If you want to access the token, you have to sign on to the container and identify the token using
+If you want to access the token, you have to access the container's shell using
+
+
+```bash
+docker exec -it jupyter /bin/bash
+```
+
+and then retrieve the token using the following command:
 
 ```bash
 jupyter server list
@@ -96,11 +92,11 @@ c.ServerApp.token = ""
 c.ServerApp.password = ""
 ```
 
-> **Caution:** as noted in the [documentation](https://jupyter-server.readthedocs.io/en/latest/operators/security.html#alternatives-to-token-authentication), this approach is not intended for publicly accessible docker containers as it is a security issue.
+> **Caution:** as noted in the [documentation](https://jupyter-server.readthedocs.io/en/latest/operators/security.html#alternatives-to-token-authentication), this approach is not intended for publicly accessible docker containers as it is a security issue.  For a personal computing project, this should be just fine.
 
 ## Docker Compose
 
-This is the bare-bones implementation.
+This is the bare-bones implementation.  The ```docker-compose.yaml``` file starts up a container called jupyter, using the "my_jupyter_image" image we built above.  The docker-compose file can also build the image if needed, and looks for the same dockerfile in the ```./build``` folder.  We will access the container by the name  ```jupyter``` when it is running.  It will have access to two folders, the jupyter config folder we placed our config file in earlier, as well as a code folder.  The locations on our machine are specified in the folder structure above
 
 * ```--no-browser``` doesn't launch theh browser
 * ```--port=8888``` specifies port 8888 for the website
@@ -110,8 +106,9 @@ This is the bare-bones implementation.
 ```yaml
 version: "3.9"
 services:
-  sofa:
-    image: my_jupyter:latest
+  jupyter:
+    image: my_jupyter_image:latest
+    build: ./build
     container_name: jupyter
     volumes: 
     - ./jupyter-config:/root/.jupyter
@@ -120,6 +117,20 @@ services:
     ports:
       - 8888:8888  
 ```
+
+##  Putting it all together
+
+To bring up your new container, all you have to do is, from the top folder, call
+
+```bash
+docker compose up
+```
+
+This will create a new running instance of your image, which we call a "container" in docker-speak.  Once it is loaded and running, navigate in your browser to ```localhost:8888```.  A new jupyter lab window will open and provide access to your ```code/``` folder and any files already inside.
+
+## Future work
+
+I hope to be able to share more examples of this approach to getting python running, with specific recipes we use in our lab, research, and classroom.  Look out for more.
 
 ## Words of warning
 
@@ -140,8 +151,11 @@ this all comes down to the fact that docker out of the box does not support guis
 * <https://www.dataquest.io/blog/docker-data-science/>
 * <https://towardsdev.com/run-a-jupyter-notebook-in-a-docker-container-on-your-local-device-80ccd9570e4f>
 
+### About Docker Base Images
+
+* <https://pythonspeed.com/articles/base-image-python-docker-images/>
+  
 ### Jupyter setup and security
 
 * <https://jupyter-server.readthedocs.io/en/latest/operators/security.html#>
 * <https://jupyter-server.readthedocs.io/en/latest/users/configuration.html>
-

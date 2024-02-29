@@ -128,14 +128,14 @@ From the docker history command, the first line indicates the parent docker imag
 docker history --no-trunc <imagename>
 ```
 
-
-## force rebuild
+## Build Options
+### force rebuild
 
 ```bash
 docker build --no-cache
 ```
 
-## see all text
+### see all text
 
 ```bash
 docker build --progress plain
