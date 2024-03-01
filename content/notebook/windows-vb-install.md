@@ -31,3 +31,7 @@ weight: 99
     #choco install -y miniconda3 --params="'/AddToPath:1 /InstallationType:AllUsers /D:C:\Anaconda3'"
     #choco install -y google-drive-file-stream dropbox
     ```
+
+External References
+
+* <https://arstechnica.com/gadgets/2024/02/what-i-do-to-clean-up-a-clean-install-of-windows-11-23h2-and-edge/>
