@@ -81,9 +81,29 @@ sudo displaylink-installer uninstall
 
 ## Fix wpasupplicant issue
 
+Edit sources
+
+```bash
+cat <<EOT | sudo tee -a /etc/apt/sources.list
+deb http://old-releases.ubuntu.com/ubuntu/ impish main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ impish-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ impish-security main restricted universe multiverse
+EOT
+```
+
+Then run the following lines
+
+```bash
+sudo apt update && \
+sudo apt --allow-downgrades install wpasupplicant=2:2.9.0-21build1 && \
+sudo apt-mark hold wpasupplicant
+```
+
 * <https://devicetests.com/fix-hotspot-connection-issues-ubuntu-22-04-1-lts-android-11>
 * https://askubuntu.com/questions/580433/how-can-i-allow-ap-hotspot-in-ufw-ubuntu-14-04
 
+
+This enables the wifi devices to communicate and get ip addresses over dhcp:
 
 ```bash
 sudo ufw allow to any port 53
@@ -94,7 +114,11 @@ sudo ufw allow to any port 68 proto udp
 * <https://devicetests.com/fix-ubuntu-2204-hotspot-connection-issues> 
 
 
+Add passthrough between wifi and ethernet devices, for example:
+
+
 ```bash
 sudo ufw allow in on wlp1s0
 sudo ufw route allow out on enx0050b6bd4061
+sudo ufw route allow out on enx00b56d06277a
 ```
