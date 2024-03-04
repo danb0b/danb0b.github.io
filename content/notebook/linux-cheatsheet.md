@@ -31,6 +31,30 @@ dmesg
 
 how to run python scripts: <https://www.geeksforgeeks.org/how-to-schedule-python-scripts-as-cron-jobs-with-crontab/>
 
+create a new python script
+
+```python
+#!/usr/bin/env python3
+import time
+import os
+with open(os.path.expanduser('~/crontest.txt'),'a') as f:
+    f.write(time.ctime()+'\n')
+```
+
+```bash
+chmod +x test.py
+```
+
+
+```bash
+crontab -e
+```
+
+```bash
+# m h  dom mon dow   command
+* * * * * $HOME/test.py
+```
+
 ## search path
 
 .bashrc holds path variables.

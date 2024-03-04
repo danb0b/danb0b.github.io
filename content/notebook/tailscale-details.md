@@ -37,3 +37,16 @@ to map specific ip addresses
 ```bash
 sudo tailscale up --advertise-routes=192.168.0.100/24,192.168.0.101/24 --advertise-exit-node
 ```
+
+## Turn on HTTPS
+
+enable magicdns
+enable Https
+sudo tailscale cert --cert-file=tailscale-cert.pem --key-file=tailscale-key.pem <hostname>.<tailnet>.ts.net
+sudo chown <user>:<group> tailscale-*.pem
+
+
+## External Resources
+
+* <https://tailscale.com/blog/tls-certs>
+* <https://tailscale.com/kb/1153/enabling-https>

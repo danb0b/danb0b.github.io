@@ -62,7 +62,7 @@ i_nl = .2
 w_nl = .66*1000*math.pi/180*G
 
 kt = t_stall/ i_stall
-kv= Vnom/w_nl
+# kv= Vnom/w_nl
 ke = kt
 
 b = kt*i_nl/w_nl
