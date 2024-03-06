@@ -92,6 +92,7 @@ pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub pah
 fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot \
 mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify \
 pandoc-fignos pandoc-eqnos pandoc-crossref
+pip install git+https://github.com/pfalcon/utemplate.git
 ```
 
 ### Fix for pandoc eqnos

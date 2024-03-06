@@ -70,7 +70,8 @@ kiwix-tools \
 ipe \
 darktable \
 wkhtmltopdf \
-exfat-fuse exfatprogs
+exfat-fuse exfatprogs \
+git-filter-repo
 # solaar # battery drain?
 # sudo apt install -y clementine # not my favorite
 ```

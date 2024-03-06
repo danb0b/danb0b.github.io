@@ -295,3 +295,19 @@ git check-ignore -v path/to/check
 ```
 
 from [here](https://stackoverflow.com/questions/49638204/the-following-paths-are-ignored-by-one-of-your-gitignore-files)
+
+
+## Merge Unrelated branches
+
+<https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories>
+
+```bash
+cd path/to/project-a
+git filter-repo --to-subdirectory-filter project-a
+
+cd path/to/project-b
+git remote add project-a /path/to/project-a
+git fetch project-a --tags
+git merge --allow-unrelated-histories project-a/master # or any branch you want to merge
+git remote remove project-a
+```
