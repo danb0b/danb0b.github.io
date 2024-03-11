@@ -137,6 +137,7 @@ close and reopen terminal
 ```bash
 sudo snap install mqtt-explorer
 sudo snap install hugo --channel=extended
+sudo snap install superproductivity
 ```
 
 ### Remove Firefox AGAIN

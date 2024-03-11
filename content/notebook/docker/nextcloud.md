@@ -58,8 +58,9 @@ docker compose exec --user www-data app php occ config:system:get  trusted_domai
 docker compose exec --user www-data app php occ config:system:set  trusted_domains 4 --value=<hostnameorip>
 ```
 
+## External Resources 
 
-## Docker-Compose info
+### Docker-Compose info
 
 * <https://help.nextcloud.com/t/nextcloud-docker-compose-how-to-update-domain-name-in-config-php/103522>
 * <https://docs.nextcloud.com/server/20/admin_manual/configuration_server/config_sample_php_parameters.html#default-parameters>
@@ -73,9 +74,20 @@ docker compose exec --user www-data app php occ config:system:set  trusted_domai
 * <https://hub.docker.com/_/nextcloud>
 
 
-## Upgrading Nextcloud on Docker
+### Upgrading Nextcloud on Docker
 
 * <https://help.nextcloud.com/t/whats-the-right-way-to-upgrade-nextcloud-on-docker/139411>
 * <https://nubisoft.io/blog/how-to-upgrade-dockerized-nextcloud/>
 * <https://philenius.github.io/cloud/2022/11/13/how-to-updade-nextcloud-docker-installation-to-latest-version.html>
 * <https://forum.openmediavault.org/index.php?thread/31542-how-to-upgrade-nextcloud-in-docker/>
+
+## SSL resources
+
+- <https://help.nextcloud.com/t/ssl-certificate-on-docker-nextcloud-server/117815>
+- <https://tailscale.com/blog/docker-tailscale-guide>
+- <https://duckduckgo.com/?t=ffab&q=nextcloud+docker+certificate&ia=web>
+- <https://help.nextcloud.com/t/howto-running-nextcloud-over-self-signed-https-ssl-tls-in-docker/101973>
+- <https://duckduckgo.com/?t=ffab&q=docker+nextcloud+image+for+ssl&ia=web>
+- <https://github.com/docker-library/docs/blob/master/nextcloud/README.md>
+- <https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/reverse_proxy_configuration.html>
+- <https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/mariadb/apache/docker-compose.yml>
