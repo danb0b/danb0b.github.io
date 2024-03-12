@@ -8,6 +8,24 @@ tags:
 
 This link was the most helpful overview: <https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers>
 
+## Disabling user id requirements
+
+```bash
+#cd /path/to/the/ereader/.kobo
+/media/danaukes/KOBOeReader/.kobo
+sqlite3 KoboReader.sqlite
+```
+
+in the sqlite3 prompt, type
+
+```sql
+INSERT INTO user(UserID,UserKey) VALUES('1','');
+```
+
+then type ```ctrl+d``` to exit
+
+unplug the e-reader
+
 ## External Links
 
 * <https://duckduckgo.com/?q=flash+kobo+nia+reader+firmware&t=fpas&ia=web>
