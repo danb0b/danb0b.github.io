@@ -33,8 +33,9 @@ pip install git_manage
 
 ### Steps to get git to recognize github ssh keys
 
+open git bash
+
 ```
-git bash
 which git
 cd /mingw64/bin
 bash
