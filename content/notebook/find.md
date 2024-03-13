@@ -96,3 +96,13 @@ from [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-l
 ```bash
 find . -iname "*.docx" -maxdepth 2
 ```
+
+
+## Ignore "permission denied" message
+
+find . -iname "*50_Lines_of*" 2> >(grep -v 'Permission denied' >&2)
+
+or simpler:
+
+find . -iname "*50_lines_of*" 2>&1 | grep -v  "Permission denied"
+

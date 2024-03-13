@@ -22,7 +22,7 @@ tags:
   #virtualisation.virtualbox.host.enableExtensionPack = true;
 
   services.openssh.enable = true;
-  users.users.danaukes.openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICBtlkBLsL3EMYRjY9eI9lA3xe8goNWAJnyo+TaKxq/y danaukes@danaukes-Precision-7920-Tower" ];
+  users.users.danaukes.openssh.authorizedKeys.keys = [ "put-in-your-public-key-here" ];
 
   networking.firewall.enable = true;
   networking.firewall.allowedTCPPorts = [ 22 ];

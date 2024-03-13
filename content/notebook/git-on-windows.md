@@ -45,9 +45,16 @@ ssh-add ~/path/to/your/key
 
 ```
 
+## add a .ssh/config file
+
+you need to configure your ssh client to apply keys associated with different github users.
+
+
 ## Generate token
 
-Go to github and do that
+Go to github and do that:
+
+<https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token>
 
 ## Create new user
 
@@ -56,3 +63,4 @@ python envs\gen\Scripts\gitman  -u new --update-config list-github
 ## External Resources
 
 * <https://github.com/chocolatey-community/chocolatey-packages/blob/master/automatic/git.install/ARGUMENTS.md>
+* <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>
