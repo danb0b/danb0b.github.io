@@ -5,7 +5,9 @@ date: 2024-03-11
 
 ## Introduction
 
-The purpose of this simple tutorial is to show you how to use MuJoCo to compute the required torques to achieve a given directory
+This tutorial shows you how to use MuJoCo to compute the required torques to achieve a given directory. The example compares the computed torque from two different integrators.
+
+If you have a model, inverse dynamics are a great way to compute *most* of the torques required to make your robot move along a particular trajectory. What we see from this example, though, is that if there is error -- due to a poorly-selected integrator or too large of a time step -- the computed torque does not capture the actual, underlying dynamics. This can have big implications if you want to control your robot with a feed-forward term that has noise, latency, etc.
 
 ```python
 import os
