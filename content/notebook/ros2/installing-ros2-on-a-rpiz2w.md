@@ -6,6 +6,7 @@ tags:
 - ubuntu
 - linux
 - tailscale
+- raspberrypi
 ---
 
 
