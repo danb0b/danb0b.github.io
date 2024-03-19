@@ -1,5 +1,5 @@
 ---
-title: Installing ROS2 Humble on a Virtualbox VM
+title: Installing ROS2 Humble on two Virtualbox VMs
 weight: 10
 date: 2023-09-17
 tags:
@@ -108,6 +108,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update && sudo apt upgrade -y
 sudo apt install ros-humble-desktop ros-dev-tools
 sudo apt-get install python3-rosdep
+sudo apt install -y ros-humble-plotjuggler-ros #for plotting data
 sudo apt update && sudo apt install -y \
   build-essential \
   cmake \
@@ -133,7 +134,12 @@ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
 echo "source /opt/ros/humble/setup.bash" >> .bashrc
 ```
 
-and tested.
+and checked the variables with the command:
+
+```bash
+printenv | grep -i ROS
+```
+## Testing
 
 First in one terminal window:
 
@@ -146,6 +152,13 @@ and in a second terminal window:
 ```bash
 ros2 run demo_nodes_cpp listener
 ```
+
+```bash
+ros2 daemon stop
+```
+
+Shutdown the virtual machine.
+
 
 Now to clone to two virtual machines.  I modified  the server's netplan, according to [this post](/notebook/virtualbox/two-clones/), which helped eliminate getting an identical ip address
 
