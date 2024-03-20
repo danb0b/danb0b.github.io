@@ -71,7 +71,8 @@ ipe \
 darktable \
 wkhtmltopdf \
 exfat-fuse exfatprogs \
-git-filter-repo
+git-filter-repo \
+blueman
 # solaar # battery drain?
 # sudo apt install -y clementine # not my favorite
 ```
