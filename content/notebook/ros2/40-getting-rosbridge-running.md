@@ -1,5 +1,5 @@
 ---
-title: Setting up Rosbridge in a docker container
+title: Setting up Rosbridge in Ubuntu
 tags:
 - docker
 - ros2
@@ -34,6 +34,6 @@ sudo apt install -y iputils-ping software-properties-common ros-humble-rmw-cyclo
 ## Run it
 
 ```bash
-command: bash -c "source /opt/ros/humble/setup.bash && "
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 
