@@ -1,3 +1,7 @@
+---
+title: Machine Learning Notes
+---
+
 ## Commands
 
 ```bash
