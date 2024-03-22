@@ -1,3 +1,7 @@
+---
+title: sofa notes
+---
+
 ## Sofa info
 
 https://sofapython3.readthedocs.io/en/latest/content/Installation.html#using-python3
