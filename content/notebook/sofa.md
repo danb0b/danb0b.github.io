@@ -75,7 +75,11 @@ https://softroboticstoolkit.com/book/export/html/882561
 https://project.inria.fr/softrobot/install-get-started-2/tutorial/
 https://github.com/SofaDefrost/SoftRobots/tree/master/examples/tutorials/Trunk/mesh
 
-## problem with STLib
+## problem with plugins
+
+https://github.com/sofa-framework/sofa/releases/tag/v23.06.00
+
+https://www.sofa-framework.org/community/doc/plugins/what-is-a-plugin/#plugin-loading
 
 ```
 [ERROR]   [PluginManager] Plugin loading failed (/home/danaukes/sofa/SOFA_v23.06.00_Linux/lib/libMeshSTEPLoader.so): libTKBRep.so.11: cannot open shared object file: No such file or directory
@@ -100,4 +104,4 @@ remove:
 MeshSTEPLoader NO_VERSION
 
 
-runSofa step7-grabTheCube.py 
+runSofa step7-grabTheCube.py
