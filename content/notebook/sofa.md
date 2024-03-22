@@ -65,3 +65,35 @@ https://wiki.qt.io/Install_Qt_5_on_Ubuntu
 
 pip install pyqt5
 
+## Tutorials
+
+https://softroboticstoolkit.com/book/export/html/882561
+https://project.inria.fr/softrobot/install-get-started-2/tutorial/
+https://github.com/SofaDefrost/SoftRobots/tree/master/examples/tutorials/Trunk/mesh
+
+## problem with STLib
+
+```
+[ERROR]   [PluginManager] Plugin loading failed (/home/danaukes/sofa/SOFA_v23.06.00_Linux/lib/libMeshSTEPLoader.so): libTKBRep.so.11: cannot open shared object file: No such file or directory
+
+```
+https://github.com/sofa-framework/sofa/discussions/4090
+
+https://github.com/sofa-framework/sofa/discussions/3415
+
+https://github.com/SofaDefrost/STLIB
+
+https://project.inria.fr/softrobot/install-get-started-2/download/
+
+go to install/lib/plugin_list.conf
+
+add
+
+SofaPython3 23.06.00
+
+remove:
+
+MeshSTEPLoader NO_VERSION
+
+
+runSofa step7-grabTheCube.py 

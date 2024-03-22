@@ -222,3 +222,12 @@ Pi hole
 - <https://www.freecodecamp.org/>
 * ghost.io
 - Learndmarc.com
+
+
+Anytype.io
+oss document scanner
+Gplates 
+Stellarium
+Tinycore
+Damn small Lin x
+https://github.com/abi/screenshot-to-code

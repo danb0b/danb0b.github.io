@@ -185,6 +185,11 @@ dependencies
 sudo apt install -y librsvg2-bin
 ```
 
+
+### Anytype
+
+<https://download.anytype.io/>
+
 ### Other tutorials
 
 - [world clocks](/notebook/multiple-clocks/)
