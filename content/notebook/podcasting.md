@@ -79,7 +79,6 @@ tags:
 * <https://riverside.fm/blog/how-to-start-a-podcast>
 * <https://www.reddit.com/r/selfhosted/comments/kain8w/comment/gfc0nur/>
 * <https://podba.se/validate/>
-* <https://podcasters.apple.com/support/823-podcast-requirements>
 * <https://gist.github.com/vsoch/4898025919365bf23b6f>
 * <https://bunny.net/>
 * <https://github.com/fukawi2/podnounce>
@@ -95,8 +94,12 @@ tags:
 * <https://www.captivate.fm/learn-podcasting/podcast-rss-feeds>
 * <https://help.apple.com/itc/podcasts_connect/#/itcbaf351599>
 * <https://feeds.captivate.fm/insider/>
-* <view-source:https://feeds.captivate.fm/insider/>
 * <https://rss.com/>
 * <https://podcasters.apple.com/support/837-change-the-rss-feed-url>
 * <https://help.apple.com/itc/podcasts_connect/#/itcb54353390>
 * <https://podcasters.apple.com/support/1691-apple-podcasts-categories>
+* <https://podcasting2.org/podcasters>
+* <https://tools.rssblue.com/validator>
+* <https://www.castfeedvalidator.com/validate.php?url=https://siloe-project.com/feed.xml>
+* <https://github.com/Podcast-Standards-Project/PSP-1-Podcast-RSS-Specification>
+* <https://podba.se/?url=https://siloe-project.com/feed.xml>
