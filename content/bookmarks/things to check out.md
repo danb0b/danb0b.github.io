@@ -229,5 +229,6 @@ oss document scanner
 Gplates 
 Stellarium
 Tinycore
-Damn small Lin x
+Damn small Linux
 https://github.com/abi/screenshot-to-code
+https://ente.io/blog/open-sourcing-our-server/
