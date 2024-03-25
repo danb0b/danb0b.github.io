@@ -65,7 +65,6 @@ tags:
 * <https://riverside.fm/blog/how-to-start-a-podcast>
 * <https://www.reddit.com/r/selfhosted/comments/kain8w/comment/gfc0nur/>
 * <https://podba.se/validate/>
-* <https://podcasters.apple.com/support/823-podcast-requirements>
 * <https://gist.github.com/vsoch/4898025919365bf23b6f>
 * <https://bunny.net/>
 * <https://github.com/fukawi2/podnounce>
@@ -91,8 +90,10 @@ tags:
 
 ### RSS
 
+* <https://podcasters.apple.com/support/823-podcast-requirements>
 * <https://www.captivate.fm/learn-podcasting/podcast-rss-feeds>
 * <https://help.apple.com/itc/podcasts_connect/#/itcbaf351599>
+* <https://help.apple.com/itc/podcasts_connect/#/itcb54353390>
 * <https://feeds.captivate.fm/insider/>
 * <https://rss.com/>
 * <https://podcasters.apple.com/support/837-change-the-rss-feed-url>
@@ -102,4 +103,20 @@ tags:
 * <https://tools.rssblue.com/validator>
 * <https://www.castfeedvalidator.com/validate.php?url=https://siloe-project.com/feed.xml>
 * <https://github.com/Podcast-Standards-Project/PSP-1-Podcast-RSS-Specification>
-* <https://podba.se/?url=https://siloe-project.com/feed.xml>
+
+## Date / Time
+
+http://www.faqs.org/rfcs/rfc2822.html
+
+## UUID
+https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#guid
+https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#guid
+
+
+## ID3 
+https://manual.audacityteam.org/man/metadata_editor.html
+
+
+## Keywords
+
+https://www.oodlestechnologies.com/blogs/Create-RSS-Feed-for-iTunes-%7C-Part-1/
