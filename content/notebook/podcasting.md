@@ -111,7 +111,7 @@ http://www.faqs.org/rfcs/rfc2822.html
 ## UUID
 https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#guid
 https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#guid
-
+https://docs.python.org/3/library/uuid.html
 
 ## ID3 
 https://manual.audacityteam.org/man/metadata_editor.html
