@@ -91,7 +91,7 @@ python -m pip install --upgrade pip
 pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem \
 fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot \
 mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify \
-pandoc-fignos pandoc-eqnos pandoc-crossref
+pandoc-fignos pandoc-eqnos pandoc-crossref h5py
 pip install git+https://github.com/pfalcon/utemplate.git
 ```
 
