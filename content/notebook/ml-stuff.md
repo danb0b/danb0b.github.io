@@ -181,3 +181,7 @@ https://github.com/ITTcs/gym-turtlebot3
 https://towardsdatascience.com/efficient-feature-selection-via-cma-es-covariance-matrix-adaptation-evolution-strategy-ee312bc7b173
 https://pypi.org/project/cmaes/
 https://github.com/CMA-ES/pycma
+
+```bash
+tensorboard --logdir log4
+```
