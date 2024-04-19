@@ -1,6 +1,6 @@
 ---
 title: Incredible Feats of Productivity
-summary: Or, how I twiddle my setup constantly to maximize feelings of success
+summary: Or, how I constantly twiddle my setup to maximize feelings of success
 date: 2024-01-31
 draft: true
 ---
