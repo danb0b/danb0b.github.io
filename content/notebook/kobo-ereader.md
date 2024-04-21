@@ -12,7 +12,7 @@ This link was the most helpful overview: <https://www.linux-magazine.com/Online/
 
 ```bash
 #cd /path/to/the/ereader/.kobo
-/media/danaukes/KOBOeReader/.kobo
+cd /media/danaukes/KOBOeReader/.kobo
 sqlite3 KoboReader.sqlite
 ```
 
