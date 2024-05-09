@@ -29,7 +29,6 @@ qdirstat \
 net-tools \
 wireguard \
 openresolv \
-fritzing  \
 dconf-editor \
 kicad \
 openssh-server \
@@ -75,6 +74,7 @@ git-filter-repo \
 blueman
 # solaar # battery drain?
 # sudo apt install -y clementine # not my favorite
+#fritzing
 ```
 
 ## Flatpak
@@ -118,7 +118,8 @@ com.jetpackduba.Gitnuro \
 org.kiwix.desktop \
 net.xm1math.Texmaker\
 com.github.xournalpp.xournalpp \
-com.mattermost.Desktop
+com.mattermost.Desktop \
+org.fritzing.Fritzing
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
@@ -151,6 +152,9 @@ sudo snap remove firefox
 
 * add whole filesystem to mozilla
 * add user files to thunderbird
+* add user space to fritzing
+* turn off wayland for fritzing
+* turn onn x11 fallback for fritzing
 
 
 ### Zoom
