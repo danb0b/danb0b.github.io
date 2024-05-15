@@ -101,4 +101,5 @@ danaukes@zenbook:~$
 % or create an additional one (with the extension '.cnf'),
 % and invoke update-texmf.
 
-export TEXINPUTS="repos/code/code_pandoc_plus/texmf//:"
+export TEXINPUTS="$HOME/repos/code/code_pandoc_plus/python/pandoc_plus/support/texmf//:"
+
