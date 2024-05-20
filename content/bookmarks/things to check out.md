@@ -3,6 +3,10 @@ title: Things to Check Out
 summary: projects I want to learn more about, try out, or log.
 ---
 
+Self hostalbe projects:
+
+* <https://selfh.st/apps/>
+
 ## Python
 
 * Polars
@@ -25,6 +29,10 @@ summary: projects I want to learn more about, try out, or log.
 * Trillium
 * Xmpp
 * Nextcloud
+* <https://mailinabox.email/?ref=selfh.st>
+* <https://gitlab.com/simple-nixos-mailserver/nixos-mailserver>
+
+
 
 ### VPNs and Proxies
 
@@ -33,6 +41,8 @@ summary: projects I want to learn more about, try out, or log.
 * Magic worn hole
 * Firefox send
 * Traefik
+* https://github.com/trailofbits/algo
+* wireguard
 
 ### Bash
 
@@ -42,6 +52,9 @@ summary: projects I want to learn more about, try out, or log.
 * pdfgrep
 
 ### File Sharing
+
+* https://tinyfilemanager.github.io/
+* filerun
 
 ## file systems / backup
 
@@ -232,3 +245,62 @@ Tinycore
 Damn small Linux
 https://github.com/abi/screenshot-to-code
 https://ente.io/blog/open-sourcing-our-server/
+
+
+Portainer
+Distrobox
+
+Flowblade
+
+Shufflecake
+
+### python stuff
+Dash streamlet shiny
+
+
+Atuin
+Disko
+Kexec
+Kdeconnect
+
+Penpot
+Headscale
+Stirlingpdf
+Mail-in-a-Box
+Bigbluebutton
+
+
+Stui
+stress-ng
+Unigen benchmarking tools
+TCP shun
+
+beets / discogs plugin
+
+Apparmor
+Cloudseq crowdseq
+
+### Beets
+
+If you run `beet import -t /path/to/music` it means “timid” and will ask if it’s ok to tag as it sees. Otherwise you can specify a specific ID to a discogs listing
+
+https://beets.readthedocs.io/en/stable/
+https://docs.beets.io/en/stable/plugins/duplicates.html
+
+and/or use the discogs plugin
+
+```
+directory: /data/music
+library: /var/lib/beets/library.db
+import:
+  copy: no
+  move: yes
+  write: yes
+plugins: fetchart embedart fromfilename lastgenre discogs edit chroma
+lastgenre:
+  prefer_specific: yes
+discogs:
+  index_tracks: yes
+chroma:
+  auto: no
+```
