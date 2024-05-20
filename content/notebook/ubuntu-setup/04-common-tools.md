@@ -119,7 +119,8 @@ org.kiwix.desktop \
 net.xm1math.Texmaker\
 com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
-org.fritzing.Fritzing
+org.fritzing.Fritzing \
+com.rafaelmardojai.Blanket
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
