@@ -1,9 +1,8 @@
 ---
 title: A Brief Intro to Symbolic Expressions in Python
 date: 2024-05-21
+image: /work-blog/2024-05-21-sympy-expressions/vlcsnap-2024-05-21-14h37m13s218.png
 ---
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Rrrx-BigrCk?si=n4gIcslWmaGbBOH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Using Sympy in Expressions
 
@@ -247,3 +246,6 @@ result
     array([[5.5],
            [3.2],
            [3. ]])
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Rrrx-BigrCk?si=n4gIcslWmaGbBOH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
