@@ -8,7 +8,7 @@ image: /work-blog/2024-05-21-sympy-expressions/vlcsnap-2024-05-21-14h37m13s218.p
 
 If you like keeping all your computing in one language (and that language is Python), but want some of the equation manipulation capabilities of Mathematica, have you tried Sympy?  
 
-I use Sympy both in my courses and research, and created a tutorial for students to get started with some of the most basic and important concepts of symbolic expressions that we use in robotics classes.
+<!-- I use Sympy both in my courses and research, and created a tutorial for students to get started with some of the most basic and important concepts of symbolic expressions that we use in robotics classes. -->
 
 ## Using Sympy in Expressions
 
