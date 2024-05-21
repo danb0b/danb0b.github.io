@@ -70,8 +70,6 @@ type(f)
 
     float
 
-TBD
-
 When working with symbolic expressions, it is sometimes useful to list all the "atomic" values being used in the expression.  This helps separate the operands from the operators.  The ```atoms()``` method is useful for this:
 
 ```python
