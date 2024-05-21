@@ -4,6 +4,12 @@ date: 2024-05-21
 image: /work-blog/2024-05-21-sympy-expressions/vlcsnap-2024-05-21-14h37m13s218.png
 ---
 
+## Introduction
+
+If you like keeping all your computing in one language (and that language is Python), but want some of the equation manipulation capabilities of Mathematica, have you tried Sympy?  
+
+I use Sympy both in my courses and research, and created a tutorial for students to get started with some of the most basic and important concepts of symbolic expressions that we use in robotics classes.
+
 ## Using Sympy in Expressions
 
 The sympy package in Python is useful for forming and working with symbolic expressions rather than literals.  A "literal", in programming terms, is a numeric value, like ```1.2```.  You can assign numeric, literal values to variables in Python natively, and use python expressions to find numeric answers to expressions.  But what if you wanted to work with the expression or equation itself?  This is where "symbolic" variables come in.
