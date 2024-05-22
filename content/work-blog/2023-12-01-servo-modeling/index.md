@@ -319,7 +319,10 @@ time_filter = t<1
 We then find the index of the first point in time where theta starts moving in order to guess the time-delay of our first command signal.  We find it hueristically by finding the theta value that more than 1% of the full range of observed thetas from min(theta), starting at t=0.  We save that index as ```jj```, and identify the starting time, ```t_0```, using the index
 
 ```python
-jj = theta_u[time_filter] > (theta_u[time_filter].max() - theta_u[time_filter].min())*.01 + theta_u[time_filter].min()
+jj = theta_u[time_filter] > (theta_u[time_filter].max() 
+                             - theta_u[time_filter].min())*.01 
+    + theta_u[time_filter].min()
+    
 t_0_kk = (t[time_filter][jj]).idxmin() 
 t_0 = t[t_0_kk]
 t_0
