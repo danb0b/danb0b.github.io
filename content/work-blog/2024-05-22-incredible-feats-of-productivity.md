@@ -5,7 +5,7 @@ date: 2024-05-22
 
 ## Intro
 
-I don't know if it's the ever-increasing volume of bad news I'm getting from my tech podcasts, the impending AI apocalypse, or perhaps myself atrophying a bit and sticking with what I know, but if I hadn't already switched, the news that Microsoft is integrating surveillance practices [^1] into their operating system would have.  So I thought I'd discuss how I switched and why, but start with the tools I use to get things done in Linux, starting with text, writing, and how I de-linked myself from any one productivity suite.
+I don’t know if it’s the ever-increasing volume of bad news I’m getting from my tech podcasts, the impending AI apocalypse, or perhaps myself atrophying a bit and sticking with what I know, but if I hadn’t already switched to Linux, the news that operating systems were baking in surveillance [^1] certainly would have accelerated my shift.  So I thought I’d discuss how I switched to Linux and why, but start with the tools I use to get things done in Linux, such as tools for writing, and how I de-linked myself from any one productivity suite.
 
 ## Office / Productivity
 
@@ -39,7 +39,7 @@ Alternatively, I also am a big fan of [mkdocs](https://www.danaukes.com/tags/mkd
 
 Because, at the end of my day, mixing text, images, and video together created an unmanageable mess that kept growing in scope and size.  By linking images, video, and text back to their source, I have been able to move towards _fewer files_ that I edit iteratively, and store the text in git repositories.  Thus, I get the benefit of seeing the entire history of my files, without the reliance on the cloud or the bloat of keeping every old version of my files.
 
-### What about the unmanageable mess of having file links decay and have to be maintained?
+> What about the unmanageable mess of having file links decay and have to be maintained?
 
 Well, at least I can search across all my markdown files in a fraction of the time and fix links globally using simple find/replace.
 
