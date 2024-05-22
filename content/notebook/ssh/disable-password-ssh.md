@@ -107,4 +107,8 @@ sudo systemctl restart ssh
 * <https://help.ubuntu.com/community/SSH/OpenSSH/Configuring>
 * [SSH Reference](/notebook/ssh-reference)
 
+### New in 2024
+
+* <https://www.designed-cybersecurity.com/tutorials/harden-openssh-config/>
+* <https://github.com/trimstray/the-practical-linux-hardening-guide/wiki/OpenSSH>
 
