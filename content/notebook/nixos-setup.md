@@ -70,8 +70,8 @@ org.libreoffice.LibreOffice \
 org.gpodder.gpodder \
 md.obsidian.Obsidian \
 org.gnome.Rhythmbox3 \
-org.raspberrypi.rpi-imager \
-com.authy.Authy
+org.raspberrypi.rpi-imager
+# com.authy.Authy
 ```
 
 ## VSCode

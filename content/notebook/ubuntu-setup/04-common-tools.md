@@ -21,16 +21,15 @@ sudo apt update
 Install new packages
 
 ```bash
-sudo apt install -y synaptic \
+sudo apt install -y \
 kdiff3 \
 samba \
 ffmpeg \
 qdirstat \
 net-tools \
-wireguard \
-openresolv \
+# wireguard \
+# openresolv \
 dconf-editor \
-kicad \
 openssh-server \
 remmina \
 usb-creator-gtk \
@@ -44,13 +43,12 @@ gnome-tweaks \
 etherwake \
 ethtool \
 fonts-roboto* \
-libimage-exiftool-perl \
+# libimage-exiftool-perl \
 httrack \
 webhttrack \
-youtube-dl \
 meld \
-cifs-utils \
-paper-icon-theme \
+# cifs-utils \
+# paper-icon-theme \
 gnome-shell-extensions \
 libheif-examples \
 autossh \
@@ -62,16 +60,17 @@ v4l-utils \
 gitg \
 htop \
 tree \
-etherwake \
-ethtool \
 iperf \
 kiwix-tools \
 ipe \
 darktable \
-wkhtmltopdf \
+# wkhtmltopdf \
 exfat-fuse exfatprogs \
 git-filter-repo \
 blueman
+#synaptic \
+# youtube-dl \use yt-dlp
+# kicad # which is better,  apt or flathub?
 # solaar # battery drain?
 # sudo apt install -y clementine # not my favorite
 #fritzing
@@ -113,7 +112,6 @@ org.gpodder.gpodder \
 md.obsidian.Obsidian \
 org.gnome.Rhythmbox3 \
 org.raspberrypi.rpi-imager \
-com.authy.Authy \
 com.jetpackduba.Gitnuro \
 org.kiwix.desktop \
 net.xm1math.Texmaker\
@@ -122,10 +120,12 @@ com.mattermost.Desktop \
 org.fritzing.Fritzing \
 com.rafaelmardojai.Blanket \
 org.synfig.SynfigStudio
+# com.authy.Authy \
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install flathub org.darktable.Darktable  # font issue
 ```
+
 optional
 
 ```bash
