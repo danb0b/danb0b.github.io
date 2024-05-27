@@ -6,16 +6,15 @@
 <button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://www.danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://www.danaukes.com/notebook/>Notebook</a></li><li class=breadcrumb-item><a href=https://www.danaukes.com/notebook/ubuntu-setup/>Ubuntu Setup</a></li><li class="breadcrumb-item active"><a href=https://www.danaukes.com/notebook/ubuntu-setup/04-common-tools/>Install Common Tools</a></li></ol></nav></div><h2>Install Common Tools</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/ubuntu class=text-primary>Ubuntu</a></li><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/linux class=text-primary>Linux</a></li></ul><div class="content mb-5"><p>This assumes you installed a &ldquo;minimal&rdquo; version of Ubuntu</p><h2 id=apt-packages-first><code>apt</code> packages first</h2><p>Update your software first</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt update
 </span></span><span style=display:flex><span><span style=color:#75715e>#save this for the end</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># sudo apt upgrade -y  </span>
-</span></span></code></pre></div><p>Install new packages</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y synaptic <span style=color:#8045ff>\
+</span></span></code></pre></div><p>Install new packages</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>kdiff3 <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>samba <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ffmpeg <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>qdirstat <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>net-tools <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>wireguard <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>openresolv <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>dconf-editor <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>kicad <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span><span style=color:#75715e># wireguard \</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># openresolv \</span>
+</span></span><span style=display:flex><span>dconf-editor <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>openssh-server <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>remmina <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>usb-creator-gtk <span style=color:#8045ff>\
@@ -29,14 +28,13 @@
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>etherwake <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ethtool <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>fonts-roboto* <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>libimage-exiftool-perl <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>httrack <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span><span style=color:#75715e># libimage-exiftool-perl \</span>
+</span></span><span style=display:flex><span>httrack <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>webhttrack <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>youtube-dl <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>meld <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>cifs-utils <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>paper-icon-theme <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>gnome-shell-extensions <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span><span style=color:#75715e># cifs-utils \</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># paper-icon-theme \</span>
+</span></span><span style=display:flex><span>gnome-shell-extensions <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>libheif-examples <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>autossh <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>qrencode <span style=color:#8045ff>\
@@ -47,16 +45,17 @@
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>gitg <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>htop <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>tree <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>etherwake <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ethtool <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>iperf <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>kiwix-tools <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>ipe <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>darktable <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>wkhtmltopdf <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>exfat-fuse exfatprogs <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span><span style=color:#75715e># wkhtmltopdf \</span>
+</span></span><span style=display:flex><span>exfat-fuse exfatprogs <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>git-filter-repo <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>blueman
+</span></span><span style=display:flex><span><span style=color:#75715e>#synaptic \</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># youtube-dl \use yt-dlp</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># kicad # which is better,  apt or flathub?</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># solaar # battery drain?</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># sudo apt install -y clementine # not my favorite</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#fritzing</span>
@@ -86,7 +85,6 @@
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>md.obsidian.Obsidian <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.gnome.Rhythmbox3 <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.raspberrypi.rpi-imager <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.authy.Authy <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.jetpackduba.Gitnuro <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.kiwix.desktop <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>net.xm1math.Texmaker<span style=color:#8045ff>\
@@ -95,6 +93,7 @@
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.fritzing.Fritzing <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>com.rafaelmardojai.Blanket <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>org.synfig.SynfigStudio
+</span></span><span style=display:flex><span><span style=color:#75715e># com.authy.Authy \</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#us.zoom.Zoom \ #currently doesn&#39;t work with links or signon or sharing screen</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#flatpak install flathub org.darktable.Darktable  # font issue</span>
