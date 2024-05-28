@@ -23,12 +23,9 @@ Install new packages
 ```bash
 sudo apt install -y \
 kdiff3 \
-samba \
 ffmpeg \
 qdirstat \
 net-tools \
-# wireguard \
-# openresolv \
 dconf-editor \
 openssh-server \
 remmina \
@@ -37,18 +34,14 @@ gmsh \
 tmux \
 nmap \
 p7zip-full \
-sound-juicer \
 pdfgrep \
 gnome-tweaks \
 etherwake \
 ethtool \
 fonts-roboto* \
-# libimage-exiftool-perl \
 httrack \
 webhttrack \
 meld \
-# cifs-utils \
-# paper-icon-theme \
 gnome-shell-extensions \
 libheif-examples \
 autossh \
@@ -61,19 +54,31 @@ gitg \
 htop \
 tree \
 iperf \
-kiwix-tools \
 ipe \
 darktable \
-# wkhtmltopdf \
 exfat-fuse exfatprogs \
 git-filter-repo \
 blueman
+```
+
+### Optional
+
+```bash
+# sudo apt install -y \
+# samba \
+# wireguard \
+# openresolv \
+# sound-juicer \
+# libimage-exiftool-perl \
+# cifs-utils \
+# paper-icon-theme \
+# kiwix-tools \
+# wkhtmltopdf \
 #synaptic \
-# youtube-dl \use yt-dlp
 # kicad # which is better,  apt or flathub?
 # solaar # battery drain?
 # sudo apt install -y clementine # not my favorite
-#fritzing
+# fritzing # use flatpak?
 ```
 
 ## Flatpak
@@ -101,25 +106,21 @@ org.kicad.KiCad \
 org.audacityteam.Audacity \
 org.videolan.VLC \
 com.bitwarden.desktop \
-com.slack.Slack \
-org.gnome.Cheese \
 org.signal.Signal \
 org.shotcut.Shotcut \
 com.github.micahflee.torbrowser-launcher \
 com.obsproject.Studio \
 org.libreoffice.LibreOffice \
 org.gpodder.gpodder \
-md.obsidian.Obsidian \
 org.gnome.Rhythmbox3 \
 org.raspberrypi.rpi-imager \
 com.jetpackduba.Gitnuro \
-org.kiwix.desktop \
-net.xm1math.Texmaker\
 com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
 org.fritzing.Fritzing \
 com.rafaelmardojai.Blanket \
 org.synfig.SynfigStudio
+# net.xm1math.Texmaker\
 # com.authy.Authy \
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
 #flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
@@ -129,9 +130,14 @@ org.synfig.SynfigStudio
 optional
 
 ```bash
+# flatpak install -y flathub \
+# org.gnome.Cheese \
+# org.kiwix.desktop \
+# md.obsidian.Obsidian \
 flatpak install flathub org.openscad.OpenSCAD
 flatpak install flathub net.meshlab.MeshLab
 flatpak install flathub org.blender.Blender
+flatpak install flathub com.slack.Slack
 ```
 
 close and reopen terminal

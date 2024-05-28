@@ -1,5 +1,5 @@
 ---
-title: ubuntu studio
+title: android studio
 ---
 
 get a message about kvm
