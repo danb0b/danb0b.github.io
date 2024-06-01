@@ -58,6 +58,11 @@ docker compose exec --user www-data app php occ config:system:get  trusted_domai
 docker compose exec --user www-data app php occ config:system:set  trusted_domains 4 --value=<hostnameorip>
 ```
 
+## Getting certs
+
+sudo tailscale cert --cert-file cert.pem --key-file key.pem <server.domain>.ts.net
+
+
 ## External Resources 
 
 ### Docker-Compose info

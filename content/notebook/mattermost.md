@@ -18,3 +18,7 @@ sudo docker compose -f docker-compose.yml -f docker-compose.nginx.yml up -d
 ## External Resources
 
 <https://docs.mattermost.com/install/install-docker.html>
+
+## tailscale Cert
+
+sudo tailscale cert --cert-file cert.pem --key-file key.pem <server.domain>.ts.net
