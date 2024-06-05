@@ -60,6 +60,8 @@ This is probably dated and needs a good house-cleaning...
 
 * [motor driver](https://www.onsemi.com/products/power-management/motor-drivers/motor-drivers-brushless/lv8127t)
 * <https://www.roboticelements.com/>
+* https://emanual.robotis.com/docs/en/parts/controller/openrb-150/
+
 
 #### robotics-kits
 
