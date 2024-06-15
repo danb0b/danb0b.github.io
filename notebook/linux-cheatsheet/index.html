@@ -23,7 +23,14 @@ dmesg
 ifconfig &lt;network interface&gt; up
 </code></pre><pre tabindex=0><code>ip link
 </code></pre><pre tabindex=0><code>ip addr
-</code></pre><h2 id=apt--dpkg>APT / dpkg</h2><pre tabindex=0><code>sudo apt list --installed &lt;package-name-start*&gt;
+</code></pre><p>output current wifi name</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install -y wireless tools
+</span></span><span style=display:flex><span>iwgetid
+</span></span><span style=display:flex><span>iwgetid -r <span style=color:#75715e># just the name</span>
+</span></span></code></pre></div><h3 id=list-all-wifis>list all wifis</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt install network-manager
+</span></span><span style=display:flex><span>nmcli -f in-use,ssid,bssid,signal,bars  dev wifi
+</span></span></code></pre></div><p>list wifis</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nmcli d wifi
+</span></span></code></pre></div><p>connect to a specific wifi</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nmcli d wifi connect XX:XX:XX:XX:XX:XX
+</span></span></code></pre></div><p><a href=https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid>https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid</a></p><h2 id=apt--dpkg>APT / dpkg</h2><pre tabindex=0><code>sudo apt list --installed &lt;package-name-start*&gt;
 </code></pre><pre tabindex=0><code>sudo apt --reinstall install &lt;package&gt;
 </code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>dpkg --list <span style=color:#111>|</span> grep &lt;package-name-fragment&gt;
 </span></span></code></pre></div><h2 id=devices>Devices</h2><pre tabindex=0><code>sudo libinput --list-devices
