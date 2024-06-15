@@ -87,6 +87,34 @@ ip link
 ```
 ip addr
 ```
+output current wifi name
+
+```bash
+sudo apt install -y wireless tools
+iwgetid
+iwgetid -r # just the name
+```
+
+### list all wifis
+
+
+```bash
+sudo apt install network-manager
+nmcli -f in-use,ssid,bssid,signal,bars  dev wifi
+```
+
+list wifis
+```bash
+nmcli d wifi
+```
+
+connect to a specific wifi
+
+```bash
+nmcli d wifi connect XX:XX:XX:XX:XX:XX
+```
+
+<https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid>
 
 ## APT / dpkg
 
