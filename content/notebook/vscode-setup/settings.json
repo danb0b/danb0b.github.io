@@ -342,6 +342,15 @@
             "hidden": false,
             "rootPath": null,
             "adapterOptions": {}
+        },
+        "serial:///dev/ttyUSB1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
         }
     },
     "security.workspace.trust.untrustedFiles": "open",
@@ -387,5 +396,5 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "window.zoomLevel": 1
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
 }

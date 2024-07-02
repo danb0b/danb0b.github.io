@@ -75,5 +75,10 @@
         "key": "ctrl+shift+j",
         "command": "-workbench.action.search.toggleQueryDetails",
         "when": "inSearchEditor || searchViewletFocus"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
     }
 ]

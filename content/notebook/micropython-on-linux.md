@@ -15,8 +15,9 @@ git checkout -b dev-branch
 cd ports/unix
 make submodules
 make
+sudo make install
 cd build-stadaard
-./micropython
+.micropython
 ```
 
 ## External Resources
