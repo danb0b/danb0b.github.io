@@ -311,3 +311,16 @@ git fetch project-a --tags
 git merge --allow-unrelated-histories project-a/master # or any branch you want to merge
 git remote remove project-a
 ```
+
+
+## merge with squash
+
+```bash
+git merge --squash <tag or branch>
+```
+
+for example
+
+```bash
+git merge --squash wip
+```

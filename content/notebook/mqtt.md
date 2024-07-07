@@ -40,9 +40,8 @@ MYIP2="<put your second ip address here>"
 
 
 ```bash
-cat <<EOT > ~/mosquitto.conf
-listener 1883 $MYIP1
-listener 1883 $MYIP2
+cat <<EOT | tee ~/mosquitto.conf
+listener 1883
 allow_anonymous true
 EOT
 sudo install -o root -g root -m 644 mosquitto.conf /etc/mosquitto/conf.d/mosquitto.conf
@@ -59,7 +58,7 @@ MYIP="<put your ip address here>"
 ```
 
 ```bash
-cat <<EOT > ~/mosquitto.conf
+cat <<EOT | tee ~/mosquitto.conf
 listener 1883 $MYIP
 allow_anonymous true
 max_inflight_messages 1
