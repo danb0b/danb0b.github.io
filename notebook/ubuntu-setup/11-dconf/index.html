@@ -10,10 +10,12 @@
 dconf dump /org/gnome/settings-daemon/plugins/media-keys/ &gt; media-keys.dconf
 dconf dump /org/gnome/shell/extensions/dash-to-dock/ &gt; dash-to-dock.dconf
 dconf dump /org/gnome/desktop/interface/ &gt; interface.dconf
+dconf dump /com/ubuntu/touch/system/ &gt;&gt; screen.dconf
 </code></pre><p>restore</p><pre tabindex=0><code>dconf load /org/gnome/desktop/wm/keybindings/ &lt; keybindings.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ &lt; media-keys.dconf
 dconf load /org/gnome/shell/extensions/dash-to-dock/ &lt; dash-to-dock.dconf
 dconf load /org/gnome/desktop/interface/ &lt; interface.dconf
+dconf load /com/ubuntu/touch/system/ &lt; screen.dconf
 </code></pre><h2 id=full-config>Full Config</h2><p>suggestion from <a href=https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file>here</a>:</p><pre tabindex=0><code>cat &lt;&lt;EOT &gt;&gt; keybindings.dconf
 [/]
 maximize=@as []
