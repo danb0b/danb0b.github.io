@@ -111,7 +111,6 @@ org.shotcut.Shotcut \
 com.github.micahflee.torbrowser-launcher \
 com.obsproject.Studio \
 org.libreoffice.LibreOffice \
-org.gpodder.gpodder \
 org.gnome.Rhythmbox3 \
 org.raspberrypi.rpi-imager \
 com.jetpackduba.Gitnuro \
@@ -119,6 +118,7 @@ com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
 org.fritzing.Fritzing \
 com.rafaelmardojai.Blanket
+# org.gpodder.gpodder \
 # org.synfig.SynfigStudio
 # net.xm1math.Texmaker\
 # com.authy.Authy \

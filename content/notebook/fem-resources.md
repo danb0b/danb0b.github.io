@@ -1,7 +1,6 @@
 ---
 title: FEM Resources
 tags:
-- fea
 - fem
 - python
 ---

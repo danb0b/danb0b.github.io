@@ -98,7 +98,7 @@ pip install git+https://github.com/pfalcon/utemplate.git
 ### Fix for pandoc eqnos
 
 ```bash
-pip3 install --force-reinstall git+https://github.com/nandokawka/pandoc-xnos@284474574f51888be75603e7d1df667a0890504d#egg=pandoc-xnos
+pip3 install --force-reinstall --no-cache-dir git+https://github.com/nandokawka/pandoc-xnos@284474574f51888be75603e7d1df667a0890504d#egg=pandoc-xnos
 ```
 
 according to [here](https://github.com/tomduck/pandoc-xnos/pull/29), until the PR is merged, do the above.

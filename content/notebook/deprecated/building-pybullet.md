@@ -2,9 +2,9 @@
 title: Building PyBullet
 tags: 
   - cmake
-  - C/C++
+  - cplusplus
   - ubuntu
-  - pyBullet
+  - pybullet
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: Reset iptables
 tags:
-- iptables
 - ubuntu
 - linux
 - networking
