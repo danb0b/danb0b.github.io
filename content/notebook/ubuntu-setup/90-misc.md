@@ -50,7 +50,7 @@ from [here](https://fostips.com/lid-close-action-ubuntu-21-04-laptop/)
 cat <<EOT | sudo tee -a /etc/systemd/logind.conf
 HandleLidSwitch=lock 
 HandleLidSwitchExternalPower=lock
-HandleLidSwitchDocked=lock
+HandleLidSwitchDocked=ignore #when it's docked, leave it unlocked
 EOT
 ```
 
@@ -122,3 +122,7 @@ sudo ufw allow in on wlp1s0
 sudo ufw route allow out on enx0050b6bd4061
 sudo ufw route allow out on enx00b56d06277a
 ```
+
+## Add a tiling window manager
+
+https://extensions.gnome.org/extension/3733/tiling-assistant/

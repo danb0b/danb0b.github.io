@@ -29,6 +29,7 @@ dconf dump /org/gnome/desktop/wm/keybindings/ > keybindings.dconf
 dconf dump /org/gnome/settings-daemon/plugins/media-keys/ > media-keys.dconf
 dconf dump /org/gnome/shell/extensions/dash-to-dock/ > dash-to-dock.dconf
 dconf dump /org/gnome/desktop/interface/ > interface.dconf
+dconf dump /com/ubuntu/touch/system/ >> screen.dconf
 ```
 
 restore
@@ -38,6 +39,7 @@ dconf load /org/gnome/desktop/wm/keybindings/ < keybindings.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys.dconf
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.dconf
 dconf load /org/gnome/desktop/interface/ < interface.dconf
+dconf load /com/ubuntu/touch/system/ < screen.dconf
 ```
 
 

@@ -13,6 +13,28 @@ sudo adduser $USER libvirt
 #sudo apt install libvirt-daemon-driver-qemu libvirt-daemon-system
 ```
 
+flatpak install com.google.AndroidStudio 
+
+## Tricks for getting chrome working and eliminating bugs / errors
+
+install:
+
+vip
+duo
+authy
+
+config.ini
+
+set memory to 2048-->8192 (hw.ramSize)
+set heap from 256-->1024
+turn off gpu
+
+turn off vulkan:
+https://stackoverflow.com/questions/69134922/google-chrome-browser-in-android-12-emulator-doesnt-load-any-webpages-internet
+
+delete storage in chrome and uninstall updates.
+
+
 ## External Resources
 
 * https://developer.android.com/studio/run/emulator-acceleration#vm-linux

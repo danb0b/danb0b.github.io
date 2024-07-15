@@ -118,8 +118,8 @@ com.jetpackduba.Gitnuro \
 com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
 org.fritzing.Fritzing \
-com.rafaelmardojai.Blanket \
-org.synfig.SynfigStudio
+com.rafaelmardojai.Blanket
+# org.synfig.SynfigStudio
 # net.xm1math.Texmaker\
 # com.authy.Authy \
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
