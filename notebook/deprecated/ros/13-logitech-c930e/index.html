@@ -19,7 +19,8 @@
 </code></pre></li><li><p>copy rules from idealab_ros_tools to rules folder (according to this <a href=http://wiki.ros.org/libuvc_camera>ref</a>)</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>cd</span> ~/code/code_idealab_ros/src
 </span></span><span style=display:flex><span>sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
 </span></span><span style=display:flex><span>sudo cp 99-uvc-vboxcam.rules /etc/udev/rules.d/
-</span></span><span style=display:flex><span>sudo udevadm control --reload-rules <span style=color:#f92672>&amp;&amp;</span> udevadm trigger
+</span></span><span style=display:flex><span><span style=color:#75715e># sudo udevadm control --reload-rules &amp;&amp; sudo udevadm trigger</span>
+</span></span><span style=display:flex><span>service udev restart
 </span></span></code></pre></div></li><li><p>if that doesn&rsquo;t work just</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo chmod <span style=color:#ae81ff>777</span> /dev/bus/usb/001/001
 </span></span></code></pre></div><p>where 001 and 002 is the bus and id of the desired usb camera, respectively, which was acquired from the lsusb command.</p></li><li><p>optional step: you can view/edit parameters directly from bash according to <a href=https://www.kurokesu.com/main/2016/01/16/manual-usb-camera-settings-in-linux/>this</a></p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>v4l2-ctl --list-devices
 </span></span><span style=display:flex><span>v4l2-ctl -d /dev/video0 --list-ctrls
