@@ -14,7 +14,8 @@ weight: 1
 uname -r
 ```
 
-More detailed information 
+More detailed information
+
 ```bash
 uname -a
 ```
@@ -44,7 +45,6 @@ with open(os.path.expanduser('~/crontest.txt'),'a') as f:
 ```bash
 chmod +x test.py
 ```
-
 
 ```bash
 crontab -e
@@ -87,6 +87,7 @@ ip link
 ```
 ip addr
 ```
+
 output current wifi name
 
 ```bash
@@ -97,13 +98,13 @@ iwgetid -r # just the name
 
 ### list all wifis
 
-
 ```bash
 sudo apt install network-manager
 nmcli -f in-use,ssid,bssid,signal,bars  dev wifi
 ```
 
 list wifis
+
 ```bash
 nmcli d wifi
 ```
@@ -129,6 +130,20 @@ sudo apt --reinstall install <package>
 ```bash
 dpkg --list | grep <package-name-fragment>
 ```
+
+### apt history
+
+less /var/log/apt/history.log
+
+ These logs gets rotated (every month I guess), old files will be suffixed with a number and compressed. So to view the next history log, use:
+
+zless /var/log/apt/history.log.1.gz
+
+To view the logs available:
+
+ls -la /var/log/apt/
+
+from [here](http://askubuntu.com/questions/21657/ddg#21658)
 
 ## Devices
 
@@ -159,7 +174,7 @@ sed "s/regex/replace/" filein > fileout
 List all kernel images installed:
 
 ```
-$ dpkg --list | grep linux-image
+dpkg --list | grep linux-image
 ```
 
 ## Login, Logout, Restart
@@ -174,7 +189,7 @@ gnome-session-quit
 
 From <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>
 
-edit ```/etc/systemd/logind.conf``` to configure power options such as lid closing opening, 
+edit ```/etc/systemd/logind.conf``` to configure power options such as lid closing opening,
 
 ```
 HandleLidSwitch=ignore
@@ -190,7 +205,7 @@ systemctl restart systemd-logind.service
 
 ## Users, groups
 
-From: 
+From:
 
 * <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
 * <https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the>
@@ -214,7 +229,7 @@ From:
     sudo usermod -aG sudo username
     #...
     ```
-    
+
 ### Remove User
 
 ```bash
@@ -246,7 +261,6 @@ This is how you can reenable that account:
 # set expiration date of peter to Never
 sudo usermod --expiredate "" peter
 ```
-
 
 ### List all users / groups
 
@@ -290,21 +304,20 @@ Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
     ```
 
     change ```prompt=lts``` to ```prompt=normal```
-    
+
 1. run updater
 
     ```bash
     do-release-upgrade
     ```
-    
+
     you may need to indicate what to do with specific config files that get updated.
-    
+
 1. Restart
 
     ```bash
     sudo shutdown -r now
     ```
-    
 
 ## get ip info
 
@@ -364,6 +377,14 @@ apt-mark showmanual
 unset HISTFILE && exit
 ```
 
+or
+
+```bash
+history -c && history -w && exit
+```
+
+<https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/>
+
 ## Package Management
 
 ### List repositories
@@ -379,6 +400,7 @@ sudo add-apt-repository --remove ppa:PPA_Name/ppa
 ```
 
 ## Misc
+
 ### Count files in bash
 
 source: <https://devconnected.com/how-to-count-files-in-directory-on-linux/>
@@ -398,6 +420,7 @@ find / -name '*.desktop' -exec grep -H 'Image Viewer' {} \; 2>/dev/null
 derived from [here](https://askubuntu.com/questions/1160737/how-to-find-desktop-file-location-for-a-particular-application):
 
 Some default locations listed [here](https://askubuntu.com/questions/1146307/which-desktop-files-belong-where):
+
 ```
 /usr/share/applications/gnome-terminal.desktop
 ~/.local/share/applications/gnome-terminal.desktop
@@ -419,9 +442,7 @@ sudo dmidecode -t4 # Processor
 sudo dmidecode -t1 # System
 ```
 
-
 ## Trash
-
 
 Files can be stuck in ~/.local/share/Trash/expunged when you delete from Nautilus a folder that belongs to you, but contains files which are belong to another user, and it is tricky for Nautilus to handle this situation correctly. To delete them try to use:
 
@@ -442,7 +463,6 @@ stat -c '%A %a %n' /path/to/filename
 ```
 
 ## Drives
-
 
 ### Hard drive information
 
@@ -499,8 +519,8 @@ sudo umount -f /media/backup
 
 ### mounting with fstab
 
-- <https://linuxconfig.org/how-fstab-works-introduction-to-the-etc-fstab-file-on-linux>
-- <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
+* <https://linuxconfig.org/how-fstab-works-introduction-to-the-etc-fstab-file-on-linux>
+* <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
 
 you can get most information from lsblk if you have temporarily mounted it...
 
@@ -528,6 +548,7 @@ list directories, one level only, from [here](https://linuxhint.com/du-one-level
 ```bash
 du -h  --max-depth 1 /path/to/my/dir
 ```
+
 ## Find the free space of a drive
 
 ```bash
@@ -537,6 +558,7 @@ df -H
 ## Recursively list files
 
 from [here](https://www.cyberciti.biz/faq/how-to-show-recursive-directory-listing-on-linux-or-unix/)
+
 ```bash
 tree /path/to/dir
 ```
@@ -558,9 +580,7 @@ printenv | grep ROS
 
 ## mount information
 
-
 [information on nautilus-aware mount locations](https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt)
-
 
 ## Read from Serial
 
@@ -577,6 +597,7 @@ To exit enter tilde dot (~.)
 sudo apt install screen
 screen /dev/ttyACM0 9600
 ```
+
 ## tail
 
 From [here](https://www.howtogeek.com/481766/how-to-use-the-tail-command-on-linux/)
@@ -603,7 +624,6 @@ head -200 history.txt | tail -5
 ## More
 
 see [this page](/bookmarks/linux-cheatsheet-links/) for more links
-
 
 ## List login times including boots
 
@@ -640,7 +660,6 @@ use pkexec to do things you would normally do with sudo, like
 pkexec cp /path/to/sudo/backup /etc/sudoers
 
 great advice from here: <https://askubuntu.com/questions/438123/accidentally-deleted-etc-sudoers-file>
-
 
 ## Networking
 

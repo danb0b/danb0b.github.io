@@ -15,13 +15,13 @@ tags:
 1. Use a key like "ed25519"
 
     ```bash
-    ssh-keygen -t ed25519
+    ssh-keygen -t ed25519 -f <path/to/key>
     ```
 
 2. print the public key:
 
     ```bash
-    cat ~/.ssh/id_ed25519.pub
+    cat <path/to/key>.pub
     ```
 
 3. add your key(s) to authorized keys:
@@ -36,6 +36,23 @@ tags:
 
     ```bash
     cat ~/.ssh/id_ed25519.pub >> ~/.ssh/authorized_keys
+    ```
+    
+    or distribute your keys with ```ssh-copy-id```
+
+    ```bash
+    ssh-copy-id -f -i <path/to/your/key>.pub user@server
+    ```
+
+1. update your .ssh/config file
+
+    ```
+    Host *
+        IdentitiesOnly yes
+        IdentityFile [path/to/new_file]
+        ForwardAgent yes
+        AddKeysToAgent yes
+        User <user>
     ```
 
 ## Default Permissions

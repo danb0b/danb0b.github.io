@@ -82,7 +82,8 @@ You need to follow slightly different steps if you want to provide access to a b
     cd ~/code/code_idealab_ros/src
     sudo cp 99-uvc-c930.rules /etc/udev/rules.d/
     sudo cp 99-uvc-vboxcam.rules /etc/udev/rules.d/
-    sudo udevadm control --reload-rules && udevadm trigger
+    # sudo udevadm control --reload-rules && sudo udevadm trigger
+    service udev restart
     ```
 
 1. if that doesn't work just
