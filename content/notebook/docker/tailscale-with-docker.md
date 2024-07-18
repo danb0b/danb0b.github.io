@@ -41,7 +41,7 @@ sudo docker run -d --name=tailscaled -v /var/lib:/var/lib -v /dev/net/tun:/dev/n
 ### Dockerfile
 
 ```dockerfile
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 RUN apt update && apt install -y curl
 RUN curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.noarmor.gpg | tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null && \

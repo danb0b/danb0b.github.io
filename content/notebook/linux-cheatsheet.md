@@ -20,6 +20,11 @@ More detailed information
 uname -a
 ```
 
+## Find release name
+
+```bash
+lsb_release -a
+```
 ## Device / driver info
 
 ```

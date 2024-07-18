@@ -109,6 +109,14 @@ Updated for Ubuntu 22.04
     ssh myserver_luks_unlock
     ```
 
+    > Some newer ssh clients no longer accept RSA pubkeys.  See here: <https://confluence.atlassian.com/bitbucketserverkb/ssh-rsa-key-rejected-with-message-no-mutual-signature-algorithm-1026057701.html>
+    >
+    > Thus, you may need to add the following to /etc/ssh/ssh_config:
+    > 
+    > ```
+    > PubkeyAcceptedKeyTypes +ssh-rsa
+    > ```
+
     and once you get a prompt, type as suggested by the busybox text :
 
     ```bash

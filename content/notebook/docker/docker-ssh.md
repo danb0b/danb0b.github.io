@@ -27,12 +27,12 @@ This article shows the following:
 ## Dockerfile
 
 ```dockerfile
-FROM ubuntu:latest
+FROM ubuntu:24.04
 WORKDIR /test
 ENV MYUSER=danaukes
 ENV MYGROUP=danaukes
-ENV MYUID=1000
-ENV MYGID=1000
+ENV MYUID=1001 #1000 is taken by default by user ubuntu
+ENV MYGID=1001 #1000 is taken by default by group ubuntu
 
 RUN apt update && apt install -y openssh-server iputils-ping git sudo net-tools
 
@@ -42,27 +42,28 @@ RUN addgroup --gid ${MYGID} ${MYGROUP} && \
     chown ${MYUSER}:${MYGROUP} /home/${MYUSER} && \
     echo "${MYUSER} ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/nopasswd
 
+RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+RUN echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+
 USER ${MYUSER}
 ```
 
 ## Docker compose
 
 ```yaml
-version: "3.9"
 services:
   web:
     build: ./build
     user: danaukes
     networks:
       ubuntu-network:
-        ipv4_address: "192.168.4.99"
+        ipv4_address: "192.168.0.90"
     dns:
-      - 192.168.4.1
+      - 192.168.0.1
     ports:
-      - 22/tcp
+      - 22:22
     command: bash -c "sudo service ssh start && sleep infinity"
     restart: unless-stopped
-
 networks:
   ubuntu-network:
     driver: ipvlan
@@ -72,12 +73,28 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: 192.168.4.0/24
-          gateway: 192.168.4.1
-          ip_range: 192.168.4.1/24
+        - subnet: 192.168.0.0/24
+          gateway: 192.168.0.1
+          ip_range: 192.168.0.0/24
+
 
 ```
 
+## Commands
+
+```bash
+docker build --no-cache -t ssh ./build
+docker build -t ssh ./build
+docker compose build
+docker compose up
+docker compose down
+```
+
+
+## Comments
+
+* Macvlan does not work with wifi but could also be substituted
+* ipvlan l2 mode uses the same mac address, so accessing the container from your host may not be possible.  Testing from a second server, though, with a separate mac address, should work.
 
 ## Notes and snippets
 
