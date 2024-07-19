@@ -25,6 +25,7 @@ uname -a
 ```bash
 lsb_release -a
 ```
+
 ## Device / driver info
 
 ```
@@ -215,10 +216,33 @@ From:
 * <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
 * <https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the>
 
+1. Create a new group
+
+    ```bash
+    sudo addgroup groupname
+    ```
+
 1. Create a new user
 
     ```bash
     sudo adduser username
+    ```
+
+1. create a new group by gid
+
+    ```bash
+    groupadd -g <group-id> <groupname>
+    ```
+
+1. create a new user and group by groupid
+
+    ```bash
+    MYUSER=ubuntu
+    MYGID=1000
+    MYUID=1000
+
+    groupadd -g ${MYGID} ${MYUSER}
+    useradd -u ${MYUID} -g ${MYGID} -p $(perl -e 'print crypt($ARGV[0], "password")' 'password') -G adm,sudo ${MYUSER} && mkdir /home/${MYUSER} && chown ${MYUSER}:${MYUSER} /home/${MYUSER}
     ```
 
 1. Find groups associated with current user:
@@ -235,11 +259,29 @@ From:
     #...
     ```
 
+1. modify list of groups user belongs to
+
+    unlike the last command(```-aG```), ```-G``` redefines rather than appends
+
+    ```bash
+    sudo usermod -G usergroup,othergroup username
+    ```
+
 ### Remove User
 
-```bash
-sudo deluser --remove-home username
-```
+1. remove user from group
+
+    ```bash
+    sudo deluser username groupname
+    ```
+
+1. remove user completely
+
+    ```bash
+    sudo deluser --remove-home username
+    ```
+
+    more tips [here](https://www.howtogeek.com/656549/how-to-delete-a-user-on-linux-and-remove-every-trace/)
 
 ### Force new password
 
@@ -266,6 +308,8 @@ This is how you can reenable that account:
 # set expiration date of peter to Never
 sudo usermod --expiredate "" peter
 ```
+
+
 
 ### List all users / groups
 
