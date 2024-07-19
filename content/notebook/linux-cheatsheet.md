@@ -266,6 +266,11 @@ From:
     ```bash
     sudo usermod -G usergroup,othergroup username
     ```
+### Change password
+
+```bash
+passwd [username]
+```
 
 ### Remove User
 
