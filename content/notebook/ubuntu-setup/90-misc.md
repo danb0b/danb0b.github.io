@@ -126,3 +126,10 @@ sudo ufw route allow out on enx00b56d06277a
 ## Add a tiling window manager
 
 https://extensions.gnome.org/extension/3733/tiling-assistant/
+
+## Adjust gnome brightness time
+
+```bash
+gsettings get org.gnome.settings-daemon.plugins.power idle-brightness
+gsettings set org.gnome.settings-daemon.plugins.power idle-brightness 120
+```

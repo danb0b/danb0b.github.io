@@ -47,3 +47,15 @@ echo -ne "\x10\xff\x0b\x1e\x01\x00\x00" | sudo tee /dev/[the device] # media key
 ## Better
 
 <https://github.com/danb0b/external_k380-function-keys-conf>
+
+## Finally
+
+using ```udevadm info -q all -a /dev/hidraw2``` I see that the KERNELS entry was for a parent device and that subsystems  = HID was also for a parent device.  I changed it to match entries I found with this
+
+```bash
+udevadm info -q all -n /dev/hidraw2
+```
+
+which gave me keys for the hidraw device it was showing up for at the time, that I could use.
+
+ACTION=="add", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", DEVPATH=="*:046D:B342.*", RUN+="/bin/bash -c \"echo -ne '\x10\xff\x0b\x1e\x00\x00\x00' | tee /dev/%k\""

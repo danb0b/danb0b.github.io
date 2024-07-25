@@ -2,6 +2,15 @@
 title: android studio
 ---
 
+
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+
+download [android-studio](https://developer.android.com/studio)
+
+----
+
+## Old info
+
 get a message about kvm
 
 ```bash
