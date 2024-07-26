@@ -38,8 +38,31 @@ set memory to 2048-->8192 (hw.ramSize)
 set heap from 256-->1024
 turn off gpu
 
+find the following lines and update as follows
+
+```bash
+vm.heapSize = 1024
+hw.ramSize = 8192
+hw.gpu.enabled = yes
+hw.gpu.mode = host
+```
+
 turn off vulkan:
 https://stackoverflow.com/questions/69134922/google-chrome-browser-in-android-12-emulator-doesnt-load-any-webpages-internet
+
+```bash
+cat << EOT | tee advancedFeatures.ini
+Vulkan = off
+GLDirectMem = on
+EOT
+```
+
+then move it into your vm's location
+
+```bash
+#mv advancedFeatures.ini <final location>
+mv advancedFeatures.ini ~/.android/avd/Pixel_6a_API_35.avd # for example
+```
 
 delete storage in chrome and uninstall updates.
 
