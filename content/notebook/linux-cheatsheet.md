@@ -61,6 +61,16 @@ crontab -e
 * * * * * $HOME/test.py
 ```
 
+## Desktop applications
+
+* ends in .desktop
+* found in ```/usr/share/applications```
+
+## Desktop icons
+
+* svg and png typically
+* found in ```/usr/share/icons```
+
 ## search path
 
 .bashrc holds path variables.
