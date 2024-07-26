@@ -1,0 +1,24 @@
+---
+title: Setup and Use Ente Authenticator
+---
+
+download from here: <https://github.com/ente-io/photos-desktop/releases/download/v1.7.2/ente-1.7.2-x86_64.AppImage>
+
+```bash
+cat << EOL | sudo tee /usr/share/applications/ente.desktop
+[Desktop Entry]
+Name=Ente Auth
+MimeType=
+Exec=/home/danaukes/apps/ente-auth-v3.0.17-x86_64.AppImage
+Type=Application
+GenericName=Ente Auth
+Terminal=false
+#Icon=mainline
+Comment=Ente Auth
+StartupNotify=true;
+Categories=System;
+#StartupWMClass=/home/danaukes/apps/ente-auth-v3.0.17-x86_64.AppImage
+EOL
+
+sudo chmod 644 /usr/share/applications/ente.desktop
+```

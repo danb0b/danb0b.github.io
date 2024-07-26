@@ -74,7 +74,17 @@ HandleLidSwitchDocked=ignore
 </span></span><span style=display:flex><span>getent group
 </span></span></code></pre></div><h3 id=find-out-who-is-logged-on>find out who is logged on</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>users
 </span></span><span style=display:flex><span>who
-</span></span></code></pre></div><h2 id=update-distro>Update Distro</h2><p>Based on <a href=https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/>this link</a></p><ol><li><p>Might as well be fully updated first</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt update
+</span></span></code></pre></div><h2 id=backup-folders>Backup folders:</h2><p>/bin
+/boot
+/etc
+/home
+/lib
+/lib64
+/opt
+/root
+/sbin
+/usr
+/var</p><p><a href=https://askubuntu.com/questions/222326/which-folders-to-include-in-backup>https://askubuntu.com/questions/222326/which-folders-to-include-in-backup</a></p><h2 id=update-distro>Update Distro</h2><p>Based on <a href=https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/>this link</a></p><ol><li><p>Might as well be fully updated first</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt update
 </span></span><span style=display:flex><span>sudo apt upgrade
 </span></span><span style=display:flex><span>sudo shutdown -r now
 </span></span></code></pre></div></li><li><p>edit which upgrade you want to do (lts or normal)</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo nano /etc/update-manager/release-upgrades
