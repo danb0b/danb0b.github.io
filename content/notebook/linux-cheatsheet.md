@@ -339,6 +339,22 @@ users
 who
 ```
 
+## Backup folders:
+
+/bin
+/boot
+/etc
+/home
+/lib
+/lib64
+/opt
+/root
+/sbin
+/usr
+/var
+
+<https://askubuntu.com/questions/222326/which-folders-to-include-in-backup>
+
 ## Update Distro
 
 Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)

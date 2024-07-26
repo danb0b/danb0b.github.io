@@ -25,7 +25,7 @@ tags:
 1. Create file structure for rclone.  Let's say you have set up a remote filesystem called dropbox_personal.  
 
     ```bash
-    mkdir /media/shared-folder-name
+    sudo mkdir /media/shared-folder-name
     sudo chown username:groupname /media/shared-folder-name
     ```
 
@@ -34,16 +34,16 @@ tags:
     for example:
 
     ```bash
-    mkdir /media/dropbox_personal
+    sudo mkdir /media/dropbox_personal
     sudo chown danaukes:danaukes /media/dropbox_personal
     
-    mkdir /media/dropbox_asu
+    sudo mkdir /media/dropbox_asu
     sudo chown danaukes:danaukes /media/dropbox_asu
     
-    mkdir /media/drive_asu
+    sudo mkdir /media/drive_asu
     sudo chown danaukes:danaukes /media/drive_asu
     
-    mkdir /media/onedrive-idealab
+    sudo mkdir /media/onedrive-idealab
     sudo chown danaukes:danaukes /media/onedrive-idealab
     ```
 
@@ -62,4 +62,10 @@ tags:
     rclone mount dropbox_asu: /media/dropbox_asu --vfs-cache-mode full &
     rclone mount asu: /media/drive_asu --vfs-cache-mode full &
     rclone mount dropbox_personal: /media/dropbox_personal --vfs-cache-mode full &
+    ```
+
+1. For older distributions fuse3 is not available.  Try:
+
+    ```bash
+    sudo ln -s /bin/fusermount /bin/fusermount3
     ```
