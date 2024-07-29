@@ -167,3 +167,41 @@ Unsorted bookmarks that need a good sorting
 ## github
 
 * [list of repositories including ones that I am a collaborator on](https://github.com/settings/repositories)
+
+
+
+
+
+* https://m.youtube.com/watch?v=rRej1VKDgcE
+* https://www.linux-magazine.com/Issues/2024/280/Welcome
+* https://www.themarginalian.org/2014/04/18/antoine-de-saint-exupery-letter-to-a-hostage-smile/
+* https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html
+* https://pluralistic.net/2024/04/08/money-talks/
+* https://protonvpn.com/blog/privacy-company-us-problem/
+* https://pluralistic.net/2024/04/12/give-me-convenience/
+* https://arstechnica.com/information-technology/2024/04/why-the-us-governments-overreliance-on-microsoft-is-a-big-problem/?utm_brand=arstechnica&utm_social-type=owned&utm_source=mastodon&utm_medium=social
+* https://github.com/DanielTakeshi/gym-cloth
+* https://www.cosmofilms.com/bopp-films
+* https://arstechnica.com/gadgets/2024/04/you-can-now-buy-a-flame-throwing-robot-dog-for-under-10000/?utm_brand=arstechnica&utm_social-type=owned&utm_source=mastodon&utm_medium=social
+* https://arxiv.org/pdf/2209.04022
+* https://www.wired.com/story/how-to-sweep-for-bugs/
+* https://www.aljazeera.com/amp/news/2024/4/27/pro-palestinian-student-protests-spread-in-second-week-of-demonstrations
+* https://www.bbc.com/news/world-us-canada-68908885.amp
+* https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2023/03/lurking-beneath-surface-hidden-impacts-pixel-tracking
+* https://www.washingtonpost.com/nation/2024/04/27/columbia-university-protests-campus-gaza/
+* https://www.the-reframe.com/war-or-nothing/
+* https://gizmodo.com/data-brokers-selling-pregnancy-roe-v-wade-abortion-1849148426
+* https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
+* https://nixos-and-flakes.thiscute.world/
+* https://git.sysctl.io/albert/nix
+* https://m.youtube.com/watch?v=vGAqYNFQdZ4
+* https://www.theatlantic.com/magazine/archive/2024/06/china-russia-republican-party-relations/678271/?gift=hVZeG3M9DnxL4CekrWGK3xgKh4wbI9WqxWEqzvYfefo&utm_source=copy-link&utm_medium=social&utm_campaign=share
+* https://catvalente.substack.com/p/stop-talking-to-each-other-and-start
+* https://t.me/aaltomarketplace
+* https://www.sciencealert.com/being-small-appears-to-be-the-secret-to-evolutionary-success?utm_source=flipboard&utm_medium=activitypub
+* https://m.youtube.com/watch?v=QnuqWn4ZR6Q
+* https://deadline.com/2024/05/horizon-an-american-saga-review-kevin-costner-chapter-1-1235922965/amp/
+* https://www.wired.com/story/how-to-resist-ai-temptation-writing/
+* https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024
+* https://themarkup.org/the-breakdown/2024/05/04/how-do-i-prepare-my-phone-for-a-protest-updated-2024
+* 

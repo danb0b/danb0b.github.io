@@ -147,7 +147,7 @@ close and reopen terminal
 ```bash
 sudo snap install mqtt-explorer
 sudo snap install hugo --channel=extended
-sudo snap install superproductivity
+# sudo snap install superproductivity # no longer matches android appa
 ```
 
 ### Remove Firefox AGAIN

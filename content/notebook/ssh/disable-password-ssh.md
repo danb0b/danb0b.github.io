@@ -65,7 +65,7 @@ PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 KerberosAuthentication no
 GSSAPIAuthentication no
-#UsePAM no
+#UsePAM no 
 MaxAuthTries 3
 LoginGraceTime 20
 PermitUserEnvironment no
@@ -111,4 +111,6 @@ sudo systemctl restart ssh
 
 * <https://www.designed-cybersecurity.com/tutorials/harden-openssh-config/>
 * <https://github.com/trimstray/the-practical-linux-hardening-guide/wiki/OpenSSH>
+* <https://thelinuxcode.com/linux_pam_tutorial/>
+* <https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html>
 

@@ -38,3 +38,18 @@ title: Things to Read Once
 * <https://www.wired.com/story/how-to-be-more-anonymous-online/>
 * <https://www.zdnet.com/article/hardware-fails-but-ive-never-lost-data-thanks-to-this-backup-plan/>
 * <https://narratively.com/my-high-flying-life-as-a-corporate-spy-who-lied-his-way-to-the-top/?utm_source=pocket-newtab-android>
+* <https://anneapplebaum.substack.com/p/june-4-1989?r=177tk>
+* <https://m.youtube.com/watch?v=oH82bsqPSVo>
+* <https://www.eff.org/deeplinks/2024/06/surveillance-defense-campus-protests>
+* <https://www.nature.com/articles/s41467-024-47812-5>
+* <https://creativegood.com/blog/24/starlink-bestows-modern-age-marubo.html>
+* <https://www.washingtonpost.com/technology/2024/06/13/work-surveillance-tips/>
+* <https://pluralistic.net/2024/06/28/dealer-management-software/#antonin-scalia-stole-your-car>
+* <https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf>
+* <https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/>
+* <https://www.osnews.com/story/140120/ladybird-browser-goes-serious-github-billionaire-co-founder-now-involved/>
+* <https://www.eff.org/pages/eff-presents-encryptids>
+* <https://www.howtogeek.com/161498/how-to-backup-your-dvd-and-blu-ray-movie-collection/>
+* <https://www.eff.org/deeplinks/2024/03/how-figure-out-what-your-car-knows-about-you-and-opt-out-sharing-when-you-can>
+* <https://btdig.com/3c21f5f3a8e4fe2319617c9df6548b02ecab20ac/security-privacy-and-osint>
+
