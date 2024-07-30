@@ -1,4 +1,4 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><title>Disabling Password-based SSH | Dan Aukes </title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="Dan Aukes' personal website"><meta name=author content="Dan Aukes"><meta name=generator content="Hugo 0.129.0"><link rel=stylesheet href=https://www.danaukes.com/plugins/glightbox/css/glightbox.css><link rel=stylesheet href=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://www.danaukes.com/plugins/slick/slick.css><link rel=stylesheet href=https://www.danaukes.com/plugins/themify-icons/themify-icons.css><link rel=stylesheet href=https://www.danaukes.com/plugins/venobox/venobox.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css><link rel=stylesheet href=https://www.danaukes.com/scss/style.min.css media=screen><link rel="shortcut icon" href=https://www.danaukes.com/images/favicon.png type=image/x-icon><link rel=icon href=https://www.danaukes.com/images/favicon.png type=image/x-icon><script>(function(e,t,n,s,o,i,a){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=t.createElement(n),a=t.getElementsByTagName(n)[0],i.async=1,i.src=s,a.parentNode.insertBefore(i,a)})(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","","auto"),ga("send","pageview")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script></head><body><div class=preloader></div><header class=navigation><div class=container><nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0"><a class="navbar-brand mobile-view" href=https://www.danaukes.com/><img class=img-fluid src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><title>Disabling Password-based SSH | Dan Aukes </title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="Dan Aukes' personal website"><meta name=author content="Dan Aukes"><meta name=generator content="Hugo 0.130.0"><link rel=stylesheet href=https://www.danaukes.com/plugins/glightbox/css/glightbox.css><link rel=stylesheet href=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://www.danaukes.com/plugins/slick/slick.css><link rel=stylesheet href=https://www.danaukes.com/plugins/themify-icons/themify-icons.css><link rel=stylesheet href=https://www.danaukes.com/plugins/venobox/venobox.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css><link rel=stylesheet href=https://www.danaukes.com/scss/style.min.css media=screen><link rel="shortcut icon" href=https://www.danaukes.com/images/favicon.png type=image/x-icon><link rel=icon href=https://www.danaukes.com/images/favicon.png type=image/x-icon><script>(function(e,t,n,s,o,i,a){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=t.createElement(n),a=t.getElementsByTagName(n)[0],i.async=1,i.src=s,a.parentNode.insertBefore(i,a)})(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","","auto"),ga("send","pageview")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script></head><body><div class=preloader></div><header class=navigation><div class=container><nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0"><a class="navbar-brand mobile-view" href=https://www.danaukes.com/><img class=img-fluid src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
 <i class=ti-menu></i></button><div class="collapse navbar-collapse text-center" id=navigation><div class=desktop-view><ul class="navbar-nav mr-auto"><li class=nav-item><a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a></li><li class=nav-item><a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a></li></ul></div><a class="navbar-brand mx-auto desktop-view" href=https://www.danaukes.com/><img class=img-fluid src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a><ul class=navbar-nav><li class=nav-item><a class=nav-link href=https://www.danaukes.com/work-blog/>Work Blog</a></li><li class=nav-item><a class=nav-link href=https://www.danaukes.com/notebook/>Notebook</a></li><li class=nav-item><a class=nav-link href=https://www.danaukes.com/travel/>Travel</a></li><li class=nav-item><a class=nav-link href=https://www.danaukes.com/recipes/>Recipes</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://www.danaukes.com/code/>Code</a>
 <a class=dropdown-item href=https://www.danaukes.com/websites/>Websites</a>
@@ -11,9 +11,64 @@
 </span></span></code></pre></div><p>paste in the following to remove small moduli</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>awk <span style=color:#d88200>&#39;$5 &gt;= 3071&#39;</span> /etc/ssh/moduli &gt; /etc/ssh/moduli.safe
 </span></span><span style=display:flex><span>mv /etc/ssh/moduli.safe /etc/ssh/moduli
 </span></span><span style=display:flex><span><span style=color:#111>exit</span>
-</span></span></code></pre></div><p>Harden your config</p><p>Derived from <a href=https://motorscript.com/security-hardening-ssh-linux-server/>this link</a> and <a href=https://linux-audit.com/audit-and-harden-your-ssh-configuration/>this link</a></p><pre tabindex=0><code>cat &lt;&lt;EOT | sudo tee  /etc/ssh/sshd_config.d/99-local-sshd.conf
-#AllowUsers username1 username2
-#Port 23456
+</span></span></code></pre></div><h2 id=harden-your-config>Harden your config</h2><h3 id=client-side>Client Side</h3><p>Regenerate your keys</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo rm -f /etc/ssh/ssh_host_*key*
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>sudo ssh-keygen -o -t ed25519 -N <span style=color:#d88200>&#39;&#39;</span> -f /etc/ssh/ssh_host_ed25519_key
+</span></span><span style=display:flex><span>sudo ssh-keygen -o -t rsa -b <span style=color:#ae81ff>4096</span> -N <span style=color:#d88200>&#39;&#39;</span> -f /etc/ssh/ssh_host_rsa_key
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>Host *
+</span></span><span style=display:flex><span>    Protocol <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>    HostKeyAlgorithms sk-ssh-ed25519@openssh.com,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa
+</span></span><span style=display:flex><span>    KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512
+</span></span><span style=display:flex><span>    Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
+</span></span><span style=display:flex><span>    MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256
+</span></span><span style=display:flex><span>    StrictHostKeyChecking ask
+</span></span><span style=display:flex><span>    VerifyHostKeyDNS ask
+</span></span><span style=display:flex><span>    ForwardAgent no
+</span></span><span style=display:flex><span>    ForwardX11 no
+</span></span><span style=display:flex><span>    ForwardX11Trusted no
+</span></span><span style=display:flex><span>    PermitLocalCommand no
+</span></span><span style=display:flex><span>    HashKnownHosts yes
+</span></span><span style=display:flex><span>    TCPKeepAlive yes
+</span></span><span style=display:flex><span>    SendEnv LANG LC_*
+</span></span></code></pre></div><h3 id=server-side>Server-Side</h3><p>create a new group and add</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo groupadd --system ssh-users
+</span></span><span style=display:flex><span>sudo usermod -a -G ssh-users <span style=color:#111>$USER</span>
+</span></span></code></pre></div><p>Regenerate your keys</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo rm -f /etc/ssh/ssh_host_*key*
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>sudo ssh-keygen -o -t ed25519 -N <span style=color:#d88200>&#39;&#39;</span> -f /etc/ssh/ssh_host_ed25519_key
+</span></span><span style=display:flex><span>sudo ssh-keygen -o -t rsa -b <span style=color:#ae81ff>4096</span> -N <span style=color:#d88200>&#39;&#39;</span> -f /etc/ssh/ssh_host_rsa_key
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>NUM</span><span style=color:#f92672>=</span><span style=color:#00a8c8>$(</span>ls -1 /etc/ssh/sshd_config.d/99-local-sshd.conf* <span style=color:#111>|</span> wc -l<span style=color:#00a8c8>)</span>
+</span></span><span style=display:flex><span>sudo cp <span style=color:#d88200>&#34;/etc/ssh/sshd_config.d/99-local-sshd.conf&#34;</span> <span style=color:#d88200>&#34;/etc/ssh/sshd_config.d/99-local-sshd.conf.bak.</span><span style=color:#111>$NUM</span><span style=color:#d88200>&#34;</span>
+</span></span><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt; EOT | sudo tee /etc/ssh/sshd_config.d/99-local-sshd.conf
+</span></span></span><span style=display:flex><span><span style=color:#d88200>Protocol 2
+</span></span></span><span style=display:flex><span><span style=color:#d88200>HostKey /etc/ssh/ssh_host_ed25519_key
+</span></span></span><span style=display:flex><span><span style=color:#d88200>HostKey /etc/ssh/ssh_host_rsa_key
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>HostKeyAlgorithms sk-ssh-ed25519@openssh.com,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa
+</span></span></span><span style=display:flex><span><span style=color:#d88200>PubkeyAcceptedKeyTypes sk-ssh-ed25519@openssh.com,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa
+</span></span></span><span style=display:flex><span><span style=color:#d88200>KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512
+</span></span></span><span style=display:flex><span><span style=color:#d88200>Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
+</span></span></span><span style=display:flex><span><span style=color:#d88200>MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>PermitRootLogin prohibit-password
+</span></span></span><span style=display:flex><span><span style=color:#d88200>AllowGroups ssh-users
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>PubkeyAuthentication yes
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>ChallengeResponseAuthentication no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>PasswordAuthentication no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>PermitEmptyPasswords no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>HostbasedAuthentication no
+</span></span></span><span style=display:flex><span><span style=color:#d88200>IgnoreRhosts yes
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
+</span></span><span style=display:flex><span>sudo systemctl restart ssh
+</span></span></code></pre></div><hr><h2 id=harden-your-config-old>Harden your config (old)</h2><p>Derived from <a href=https://motorscript.com/security-hardening-ssh-linux-server/>this link</a> and <a href=https://linux-audit.com/audit-and-harden-your-ssh-configuration/>this link</a></p><pre tabindex=0><code>
+cat &lt;&lt;EOT | sudo tee  /etc/ssh/sshd_config.d/99-local-sshd.conf
+
+# AllowUsers username1 username2
+
+# Port 23456
+
 IgnoreRhosts yes
 PermitRootLogin no
 PubkeyAuthentication yes
@@ -22,13 +77,16 @@ PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 KerberosAuthentication no
 GSSAPIAuthentication no
-#UsePAM no 
+
+# UsePAM no
+
 MaxAuthTries 3
 LoginGraceTime 20
 PermitUserEnvironment no
 DebianBanner no
 
 # adjust the following to fit your needs and &#34;threat profile&#34;
+
 X11Forwarding yes
 AllowAgentForwarding yes
 AllowTcpForwarding yes
@@ -36,14 +94,17 @@ PermitTunnel yes
 
 HostKey /etc/ssh/ssh_host_ed25519_key
 HostKey /etc/ssh/ssh_host_rsa_key
-#HostKey /etc/ssh/ssh_host_ecdsa_key
+
+# HostKey /etc/ssh/ssh_host_ecdsa_key
 
 # Restrict key exchange, cipher, and MAC algorithms, as per sshaudit.com
-# hardening guide.
-KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha256
-Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
-MACs hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,umac-128-etm@openssh.com
-HostKeyAlgorithms ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,sk-ssh-ed25519@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-512,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com
+
+# hardening guide
+
+KexAlgorithms curve25519-sha256,&lt;curve25519-sha256@libssh.org&gt;,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha256
+Ciphers &lt;chacha20-poly1305@openssh.com&gt;,&lt;aes256-gcm@openssh.com&gt;,&lt;aes128-gcm@openssh.com&gt;,aes256-ctr,aes192-ctr,aes128-ctr
+MACs &lt;hmac-sha2-256-etm@openssh.com&gt;,&lt;hmac-sha2-512-etm@openssh.com&gt;,&lt;umac-128-etm@openssh.com&gt;
+HostKeyAlgorithms ssh-ed25519,&lt;ssh-ed25519-cert-v01@openssh.com&gt;,&lt;sk-ssh-ed25519@openssh.com&gt;,&lt;sk-ssh-ed25519-cert-v01@openssh.com&gt;,rsa-sha2-256,rsa-sha2-512,&lt;rsa-sha2-256-cert-v01@openssh.com&gt;,&lt;rsa-sha2-512-cert-v01@openssh.com&gt;
 
 LogLevel VERBOSE
 
@@ -53,5 +114,5 @@ ClientAliveCountMax 0
 EOT
 
 sudo chmod 644 /etc/ssh/sshd_config.d/99-local-sshd.conf
-sudo systemctl restart ssh 
+sudo systemctl restart ssh
 </code></pre><h2 id=references>References</h2><ul><li><a href=https://motorscript.com/security-hardening-ssh-linux-server/>https://motorscript.com/security-hardening-ssh-linux-server/</a></li><li><a href=https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04>https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-on-ubuntu-18-04</a></li><li><a href=https://help.ubuntu.com/community/SSH/OpenSSH/Configuring>https://help.ubuntu.com/community/SSH/OpenSSH/Configuring</a></li><li><a href=/notebook/ssh-reference>SSH Reference</a></li></ul><h3 id=new-in-2024>New in 2024</h3><ul><li><a href=https://www.designed-cybersecurity.com/tutorials/harden-openssh-config/>https://www.designed-cybersecurity.com/tutorials/harden-openssh-config/</a></li><li><a href=https://github.com/trimstray/the-practical-linux-hardening-guide/wiki/OpenSSH>https://github.com/trimstray/the-practical-linux-hardening-guide/wiki/OpenSSH</a></li><li><a href=https://thelinuxcode.com/linux_pam_tutorial/>https://thelinuxcode.com/linux_pam_tutorial/</a></li><li><a href=https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html>https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html</a></li></ul></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://www.danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/contact/>Contact</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://www.danaukes.com/><img src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2023 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/ssh/disable-password-ssh.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://www.danaukes.com/index.json"</script><script src=https://www.danaukes.com/plugins/glightbox/js/glightbox.js></script><script src=https://www.danaukes.com/plugins/jQuery/jquery.min.js></script><script src=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script><script src=https://www.danaukes.com/plugins/slick/slick.min.js></script><script src=https://www.danaukes.com/plugins/venobox/venobox.min.js></script><script src=https://www.danaukes.com/plugins/search/fuse.min.js></script><script src=https://www.danaukes.com/plugins/search/mark.js></script><script src=https://www.danaukes.com/plugins/search/search.js></script><script src=https://www.danaukes.com/js/script.min.js></script><script>var lightboxDescription,lightboxVideo,lightboxInlineIframe,lightbox=GLightbox();lightbox.on("open",e=>{console.log("lightbox opened")}),lightboxDescription=GLightbox({selector:".glightbox2"}),lightboxVideo=GLightbox({selector:".glightbox3"}),lightboxVideo.on("slide_changed",({prev:e,current:t})=>{console.log("Prev slide",e),console.log("Current slide",t);const{slideIndex:s,slideNode:o,slideConfig:i,player:n}=t;n&&(n.ready||n.on("ready",e=>{}),n.on("play",e=>{console.log("Started play")}),n.on("volumechange",e=>{console.log("Volume change")}),n.on("ended",e=>{console.log("Video ended")}))}),lightboxInlineIframe=GLightbox({selector:".glightbox4"})</script></body></html>
