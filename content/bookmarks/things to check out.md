@@ -313,3 +313,4 @@ chroma:
 * <https://www.davidrevoy.com/article1030/debian-12-kde-plasma-2024-install-guide>
 * <https://www.reddit.com/r/selfhosted/comments/se9cv6/self_hosted_options_for_document_esignature/>
 * kde connect
+* whishper

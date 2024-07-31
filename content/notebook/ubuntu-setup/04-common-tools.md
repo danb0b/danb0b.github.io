@@ -273,6 +273,14 @@ echo "alias python=python3" >> ~/.bashrc
 ```bash
 sudo apt install -y virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-guest-utils
 sudo usermod -a -G vboxusers $USER
+sudo modprobe vboxdrv
+```
+
+to reinstall:
+
+```bash
+sudo apt reinstall virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-guest-utils virtualbox-qt virtualbox
+sudo modprobe vboxdrv
 ```
 
 ### Common Windows Fonts
