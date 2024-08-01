@@ -97,6 +97,7 @@ sudo systemctl disable mosquitto
 * <https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/>
 * [About Keepalive](https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over/)
 * <http://www.steves-internet-guide.com/mossquitto-conf-file/>
+* <http://www.steves-internet-guide.com/mqtt-username-password-example/>
 
 ## Secure MQTT info
 
