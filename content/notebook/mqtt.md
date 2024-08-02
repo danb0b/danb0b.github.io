@@ -105,7 +105,7 @@ sudo systemctl disable mosquitto
 
 
 
-## More recent links
+## More recent links related to SSL/TLS
 
 * <https://crodrigues.com/setting-up-a-secure-mosquitto-mqtt-broker-with-ssl-tls-and-user-access-control-mqtt-series-2/>
 * <https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-debian-10>
@@ -119,3 +119,35 @@ sudo systemctl disable mosquitto
 * <https://forum.micropython.org/viewtopic.php?t=4280>
 * <https://github.com/orgs/micropython/discussions/13441>
 * <https://github.com/orgs/micropython/discussions/10559>
+* <https://github.com/JustinS-B/Mosquitto_CA_and_Certs>
+
+
+ca_maker produces:
+
+.
+|-- CA
+|   |-- ca_crt.der
+|   |-- ca_crt.pem
+|   |-- ca_crt.srl
+|   `-- ca_key.pem
+|-- DH
+|   `-- dhp_ffdhe2048.pem
+|-- clients
+|   |-- ca_crt.der
+|   `-- ca_crt.pem
+|-- csr_files
+|   `-- server_req.csr
+`-- server
+    |-- server_crt.pem
+    `-- server_key.pem
+
+client_maker produces in addition
+
+.
+|-- clients
+|   `-- student
+|       |-- ca_crt.pem
+|       |-- student_crt.pem
+|       `-- student_key.pem
+|-- csr_files
+|   `-- student_req.csr
