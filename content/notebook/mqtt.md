@@ -113,6 +113,7 @@ sudo systemctl disable mosquitto
 * <https://stackoverflow.com/questions/67628488/issues-establishing-a-secure-connection-to-mosquitto-broker-2-0-10-using-m2mqtt>
 * <https://docs.micropython.org/en/latest/library/ssl.html#>
 * <https://github.com/peterhinch/micropython-mqtt/tree/master>
+* <https://github.com/peterhinch/micropython-mqtt/blob/master/mqtt_as/README.md>
 * <https://forum.micropython.org/viewtopic.php?f=18&t=11906#p65746>
 * <https://github.com/peterhinch/micropython-samples/blob/master/README.md#414-ntp-time>
 * <https://serverfault.com/questions/806141/is-the-alert-ssl3-read-bytessslv3-alert-bad-certificate-indicating-that-the-s>
@@ -120,6 +121,9 @@ sudo systemctl disable mosquitto
 * <https://github.com/orgs/micropython/discussions/13441>
 * <https://github.com/orgs/micropython/discussions/10559>
 * <https://github.com/JustinS-B/Mosquitto_CA_and_Certs>
+* <https://github.com/embedded-systems-design/external_mosquitto_ca_and_certs/blob/main/README.md>
+* <https://askubuntu.com/questions/709843/how-to-configure-ufw-to-allow-ntp-to-work#709845>
+* <https://github.com/peterhinch/micropython-samples/blob/master/ntptime/ntptime.py>
 
 
 ca_maker produces:
