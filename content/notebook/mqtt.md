@@ -102,3 +102,20 @@ sudo systemctl disable mosquitto
 ## Secure MQTT info
 
 * <https://obrienlabs.net/how-to-setup-your-own-mqtt-broker/>
+
+
+
+## More recent links
+
+* <https://crodrigues.com/setting-up-a-secure-mosquitto-mqtt-broker-with-ssl-tls-and-user-access-control-mqtt-series-2/>
+* <https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-debian-10>
+* <https://mosquitto.org/man/mosquitto-tls-7.html>
+* <https://stackoverflow.com/questions/67628488/issues-establishing-a-secure-connection-to-mosquitto-broker-2-0-10-using-m2mqtt>
+* <https://docs.micropython.org/en/latest/library/ssl.html#>
+* <https://github.com/peterhinch/micropython-mqtt/tree/master>
+* <https://forum.micropython.org/viewtopic.php?f=18&t=11906#p65746>
+* <https://github.com/peterhinch/micropython-samples/blob/master/README.md#414-ntp-time>
+* <https://serverfault.com/questions/806141/is-the-alert-ssl3-read-bytessslv3-alert-bad-certificate-indicating-that-the-s>
+* <https://forum.micropython.org/viewtopic.php?t=4280>
+* <https://github.com/orgs/micropython/discussions/13441>
+* <https://github.com/orgs/micropython/discussions/10559>
