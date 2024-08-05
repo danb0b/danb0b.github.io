@@ -68,10 +68,16 @@ With these changes you should be able to connect in a headless way
     #default password is orangepi
     ```
 
-    harden ssh:
+1. update password
+
+1. harden ssh:
 
     * <https://danaukes.com/notebook/ssh/ssh-reference/>
     * <https://danaukes.com/notebook/ssh/disable-password-ssh/>
+
+1. Update Mirrors
+
+See this:<https://www.reddit.com/r/OrangePI/comments/16vdpjv/orange_pis_debian_and_the_chinese_update_servers/> and this: <http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&tid=145250>
 
 1. install tmux
 
