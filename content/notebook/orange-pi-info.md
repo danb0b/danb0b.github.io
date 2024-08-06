@@ -77,6 +77,22 @@ With these changes you should be able to connect in a headless way
 
 1. Update Mirrors
 
+edit /etc/apt/sources.list
+
+```bash
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy main restricted universe multiverse
+# deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ jammy main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy-security main restricted universe multiverse
+# deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ jammy-security main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy-updates main restricted universe multiverse
+# deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ jammy-updates main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
+# deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ jammy-backports main restricted universe multiverse
+```
+
 See this:<https://www.reddit.com/r/OrangePI/comments/16vdpjv/orange_pis_debian_and_the_chinese_update_servers/> and this: <http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&tid=145250>
 
 1. install tmux

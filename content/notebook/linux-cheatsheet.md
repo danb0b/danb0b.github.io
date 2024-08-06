@@ -298,6 +298,13 @@ passwd [username]
 
     more tips [here](https://www.howtogeek.com/656549/how-to-delete-a-user-on-linux-and-remove-every-trace/)
 
+### delete group
+
+```bash
+groupdel <groupname>
+```
+
+
 ### Force new password
 
 ```bash
