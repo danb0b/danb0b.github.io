@@ -113,4 +113,6 @@ find . -type d ! -user danaukes
 
 ## Find with max depth of four all files that end in either .py or .ipynb that contain cadquery
 
+```bash
 find . -maxdepth 4 \( -iname "*.py" -o -iname "*.ipynb" \) -exec grep -in cadquery {} \+
+```
