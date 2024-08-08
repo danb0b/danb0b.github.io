@@ -31,8 +31,7 @@ sudo nano /etc/samba/smb.conf
 ```
 
 ```bash
-# sudo service smbd restart
-sudo /etc/init.d/smbd restart
+sudo systemctl restart smbd.service 
 sudo ufw allow samba
 sudo smbpasswd -a <username>
 ```

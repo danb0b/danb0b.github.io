@@ -13,7 +13,7 @@ In this tutorial we assume a linux host and a windows guest
 1. Delete Unused programs
 1. delete winsxs: <https://helpdeskgeek.com/windows-11/what-is-the-winsxs-folder-why-is-it-huge-and-how-to-cleanup/>
 
-    ```
+    ```powershell
     DISM.exe /Online /Cleanup-Image /AnalyzeComponentStore
     DISM.exe /Online /Cleanup-Image /StartComponentCleanup
     Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
@@ -22,7 +22,7 @@ In this tutorial we assume a linux host and a windows guest
 1. Clean up system files (search for "disk cleanup" in start menu)
 1. Turn off hibernate
 
-    ```bash
+    ```powershell
     powercfg.exe -h off
     ```
 
@@ -33,23 +33,27 @@ In this tutorial we assume a linux host and a windows guest
 
     control panel --> recovery --> config disable system protection
 
-1. find and delete shadow copies and backups: <https://superuser.com/questions/1746099/system-volume-information-folder-huge>
+1. find and delete shadow copies and backups: 
+    * <https://superuser.com/questions/1746099/system-volume-information-folder-huge>
     * <https://www.thewindowsclub.com/delete-volume-shadow-copies-in-windows>
 
-1. limit size for shadow copies: vssadmin Resize ShadowStorage /For=C: /On=C: /MaxSize=320MB
+1. limit size for shadow copies: 
 
-    vssadmin Resize ShadowStorage /For=C: /On=C: /MaxSize=20%
+    ```powershell
+    #vssadmin Resize ShadowStorage /For=C: /On=C: /MaxSize=320MB
     vssadmin list shadowstorage /for=c:
     vssadmin list shadows /for=c:
     vssadmin delete shadows /for=c:
+    vssadmin Resize ShadowStorage /For=C: /On=C: /MaxSize=1%
+    ```
 
 1. delete winreaagent folder: <https://www.majorgeeks.com/content/page/what_is_the_winreagent_folder_and_can_i_delete_it.html>
 
 1. Delete / shrink serviceprofiles directory
 
-    https://superuser.com/questions/1635577/can-i-delete-files-from-c-windows-serviceprofiles-networkservice-appdata-local
+    <https://superuser.com/questions/1635577/can-i-delete-files-from-c-windows-serviceprofiles-networkservice-appdata-local>
 
-    ```cmd
+    ```powershell
     netsh branchcache flush
     ```
 
@@ -57,7 +61,7 @@ In this tutorial we assume a linux host and a windows guest
 
 1. defrag hard drive
 
-    ```cmd
+    ```powershell
     defrag c: /U /V
     ```
 
