@@ -314,3 +314,5 @@ chroma:
 * <https://www.reddit.com/r/selfhosted/comments/se9cv6/self_hosted_options_for_document_esignature/>
 * kde connect
 * whishper
+* Piper studio
+* Piper
