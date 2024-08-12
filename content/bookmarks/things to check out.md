@@ -32,8 +32,6 @@ Self hostalbe projects:
 * <https://mailinabox.email/?ref=selfh.st>
 * <https://gitlab.com/simple-nixos-mailserver/nixos-mailserver>
 
-
-
 ### VPNs and Proxies
 
 * Nebula
@@ -41,7 +39,7 @@ Self hostalbe projects:
 * Magic worn hole
 * Firefox send
 * Traefik
-* https://github.com/trailofbits/algo
+* <https://github.com/trailofbits/algo>
 * wireguard
 
 ### Bash
@@ -53,7 +51,7 @@ Self hostalbe projects:
 
 ### File Sharing
 
-* https://tinyfilemanager.github.io/
+* <https://tinyfilemanager.github.io/>
 * filerun
 
 ## file systems / backup
@@ -232,20 +230,20 @@ Pi hole
 
     * <https://github.com/Wilfred/difftastic>
 
-- <https://www.freecodecamp.org/>
-* ghost.io
-- Learndmarc.com
+* <https://www.freecodecamp.org/>
 
+* ghost.io
+
+- Learndmarc.com
 
 Anytype.io
 oss document scanner
-Gplates 
+Gplates
 Stellarium
 Tinycore
 Damn small Linux
-https://github.com/abi/screenshot-to-code
-https://ente.io/blog/open-sourcing-our-server/
-
+<https://github.com/abi/screenshot-to-code>
+<https://ente.io/blog/open-sourcing-our-server/>
 
 Portainer
 Distrobox
@@ -255,8 +253,8 @@ Flowblade
 Shufflecake
 
 ### python stuff
-Dash streamlet shiny
 
+Dash streamlet shiny
 
 Atuin
 Disko
@@ -268,7 +266,6 @@ Headscale
 Stirlingpdf
 Mail-in-a-Box
 Bigbluebutton
-
 
 Stui
 stress-ng
@@ -284,8 +281,8 @@ Cloudseq crowdseq
 
 If you run `beet import -t /path/to/music` it means “timid” and will ask if it’s ok to tag as it sees. Otherwise you can specify a specific ID to a discogs listing
 
-https://beets.readthedocs.io/en/stable/
-https://docs.beets.io/en/stable/plugins/duplicates.html
+<https://beets.readthedocs.io/en/stable/>
+<https://docs.beets.io/en/stable/plugins/duplicates.html>
 
 and/or use the discogs plugin
 
@@ -305,8 +302,6 @@ chroma:
   auto: no
 ```
 
-
-
 * <https://ntfy.sh/>
 * <https://github.com/JupiterBroadcasting/nixconfigs/blob/main/nginx-ssl>
 * <https://stract.com/>
@@ -316,3 +311,4 @@ chroma:
 * whishper
 * Piper studio
 * Piper
+* nix home-manager
