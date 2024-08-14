@@ -169,9 +169,10 @@ https://mushr.io/tutorials/deep_learning/
 
 Duckietown
 
-<https://github.com/orgs/duckietown/repositories?type=all>
-<https://duckietown.com/guides/start-teaching/>
-<https://duckietown.com/educational-resources/>
+* <https://github.com/orgs/duckietown/repositories?type=all>
+* <https://duckietown.com/guides/start-teaching/>
+* <https://duckietown.com/educational-resources/>
+* <https://docs.duckietown.com/daffy/devmanual-software/intermediate/simulation/index.html>
 
 turtlebot 
 https://github.com/ITTcs/gym-turtlebot3

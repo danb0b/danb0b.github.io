@@ -186,6 +186,8 @@ flatpak install flathub org.mozilla.Thunderbird -y
 
 move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbird/
 
+turn off threading: <https://support.mozilla.org/en-US/questions/1426449>
+
 ### Pandoc
 
 * <https://github.com/jgm/pandoc/releases/latest>
