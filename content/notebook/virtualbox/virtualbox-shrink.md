@@ -11,6 +11,12 @@ In this tutorial we assume a linux host and a windows guest
 
 1. Clean up files
 1. Delete Unused programs
+1. empty all recycle bins
+
+    ```powershell
+    Clear-Recycle-Bin -Force
+    ```
+
 1. delete winsxs: <https://helpdeskgeek.com/windows-11/what-is-the-winsxs-folder-why-is-it-huge-and-how-to-cleanup/>
 
     ```powershell
