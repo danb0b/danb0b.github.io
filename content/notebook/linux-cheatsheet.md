@@ -753,3 +753,15 @@ great advice from here: <https://askubuntu.com/questions/438123/accidentally-del
 ```bash
 nm-connection-editor
 ```
+
+## Disk Cloning
+
+check out dd
+
+```bash
+sudo fdisk -l /dev/sdb
+
+sudo dd if=/dev/sda of=~/sda.dd bs=128k status=progress conv=noerror,sync
+sudo dd if=/dev/sda bs=128k status=progress conv=noerror,sync | gzip -c > /sda.gz
+sudo dd if=/dev/sda of=/media/danaukes/24df9215-550f-4ca0-a9f1-8f0d666befd2/sda.dd bs=128k status=progress conv=noerror,sync
+```
