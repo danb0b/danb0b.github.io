@@ -765,3 +765,10 @@ sudo dd if=/dev/sda of=~/sda.dd bs=128k status=progress conv=noerror,sync
 sudo dd if=/dev/sda bs=128k status=progress conv=noerror,sync | gzip -c > /sda.gz
 sudo dd if=/dev/sda of=/media/danaukes/24df9215-550f-4ca0-a9f1-8f0d666befd2/sda.dd bs=128k status=progress conv=noerror,sync
 ```
+
+* <https://stackoverflow.com/questions/454899/how-to-convert-flat-raw-disk-image-to-vmdk-for-virtualbox-or-vmplayer>
+* <https://www.cyberciti.biz/faq/unix-linux-dd-create-make-disk-image-commands/>
+
+## Change Swap 
+
+* <https://ploi.io/documentation/server/change-swap-size-in-ubuntu>
