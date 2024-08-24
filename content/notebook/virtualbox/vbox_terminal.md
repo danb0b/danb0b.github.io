@@ -18,6 +18,7 @@ Now the fun begins. First, you must know the name of the VM you want to run. To 
 vboxmanage list vms
 vboxmanage list runningvms
 ```
+
 This command will display all the VMs, as well as their unique IDs, in a form that you can use (Figure B).
 
 To find all the hard disk images, use the command:
@@ -82,8 +83,13 @@ VBoxManage snapshot <uuid|vmname> showvminfo <snapshot-name>
 vboxmanage snapshot ubuntu list
 ```
 
+### Convert a virtualbox image
+
+```bash
+VBoxManage convertfromraw  sda.dd  sda.vdi --format VDI
+```
+
 ## External Links
 
 * [tech republic -- how to run virtualbox virtual machines from the command line](https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from-the-command-line/)
 * <https://www.virtualbox.org/manual/ch08.html>
-
