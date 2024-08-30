@@ -188,3 +188,12 @@ zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs re
 - [PIC18F47Q10 Curiosity Nano Hardware User Guide - PIC18F47Q10-Curiosity-Nano-Hardware-User-Guide-40002103B.pdf](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F47Q10-Curiosity-Nano-Hardware-User-Guide-40002103B.pdf)
 - [cannot receive new filesystem stream: permission denied - Google Search](https://www.google.com/search?client=firefox-b-1-d&q=cannot+receive+new+filesystem+stream%3A+permission+denied)
 - [ZFS send / receive non-root account \| by Vignesh A Sathiyanantham \| Medium](https://asvignesh.medium.com/zfs-send-receive-non-root-account-1978c284f8e2)
+- Missing Pool:
+    - <https://docs.oracle.com/cd/E19253-01/819-5461/gaynp/index.html>
+    - <https://www.reddit.com/r/zfs/comments/uxp4wc/zfs_pool_missing_no_pools_available_disk_is/>
+    - <https://www.reddit.com/r/zfs/comments/j62lme/zfs_pool_disappeared_after_reboot/>
+    - <https://forums.freebsd.org/threads/zfs-pool-missing-after-crash.65206/>
+    - <https://www.google.com/search?client=firefox-b-1-d&q=no+pools+available>
+    - <https://discuss.linuxcontainers.org/t/zfs-pool-has-disappeared-visible-with-zpool-import-but-not-in-zpool-list/12928/2>
+    - <https://www.osso.nl/blog/zpool-import-no-pools-stale-zdb-labels/>
+    - <https://www.truenas.com/community/threads/zpool-status-no-pools-available.18122/>
