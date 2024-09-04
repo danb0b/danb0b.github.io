@@ -274,7 +274,7 @@ echo "alias python=python3" >> ~/.bashrc
 
 ```bash
 sudo apt install -y virtualbox virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-guest-utils
-sudo usermod -a -G vboxusers $USER
+sudo usermod -a -G vboxusers,vboxsf $USER
 sudo modprobe vboxdrv
 ```
 
