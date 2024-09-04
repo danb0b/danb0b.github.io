@@ -1,10 +1,185 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu Setup on Dan Aukes</title><link>https://www.danaukes.com/notebook/ubuntu-setup/</link><description>Recent content in Ubuntu Setup on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/notebook/ubuntu-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>01-Installation Notes</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.0-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.0-install/</guid><description>Introduction These notes are from memory, so they may be out of order.</description></item><item><title>Preparation</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.1-preparation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.1-preparation/</guid><description>Things you will need ssh public key configuration backup file gpg key First, update apt sudo apt update #save this for the end # sudo apt upgrade -y If a Virtual machine make sure you are a member of the vboxusers and vboxsf groups ^[https://www.</description></item><item><title>Install Tailscale</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</guid><description>for raspberry pi sudo apt install curl -y general installation https://pkgs.</description></item><item><title>Install Docker</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.3-install-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.3-install-docker/</guid><description>see this tutorial</description></item><item><title>02-Import Keys</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</guid><description>Install and Setup Install gnupg, nautilus integration (seahorse), and restart nautilus</description></item><item><title>restore configurations</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02.5-restore-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02.5-restore-settings/</guid><description>gpg --output ~/backup.tar.gz --decrypt /my/remote/filesystem/backup_settings.tar.gz.gpg tar -xzf ~/backup.tar.gz
-decompress rclone settings</description></item><item><title>simple gitman install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02.6-gitman-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02.6-gitman-simple/</guid><description>sudo apt install git python3-pip python3-venv build-essential libffi-dev python3 -m venv ~/envs/gitman .</description></item><item><title>03-Install and Setup ```rclone```</title><link>https://www.danaukes.com/notebook/ubuntu-setup/03-install-and-setup-rclone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/03-install-and-setup-rclone/</guid><description>Install rclone
-sudo apt install -y curl curl https://rclone.org/install.sh | sudo bash If you have a previous config for rclone, it should be encrypted before backing up.</description></item><item><title>Install Common Tools</title><link>https://www.danaukes.com/notebook/ubuntu-setup/04-common-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/04-common-tools/</guid><description>This assumes you installed a &amp;ldquo;minimal&amp;rdquo; version of Ubuntu
-apt packages first Update your software first</description></item><item><title>05-Conda Install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05-install-conda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05-install-conda/</guid><description>Install Latest Anaconda / Miniconda Windows Linux 64-bit Miniconda 64-bit Miniconda Linux Install cd ~/Downloadswget https://repo.</description></item><item><title>05-general python install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</guid><description>Install Latest Anaconda / Miniconda sudo apt install git python3-pip python3-venv sudo apt install -y build-essential # sudo apt install libgeos-dev python3 -m venv ~/envs/gen .</description></item><item><title>06-Install and Setup ```git```</title><link>https://www.danaukes.com/notebook/ubuntu-setup/06-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/06-git/</guid><description>Git Git is the command line program for interacting with a git repository</description></item><item><title>Install and Setup SSH</title><link>https://www.danaukes.com/notebook/ubuntu-setup/07-install-and-setup-ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/07-install-and-setup-ssh/</guid><description>Basic Steps Make a new directory for holding keys
-mkdir ~/keys Decrypt your current keys</description></item><item><title>10-Set Up Groups</title><link>https://www.danaukes.com/notebook/ubuntu-setup/10-groups/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/10-groups/</guid><description>add yourself to device groups for access to some USB devices in python sudo usermod -a -G &amp;lt;group1&amp;gt;,&amp;lt;group2&amp;gt;,.</description></item><item><title>11-Setup Dconf</title><link>https://www.danaukes.com/notebook/ubuntu-setup/11-dconf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/11-dconf/</guid><description>Introduction Dconf is where many keyboard shortcuts and user preferences exist.</description></item><item><title>12-Syncthing</title><link>https://www.danaukes.com/notebook/ubuntu-setup/12-syncthing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/12-syncthing/</guid><description>Install Add the release PGP keys:
-sudo mkdir -p /etc/apt/keyrings sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.</description></item><item><title>Installing Windows Fonts</title><link>https://www.danaukes.com/notebook/ubuntu-setup/18-windows-fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/18-windows-fonts/</guid><description>Derived from here:
-sudo apt install -y ttf-mscorefonts-installer sudo fc-cache -f</description></item><item><title>Enable UFW</title><link>https://www.danaukes.com/notebook/ubuntu-setup/19-turn-on-firewall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/19-turn-on-firewall/</guid><description>To turn on UFW,
-sudo ufw allow 22 sudo ufw enable sudo ufw status sudo systemctl enable ufw sudo systemctl start ufw Specific Services SSH sudo ufw allow 22 Samba sudo ufw allow Samba syncthing sudo ufw allow syncthing sudo ufw allow syncthing-gui dnsmasq and dhclient for enabling wifi bridging in ubuntu</description></item><item><title>Install and configure fail2ban</title><link>https://www.danaukes.com/notebook/ubuntu-setup/20-install-fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/20-install-fail2ban/</guid><description>Derived from here:
-sudo apt install -y fail2ban sudo systemctl enable fail2ban sudo systemctl start fail2ban sudo systemctl status fail2ban config fail2ban for ufw</description></item><item><title>Post-Install Cleanup steps</title><link>https://www.danaukes.com/notebook/ubuntu-setup/89-post-install-cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/89-post-install-cleanup/</guid><description>sudo apt update #update repositories sudo apt install -f #fix broken packages sudo apt upgrade -y #install any updates sudo snap remove firefox # just to check sudo apt autoremove -y #remove unused packages sudo apt clean sudo reboot 0 # to restart immediately</description></item><item><title>Post-Install Miscellaneous Steps</title><link>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</guid><description>Install gnome tweaks sudo apt install gnome-tweaks Tweaking the GUI Open &amp;ldquo;Extensions&amp;rdquo; and turn off desktop icons Update firefox settings flatpak firefox settings found in ~/.</description></item><item><title>99-Locking Down Ubuntu</title><link>https://www.danaukes.com/notebook/ubuntu-setup/99-lock-down-ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/99-lock-down-ubuntu/</guid><description>Set bios admin password check sudoers group, make other users non-admin delete unused / unnecessary accounts reset root password lock all ssh keys with passphrase ensure .</description></item><item><title>Performance Tips</title><link>https://www.danaukes.com/notebook/ubuntu-setup/98-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/98-performance/</guid><description>disable swap enable trim sudo apt install util-linux systemctl status fstrim check swappiness</description></item><item><title>Setup and Use Ente Authenticator</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.3-ente-auth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.3-ente-auth/</guid><description>download from here: https://github.com/ente-io/photos-desktop/releases/download/v1.7.2/ente-1.7.2-x86_64.AppImage
-cat &amp;lt;&amp;lt; EOL | sudo tee /usr/share/applications/ente.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu Setup on Dan Aukes</title><link>https://www.danaukes.com/notebook/ubuntu-setup/</link><description>Recent content in Ubuntu Setup on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/notebook/ubuntu-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>01-Installation Notes</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.0-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.0-install/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>These notes are from memory, so they may be out of order.&lt;/p></description></item><item><title>Preparation</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.1-preparation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.1-preparation/</guid><description>&lt;h2 id="things-you-will-need">Things you will need&lt;/h2>
+&lt;ul>
+&lt;li>ssh public key&lt;/li>
+&lt;li>configuration backup file&lt;/li>
+&lt;li>gpg key&lt;/li>
+&lt;/ul>
+&lt;h2 id="first-update-apt">First, update apt&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#save this for the end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt upgrade -y&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Install Tailscale</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</guid><description>&lt;h2 id="for-raspberry-pi">for raspberry pi&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install curl -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Install Docker</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.3-install-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.3-install-docker/</guid><description>&lt;p>see this &lt;a href="https://www.danaukes.com/notebook/docker/install-docker/">tutorial&lt;/a>&lt;/p></description></item><item><title>02-Import Keys</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</guid><description>&lt;h2 id="install-and-setup">Install and Setup&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Install gnupg, nautilus integration (seahorse), and restart nautilus&lt;/p></description></item><item><title>restore configurations</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02.5-restore-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02.5-restore-settings/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>gpg --output ~/backup.tar.gz --decrypt /my/remote/filesystem/backup_settings.tar.gz.gpg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>simple gitman install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02.6-gitman-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02.6-gitman-simple/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install git python3-pip python3-venv build-essential libffi-dev
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/gitman
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/gitman/bin/activate
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip3 install --upgrade pip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip3 install wheel
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip3 install git_manage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gitman clone -r &amp;lt;https://github.com/path/to/your/repository.git&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>03-Install and Setup ```rclone```</title><link>https://www.danaukes.com/notebook/ubuntu-setup/03-install-and-setup-rclone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/03-install-and-setup-rclone/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>Install &lt;code>rclone&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y curl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl https://rclone.org/install.sh &lt;span style="color:#111">|&lt;/span> sudo bash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Install Common Tools</title><link>https://www.danaukes.com/notebook/ubuntu-setup/04-common-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/04-common-tools/</guid><description>&lt;p>This assumes you installed a &amp;ldquo;minimal&amp;rdquo; version of Ubuntu&lt;/p>
+&lt;h2 id="apt-packages-first">&lt;code>apt&lt;/code> packages first&lt;/h2>
+&lt;p>Update your software first&lt;/p></description></item><item><title>05-Conda Install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05-install-conda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05-install-conda/</guid><description>&lt;h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Windows&lt;/th>
+ &lt;th style="text-align: left">Linux&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe">64-bit Miniconda&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh">64-bit Miniconda&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="linux-install">Linux Install&lt;/h3>
+&lt;pre tabindex="0">&lt;code>cd ~/Downloads
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+&lt;/code>&lt;/pr</description></item><item><title>05-general python install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</guid><description>&lt;h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install git python3-pip python3-venv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y build-essential
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install libgeos-dev&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/gen
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/gen/bin/activate
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install numpy scipy sympy jupyter matplotlib pyyaml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install shapely &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyserial &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyqt5 &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyqt6 &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyqtgraph pyopengl vispy plotly &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>gitpython pygithub &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>scikit-fem meshio &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>h5py &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pypdf pypdf4 pdf2image ezdxf PyMuPDF &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>twine ftd2xx service_identity euclid3 pysolar ntplib &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>fake_useragent pygame cma ladybug-geometry-polyskel microdot networkx &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>yt-dlp pyexiftool xlsxgrep &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>django &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pandoc-fignos pandoc-eqnos pandoc-crossref &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>esptool thonny &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pandoc_plus
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># the pip version of gmsh has issues on ubuntu, so use apt to install&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install pygmsh 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip uninstall gmsh
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># according to [here](https://github.com/tomduck/pandoc-xnos/pull/29), until the PR is merged, do the above.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install --force-reinstall --no-cache-dir git+https://github.com/nandokawka/pandoc-xnos@284474574f51888be75603e7d1df667a0890504d#egg&lt;span style="color:#f92672">=&lt;/span>pandoc-xnos 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install git+https://github.com/pfalcon/utemplate.git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># pip install scp pysftp paho-mqtt stem #unused?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># pip install meshpy # optional&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>06-Install and Setup ```git```</title><link>https://www.danaukes.com/notebook/ubuntu-setup/06-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/06-git/</guid><description>&lt;h2 id="git">Git&lt;/h2>
+&lt;p>Git is the command line program for interacting with a git repository&lt;/p></description></item><item><title>Install and Setup SSH</title><link>https://www.danaukes.com/notebook/ubuntu-setup/07-install-and-setup-ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/07-install-and-setup-ssh/</guid><description>&lt;h2 id="basic-steps">Basic Steps&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Make a new directory for holding keys&lt;/p></description></item><item><title>10-Set Up Groups</title><link>https://www.danaukes.com/notebook/ubuntu-setup/10-groups/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/10-groups/</guid><description>&lt;ol>
+&lt;li>add yourself to device groups for access to some USB devices in python&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo usermod -a -G &amp;lt;group1&amp;gt;,&amp;lt;group2&amp;gt;,... &lt;span style="color:#111">$USER&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>11-Setup Dconf</title><link>https://www.danaukes.com/notebook/ubuntu-setup/11-dconf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/11-dconf/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Dconf is where many keyboard shortcuts and user preferences exist. I have a couple tweaks I like to load.&lt;/p></description></item><item><title>12-Syncthing</title><link>https://www.danaukes.com/notebook/ubuntu-setup/12-syncthing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/12-syncthing/</guid><description>&lt;h2 id="install">Install&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Add the release PGP keys:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo mkdir -p /etc/apt/keyrings
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable&amp;#34;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee /etc/apt/sources.list.d/syncthing.list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">printf&lt;/span> &lt;span style="color:#d88200">&amp;#34;Package: *\nPin: origin apt.syncthing.net\nPin-Priority: 990\n&amp;#34;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee /etc/apt/preferences.d/syncthing
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt install -y syncthing
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Installing Windows Fonts</title><link>https://www.danaukes.com/notebook/ubuntu-setup/18-windows-fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/18-windows-fonts/</guid><description>&lt;p>Derived from &lt;a href="https://askubuntu.com/questions/651441/how-to-install-arial-font-and-other-windows-fonts-in-ubuntu">here&lt;/a>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y ttf-mscorefonts-installer
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo fc-cache -f
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Enable UFW</title><link>https://www.danaukes.com/notebook/ubuntu-setup/19-turn-on-firewall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/19-turn-on-firewall/</guid><description>&lt;p>To turn on UFW,&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo ufw allow &lt;span style="color:#ae81ff">22&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw &lt;span style="color:#111">enable&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw status
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> ufw
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl start ufw
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Install and configure fail2ban</title><link>https://www.danaukes.com/notebook/ubuntu-setup/20-install-fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/20-install-fail2ban/</guid><description>&lt;p>Derived from &lt;a href="https://blog.swmansion.com/limiting-failed-ssh-login-attempts-with-fail2ban-7da15a2313b">here&lt;/a>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y fail2ban
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> fail2ban
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl start fail2ban 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl status fail2ban 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Post-Install Cleanup steps</title><link>https://www.danaukes.com/notebook/ubuntu-setup/89-post-install-cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/89-post-install-cleanup/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update &lt;span style="color:#75715e">#update repositories&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -f &lt;span style="color:#75715e">#fix broken packages&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt upgrade -y &lt;span style="color:#75715e">#install any updates&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo snap remove firefox &lt;span style="color:#75715e"># just to check&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt autoremove -y &lt;span style="color:#75715e">#remove unused packages&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt clean
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo reboot &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#75715e"># to restart immediately&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Post-Install Miscellaneous Steps</title><link>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</guid><description>&lt;h2 id="install-gnome-tweaks">Install gnome tweaks&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install gnome-tweaks
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>99-Locking Down Ubuntu</title><link>https://www.danaukes.com/notebook/ubuntu-setup/99-lock-down-ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/99-lock-down-ubuntu/</guid><description>&lt;ol>
+&lt;li>Set bios admin password&lt;/li>
+&lt;li>check sudoers group, make other users non-admin&lt;/li>
+&lt;li>delete unused / unnecessary accounts&lt;/li>
+&lt;li>reset root password&lt;/li>
+&lt;li>lock all ssh keys with passphrase&lt;/li>
+&lt;li>ensure .ssh, keys folders have the right permissions&lt;/li>
+&lt;li>remove plaintext passwords from all .config files&lt;/li>
+&lt;li>make sure cloud connections require password to start and do not start automatically&lt;/li>
+&lt;li>encrypt all important configurations (eg rclone, syncthing, etc)&lt;/li>
+&lt;li>remove credential files from all samba configs&lt;/li>
+&lt;li>make normal user accts for any guests&lt;/li>
+&lt;li>disable remembering passwords in
+&lt;ul>
+&lt;li>firefox&lt;/li>
+&lt;li>thunderbird&lt;/li>
+&lt;li>other email programs&lt;/li>
+&lt;li>other browsers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Lock down SSH
+&lt;ol>
+&lt;li>See &lt;a href="https://www.danaukes.com/notebook/ssh/disable-password-ssh/">how to disable passwords over ssh&lt;/a>&lt;/li>
+&lt;li>enable &lt;a href="https://www.danaukes.com/notebook/ssh/remote-hd-unlock.md">LUKS remote decrypt&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>install tor?&lt;/li>
+&lt;li>add bitwarden or other 2FA app&lt;/li>
+&lt;li>update frequently&lt;/li>
+&lt;li>encrypt hard drive&lt;/li>
+&lt;li>set up logging&lt;/li>
+&lt;li>set / update vnc passwords&lt;/li>
+&lt;li>check out AppArmor&lt;/li>
+&lt;li>enable global privacy control: &lt;a href="https://blog.mozilla.org/netpolicy/2021/10/28/implementing-global-privacy-control/">https://blog.mozilla.org/netpolicy/2021/10/28/implementing-global-privacy-control/&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Performance Tips</title><link>https://www.danaukes.com/notebook/ubuntu-setup/98-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/98-performance/</guid><description>&lt;ul>
+&lt;li>disable swap&lt;/li>
+&lt;li>enable trim&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install util-linux
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Setup and Use Ente Authenticator</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.3-ente-auth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.3-ente-auth/</guid><description>&lt;p>download from here: &lt;a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.2/ente-1.7.2-x86_64.AppImage">https://github.com/ente-io/photos-desktop/releases/download/v1.7.2/ente-1.7.2-x86_64.AppImage&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>cat &lt;span style="color:#d88200">&amp;lt;&amp;lt; EOL | sudo tee /usr/share/applications/ente.desktop
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">[Desktop Entry]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Name=Ente Auth
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">MimeType=
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Exec=/home/danaukes/apps/ente-auth-v3.0.17-x86_64.AppImage
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Type=Application
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">GenericName=Ente Auth
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Terminal=false
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Icon=passwords-app-symbolic.svg
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Comment=Ente Auth
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">StartupNotify=true;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">Categories=System;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">#StartupWMClass=/home/danaukes/apps/ente-auth-v3.0.17-x86_64.AppImage
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d88200">EOL&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo chmod &lt;span style="color:#ae81ff">644&lt;/span> /usr/share/applications/ente.desktop
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>

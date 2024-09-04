@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Dan Aukes</title><link>https://www.danaukes.com/tags/android/</link><description>Recent content in Android on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Building ROS2 on Android</title><link>https://www.danaukes.com/notebook/deprecated/build-ros-on-android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/build-ros-on-android/</guid><description>https://github.com/termux/proot-distro
-termux-setup-storage pkg install proot-distro proot-distro login ubuntu --termux-home Install ROS</description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>pkg install openssl openssh gnupg iproute2 pkg install nmap # port scanning pkg install dnsutils # dig pkg install termux-tools termux-setup-storage pkg install python3 git pkg install cmake pip install matplotlib pkg update pkg install tsu # is this necessary?</description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>Instructions derived from https://grapheneos.org/install/cli
-Download Developer Tools sudo apt install android-sdk-platform-tools-common sudo apt install signify-openbsd echo &amp;#34;alias signify=signify-openbsd&amp;#34; &amp;gt;&amp;gt; ~/.</description></item><item><title>Weylus</title><link>https://www.danaukes.com/notebook/weylus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/weylus/</guid><description>https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux
-https://github.com/H-M-H/Weylus#running</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Dan Aukes</title><link>https://www.danaukes.com/tags/android/</link><description>Recent content in Android on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Building ROS2 on Android</title><link>https://www.danaukes.com/notebook/deprecated/build-ros-on-android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/build-ros-on-android/</guid><description>&lt;p>&lt;a href="https://github.com/termux/proot-distro">https://github.com/termux/proot-distro&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>termux-setup-storage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install proot-distro
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>proot-distro login ubuntu --termux-home
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install nmap &lt;span style="color:#75715e"># port scanning&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install dnsutils &lt;span style="color:#75715e"># dig&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install termux-tools
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>termux-setup-storage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install python3 git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install cmake
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install matplotlib
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install tsu &lt;span style="color:#75715e"># is this necessary?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install nmap
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install texlive-bin
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#pkg install texlive-full &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg upgrade
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>termux-change-repo
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>termux-install-tl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tlmgr update --all
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
+&lt;h2 id="download-developer-tools">Download Developer Tools&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install android-sdk-platform-tools-common
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install signify-openbsd
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;alias signify=signify-openbsd&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt remove adb 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir ~/adb
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/adb
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install libarchive-tools
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#39;ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7 platform-tools_r33.0.3-linux.zip&amp;#39;&lt;/span> &lt;span style="color:#111">|&lt;/span> sha256sum -c
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>bsdtar xvf platform-tools_r33.0.3-linux.zip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;export PATH=\$PATH:/home/danaukes/adb/platform-tools&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>which fastboot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fastboot --version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Weylus</title><link>https://www.danaukes.com/notebook/weylus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/weylus/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux">https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/H-M-H/Weylus#running">https://github.com/H-M-H/Weylus#running&lt;/a>&lt;/p></description></item></channel></rss>

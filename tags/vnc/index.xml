@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vnc on Dan Aukes</title><link>https://www.danaukes.com/tags/vnc/</link><description>Recent content in Vnc on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/vnc/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing and Using VNC</title><link>https://www.danaukes.com/notebook/vnc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vnc/</guid><description>sudo apt update sudo apt install -y xfce4 xfce4-goodies tightvncserver vncserver vncpasswd vnc password ***** vncserver -kill :1 mv ~/.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vnc on Dan Aukes</title><link>https://www.danaukes.com/tags/vnc/</link><description>Recent content in Vnc on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/vnc/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing and Using VNC</title><link>https://www.danaukes.com/notebook/vnc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vnc/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y xfce4 xfce4-goodies tightvncserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncpasswd
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vnc password *****
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver -kill :1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nano ~/.vnc/xstartup
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>

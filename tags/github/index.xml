@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Dan Aukes</title><link>https://www.danaukes.com/tags/github/</link><description>Recent content in Github on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Commands</title><link>https://www.danaukes.com/notebook/git-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-commands/</guid><description>to clone a repository:
-git clone my_git_address Branches list local branches:</description></item><item><title>github actions info</title><link>https://www.danaukes.com/notebook/github-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-actions/</guid><description>Using Hugo with Github Actions automated deploytment on github pages detailed setup actions-gh-pages Pandoc with github actions https://github.</description></item><item><title>Using Github with two accounts</title><link>https://www.danaukes.com/notebook/github-with-two-accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-with-two-accounts/</guid><description>Instructions Create a new, separate key for each github account</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Dan Aukes</title><link>https://www.danaukes.com/tags/github/</link><description>Recent content in Github on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Commands</title><link>https://www.danaukes.com/notebook/git-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-commands/</guid><description>&lt;p>to clone a repository:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone my_git_address
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>github actions info</title><link>https://www.danaukes.com/notebook/github-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-actions/</guid><description>&lt;h2 id="using-hugo-with-github-actions">Using Hugo with Github Actions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9">automated deploytment on github pages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/peaceiris/actions-hugo">detailed setup&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/peaceiris/actions-gh-pages#getting-started">actions-gh-pages&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pandoc-with-github-actions">Pandoc with github actions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pandoc/pandoc-action-example">https://github.com/pandoc/pandoc-action-example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="permission-denied-errors">Permission denied errors&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot">https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/orgs/community/discussions/57244">https://github.com/orgs/community/discussions/57244&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Using Github with two accounts</title><link>https://www.danaukes.com/notebook/github-with-two-accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-with-two-accounts/</guid><description>&lt;h2 id="instructions">Instructions&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Create a new, separate key for each github account&lt;/p></description></item></channel></rss>

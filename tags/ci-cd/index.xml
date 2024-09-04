@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ci-Cd on Dan Aukes</title><link>https://www.danaukes.com/tags/ci-cd/</link><description>Recent content in Ci-Cd on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/ci-cd/index.xml" rel="self" type="application/rss+xml"/><item><title>github actions info</title><link>https://www.danaukes.com/notebook/github-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-actions/</guid><description>Using Hugo with Github Actions automated deploytment on github pages detailed setup actions-gh-pages Pandoc with github actions https://github.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ci-Cd on Dan Aukes</title><link>https://www.danaukes.com/tags/ci-cd/</link><description>Recent content in Ci-Cd on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/ci-cd/index.xml" rel="self" type="application/rss+xml"/><item><title>github actions info</title><link>https://www.danaukes.com/notebook/github-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-actions/</guid><description>&lt;h2 id="using-hugo-with-github-actions">Using Hugo with Github Actions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9">automated deploytment on github pages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/peaceiris/actions-hugo">detailed setup&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/peaceiris/actions-gh-pages#getting-started">actions-gh-pages&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pandoc-with-github-actions">Pandoc with github actions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pandoc/pandoc-action-example">https://github.com/pandoc/pandoc-action-example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="permission-denied-errors">Permission denied errors&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot">https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/orgs/community/discussions/57244">https://github.com/orgs/community/discussions/57244&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

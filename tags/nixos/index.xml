@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nixos on Dan Aukes</title><link>https://www.danaukes.com/tags/nixos/</link><description>Recent content in Nixos on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/nixos/index.xml" rel="self" type="application/rss+xml"/><item><title>NixOS Setup</title><link>https://www.danaukes.com/notebook/nixos-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/nixos-setup/</guid><description>External Resources https://nixos.org/manual/nixos/stable/index.html#preface https://nixos.org/manual/nixos/stable/index.html#sec-changing-config https://nixos.org/manual/nixos/stable/index.html#ch-configuration networking.hostName = &amp;#34;dannix&amp;#34;; nixpkgs.config.allowUnfree = true; #virtualisation.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nixos on Dan Aukes</title><link>https://www.danaukes.com/tags/nixos/</link><description>Recent content in Nixos on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/nixos/index.xml" rel="self" type="application/rss+xml"/><item><title>NixOS Setup</title><link>https://www.danaukes.com/notebook/nixos-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/nixos-setup/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://nixos.org/manual/nixos/stable/index.html#preface">https://nixos.org/manual/nixos/stable/index.html#preface&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://nixos.org/manual/nixos/stable/index.html#sec-changing-config">https://nixos.org/manual/nixos/stable/index.html#sec-changing-config&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://nixos.org/manual/nixos/stable/index.html#ch-configuration">https://nixos.org/manual/nixos/stable/index.html#ch-configuration&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>
+ networking.hostName = &amp;#34;dannix&amp;#34;;
+ nixpkgs.config.allowUnfree = true;
+
+ #virtualisation.virtualbox.host.enable = true;
+ #users.extraGroups.vboxusers.members = [ &amp;#34;user-with-access-to-virtualbox&amp;#34; ];
+ #virtualisation.virtualbox.host.enableExtensionPack = true;
+
+ services.openssh.enable = true;
+ users.users.danaukes.openssh.authorizedKeys.keys = [ &amp;#34;put-in-your-public-key-here&amp;#34; ];
+
+ networking.firewall.enable = true;
+ networking.firewall.allowedTCPPorts = [ 22 ];
+
+ system.autoUpgrade.enable = true;
+ system.autoUpgrade.allowReboot = true;
+
+ virtualisation.virtualbox.guest.enable = true;
+ virtualisation.virtualbox.guest.x11 = true;
+
+ services.flatpak.enable = true;
+ xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-kde ];
+&lt;/code>&lt;/pr</description></item></channel></rss>

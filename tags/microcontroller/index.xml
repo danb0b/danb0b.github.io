@@ -1,2 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microcontroller on Dan Aukes</title><link>https://www.danaukes.com/tags/microcontroller/</link><description>Recent content in Microcontroller on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/microcontroller/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 Notes</title><link>https://www.danaukes.com/notebook/deprecated/esp32-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/esp32-notes/</guid><description>please see these pages
-Example Projects https://randomnerdtutorials.com/projects-esp32/ External Links Official MicroPython Page Product Comparison https://johnmu.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microcontroller on Dan Aukes</title><link>https://www.danaukes.com/tags/microcontroller/</link><description>Recent content in Microcontroller on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/microcontroller/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 Notes</title><link>https://www.danaukes.com/notebook/deprecated/esp32-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/esp32-notes/</guid><description>&lt;p>please see &lt;a href="https://embedded-systems-design.github.io/tutorials/microcontrollers/esp32/">these pages&lt;/a>&lt;/p>
+&lt;h2 id="example-projects">Example Projects&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://randomnerdtutorials.com/projects-esp32/">https://randomnerdtutorials.com/projects-esp32/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="external-links">External Links&lt;/h2>
+&lt;ul>
+&lt;li>Official MicroPython &lt;a href="https://micropython.org/download/esp32/">Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="product-comparison">Product Comparison&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://johnmu.com/picking-esp32-dev-board/">https://johnmu.com/picking-esp32-dev-board/&lt;/a>&lt;/p></description></item></channel></rss>
