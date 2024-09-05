@@ -161,7 +161,24 @@ you can add invalid characters that make the config invalid&amp;hellip;need to c
 &lt;ul>
 &lt;li>&lt;a href="https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot">https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/orgs/community/discussions/57244">https://github.com/orgs/community/discussions/57244&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
+&lt;/ul></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install vino
+sudo apt install winpr-utils&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo systemctl restart gnome-remote-desktop.service
+sudo grdctl --system rdp enable
+
+sudo rm -rf ~gnome-remote-desktop/rdp-tls*
+sudo -u gnome-remote-desktop winpr-makecert -silent -rdp -path ~gnome-remote-desktop rdp-tls
+
+sudo grdctl --system rdp set-tls-key /var/lib/gnome-remote-desktop/rdp-tls.key
+sudo grdctl --system rdp set-tls-cert /var/lib/gnome-remote-desktop/rdp-tls.crt
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now gnome-remote-desktop.service
+sudo grdctl --system rdp set-credentials &amp;#34;name&amp;#34; &amp;#34;password&amp;#34;
+
+sudo systemctl restart gnome-remote-desktop.service
+sudo systemctl status gnome-remote-desktop.service
+&lt;/code>&lt;/pr</description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install nmap &lt;span style="color:#75715e"># port scanning&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install dnsutils &lt;span style="color:#75715e"># dig&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install termux-tools
