@@ -133,3 +133,9 @@ https://extensions.gnome.org/extension/3733/tiling-assistant/
 gsettings get org.gnome.settings-daemon.plugins.power idle-brightness
 gsettings set org.gnome.settings-daemon.plugins.power idle-brightness 120
 ```
+
+## Drivers 
+
+
+
+sudo ubuntu-drivers autoinstall
