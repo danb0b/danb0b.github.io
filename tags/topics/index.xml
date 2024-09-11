@@ -4,4 +4,4 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ros2 topic &lt;span style="color:#111">echo&lt;/span> /myrobot/sensor1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ros2 interface show std_msgs/msg/Int32
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ros2 topic pub /myrobot/blink_led std_msgs/msg/Int32 &lt;span style="color:#d88200">&amp;#34;{data: 1}&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

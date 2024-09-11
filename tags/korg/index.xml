@@ -2,4 +2,11 @@
 &lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo cp 98-korg-nano.rules /etc/udev/rules.d/
 sudo chmod 644 /etc/udev/rules.d/98-korg-nano.rules
 sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger
-&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>#sudo apt install libasound2-dev 
+#sudo apt install python3-pyrex
+#pip3 install pyalsa
+#pip3 install pygame
+#pip3 install alsaseq
+sudo apt-get install libjack-dev
+pip3 install python-rtmidi mido
+&lt;/code>&lt;/pre></description></item></channel></rss>

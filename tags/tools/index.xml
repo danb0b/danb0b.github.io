@@ -3,4 +3,12 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y qrencode &lt;span style="color:#75715e">#encoding tools&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y zbar-tools &lt;span style="color:#75715e"># decoding tools&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y qtqr &lt;span style="color:#75715e">#graphical encoder&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="terminal">Terminal&lt;/h2>
+&lt;h3 id="encoding">Encoding&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>qrencode -o webURL.png &lt;span style="color:#d88200">&amp;#39;https://linuxcommando.blogspot.com/&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="decoding">Decoding&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>zbarimg webURL.png
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zbarimg -q webURL.png &lt;span style="color:#75715e"># only output result&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zbarimg -v webURL.png &lt;span style="color:#75715e">#verbose mode&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="gui">GUI&lt;/h2>
+&lt;p>run qtqr. the menu system is quite intuitive.&lt;/p></description></item></channel></rss>

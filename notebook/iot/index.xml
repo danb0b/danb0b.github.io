@@ -3,7 +3,53 @@
 &lt;p>Make sure to prepare arduino for programming the esp32&lt;/p></description></item><item><title>Home Assistant Setup</title><link>https://www.danaukes.com/notebook/iot/home-assistant-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/iot/home-assistant-setup/</guid><description>&lt;h2 id="install-virtualbox">Install Virtualbox&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y virtualbox virtualbox-ext-pack
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo usermod -a -G vboxusers &lt;span style="color:#111">$USER&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Sonoff S31 Smart Plug Mod</title><link>https://www.danaukes.com/notebook/iot/sonoff-s31-smart-plug-mod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/iot/sonoff-s31-smart-plug-mod/</guid><description>&lt;h2 id="steps">Steps&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="download-home-assistant">Download Home Assistant&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> Downloads
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>wget https://github.com/home-assistant/operating-
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>system/releases/download/8.5/haos_ova-8.5.vdi.zip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>unzip haos_ova-8.5.vdi.zip
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="create-virtual-machine">Create Virtual Machine&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mkdir &lt;span style="color:#d88200">&amp;#34;/home/danaukes/VirtualBox VMs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir &lt;span style="color:#d88200">&amp;#34;/home/danaukes/VirtualBox VMs/home-assistant&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mv /home/danaukes/Downloads/haos_ova-8.5.vdi &lt;span style="color:#d88200">&amp;#34;/home/danaukes/VirtualBox VMs/home-assistant/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage createvm --name home-assistant --basefolder &lt;span style="color:#d88200">&amp;#34;/home/danaukes/VirtualBox VMs/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage registervm &lt;span style="color:#d88200">&amp;#39;/home/danaukes/VirtualBox VMs/home-assistant/home-assistant.vbox&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage modifyvm home-assistant --memory &lt;span style="color:#ae81ff">2000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage modifyvm home-assistant --firmware efi&lt;span style="color:#d88200">`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage modifyvm home-assistant --ostype Ubuntu_64
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage modifyvm home-assistant --nic1 bridged
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage modifyvm home-assistant --bridgeadapter1 eno1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage storagectl home-assistant --name &lt;span style="color:#d88200">&amp;#34;SATA&amp;#34;&lt;/span> --add sata --controller IntelAhci 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>VBoxManage storageattach home-assistant --storagectl &lt;span style="color:#d88200">&amp;#34;SATA&amp;#34;&lt;/span> --port &lt;span style="color:#ae81ff">0&lt;/span> --device &lt;span style="color:#ae81ff">0&lt;/span> --nonrotational on --discard on --type hdd --medium haos_ova-8.5.vdi
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vboxmanage startvm home-assistant --type headless
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="set-up-service">Set up service&lt;/h2>
+&lt;h2 id="connect">Connect&lt;/h2>
+&lt;ol>
+&lt;li>find the ip address of the new VM&lt;/li>
+&lt;li>over a vpn, set up tunneling&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ssh -L 8123:192.168.202:8123 -C -N controller
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="configure">Configure&lt;/h2>
+&lt;ol>
+&lt;li>create account
+&lt;ol>
+&lt;li>set name&lt;/li>
+&lt;li>set map&lt;/li>
+&lt;li>set currency to &amp;ldquo;USD&amp;rdquo;&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="enable-advanced-mode">enable advanced mode&lt;/h2>
+&lt;ol>
+&lt;li>go to profile&lt;/li>
+&lt;li>select advanced mode&lt;/li>
+&lt;/ol>
+&lt;h2 id="add-integrations">Add integrations&lt;/h2>
+&lt;h3 id="tasmota">tasmota&lt;/h3>
+&lt;h3 id="mqtt">mqtt&lt;/h3>
+&lt;p>server info:&lt;/p></description></item><item><title>Sonoff S31 Smart Plug Mod</title><link>https://www.danaukes.com/notebook/iot/sonoff-s31-smart-plug-mod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/iot/sonoff-s31-smart-plug-mod/</guid><description>&lt;h2 id="steps">Steps&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>Pop off gray cover&lt;/p>

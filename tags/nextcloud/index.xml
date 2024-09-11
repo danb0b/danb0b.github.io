@@ -2,7 +2,13 @@
 &lt;li>
 &lt;p>Prerequisites&lt;/p>
 &lt;pre tabindex="0">&lt;code>sudo apt install openssh-server net-tools
-&lt;/code>&lt;/pr</description></item><item><title>Nextcloud in Docker</title><link>https://www.danaukes.com/notebook/docker/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/nextcloud/</guid><description>&lt;h2 id="docker-compose">docker-compose&lt;/h2>
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Install&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo snap install nextcloud
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Configure&lt;/p></description></item><item><title>Nextcloud in Docker</title><link>https://www.danaukes.com/notebook/docker/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/nextcloud/</guid><description>&lt;h2 id="docker-compose">docker-compose&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">version&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#39;2&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">volumes&lt;/span>&lt;span style="color:#111">:&lt;/span>
@@ -39,4 +45,5 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">NEXTCLOUD_ADMIN_PASSWORD=&amp;lt;password2&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">NEXTCLOUD_ADMIN_USER=admin&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">NEXTCLOUD_TRUSTED_DOMAINS=localhost &amp;lt;ip_address1&amp;gt; &amp;lt;ip_address2&amp;gt; &amp;lt;hostname1&amp;gt; &amp;lt;hostname2&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="commands">Commands&lt;/h2>
+&lt;p>How to add, query, or set new trusted domains&lt;/p></description></item></channel></rss>

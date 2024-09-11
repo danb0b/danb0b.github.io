@@ -95,4 +95,20 @@
 -->
 &lt;h2 id="conda">Conda&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda list
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="conda-environments">Conda Environments&lt;/h2>
+&lt;h3 id="create-list-and-destroy">Create, List, and Destroy&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda create --name &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda info --envs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda remove --name &amp;lt;env name&amp;gt; --all
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda deactivate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda env &lt;span style="color:#111">export&lt;/span> &amp;gt; environment.yml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda list -n &amp;lt;env name&amp;gt; -r
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda install --revision &amp;lt;revision-num&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda init --reverse --all
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/anaconda3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/miniconda3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://docs.anaconda.com/free/anaconda/install/uninstall/">https://docs.anaconda.com/free/anaconda/install/uninstall/&lt;/a>
+&lt;a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html&lt;/a>&lt;/p></description></item></channel></rss>

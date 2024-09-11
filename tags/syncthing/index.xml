@@ -7,4 +7,6 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable&amp;#34;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee /etc/apt/sources.list.d/syncthing.list
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">printf&lt;/span> &lt;span style="color:#d88200">&amp;#34;Package: *\nPin: origin apt.syncthing.net\nPin-Priority: 990\n&amp;#34;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee /etc/apt/preferences.d/syncthing
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt install -y syncthing
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>run &lt;code>syncthing&lt;/code> from bash to continue setup&lt;/p></description></item></channel></rss>

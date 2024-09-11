@@ -8,4 +8,7 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#save this for the end&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt upgrade -y&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Removing Snap from Ubuntu</title><link>https://www.danaukes.com/notebook/removing-firefox-snap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/removing-firefox-snap/</guid><description>&lt;p>This is useful for stalled updates when installing ubuntu-desktop-minimal on a server. the firefox snap package seems to hang.&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="if-a-virtual-machine">If a Virtual machine&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>make sure you are a member of the vboxusers and vboxsf groups ^[&lt;a href="https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes">https://www.virtualbox.org/manual/ch03.html#usb-implementation-notes&lt;/a>]&lt;/p></description></item><item><title>Removing Snap from Ubuntu</title><link>https://www.danaukes.com/notebook/removing-firefox-snap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/removing-firefox-snap/</guid><description>&lt;p>This is useful for stalled updates when installing ubuntu-desktop-minimal on a server. the firefox snap package seems to hang.&lt;/p></description></item></channel></rss>

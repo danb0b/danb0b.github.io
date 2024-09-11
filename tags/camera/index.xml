@@ -7,11 +7,15 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install python3-opencv
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># may be done already depending on what you installed.&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install ros-melodic-cv-bridge&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Getting UVC working with Raspberry Pi</title><link>https://www.danaukes.com/notebook/deprecated/ros/18-raspi4-uvc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/18-raspi4-uvc/</guid><description>&lt;h2 id="steps">Steps&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>other installs:&lt;/p></description></item><item><title>Getting UVC working with Raspberry Pi</title><link>https://www.danaukes.com/notebook/deprecated/ros/18-raspi4-uvc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/18-raspi4-uvc/</guid><description>&lt;h2 id="steps">Steps&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>install uvc stuff.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y libuvc-dev guvcview cheese v4l-utils
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>CV Bridge and Python 3</title><link>https://www.danaukes.com/notebook/deprecated/ros/19-tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/19-tracking/</guid><description>&lt;p>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>try guvcview or cheese to see if you can see video output(may need to install):&lt;/p></description></item><item><title>CV Bridge and Python 3</title><link>https://www.danaukes.com/notebook/deprecated/ros/19-tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/19-tracking/</guid><description>&lt;p>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.&lt;/p></description></item></channel></rss>

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Samba on Dan Aukes</title><link>https://www.danaukes.com/tags/samba/</link><description>Recent content in Samba on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/samba/index.xml" rel="self" type="application/rss+xml"/><item><title>Setup Samba from Bash</title><link>https://www.danaukes.com/notebook/setup-samba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/setup-samba/</guid><description>&lt;h2 id="make-your-folder">Make your folder&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mkdir ~/happy
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>chmod &lt;span style="color:#ae81ff">0700&lt;/span> ~/happy
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="set-up-samba">Set up samba&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install samba
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nano /etc/samba/smb.conf
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code># Networked Attached Storage Share
+[nas]
+ comment = welcome to NAS
+ path = /storage/nas
+ read only = no
+ guest ok = no
+ browsable = yes
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl restart smbd.service 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw allow samba
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo smbpasswd -a &amp;lt;username&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Then connect to your new share!&lt;/p></description></item></channel></rss>

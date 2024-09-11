@@ -3,4 +3,4 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/bulletphysics/bullet3.git
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> bullet3
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ccmake .
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>then configure, generate&lt;/p></description></item></channel></rss>

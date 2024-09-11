@@ -13,4 +13,5 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;export PATH=\$PATH:/home/danaukes/adb/platform-tools&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>which fastboot
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fastboot --version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="download-graphene">Download graphene&lt;/h2>
+&lt;p>go to &lt;a href="https://grapheneos.org/releases#bramble-stable">https://grapheneos.org/releases#bramble-stable&lt;/a>&lt;/p></description></item></channel></rss>

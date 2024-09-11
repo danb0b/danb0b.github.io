@@ -14,7 +14,10 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo make install
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> build-stadaard
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>.micropython
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Web-Based Control in Micropython</title><link>https://www.danaukes.com/notebook/python/micropython-web-based-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/micropython-web-based-control/</guid><description>&lt;h2 id="step-1-create-a-form-that-posts-to-url">Step 1: Create a Form that posts to URL&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.micropython.org/en/latest/develop/gettingstarted.html#building-the-unix-port-of-micropython">https://docs.micropython.org/en/latest/develop/gettingstarted.html#building-the-unix-port-of-micropython&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Web-Based Control in Micropython</title><link>https://www.danaukes.com/notebook/python/micropython-web-based-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/micropython-web-based-control/</guid><description>&lt;h2 id="step-1-create-a-form-that-posts-to-url">Step 1: Create a Form that posts to URL&lt;/h2>
 &lt;h3 id="good-resources">Good resources&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/">https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/&lt;/a>&lt;/li>

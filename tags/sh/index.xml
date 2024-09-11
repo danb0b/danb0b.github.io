@@ -3,4 +3,4 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#111">MY_PATH&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;`dirname \&amp;#34;&lt;/span>&lt;span style="color:#111">$0&lt;/span>&lt;span style="color:#d88200">\&amp;#34;`&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">$MY_PATH&lt;/span>/relative/path/to/other/file
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>pass arguments on to another script&lt;/p></description></item></channel></rss>

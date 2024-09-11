@@ -9,8 +9,12 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># should already have texlive-full installed...&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install latexmk
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apm install language-latex latex pdf-view
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Configuring Atom for Python</title><link>https://www.danaukes.com/notebook/deprecated/09.1-atom-for-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/09.1-atom-for-python/</guid><description>&lt;ol>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Create custom configuration file&lt;/p></description></item><item><title>Configuring Atom for Python</title><link>https://www.danaukes.com/notebook/deprecated/09.1-atom-for-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/09.1-atom-for-python/</guid><description>&lt;ol>
 &lt;li>
 &lt;p>Activate whatever conda environment you need to&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>activate &amp;lt;environmentname&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Install packages for atom&lt;/p></description></item></channel></rss>

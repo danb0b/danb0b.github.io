@@ -17,7 +17,20 @@
 &lt;pre tabindex="0">&lt;code>cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
-&lt;/code>&lt;/pr</description></item><item><title>getting pyBullet working in Anaconda</title><link>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</guid><description>&lt;p>search keywords:&lt;/p>
+&lt;/code>&lt;/pre>&lt;ol>
+&lt;li>follow the instructions&lt;/li>
+&lt;li>use the default path&lt;/li>
+&lt;li>say &amp;ldquo;yes&amp;rdquo; to initialize conda&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>cd ~/
+source ~/.bashrc
+&lt;/code>&lt;/pre>&lt;h3 id="map-miniconda-to-anaconda">map miniconda to anaconda&lt;/h3>
+&lt;pre tabindex="0">&lt;code>mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
+&lt;/code>&lt;/pre>&lt;h2 id="windows-install">Windows Install&lt;/h2>
+&lt;p>Set powershell-specific security settings&lt;/p></description></item><item><title>getting pyBullet working in Anaconda</title><link>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</guid><description>&lt;p>search keywords:&lt;/p>
 &lt;ul>
 &lt;li>python&lt;/li>
 &lt;li>anaconda&lt;/li>
@@ -125,4 +138,20 @@ bash Miniconda3-latest-Linux-x86_64.sh
 -->
 &lt;h2 id="conda">Conda&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda list
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="conda-environments">Conda Environments&lt;/h2>
+&lt;h3 id="create-list-and-destroy">Create, List, and Destroy&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda create --name &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda info --envs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda remove --name &amp;lt;env name&amp;gt; --all
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda deactivate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda env &lt;span style="color:#111">export&lt;/span> &amp;gt; environment.yml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda list -n &amp;lt;env name&amp;gt; -r
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda install --revision &amp;lt;revision-num&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda init --reverse --all
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/anaconda3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/miniconda3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://docs.anaconda.com/free/anaconda/install/uninstall/">https://docs.anaconda.com/free/anaconda/install/uninstall/&lt;/a>
+&lt;a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html&lt;/a>&lt;/p></description></item></channel></rss>

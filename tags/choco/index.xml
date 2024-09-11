@@ -5,4 +5,6 @@
 &lt;li>Turn off hibernation&lt;/li>
 &lt;/ol>
 &lt;pre tabindex="0">&lt;code>powercfg.exe -h off
-&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;ol>
+&lt;li>
+&lt;p>Turn off page file&lt;/p></description></item></channel></rss>

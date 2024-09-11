@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notebook on Dan Aukes</title><link>https://www.danaukes.com/notebook/</link><description>Recent content in Notebook on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://www.danaukes.com/notebook/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux / Bash Cheatsheet</title><link>https://www.danaukes.com/notebook/linux-cheatsheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/linux-cheatsheet/</guid><description>Collected commands, tips, and tricks for working headless in Ubuntu</description></item><item><title>Git Commands</title><link>https://www.danaukes.com/notebook/git-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-commands/</guid><description>&lt;p>to clone a repository:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone my_git_address
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Grep Cookbook</title><link>https://www.danaukes.com/notebook/grep-cookbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/grep-cookbook/</guid><description>&lt;h2 id="using-grep-by-itself">Using &lt;code>grep&lt;/code> by itself&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notebook on Dan Aukes</title><link>https://www.danaukes.com/notebook/</link><description>Recent content in Notebook on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://www.danaukes.com/notebook/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux / Bash Cheatsheet</title><link>https://www.danaukes.com/notebook/linux-cheatsheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/linux-cheatsheet/</guid><description>Collected commands, tips, and tricks for working headless in Ubuntu</description></item><item><title>Git Commands</title><link>https://www.danaukes.com/notebook/git-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-commands/</guid><description>a handy cheatsheet of my most used and looked up git commands</description></item><item><title>Grep Cookbook</title><link>https://www.danaukes.com/notebook/grep-cookbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/grep-cookbook/</guid><description>&lt;h2 id="using-grep-by-itself">Using &lt;code>grep&lt;/code> by itself&lt;/h2>
 &lt;p>search for &amp;ldquo;searchtext&amp;rdquo;, ignoring case, ignoring binary files, recurisvely search, with line numbers, in this folder.&lt;/p></description></item><item><title>Using the ```find``` command in bash</title><link>https://www.danaukes.com/notebook/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/find/</guid><description>&lt;h1 id="using-the-find-command-in-bash">Using the &lt;code>find&lt;/code> command in bash&lt;/h1>
 &lt;p>Find all files below the current directory that match &amp;ldquo;tecmint.txt&amp;rdquo;&lt;/p></description></item><item><title>Hugo Stuff</title><link>https://www.danaukes.com/notebook/hugo-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/hugo-stuff/</guid><description>&lt;h2 id="install">Install&lt;/h2>
 &lt;p>Make sure you install add-ons&lt;/p>
@@ -45,11 +43,14 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>django-admin startproject murdermystery
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> murdermystery
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 manage.py runserver
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Duplicate Installed Packages</title><link>https://www.danaukes.com/notebook/clone-package/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/clone-package/</guid><description>&lt;p>To clone your system to another system. Or make a backup. In a terminal type:&lt;/p></description></item><item><title>fixing file transfer bug in nautilus</title><link>https://www.danaukes.com/notebook/file-transfer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/file-transfer/</guid><description>&lt;p>Issue: Nautilus hangs when I try to copy large files to a NAS.&lt;/p></description></item><item><title>Installing and Setting up MQTT</title><link>https://www.danaukes.com/notebook/mqtt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mqtt/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>hit ctrl+c to stop&lt;/p></description></item><item><title>Duplicate Installed Packages</title><link>https://www.danaukes.com/notebook/clone-package/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/clone-package/</guid><description>&lt;p>To clone your system to another system. Or make a backup. In a terminal type:&lt;/p></description></item><item><title>fixing file transfer bug in nautilus</title><link>https://www.danaukes.com/notebook/file-transfer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/file-transfer/</guid><description>&lt;p>Issue: Nautilus hangs when I try to copy large files to a NAS.&lt;/p></description></item><item><title>Installing and Setting up MQTT</title><link>https://www.danaukes.com/notebook/mqtt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mqtt/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y mosquitto mosquitto-clients
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo snap install mqtt-explorer
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Installing and Using VNC</title><link>https://www.danaukes.com/notebook/vnc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vnc/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="example-setup">Example Setup&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo cp /usr/share/doc/mosquitto/examples/mosquitto.conf /etc/mosquitto/conf.d/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="firewall">Firewall&lt;/h2>
+&lt;p>If you have UFW set up make sure you add permission:&lt;/p></description></item><item><title>Installing and Using VNC</title><link>https://www.danaukes.com/notebook/vnc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vnc/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y xfce4 xfce4-goodies tightvncserver
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncpasswd
@@ -59,43 +60,200 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver -kill :1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nano ~/.vnc/xstartup
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Laser Cutter General Maintenance</title><link>https://www.danaukes.com/notebook/laser-cutter-general-maintenance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/laser-cutter-general-maintenance/</guid><description>Notes for how to maintain the laser cutter</description></item><item><title>Logging in Ubuntu</title><link>https://www.danaukes.com/notebook/logging-in-ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logging-in-ubuntu/</guid><description>A place to hold information about setting up, viewing, and controlling logging.</description></item><item><title>Looping Video into Zoom</title><link>https://www.danaukes.com/notebook/video-loopback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/video-loopback/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install v4l2loopback-dkms v4l-utils
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Markdown Cheat Sheet</title><link>https://www.danaukes.com/notebook/markdown-cheatsheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/markdown-cheatsheet/</guid><description>&lt;p>Derived from &lt;a href="https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0">https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &amp;amp;
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>chmod +x ~/.vnc/xstartup
+vncserver -localhost
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo nano /etc/systemd/system/vncserver@.service
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>[Unit]
+Description=Start TightVNC server at startup
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=danaukes
+Group=danaukes
+WorkingDirectory=/home/danaukes
+
+PIDFile=/home/danaukes/.vnc/%H:%i.pid
+ExecStartPre=-/usr/bin/vncserver -kill :%i &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+ExecStart=/usr/bin/vncserver -depth 24 -geometry 1280x800 -localhost :%i
+ExecStop=/usr/bin/vncserver -kill :%i
+
+[Install]
+WantedBy=multi-user.target
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl daemon-reload
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> vncserver@1.service
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver -kill :1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl start vncserver@1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl status vncserver@1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="port-forward-to-vnc">Port forward to VNC&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ssh -L 59000:localhost:5901 -C -N &amp;lt;servername&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-links">External Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/">https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Laser Cutter General Maintenance</title><link>https://www.danaukes.com/notebook/laser-cutter-general-maintenance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/laser-cutter-general-maintenance/</guid><description>Notes for how to maintain the laser cutter</description></item><item><title>Logging in Ubuntu</title><link>https://www.danaukes.com/notebook/logging-in-ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logging-in-ubuntu/</guid><description>A place to hold information about setting up, viewing, and controlling logging.</description></item><item><title>Looping Video into Zoom</title><link>https://www.danaukes.com/notebook/video-loopback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/video-loopback/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install v4l2loopback-dkms v4l-utils
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ls /dev/video*
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo modprobe v4l2loopback &lt;span style="color:#111">video_nr&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">9&lt;/span> &lt;span style="color:#111">card_label&lt;/span>&lt;span style="color:#f92672">=&lt;/span>“virtual-cam” 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.webm -f v4l2 /dev/video9
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo modprobe -r v4l2loopback
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-links">External Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://yasha.solutions/virtual-webcam-on-linux/">https://yasha.solutions/virtual-webcam-on-linux/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/">https://theterminallife.com/using-ffmpeg-and-v4l2-loopback-to-play-youtube-videos-as-a-webcam/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/umlaeute/v4l2loopback/">https://github.com/umlaeute/v4l2loopback/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/webcamoid/akvcam">https://github.com/webcamoid/akvcam&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Markdown Cheat Sheet</title><link>https://www.danaukes.com/notebook/markdown-cheatsheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/markdown-cheatsheet/</guid><description>&lt;p>Derived from &lt;a href="https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0">https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0&lt;/a>&lt;/p>
 &lt;h1 id="headings">Headings&lt;/h1>
 &lt;p>There are few options to create headings. We can use Markdown or HTML or an alternative syntax to create our desired headings.&lt;/p></description></item><item><title>Nextcloud Installation</title><link>https://www.danaukes.com/notebook/nextcloud-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/nextcloud-install/</guid><description>&lt;ol>
 &lt;li>
 &lt;p>Prerequisites&lt;/p>
 &lt;pre tabindex="0">&lt;code>sudo apt install openssh-server net-tools
-&lt;/code>&lt;/pr</description></item><item><title>QR Code Tools</title><link>https://www.danaukes.com/notebook/qr-code-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/qr-code-tools/</guid><description>&lt;p>modified from &lt;a href="https://linuxcommando.blogspot.com/2020/07/how-to-generate-and-read-qr-code-on.html">this site&lt;/a>&lt;/p>
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Install&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo snap install nextcloud
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Configure&lt;/p></description></item><item><title>QR Code Tools</title><link>https://www.danaukes.com/notebook/qr-code-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/qr-code-tools/</guid><description>&lt;p>modified from &lt;a href="https://linuxcommando.blogspot.com/2020/07/how-to-generate-and-read-qr-code-on.html">this site&lt;/a>&lt;/p>
 &lt;h2 id="installing">Installing&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y qrencode &lt;span style="color:#75715e">#encoding tools&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y zbar-tools &lt;span style="color:#75715e"># decoding tools&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y qtqr &lt;span style="color:#75715e">#graphical encoder&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Run scripts remotely over ssh with ```tmux```</title><link>https://www.danaukes.com/notebook/tmux-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tmux-stuff/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y tmux
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Useful Pandoc Commands</title><link>https://www.danaukes.com/notebook/useful-pandoc-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/useful-pandoc-commands/</guid><description>&lt;h2 id="get-current-templates">Get Current Templates&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="terminal">Terminal&lt;/h2>
+&lt;h3 id="encoding">Encoding&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>qrencode -o webURL.png &lt;span style="color:#d88200">&amp;#39;https://linuxcommando.blogspot.com/&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="decoding">Decoding&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>zbarimg webURL.png
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zbarimg -q webURL.png &lt;span style="color:#75715e"># only output result&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zbarimg -v webURL.png &lt;span style="color:#75715e">#verbose mode&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="gui">GUI&lt;/h2>
+&lt;p>run qtqr. the menu system is quite intuitive.&lt;/p></description></item><item><title>Run scripts remotely over ssh with ```tmux```</title><link>https://www.danaukes.com/notebook/tmux-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tmux-stuff/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y tmux
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="basic-functionality">Basic Functionality&lt;/h2>
+&lt;p>To get the same functionality as explained in the answer recommending screen, you would need to do the following:&lt;/p></description></item><item><title>Useful Pandoc Commands</title><link>https://www.danaukes.com/notebook/useful-pandoc-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/useful-pandoc-commands/</guid><description>&lt;h2 id="get-current-templates">Get Current Templates&lt;/h2>
 &lt;pre tabindex="0">&lt;code>pandoc --print-default-template=markdown &amp;gt; pandoc-template.md
-&lt;/code>&lt;/pr</description></item><item><title>Windows VirtualBox Install Process</title><link>https://www.danaukes.com/notebook/windows-vb-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/windows-vb-install/</guid><description>&lt;ol>
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>pandoc --print-default-template=latex&amp;gt;pandoc-template.tex
+&lt;/code>&lt;/pre>&lt;h2 id="simple-markdown-to-pdf">simple markdown to pdf&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pandoc input-file.md -s -t latex+smart --citeproc --pdf-engine&lt;span style="color:#f92672">=&lt;/span>xelatex --no-highlight -o output-file.pdf
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="header">header&lt;/h3>
+&lt;p>See &lt;a href="https://pandoc.org/MANUAL.html#variables-for-latex">variables for latex&lt;/a> and &lt;a href="https://pandoc.org/MANUAL.html#metadata-variables">metadata variables&lt;/a> for all variables.&lt;/p></description></item><item><title>Windows VirtualBox Install Process</title><link>https://www.danaukes.com/notebook/windows-vb-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/windows-vb-install/</guid><description>&lt;ol>
 &lt;li>Install&lt;/li>
 &lt;li>Update&lt;/li>
 &lt;li>Remove Unused Programs&lt;/li>
 &lt;li>Turn off hibernation&lt;/li>
 &lt;/ol>
 &lt;pre tabindex="0">&lt;code>powercfg.exe -h off
-&lt;/code>&lt;/pr</description></item><item><title>Working with USB devices</title><link>https://www.danaukes.com/notebook/working-with-usb-devices-in-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/working-with-usb-devices-in-linux/</guid><description>&lt;h2 id="identifying-and-locating-usb-devices">Identifying and locating USB devices&lt;/h2>
+&lt;/code>&lt;/pre>&lt;ol>
+&lt;li>
+&lt;p>Turn off page file&lt;/p></description></item><item><title>Working with USB devices</title><link>https://www.danaukes.com/notebook/working-with-usb-devices-in-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/working-with-usb-devices-in-linux/</guid><description>&lt;h2 id="identifying-and-locating-usb-devices">Identifying and locating USB devices&lt;/h2>
 &lt;p>These widely used commands can be used to list and learn about connected USB devices in Linux.&lt;/p></description></item><item><title>Youtube-dl Quickstart</title><link>https://www.danaukes.com/notebook/youtube-dl-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/youtube-dl-quickstart/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
 &lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p>
 &lt;h2 id="find-out-the-formats">Find out the formats&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -F &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Adventures in Latex</title><link>https://www.danaukes.com/notebook/adventures-in-latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/adventures-in-latex/</guid><description>&lt;p>&lt;a href="https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te">https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="specify-the-format-code">Specify the format code&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -f &amp;lt;formatcode&amp;gt; &amp;lt;address&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="youtube-dlp">youtube-dlp&lt;/h2>
+&lt;p>branch of youtube-dl&lt;/p></description></item><item><title>Adventures in Latex</title><link>https://www.danaukes.com/notebook/adventures-in-latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/adventures-in-latex/</guid><description>&lt;p>&lt;a href="https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te">https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te&lt;/a>
 &lt;a href="https://tex.stackexchange.com/questions/20160/how-to-register-my-own-packages-or-classes-in-a-separate-drive-to-tex-live-insta">https://tex.stackexchange.com/questions/20160/how-to-register-my-own-packages-or-classes-in-a-separate-drive-to-tex-live-insta&lt;/a>
 &lt;a href="https://tex.stackexchange.com/questions/120150/is-there-a-difference-between-texconfig-rehash-and-mktexlsr">https://tex.stackexchange.com/questions/120150/is-there-a-difference-between-texconfig-rehash-and-mktexlsr&lt;/a>
 &lt;a href="https://www.overleaf.com/learn/latex/Articles/An_introduction_to_Kpathsea_and_how_TeX_engines_search_for_files">https://www.overleaf.com/learn/latex/Articles/An_introduction_to_Kpathsea_and_how_TeX_engines_search_for_files&lt;/a>
 &lt;a href="https://tug.org/texinfohtml/kpathsea.html#Path-searching">https://tug.org/texinfohtml/kpathsea.html#Path-searching&lt;/a>
-&lt;a href="https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te">https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te&lt;/a>&lt;/p></description></item><item><title>All about Python dependencies</title><link>https://www.danaukes.com/notebook/python/python-dependencies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/python-dependencies/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;a href="https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te">https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>texhash --help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash --verbose
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nano test.md
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc-plus test.md -o pdf -t default
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc-plus test.md -o pdf -t letter
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$HOME&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash --verbose
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash --verbose &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc-plus test.md -o pdf -t letter
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc -s -t latex+smart --citeproc --data-dir&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/pandoc --template&lt;span style="color:#f92672">=&lt;/span>letter.tex --pdf-engine&lt;span style="color:#f92672">=&lt;/span>xelatex --wrap&lt;span style="color:#f92672">=&lt;/span>none --reference-links -o &lt;span style="color:#d88200">&amp;#34;test.pdf&amp;#34;&lt;/span> &lt;span style="color:#d88200">&amp;#34;test.md&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash --verbose
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash --verbose &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texhash --verbose &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf/tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc -s -t latex+smart --citeproc --data-dir&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/pandoc --template&lt;span style="color:#f92672">=&lt;/span>letter.tex --pdf-engine&lt;span style="color:#f92672">=&lt;/span>xelatex --wrap&lt;span style="color:#f92672">=&lt;/span>none --reference-links -o &lt;span style="color:#d88200">&amp;#34;test.pdf&amp;#34;&lt;/span> &lt;span style="color:#d88200">&amp;#34;test.md&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texconfig --help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>texconfig rehash
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo texhash --verbose &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf/tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo texhash --verbose &lt;span style="color:#111">$HOME&lt;/span>/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc -s -t latex+smart --citeproc --data-dir&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/pandoc --template&lt;span style="color:#f92672">=&lt;/span>letter.tex --pdf-engine&lt;span style="color:#f92672">=&lt;/span>xelatex --wrap&lt;span style="color:#f92672">=&lt;/span>none --reference-links -o &lt;span style="color:#d88200">&amp;#34;test.pdf&amp;#34;&lt;/span> &lt;span style="color:#d88200">&amp;#34;test.md&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc -s -t latex+smart --citeproc --data-dir&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/pandoc --template&lt;span style="color:#f92672">=&lt;/span>letter.tex --wrap&lt;span style="color:#f92672">=&lt;/span>none --reference-links -o &lt;span style="color:#d88200">&amp;#34;test.pdf&amp;#34;&lt;/span> &lt;span style="color:#d88200">&amp;#34;test.md&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFHOME
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich pandoc.sty
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich --help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -help-formats
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -help-formats &lt;span style="color:#111">|&lt;/span> grep .sty
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -help-formats &lt;span style="color:#111">|&lt;/span> grep sty
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>TEXINPUTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>.sty
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>.tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>man kpsewhich
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$TEXMFHOME&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFHOME
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$TEXMF&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMF
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFDBS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$TEXINPUTS&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">export&lt;/span> &lt;span style="color:#111">$TEXINPUTS&lt;/span>&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">export&lt;/span> &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$TEXINPUTS&lt;/span>&lt;span style="color:#d88200">=/home/danaukes/repos/code/code_pandoc_plus/texmf&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">export&lt;/span> &lt;span style="color:#111">TEXINPUTS&lt;/span>&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$TEXINPUTS&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFDBS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>.tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">exit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>.tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>TEXINPUTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFHOME
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">export&lt;/span> &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$TEXINPUTS&lt;/span>&lt;span style="color:#d88200">=/home/danaukes/repos/code/code_pandoc_plus/texmf&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">export&lt;/span> &lt;span style="color:#111">TEXINPUTS&lt;/span>&lt;span style="color:#f92672">=&lt;/span>/home/danaukes/repos/code/code_pandoc_plus/texmf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pp-beamer test.md -o pdf -t letter
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pandoc /home/danaukes/repos/code/code_pandoc_plus/bat/beamer_default.yaml -V &lt;span style="color:#111">titlegraphic&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;/home/danaukes/repos/code/code_pandoc_plus/support/fulton.png&amp;#34;&lt;/span> -s -t beamer --pdf-engine&lt;span style="color:#f92672">=&lt;/span>xelatex --slide-level&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span> -o &lt;span style="color:#d88200">&amp;#34;test.pdf&amp;#34;&lt;/span> &lt;span style="color:#d88200">&amp;#34;test.md&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tail -200 .bash_history
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpeswhich -help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -help
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -a texmf.cnf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nano /etc/texmf/web2c/texmf.cnf 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> /etc/texmf/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> texmf.d/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cat 00debian.cnf 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ../tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> generic/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> config/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ls -la
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>VARTEXFONTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>cnf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>tx
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>sty
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -show-path&lt;span style="color:#f92672">=&lt;/span>tex
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">exit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMFDBS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kpsewhich -var-value&lt;span style="color:#f92672">=&lt;/span>TEXMF
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">exit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>danaukes@zenbook:~$ 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>% or create an additional one (with the extension &amp;lsquo;.cnf&amp;rsquo;),
+% and invoke update-texmf.&lt;/p></description></item><item><title>All about Python dependencies</title><link>https://www.danaukes.com/notebook/python/python-dependencies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/python-dependencies/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;p>&lt;a href="https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/">https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/&lt;/a>
 &lt;a href="https://community.sap.com/t5/application-development-blog-posts/why-you-should-use-poetry-instead-of-pip-or-conda-for-python-projects/ba-p/13545646">https://community.sap.com/t5/application-development-blog-posts/why-you-should-use-poetry-instead-of-pip-or-conda-for-python-projects/ba-p/13545646&lt;/a>
 &lt;a href="https://opensource.com/article/19/4/managing-python-packages">https://opensource.com/article/19/4/managing-python-packages&lt;/a>&lt;/p></description></item><item><title>android studio</title><link>https://www.danaukes.com/notebook/android-studio-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/android-studio-setup/</guid><description>&lt;p>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386&lt;/p>
-&lt;p>download &lt;a href="https://developer.android.com/studio">android-studio&lt;/a>&lt;/p></description></item><item><title>Annual Backup Process</title><link>https://www.danaukes.com/notebook/backup-procedure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/backup-procedure/</guid><description>&lt;h2 id="refresh-documents">Refresh documents&lt;/h2>
+&lt;p>download &lt;a href="https://developer.android.com/studio">android-studio&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="old-info">Old info&lt;/h2>
+&lt;p>get a message about kvm&lt;/p></description></item><item><title>Annual Backup Process</title><link>https://www.danaukes.com/notebook/backup-procedure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/backup-procedure/</guid><description>&lt;h2 id="refresh-documents">Refresh documents&lt;/h2>
 &lt;ul>
 &lt;li>Update cv&lt;/li>
 &lt;li>Update zotero and backup&lt;/li>
@@ -105,11 +263,21 @@
 &lt;p>&lt;a href="https://myaccount.google.com/apppasswords">https://myaccount.google.com/apppasswords&lt;/a>&lt;/p></description></item><item><title>Arduino - ESP32 notes</title><link>https://www.danaukes.com/notebook/arduino-esp32-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/arduino-esp32-notes/</guid><description>&lt;h2 id="arduino-instructions">Arduino Instructions&lt;/h2>
 &lt;p>&lt;a href="https://www.danaukes.com/notebook/computer-setup/03-common-tools">Install Arduino&lt;/a>&lt;/p>
 &lt;p>Follow this &lt;a href="https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/">tutorial&lt;/a> to install ESP32 support on arduino&lt;/p></description></item><item><title>Arduino IDE setup for Dynamixel, ESP32, and other IDEAlab devices</title><link>https://www.danaukes.com/notebook/arduino-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/arduino-setup/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install fuse3 libfuse2 libfuse3-3
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Arduino OpenCM9.04 SDK ID Change</title><link>https://www.danaukes.com/notebook/arduino-opencm-id-change/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/arduino-opencm-id-change/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="board-libraries">board libraries&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCM9.04/master/arduino/opencm_release/package_opencm9.04_index.json">https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCM9.04/master/arduino/opencm_release/package_opencm9.04_index.json&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>library manager
+dynamixel2arduino
+simplefoc&lt;/p></description></item><item><title>Arduino OpenCM9.04 SDK ID Change</title><link>https://www.danaukes.com/notebook/arduino-opencm-id-change/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/arduino-opencm-id-change/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
 &lt;p>This code can be used to change the id of an XL-320 servo from 1 to 2.&lt;/p></description></item><item><title>Cadquery Info</title><link>https://www.danaukes.com/notebook/cadquery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/cadquery/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/cadquery
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/cadquery/bin/activate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install cadquery jupyter-cadquery
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>converting videos to gif</title><link>https://www.danaukes.com/notebook/converting-video-to-gif/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/converting-video-to-gif/</guid><description>&lt;p>&lt;a href="https://www.baeldung.com/linux/convert-videos-gifs-ffmpeg">https://www.baeldung.com/linux/convert-videos-gifs-ffmpeg&lt;/a>&lt;/p></description></item><item><title>Dalle-mini Notes</title><link>https://www.danaukes.com/notebook/dalle-mini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/dalle-mini/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://cadquery.readthedocs.io/en/latest/intro.html#cadquery-is-a-library-guis-are-separate">https://cadquery.readthedocs.io/en/latest/intro.html#cadquery-is-a-library-guis-are-separate&lt;/a>&lt;/p></description></item><item><title>converting videos to gif</title><link>https://www.danaukes.com/notebook/converting-video-to-gif/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/converting-video-to-gif/</guid><description>&lt;p>&lt;a href="https://www.baeldung.com/linux/convert-videos-gifs-ffmpeg">https://www.baeldung.com/linux/convert-videos-gifs-ffmpeg&lt;/a>&lt;/p></description></item><item><title>Dalle-mini Notes</title><link>https://www.danaukes.com/notebook/dalle-mini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/dalle-mini/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;ul>
 &lt;li>DallE-mini on &lt;a href="https://github.com/borisdayma/dalle-mini">Github&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=eWpzLIa6v9E">How-To Video&lt;/a>&lt;/li>
@@ -117,7 +285,8 @@
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=vxc8FKqQxGM">Interview&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Dealing with .heif Images</title><link>https://www.danaukes.com/notebook/heif/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/heif/</guid><description>&lt;p>&lt;a href="https://linuxnightly.com/convert-heif-images-to-jpg-or-png-on-linux/">https://linuxnightly.com/convert-heif-images-to-jpg-or-png-on-linux/&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install libheif-examples
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Distrobox Info</title><link>https://www.danaukes.com/notebook/distrobox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/distrobox/</guid><description>&lt;p>sudo apt install distrobox&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>heif-convert image.HEIC new-image.jpg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>using find&amp;hellip;&lt;/p></description></item><item><title>Distrobox Info</title><link>https://www.danaukes.com/notebook/distrobox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/distrobox/</guid><description>&lt;p>sudo apt install distrobox&lt;/p>
 &lt;p>distrobox create -n test&lt;/p></description></item><item><title>DVD backup</title><link>https://www.danaukes.com/notebook/dvd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/dvd/</guid><description>&lt;p>sudo apt-get install k3b
 sudo apt-get install libdvd-pkg
 sudo dpkg-reconfigure libdvd-pkg
@@ -141,8 +310,45 @@ sudo apt install handbrake&lt;/p></description></item><item><title>Enabling .Net
 &lt;p>Install ADB&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Find your device&lt;/p></description></item><item><title>Get download with wget and xpath</title><link>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt intstall libxml2-utils
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Getting Meta-data from images and videos</title><link>https://www.danaukes.com/notebook/get-image-video-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-image-video-data/</guid><description>&lt;p>from &lt;a href="https://unix.stackexchange.com/questions/131186/get-metadata-from-a-video-in-the-terminal">here&lt;/a>&lt;/p>
+&lt;p>Find your device&lt;/p>
+&lt;p>./adb devices&lt;/p>
+&lt;ol>
+&lt;li>Solve any permissions issues (see below)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>list Packages&lt;/p></description></item><item><title>Get download with wget and xpath</title><link>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt intstall libxml2-utils
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>go to firefox and go to the url you want to download something from.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">url&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;https://www.mendeley.com/download-reference-manager/linux&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$url&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">html&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>wget -q -O - &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$url&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#00a8c8">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>go to firefox, click on the link you want to inspect, right click on &amp;ldquo;inspect&amp;rdquo;&lt;/li>
+&lt;li>in the attributes explorer, navigate to the &lt;code>&amp;lt;a href=&amp;quot;...&amp;quot;&amp;gt;...&amp;lt;/a&amp;gt;&lt;/code> tag, right click and copy the &amp;ldquo;xpath&amp;rdquo;&lt;/li>
+&lt;li>use the following command to save it as a variable in terminal:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#xpath=&amp;#34;&amp;lt;your xpath here&amp;gt;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># example&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">xpath&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;/html/body/div[2]/section[1]/div[1]/a&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$xpath&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>in the same terminal window&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>dl_url=$(echo $html | xmllint --html --xpath &amp;#34;string($xpath/@href)&amp;#34; - 2&amp;gt;/dev/null | xargs)
+echo $dl_url
+&lt;/code>&lt;/pre>&lt;ol>
+&lt;li>Finally,&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>wget &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$dl_url&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="full-example">Full Example&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">url&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;https://www.mendeley.com/download-reference-manager/linux&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>&lt;span style="color:#111">xpath&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;/html/body/div[2]/section[1]/div[1]/a&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>&lt;span style="color:#111">html&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>wget -q -O - &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$url&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#00a8c8">)&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>&lt;span style="color:#111">dl_url&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$html&lt;/span> &lt;span style="color:#111">|&lt;/span> xmllint --html --xpath &lt;span style="color:#d88200">&amp;#34;string(&lt;/span>&lt;span style="color:#111">$xpath&lt;/span>&lt;span style="color:#d88200">/@href)&amp;#34;&lt;/span> - 2&amp;gt;/dev/null &lt;span style="color:#111">|&lt;/span> xargs&lt;span style="color:#00a8c8">)&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>wget &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$dl_url&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Getting Meta-data from images and videos</title><link>https://www.danaukes.com/notebook/get-image-video-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-image-video-data/</guid><description>&lt;p>from &lt;a href="https://unix.stackexchange.com/questions/131186/get-metadata-from-a-video-in-the-terminal">here&lt;/a>&lt;/p>
 &lt;p>sudo apt install libimage-exiftool-perl&lt;/p>
 &lt;p>exiftool video_file.mp4&lt;/p></description></item><item><title>getting Ubuntu 20.04.5 installed and working on a raspberry pi</title><link>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</guid><description>&lt;p>&lt;a href="https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/">https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://forums.raspberrypi.com/viewtopic.php?t=315089">https://forums.raspberrypi.com/viewtopic.php?t=315089&lt;/a>&lt;/p>
@@ -178,7 +384,9 @@ sudo grdctl --system rdp set-credentials &amp;#34;name&amp;#34; &amp;#34;passwor
 
 sudo systemctl restart gnome-remote-desktop.service
 sudo systemctl status gnome-remote-desktop.service
-&lt;/code>&lt;/pr</description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo ufw allow 3389
+sudo ufw reload
+&lt;/code>&lt;/pre>&lt;p>&lt;a href="https://www.mankier.com/1/grdctl">https://www.mankier.com/1/grdctl&lt;/a>&lt;/p></description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install nmap &lt;span style="color:#75715e"># port scanning&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install dnsutils &lt;span style="color:#75715e"># dig&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install termux-tools
@@ -196,7 +404,7 @@ sudo systemctl status gnome-remote-desktop.service
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>termux-change-repo
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>termux-install-tl
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tlmgr update --all
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>identify packages added using apt's log</title><link>https://www.danaukes.com/notebook/identify-packages-added-using-log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/identify-packages-added-using-log/</guid><description>&lt;p>first step is to find the first line number where a particular date occurs&lt;/p></description></item><item><title>install git clients</title><link>https://www.danaukes.com/notebook/install-git-clients/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/install-git-clients/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak install -y flathub &lt;span style="color:#8045ff">\ &lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://wiki.termux.com/wiki/Internal_and_external_storage">https://wiki.termux.com/wiki/Internal_and_external_storage&lt;/a>&lt;/p></description></item><item><title>identify packages added using apt's log</title><link>https://www.danaukes.com/notebook/identify-packages-added-using-log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/identify-packages-added-using-log/</guid><description>&lt;p>first step is to find the first line number where a particular date occurs&lt;/p></description></item><item><title>install git clients</title><link>https://www.danaukes.com/notebook/install-git-clients/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/install-git-clients/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak install -y flathub &lt;span style="color:#8045ff">\ &lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>com.jetpackduba.Gitnuro
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># io.github.gitahead.GitAhead \&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># com.github.Murmele.Gittyup \&lt;/span>
@@ -205,13 +413,13 @@ sudo systemctl status gnome-remote-desktop.service
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># im.gitter.Gitter \&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># io.github.shiftey.Desktop \&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># com.sublimemerge.App&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>install node</title><link>https://www.danaukes.com/notebook/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/install-node/</guid><description>&lt;p>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04">https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>sudo apt install -y gitg&lt;/p></description></item><item><title>install node</title><link>https://www.danaukes.com/notebook/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/install-node/</guid><description>&lt;p>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04">https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/Downloads
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo bash nodesource_setup.sh
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install nodejs
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>node -v
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>installing gitman on windows</title><link>https://www.danaukes.com/notebook/git-on-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-on-windows/</guid><description>&lt;p>Support for multiple github accounts&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>installing gitman on windows</title><link>https://www.danaukes.com/notebook/git-on-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-on-windows/</guid><description>&lt;p>Support for multiple github accounts&lt;/p>
 &lt;h2 id="install-choco">install choco&lt;/h2>
 &lt;p>Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;lsquo;&lt;a href="https://chocolatey.org/install.ps1'">https://chocolatey.org/install.ps1'&lt;/a>))&lt;/p></description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
@@ -229,12 +437,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;export PATH=\$PATH:/home/danaukes/adb/platform-tools&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>which fastboot
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fastboot --version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Kobo Ebook Reader information</title><link>https://www.danaukes.com/notebook/kobo-ereader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/kobo-ereader/</guid><description>&lt;p>This link was the most helpful overview: &lt;a href="https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers">https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="download-graphene">Download graphene&lt;/h2>
+&lt;p>go to &lt;a href="https://grapheneos.org/releases#bramble-stable">https://grapheneos.org/releases#bramble-stable&lt;/a>&lt;/p></description></item><item><title>Kobo Ebook Reader information</title><link>https://www.danaukes.com/notebook/kobo-ereader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/kobo-ereader/</guid><description>&lt;p>This link was the most helpful overview: &lt;a href="https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers">https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers&lt;/a>&lt;/p>
 &lt;h2 id="disabling-user-id-requirements">Disabling user id requirements&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#cd /path/to/the/ereader/.kobo&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> /media/danaukes/KOBOeReader/.kobo
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sqlite3 KoboReader.sqlite
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Logitech K380 function keys</title><link>https://www.danaukes.com/notebook/logitech-keyboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logitech-keyboard/</guid><description>&lt;ul>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>in the sqlite3 prompt, type&lt;/p></description></item><item><title>Logitech K380 function keys</title><link>https://www.danaukes.com/notebook/logitech-keyboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logitech-keyboard/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://support.logi.com/hc/en-us/community/posts/360037026053-k380-use-all-f1-f2-etc-keys-as-standard-function-keys-">https://support.logi.com/hc/en-us/community/posts/360037026053-k380-use-all-f1-f2-etc-keys-as-standard-function-keys-&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.radishlogic.com/tools/how-to-reverse-the-f-keys-of-logitech-k380-keyboard/">https://www.radishlogic.com/tools/how-to-reverse-the-f-keys-of-logitech-k380-keyboard/&lt;/a>&lt;/li>
 &lt;/ul>
@@ -257,14 +466,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># conda env config vars set MUJOCO_GL=glfw PYOPENGL_PLATFORM=glfw&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda env config vars &lt;span style="color:#111">set&lt;/span> &lt;span style="color:#111">MUJOCO_GL&lt;/span>&lt;span style="color:#f92672">=&lt;/span>osmesa &lt;span style="color:#111">PYOPENGL_PLATFORM&lt;/span>&lt;span style="color:#f92672">=&lt;/span>osmesa
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda deactivate &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> conda activate sb3
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Mattermost Details</title><link>https://www.danaukes.com/notebook/mattermost/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mattermost/</guid><description>&lt;p>git clone &lt;a href="https://github.com/mattermost/docker">https://github.com/mattermost/docker&lt;/a>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>plain python environment&lt;/p></description></item><item><title>Mattermost Details</title><link>https://www.danaukes.com/notebook/mattermost/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mattermost/</guid><description>&lt;p>git clone &lt;a href="https://github.com/mattermost/docker">https://github.com/mattermost/docker&lt;/a>
 cd docker
 cp env.example .env
 mkdir -p ./volumes/app/mattermost/{config,data,logs,plugins,client/plugins,bleve-indexes}
 sudo chown -R 2000:2000 ./volumes/app/mattermost&lt;/p></description></item><item><title>Measuring Speed Between Computers</title><link>https://www.danaukes.com/notebook/measure-speed-between-computers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/measure-speed-between-computers/</guid><description>&lt;p>sudo apt install -y iperf&lt;/p>
 &lt;p>computer 1:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>iperf -s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Micropython on Linux</title><link>https://www.danaukes.com/notebook/micropython-on-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/micropython-on-linux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install build-essential libffi-dev git pkg-config
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Computer 2:&lt;/p></description></item><item><title>Micropython on Linux</title><link>https://www.danaukes.com/notebook/micropython-on-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/micropython-on-linux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install build-essential libffi-dev git pkg-config
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/&amp;lt;your-user-name&amp;gt;/micropython
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> micropython
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote add upstream https://github.com/micropython/micropython
@@ -275,11 +484,24 @@ sudo chown -R 2000:2000 ./volumes/app/mattermost&lt;/p></description></item><ite
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo make install
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> build-stadaard
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>.micropython
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>mkdocs info</title><link>https://www.danaukes.com/notebook/mkdocs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mkdocs/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.micropython.org/en/latest/develop/gettingstarted.html#building-the-unix-port-of-micropython">https://docs.micropython.org/en/latest/develop/gettingstarted.html#building-the-unix-port-of-micropython&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>mkdocs info</title><link>https://www.danaukes.com/notebook/mkdocs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mkdocs/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pip install mkdocs mkdocs-material mkdocs-glightbox
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Mujoco / Conda Usage notes</title><link>https://www.danaukes.com/notebook/mujoco-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mujoco-notes/</guid><description>&lt;h2 id="conda-based-installation">Conda-based installation&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax">https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.mkdocs.org/user-guide/writing-your-docs/">https://www.mkdocs.org/user-guide/writing-your-docs/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://squidfunk.github.io/mkdocs-material/">https://squidfunk.github.io/mkdocs-material/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.markdownguide.org/tools/mkdocs/">https://www.markdownguide.org/tools/mkdocs/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://facelessuser.github.io/pymdown-extensions/extensions/">https://facelessuser.github.io/pymdown-extensions/extensions/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>load mathjax at the beginning:&lt;/p></description></item><item><title>Mujoco / Conda Usage notes</title><link>https://www.danaukes.com/notebook/mujoco-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/mujoco-notes/</guid><description>&lt;h2 id="conda-based-installation">Conda-based installation&lt;/h2>
 &lt;p>If you&amp;rsquo;ve got conda, you should use conda packages, otherwise the render engine will not see your system graphics libraries, even if you install them.&lt;/p></description></item><item><title>Multiple Clocks in Ubuntu / Gnome</title><link>https://www.danaukes.com/notebook/multiple-clocks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/multiple-clocks/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y gnome-clocks
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>NixOS Setup</title><link>https://www.danaukes.com/notebook/nixos-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/nixos-setup/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak install -y com.mattjakeman.ExtensionManager
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak run com.mattjakeman.ExtensionManager
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>click browse tab
+search for &amp;ldquo;world clock&amp;rdquo; and select &amp;ldquo;panel world clock&amp;rdquo;&lt;/p></description></item><item><title>NixOS Setup</title><link>https://www.danaukes.com/notebook/nixos-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/nixos-setup/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://nixos.org/manual/nixos/stable/index.html#preface">https://nixos.org/manual/nixos/stable/index.html#preface&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://nixos.org/manual/nixos/stable/index.html#sec-changing-config">https://nixos.org/manual/nixos/stable/index.html#sec-changing-config&lt;/a>&lt;/li>
@@ -307,14 +529,21 @@ sudo chown -R 2000:2000 ./volumes/app/mattermost&lt;/p></description></item><ite
 
  services.flatpak.enable = true;
  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-kde ];
-&lt;/code>&lt;/pr</description></item><item><title>NoIP Client Configuration</title><link>https://www.danaukes.com/notebook/noip-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/noip-setup/</guid><description>&lt;h2 id="to--install-the-client">To Install the Client&lt;/h2>
-&lt;p>From here: &lt;a href="https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc">https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc&lt;/a>&lt;/p></description></item><item><title>OpenCM Information</title><link>https://www.danaukes.com/notebook/opencm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/opencm/</guid><description>&lt;p>&lt;a href="https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md">https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md&lt;/a>
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="virtualbox">Virtualbox&lt;/h2>
+&lt;p>&lt;a href="https://nixos.wiki/wiki/VirtualBox">https://nixos.wiki/wiki/VirtualBox&lt;/a>&lt;/p></description></item><item><title>NoIP Client Configuration</title><link>https://www.danaukes.com/notebook/noip-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/noip-setup/</guid><description>&lt;h2 id="to--install-the-client">To Install the Client&lt;/h2>
+&lt;p>From here: &lt;a href="https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc">https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc&lt;/a>&lt;/p>
+&lt;p>sudo apt update
+sudo apt install -y net-tools&lt;/p></description></item><item><title>OpenCM Information</title><link>https://www.danaukes.com/notebook/opencm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/opencm/</guid><description>&lt;p>&lt;a href="https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md">https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md&lt;/a>
 &lt;a href="https://www.youtube.com/watch?v=BftkaEG8MmU&amp;amp;embeds_euri=http%3A%2F%2Fwiki.lofarolabs.com%2F&amp;amp;feature=emb_rel_end">https://www.youtube.com/watch?v=BftkaEG8MmU&amp;amp;embeds_euri=http%3A%2F%2Fwiki.lofarolabs.com%2F&amp;amp;feature=emb_rel_end&lt;/a>
 &lt;a href="http://wiki.lofarolabs.com/index.php/OpenCM_9.04">http://wiki.lofarolabs.com/index.php/OpenCM_9.04&lt;/a>
 &lt;a href="https://emanual.robotis.com/docs/en/parts/controller/opencm904/">https://emanual.robotis.com/docs/en/parts/controller/opencm904/&lt;/a>
 &lt;a href="https://www.youtube.com/watch?v=u5InEFzWVPA">https://www.youtube.com/watch?v=u5InEFzWVPA&lt;/a>
 &lt;a href="http://en.robotis.com/shop_en/item.php?it_id=902-0084-040">http://en.robotis.com/shop_en/item.php?it_id=902-0084-040&lt;/a>&lt;/p></description></item><item><title>OpenVPN3 for Ubuntu</title><link>https://www.danaukes.com/notebook/openvpn3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/openvpn3/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>openvpn3 session-start --config &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MY_CONFIGURATION_FILE&lt;/span>&lt;span style="color:#d88200">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Orange Pi Zero2 Information</title><link>https://www.danaukes.com/notebook/orange-pi-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/orange-pi-info/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://openvpn.net/cloud-docs/owner/connectors/connector-user-guides/openvpn-3-client-for-linux.html#UUID-dfe4f241-eb07-343a-6e16-63e878b8e0bb">https://openvpn.net/cloud-docs/owner/connectors/connector-user-guides/openvpn-3-client-for-linux.html#UUID-dfe4f241-eb07-343a-6e16-63e878b8e0bb&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Orange Pi Zero2 Information</title><link>https://www.danaukes.com/notebook/orange-pi-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/orange-pi-info/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Note: the most important and helpful resource is the manual, which is available &lt;a href="https://drive.google.com/drive/folders/1T7NCV5ZBg1TrB1q_QUQ93GMbq0IlKLFn">here&lt;/a>.&lt;/p></description></item><item><title>overleaf projects</title><link>https://www.danaukes.com/notebook/overleaf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/overleaf/</guid><description>&lt;p>when making a new overleaf project:&lt;/p>
 &lt;p>integrate with github by creating a new repositoiry.&lt;/p></description></item><item><title>Podcasting</title><link>https://www.danaukes.com/notebook/podcasting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/podcasting/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://www.listennotes.com/">https://www.listennotes.com/&lt;/a>: Listen Notes - the best podcast search engine&lt;/li>
@@ -438,35 +667,84 @@ sudo chown -R 2000:2000 ./volumes/app/mattermost&lt;/p></description></item><ite
 -->
 &lt;h2 id="conda">Conda&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda list
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>quick scripts for openscad</title><link>https://www.danaukes.com/notebook/openscad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/openscad/</guid><description>&lt;pre tabindex="0">&lt;code>color(&amp;#34;red&amp;#34;,1) import(&amp;#34;path/to/your-part.stl&amp;#34;);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="conda-environments">Conda Environments&lt;/h2>
+&lt;h3 id="create-list-and-destroy">Create, List, and Destroy&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda create --name &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda info --envs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda remove --name &amp;lt;env name&amp;gt; --all
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda deactivate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate &amp;lt;env name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda env &lt;span style="color:#111">export&lt;/span> &amp;gt; environment.yml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda list -n &amp;lt;env name&amp;gt; -r
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda install --revision &amp;lt;revision-num&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>conda activate
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>conda init --reverse --all
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/anaconda3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf ~/miniconda3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://docs.anaconda.com/free/anaconda/install/uninstall/">https://docs.anaconda.com/free/anaconda/install/uninstall/&lt;/a>
+&lt;a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html&lt;/a>&lt;/p></description></item><item><title>quick scripts for openscad</title><link>https://www.danaukes.com/notebook/openscad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/openscad/</guid><description>&lt;pre tabindex="0">&lt;code>color(&amp;#34;red&amp;#34;,1) import(&amp;#34;path/to/your-part.stl&amp;#34;);
 &lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak run org.openscad.OpenSCAD -o test.png --projection orthogonal test.scad
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>RDP to another computer</title><link>https://www.danaukes.com/notebook/xrdp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/xrdp/</guid><description>&lt;p>Derived from &lt;a href="https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10">here&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>with camera orientation but no scaling&lt;/p></description></item><item><title>RDP to another computer</title><link>https://www.danaukes.com/notebook/xrdp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/xrdp/</guid><description>&lt;p>Derived from &lt;a href="https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10">here&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install xrdp
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>recover data from an sd card</title><link>https://www.danaukes.com/notebook/recover-sd-card/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/recover-sd-card/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card">https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> --now xrdp
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw allow from any to any port &lt;span style="color:#ae81ff">3389&lt;/span> proto tcp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo service xrdp &lt;span style="color:#111">enable&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo service xrdp start
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>open remmina&lt;/p></description></item><item><title>recover data from an sd card</title><link>https://www.danaukes.com/notebook/recover-sd-card/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/recover-sd-card/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card">https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install testdisk
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo photorec
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Recovering Files</title><link>https://www.danaukes.com/notebook/recovering-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/recovering-files/</guid><description>&lt;p>&lt;a href="https://ext4magic.sourceforge.net/howto_en.html">https://ext4magic.sourceforge.net/howto_en.html&lt;/a>&lt;/p></description></item><item><title>Removing Snap from Ubuntu</title><link>https://www.danaukes.com/notebook/removing-firefox-snap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/removing-firefox-snap/</guid><description>&lt;p>This is useful for stalled updates when installing ubuntu-desktop-minimal on a server. the firefox snap package seems to hang.&lt;/p></description></item><item><title>Reset iptables</title><link>https://www.danaukes.com/notebook/reset-ip-tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/reset-ip-tables/</guid><description>&lt;ul>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Recovering Files</title><link>https://www.danaukes.com/notebook/recovering-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/recovering-files/</guid><description>&lt;p>&lt;a href="https://ext4magic.sourceforge.net/howto_en.html">https://ext4magic.sourceforge.net/howto_en.html&lt;/a>&lt;/p></description></item><item><title>Removing Snap from Ubuntu</title><link>https://www.danaukes.com/notebook/removing-firefox-snap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/removing-firefox-snap/</guid><description>&lt;p>This is useful for stalled updates when installing ubuntu-desktop-minimal on a server. the firefox snap package seems to hang.&lt;/p></description></item><item><title>Reset iptables</title><link>https://www.danaukes.com/notebook/reset-ip-tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/reset-ip-tables/</guid><description>&lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;a href="https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/">https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/&lt;/a>&lt;/p></description></item><item><title>Rsync Quickref</title><link>https://www.danaukes.com/notebook/rsync-quickref/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/rsync-quickref/</guid><description>&lt;h2 id="quick-recipes">quick recipes&lt;/h2>
 &lt;h3 id="local">Local&lt;/h3>
 &lt;pre tabindex="0">&lt;code>rsync -haviP --inplace --delete-before --no-compress /storage/nas/photos /media/danaukes/extreme-ssd/
 rsync -haviP --inplace --delete-before --no-compress --exclude-from=&amp;#34;/home/danaukes/code/code_scripts/rsync_ignore.txt&amp;#34; --delete-excluded &amp;#34;/home/danaukes&amp;#34; &amp;#34;/media/danaukes/extreme-ssd/zenbook-backup/&amp;#34; | tee -a ~/backup.txt
-&lt;/code>&lt;/pr</description></item><item><title>Running Ros2 on an ESP32</title><link>https://www.danaukes.com/notebook/ros2-and-esp32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2-and-esp32/</guid><description>&lt;h2 id="virtualbox-guest-master-setup">Virtualbox guest master setup&lt;/h2>
+&lt;/code>&lt;/pre>&lt;h3 id="remote">Remote&lt;/h3>
+&lt;pre tabindex="0">&lt;code>rsync -zhaviP --delete-before--exclude-from=&amp;#34;/home/danaukes/code/code_scripts/rsync_ignore.txt&amp;#34; --delete-excluded /home/danaukes/ storage:/storage/nas/zenbook-backup/danaukes | tee -a ~/backup.txt
+&lt;/code>&lt;/pre>&lt;h2 id="folder-help">Folder help&lt;/h2>
+&lt;p>say we have two folders:&lt;/p></description></item><item><title>Running Ros2 on an ESP32</title><link>https://www.danaukes.com/notebook/ros2-and-esp32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2-and-esp32/</guid><description>&lt;h2 id="virtualbox-guest-master-setup">Virtualbox guest master setup&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>create a virtual machine&lt;/p></description></item><item><title>Setup Samba from Bash</title><link>https://www.danaukes.com/notebook/setup-samba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/setup-samba/</guid><description>&lt;h2 id="make-your-folder">Make your folder&lt;/h2>
+&lt;p>create a virtual machine&lt;/p>
+&lt;ol>
+&lt;li>Networking: Select bridged networking&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>install ubuntu 22.04 server edition&lt;/p></description></item><item><title>Setup Samba from Bash</title><link>https://www.danaukes.com/notebook/setup-samba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/setup-samba/</guid><description>&lt;h2 id="make-your-folder">Make your folder&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mkdir ~/happy
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>chmod &lt;span style="color:#ae81ff">0700&lt;/span> ~/happy
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Shell Script Examples</title><link>https://www.danaukes.com/notebook/shell-scripts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/shell-scripts/</guid><description>&lt;p>How to find the directory of the script&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="set-up-samba">Set up samba&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install samba
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nano /etc/samba/smb.conf
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code># Networked Attached Storage Share
+[nas]
+ comment = welcome to NAS
+ path = /storage/nas
+ read only = no
+ guest ok = no
+ browsable = yes
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl restart smbd.service 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw allow samba
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo smbpasswd -a &amp;lt;username&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Then connect to your new share!&lt;/p></description></item><item><title>Shell Script Examples</title><link>https://www.danaukes.com/notebook/shell-scripts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/shell-scripts/</guid><description>&lt;p>How to find the directory of the script&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#!/bin/bash
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#111">MY_PATH&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;`dirname \&amp;#34;&lt;/span>&lt;span style="color:#111">$0&lt;/span>&lt;span style="color:#d88200">\&amp;#34;`&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">$MY_PATH&lt;/span>/relative/path/to/other/file
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Simple Netplan Config</title><link>https://www.danaukes.com/notebook/simple-netplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/simple-netplan/</guid><description>&lt;h2 id="example">Example&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>pass arguments on to another script&lt;/p></description></item><item><title>Simple Netplan Config</title><link>https://www.danaukes.com/notebook/simple-netplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/simple-netplan/</guid><description>&lt;h2 id="example">Example&lt;/h2>
 &lt;blockquote>
-&lt;p>update enp0s3 to match your ethernet interface&lt;/p></description></item><item><title>sofa notes</title><link>https://www.danaukes.com/notebook/sofa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/sofa/</guid><description>&lt;h2 id="sofa-info">Sofa info&lt;/h2>
+&lt;p>update enp0s3 to match your ethernet interface&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;/p>
+&lt;blockquote>
+&lt;p>update ip4 address to match an available address&lt;/p></description></item><item><title>sofa notes</title><link>https://www.danaukes.com/notebook/sofa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/sofa/</guid><description>&lt;h2 id="sofa-info">Sofa info&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://sofapython3.readthedocs.io/en/latest/content/Installation.html#using-python3">https://sofapython3.readthedocs.io/en/latest/content/Installation.html#using-python3&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ripl/SofaFramework-Docker">https://github.com/ripl/SofaFramework-Docker&lt;/a>&lt;/li>
@@ -488,7 +766,7 @@ pip install pyaudio
 pip install RealtimeSTT&lt;/p></description></item><item><title>Splitting and Merging tar files</title><link>https://www.danaukes.com/notebook/split-tar-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/split-tar-files/</guid><description>&lt;p>From here: &lt;a href="https://unix.stackexchange.com/questions/61774/create-a-tar-archive-split-into-blocks-of-a-maximum-size">https://unix.stackexchange.com/questions/61774/create-a-tar-archive-split-into-blocks-of-a-maximum-size&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>tar -cvpzf - &lt;span style="color:#d88200">&amp;#34;&amp;lt;my folder name&amp;gt;&amp;#34;&lt;/span>/ &lt;span style="color:#111">|&lt;/span> split -d -b 10G - &lt;span style="color:#d88200">&amp;#34;&amp;lt;my folder name&amp;gt;.tar.gz.&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cat &amp;lt;my folder name&amp;gt;.tar.gz.* &lt;span style="color:#111">|&lt;/span> tar xzvf -
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Tailscale Details</title><link>https://www.danaukes.com/notebook/tailscale-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tailscale-details/</guid><description>&lt;ul>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Tailscale Details</title><link>https://www.danaukes.com/notebook/tailscale-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tailscale-details/</guid><description>&lt;ul>
 &lt;li>from &lt;a href="https://tailscale.com/kb/1103/exit-nodes/">here about exit nodes&lt;/a>&lt;/li>
 &lt;li>and &lt;a href="https://tailscale.com/kb/1019/subnets/">subnets&lt;/a>&lt;/li>
 &lt;/ul>
@@ -496,7 +774,8 @@ pip install RealtimeSTT&lt;/p></description></item><item><title>Splitting and Me
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#39;net.ipv4.ip_forward = 1&amp;#39;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee -a /etc/sysctl.conf
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#39;net.ipv6.conf.all.forwarding = 1&amp;#39;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee -a /etc/sysctl.conf
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo sysctl -p /etc/sysctl.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Using Ardour</title><link>https://www.danaukes.com/notebook/ardour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ardour/</guid><description>&lt;p>sudo apt install ardour&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="exit-node">Exit Node&lt;/h2>
+&lt;p>to advertise as an exit node&lt;/p></description></item><item><title>Using Ardour</title><link>https://www.danaukes.com/notebook/ardour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ardour/</guid><description>&lt;p>sudo apt install ardour&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.linuxsynths.com/">https://www.linuxsynths.com/&lt;/a>
 &lt;ul>
@@ -515,7 +794,7 @@ pip install RealtimeSTT&lt;/p></description></item><item><title>Splitting and Me
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y wine64 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install wine64-development wine64-tools wine64-preloader 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install wine winetricks
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Visa Benefits</title><link>https://www.danaukes.com/notebook/visa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/visa/</guid><description>&lt;p>If you want to rent a car, you can call visa benefits to get a letter that states they have insurance for car rentals.&lt;/p></description></item><item><title>VSCode Setup and Usage</title><link>https://www.danaukes.com/notebook/vscode-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vscode-setup/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>from &lt;a href="https://phoenixnap.com/kb/how-to-install-wine-on-ubuntu">here&lt;/a>&lt;/p></description></item><item><title>Visa Benefits</title><link>https://www.danaukes.com/notebook/visa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/visa/</guid><description>&lt;p>If you want to rent a car, you can call visa benefits to get a letter that states they have insurance for car rentals.&lt;/p></description></item><item><title>VSCode Setup and Usage</title><link>https://www.danaukes.com/notebook/vscode-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vscode-setup/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
 &lt;p>Download from &lt;a href="https://code.visualstudio.com/Download">here&lt;/a>&lt;/p>
 &lt;p>Installation Options&lt;/p>
 &lt;ul>
@@ -528,7 +807,9 @@ pip install RealtimeSTT&lt;/p></description></item><item><title>Splitting and Me
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/Downloads
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dpkg -i code_1.7* &lt;span style="color:#75715e">#.... tab complete&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -yf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Web-Based Control in Micropython</title><link>https://www.danaukes.com/notebook/python/micropython-web-based-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/micropython-web-based-control/</guid><description>&lt;h2 id="step-1-create-a-form-that-posts-to-url">Step 1: Create a Form that posts to URL&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="useful-command-line-arguments">Useful command-line arguments&lt;/h2>
+&lt;blockquote>
+&lt;p>Note: this only works if you added vscode to your system &lt;code>PATH&lt;/code>&lt;/p></description></item><item><title>Web-Based Control in Micropython</title><link>https://www.danaukes.com/notebook/python/micropython-web-based-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/micropython-web-based-control/</guid><description>&lt;h2 id="step-1-create-a-form-that-posts-to-url">Step 1: Create a Form that posts to URL&lt;/h2>
 &lt;h3 id="good-resources">Good resources&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/">https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/&lt;/a>&lt;/li>
@@ -537,14 +818,64 @@ pip install RealtimeSTT&lt;/p></description></item><item><title>Splitting and Me
 &lt;h2 id="step-2-back-end-python-code-that-can-parse-the-input-form-data">Step 2: Back-end python code that can parse the input form data.&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data">https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data&lt;/a>&lt;/p></description></item><item><title>Weylus</title><link>https://www.danaukes.com/notebook/weylus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/weylus/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux">https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data">https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data&lt;/a>&lt;/p></description></item><item><title>websockets and javascript</title><link>https://www.danaukes.com/notebook/websockets-and-javascript/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/websockets-and-javascript/</guid><description>&lt;p>&lt;a href="https://duckduckgo.com/?q=websockets+javascript+example+chat+app&amp;amp;t=ffab&amp;amp;ia=web">https://duckduckgo.com/?q=websockets+javascript+example+chat+app&amp;amp;t=ffab&amp;amp;ia=web&lt;/a>
+&lt;a href="https://dev.to/devland/build-a-real-time-chat-app-using-nodejs-and-websocket-441g">https://dev.to/devland/build-a-real-time-chat-app-using-nodejs-and-websocket-441g&lt;/a>
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API&lt;/a>
+&lt;a href="https://www.markcodes.dev/posts/javascript-websockets-in-browser-and-server">https://www.markcodes.dev/posts/javascript-websockets-in-browser-and-server&lt;/a>
+&lt;a href="https://dev.to/dipakahirav/real-time-communication-with-websockets-a-complete-guide-32g4">https://dev.to/dipakahirav/real-time-communication-with-websockets-a-complete-guide-32g4&lt;/a>
+&lt;a href="https://javascript.info/websocket">https://javascript.info/websocket&lt;/a>
+http://192.168.0.209/
+&lt;a href="https://duckduckgo.com/?t=ffab&amp;amp;q=micropython+yaml+json&amp;amp;ia=web">https://duckduckgo.com/?t=ffab&amp;amp;q=micropython+yaml+json&amp;amp;ia=web&lt;/a>
+&lt;a href="https://docs.micropython.org/en/latest/library/json.html">https://docs.micropython.org/en/latest/library/json.html&lt;/a>
+&lt;a href="https://duckduckgo.com/?t=ffab&amp;amp;q=await+asyncio&amp;amp;ia=web">https://duckduckgo.com/?t=ffab&amp;amp;q=await+asyncio&amp;amp;ia=web&lt;/a>
+&lt;a href="https://docs.python.org/3/library/asyncio.html">https://docs.python.org/3/library/asyncio.html&lt;/a>
+&lt;a href="https://duckduckgo.com/?t=ffab&amp;amp;q=javascript+parse+json&amp;amp;ia=web">https://duckduckgo.com/?t=ffab&amp;amp;q=javascript+parse+json&amp;amp;ia=web&lt;/a>
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse&lt;/a>
+&lt;a href="https://www.w3schools.com/Js/js_json_parse.asp">https://www.w3schools.com/Js/js_json_parse.asp&lt;/a>
+&lt;a href="https://duckduckgo.com/?q=create+send+json+form+javascript&amp;amp;t=ffab&amp;amp;ia=web">https://duckduckgo.com/?q=create+send+json+form+javascript&amp;amp;t=ffab&amp;amp;ia=web&lt;/a>
+&lt;a href="https://stackoverflow.com/questions/1255948/post-data-in-json-format">https://stackoverflow.com/questions/1255948/post-data-in-json-format&lt;/a>
+&lt;a href="https://www.learnwithjason.dev/blog/get-form-values-as-json/">https://www.learnwithjason.dev/blog/get-form-values-as-json/&lt;/a>
+&lt;a href="https://stackoverflow.com/questions/22195065/how-to-send-a-json-object-using-html-form-data">https://stackoverflow.com/questions/22195065/how-to-send-a-json-object-using-html-form-data&lt;/a>
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event">https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event&lt;/a>
+&lt;a href="https://stackoverflow.com/questions/19978600/how-to-loop-through-elements-of-forms-with-javascript">https://stackoverflow.com/questions/19978600/how-to-loop-through-elements-of-forms-with-javascript&lt;/a>
+&lt;a href="https://samirparikh.com/blog/create-favicon.html">https://samirparikh.com/blog/create-favicon.html&lt;/a>
+&lt;a href="https://duckduckgo.com/?q=micropython+NameError%3A+name+%27ConnectionResetError%27+isn%27t+defined&amp;amp;t=ffab&amp;amp;ia=web">https://duckduckgo.com/?q=micropython+NameError%3A+name+%27ConnectionResetError%27+isn%27t+defined&amp;amp;t=ffab&amp;amp;ia=web&lt;/a>
+&lt;a href="https://realpython.com/async-io-python/">https://realpython.com/async-io-python/&lt;/a>
+&lt;a href="https://duckduckgo.com/?t=ffab&amp;amp;q=microdot+websocket+send%2Freceive&amp;amp;ia=web">https://duckduckgo.com/?t=ffab&amp;amp;q=microdot+websocket+send%2Freceive&amp;amp;ia=web&lt;/a>
+&lt;a href="https://github.com/miguelgrinberg/microdot/discussions/197">https://github.com/miguelgrinberg/microdot/discussions/197&lt;/a>&lt;/p></description></item><item><title>Weylus</title><link>https://www.danaukes.com/notebook/weylus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/weylus/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux">https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://github.com/H-M-H/Weylus#running">https://github.com/H-M-H/Weylus#running&lt;/a>&lt;/p></description></item><item><title>Working with pdfs from the command line</title><link>https://www.danaukes.com/notebook/working-with-pdfs-from-the-command-line/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/working-with-pdfs-from-the-command-line/</guid><description>&lt;h2 id="merge-pdfs-from-bash">Merge pdfs from Bash&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install pdftk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>ZFS info</title><link>https://www.danaukes.com/notebook/zfs-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/zfs-info/</guid><description>&lt;p>&lt;a href="https://illumos.org/books/zfs-admin/">https://illumos.org/books/zfs-admin/&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>pdftk file1.pdf file2.pdf cat output mergedfile.pdf
+&lt;/code>&lt;/pre>&lt;p>from &lt;a href="https://www.maketecheasier.com/combine-multiple-pdf-files-with-pdftk/">here&lt;/a>&lt;/p></description></item><item><title>ZFS info</title><link>https://www.danaukes.com/notebook/zfs-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/zfs-info/</guid><description>&lt;p>&lt;a href="https://illumos.org/books/zfs-admin/">https://illumos.org/books/zfs-admin/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://blog.victormendonca.com/2020/11/03/zfs-for-dummies/">https://blog.victormendonca.com/2020/11/03/zfs-for-dummies/&lt;/a>
 &lt;a href="https://www.willhaley.com/blog/zfs-cheat-sheet/">https://www.willhaley.com/blog/zfs-cheat-sheet/&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y zfsutils-linux
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo fdisk -l
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lsblk
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>lsblk -f
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="permission">permission&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount storage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount coldstorage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zfs allow -u danaukes receive,create,send,hold,share,snapshot,mount coldstorage/nas
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="pools">pools&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zpool create -f storage mirror /dev/sdb /dev/sdc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool create -f coldstorage mirror /dev/sda /dev/sde
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool create -f coldstorage mirror /dev/sda /dev/sdb
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zpool status
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zpool status -v
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>zpool list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool destroy &amp;lt;pool-name&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool mount coldstorage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool unmount coldstorage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool online coldstorage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool offline coldstorage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool detatch coldstarge /dev/sdb1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool replace -f coldstorage &lt;span style="color:#ae81ff">11380073923137715223&lt;/span> /dev/sdb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="import--export">import / export&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo zpool &lt;span style="color:#111">export&lt;/span> coldstorage
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo zpool import coldstorage -d /dev/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="filesystems">filesystems&lt;/h2>
+&lt;p>&lt;a href="https://docs.oracle.com/cd/E19253-01/819-5461/gfkco/index.html">https://docs.oracle.com/cd/E19253-01/819-5461/gfkco/index.html&lt;/a>&lt;/p></description></item></channel></rss>

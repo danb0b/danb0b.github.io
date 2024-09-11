@@ -2,4 +2,7 @@
 &lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p>
 &lt;h2 id="find-out-the-formats">Find out the formats&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -F &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="specify-the-format-code">Specify the format code&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -f &amp;lt;formatcode&amp;gt; &amp;lt;address&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="youtube-dlp">youtube-dlp&lt;/h2>
+&lt;p>branch of youtube-dl&lt;/p></description></item></channel></rss>

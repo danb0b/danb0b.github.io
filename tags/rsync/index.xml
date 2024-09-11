@@ -2,4 +2,7 @@
 &lt;h3 id="local">Local&lt;/h3>
 &lt;pre tabindex="0">&lt;code>rsync -haviP --inplace --delete-before --no-compress /storage/nas/photos /media/danaukes/extreme-ssd/
 rsync -haviP --inplace --delete-before --no-compress --exclude-from=&amp;#34;/home/danaukes/code/code_scripts/rsync_ignore.txt&amp;#34; --delete-excluded &amp;#34;/home/danaukes&amp;#34; &amp;#34;/media/danaukes/extreme-ssd/zenbook-backup/&amp;#34; | tee -a ~/backup.txt
-&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;h3 id="remote">Remote&lt;/h3>
+&lt;pre tabindex="0">&lt;code>rsync -zhaviP --delete-before--exclude-from=&amp;#34;/home/danaukes/code/code_scripts/rsync_ignore.txt&amp;#34; --delete-excluded /home/danaukes/ storage:/storage/nas/zenbook-backup/danaukes | tee -a ~/backup.txt
+&lt;/code>&lt;/pre>&lt;h2 id="folder-help">Folder help&lt;/h2>
+&lt;p>say we have two folders:&lt;/p></description></item></channel></rss>

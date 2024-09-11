@@ -3,4 +3,4 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#cd /path/to/the/ereader/.kobo&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> /media/danaukes/KOBOeReader/.kobo
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sqlite3 KoboReader.sqlite
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>in the sqlite3 prompt, type&lt;/p></description></item></channel></rss>

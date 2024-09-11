@@ -6,7 +6,9 @@
 &lt;li>Turn off hibernation&lt;/li>
 &lt;/ol>
 &lt;pre tabindex="0">&lt;code>powercfg.exe -h off
-&lt;/code>&lt;/pr</description></item><item><title>Enabling .NetFx 3.5 in windows 11</title><link>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</guid><description>&lt;p>insert windows 11 installation media cdrom/iso&lt;/p>
+&lt;/code>&lt;/pre>&lt;ol>
+&lt;li>
+&lt;p>Turn off page file&lt;/p></description></item><item><title>Enabling .NetFx 3.5 in windows 11</title><link>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</guid><description>&lt;p>insert windows 11 installation media cdrom/iso&lt;/p>
 &lt;p>Make sure the command below points to the proper drive letter(in this case D)&lt;/p></description></item><item><title>Installing Windows 11 on Virtualbox</title><link>https://www.danaukes.com/notebook/virtualbox/windows-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/windows-11/</guid><description>&lt;p>Settings that worked for me&lt;/p>
 &lt;p>Skip unattended installation
 200gb vhd (flexible size)
@@ -27,4 +29,6 @@ Enable Secureboot: No&lt;/p></description></item><item><title>Shrinking Virtualb
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/Downloads
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dpkg -i code_1.7* &lt;span style="color:#75715e">#.... tab complete&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -yf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="useful-command-line-arguments">Useful command-line arguments&lt;/h2>
+&lt;blockquote>
+&lt;p>Note: this only works if you added vscode to your system &lt;code>PATH&lt;/code>&lt;/p></description></item></channel></rss>

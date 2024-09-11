@@ -3,7 +3,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/bulletphysics/bullet3.git
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> bullet3
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ccmake .
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>getting pyBullet working in Anaconda</title><link>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</guid><description>&lt;p>search keywords:&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>then configure, generate&lt;/p></description></item><item><title>getting pyBullet working in Anaconda</title><link>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/pybullet-in-anaconda/</guid><description>&lt;p>search keywords:&lt;/p>
 &lt;ul>
 &lt;li>python&lt;/li>
 &lt;li>anaconda&lt;/li>

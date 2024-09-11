@@ -17,7 +17,20 @@
 &lt;pre tabindex="0">&lt;code>cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
-&lt;/code>&lt;/pr</description></item><item><title>05-general python install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</guid><description>&lt;h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda&lt;/h2>
+&lt;/code>&lt;/pre>&lt;ol>
+&lt;li>follow the instructions&lt;/li>
+&lt;li>use the default path&lt;/li>
+&lt;li>say &amp;ldquo;yes&amp;rdquo; to initialize conda&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>cd ~/
+source ~/.bashrc
+&lt;/code>&lt;/pre>&lt;h3 id="map-miniconda-to-anaconda">map miniconda to anaconda&lt;/h3>
+&lt;pre tabindex="0">&lt;code>mkdir ~/anaconda3
+mkdir ~/anaconda3/bin
+ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
+echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
+&lt;/code>&lt;/pre>&lt;h2 id="windows-install">Windows Install&lt;/h2>
+&lt;p>Set powershell-specific security settings&lt;/p></description></item><item><title>05-general python install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</guid><description>&lt;h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install git python3-pip python3-venv
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y build-essential
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
@@ -54,7 +67,8 @@ bash Miniconda3-latest-Linux-x86_64.sh
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># pip install scp pysftp paho-mqtt stem #unused?&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># pip install meshpy # optional&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Controlling Virtualbox from the Terminal</title><link>https://www.danaukes.com/notebook/virtualbox/vbox_terminal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/vbox_terminal/</guid><description>&lt;p>Starting/stopping/pausing a VM&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="wayland-pyqtgraph--qt5-issue">Wayland Pyqtgraph / qt5 issue&lt;/h3>
+&lt;p>&lt;a href="https://stackoverflow.com/questions/69994530/qt-qpa-plugin-could-not-find-the-qt-platform-plugin-wayland">https://stackoverflow.com/questions/69994530/qt-qpa-plugin-could-not-find-the-qt-platform-plugin-wayland&lt;/a>&lt;/p></description></item><item><title>Controlling Virtualbox from the Terminal</title><link>https://www.danaukes.com/notebook/virtualbox/vbox_terminal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/vbox_terminal/</guid><description>&lt;p>Starting/stopping/pausing a VM&lt;/p>
 &lt;p>Now the fun begins. First, you must know the name of the VM you want to run. To find a list of the VMs, issue the command&lt;/p></description></item><item><title>Installing and Using VNC</title><link>https://www.danaukes.com/notebook/vnc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vnc/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y xfce4 xfce4-goodies tightvncserver
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver
@@ -65,9 +79,47 @@ bash Miniconda3-latest-Linux-x86_64.sh
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver -kill :1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nano ~/.vnc/xstartup
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Run scripts remotely over ssh with ```tmux```</title><link>https://www.danaukes.com/notebook/tmux-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tmux-stuff/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y tmux
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Youtube-dl Quickstart</title><link>https://www.danaukes.com/notebook/youtube-dl-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/youtube-dl-quickstart/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &amp;amp;
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>chmod +x ~/.vnc/xstartup
+vncserver -localhost
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo nano /etc/systemd/system/vncserver@.service
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>[Unit]
+Description=Start TightVNC server at startup
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=danaukes
+Group=danaukes
+WorkingDirectory=/home/danaukes
+
+PIDFile=/home/danaukes/.vnc/%H:%i.pid
+ExecStartPre=-/usr/bin/vncserver -kill :%i &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+ExecStart=/usr/bin/vncserver -depth 24 -geometry 1280x800 -localhost :%i
+ExecStop=/usr/bin/vncserver -kill :%i
+
+[Install]
+WantedBy=multi-user.target
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl daemon-reload
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> vncserver@1.service
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncserver -kill :1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl start vncserver@1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl status vncserver@1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="port-forward-to-vnc">Port forward to VNC&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ssh -L 59000:localhost:5901 -C -N &amp;lt;servername&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-links">External Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/">https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Run scripts remotely over ssh with ```tmux```</title><link>https://www.danaukes.com/notebook/tmux-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tmux-stuff/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y tmux
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="basic-functionality">Basic Functionality&lt;/h2>
+&lt;p>To get the same functionality as explained in the answer recommending screen, you would need to do the following:&lt;/p></description></item><item><title>Youtube-dl Quickstart</title><link>https://www.danaukes.com/notebook/youtube-dl-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/youtube-dl-quickstart/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
 &lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p>
 &lt;h2 id="find-out-the-formats">Find out the formats&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -F &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="specify-the-format-code">Specify the format code&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -f &amp;lt;formatcode&amp;gt; &amp;lt;address&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="youtube-dlp">youtube-dlp&lt;/h2>
+&lt;p>branch of youtube-dl&lt;/p></description></item></channel></rss>
