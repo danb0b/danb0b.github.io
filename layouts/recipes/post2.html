@@ -18,7 +18,7 @@
         <span class="border-bottom border-primary px-2 mx-1"></span>
         <span>{{ .PublishDate.Format "02 Jan 2006" }}</span>
         {{ end }}
-        <p>{{ .Summary | markdownify }}</p>
+        <p>{{ .Summary | safeHTML | truncate 100  }}</p>
         <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
       </div>
     </div>

@@ -15,7 +15,7 @@
           class="text-primary">{{ . | title | humanize }}</a>
       {{ end }}
 
-      <p>{{ .Summary | markdownify }}</p>
+      <p>{{ .Summary | safeHTML | truncate 100  }}</p>
       <ul class="list-inline">
         {{ range .Params.recipe_tags }}
         <li class="list-inline-item mb-1 mr-2 mt-1">

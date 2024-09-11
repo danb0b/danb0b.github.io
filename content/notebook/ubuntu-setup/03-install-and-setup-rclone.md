@@ -5,6 +5,7 @@ tags:
 - ubuntu
 - linux
 - rclone
+summary: how to install and setup rclone
 ---
 
 1. Install ```rclone```
