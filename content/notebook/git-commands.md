@@ -5,6 +5,7 @@ tags:
   - git
   - github
 weight: 10
+summary: a handy cheatsheet of my most used and looked up git commands
 ---
 
 to clone a repository:
