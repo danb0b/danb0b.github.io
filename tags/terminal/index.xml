@@ -116,10 +116,4 @@ WantedBy=multi-user.target
 &lt;/ul></description></item><item><title>Run scripts remotely over ssh with ```tmux```</title><link>https://www.danaukes.com/notebook/tmux-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/tmux-stuff/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y tmux
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="basic-functionality">Basic Functionality&lt;/h2>
 &lt;p>To get the same functionality as explained in the answer recommending screen, you would need to do the following:&lt;/p></description></item><item><title>Youtube-dl Quickstart</title><link>https://www.danaukes.com/notebook/youtube-dl-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/youtube-dl-quickstart/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
-&lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p>
-&lt;h2 id="find-out-the-formats">Find out the formats&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -F &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="specify-the-format-code">Specify the format code&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -f &amp;lt;formatcode&amp;gt; &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="youtube-dlp">youtube-dlp&lt;/h2>
-&lt;p>branch of youtube-dl&lt;/p></description></item></channel></rss>
+&lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p></description></item></channel></rss>

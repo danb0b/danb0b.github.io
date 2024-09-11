@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notebook on Dan Aukes</title><link>https://www.danaukes.com/notebook/</link><description>Recent content in Notebook on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://www.danaukes.com/notebook/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux / Bash Cheatsheet</title><link>https://www.danaukes.com/notebook/linux-cheatsheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/linux-cheatsheet/</guid><description>Collected commands, tips, and tricks for working headless in Ubuntu</description></item><item><title>Git Commands</title><link>https://www.danaukes.com/notebook/git-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-commands/</guid><description>a handy cheatsheet of my most used and looked up git commands</description></item><item><title>Grep Cookbook</title><link>https://www.danaukes.com/notebook/grep-cookbook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/grep-cookbook/</guid><description>&lt;h2 id="using-grep-by-itself">Using &lt;code>grep&lt;/code> by itself&lt;/h2>
 &lt;p>search for &amp;ldquo;searchtext&amp;rdquo;, ignoring case, ignoring binary files, recurisvely search, with line numbers, in this folder.&lt;/p></description></item><item><title>Using the ```find``` command in bash</title><link>https://www.danaukes.com/notebook/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/find/</guid><description>&lt;h1 id="using-the-find-command-in-bash">Using the &lt;code>find&lt;/code> command in bash&lt;/h1>
 &lt;p>Find all files below the current directory that match &amp;ldquo;tecmint.txt&amp;rdquo;&lt;/p></description></item><item><title>Hugo Stuff</title><link>https://www.danaukes.com/notebook/hugo-stuff/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/hugo-stuff/</guid><description>&lt;h2 id="install">Install&lt;/h2>
-&lt;p>Make sure you install add-ons&lt;/p>
-&lt;h2 id="create-a-new-site-with-yaml-format">Create a new site with yaml format&lt;/h2>
-&lt;p>Modified from &lt;a href="https://gohugo.io/getting-started/quick-start/">here&lt;/a>&lt;/p></description></item><item><title>Shapeoko Links</title><link>https://www.danaukes.com/notebook/shapeoko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/shapeoko/</guid><description>&lt;h2 id="search-results">Search Results&lt;/h2>
+&lt;p>Make sure you install add-ons&lt;/p></description></item><item><title>Shapeoko Links</title><link>https://www.danaukes.com/notebook/shapeoko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/shapeoko/</guid><description>&lt;h2 id="search-results">Search Results&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.google.com/search?client=firefox-b-1-d&amp;amp;q=grbl+1.1">grbl 1.1 - Google Search&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.google.com/search?q=g21+vs+g20+gcode&amp;amp;client=firefox-b-1-d&amp;amp;sxsrf=ALeKk00gM6X7qWXmWUnh6tWqN2nlMCEXEg%3A1629046208623&amp;amp;ei=wEUZYai3JYLC0PEPi6WbeA&amp;amp;oq=g21+vs+g20+gcode&amp;amp;gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICAAQFhAKEB4yBQgAEIYDMgUIABCGAzIFCAAQhgM6BwgAEEcQsAM6BggAEBYQHkoECEEYAFCiKVjfL2DFMGgBcAJ4AIAB-AGIAdwGkgEFMC41LjGYAQCgAQHIAQjAAQE&amp;amp;sclient=gws-wiz-serp&amp;amp;ved=0ahUKEwiol9mEvrPyAhUCITQIHYvSBg8Q4dUDCA0&amp;amp;uact=5">g21 vs g20 gcode - Google Search&lt;/a>&lt;/li>
@@ -113,11 +111,7 @@ WantedBy=multi-user.target
 &lt;pre tabindex="0">&lt;code>sudo apt install openssh-server net-tools
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>Install&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo snap install nextcloud
-&lt;/code>&lt;/pre>&lt;/li>
-&lt;li>
-&lt;p>Configure&lt;/p></description></item><item><title>QR Code Tools</title><link>https://www.danaukes.com/notebook/qr-code-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/qr-code-tools/</guid><description>&lt;p>modified from &lt;a href="https://linuxcommando.blogspot.com/2020/07/how-to-generate-and-read-qr-code-on.html">this site&lt;/a>&lt;/p>
+&lt;p>Install&lt;/p></description></item><item><title>QR Code Tools</title><link>https://www.danaukes.com/notebook/qr-code-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/qr-code-tools/</guid><description>&lt;p>modified from &lt;a href="https://linuxcommando.blogspot.com/2020/07/how-to-generate-and-read-qr-code-on.html">this site&lt;/a>&lt;/p>
 &lt;h2 id="installing">Installing&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y qrencode &lt;span style="color:#75715e">#encoding tools&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y zbar-tools &lt;span style="color:#75715e"># decoding tools&lt;/span>
@@ -149,13 +143,7 @@ WantedBy=multi-user.target
 &lt;li>
 &lt;p>Turn off page file&lt;/p></description></item><item><title>Working with USB devices</title><link>https://www.danaukes.com/notebook/working-with-usb-devices-in-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/working-with-usb-devices-in-linux/</guid><description>&lt;h2 id="identifying-and-locating-usb-devices">Identifying and locating USB devices&lt;/h2>
 &lt;p>These widely used commands can be used to list and learn about connected USB devices in Linux.&lt;/p></description></item><item><title>Youtube-dl Quickstart</title><link>https://www.danaukes.com/notebook/youtube-dl-quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/youtube-dl-quickstart/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
-&lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p>
-&lt;h2 id="find-out-the-formats">Find out the formats&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -F &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="specify-the-format-code">Specify the format code&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yt-dlp -f &amp;lt;formatcode&amp;gt; &amp;lt;address&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="youtube-dlp">youtube-dlp&lt;/h2>
-&lt;p>branch of youtube-dl&lt;/p></description></item><item><title>Adventures in Latex</title><link>https://www.danaukes.com/notebook/adventures-in-latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/adventures-in-latex/</guid><description>&lt;p>&lt;a href="https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te">https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te&lt;/a>
+&lt;p>I&amp;rsquo;m using &lt;code>yt-dlp&lt;/code> these days&lt;/p></description></item><item><title>Adventures in Latex</title><link>https://www.danaukes.com/notebook/adventures-in-latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/adventures-in-latex/</guid><description>&lt;p>&lt;a href="https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te">https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te&lt;/a>
 &lt;a href="https://tex.stackexchange.com/questions/20160/how-to-register-my-own-packages-or-classes-in-a-separate-drive-to-tex-live-insta">https://tex.stackexchange.com/questions/20160/how-to-register-my-own-packages-or-classes-in-a-separate-drive-to-tex-live-insta&lt;/a>
 &lt;a href="https://tex.stackexchange.com/questions/120150/is-there-a-difference-between-texconfig-rehash-and-mktexlsr">https://tex.stackexchange.com/questions/120150/is-there-a-difference-between-texconfig-rehash-and-mktexlsr&lt;/a>
 &lt;a href="https://www.overleaf.com/learn/latex/Articles/An_introduction_to_Kpathsea_and_how_TeX_engines_search_for_files">https://www.overleaf.com/learn/latex/Articles/An_introduction_to_Kpathsea_and_how_TeX_engines_search_for_files&lt;/a>
@@ -249,11 +237,7 @@ WantedBy=multi-user.target
 % and invoke update-texmf.&lt;/p></description></item><item><title>All about Python dependencies</title><link>https://www.danaukes.com/notebook/python/python-dependencies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/python-dependencies/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;p>&lt;a href="https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/">https://chriswarrick.com/blog/2023/01/15/how-to-improve-python-packaging/&lt;/a>
 &lt;a href="https://community.sap.com/t5/application-development-blog-posts/why-you-should-use-poetry-instead-of-pip-or-conda-for-python-projects/ba-p/13545646">https://community.sap.com/t5/application-development-blog-posts/why-you-should-use-poetry-instead-of-pip-or-conda-for-python-projects/ba-p/13545646&lt;/a>
-&lt;a href="https://opensource.com/article/19/4/managing-python-packages">https://opensource.com/article/19/4/managing-python-packages&lt;/a>&lt;/p></description></item><item><title>android studio</title><link>https://www.danaukes.com/notebook/android-studio-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/android-studio-setup/</guid><description>&lt;p>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386&lt;/p>
-&lt;p>download &lt;a href="https://developer.android.com/studio">android-studio&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="old-info">Old info&lt;/h2>
-&lt;p>get a message about kvm&lt;/p></description></item><item><title>Annual Backup Process</title><link>https://www.danaukes.com/notebook/backup-procedure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/backup-procedure/</guid><description>&lt;h2 id="refresh-documents">Refresh documents&lt;/h2>
+&lt;a href="https://opensource.com/article/19/4/managing-python-packages">https://opensource.com/article/19/4/managing-python-packages&lt;/a>&lt;/p></description></item><item><title>android studio</title><link>https://www.danaukes.com/notebook/android-studio-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/android-studio-setup/</guid><description>&lt;p>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386&lt;/p></description></item><item><title>Annual Backup Process</title><link>https://www.danaukes.com/notebook/backup-procedure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/backup-procedure/</guid><description>&lt;h2 id="refresh-documents">Refresh documents&lt;/h2>
 &lt;ul>
 &lt;li>Update cv&lt;/li>
 &lt;li>Update zotero and backup&lt;/li>
@@ -290,8 +274,7 @@ simplefoc&lt;/p></description></item><item><title>Arduino OpenCM9.04 SDK ID Chan
 &lt;p>distrobox create -n test&lt;/p></description></item><item><title>DVD backup</title><link>https://www.danaukes.com/notebook/dvd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/dvd/</guid><description>&lt;p>sudo apt-get install k3b
 sudo apt-get install libdvd-pkg
 sudo dpkg-reconfigure libdvd-pkg
-sudo apt install handbrake&lt;/p></description></item><item><title>Enabling .NetFx 3.5 in windows 11</title><link>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</guid><description>&lt;p>insert windows 11 installation media cdrom/iso&lt;/p>
-&lt;p>Make sure the command below points to the proper drive letter(in this case D)&lt;/p></description></item><item><title>FEM Resources</title><link>https://www.danaukes.com/notebook/fem-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/fem-resources/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+sudo apt install handbrake&lt;/p></description></item><item><title>Enabling .NetFx 3.5 in windows 11</title><link>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</guid><description>&lt;p>insert windows 11 installation media cdrom/iso&lt;/p></description></item><item><title>FEM Resources</title><link>https://www.danaukes.com/notebook/fem-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/fem-resources/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/kinnala/scikit-fem?tab=readme-ov-file">https://github.com/kinnala/scikit-fem?tab=readme-ov-file&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/gdmcbain/fenics-tuto-in-skfem/tree/main/06_elasticity">https://github.com/gdmcbain/fenics-tuto-in-skfem/tree/main/06_elasticity&lt;/a>&lt;/li>
@@ -310,14 +293,7 @@ sudo apt install handbrake&lt;/p></description></item><item><title>Enabling .Net
 &lt;p>Install ADB&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Find your device&lt;/p>
-&lt;p>./adb devices&lt;/p>
-&lt;ol>
-&lt;li>Solve any permissions issues (see below)&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>list Packages&lt;/p></description></item><item><title>Get download with wget and xpath</title><link>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt intstall libxml2-utils
+&lt;p>Find your device&lt;/p></description></item><item><title>Get download with wget and xpath</title><link>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-download-with-wget-and-xpath/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt intstall libxml2-utils
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
 &lt;li>go to firefox and go to the url you want to download something from.&lt;/li>
 &lt;/ol>
@@ -349,8 +325,7 @@ echo $dl_url
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>&lt;span style="color:#111">dl_url&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#111">$html&lt;/span> &lt;span style="color:#111">|&lt;/span> xmllint --html --xpath &lt;span style="color:#d88200">&amp;#34;string(&lt;/span>&lt;span style="color:#111">$xpath&lt;/span>&lt;span style="color:#d88200">/@href)&amp;#34;&lt;/span> - 2&amp;gt;/dev/null &lt;span style="color:#111">|&lt;/span> xargs&lt;span style="color:#00a8c8">)&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>wget &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$dl_url&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Getting Meta-data from images and videos</title><link>https://www.danaukes.com/notebook/get-image-video-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/get-image-video-data/</guid><description>&lt;p>from &lt;a href="https://unix.stackexchange.com/questions/131186/get-metadata-from-a-video-in-the-terminal">here&lt;/a>&lt;/p>
-&lt;p>sudo apt install libimage-exiftool-perl&lt;/p>
-&lt;p>exiftool video_file.mp4&lt;/p></description></item><item><title>getting Ubuntu 20.04.5 installed and working on a raspberry pi</title><link>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</guid><description>&lt;p>&lt;a href="https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/">https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/&lt;/a>&lt;/p>
+&lt;p>sudo apt install libimage-exiftool-perl&lt;/p></description></item><item><title>getting Ubuntu 20.04.5 installed and working on a raspberry pi</title><link>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</guid><description>&lt;p>&lt;a href="https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/">https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://forums.raspberrypi.com/viewtopic.php?t=315089">https://forums.raspberrypi.com/viewtopic.php?t=315089&lt;/a>&lt;/p>
 &lt;p>the raspberry pi imager has some issues
 you can add invalid characters that make the config invalid&amp;hellip;need to check it.&lt;/p></description></item><item><title>github actions info</title><link>https://www.danaukes.com/notebook/github-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/github-actions/</guid><description>&lt;h2 id="using-hugo-with-github-actions">Using Hugo with Github Actions&lt;/h2>
@@ -368,25 +343,7 @@ you can add invalid characters that make the config invalid&amp;hellip;need to c
 &lt;li>&lt;a href="https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot">https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/orgs/community/discussions/57244">https://github.com/orgs/community/discussions/57244&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install vino
-sudo apt install winpr-utils&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo systemctl restart gnome-remote-desktop.service
-sudo grdctl --system rdp enable
-
-sudo rm -rf ~gnome-remote-desktop/rdp-tls*
-sudo -u gnome-remote-desktop winpr-makecert -silent -rdp -path ~gnome-remote-desktop rdp-tls
-
-sudo grdctl --system rdp set-tls-key /var/lib/gnome-remote-desktop/rdp-tls.key
-sudo grdctl --system rdp set-tls-cert /var/lib/gnome-remote-desktop/rdp-tls.crt
-
-sudo systemctl daemon-reload
-sudo systemctl enable --now gnome-remote-desktop.service
-sudo grdctl --system rdp set-credentials &amp;#34;name&amp;#34; &amp;#34;password&amp;#34;
-
-sudo systemctl restart gnome-remote-desktop.service
-sudo systemctl status gnome-remote-desktop.service
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo ufw allow 3389
-sudo ufw reload
-&lt;/code>&lt;/pre>&lt;p>&lt;a href="https://www.mankier.com/1/grdctl">https://www.mankier.com/1/grdctl&lt;/a>&lt;/p></description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
+sudo apt install winpr-utils&lt;/p></description></item><item><title>Handy Termux Commands</title><link>https://www.danaukes.com/notebook/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/termux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>pkg install openssl openssh gnupg iproute2
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install nmap &lt;span style="color:#75715e"># port scanning&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install dnsutils &lt;span style="color:#75715e"># dig&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pkg install termux-tools
@@ -419,10 +376,7 @@ sudo ufw reload
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo bash nodesource_setup.sh
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install nodejs
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>node -v
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>installing gitman on windows</title><link>https://www.danaukes.com/notebook/git-on-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-on-windows/</guid><description>&lt;p>Support for multiple github accounts&lt;/p>
-&lt;h2 id="install-choco">install choco&lt;/h2>
-&lt;p>Set-ExecutionPolicy AllSigned
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;lsquo;&lt;a href="https://chocolatey.org/install.ps1'">https://chocolatey.org/install.ps1'&lt;/a>))&lt;/p></description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>installing gitman on windows</title><link>https://www.danaukes.com/notebook/git-on-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/git-on-windows/</guid><description>&lt;p>Support for multiple github accounts&lt;/p></description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
 &lt;h2 id="download-developer-tools">Download Developer Tools&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install android-sdk-platform-tools-common
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install signify-openbsd
@@ -438,12 +392,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>which fastboot
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fastboot --version
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="download-graphene">Download graphene&lt;/h2>
-&lt;p>go to &lt;a href="https://grapheneos.org/releases#bramble-stable">https://grapheneos.org/releases#bramble-stable&lt;/a>&lt;/p></description></item><item><title>Kobo Ebook Reader information</title><link>https://www.danaukes.com/notebook/kobo-ereader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/kobo-ereader/</guid><description>&lt;p>This link was the most helpful overview: &lt;a href="https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers">https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers&lt;/a>&lt;/p>
-&lt;h2 id="disabling-user-id-requirements">Disabling user id requirements&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#cd /path/to/the/ereader/.kobo&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> /media/danaukes/KOBOeReader/.kobo
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sqlite3 KoboReader.sqlite
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>in the sqlite3 prompt, type&lt;/p></description></item><item><title>Logitech K380 function keys</title><link>https://www.danaukes.com/notebook/logitech-keyboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logitech-keyboard/</guid><description>&lt;ul>
+&lt;p>go to &lt;a href="https://grapheneos.org/releases#bramble-stable">https://grapheneos.org/releases#bramble-stable&lt;/a>&lt;/p></description></item><item><title>Kobo Ebook Reader information</title><link>https://www.danaukes.com/notebook/kobo-ereader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/kobo-ereader/</guid><description>&lt;p>This link was the most helpful overview: &lt;a href="https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers">https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers&lt;/a>&lt;/p></description></item><item><title>Logitech K380 function keys</title><link>https://www.danaukes.com/notebook/logitech-keyboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logitech-keyboard/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://support.logi.com/hc/en-us/community/posts/360037026053-k380-use-all-f1-f2-etc-keys-as-standard-function-keys-">https://support.logi.com/hc/en-us/community/posts/360037026053-k380-use-all-f1-f2-etc-keys-as-standard-function-keys-&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.radishlogic.com/tools/how-to-reverse-the-f-keys-of-logitech-k380-keyboard/">https://www.radishlogic.com/tools/how-to-reverse-the-f-keys-of-logitech-k380-keyboard/&lt;/a>&lt;/li>
 &lt;/ul>
@@ -470,10 +419,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 cd docker
 cp env.example .env
 mkdir -p ./volumes/app/mattermost/{config,data,logs,plugins,client/plugins,bleve-indexes}
-sudo chown -R 2000:2000 ./volumes/app/mattermost&lt;/p></description></item><item><title>Measuring Speed Between Computers</title><link>https://www.danaukes.com/notebook/measure-speed-between-computers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/measure-speed-between-computers/</guid><description>&lt;p>sudo apt install -y iperf&lt;/p>
-&lt;p>computer 1:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>iperf -s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Computer 2:&lt;/p></description></item><item><title>Micropython on Linux</title><link>https://www.danaukes.com/notebook/micropython-on-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/micropython-on-linux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install build-essential libffi-dev git pkg-config
+sudo chown -R 2000:2000 ./volumes/app/mattermost&lt;/p></description></item><item><title>Measuring Speed Between Computers</title><link>https://www.danaukes.com/notebook/measure-speed-between-computers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/measure-speed-between-computers/</guid><description>&lt;p>sudo apt install -y iperf&lt;/p></description></item><item><title>Micropython on Linux</title><link>https://www.danaukes.com/notebook/micropython-on-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/micropython-on-linux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install build-essential libffi-dev git pkg-config
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/&amp;lt;your-user-name&amp;gt;/micropython
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> micropython
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote add upstream https://github.com/micropython/micropython
@@ -532,9 +478,7 @@ search for &amp;ldquo;world clock&amp;rdquo; and select &amp;ldquo;panel world c
 &lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="virtualbox">Virtualbox&lt;/h2>
 &lt;p>&lt;a href="https://nixos.wiki/wiki/VirtualBox">https://nixos.wiki/wiki/VirtualBox&lt;/a>&lt;/p></description></item><item><title>NoIP Client Configuration</title><link>https://www.danaukes.com/notebook/noip-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/noip-setup/</guid><description>&lt;h2 id="to--install-the-client">To Install the Client&lt;/h2>
-&lt;p>From here: &lt;a href="https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc">https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc&lt;/a>&lt;/p>
-&lt;p>sudo apt update
-sudo apt install -y net-tools&lt;/p></description></item><item><title>OpenCM Information</title><link>https://www.danaukes.com/notebook/opencm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/opencm/</guid><description>&lt;p>&lt;a href="https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md">https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md&lt;/a>
+&lt;p>From here: &lt;a href="https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc">https://www.noip.com/support/knowledgebase/install-linux-3-x-dynamic-update-client-duc&lt;/a>&lt;/p></description></item><item><title>OpenCM Information</title><link>https://www.danaukes.com/notebook/opencm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/opencm/</guid><description>&lt;p>&lt;a href="https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md">https://github.com/ROBOTIS-GIT/OpenCM9.04/blob/master/README.md&lt;/a>
 &lt;a href="https://www.youtube.com/watch?v=BftkaEG8MmU&amp;amp;embeds_euri=http%3A%2F%2Fwiki.lofarolabs.com%2F&amp;amp;feature=emb_rel_end">https://www.youtube.com/watch?v=BftkaEG8MmU&amp;amp;embeds_euri=http%3A%2F%2Fwiki.lofarolabs.com%2F&amp;amp;feature=emb_rel_end&lt;/a>
 &lt;a href="http://wiki.lofarolabs.com/index.php/OpenCM_9.04">http://wiki.lofarolabs.com/index.php/OpenCM_9.04&lt;/a>
 &lt;a href="https://emanual.robotis.com/docs/en/parts/controller/opencm904/">https://emanual.robotis.com/docs/en/parts/controller/opencm904/&lt;/a>
@@ -544,8 +488,7 @@ sudo apt install -y net-tools&lt;/p></description></item><item><title>OpenCM Inf
 &lt;ul>
 &lt;li>&lt;a href="https://openvpn.net/cloud-docs/owner/connectors/connector-user-guides/openvpn-3-client-for-linux.html#UUID-dfe4f241-eb07-343a-6e16-63e878b8e0bb">https://openvpn.net/cloud-docs/owner/connectors/connector-user-guides/openvpn-3-client-for-linux.html#UUID-dfe4f241-eb07-343a-6e16-63e878b8e0bb&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Orange Pi Zero2 Information</title><link>https://www.danaukes.com/notebook/orange-pi-info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/orange-pi-info/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Note: the most important and helpful resource is the manual, which is available &lt;a href="https://drive.google.com/drive/folders/1T7NCV5ZBg1TrB1q_QUQ93GMbq0IlKLFn">here&lt;/a>.&lt;/p></description></item><item><title>overleaf projects</title><link>https://www.danaukes.com/notebook/overleaf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/overleaf/</guid><description>&lt;p>when making a new overleaf project:&lt;/p>
-&lt;p>integrate with github by creating a new repositoiry.&lt;/p></description></item><item><title>Podcasting</title><link>https://www.danaukes.com/notebook/podcasting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/podcasting/</guid><description>&lt;ul>
+&lt;p>Note: the most important and helpful resource is the manual, which is available &lt;a href="https://drive.google.com/drive/folders/1T7NCV5ZBg1TrB1q_QUQ93GMbq0IlKLFn">here&lt;/a>.&lt;/p></description></item><item><title>overleaf projects</title><link>https://www.danaukes.com/notebook/overleaf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/overleaf/</guid><description>&lt;p>when making a new overleaf project:&lt;/p></description></item><item><title>Podcasting</title><link>https://www.danaukes.com/notebook/podcasting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/podcasting/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://www.listennotes.com/">https://www.listennotes.com/&lt;/a>: Listen Notes - the best podcast search engine&lt;/li>
 &lt;li>&lt;a href="https://podcatr.com/">https://podcatr.com/&lt;/a>: Directory of Podcasts With In-Depth Categories and Sub-Categories&lt;/li>
 &lt;li>&lt;a href="https://podcastbrunchclub.com/">https://podcastbrunchclub.com/&lt;/a>: Book Club for Podcasts&lt;/li>
@@ -710,13 +653,7 @@ rsync -haviP --inplace --delete-before --no-compress --exclude-from=&amp;#34;/ho
 &lt;p>say we have two folders:&lt;/p></description></item><item><title>Running Ros2 on an ESP32</title><link>https://www.danaukes.com/notebook/ros2-and-esp32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2-and-esp32/</guid><description>&lt;h2 id="virtualbox-guest-master-setup">Virtualbox guest master setup&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>create a virtual machine&lt;/p>
-&lt;ol>
-&lt;li>Networking: Select bridged networking&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>install ubuntu 22.04 server edition&lt;/p></description></item><item><title>Setup Samba from Bash</title><link>https://www.danaukes.com/notebook/setup-samba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/setup-samba/</guid><description>&lt;h2 id="make-your-folder">Make your folder&lt;/h2>
+&lt;p>create a virtual machine&lt;/p></description></item><item><title>Setup Samba from Bash</title><link>https://www.danaukes.com/notebook/setup-samba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/setup-samba/</guid><description>&lt;h2 id="make-your-folder">Make your folder&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mkdir ~/happy
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>chmod &lt;span style="color:#ae81ff">0700&lt;/span> ~/happy
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="set-up-samba">Set up samba&lt;/h2>
@@ -733,18 +670,9 @@ rsync -haviP --inplace --delete-before --no-compress --exclude-from=&amp;#34;/ho
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw allow samba
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo smbpasswd -a &amp;lt;username&amp;gt;
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>Then connect to your new share!&lt;/p></description></item><item><title>Shell Script Examples</title><link>https://www.danaukes.com/notebook/shell-scripts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/shell-scripts/</guid><description>&lt;p>How to find the directory of the script&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#!/bin/bash
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#111">MY_PATH&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;`dirname \&amp;#34;&lt;/span>&lt;span style="color:#111">$0&lt;/span>&lt;span style="color:#d88200">\&amp;#34;`&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">$MY_PATH&lt;/span>/relative/path/to/other/file
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>pass arguments on to another script&lt;/p></description></item><item><title>Simple Netplan Config</title><link>https://www.danaukes.com/notebook/simple-netplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/simple-netplan/</guid><description>&lt;h2 id="example">Example&lt;/h2>
+&lt;p>Then connect to your new share!&lt;/p></description></item><item><title>Shell Script Examples</title><link>https://www.danaukes.com/notebook/shell-scripts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/shell-scripts/</guid><description>&lt;p>How to find the directory of the script&lt;/p></description></item><item><title>Simple Netplan Config</title><link>https://www.danaukes.com/notebook/simple-netplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/simple-netplan/</guid><description>&lt;h2 id="example">Example&lt;/h2>
 &lt;blockquote>
-&lt;p>update enp0s3 to match your ethernet interface&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;/p>
-&lt;blockquote>
-&lt;p>update ip4 address to match an available address&lt;/p></description></item><item><title>sofa notes</title><link>https://www.danaukes.com/notebook/sofa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/sofa/</guid><description>&lt;h2 id="sofa-info">Sofa info&lt;/h2>
+&lt;p>update enp0s3 to match your ethernet interface&lt;/p></description></item><item><title>sofa notes</title><link>https://www.danaukes.com/notebook/sofa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/sofa/</guid><description>&lt;h2 id="sofa-info">Sofa info&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://sofapython3.readthedocs.io/en/latest/content/Installation.html#using-python3">https://sofapython3.readthedocs.io/en/latest/content/Installation.html#using-python3&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ripl/SofaFramework-Docker">https://github.com/ripl/SofaFramework-Docker&lt;/a>&lt;/li>
@@ -796,20 +724,7 @@ pip install RealtimeSTT&lt;/p></description></item><item><title>Splitting and Me
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install wine winetricks
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>from &lt;a href="https://phoenixnap.com/kb/how-to-install-wine-on-ubuntu">here&lt;/a>&lt;/p></description></item><item><title>Visa Benefits</title><link>https://www.danaukes.com/notebook/visa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/visa/</guid><description>&lt;p>If you want to rent a car, you can call visa benefits to get a letter that states they have insurance for car rentals.&lt;/p></description></item><item><title>VSCode Setup and Usage</title><link>https://www.danaukes.com/notebook/vscode-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vscode-setup/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
 &lt;p>Download from &lt;a href="https://code.visualstudio.com/Download">here&lt;/a>&lt;/p>
-&lt;p>Installation Options&lt;/p>
-&lt;ul>
-&lt;li>Accept the default installation path&lt;/li>
-&lt;li>keep &amp;ldquo;Register Code as an editor for supported file types&amp;rdquo; checked&lt;/li>
-&lt;li>keep &amp;ldquo;Add to PATH&amp;rdquo; checked&lt;/li>
-&lt;li>other options: set to your preference&lt;/li>
-&lt;/ul>
-&lt;h3 id="ubuntu-specific">Ubuntu-specific&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/Downloads
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dpkg -i code_1.7* &lt;span style="color:#75715e">#.... tab complete&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -yf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="useful-command-line-arguments">Useful command-line arguments&lt;/h2>
-&lt;blockquote>
-&lt;p>Note: this only works if you added vscode to your system &lt;code>PATH&lt;/code>&lt;/p></description></item><item><title>Web-Based Control in Micropython</title><link>https://www.danaukes.com/notebook/python/micropython-web-based-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/micropython-web-based-control/</guid><description>&lt;h2 id="step-1-create-a-form-that-posts-to-url">Step 1: Create a Form that posts to URL&lt;/h2>
+&lt;p>Installation Options&lt;/p></description></item><item><title>Web-Based Control in Micropython</title><link>https://www.danaukes.com/notebook/python/micropython-web-based-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/python/micropython-web-based-control/</guid><description>&lt;h2 id="step-1-create-a-form-that-posts-to-url">Step 1: Create a Form that posts to URL&lt;/h2>
 &lt;h3 id="good-resources">Good resources&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/">https://how2electronics.com/raspberry-pi-pico-w-web-server-tutorial-with-micropython/&lt;/a>&lt;/li>

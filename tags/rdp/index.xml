@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rdp on Dan Aukes</title><link>https://www.danaukes.com/tags/rdp/</link><description>Recent content in Rdp on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/rdp/index.xml" rel="self" type="application/rss+xml"/><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install vino
-sudo apt install winpr-utils&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo systemctl restart gnome-remote-desktop.service
-sudo grdctl --system rdp enable
-
-sudo rm -rf ~gnome-remote-desktop/rdp-tls*
-sudo -u gnome-remote-desktop winpr-makecert -silent -rdp -path ~gnome-remote-desktop rdp-tls
-
-sudo grdctl --system rdp set-tls-key /var/lib/gnome-remote-desktop/rdp-tls.key
-sudo grdctl --system rdp set-tls-cert /var/lib/gnome-remote-desktop/rdp-tls.crt
-
-sudo systemctl daemon-reload
-sudo systemctl enable --now gnome-remote-desktop.service
-sudo grdctl --system rdp set-credentials &amp;#34;name&amp;#34; &amp;#34;password&amp;#34;
-
-sudo systemctl restart gnome-remote-desktop.service
-sudo systemctl status gnome-remote-desktop.service
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo ufw allow 3389
-sudo ufw reload
-&lt;/code>&lt;/pre>&lt;p>&lt;a href="https://www.mankier.com/1/grdctl">https://www.mankier.com/1/grdctl&lt;/a>&lt;/p></description></item><item><title>RDP to another computer</title><link>https://www.danaukes.com/notebook/xrdp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/xrdp/</guid><description>&lt;p>Derived from &lt;a href="https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10">here&lt;/a>&lt;/p>
+sudo apt install winpr-utils&lt;/p></description></item><item><title>RDP to another computer</title><link>https://www.danaukes.com/notebook/xrdp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/xrdp/</guid><description>&lt;p>Derived from &lt;a href="https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10">here&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install xrdp
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> --now xrdp

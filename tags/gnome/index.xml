@@ -8,25 +8,7 @@
 &lt;ol>
 &lt;li>
 &lt;p>flatpak firefox settings found in &lt;code>~/.var&lt;/code>&lt;/p></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install vino
-sudo apt install winpr-utils&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo systemctl restart gnome-remote-desktop.service
-sudo grdctl --system rdp enable
-
-sudo rm -rf ~gnome-remote-desktop/rdp-tls*
-sudo -u gnome-remote-desktop winpr-makecert -silent -rdp -path ~gnome-remote-desktop rdp-tls
-
-sudo grdctl --system rdp set-tls-key /var/lib/gnome-remote-desktop/rdp-tls.key
-sudo grdctl --system rdp set-tls-cert /var/lib/gnome-remote-desktop/rdp-tls.crt
-
-sudo systemctl daemon-reload
-sudo systemctl enable --now gnome-remote-desktop.service
-sudo grdctl --system rdp set-credentials &amp;#34;name&amp;#34; &amp;#34;password&amp;#34;
-
-sudo systemctl restart gnome-remote-desktop.service
-sudo systemctl status gnome-remote-desktop.service
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo ufw allow 3389
-sudo ufw reload
-&lt;/code>&lt;/pre>&lt;p>&lt;a href="https://www.mankier.com/1/grdctl">https://www.mankier.com/1/grdctl&lt;/a>&lt;/p></description></item><item><title>Multiple Clocks in Ubuntu / Gnome</title><link>https://www.danaukes.com/notebook/multiple-clocks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/multiple-clocks/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y gnome-clocks
+sudo apt install winpr-utils&lt;/p></description></item><item><title>Multiple Clocks in Ubuntu / Gnome</title><link>https://www.danaukes.com/notebook/multiple-clocks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/multiple-clocks/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y gnome-clocks
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak install -y com.mattjakeman.ExtensionManager
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>flatpak run com.mattjakeman.ExtensionManager
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>click browse tab

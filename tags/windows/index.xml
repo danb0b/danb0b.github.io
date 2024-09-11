@@ -8,27 +8,6 @@
 &lt;pre tabindex="0">&lt;code>powercfg.exe -h off
 &lt;/code>&lt;/pre>&lt;ol>
 &lt;li>
-&lt;p>Turn off page file&lt;/p></description></item><item><title>Enabling .NetFx 3.5 in windows 11</title><link>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</guid><description>&lt;p>insert windows 11 installation media cdrom/iso&lt;/p>
-&lt;p>Make sure the command below points to the proper drive letter(in this case D)&lt;/p></description></item><item><title>Installing Windows 11 on Virtualbox</title><link>https://www.danaukes.com/notebook/virtualbox/windows-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/windows-11/</guid><description>&lt;p>Settings that worked for me&lt;/p>
-&lt;p>Skip unattended installation
-200gb vhd (flexible size)
-8192 Mb Ram
-TPM: None
-EFI On
-Enable Secureboot: No&lt;/p></description></item><item><title>Shrinking Virtualbox Hard Drives</title><link>https://www.danaukes.com/notebook/virtualbox/virtualbox-shrink/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/virtualbox-shrink/</guid><description>&lt;p>Derived from these instructions on &lt;a href="https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/">HowToGeek&lt;/a>&lt;/p>
-&lt;p>In this tutorial we assume a linux host and a windows guest&lt;/p></description></item><item><title>VSCode Setup and Usage</title><link>https://www.danaukes.com/notebook/vscode-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vscode-setup/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Turn off page file&lt;/p></description></item><item><title>Enabling .NetFx 3.5 in windows 11</title><link>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/enable-dotnetfx3-5/</guid><description>&lt;p>insert windows 11 installation media cdrom/iso&lt;/p></description></item><item><title>Installing Windows 11 on Virtualbox</title><link>https://www.danaukes.com/notebook/virtualbox/windows-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/windows-11/</guid><description>&lt;p>Settings that worked for me&lt;/p></description></item><item><title>Shrinking Virtualbox Hard Drives</title><link>https://www.danaukes.com/notebook/virtualbox/virtualbox-shrink/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/virtualbox/virtualbox-shrink/</guid><description>&lt;p>Derived from these instructions on &lt;a href="https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/">HowToGeek&lt;/a>&lt;/p></description></item><item><title>VSCode Setup and Usage</title><link>https://www.danaukes.com/notebook/vscode-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/vscode-setup/</guid><description>&lt;h2 id="installation">Installation&lt;/h2>
 &lt;p>Download from &lt;a href="https://code.visualstudio.com/Download">here&lt;/a>&lt;/p>
-&lt;p>Installation Options&lt;/p>
-&lt;ul>
-&lt;li>Accept the default installation path&lt;/li>
-&lt;li>keep &amp;ldquo;Register Code as an editor for supported file types&amp;rdquo; checked&lt;/li>
-&lt;li>keep &amp;ldquo;Add to PATH&amp;rdquo; checked&lt;/li>
-&lt;li>other options: set to your preference&lt;/li>
-&lt;/ul>
-&lt;h3 id="ubuntu-specific">Ubuntu-specific&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/Downloads
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dpkg -i code_1.7* &lt;span style="color:#75715e">#.... tab complete&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -yf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="useful-command-line-arguments">Useful command-line arguments&lt;/h2>
-&lt;blockquote>
-&lt;p>Note: this only works if you added vscode to your system &lt;code>PATH&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;p>Installation Options&lt;/p></description></item></channel></rss>

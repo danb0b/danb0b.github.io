@@ -47,74 +47,7 @@
 &lt;p>This example shows you how to create a docker-compose based container that uses &amp;ldquo;host-mode&amp;rdquo; networking. Host mode networking can be simpler because it doesn&amp;rsquo;t have to be managed by docker itself. Just get your tailscale client up and running on the host computer, and your docker instance can use it.&lt;/p></description></item><item><title>Using ROS2 in a Docker container running Tailscale</title><link>https://www.danaukes.com/notebook/ros2/32-using-ros2-on-docker-over-tailscale-container/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/32-using-ros2-on-docker-over-tailscale-container/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>This example shows you how to create a docker-compose based container that uses tailscale which has been installed within a container.&lt;/p></description></item><item><title>Docker</title><link>https://www.danaukes.com/notebook/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/</guid><description>A place to hold docker specific notes</description></item><item><title>Setting up Rosbridge in Ubuntu</title><link>https://www.danaukes.com/notebook/ros2/40-getting-rosbridge-running/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/40-getting-rosbridge-running/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Rosbridge is useful for connecting non-ROS systems to ROS. Matlab, microcontrollers, and other systems often do not have an easy path for installing a full installation of ROS, but have ros-bridge clients that work with Rosbridge. This article shows the following:&lt;/p></description></item><item><title>Setting up Rosbridge in a docker container</title><link>https://www.danaukes.com/notebook/ros2/41-setting-up-rosbridge-on-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/41-setting-up-rosbridge-on-docker/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>This article shows the following:&lt;/p>
-&lt;ul>
-&lt;li>how to get rosbridge working in a docker container&lt;/li>
-&lt;li>How to create a custom user in a dockerfile&lt;/li>
-&lt;li>how to set up rosbridge for use with a physical network, even one through a wifi NIC (which has historically been harder)&lt;/li>
-&lt;/ul>
-&lt;h2 id="folder-structure">Folder structure&lt;/h2>
-&lt;pre tabindex="0">&lt;code>.
-├── build
-│   ├── Dockerfile
-├── docker-compose.yaml
-&lt;/code>&lt;/pre>&lt;h2 id="dockerfile">Dockerfile&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-dockerfile" data-lang="dockerfile">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">FROM&lt;/span>&lt;span style="color:#d88200"> osrf/ros:humble-desktop&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">WORKDIR&lt;/span>&lt;span style="color:#d88200"> /temp&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">RMW_IMPLEMENTATION&lt;/span>&lt;span style="color:#f92672">=&lt;/span>rmw_cyclonedds_cpp
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">RUN&lt;/span> apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\ &lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span> apt install -y &lt;span style="color:#8045ff">\ &lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span> iputils-ping &lt;span style="color:#8045ff">\ &lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span> software-properties-common &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> ros-humble-rmw-cyclonedds-cpp &lt;span style="color:#8045ff">\ &lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span> ros-dev-tools &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> ros-humble-rosbridge-server&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#f92672">=&lt;/span>danaukes
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYGROUP&lt;/span>&lt;span style="color:#f92672">=&lt;/span>danaukes
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYUID&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1000&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYGID&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1000&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">RUN&lt;/span> apt install -y sudo &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\ &lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span> addgroup --gid &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYGID&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> adduser --gecos &lt;span style="color:#d88200">&amp;#39;&amp;#39;&lt;/span> --disabled-password --uid &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUID&lt;/span>&lt;span style="color:#d88200">}&lt;/span> --gid &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYGID&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> adduser &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> sudo &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> adduser &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> adm &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> &lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span>&lt;span style="color:#d88200"> ALL=(ALL) NOPASSWD:ALL&amp;#34;&lt;/span> &amp;gt;&amp;gt; /etc/sudoers.d/nopasswd&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">USER&lt;/span>&lt;span style="color:#d88200"> ${MYUSER}&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="docker-compose">Docker Compose&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">version&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#39;2&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">services&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ros2&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">build&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">./build&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">user&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">danaukes&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">networks&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">network&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ipv4_address&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;192.168.4.8&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">dns&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">192.168.4.1&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ports&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#d88200">&amp;#34;9090:9090&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">command&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">bash -c &amp;#34;source /opt/ros/humble/setup.bash &amp;amp;&amp;amp; ros2 launch rosbridge_server rosbridge_websocket_launch.xml&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">networks&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">network&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">driver&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">ipvlan&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">driver_opts&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">parent&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">wlp1s0&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ipvlan-mode&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">l2&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ipam&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">driver&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">default&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">config&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">subnet&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">192.168.4.0&lt;/span>&lt;span style="color:#ae81ff">/24&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">gateway&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">192.168.4.1&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ip_range&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">192.168.4.1&lt;/span>&lt;span style="color:#ae81ff">/24&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="notes-and-snippets">Notes and snippets&lt;/h2>
-&lt;p>may need to run this to enable the kind of networking needed above:&lt;/p></description></item><item><title>Using ROS2 over VPNs in the Classroom</title><link>https://www.danaukes.com/work-blog/2024-01-25-ros2-over-vpn/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/work-blog/2024-01-25-ros2-over-vpn/</guid><description>The purpose of this tutorial is to provide a way to provide access to ROS2 style data collection between computers, when specific kinds of access to the users&amp;rsquo; network is restricted.</description></item><item><title>About Docker Build and Compose</title><link>https://www.danaukes.com/notebook/docker/about-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/about-docker/</guid><description>&lt;ul>
+&lt;p>This article shows the following:&lt;/p></description></item><item><title>Using ROS2 over VPNs in the Classroom</title><link>https://www.danaukes.com/work-blog/2024-01-25-ros2-over-vpn/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/work-blog/2024-01-25-ros2-over-vpn/</guid><description>The purpose of this tutorial is to provide a way to provide access to ROS2 style data collection between computers, when specific kinds of access to the users&amp;rsquo; network is restricted.</description></item><item><title>About Docker Build and Compose</title><link>https://www.danaukes.com/notebook/docker/about-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/about-docker/</guid><description>&lt;ul>
 &lt;li>
 &lt;p>&lt;a href="https://docs.docker.com/network/host/">https://docs.docker.com/network/host/&lt;/a>&lt;/p>
 &lt;/li>
@@ -128,64 +61,13 @@
 &lt;p>&lt;a href="https://docs.docker.com/compose/compose-file/compose-file-v3/">https://docs.docker.com/compose/compose-file/compose-file-v3/&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://docs.docker.com/compose/gettingstarted/">https://docs.docker.com/compose/gettingstarted/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://docs.docker.com/compose/networking/">https://docs.docker.com/compose/networking/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://docs.docker.com/engine/reference/commandline/compose_down/">https://docs.docker.com/engine/reference/commandline/compose_down/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://docs.docker.com/engine/reference/commandline/compose_up/">https://docs.docker.com/engine/reference/commandline/compose_up/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://medium.com/trabe/use-your-local-ssh-keys-inside-a-docker-container-ea1d117515dc">https://medium.com/trabe/use-your-local-ssh-keys-inside-a-docker-container-ea1d117515dc&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>&lt;/li>
-&lt;li>
-&lt;p>ssh agent issues: &lt;a href="https://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent">https://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent&lt;/a>&lt;/p></description></item><item><title>Add a User in a Docker Container with a custom password</title><link>https://www.danaukes.com/notebook/docker/add-user-with-custom-password/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/add-user-with-custom-password/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">password&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;1YelloDog@&amp;#34;&lt;/span>
+&lt;p>&lt;a href="https://docs.docker.com/compose/gettingstarted/">https://docs.docker.com/compose/gettingstarted/&lt;/a>&lt;/p></description></item><item><title>Add a User in a Docker Container with a custom password</title><link>https://www.danaukes.com/notebook/docker/add-user-with-custom-password/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/add-user-with-custom-password/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">password&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#d88200">&amp;#34;1YelloDog@&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">pass&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>perl -e &lt;span style="color:#d88200">&amp;#39;print crypt($ARGV[0], &amp;#34;password&amp;#34;)&amp;#39;&lt;/span> &lt;span style="color:#111">$password&lt;/span>&lt;span style="color:#00a8c8">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$pass&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="external-resources">External Resources&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.cyberciti.biz/tips/howto-write-shell-script-to-add-user.html">https://www.cyberciti.biz/tips/howto-write-shell-script-to-add-user.html&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Answer on Docker</title><link>https://www.danaukes.com/notebook/docker/answer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/answer/</guid><description>&lt;p>replace &lt;code>&amp;lt;password1&amp;gt;&lt;/code> with your own password&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">version&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;3&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">services&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">answer&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">answerdev/answer&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ports&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#d88200">&amp;#39;9080:80&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">restart&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#00a8c8">on&lt;/span>-&lt;span style="color:#ae81ff">failure&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">volumes&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">answer-data:/data&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">depends_on&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">mariadb &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">mariadb&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">restart&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">unless-stopped&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">mariadb:10.10&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">security_opt&lt;/span>&lt;span style="color:#111">:&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">seccomp:unconfined&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">apparmor:unconfined&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">command&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">mysqld --innodb-buffer-pool-size=512M --transaction-isolation=READ-COMMITTED --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max-connections=512 --innodb-rollback-on-timeout=OFF --innodb-lock-wait-timeout=120&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">volumes&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#d88200">&amp;#34;./database:/var/lib/mysql&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ports&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#d88200">&amp;#34;33061:3306&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">environment&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_AUTO_UPGRADE&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;1&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_INITDB_SKIP_TZINFO&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;1&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_DATABASE&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;answer&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_ROOT_USER&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;answer&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_ROOT_PASSWORD&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">&amp;lt;password1&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_USER&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;answer&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">MARIADB_PASSWORD&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">&amp;lt;password1&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">volumes&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">answer-data&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docker Knowledge</title><link>https://www.danaukes.com/notebook/docker/docker-knowhow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/docker-knowhow/</guid><description>&lt;ul>
+&lt;/ul></description></item><item><title>Answer on Docker</title><link>https://www.danaukes.com/notebook/docker/answer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/answer/</guid><description>&lt;p>replace &lt;code>&amp;lt;password1&amp;gt;&lt;/code> with your own password&lt;/p></description></item><item><title>Docker Knowledge</title><link>https://www.danaukes.com/notebook/docker/docker-knowhow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/docker-knowhow/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://stackoverflow.com/questions/55418645/how-to-append-to-path-in-dockerfile-or-docker-run">https://stackoverflow.com/questions/55418645/how-to-append-to-path-in-dockerfile-or-docker-run&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://duckduckgo.com/?t=ffab&amp;amp;q=docker+add+to+path&amp;amp;ia=web">https://duckduckgo.com/?t=ffab&amp;amp;q=docker+add+to+path&amp;amp;ia=web&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.docker.com/engine/reference/builder/#workdir">https://docs.docker.com/engine/reference/builder/#workdir&lt;/a>&lt;/li>
@@ -206,9 +88,7 @@
 &lt;li>&lt;a href="https://duckduckgo.com/?t=ffab&amp;amp;q=error2+no+such+file+or+directory&amp;amp;ia=web">https://duckduckgo.com/?t=ffab&amp;amp;q=error2+no+such+file+or+directory&amp;amp;ia=web&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://stackoverflow.com/questions/22282760/filenotfounderror-errno-2-no-such-file-or-directory">https://stackoverflow.com/questions/22282760/filenotfounderror-errno-2-no-such-file-or-directory&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>getting docker networking working with ros2</title><link>https://www.danaukes.com/notebook/deprecated/docker-with-ros2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/docker-with-ros2/</guid><description>&lt;h2 id="deprecated">Deprecated&lt;/h2>
-&lt;p>This tutorial is deprecated because&lt;/p>
-&lt;p>it uses ipvlan instead of macvlan, making it not useful for wifi nics
-it&amp;rsquo;s about installing docker inside two vms&amp;hellip; I have better examples now.&lt;/p></description></item><item><title>Nextcloud in Docker</title><link>https://www.danaukes.com/notebook/docker/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/nextcloud/</guid><description>&lt;h2 id="docker-compose">docker-compose&lt;/h2>
+&lt;p>This tutorial is deprecated because&lt;/p></description></item><item><title>Nextcloud in Docker</title><link>https://www.danaukes.com/notebook/docker/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/nextcloud/</guid><description>&lt;h2 id="docker-compose">docker-compose&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">version&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#39;2&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">volumes&lt;/span>&lt;span style="color:#111">:&lt;/span>
@@ -293,73 +173,4 @@ it&amp;rsquo;s about installing docker inside two vms&amp;hellip; I have better 
 &lt;p>Simple example of docker containers running ros over the physical network.&lt;/p></description></item><item><title>Start docker automatically as a ```systemd``` service</title><link>https://www.danaukes.com/notebook/docker/start-docker-as-a-service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/start-docker-as-a-service/</guid><description>&lt;h2 id="docker-compose-example">Docker Compose Example&lt;/h2>
 &lt;p>copy and paste the folowing text into a new file called ~/script.sh&lt;/p></description></item><item><title>Using Python in a Docker Container</title><link>https://www.danaukes.com/notebook/docker/jupyter-in-docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/jupyter-in-docker/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>This tutorial makes it possible to spin up a container with everything you need to run Python in a Jupyter notebook.&lt;/p></description></item><item><title>using ssh inside docker</title><link>https://www.danaukes.com/notebook/docker/docker-ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/docker-ssh/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>This article shows the following:&lt;/p>
-&lt;ul>
-&lt;li>How to create a custom user in a dockerfile&lt;/li>
-&lt;li>how to setup ssh for easy login&lt;/li>
-&lt;li>how to set up ssh for use with a physical network, even one through a wifi NIC (which has historically been harder)&lt;/li>
-&lt;/ul>
-&lt;h2 id="folder-structure">Folder structure&lt;/h2>
-&lt;pre tabindex="0">&lt;code>.
-├── build
-│   ├── Dockerfile
-├── docker-compose.yaml
-&lt;/code>&lt;/pre>&lt;h2 id="dockerfile">Dockerfile&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-dockerfile" data-lang="dockerfile">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">FROM&lt;/span>&lt;span style="color:#d88200"> ubuntu:24.04&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">WORKDIR&lt;/span>&lt;span style="color:#d88200"> /test&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#f92672">=&lt;/span>danaukes
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYGROUP&lt;/span>&lt;span style="color:#f92672">=&lt;/span>danaukes
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYUID&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1001&lt;/span> &lt;span style="color:#75715e">#1000 is taken by default by user ubuntu&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">ENV&lt;/span> &lt;span style="color:#111">MYGID&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1001&lt;/span> &lt;span style="color:#75715e">#1000 is taken by default by group ubuntu&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">RUN&lt;/span> apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> apt install -y openssh-server iputils-ping git sudo net-tools&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">RUN&lt;/span> addgroup --gid &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYGID&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYGROUP&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> useradd -p &lt;span style="color:#00a8c8">$(&lt;/span>perl -e &lt;span style="color:#d88200">&amp;#39;print crypt($ARGV[0], &amp;#34;password&amp;#34;)&amp;#39;&lt;/span> &lt;span style="color:#d88200">&amp;#39;test&amp;#39;&lt;/span>&lt;span style="color:#00a8c8">)&lt;/span> -u &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUID&lt;/span>&lt;span style="color:#d88200">}&lt;/span> -g &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYGID&lt;/span>&lt;span style="color:#d88200">}&lt;/span> -G adm,sudo &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> mkdir /home/&lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> chown &lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span>:&lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYGROUP&lt;/span>&lt;span style="color:#d88200">}&lt;/span> /home/&lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#8045ff">\
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span> &lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#d88200">${&lt;/span>&lt;span style="color:#111">MYUSER&lt;/span>&lt;span style="color:#d88200">}&lt;/span>&lt;span style="color:#d88200"> ALL=(ALL) NOPASSWD:ALL&amp;#34;&lt;/span> &amp;gt;&amp;gt; /etc/sudoers.d/nopasswd&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">RUN&lt;/span> &lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;PermitRootLogin yes&amp;#34;&lt;/span> &amp;gt;&amp;gt; /etc/ssh/sshd_config&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">RUN&lt;/span> &lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;PasswordAuthentication yes&amp;#34;&lt;/span> &amp;gt;&amp;gt; /etc/ssh/sshd_config&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#00a8c8">USER&lt;/span>&lt;span style="color:#d88200"> ${MYUSER}&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="docker-compose">Docker compose&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">services&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">web&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">build&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">./build&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">user&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">danaukes&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">networks&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ubuntu-network&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ipv4_address&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#d88200">&amp;#34;192.168.0.90&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">dns&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">192.168.0.1&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ports&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">22&lt;/span>&lt;span style="color:#111">:&lt;/span>&lt;span style="color:#ae81ff">22&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">command&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">bash -c &amp;#34;sudo service ssh start &amp;amp;&amp;amp; sleep infinity&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">restart&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">unless-stopped&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">networks&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ubuntu-network&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">driver&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">ipvlan&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">driver_opts&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">parent&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">wlp1s0&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ipvlan-mode&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">l2&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ipam&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">driver&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">default&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">config&lt;/span>&lt;span style="color:#111">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">subnet&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">192.168.0.0&lt;/span>&lt;span style="color:#ae81ff">/24&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">gateway&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">192.168.0.1&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ip_range&lt;/span>&lt;span style="color:#111">:&lt;/span> &lt;span style="color:#ae81ff">192.168.0.0&lt;/span>&lt;span style="color:#ae81ff">/24&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="commands">Commands&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker build --no-cache -t ssh ./build
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker build -t ssh ./build
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker compose build
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker compose up
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker compose down
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="comments">Comments&lt;/h2>
-&lt;ul>
-&lt;li>Macvlan does not work with wifi but could also be substituted&lt;/li>
-&lt;li>ipvlan l2 mode uses the same mac address, so accessing the container from your host may not be possible. Testing from a second server, though, with a separate mac address, should work.&lt;/li>
-&lt;/ul>
-&lt;h2 id="notes-and-snippets">Notes and snippets&lt;/h2>
-&lt;p>may need to run this to enable the kind of networking needed above:&lt;/p></description></item></channel></rss>
+&lt;p>This article shows the following:&lt;/p></description></item></channel></rss>
