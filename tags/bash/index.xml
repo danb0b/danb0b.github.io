@@ -63,7 +63,7 @@ echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/gen
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/gen/bin/activate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install numpy scipy sympy jupyter matplotlib pyyaml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install numpy scipy sympy jupyter matplotlib pyyaml pandas
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install shapely &lt;span style="color:#8045ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyserial &lt;span style="color:#8045ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyqt5 &lt;span style="color:#8045ff">\

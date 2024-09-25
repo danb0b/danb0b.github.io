@@ -58,7 +58,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y curl
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#python packages&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y python3-serial python3-pip
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Install Tailscale</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</guid><description>how to install tailscale in linux</description></item><item><title>02-Import Keys</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</guid><description>&lt;h2 id="install-and-setup">Install and Setup&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Install Tailscale</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.2-tailscale/</guid><description>how to install tailscale in linux</description></item><item><title>Setup and Use Ente Authenticator</title><link>https://www.danaukes.com/notebook/ubuntu-setup/01.3-ente-auth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/01.3-ente-auth/</guid><description>how to install tailscale in linux</description></item><item><title>02-Import Keys</title><link>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/02-import-keys/</guid><description>&lt;h2 id="install-and-setup">Install and Setup&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>Install gnupg, nautilus integration (seahorse), and restart nautilus&lt;/p></description></item><item><title>Common Docker Commands</title><link>https://www.danaukes.com/notebook/docker/docker-commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/docker/docker-commands/</guid><description>&lt;h1 id="general-commands">General Commands&lt;/h1>
@@ -151,7 +151,7 @@ echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/gen
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/gen/bin/activate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install numpy scipy sympy jupyter matplotlib pyyaml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install numpy scipy sympy jupyter matplotlib pyyaml pandas
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip install shapely &lt;span style="color:#8045ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyserial &lt;span style="color:#8045ff">\
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8045ff">&lt;/span>pyqt5 &lt;span style="color:#8045ff">\
