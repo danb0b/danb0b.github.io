@@ -2,6 +2,7 @@
 title: Machine Learning Notes
 ---
 
+
 ## Commands
 
 ```bash
@@ -23,8 +24,12 @@ conda deactivate && conda activate sb3
 plain python environment
 
 ```bash
-python3 -m venv ~/envs/sb3
+# python3 -m venv ~/envs/sb3
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt install python3.11-venv
+python3.11 -m venv ~/envs/sb3
 . envs/sb3/bin/activate
+pip install --upgrade pip
 pip install stable-baselines3[extra]
 pip install mujoco==2.3.7
 pip install gymnasium[mujoco]
@@ -67,6 +72,7 @@ tensorboard --logdir leg1-tb/
 ```
 
 ## RL baselines zoo
+
 <https://github.com/DLR-RM/rl-baselines3-zoo>
 
 <https://huggingface.co/MattStammers/appo-mujoco_ant-sota>
@@ -109,6 +115,7 @@ gym jupyter stable baselines You tried to call render() but no `render_mode` was
 <https://github.com/Farama-Foundation/Gymnasium/issues/749>
 
 ##
+
 <https://www.science.org/doi/10.1126/scirobotics.aau5872>
 
 <https://www.youtube.com/watch?v=aTDkYFZFWug>
@@ -160,12 +167,10 @@ gym jupyter stable baselines You tried to call render() but no `render_mode` was
 
 <https://en.wikipedia.org/wiki/Hessian_matrix>
 
-
 ## Donkeycar
 
-https://medium.com/@vigosslive2/self-driving-with-reinforcement-learning-in-donkeycar-simulator-ea4f3f85c609
-https://mushr.io/tutorials/deep_learning/
-
+<https://medium.com/@vigosslive2/self-driving-with-reinforcement-learning-in-donkeycar-simulator-ea4f3f85c609>
+<https://mushr.io/tutorials/deep_learning/>
 
 Duckietown
 
@@ -174,14 +179,14 @@ Duckietown
 * <https://duckietown.com/educational-resources/>
 * <https://docs.duckietown.com/daffy/devmanual-software/intermediate/simulation/index.html>
 
-turtlebot 
-https://github.com/ITTcs/gym-turtlebot3
+turtlebot
+<https://github.com/ITTcs/gym-turtlebot3>
 
 ## CMAES
 
-https://towardsdatascience.com/efficient-feature-selection-via-cma-es-covariance-matrix-adaptation-evolution-strategy-ee312bc7b173
-https://pypi.org/project/cmaes/
-https://github.com/CMA-ES/pycma
+<https://towardsdatascience.com/efficient-feature-selection-via-cma-es-covariance-matrix-adaptation-evolution-strategy-ee312bc7b173>
+<https://pypi.org/project/cmaes/>
+<https://github.com/CMA-ES/pycma>
 
 ```bash
 tensorboard --logdir log4
