@@ -16,8 +16,12 @@
 </span></span><span style=display:flex><span><span style=color:#75715e># conda env config vars set MUJOCO_GL=glfw PYOPENGL_PLATFORM=glfw</span>
 </span></span><span style=display:flex><span>conda env config vars <span style=color:#111>set</span> <span style=color:#111>MUJOCO_GL</span><span style=color:#f92672>=</span>osmesa <span style=color:#111>PYOPENGL_PLATFORM</span><span style=color:#f92672>=</span>osmesa
 </span></span><span style=display:flex><span>conda deactivate <span style=color:#f92672>&amp;&amp;</span> conda activate sb3
-</span></span></code></pre></div><p>plain python environment</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python3 -m venv ~/envs/sb3
+</span></span></code></pre></div><p>plain python environment</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># python3 -m venv ~/envs/sb3</span>
+</span></span><span style=display:flex><span>sudo add-apt-repository ppa:deadsnakes/ppa -y
+</span></span><span style=display:flex><span>sudo apt install python3.11-venv
+</span></span><span style=display:flex><span>python3.11 -m venv ~/envs/sb3
 </span></span><span style=display:flex><span>. envs/sb3/bin/activate
+</span></span><span style=display:flex><span>pip install --upgrade pip
 </span></span><span style=display:flex><span>pip install stable-baselines3<span style=color:#f92672>[</span>extra<span style=color:#f92672>]</span>
 </span></span><span style=display:flex><span>pip install <span style=color:#111>mujoco</span><span style=color:#f92672>==</span>2.3.7
 </span></span><span style=display:flex><span>pip install gymnasium<span style=color:#f92672>[</span>mujoco<span style=color:#f92672>]</span>
