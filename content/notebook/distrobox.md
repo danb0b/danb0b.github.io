@@ -3,5 +3,15 @@ title: Distrobox Info
 ---
 
 sudo apt install distrobox
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
 
-distrobox create -n test
+distrobox create --name test --image ubuntu:24.04 -a "--runtime crun"
+
+
+## External References
+
+* <https://distrobox.it/>
+* <https://itsfoss.com/distrobox/#1-create-a-new-container>
+* <https://github.com/89luca89/distrobox/issues/1359>
+* <https://linuxconfig.org/how-to-integrate-any-linux-distribution-inside-a-terminal-with-distrobox>
+* <https://github.com/89luca89/distrobox/discussions/1127>
