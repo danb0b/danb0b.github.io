@@ -64,3 +64,4 @@ make
 * <https://github.com/micropython/micropython/tree/master/ports/esp32#setting-up-esp-idf-and-the-build-environment>
 * <https://github.com/espressif/esp-idf>
 * <https://github.com/micropython/micropython/issues/15287>
+* <https://stackoverflow.com/questions/48596147/why-does-my-esp32-keep-on-reseting-after-startup#60733260>
