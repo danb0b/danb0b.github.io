@@ -7,6 +7,9 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo
 
 distrobox create --name test --image ubuntu:24.04 -a "--runtime crun"
 
+distrobox create --image ubuntu:24.04 --home ~/homes/ubuntu-24 -n ubuntu -a "--runtime crun"
+
+
 
 ## External References
 
