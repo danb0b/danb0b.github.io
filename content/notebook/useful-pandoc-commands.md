@@ -15,8 +15,7 @@ pandoc --print-default-template=markdown > pandoc-template.md
 ```
 pandoc --print-default-template=latex>pandoc-template.tex
 ```
-    
-    
+
 ## simple markdown to pdf
 
 ```bash
@@ -40,13 +39,35 @@ geometry: margin=1in
 ---
 ```
 
-### Reference docs
+## Reference docs
 
 ```bash
 pandoc -o custom-reference.docx --print-default-data-file reference.docx
 pandoc -o custom-reference.odt --print-default-data-file reference.odt
 ```
 
+## Code Highlighting
+
+pandoc does not implement revealjs themes, but there is information about it here:
+
+<https://revealjs.com/code/>
+
+
+
+https://highlightjs.org/demo
+
+
+```bash
+pandoc --list-highlight-languages
+pandoc --list-highlight-styles
+pandoc --print-highlight-style pygments > my.theme
+pandoc --highlight-style my.theme
+```
+
+To disable highlighting, use the ```--no-highlight``` option.
+
+<https://pandoc.org/chunkedhtml-demo/13-syntax-highlighting.html>
+<https://pygments.org/docs/styles/>
 
 ## External links
 
