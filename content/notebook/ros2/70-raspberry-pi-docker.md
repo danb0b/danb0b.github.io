@@ -4,7 +4,9 @@ title: Raspberry Pi Docker ROS2 Install
 
 ```dockerfile
 FROM ubuntu:22.04
-    
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=America/Phoenix
+
 ENV ROS_DOMAIN_ID=0
 ENV ROS_LOCALHOST_ONLY=0
 ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
