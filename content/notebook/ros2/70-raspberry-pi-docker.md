@@ -22,3 +22,5 @@ RUN apt update && apt upgrade -y
 #RUN apt install -y ros-humble-desktop
 RUN apt install -y ros-humble-examples-rclcpp-minimal-subscriber ros-humble-examples-rclcpp-minimal-publisher 
 ```
+
+<https://www.danaukes.com/notebook/ros2/11-installing-ros2-on-a-rpiz2w/>
