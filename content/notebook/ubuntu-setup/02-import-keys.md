@@ -15,9 +15,10 @@ tags:
 
     ```bash
     sudo apt install -y gnupg
-    sudo apt install -y seahorse seahorse-nautilus
-    killall nautilus
+    # sudo apt install -y seahorse seahorse-nautilus # no longer available for gnome file manager/nautilus
+    #killall nautilus
     ```
+
 
 1. Import Keys
 
@@ -26,6 +27,10 @@ tags:
     ```bash
     gpg --import "my/remote/filesystem/keys/file.asc"
     ```
+
+1. Install kleopatra
+
+    apt install -y kleopatra
 
 ## Other Helpful Key stuff
 

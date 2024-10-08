@@ -164,7 +164,6 @@ sudo snap remove firefox
 * turn off wayland for fritzing
 * turn onn x11 fallback for fritzing
 
-
 ### Zoom
 
 <https://zoom.us/download#client_4meeting>
@@ -199,17 +198,16 @@ dependencies
 sudo apt install -y librsvg2-bin
 ```
 
-
 ### Anytype
 
 <https://download.anytype.io/>
 
 ### Other tutorials
 
-- [world clocks](/notebook/multiple-clocks/)
-- [git clients](/notebook/install-git-clients/)
-- [vscode]((/notebook/vscode-setup/))
-- [docker](/notebook/docker/install-docker/)
+* [world clocks](/notebook/multiple-clocks/)
+* [git clients](/notebook/install-git-clients/)
+* [vscode]((/notebook/vscode-setup/))
+* [docker](/notebook/docker/install-docker/)
 
 ### Latex
 
@@ -244,12 +242,12 @@ tar -xvf arduino-1.8.19-linux64.tar.xz
 cd arduino-1.8.19
 sudo bash install.sh
 ```
+
 you need to modify .bashrc to point python3 to python because we use anaconda
 
 ```bash
 echo "alias python=python3" >> ~/.bashrc
 ```
-
 
 ### Cisco VPN for ASU
 
@@ -294,7 +292,6 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo fc-cache -f
 ```
 
-
 ### VSCode
 
 </notebook/vscode-setup/>
@@ -313,17 +310,33 @@ sudo apt install -yf
 
 install python, c/c++, html css, jupyter
 
-
 ### Mosquitto
 
 ```bash
 sudo apt install -y mosquitto mosquitto_clients
 ```
 
+### Nautilus
+
+```bash
+apt install -y nautilus-share
+apt install -y nautilus-admin
+apt install -y nautilus-extension-gnome-terminal
+apt install -y nautilus-share
+```
+
+* <https://www.maketecheasier.com/useful-nautlius-tweaks-linux/>
+* <https://www.maketecheasier.com/top-gnome-shell-extensions/>
+
+```bash
+git clone https://github.com/cfgnunes/nautilus-scripts.git
+```
+
+* <https://github.com/cfgnunes/nautilus-scripts>
+
 --------------------------------
 
 ## Optional
-
 
 ### Webcamoid
 
@@ -343,7 +356,6 @@ chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
 flatpak install flathub com.ultimaker.cura
 ```
 
-
 <!--
 script to download 64-bit generic 
 
@@ -358,8 +370,6 @@ wget "$dl_url" && \
 chmod +x mendeley*.AppImage
 ```
 -->
-
-
 
 <!--
 #### Mendeley Desktop on Ubuntu 21 and older
@@ -383,7 +393,6 @@ sudo apt install -y torbrowser-launcher
 ```
 -->
 
-
 ### FreeCad
 
 ```bash
@@ -393,8 +402,6 @@ wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-
 ---
 
 ## Deprecated
-
-
 
 ### Mendeley Reference Manager
 
@@ -433,8 +440,6 @@ sudo gem install bundler jekyll
 sudo apt install -y screen
 ```
 
-
-
 ### Numix Theme
 
 ```
@@ -444,9 +449,6 @@ sudo apt install -y gnome-tweaks numix-gtk-theme numix-icon-theme numix-icon-the
 ```
 
 open tweak tool and set icons and theme to numix
-
-
-
 
 ### Chromium
 
