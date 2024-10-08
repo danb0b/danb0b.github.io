@@ -330,6 +330,8 @@ apt install -y nautilus-share
 
 ```bash
 git clone https://github.com/cfgnunes/nautilus-scripts.git
+chmod +x ./nautilus-scripts/install.sh 
+./nautilus-scripts/install.sh 
 ```
 
 * <https://github.com/cfgnunes/nautilus-scripts>
