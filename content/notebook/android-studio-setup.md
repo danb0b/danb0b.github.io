@@ -3,7 +3,7 @@ title: android studio
 ---
 
 
-sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+sudo apt install -y libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 
 download [android-studio](https://developer.android.com/studio)
 
@@ -14,12 +14,12 @@ download [android-studio](https://developer.android.com/studio)
 get a message about kvm
 
 ```bash
-sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 
 sudo adduser $USER kvm
 sudo adduser $USER libvirt
 #sudo apt install -y qemu-kvm libvirt-clients libvirt-clients-qemu  bridge-utils
-#sudo apt install libvirt-daemon-driver-qemu libvirt-daemon-system
+#sudo apt install -y libvirt-daemon-driver-qemu libvirt-daemon-system
 ```
 
 flatpak install com.google.AndroidStudio 

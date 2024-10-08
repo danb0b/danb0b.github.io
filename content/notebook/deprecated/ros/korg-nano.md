@@ -20,11 +20,11 @@ sudo udevadm control --reload-rules && udevadm trigger
 ```
 
 ```
-#sudo apt install libasound2-dev 
-#sudo apt install python3-pyrex
+#sudo apt install -y libasound2-dev 
+#sudo apt install -y python3-pyrex
 #pip3 install pyalsa
 #pip3 install pygame
 #pip3 install alsaseq
-sudo apt-get install libjack-dev
+sudo apt install -y libjack-dev
 pip3 install python-rtmidi mido
 ```

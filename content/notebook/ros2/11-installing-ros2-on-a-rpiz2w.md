@@ -48,7 +48,7 @@ It's always a good idea to perform headless updates in a way that won't break if
 
 ```bash
 sudo apt update
-sudo apt install tmux
+sudo apt install -y tmux
 tmux
 ```
 
@@ -76,9 +76,9 @@ Install ros2.  this follows the humble instructions
 
 ```bash
 locale
-sudo apt install software-properties-common
+sudo apt install -y software-properties-common
 sudo add-apt-repository universe
-sudo apt update && sudo apt install curl -y
+sudo apt update && sudo apt install -y curl -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 sudo apt update
@@ -88,28 +88,28 @@ sudo apt upgrade
 now for installing ros, we want the minimum required set.  therefore we are going to install the base package and a couple packages on top as needed, rather than the full desktop
 
 ```bash
-sudo apt install ros-humble-ros-base
+sudo apt install -y ros-humble-ros-base
 # not sure which one of these I actually did, but pretty sure I did the cpp version.
-#sudo apt install ros-humble-examples-rclpy-minimal-subscriber ros-humble-examples-rclpy-minimal-publisher 
-sudo apt install ros-humble-examples-rclcpp-minimal-subscriber ros-humble-examples-rclcpp-minimal-publisher 
+#sudo apt install -y ros-humble-examples-rclpy-minimal-subscriber ros-humble-examples-rclpy-minimal-publisher 
+sudo apt install -y ros-humble-examples-rclcpp-minimal-subscriber ros-humble-examples-rclcpp-minimal-publisher 
 source /opt/ros/humble/setup.bash
-sudo apt-get install python3-rosdep
+sudo apt install -y python3-rosdep
 sudo rosdep init
 rosdep update
-sudo apt install ros-humble-rmw-cyclonedds-cpp
-sudo apt install ros-humble-rmw-fastrtps-cpp
+sudo apt install -y ros-humble-rmw-cyclonedds-cpp
+sudo apt install -y ros-humble-rmw-fastrtps-cpp
 ```
 
 ```bash
 ros2 run demo_nodes_cpp talker
-sudo apt install ros-humble-demo-nodes-cpp
+sudo apt install -y ros-humble-demo-nodes-cpp
 ros2 run demo_nodes_cpp talker
 ```
 
 install ifconfig to find your ip address
 
 ```bash
-sudo apt install net-tools
+sudo apt install -y net-tools
 ifconfig
 ```
 
@@ -231,15 +231,15 @@ ros2 run demo_nodes_cpp listener
 ```
 
 <!-- 
-sudo apt install ros-humble-desktop
-sudo apt install ros-humble-desktop
+sudo apt install -y ros-humble-desktop
+sudo apt install -y ros-humble-desktop
 sudo apt search ros-humble*demo*
 sudo apt search ros-humble*
 sudo apt search ros-humble-de*
 sudo apt search ros-humble-de
 sudo apt search ros-humble-demo
 sudo apt search ros-humble-exampl
-sudo apt install ros-humble-desktop -->
+sudo apt install -y ros-humble-desktop -->
 
 ## External Resources
 

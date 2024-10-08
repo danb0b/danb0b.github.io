@@ -10,8 +10,8 @@ tags:
 From [here](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)
 
 ```bash
-#sudo apt-get install ros-<distro>-ros-tutorials
-sudo apt-get install ros-melodic-ros-tutorials
+#sudo apt install -y ros-<distro>-ros-tutorials
+sudo apt install -y ros-melodic-ros-tutorials
 #rospack find [package_name]
 rospack find roscpp
 #roscd [locationname[/subdir]]

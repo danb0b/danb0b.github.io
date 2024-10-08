@@ -7,7 +7,7 @@ tags:
 ---
 
 ```bash
-sudo apt-get install build-essential libffi-dev git pkg-config
+sudo apt install -y build-essential libffi-dev git pkg-config
 git clone https://github.com/<your-user-name>/micropython
 cd micropython
 git remote add upstream https://github.com/micropython/micropython

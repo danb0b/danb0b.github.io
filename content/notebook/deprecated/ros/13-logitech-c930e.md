@@ -46,7 +46,7 @@ You need to follow slightly different steps if you want to provide access to a b
     ```bash
     sudo apt update
     sudo apt install -y guvcview cheese v4l-utils
-    # sudo apt install uvccapture uvcdynctrl
+    # sudo apt install -y uvccapture uvcdynctrl
     ```
 
 1. try guvcview or cheese to see if you can see video output(may need to install):
@@ -60,7 +60,7 @@ You need to follow slightly different steps if you want to provide access to a b
 
     ```bash
     sudo apt update
-    sudo apt install ros-melodic-libuvc-camera
+    sudo apt install -y ros-melodic-libuvc-camera
     #ros-melodic-uvc-camera #deprecated
     ```
 

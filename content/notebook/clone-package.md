@@ -18,11 +18,11 @@ In the freshly installed ubuntu system run:
 
 ```bash
 sudo dpkg --set-selections <./ubuntu-files (will set it up and)
-apt-get -y update
-apt-get dselect-upgrade
+apt -y update
+apt dselect-upgrade
 ```
 
-This will install only those packages you had installed (with apt-get) in the old system.
+This will install only those packages you had installed (with apt) in the old system.
 
                                     (OR)
 You could back up all the .deb packages from ```/var/cache/apt/archives/``` and install them manually using:

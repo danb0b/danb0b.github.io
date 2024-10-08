@@ -46,7 +46,7 @@ You should see your computer listed
 ### Set up fastrtps
 
 ```bash
-sudo apt install ros-humble-rmw-fastrtps-cpp
+sudo apt install -y ros-humble-rmw-fastrtps-cpp
 ```
 
 Create a configuration file for fastrtps.  replace ```[HOSTNAME1]``` and ```[HOSTNAME2]``` with the hostname or IP address of your computers as seen in the tailscale administrative interface.  If you anticipate the ip address changing, for example if one of the machines is a docker container without ip address permanence enabled, it is suggested to use the hostname.  This is only possible with "magicdns" enabled.

@@ -115,7 +115,7 @@ iwgetid -r # just the name
 ### list all wifis
 
 ```bash
-sudo apt install network-manager
+sudo apt install -y network-manager
 nmcli -f in-use,ssid,bssid,signal,bars  dev wifi
 ```
 
@@ -579,7 +579,7 @@ sudo hdparm -I /dev/sda
 if you have an NVMe device...
 
 ```
-sudo apt install nvme-cli
+sudo apt install -y nvme-cli
 nvme list
 #sudo nvme smart-log <node_name> 
 sudo nvme smart-log /dev/nvme0n1 
@@ -674,14 +674,14 @@ printenv | grep ROS
 from [here](https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/)
 
 ```bash
-sudo apt install cu
+sudo apt install -y cu
 cu -l /dev/ttyACM0 -s 9600
 ```
 
 To exit enter tilde dot (~.)
 
 ```bash
-sudo apt install screen
+sudo apt install -y screen
 screen /dev/ttyACM0 9600
 ```
 

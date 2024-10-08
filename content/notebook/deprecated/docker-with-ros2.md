@@ -29,13 +29,13 @@ it's about installing docker inside two vms... I have better examples now.
 1. install helpful tools
 
     ```bash
-    sudo apt install net-tools
+    sudo apt install -y net-tools
     ```
 
 1. install ubuntu-desktop-minimal
 
     ```bash
-    sudo apt install ubuntu-desktop-minimal
+    sudo apt install -y ubuntu-desktop-minimal
     ```
 
 1. [install docker](/notebook/docker/install-docker/), ensuring to add docker group to your user.

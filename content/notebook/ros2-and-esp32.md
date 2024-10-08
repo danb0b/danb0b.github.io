@@ -17,13 +17,13 @@ tags:
 1. install helpful tools
 
     ```bash
-    sudo apt install net-tools
+    sudo apt install -y net-tools
     ```
 
 1. install ubuntu-desktop-minimal
 
     ```bash
-    sudo apt install ubuntu-desktop-minimal
+    sudo apt install -y ubuntu-desktop-minimal
     ```
 
 1. install vm guest additions prerequisites
@@ -41,19 +41,19 @@ tags:
 1. Install ROS2
 
     ```bash
-    sudo apt install software-properties-common
+    sudo apt install -y software-properties-common
     sudo add-apt-repository universe
-    sudo apt update && sudo apt install curl -y
+    sudo apt update && sudo apt install -y curl
     sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
     sudo apt update && sudo apt upgrade -y
-    sudo apt install ros-humble-desktop ros-dev-tools
+    sudo apt install -y ros-humble-desktop ros-dev-tools
     ```
 
 1. install cyclone-dds
 
     ```bash
-    sudo apt install ros-humble-rmw-cyclonedds-cpp
+    sudo apt install -y ros-humble-rmw-cyclonedds-cpp
     ```
 
 1. add configuration info to .bashrc:
@@ -66,7 +66,7 @@ tags:
 1. install ros-bridge server
 
     ```bash
-    sudo apt install ros-humble-rosbridge-server 
+    sudo apt install -y ros-humble-rosbridge-server 
     ```
 
 1. launch rosbridge

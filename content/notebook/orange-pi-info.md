@@ -217,8 +217,8 @@ sudo pip3 install Adafruit-SSD1306
 ----------------
 
 ```bash
-sudo apt-get install -y python3 git python3-pip
-sudo apt-get install libgpiod2 python3-libgpiod
+sudo apt install -y python3 git python3-pip
+sudo apt install -y libgpiod2 python3-libgpiod
 pip3 install gpiod
 sudo apt update && sudo apt upgrade -y
 sudo pip3 install --upgrade setuptools

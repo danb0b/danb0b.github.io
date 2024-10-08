@@ -91,7 +91,7 @@ Follow the detailed installation instructions at <https://wiki.ros.org/melodic/I
 1. Find the ip address of ethernet port in the terminal
 
     ```bash
-    #sudo apt install net-tools
+    #sudo apt install -y net-tools
     ifconfig -v
     ```
 

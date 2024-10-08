@@ -11,7 +11,7 @@ tags:
 ## Installation
 
 ```bash
-sudo apt install autossh
+sudo apt install -y autossh
 ```
 
 set up logging:

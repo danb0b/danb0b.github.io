@@ -30,8 +30,8 @@ wget https://github.com/sofa-framework/sofa/releases/download/v23.12.01/SOFA_v23
 unzip SOFA_v23.12.01_Linux.zip
 sudo apt update
 # sudo add-apt-repository ppa:deadsnakes/ppa
-# sudo apt install libpython3.8 python3.8 python3-pip python3.8-distutils 
-sudo apt install python3.10-dev python3.10-distutils pybind11-dev
+# sudo apt install -y libpython3.8 python3.8 python3-pip python3.8-distutils 
+sudo apt install -y python3.10-dev python3.10-distutils pybind11-dev
 curl -L https://bootstrap.pypa.io/pip/get-pip.py --output /tmp/get-pip3.py
 python3.10 /tmp/get-pip3.py
 export PATH=$PATH:$HOME/.local/bin
@@ -39,7 +39,7 @@ python3.10 -m pip install --upgrade pip
 python3.10 -m pip install numpy scipy pybind11==2.9.1
 
 #https://stackoverflow.com/questions/77233855/why-did-i-got-an-error-modulenotfounderror-no-module-named-distutils
-sudo apt install libopengl0
+sudo apt install -y libopengl0
 # sudo apt remove python3-pil
 python3.10 -m pip install numpy scipy jupyter matplotlib pillow
 ```
@@ -87,20 +87,20 @@ runSofa SoftRobots/examples/tutorials/PneunetGripper/details/step7-grabTheCube.p
 ## GL issues
 
 # not needed
-apt install ffmpeg libsm6 libxext6  -y #<https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo>
+apt install -y ffmpeg libsm6 libxext6  -y #<https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo>
 
 # all that's needed
-apt install libgl1 #<https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo>
-apt-get install libnss3 #<https://stackoverflow.com/questions/72149564/pyqt5-doesnt-work-on-docker-importerror-libsmime3-so-cannot-open-shared-objec>
+apt install -y libgl1 #<https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo>
+apt install -y libnss3 #<https://stackoverflow.com/questions/72149564/pyqt5-doesnt-work-on-docker-importerror-libsmime3-so-cannot-open-shared-objec>
 
 tried, not sure if it worked
 pip install pyoplengl
 didn't try
-apt install libgl1-mesa-glx
+apt install -y libgl1-mesa-glx
 
 got through that now not finding other things
 
-apt install make g++ pkg-config libgl1-mesa-dev libxcb*-dev libfontconfig1-dev libxkbcommon-x11-dev python libgtk-3-dev #<https://stackoverflow.com/questions/62391587/qt-could-not-find-the-qt-platform-plugin-xcb>
+apt install -y make g++ pkg-config libgl1-mesa-dev libxcb*-dev libfontconfig1-dev libxkbcommon-x11-dev python libgtk-3-dev #<https://stackoverflow.com/questions/62391587/qt-could-not-find-the-qt-platform-plugin-xcb>
 
 <https://wiki.qt.io/Install_Qt_5_on_Ubuntu>
 

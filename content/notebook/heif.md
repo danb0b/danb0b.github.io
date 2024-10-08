@@ -12,7 +12,7 @@ tags:
 <https://linuxnightly.com/convert-heif-images-to-jpg-or-png-on-linux/>
 
 ```bash
-sudo apt install libheif-examples
+sudo apt install -y libheif-examples
 ```
 
 ```bash

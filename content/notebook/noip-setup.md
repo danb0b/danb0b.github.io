@@ -79,7 +79,7 @@ sudo systemctl disable noip
     sudo apt install -yf build-essential
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     # unnecessary?
-    #sudo apt install rustup
+    #sudo apt install -y rustup
     ```
 
     close and reopen terminal or type ```source “$HOME/.cargo/env”```

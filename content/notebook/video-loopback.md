@@ -9,7 +9,7 @@ weight: 99
 ---
 
 ```bash
-sudo apt-get install v4l2loopback-dkms v4l-utils
+sudo apt install -y v4l2loopback-dkms v4l-utils
 ```
 ```bash
 ls /dev/video*

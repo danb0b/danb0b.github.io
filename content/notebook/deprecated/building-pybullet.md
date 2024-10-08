@@ -35,12 +35,12 @@ sudo make install
 Things I tried that didn't work at fixing my Mesa errors (it was anaconda the whole time!)
 
 ```
-sudo apt install mesa-utils
+sudo apt install -y mesa-utils
 sudo apt install --reinstall libgl1-mesa-dri
 
-sudo apt install libopengl-dev libglx-dev libglfw3-dev
-sudo apt install freeglut3-dev libglw1-mesa-dev
-sudo apt install libglm-dev
+sudo apt install -y libopengl-dev libglx-dev libglfw3-dev
+sudo apt install -y freeglut3-dev libglw1-mesa-dev
+sudo apt install -y libglm-dev
 
 sudo apt install --reinstall libglw1-mesa libglw1-mesa-dev 
 ```

@@ -173,7 +173,7 @@ sudo snap remove firefox
 
 ```bash
 sudo add-apt-repository ppa:cappelikan/ppa
-sudo apt update && sudo apt install mainline
+sudo apt update && sudo apt install -y mainline
 ```
 
 ## Packages with options or multiple setup lines
@@ -224,7 +224,7 @@ sudo apt install -y texlive-full
 This is a big install so plan it for when you can let it go a while
 
 ```bash
-sudo apt install texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base texlive-fonts-extra
+sudo apt install -y texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base texlive-fonts-extra
 ```
 -->
 
@@ -317,7 +317,7 @@ install python, c/c++, html css, jupyter
 ### Mosquitto
 
 ```bash
-sudo apt install mosquitto mosquitto_clients
+sudo apt install -y mosquitto mosquitto_clients
 ```
 
 --------------------------------
@@ -367,7 +367,7 @@ chmod +x mendeley*.AppImage
 ```
 cd ~/Downloads
 sudo dpkg -i mendeleydesktop*.deb
-sudo apt-get install -yf
+sudo apt install -yf
 ```
 -->
 
@@ -379,7 +379,7 @@ Old method:
 ```bash
 #sudo add-apt-repository ppa:micahflee/ppa # this repository is deprecated
 sudo apt update 
-sudo apt install torbrowser-launcher
+sudo apt install -y torbrowser-launcher
 ```
 -->
 
@@ -422,7 +422,7 @@ flatpak run com.github.needleandthread.vocal
 Trying to move away from ruby and jekyll...too hard
 
 ```bash
-sudo apt-get update 
+sudo apt update 
 sudo apt install -y ruby git  build-essential ruby-dev pandoc-citeproc
 sudo gem install bundler jekyll
 ```

@@ -3,7 +3,7 @@ title: Compliling uLab for micropython
 ---
 
 ```bash
-sudo apt update && sudo apt install \
+sudo apt update && sudo apt install -y \
 python3 \
 git \
 python3-pip \

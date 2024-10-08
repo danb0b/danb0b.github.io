@@ -2,7 +2,7 @@
 title: Distrobox Info
 ---
 
-sudo apt install distrobox
+sudo apt install -y distrobox
 curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
 
 distrobox create --name test --image ubuntu:24.04 -a "--runtime crun"

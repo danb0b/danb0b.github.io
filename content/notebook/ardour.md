@@ -2,7 +2,7 @@
 title: Using Ardour
 ---
 
-sudo apt install ardour
+sudo apt install -y ardour
 
 * https://www.linuxsynths.com/
     * zebra

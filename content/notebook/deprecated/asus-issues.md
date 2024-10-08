@@ -30,7 +30,7 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
     1. get source ()
 
         ```
-        apt-get source linux-image-unsigned-$(uname -r)
+        apt source linux-image-unsigned-$(uname -r)
         ```
 
     1. update configs

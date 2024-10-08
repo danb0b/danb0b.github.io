@@ -21,9 +21,9 @@ This is derived from [the official tutorial](https://wiki.ros.org/melodic/Instal
     sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
     sudo apt update
-    sudo apt install ros-melodic-desktop-full
-    #sudo apt install ros-melodic-desktop
-    #sudo apt install ros-melodic-ros-base
+    sudo apt install -y ros-melodic-desktop-full
+    #sudo apt install -y ros-melodic-desktop
+    #sudo apt install -y ros-melodic-ros-base
 
     #To find available packages, use:
     #apt search ros-melodic
@@ -35,10 +35,10 @@ This is derived from [the official tutorial](https://wiki.ros.org/melodic/Instal
 
 
     #To install tools and other dependencies for building ROS packages, run:
-    sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+    sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
     #not sure if you need to do the next line.
-    #sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-    sudo apt install python-rosdep
+    #sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+    sudo apt install -y python-rosdep
 
     sudo rosdep init
     rosdep update

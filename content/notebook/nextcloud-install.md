@@ -10,7 +10,7 @@ weight: 99
 1. Prerequisites
 
     ```
-    sudo apt install openssh-server net-tools
+    sudo apt install -y openssh-server net-tools
     ```
 
 1. Install

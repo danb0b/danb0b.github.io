@@ -9,7 +9,7 @@ title: installing lineage
 or
 
 ```
-sudo apt install adb
+sudo apt install -y adb
 ```
 
 ## Install udev rules

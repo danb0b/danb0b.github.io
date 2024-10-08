@@ -10,8 +10,8 @@ tags:
 sudo apt update
 
 sudo apt install -y wine64 
-sudo apt install wine64-development wine64-tools wine64-preloader 
-sudo apt install wine winetricks
+sudo apt install -y wine64-development wine64-tools wine64-preloader 
+sudo apt install -y wine winetricks
 ```
 from [here](https://phoenixnap.com/kb/how-to-install-wine-on-ubuntu)
 

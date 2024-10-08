@@ -53,6 +53,6 @@ pcregrep -rIn -M "\n#{1} " --include=*.md .
 ## GUI
 
 ```bash
-sudo apt-get install libgtk-3-dev
+sudo apt install -y libgtk-3-dev
 pip install rummage
 ```

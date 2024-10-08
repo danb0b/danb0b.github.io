@@ -4,7 +4,7 @@ tags:
 - dvd
 ---
 
-sudo apt-get install k3b 
-sudo apt-get install libdvd-pkg
+sudo apt install -y k3b 
+sudo apt install -y libdvd-pkg
 sudo dpkg-reconfigure libdvd-pkg
-sudo apt install handbrake
+sudo apt install -y handbrake

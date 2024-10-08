@@ -17,13 +17,13 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
 
 <!--
 ```bash
-#sudo apt install ros-melodic-rosbridge-library ros-melodic-rosbridge-msgs ros-melodic-rosbridge-server ros-melodic-rosbridge-suite
+#sudo apt install -y ros-melodic-rosbridge-library ros-melodic-rosbridge-msgs ros-melodic-rosbridge-server ros-melodic-rosbridge-suite
 ```
 -->
 1. Install necessary prerequisites on the ROS machine
     ```bash
     #Install rosbridge on guest machine
-    sudo apt install ros-melodic-rosbridge-suite
+    sudo apt install -y ros-melodic-rosbridge-suite
 
     ## ensure you have the most recent version of pip
     pip3 install --upgrade pip

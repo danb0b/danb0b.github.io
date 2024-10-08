@@ -26,7 +26,7 @@ plain python environment
 ```bash
 # python3 -m venv ~/envs/sb3
 sudo add-apt-repository ppa:deadsnakes/ppa -y
-sudo apt install python3.11-venv
+sudo apt install -y python3.11-venv
 python3.11 -m venv ~/envs/sb3
 . envs/sb3/bin/activate
 pip install --upgrade pip

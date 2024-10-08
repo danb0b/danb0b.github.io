@@ -35,7 +35,7 @@ ip a
 Then install cyclone dds, which is not the default DDS middlewaer for humble.
 
 ```bash
-sudo apt install ros-humble-rmw-cyclonedds-cpp
+sudo apt install -y ros-humble-rmw-cyclonedds-cpp
 ```
 
 Then create a cyclonedds configuration file.  Replace ```192.168.xxx.yyy``` and ```192.168.xxx.zzz``` with the two ip addresses for each of your vm clones.

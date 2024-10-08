@@ -73,7 +73,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 1. install gedit
 
     ```
-    sudo apt install gedit
+    sudo apt install -y gedit
     ```
 
 1. Install ROS using [this tutorial](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi)
@@ -95,7 +95,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
     1. install other packages for viewing and programming
 
         ```
-        sudo apt install gpicview vlc thonny
+        sudo apt install -y gpicview vlc thonny
         pip3 install picamera
         ```
 
@@ -129,9 +129,9 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 1. not sure these packages are needed:
 
     ```
-    sudo apt install python3-catkin-pkg
-    sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-    sudo apt-get install python3-empy
+    sudo apt install -y python3-catkin-pkg
+    sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+    sudo apt install -y python3-empy
     ```
 
 1. update ros install with joystick and compressed image transport packages, following instructions [here](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Maintaining_a_Source_Checkout

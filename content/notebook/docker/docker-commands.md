@@ -35,7 +35,7 @@ docker pull ubuntu
 docker run -d -t ubuntu # run detached
 docker run -it ubuntu /bin/bash
 docker exec -it <containername> /bin/bash
-apt-get update
+apt update
 docker compose run -it web /bin/bash
 ```
 
@@ -87,8 +87,8 @@ echo \'export DISPLAY=10.153.3.125:0.0\' \>\> \~/.bashrc
 ## To install a terminal-compatible text editor
 
 ```bash
-apt-get update
-apt-get install nano
+apt update
+apt install -y nano
 ```
 
 ## Accessing usb devices (not working):

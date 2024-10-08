@@ -112,7 +112,7 @@ docker system prune
 apt update
 apt install -y openssh-server iputils-ping
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-#apt install nano
+#apt install -y nano
 #nano /etc/ssh/sshd_config
 service ssh start
 #sudo passwd root

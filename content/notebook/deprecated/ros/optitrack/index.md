@@ -14,7 +14,7 @@ tags:
 ## Install
 
 ```
-sudo apt install ros-melodic-mocap-optitrack
+sudo apt install -y ros-melodic-mocap-optitrack
 ```
 
 ## Create a rigid body and ensure it is being transmitted from Motiv

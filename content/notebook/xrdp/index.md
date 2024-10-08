@@ -10,7 +10,7 @@ Derived from [here](https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-f
 
 ```bash
 sudo apt update
-sudo apt install xrdp
+sudo apt install -y xrdp
 ```
 
 ```bash

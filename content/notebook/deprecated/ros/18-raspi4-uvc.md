@@ -17,7 +17,7 @@ tags:
     ```bash
     sudo apt update
     sudo apt install -y libuvc-dev guvcview cheese v4l-utils
-    # sudo apt install uvccapture uvcdynctrl
+    # sudo apt install -y uvccapture uvcdynctrl
     ```
 
 1. try guvcview or cheese to see if you can see video output(may need to install):

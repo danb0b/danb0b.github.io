@@ -9,7 +9,7 @@ tags:
 ## Merge pdfs from Bash
 
 ```bash
-sudo apt install pdftk
+sudo apt install -y pdftk
 ```
 
 ```

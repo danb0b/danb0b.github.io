@@ -75,8 +75,8 @@ If you have conda installed, you shouldn't install these packages, as conda will
 pip install mujoco mediapy
 sudo apt install -y libglfw3 libglew2.2 libgl1-mesa-glx libosmesa6
 sudo apt install -y libegl-dev libegl1 libegl1-mesa libegl1-mesa-dev
-sudo apt install libosmesa6-dev
-sudo apt-get install libglew-dev libglew2.2
+sudo apt install -y libosmesa6-dev
+sudo apt install -y libglew-dev libglew2.2
 ```
 
 ## OSMESA

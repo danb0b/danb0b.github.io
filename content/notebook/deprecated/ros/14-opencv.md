@@ -13,9 +13,9 @@ tags:
 
     ```bash
     sudo apt update
-    sudo apt install python3-opencv
+    sudo apt install -y python3-opencv
     # may be done already depending on what you installed.
-    #sudo apt install ros-melodic-cv-bridge
+    #sudo apt install -y ros-melodic-cv-bridge
     ```
 
 

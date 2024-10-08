@@ -7,7 +7,7 @@ tags:
 
 
 https://github.com/KoljaB/RealtimeSTT
-sudo apt-get install -y portaudio19-dev
+sudo apt install -y portaudio19-dev
 pip install pyaudio
 pip install RealtimeSTT
 

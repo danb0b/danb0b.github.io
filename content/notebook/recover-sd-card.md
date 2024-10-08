@@ -11,6 +11,6 @@ tags:
 https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card
 
 ```bash
-sudo apt install testdisk
+sudo apt install -y testdisk
 sudo photorec
 ```

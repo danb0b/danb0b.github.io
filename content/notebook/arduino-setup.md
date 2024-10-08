@@ -9,7 +9,7 @@ tags:
 ---
 
 ```bash
-sudo apt install fuse3 libfuse2 libfuse3-3
+sudo apt install -y fuse3 libfuse2 libfuse3-3
 ```
 
 ## board libraries
@@ -42,8 +42,8 @@ Thanks to [this post](https://forum.arduino.cc/t/arduino-1-5-6-r2-for-64-bit-lin
 
 ```bash
 sudo dpkg --add-architecture i386
-sudo apt-get update
-sudo apt-get install libc6:i386
+sudo apt update
+sudo apt install libc6:i386
 ```
 
 ### other refs related to this

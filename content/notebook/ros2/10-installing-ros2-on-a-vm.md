@@ -44,7 +44,7 @@ Suggested machine parameters and install steps:
 * install virtual machine additions prerequisites using 
 
     ```bash
-    sudo apt install gcc make perl build-essential
+    sudo apt install -y gcc make perl build-essential
     ```
 * then install virtual machine additions from the virtualbox menu.  with your desktop installed and your virtual machine running, 
     1. go to "devices" --> "install Guest Additions CD image"
@@ -80,7 +80,7 @@ Starting from a blank ubuntu server 22.04 vm, check for updates (if the vm has b
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install ubuntu-desktop-minimal 
+sudo apt install -y ubuntu-desktop-minimal 
 ```
 
 I also went through the work of removing the firefox snap and its dependencies, using [this post](/notebook/removing-firefox-snap/)
@@ -100,14 +100,14 @@ sudo apt update && sudo apt upgrade -y
 I then installed ros2, using the instructions from [here](https://docs.ros.org/en/humble/Installation.html)
 
 ```bash
-sudo apt install software-properties-common
+sudo apt install -y software-properties-common
 sudo add-apt-repository universe
-sudo apt update && sudo apt install curl -y
+sudo apt update && sudo apt install -y curl -y
 sudo curl -sSL <https://raw.githubusercontent.com/ros/rosdistro/master/ros.key> -o /usr/share/keyrings/ros-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] <http://packages.ros.org/ros2/ubuntu> $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 sudo apt update && sudo apt upgrade -y
-sudo apt install ros-humble-desktop ros-dev-tools
-sudo apt-get install python3-rosdep
+sudo apt install -y ros-humble-desktop ros-dev-tools
+sudo apt install -y python3-rosdep
 sudo apt install -y ros-humble-plotjuggler-ros #for plotting data
 sudo apt update && sudo apt install -y \
   build-essential \

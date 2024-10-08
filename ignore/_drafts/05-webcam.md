@@ -42,7 +42,7 @@
 1. Install library
 
     ```bash
-    sudo apt-get install ros-melodic-libuvc-camera
+    sudo apt install -y ros-melodic-libuvc-camera
     ```
 1. Set up the ROS package (firstly make sure catkin is installed)
 

@@ -159,7 +159,7 @@ export QT_QPA_PLATFORM="xcb"
 To install chrono, you must make a different environment, as it conflicts with some of the packages here.
 
 ```
-sudo apt install libirrlicht-dev
+sudo apt install -y libirrlicht-dev
 
 conda create -n chrono
 conda activate chrono

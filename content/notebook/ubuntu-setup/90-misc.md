@@ -12,7 +12,7 @@ tags:
 ## Install gnome tweaks
 
 ```bash
-sudo apt install gnome-tweaks
+sudo apt install -y gnome-tweaks
 ```
 
 ## Tweaking the GUI

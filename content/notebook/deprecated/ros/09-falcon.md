@@ -27,7 +27,7 @@ Note: the libnifalcon repository is now forked [here](https://github.com/idealab
 1. install libusb
 
 		```bash
-		sudo apt install libusb
+		sudo apt install -y libusb
 		```
 
 1. clone repository
@@ -66,7 +66,7 @@ Note: the libnifalcon repository is now forked [here](https://github.com/idealab
 1. add joy package
 
 		```bash
-		sudo apt install ros-melodic-joy
+		sudo apt install -y ros-melodic-joy
 		```
 
 1. clone the ros falcon repository (optional, it is now located in the code_idealab_ros repository now)

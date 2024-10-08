@@ -6,7 +6,7 @@ title: Performance Tips
 * enable trim
 
 ```bash
-sudo apt install util-linux
+sudo apt install -y util-linux
 ```
 
 ```bash
@@ -41,7 +41,7 @@ minimize access time updates: <https://www.baeldung.com/linux/solid-state-drive-
     
     noatime,nodiratime
 
-sudo apt install smartmontools
+sudo apt install -y smartmontools
 sudo smartctl -a /dev/nvme0
 sudo smartctl -a /dev/nvme0n1
 

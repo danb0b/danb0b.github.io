@@ -12,8 +12,8 @@ tags:
 1. Install prerequisites
 
 ```
-sudo apt install ros-melodic-joy
-sudo apt install python3-numpy
+sudo apt install -y ros-melodic-joy
+sudo apt install -y python3-numpy
 ```
 
 1. Install libnifalcon (instructions in Falcon tutorial)

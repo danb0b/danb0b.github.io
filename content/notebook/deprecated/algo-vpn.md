@@ -145,7 +145,7 @@ from here: <https://github.com/trailofbits/algo/blob/master/docs/client-linux-wi
 
     ```bash
     sudo apt update && sudo apt upgrade
-    sudo apt install wireguard openresolv
+    sudo apt install -y wireguard openresolv
     ```
 
 1. Install the config file to the WireGuard configuration directory on your linux client:

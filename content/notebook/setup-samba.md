@@ -16,7 +16,7 @@ chmod 0700 ~/happy
 ## Set up samba
 
 ```bash
-sudo apt install samba
+sudo apt install -y samba
 sudo nano /etc/samba/smb.conf
 ```
 

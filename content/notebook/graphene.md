@@ -14,13 +14,13 @@ Instructions derived from <https://grapheneos.org/install/cli>
 ## Download Developer Tools
 
 ```bash
-sudo apt install android-sdk-platform-tools-common
-sudo apt install signify-openbsd
+sudo apt install -y android-sdk-platform-tools-common
+sudo apt install -y signify-openbsd
 echo "alias signify=signify-openbsd" >> ~/.bashrc
 sudo apt remove adb 
 mkdir ~/adb
 cd ~/adb
-sudo apt install libarchive-tools
+sudo apt install -y libarchive-tools
 curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
 echo 'ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7  platform-tools_r33.0.3-linux.zip' | sha256sum -c
 bsdtar xvf platform-tools_r33.0.3-linux.zip

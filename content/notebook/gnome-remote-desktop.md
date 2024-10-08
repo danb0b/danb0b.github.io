@@ -6,8 +6,8 @@ tags:
 - gnome
 ---
 
-sudo apt install vino
-sudo apt install winpr-utils
+sudo apt install -y vino
+sudo apt install -y winpr-utils
 
 ```
 sudo systemctl restart gnome-remote-desktop.service
@@ -48,7 +48,7 @@ https://gitlab.gnome.org/GNOME/gnome-remote-desktop/-/issues/161
 https://github.com/FreeRDP/FreeRDP/issues/8567
 https://gitlab.gnome.org/GNOME/gnome-remote-desktop/-/issues/161
 
-sudo apt-get --reinstall install mutter mutter-common mutter-common-bin
+sudo apt --reinstall install mutter mutter-common mutter-common-bin
 
 sudo update-initramfs -u -k all
 sudo ubuntu-drivers autoinstall
