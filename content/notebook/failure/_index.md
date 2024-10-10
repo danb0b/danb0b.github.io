@@ -3,7 +3,8 @@ title: Failure
 type: starred
 summary: "Some of my disorganized thoughts on failure.  Perhaps some day I'll turn it into a class..."
 weight: 3
-published: false
+params:
+  published: false
 ---
 
 ## Introduction

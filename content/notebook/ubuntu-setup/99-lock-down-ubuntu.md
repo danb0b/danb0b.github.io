@@ -1,6 +1,5 @@
 ---
 title: 99-Locking Down Ubuntu
-published: true
 tags:
 - ubuntu
 - linux

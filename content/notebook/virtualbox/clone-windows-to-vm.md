@@ -1,8 +1,9 @@
 ---
 title: Clone Windows to Virtual Machine
-published: false
 tags:
   - virtualbox
+params:
+  published: false
 ---
 
 
