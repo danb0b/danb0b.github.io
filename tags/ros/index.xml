@@ -17,14 +17,14 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#python editor&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y spyder3
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#ifconfig command and other networking tools&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install net-tools
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y net-tools
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#misc&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y curl
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#python packages&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y python3-serial python3-pip
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>ROS Installation Summary</title><link>https://www.danaukes.com/notebook/deprecated/ros/02-ros-install-and-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/02-ros-install-and-config/</guid><description>&lt;p>This is derived from &lt;a href="https://wiki.ros.org/melodic/Installation/Ubuntu">the official tutorial&lt;/a>&lt;/p></description></item><item><title>Installing and Configuring the default ROS Environment</title><link>https://www.danaukes.com/notebook/deprecated/ros/02.1-install-default-ros-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/02.1-install-default-ros-workspace/</guid><description>&lt;p>This is not necessary if you will be creating your own custom workspace&lt;/p></description></item><item><title>Navigating the Ros Filesystem (optional)</title><link>https://www.danaukes.com/notebook/deprecated/ros/03-ros-usage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/03-ros-usage/</guid><description>&lt;p>From &lt;a href="https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">here&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt-get install ros-&amp;lt;distro&amp;gt;-ros-tutorials&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install ros-melodic-ros-tutorials
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install -y ros-&amp;lt;distro&amp;gt;-ros-tutorials&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y ros-melodic-ros-tutorials
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#rospack find [package_name]&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rospack find roscpp
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#roscd [locationname[/subdir]]&lt;/span>
@@ -51,8 +51,8 @@
 &lt;ol>
 &lt;li>Install prerequisites&lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code>sudo apt install ros-melodic-joy
-sudo apt install python3-numpy
+&lt;pre tabindex="0">&lt;code>sudo apt install -y ros-melodic-joy
+sudo apt install -y python3-numpy
 &lt;/code>&lt;/pre>&lt;ol>
 &lt;li>
 &lt;p>Install libnifalcon (instructions in Falcon tutorial)&lt;/p></description></item><item><title>Creating a new package</title><link>https://www.danaukes.com/notebook/deprecated/ros/06.0-create-a-new-package/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/06.0-create-a-new-package/</guid><description>&lt;h2 id="create-a-new-package">Create a new package&lt;/h2>
@@ -94,9 +94,9 @@ catkin_make
 &lt;li>
 &lt;p>install opencv for python&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install python3-opencv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y python3-opencv
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># may be done already depending on what you installed.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install ros-melodic-cv-bridge&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install -y ros-melodic-cv-bridge&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>other installs:&lt;/p></description></item><item><title>Creating a custom Photon Package</title><link>https://www.danaukes.com/notebook/deprecated/ros/15-photon-tcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/15-photon-tcp/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
@@ -107,7 +107,7 @@ catkin_make
 &lt;p>install uvc stuff.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y libuvc-dev guvcview cheese v4l-utils
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install -y uvccapture uvcdynctrl&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>try guvcview or cheese to see if you can see video output(may need to install):&lt;/p></description></item><item><title>CV Bridge and Python 3</title><link>https://www.danaukes.com/notebook/deprecated/ros/19-tracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/19-tracking/</guid><description>&lt;p>getting cv_bridge working with python 3 is less straightforward. you need to recompile cv_bridge locally.&lt;/p></description></item><item><title>getting docker networking working with ros2</title><link>https://www.danaukes.com/notebook/deprecated/docker-with-ros2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/docker-with-ros2/</guid><description>&lt;h2 id="deprecated">Deprecated&lt;/h2>
@@ -115,19 +115,19 @@ catkin_make
 &lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo cp 98-korg-nano.rules /etc/udev/rules.d/
 sudo chmod 644 /etc/udev/rules.d/98-korg-nano.rules
 sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>#sudo apt install libasound2-dev 
-#sudo apt install python3-pyrex
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>#sudo apt install -y libasound2-dev 
+#sudo apt install -y python3-pyrex
 #pip3 install pyalsa
 #pip3 install pygame
 #pip3 install alsaseq
-sudo apt-get install libjack-dev
+sudo apt install -y libjack-dev
 pip3 install python-rtmidi mido
 &lt;/code>&lt;/pre></description></item><item><title>Setting up OptiTrack</title><link>https://www.danaukes.com/notebook/deprecated/ros/optitrack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/optitrack/</guid><description>&lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="http://wiki.ros.org/mocap_optitrack">http://wiki.ros.org/mocap_optitrack&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="install">Install&lt;/h2>
-&lt;pre tabindex="0">&lt;code>sudo apt install ros-melodic-mocap-optitrack
+&lt;pre tabindex="0">&lt;code>sudo apt install -y ros-melodic-mocap-optitrack
 &lt;/code>&lt;/pre>&lt;h2 id="create-a-rigid-body-and-ensure-it-is-being-transmitted-from-motiv">Create a rigid body and ensure it is being transmitted from Motiv&lt;/h2>
 &lt;p>&lt;a class="glightbox" href="image1.jpg" data-glightbox="descPosition: bottom; description: ">&lt;img alt="" src="image1.jpg" style="margin:3px;object-fit:cover;max-width:200px;height:200px;"/>&lt;/a>&lt;/p></description></item><item><title>Ubuntu Prep</title><link>https://www.danaukes.com/notebook/deprecated/ros/01.1-ubuntu-prep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/01.1-ubuntu-prep/</guid><description>&lt;h2 id="in-ubuntu">In ubuntu&lt;/h2>
 &lt;ol>

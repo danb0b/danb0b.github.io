@@ -62,13 +62,13 @@
 &lt;li>enable global privacy control: &lt;a href="https://blog.mozilla.org/netpolicy/2021/10/28/implementing-global-privacy-control/">https://blog.mozilla.org/netpolicy/2021/10/28/implementing-global-privacy-control/&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
 &lt;h2 id="download-developer-tools">Download Developer Tools&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install android-sdk-platform-tools-common
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install signify-openbsd
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y android-sdk-platform-tools-common
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y signify-openbsd
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;alias signify=signify-openbsd&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt remove adb 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir ~/adb
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/adb
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install libarchive-tools
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y libarchive-tools
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#39;ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7 platform-tools_r33.0.3-linux.zip&amp;#39;&lt;/span> &lt;span style="color:#111">|&lt;/span> sha256sum -c
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>bsdtar xvf platform-tools_r33.0.3-linux.zip

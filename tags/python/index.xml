@@ -43,10 +43,10 @@ ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
 echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
 &lt;/code>&lt;/pre>&lt;h2 id="windows-install">Windows Install&lt;/h2>
 &lt;p>Set powershell-specific security settings&lt;/p></description></item><item><title>05-general python install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</guid><description>&lt;h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install git python3-pip python3-venv
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y git python3-pip python3-venv
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y build-essential
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install libgeos-dev&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install -y libgeos-dev&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/gen
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/gen/bin/activate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
@@ -88,7 +88,7 @@ echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> murdermystery
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 manage.py runserver
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>hit ctrl+c to stop&lt;/p></description></item><item><title>Post-Install Miscellaneous Steps</title><link>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</guid><description>&lt;h2 id="install-gnome-tweaks">Install gnome tweaks&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install gnome-tweaks
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y gnome-tweaks
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="tweaking-the-gui">Tweaking the GUI&lt;/h2>
 &lt;ol>
 &lt;li>Open &amp;ldquo;Extensions&amp;rdquo; and turn off desktop icons&lt;/li>

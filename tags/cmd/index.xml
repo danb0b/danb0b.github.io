@@ -15,7 +15,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -t ubuntu &lt;span style="color:#75715e"># run detached&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -it ubuntu /bin/bash
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker &lt;span style="color:#111">exec&lt;/span> -it &amp;lt;containername&amp;gt; /bin/bash
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker compose run -it web /bin/bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="anaconda-image">Anaconda Image&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker pull continuumio/anaconda3

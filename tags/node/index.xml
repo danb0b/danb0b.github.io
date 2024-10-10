@@ -2,6 +2,6 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/Downloads
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo bash nodesource_setup.sh
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install nodejs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y nodejs
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>node -v
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

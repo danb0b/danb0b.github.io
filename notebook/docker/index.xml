@@ -5,7 +5,7 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt remove docker docker.io containerd runc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt remove docker*
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install ca-certificates curl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y ca-certificates curl
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo install -m &lt;span style="color:#ae81ff">0755&lt;/span> -d /etc/apt/keyrings
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo chmod a+r /etc/apt/keyrings/docker.asc
@@ -13,7 +13,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;deb [arch=&lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>dpkg --print-architecture&lt;span style="color:#00a8c8">)&lt;/span>&lt;span style="color:#d88200"> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu &lt;/span>&lt;span style="color:#00a8c8">$(&lt;/span>. /etc/os-release &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#111">$VERSION_CODENAME&lt;/span>&lt;span style="color:#d88200">&amp;#34;&lt;/span>&lt;span style="color:#00a8c8">)&lt;/span>&lt;span style="color:#d88200"> stable&amp;#34;&lt;/span> &lt;span style="color:#111">|&lt;/span> sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo service docker start
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo docker run hello-world
@@ -36,7 +36,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -t ubuntu &lt;span style="color:#75715e"># run detached&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -it ubuntu /bin/bash
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker &lt;span style="color:#111">exec&lt;/span> -it &amp;lt;containername&amp;gt; /bin/bash
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker compose run -it web /bin/bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="anaconda-image">Anaconda Image&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker pull continuumio/anaconda3

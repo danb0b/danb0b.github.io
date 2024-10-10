@@ -31,8 +31,6 @@
 &lt;/ul>
 &lt;h2 id="first-update-apt">First, update apt&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#save this for the end&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt upgrade -y&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="if-a-virtual-machine">If a Virtual machine&lt;/h2>
 &lt;ol>
 &lt;li>
@@ -53,7 +51,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#python editor&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y spyder3
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#ifconfig command and other networking tools&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install net-tools
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y net-tools
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#misc&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y curl
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#python packages&lt;/span>
@@ -78,7 +76,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -t ubuntu &lt;span style="color:#75715e"># run detached&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -it ubuntu /bin/bash
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker &lt;span style="color:#111">exec&lt;/span> -it &amp;lt;containername&amp;gt; /bin/bash
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker compose run -it web /bin/bash
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="anaconda-image">Anaconda Image&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker pull continuumio/anaconda3
@@ -87,8 +85,8 @@
 &lt;p>&lt;a href="https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde">&lt;em>https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde&lt;/em>&lt;/a>&lt;/p></description></item><item><title>Demonstrating Unicast in ROS2 on virtual machines over a local network using CycloneDDS</title><link>https://www.danaukes.com/notebook/ros2/20-configuring-unicast-dds-with-cyclone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/20-configuring-unicast-dds-with-cyclone/</guid><description>&lt;p>Switching from ROS2&amp;rsquo;s multicast default to unicast can be a bit tricky, especially if you&amp;rsquo;re testing. I came up with a way to get it working between to virtualbox virtual machine clones and wanted to share my strategy.&lt;/p></description></item><item><title>ROS Installation Summary</title><link>https://www.danaukes.com/notebook/deprecated/ros/02-ros-install-and-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/02-ros-install-and-config/</guid><description>&lt;p>This is derived from &lt;a href="https://wiki.ros.org/melodic/Installation/Ubuntu">the official tutorial&lt;/a>&lt;/p></description></item><item><title>SSH, Keys, and GPG</title><link>https://www.danaukes.com/notebook/ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ssh/</guid><description>Tools and topics specific to SSH, GPG, and encryption</description></item><item><title>Demonstrating Unicast in ROS2 on two docker containers with CycloneDDS</title><link>https://www.danaukes.com/notebook/ros2/21-configuring-two-docker-containers-with-unicast-local/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/21-configuring-two-docker-containers-with-unicast-local/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>In other articles I have shown how to configure a virtual machine to talk over cycloneDDS using unicast rather than the default multicast. This article details the steps required to do the same in docker. Docker is much lighter weight to set up than a virtual machine, and is a useful choice if you want to test your network.&lt;/p></description></item><item><title>Installing and Configuring the default ROS Environment</title><link>https://www.danaukes.com/notebook/deprecated/ros/02.1-install-default-ros-workspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/02.1-install-default-ros-workspace/</guid><description>&lt;p>This is not necessary if you will be creating your own custom workspace&lt;/p></description></item><item><title>ROS2 Tutorial Pages</title><link>https://www.danaukes.com/notebook/ros2/</link><pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/</guid><description>A Walkthrough of current ROS2 topics</description></item><item><title>03-Install and Setup ```rclone```</title><link>https://www.danaukes.com/notebook/ubuntu-setup/03-install-and-setup-rclone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/03-install-and-setup-rclone/</guid><description>how to install and setup rclone</description></item><item><title>Configuring ROS2 over a Tailscale VPN on Ubuntu</title><link>https://www.danaukes.com/notebook/ros2/30-configuring-ros-over-tailscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/30-configuring-ros-over-tailscale/</guid><description>&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
 &lt;p>This tutorial assumes you have already installed ROS2 on a PC, Raspberry pi, or virtual machine running Ubuntu. For those tutorials, please see:&lt;/p></description></item><item><title>IOT Stuff</title><link>https://www.danaukes.com/notebook/iot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/iot/</guid><description>Collection of IOT Notes</description></item><item><title>Navigating the Ros Filesystem (optional)</title><link>https://www.danaukes.com/notebook/deprecated/ros/03-ros-usage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/03-ros-usage/</guid><description>&lt;p>From &lt;a href="https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">here&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt-get install ros-&amp;lt;distro&amp;gt;-ros-tutorials&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install ros-melodic-ros-tutorials
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install -y ros-&amp;lt;distro&amp;gt;-ros-tutorials&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y ros-melodic-ros-tutorials
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#rospack find [package_name]&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rospack find roscpp
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#roscd [locationname[/subdir]]&lt;/span>
@@ -144,10 +142,10 @@ ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
 echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
 &lt;/code>&lt;/pre>&lt;h2 id="windows-install">Windows Install&lt;/h2>
 &lt;p>Set powershell-specific security settings&lt;/p></description></item><item><title>05-general python install</title><link>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/05.1-install-python-gen/</guid><description>&lt;h2 id="install-latest-anaconda--miniconda">Install Latest Anaconda / Miniconda&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install git python3-pip python3-venv
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y git python3-pip python3-venv
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y build-essential
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install libgeos-dev&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install -y libgeos-dev&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>python3 -m venv ~/envs/gen
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>. envs/gen/bin/activate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
@@ -186,8 +184,8 @@ echo &amp;#34;alias python=python3&amp;#34; &amp;gt;&amp;gt; .bashrc
 &lt;ol>
 &lt;li>Install prerequisites&lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code>sudo apt install ros-melodic-joy
-sudo apt install python3-numpy
+&lt;pre tabindex="0">&lt;code>sudo apt install -y ros-melodic-joy
+sudo apt install -y python3-numpy
 &lt;/code>&lt;/pre>&lt;ol>
 &lt;li>
 &lt;p>Install libnifalcon (instructions in Falcon tutorial)&lt;/p></description></item><item><title>Creating a new package</title><link>https://www.danaukes.com/notebook/deprecated/ros/06.0-create-a-new-package/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/06.0-create-a-new-package/</guid><description>&lt;h2 id="create-a-new-package">Create a new package&lt;/h2>
@@ -228,11 +226,11 @@ catkin_make
 &lt;p>Install&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey &lt;span style="color:#111">|&lt;/span> sudo apt-key add -
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo sh -c &lt;span style="color:#d88200">&amp;#39;echo &amp;#34;deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main&amp;#34; &amp;gt; /etc/apt/sources.list.d/atom.list&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install -y atom
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y atom
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apm install language-markdown markdown-preview-plus markdown-table-formatter wordcount character-table
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># should already have texlive-full installed...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install latexmk
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y latexmk
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>apm install language-latex latex pdf-view
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
@@ -291,7 +289,7 @@ WantedBy=multi-user.target
 &lt;ul>
 &lt;li>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/">https://www.answertopia.com/ubuntu/ubuntu-remote-desktop-access-with-vnc/&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Logging in Ubuntu</title><link>https://www.danaukes.com/notebook/logging-in-ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logging-in-ubuntu/</guid><description>A place to hold information about setting up, viewing, and controlling logging.</description></item><item><title>Looping Video into Zoom</title><link>https://www.danaukes.com/notebook/video-loopback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/video-loopback/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install v4l2loopback-dkms v4l-utils
+&lt;/ul></description></item><item><title>Logging in Ubuntu</title><link>https://www.danaukes.com/notebook/logging-in-ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logging-in-ubuntu/</guid><description>A place to hold information about setting up, viewing, and controlling logging.</description></item><item><title>Looping Video into Zoom</title><link>https://www.danaukes.com/notebook/video-loopback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/video-loopback/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y v4l2loopback-dkms v4l-utils
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ls /dev/video*
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo modprobe v4l2loopback &lt;span style="color:#111">video_nr&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">9&lt;/span> &lt;span style="color:#111">card_label&lt;/span>&lt;span style="color:#f92672">=&lt;/span>“virtual-cam” 
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ffmpeg -stream_loop -1 -re -i 2020-10-01-110554.webm -f v4l2 /dev/video9
@@ -305,7 +303,7 @@ WantedBy=multi-user.target
 &lt;/ul></description></item><item><title>mail setup</title><link>https://www.danaukes.com/notebook/deprecated/mail-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/mail-setup/</guid><description>&lt;p>&lt;a href="https://ubuntu.com/server/docs/mail-dovecot">https://ubuntu.com/server/docs/mail-dovecot&lt;/a>&lt;/p></description></item><item><title>Nextcloud Installation</title><link>https://www.danaukes.com/notebook/nextcloud-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/nextcloud-install/</guid><description>&lt;ol>
 &lt;li>
 &lt;p>Prerequisites&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo apt install openssh-server net-tools
+&lt;pre tabindex="0">&lt;code>sudo apt install -y openssh-server net-tools
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
 &lt;p>Install&lt;/p></description></item><item><title>Port Forwarding Cheatsheet</title><link>https://www.danaukes.com/notebook/ssh/port-forwarding-cheatsheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ssh/port-forwarding-cheatsheet/</guid><description>&lt;pre tabindex="0">&lt;code>ssh -L (localport):localhost:(remoteport) -C -N -l (username) hostname.domain -p (sshport)
@@ -342,9 +340,9 @@ WantedBy=multi-user.target
 &lt;li>
 &lt;p>install opencv for python&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install python3-opencv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y python3-opencv
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># may be done already depending on what you installed.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install ros-melodic-cv-bridge&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#sudo apt install -y ros-melodic-cv-bridge&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>other installs:&lt;/p></description></item><item><title>Creating a custom Photon Package</title><link>https://www.danaukes.com/notebook/deprecated/ros/15-photon-tcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/15-photon-tcp/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
@@ -355,7 +353,7 @@ WantedBy=multi-user.target
 &lt;p>install uvc stuff.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y libuvc-dev guvcview cheese v4l-utils
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install uvccapture uvcdynctrl&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install -y uvccapture uvcdynctrl&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>try guvcview or cheese to see if you can see video output(may need to install):&lt;/p></description></item><item><title>Installing Windows Fonts</title><link>https://www.danaukes.com/notebook/ubuntu-setup/18-windows-fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/18-windows-fonts/</guid><description>&lt;p>Derived from &lt;a href="https://askubuntu.com/questions/651441/how-to-install-arial-font-and-other-windows-fonts-in-ubuntu">here&lt;/a>:&lt;/p>
@@ -389,7 +387,7 @@ WantedBy=multi-user.target
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt clean
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo reboot &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#75715e"># to restart immediately&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Post-Install Miscellaneous Steps</title><link>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ubuntu-setup/90-misc/</guid><description>&lt;h2 id="install-gnome-tweaks">Install gnome tweaks&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install gnome-tweaks
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y gnome-tweaks
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="tweaking-the-gui">Tweaking the GUI&lt;/h2>
 &lt;ol>
 &lt;li>Open &amp;ldquo;Extensions&amp;rdquo; and turn off desktop icons&lt;/li>
@@ -445,7 +443,7 @@ WantedBy=multi-user.target
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ccmake .
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>then configure, generate&lt;/p></description></item><item><title>Compiling Ardour</title><link>https://www.danaukes.com/notebook/deprecated/compiling-ardour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/compiling-ardour/</guid><description>&lt;h2 id="intro">Intro&lt;/h2>
 &lt;p>The steps for building ardour are not complete &lt;a href="https://ardour.org/building_linux.html">on their website&lt;/a>. Here are a couple helpful things for automating it more.&lt;/p></description></item><item><title>Dealing with .heif Images</title><link>https://www.danaukes.com/notebook/heif/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/heif/</guid><description>&lt;p>&lt;a href="https://linuxnightly.com/convert-heif-images-to-jpg-or-png-on-linux/">https://linuxnightly.com/convert-heif-images-to-jpg-or-png-on-linux/&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install libheif-examples
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y libheif-examples
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>heif-convert image.HEIC new-image.jpg
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>using find&amp;hellip;&lt;/p></description></item><item><title>Disabling Printer Scanning</title><link>https://www.danaukes.com/notebook/deprecated/disable-printer-scanning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/disable-printer-scanning/</guid><description>&lt;div class="alert alert-primary">
 These don't seem to fix my problem currently. Use with care.
@@ -495,16 +493,16 @@ echo $dl_url
 &lt;p>Trying to run a pyBullet script, I kept getting this kind of error:&lt;/p></description></item><item><title>getting Ubuntu 20.04.5 installed and working on a raspberry pi</title><link>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/raspberry-pi-ubuntu-headless/</guid><description>&lt;p>&lt;a href="https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/">https://roboticsbackend.com/install-ubuntu-on-raspberry-pi-without-monitor/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://forums.raspberrypi.com/viewtopic.php?t=315089">https://forums.raspberrypi.com/viewtopic.php?t=315089&lt;/a>&lt;/p>
 &lt;p>the raspberry pi imager has some issues
-you can add invalid characters that make the config invalid&amp;hellip;need to check it.&lt;/p></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install vino
-sudo apt install winpr-utils&lt;/p></description></item><item><title>identify packages added using apt's log</title><link>https://www.danaukes.com/notebook/identify-packages-added-using-log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/identify-packages-added-using-log/</guid><description>&lt;p>first step is to find the first line number where a particular date occurs&lt;/p></description></item><item><title>Install Google Fonts</title><link>https://www.danaukes.com/notebook/deprecated/install-google-fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/install-google-fonts/</guid><description>&lt;p>The advice on whether to install these fonts is a bit outdated as many of the fonts are going &amp;ldquo;variable weight&amp;rdquo; which does not play nice with xetex and thus pandoc. So the best thing to do would be to install an older version of google fonts, but I haven&amp;rsquo;t found that older commit that works yet.&lt;/p></description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
+you can add invalid characters that make the config invalid&amp;hellip;need to check it.&lt;/p></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install -y vino
+sudo apt install -y winpr-utils&lt;/p></description></item><item><title>identify packages added using apt's log</title><link>https://www.danaukes.com/notebook/identify-packages-added-using-log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/identify-packages-added-using-log/</guid><description>&lt;p>first step is to find the first line number where a particular date occurs&lt;/p></description></item><item><title>Install Google Fonts</title><link>https://www.danaukes.com/notebook/deprecated/install-google-fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/install-google-fonts/</guid><description>&lt;p>The advice on whether to install these fonts is a bit outdated as many of the fonts are going &amp;ldquo;variable weight&amp;rdquo; which does not play nice with xetex and thus pandoc. So the best thing to do would be to install an older version of google fonts, but I haven&amp;rsquo;t found that older commit that works yet.&lt;/p></description></item><item><title>Installing GrapheneOS on a Pixel 4a</title><link>https://www.danaukes.com/notebook/graphene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/graphene/</guid><description>&lt;p>Instructions derived from &lt;a href="https://grapheneos.org/install/cli">https://grapheneos.org/install/cli&lt;/a>&lt;/p>
 &lt;h2 id="download-developer-tools">Download Developer Tools&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install android-sdk-platform-tools-common
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install signify-openbsd
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y android-sdk-platform-tools-common
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y signify-openbsd
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#34;alias signify=signify-openbsd&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt remove adb 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir ~/adb
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> ~/adb
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install libarchive-tools
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y libarchive-tools
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl -O https://dl.google.com/android/repository/platform-tools_r33.0.3-linux.zip
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">echo&lt;/span> &lt;span style="color:#d88200">&amp;#39;ab885c20f1a9cb528eb145b9208f53540efa3d26258ac3ce4363570a0846f8f7 platform-tools_r33.0.3-linux.zip&amp;#39;&lt;/span> &lt;span style="color:#111">|&lt;/span> sha256sum -c
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>bsdtar xvf platform-tools_r33.0.3-linux.zip
@@ -516,12 +514,12 @@ sudo apt install winpr-utils&lt;/p></description></item><item><title>identify pa
 &lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>sudo cp 98-korg-nano.rules /etc/udev/rules.d/
 sudo chmod 644 /etc/udev/rules.d/98-korg-nano.rules
 sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>#sudo apt install libasound2-dev 
-#sudo apt install python3-pyrex
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>#sudo apt install -y libasound2-dev 
+#sudo apt install -y python3-pyrex
 #pip3 install pyalsa
 #pip3 install pygame
 #pip3 install alsaseq
-sudo apt-get install libjack-dev
+sudo apt install -y libjack-dev
 pip3 install python-rtmidi mido
 &lt;/code>&lt;/pre></description></item><item><title>LibCamera Info</title><link>https://www.danaukes.com/notebook/deprecated/ros/17-libcamera/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/17-libcamera/</guid><description>&lt;h2 id="libcamera">LibCamera&lt;/h2>
 &lt;p>Read more about the new &lt;a href="https://libcamera.org/getting-started.html">libcamera&lt;/a>. This may make some of the following information old&lt;/p></description></item><item><title>Linux / Bash Cheatsheet Bookmarks</title><link>https://www.danaukes.com/bookmarks/linux-cheatsheet-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/bookmarks/linux-cheatsheet-links/</guid><description>how-to-geek&amp;rsquo;s links</description></item><item><title>Logitech K380 function keys</title><link>https://www.danaukes.com/notebook/logitech-keyboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/logitech-keyboard/</guid><description>&lt;ul>
@@ -533,7 +531,7 @@ pip3 install python-rtmidi mido
 &lt;li>&lt;a href="https://askubuntu.com/questions/699138/logitech-k380-bluetooth-keyboard-make-function-keys-default">https://askubuntu.com/questions/699138/logitech-k380-bluetooth-keyboard-make-function-keys-default&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.radishlogic.com/tools/how-to-reverse-the-f-keys-of-logitech-k380-keyboard/">https://www.radishlogic.com/tools/how-to-reverse-the-f-keys-of-logitech-k380-keyboard/&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Turn on the device and read dmesg:&lt;/p></description></item><item><title>Micropython on Linux</title><link>https://www.danaukes.com/notebook/micropython-on-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/micropython-on-linux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install build-essential libffi-dev git pkg-config
+&lt;p>Turn on the device and read dmesg:&lt;/p></description></item><item><title>Micropython on Linux</title><link>https://www.danaukes.com/notebook/micropython-on-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/micropython-on-linux/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y build-essential libffi-dev git pkg-config
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/&amp;lt;your-user-name&amp;gt;/micropython
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#111">cd&lt;/span> micropython
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote add upstream https://github.com/micropython/micropython
@@ -592,7 +590,7 @@ search for &amp;ldquo;world clock&amp;rdquo; and select &amp;ldquo;panel world c
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="commands">Commands&lt;/h2>
 &lt;p>How to add, query, or set new trusted domains&lt;/p></description></item><item><title>Plotting in ROS</title><link>https://www.danaukes.com/notebook/ros2/60-plotting-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/60-plotting-data/</guid><description>&lt;p>&lt;a href="https://robotics.stackexchange.com/questions/102973/rqt-plot-in-ros-2">Don&amp;rsquo;t try to use rqt_plot, use Plotjuggler&lt;/a>&lt;/p></description></item><item><title>RDP to another computer</title><link>https://www.danaukes.com/notebook/xrdp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/xrdp/</guid><description>&lt;p>Derived from &lt;a href="https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10">here&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install xrdp
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y xrdp
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> --now xrdp
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw allow from any to any port &lt;span style="color:#ae81ff">3389&lt;/span> proto tcp
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo service xrdp &lt;span style="color:#111">enable&lt;/span>
@@ -600,23 +598,45 @@ search for &amp;ldquo;world clock&amp;rdquo; and select &amp;ldquo;panel world c
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
 &lt;li>
 &lt;p>open remmina&lt;/p></description></item><item><title>recover data from an sd card</title><link>https://www.danaukes.com/notebook/recover-sd-card/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/recover-sd-card/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card">https://askubuntu.com/questions/330568/how-to-restore-photos-on-sd-card&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install testdisk
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y testdisk
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo photorec
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Recovering Files</title><link>https://www.danaukes.com/notebook/recovering-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/recovering-files/</guid><description>&lt;p>&lt;a href="https://ext4magic.sourceforge.net/howto_en.html">https://ext4magic.sourceforge.net/howto_en.html&lt;/a>&lt;/p></description></item><item><title>Removing Snap from Ubuntu</title><link>https://www.danaukes.com/notebook/removing-firefox-snap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/removing-firefox-snap/</guid><description>&lt;p>This is useful for stalled updates when installing ubuntu-desktop-minimal on a server. the firefox snap package seems to hang.&lt;/p></description></item><item><title>Reset iptables</title><link>https://www.danaukes.com/notebook/reset-ip-tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/reset-ip-tables/</guid><description>&lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/">https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/&lt;/a>&lt;/p></description></item><item><title>Setting up OptiTrack</title><link>https://www.danaukes.com/notebook/deprecated/ros/optitrack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/optitrack/</guid><description>&lt;h2 id="links">Links&lt;/h2>
+&lt;p>&lt;a href="https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/">https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/&lt;/a>&lt;/p></description></item><item><title>Set up Dovecot and Postfix</title><link>https://www.danaukes.com/notebook/deprecated/setup-postfix-dovecot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/setup-postfix-dovecot/</guid><description>&lt;h2 id="external-references">External References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.gitlab.com/ee/administration/reply_by_email_postfix_setup.html">https://docs.gitlab.com/ee/administration/reply_by_email_postfix_setup.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://subatomicsolutions.org/8-freebsd/23-smtp-email-server-with-postfix">https://subatomicsolutions.org/8-freebsd/23-smtp-email-server-with-postfix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://subatomicsolutions.org/8-freebsd/24-imap-or-pop3-email-server-with-dovecot">https://subatomicsolutions.org/8-freebsd/24-imap-or-pop3-email-server-with-dovecot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.dovecot.org/configuration_manual/quick_configuration/">https://doc.dovecot.org/configuration_manual/quick_configuration/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.arubacloud.com/tutorial/how-to-configure-a-pop3-imap-mail-server-with-dovecot-on-ubuntu-18-04.aspx">https://www.arubacloud.com/tutorial/how-to-configure-a-pop3-imap-mail-server-with-dovecot-on-ubuntu-18-04.aspx&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/docker-mailserver/docker-mailserver/blob/master/README.md">https://github.com/docker-mailserver/docker-mailserver/blob/master/README.md&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.freekb.net/Article?id=3747">http://www.freekb.net/Article?id=3747&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="docker-approach">Docker Approach&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo docker pull instrumentisto/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run --rm instrumentisto/dovecot doveconf &amp;gt; my-dove-conf.conf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf instrumentisto/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf instrumentisto/dovecot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo docker pull dovecot/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run --rm dovecot/dovecot doveconf &amp;gt; my-dove-conf.conf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf dovecot/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf dovecot/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -p 143:143 -v ~/etc_dovecot:/etc/dovecot -v ~/srv_mail:/srv/mail dovecot/dovecot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Setting up OptiTrack</title><link>https://www.danaukes.com/notebook/deprecated/ros/optitrack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/ros/optitrack/</guid><description>&lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="http://wiki.ros.org/mocap_optitrack">http://wiki.ros.org/mocap_optitrack&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="install">Install&lt;/h2>
-&lt;pre tabindex="0">&lt;code>sudo apt install ros-melodic-mocap-optitrack
+&lt;pre tabindex="0">&lt;code>sudo apt install -y ros-melodic-mocap-optitrack
 &lt;/code>&lt;/pre>&lt;h2 id="create-a-rigid-body-and-ensure-it-is-being-transmitted-from-motiv">Create a rigid body and ensure it is being transmitted from Motiv&lt;/h2>
 &lt;p>&lt;a class="glightbox" href="image1.jpg" data-glightbox="descPosition: bottom; description: ">&lt;img alt="" src="image1.jpg" style="margin:3px;object-fit:cover;max-width:200px;height:200px;"/>&lt;/a>&lt;/p></description></item><item><title>Setup Samba from Bash</title><link>https://www.danaukes.com/notebook/setup-samba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/setup-samba/</guid><description>&lt;h2 id="make-your-folder">Make your folder&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mkdir ~/happy
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>chmod &lt;span style="color:#ae81ff">0700&lt;/span> ~/happy
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="set-up-samba">Set up samba&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install samba
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y samba
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nano /etc/samba/smb.conf
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code># Networked Attached Storage Share
 [nas]
@@ -686,11 +706,11 @@ VBOXAUTOSTART_CONFIG=/etc/vbox/autostartvm.cfg
 &lt;p>This article shows the following:&lt;/p></description></item><item><title>using wine</title><link>https://www.danaukes.com/notebook/wine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/wine/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y wine64 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install wine64-development wine64-tools wine64-preloader 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install wine winetricks
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y wine64-development wine64-tools wine64-preloader 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y wine winetricks
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>from &lt;a href="https://phoenixnap.com/kb/how-to-install-wine-on-ubuntu">here&lt;/a>&lt;/p></description></item><item><title>Weylus</title><link>https://www.danaukes.com/notebook/weylus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/weylus/</guid><description>&lt;p>&lt;a href="https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux">https://askubuntu.com/questions/1160888/is-there-a-way-to-use-my-galaxy-tab-s-like-a-wacom-tablet-on-linux&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://github.com/H-M-H/Weylus#running">https://github.com/H-M-H/Weylus#running&lt;/a>&lt;/p></description></item><item><title>Working with pdfs from the command line</title><link>https://www.danaukes.com/notebook/working-with-pdfs-from-the-command-line/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/working-with-pdfs-from-the-command-line/</guid><description>&lt;h2 id="merge-pdfs-from-bash">Merge pdfs from Bash&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install pdftk
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install -y pdftk
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>pdftk file1.pdf file2.pdf cat output mergedfile.pdf
 &lt;/code>&lt;/pre>&lt;p>from &lt;a href="https://www.maketecheasier.com/combine-multiple-pdf-files-with-pdftk/">here&lt;/a>&lt;/p></description></item><item><title>Working with topics</title><link>https://www.danaukes.com/notebook/ros2/50-ros2-topics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2/50-ros2-topics/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rostopic list
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ros2 topic info /myrobot/sensor1

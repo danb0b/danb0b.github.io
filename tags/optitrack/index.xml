@@ -3,6 +3,6 @@
 &lt;li>&lt;a href="http://wiki.ros.org/mocap_optitrack">http://wiki.ros.org/mocap_optitrack&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="install">Install&lt;/h2>
-&lt;pre tabindex="0">&lt;code>sudo apt install ros-melodic-mocap-optitrack
+&lt;pre tabindex="0">&lt;code>sudo apt install -y ros-melodic-mocap-optitrack
 &lt;/code>&lt;/pre>&lt;h2 id="create-a-rigid-body-and-ensure-it-is-being-transmitted-from-motiv">Create a rigid body and ensure it is being transmitted from Motiv&lt;/h2>
 &lt;p>&lt;a class="glightbox" href="image1.jpg" data-glightbox="descPosition: bottom; description: ">&lt;img alt="" src="image1.jpg" style="margin:3px;object-fit:cover;max-width:200px;height:200px;"/>&lt;/a>&lt;/p></description></item></channel></rss>

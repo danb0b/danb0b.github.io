@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dovecot on Dan Aukes</title><link>https://www.danaukes.com/tags/dovecot/</link><description>Recent content in Dovecot on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/dovecot/index.xml" rel="self" type="application/rss+xml"/><item><title>Set up Dovecot and Postfix</title><link>https://www.danaukes.com/notebook/deprecated/setup-postfix-dovecot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/deprecated/setup-postfix-dovecot/</guid><description>&lt;h2 id="external-references">External References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04">https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.gitlab.com/ee/administration/reply_by_email_postfix_setup.html">https://docs.gitlab.com/ee/administration/reply_by_email_postfix_setup.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://subatomicsolutions.org/8-freebsd/23-smtp-email-server-with-postfix">https://subatomicsolutions.org/8-freebsd/23-smtp-email-server-with-postfix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://subatomicsolutions.org/8-freebsd/24-imap-or-pop3-email-server-with-dovecot">https://subatomicsolutions.org/8-freebsd/24-imap-or-pop3-email-server-with-dovecot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.dovecot.org/configuration_manual/quick_configuration/">https://doc.dovecot.org/configuration_manual/quick_configuration/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.arubacloud.com/tutorial/how-to-configure-a-pop3-imap-mail-server-with-dovecot-on-ubuntu-18-04.aspx">https://www.arubacloud.com/tutorial/how-to-configure-a-pop3-imap-mail-server-with-dovecot-on-ubuntu-18-04.aspx&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/docker-mailserver/docker-mailserver/blob/master/README.md">https://github.com/docker-mailserver/docker-mailserver/blob/master/README.md&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.freekb.net/Article?id=3747">http://www.freekb.net/Article?id=3747&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="docker-approach">Docker Approach&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo docker pull instrumentisto/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run --rm instrumentisto/dovecot doveconf &amp;gt; my-dove-conf.conf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf instrumentisto/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf instrumentisto/dovecot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo docker pull dovecot/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run --rm dovecot/dovecot doveconf &amp;gt; my-dove-conf.conf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf dovecot/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -d -p 143:143 -v ~/my-dove-conf.conf:/etc/dovecot/dovecot.conf dovecot/dovecot
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker run -p 143:143 -v ~/etc_dovecot:/etc/dovecot -v ~/srv_mail:/srv/mail dovecot/dovecot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
