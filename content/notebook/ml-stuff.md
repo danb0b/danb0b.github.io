@@ -24,16 +24,17 @@ conda deactivate && conda activate sb3
 plain python environment
 
 ```bash
-# python3 -m venv ~/envs/sb3
 sudo add-apt-repository ppa:deadsnakes/ppa -y
-sudo apt install -y python3.11-venv
+sudo apt update
+sudo apt install python3.11-venv
 python3.11 -m venv ~/envs/sb3
 . envs/sb3/bin/activate
 pip install --upgrade pip
-pip install stable-baselines3[extra]
 pip install mujoco==2.3.7
+pip install 'stable-baselines3[extra]'
 pip install gymnasium[mujoco]
 pip install jupyter
+pip install mediapy
 ```
 
 some things get installed in .local/bin, so we need to do
