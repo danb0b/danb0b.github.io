@@ -115,6 +115,10 @@ iwgetid -r # just the name
 ### list all wifis
 
 ```bash
+iwlist wlan0 scan
+```
+
+```bash
 sudo apt install -y network-manager
 nmcli -f in-use,ssid,bssid,signal,bars  dev wifi
 ```
