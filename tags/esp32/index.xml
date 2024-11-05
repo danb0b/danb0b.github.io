@@ -16,4 +16,8 @@ simplefoc&lt;/p></description></item><item><title>ESP32 Servo Notes</title><link
 &lt;p>Make sure to prepare arduino for programming the esp32&lt;/p></description></item><item><title>Running Ros2 on an ESP32</title><link>https://www.danaukes.com/notebook/ros2-and-esp32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/ros2-and-esp32/</guid><description>&lt;h2 id="virtualbox-guest-master-setup">Virtualbox guest master setup&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>create a virtual machine&lt;/p></description></item></channel></rss>
+&lt;p>create a virtual machine&lt;/p></description></item><item><title>Working with the BNO085</title><link>https://www.danaukes.com/notebook/bno085/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/bno085/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>Part: &lt;a href="https://www.amazon.com/Teyleten-Robot-BNO085-Accuracy-Nine-Axis/dp/B0CL26J81F?ie=UTF8">https://www.amazon.com/Teyleten-Robot-BNO085-Accuracy-Nine-Axis/dp/B0CL26J81F?ie=UTF8&lt;/a>&lt;/li>
+&lt;li>Code: &lt;a href="https://github.com/micropython-IMU/micropython-bno055">https://github.com/micropython-IMU/micropython-bno055&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
