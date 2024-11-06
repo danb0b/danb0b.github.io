@@ -45,6 +45,7 @@ Reusable links related to Arizona State University
 * [Service Now Portal - Service Portal](https://asu.service-now.com/sp/)
 * [Facilities Management Request Services](https://cfo.asu.edu/requests-for-service)
 * [TPS room reservations](https://poly.engineering.asu.edu/rooms/)
+* [MSN Room reservations](https://msn.engineering.asu.edu/room-reservation/)
 * [ASURITE Service Subsctiptions](https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fselfsub.asu.edu%252Fapps%252FWebObjects%252FASURITEManagement)
 * [ISAAC Request -- Poly](https://fultonapps.asu.edu/isaac/poly)
 * [ID Card - Business and Finance](https://cfo.asu.edu/cardservices)
