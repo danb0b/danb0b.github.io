@@ -58,7 +58,8 @@ ipe \
 darktable \
 exfat-fuse exfatprogs \
 git-filter-repo \
-blueman
+blueman \
+librecad
 ```
 
 ### Optional
