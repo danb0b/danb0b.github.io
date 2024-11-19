@@ -22,12 +22,11 @@ Edit /boot/grub/grub.cfg to make a copy of your top menu entry in the advanced m
 
 make sure to replace initrd img with the safe copy you just created
 
-
 ```bash
 sudo nano /boot/grub/grub.cfg 
 ```
 
-make a copy of the modified grub 
+make a copy of the modified grub
 
 ```bash
 sudo cp /boot/grub/grub.cfg /boot/grub/grub.cfg.mod
@@ -55,6 +54,7 @@ sudo dd if=/dev/urandom of=/boot/keyfile bs=1024 count=4
 sudo chmod 0400 /boot/keyfile
 sudo cryptsetup -v luksAddKey /dev/sda3 /boot/keyfile
 ```
+
 find the drive the mounts at /boot (the uuid of the raw drive, not the encrypted drive.)
 
 get its uuid
@@ -75,14 +75,12 @@ back up crypttab
 sudo cp /etc/crypttab /etc/crypttab.bak
 ```
 
-sudo nano /etc/crypttab
-
-### . Edit /etc/crypttab
+### Edit /etc/crypttab
 
 Edit the contents of file /etc/crypttab (use the UUID of /dev/sda1 from the previous step)
 
 ```
-vi /etc/crypttab
+sudo nano /etc/crypttab
 ```
 
 This contents should be:
@@ -103,8 +101,10 @@ sda5_crypt UUID=9b7200b5-0e0a-447a-93a8-7eb8f1f4a1ee /dev/disk/by-uuid/2a5e9b7f-
 
 In this case the UUID for our /dev/sda1 UUID was `2a5e9b7f...`.
 
+```bash
 sudo update-initramfs -u -k all
 sudo reboot now
+```
 
 -------------------
 

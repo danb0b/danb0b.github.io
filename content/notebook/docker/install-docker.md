@@ -34,9 +34,15 @@ From [here](https://docs.docker.com/engine/install/ubuntu/)
     sudo usermod -a -G docker $USER
     ```
 
+1. Login:
+
+    ```bash
+    docker login -u <username>
+    ```
+
 1. Restart
 
-## USE
+## Usage
 
 ```bash
 docker pull alpine
@@ -47,8 +53,7 @@ docker pull ubuntu
 docker run -it ubuntu bash
 ```
 
-
-## 
+##
 
 docker container ls -a
 docker container rm <id>
