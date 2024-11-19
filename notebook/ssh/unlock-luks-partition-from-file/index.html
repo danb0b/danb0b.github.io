@@ -26,15 +26,16 @@
 </span></span></code></pre></div><p>find the drive the mounts at /boot (the uuid of the raw drive, not the encrypted drive.)</p><p>get its uuid</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>lsblk  -o NAME,UUID,MOUNTPOINTS
 </span></span></code></pre></div><p>find its path</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>ls -l /dev/disk/by-uuid/
 </span></span></code></pre></div><p>back up crypttab</p><pre tabindex=0><code>sudo cp /etc/crypttab /etc/crypttab.bak
-</code></pre><p>sudo nano /etc/crypttab</p><h3 id=-edit-etccrypttab>. Edit /etc/crypttab</h3><p>Edit the contents of file /etc/crypttab (use the UUID of /dev/sda1 from the previous step)</p><pre tabindex=0><code>vi /etc/crypttab
+</code></pre><h3 id=edit-etccrypttab>Edit /etc/crypttab</h3><p>Edit the contents of file /etc/crypttab (use the UUID of /dev/sda1 from the previous step)</p><pre tabindex=0><code>sudo nano /etc/crypttab
 </code></pre><p>This contents should be:</p><pre tabindex=0><code>sda5_crypt UUID=9b7200b5-0e0a-447a-93a8-7eb8f1f4a1ee none luks,discard
 </code></pre><p>(The <em>UUID</em> may be different)
 The changes we&rsquo;ll be making:
 Replace the 3rd parameter ‐ <code>none</code> ‐ with <code>/dev/disk/by-uuid/&lt;uuid>:/keyfile</code> with the UUID for the hard drive at /boot
 Replace the 4th parameter ‐ <code>luks</code>‐ with <code>luks,keyscript=/lib/cryptsetup/scripts/passdev</code>
 The final result:</p><pre tabindex=0><code>sda5_crypt UUID=9b7200b5-0e0a-447a-93a8-7eb8f1f4a1ee /dev/disk/by-uuid/2a5e9b7f-2128-4a50-83b6-d1c285410145:/keyfile luks,keyscript=/lib/cryptsetup/scripts/passdev
-</code></pre><p>In this case the UUID for our /dev/sda1 UUID was <code>2a5e9b7f...</code>.</p><p>sudo update-initramfs -u -k all
-sudo reboot now</p><hr><p>sudo cryptsetup luksKillSlot /dev/nvme0n1p3 1
+</code></pre><p>In this case the UUID for our /dev/sda1 UUID was <code>2a5e9b7f...</code>.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo update-initramfs -u -k all
+</span></span><span style=display:flex><span>sudo reboot now
+</span></span></code></pre></div><hr><p>sudo cryptsetup luksKillSlot /dev/nvme0n1p3 1
 sudo cryptsetup luksDump /dev/nvme0n1p3
 sudo nano /etc/default/grub
 sudo update-grub

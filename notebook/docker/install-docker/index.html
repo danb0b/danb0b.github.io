@@ -19,7 +19,8 @@
 </span></span><span style=display:flex><span>sudo service docker start
 </span></span><span style=display:flex><span>sudo docker run hello-world
 </span></span></code></pre></div></li><li><p>Add current user to docker group</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo usermod -a -G docker <span style=color:#111>$USER</span>
-</span></span></code></pre></div></li><li><p>Restart</p></li></ol><h2 id=use>USE</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull alpine
+</span></span></code></pre></div></li><li><p>Login:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker login -u &lt;username&gt;
+</span></span></code></pre></div></li><li><p>Restart</p></li></ol><h2 id=usage>Usage</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker pull alpine
 </span></span><span style=display:flex><span>docker run -it alpine /bin/sh
 </span></span><span style=display:flex><span>docker run -v /home/&lt;username&gt;/&lt;path&gt;/:/test -it alpine sh
 </span></span><span style=display:flex><span>
