@@ -1,0 +1,47 @@
+baseURL: https://www.danaukes.com
+LanguageName: English
+LanguageCode: en
+title: "Dan Aukes"
+description: "This is my cool site"
+theme:
+- LoveIt
+ignorefiles:
+  - ignore/*
+author:
+- name: Dan Aukes
+menu:
+  main:
+  - name: Misc
+    weight: 98
+  - name: Categories
+    url: /categories/
+    weight: 100
+  - name: Tags
+    url: /tags/
+    weight: 99
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  recipe_tag: recipe_tags
+
+params:
+  defaultTheme: dark
+  enableGitInfo: true
+  gitRepo: "https://github.com/danb0b/danb0b.github.io"
+  header:
+    title:
+      name: Dan Aukes
+      typeit: false
+

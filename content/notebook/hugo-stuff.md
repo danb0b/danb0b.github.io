@@ -31,6 +31,9 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
     git submodule add https://github.com/danb0b/external_liva-hugo.git themes/liva-hugo
     # or
     git submodule add https://github.com/danb0b/website_hugo_framework.git themes/website_hugo_framework
+    # or 
+    git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+
     ```
     
 1. Add theme to ```config.yaml```
