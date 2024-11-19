@@ -1895,8 +1895,24 @@ you can add invalid characters that make the config invalid&amp;hellip;need to c
 &lt;ul>
 &lt;li>&lt;a href="https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot">https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/orgs/community/discussions/57244">https://github.com/orgs/community/discussions/57244&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Gitman repository manager</title><link>https://www.danaukes.com/code/gitman/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/code/gitman/</guid><description>&lt;p>A nice little package for synchronizing git repositories all over your computer&lt;/p></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;p>sudo apt install -y vino
-sudo apt install -y winpr-utils&lt;/p></description></item><item><title>Grandmother's Buttermilk Cornbread</title><link>https://www.danaukes.com/recipes/grandmothers-buttermilk-cornbread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/recipes/grandmothers-buttermilk-cornbread/</guid><description/></item><item><title>Granola</title><link>https://www.danaukes.com/recipes/granola/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/recipes/granola/</guid><description>&lt;h2 id="ingredients">Ingredients&lt;/h2>
+&lt;/ul></description></item><item><title>Gitman repository manager</title><link>https://www.danaukes.com/code/gitman/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/code/gitman/</guid><description>&lt;p>A nice little package for synchronizing git repositories all over your computer&lt;/p></description></item><item><title>Gnome Remote Desktop</title><link>https://www.danaukes.com/notebook/gnome-remote-desktop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/gnome-remote-desktop/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># sudo apt install -y vino # not necessary?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt install -y winpr-utils
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl restart gnome-remote-desktop.service
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo grdctl --system rdp &lt;span style="color:#111">enable&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo rm -rf ~gnome-remote-desktop/rdp-tls*
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo -u gnome-remote-desktop winpr-makecert -silent -rdp -path ~gnome-remote-desktop rdp-tls
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo grdctl --system rdp set-tls-key /var/lib/gnome-remote-desktop/rdp-tls.key
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo grdctl --system rdp set-tls-cert /var/lib/gnome-remote-desktop/rdp-tls.crt
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl daemon-reload
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl &lt;span style="color:#111">enable&lt;/span> --now gnome-remote-desktop.service
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo grdctl --system rdp set-credentials &lt;span style="color:#d88200">&amp;#34;name&amp;#34;&lt;/span> &lt;span style="color:#d88200">&amp;#34;password&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl restart gnome-remote-desktop.service
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>check status&lt;/p></description></item><item><title>Grandmother's Buttermilk Cornbread</title><link>https://www.danaukes.com/recipes/grandmothers-buttermilk-cornbread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/recipes/grandmothers-buttermilk-cornbread/</guid><description/></item><item><title>Granola</title><link>https://www.danaukes.com/recipes/granola/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/recipes/granola/</guid><description>&lt;h2 id="ingredients">Ingredients&lt;/h2>
 &lt;ul>
 &lt;li>6 cups uncooked quick oats (or old fashioned rolled oats)&lt;/li>
 &lt;li>1/2 bup brown sugar&lt;/li>
