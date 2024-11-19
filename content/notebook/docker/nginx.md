@@ -3,6 +3,7 @@ title: NginX docker config
 tags:
 - docker
 - nginx
+summary: ""
 ---
 
 docker compose:

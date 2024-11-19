@@ -4,6 +4,7 @@ icon: bi bi-github
 tags:
 - python
 - git
+summary: ""
 ---
 
 A nice little package for synchronizing git repositories all over your computer

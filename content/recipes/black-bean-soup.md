@@ -3,6 +3,7 @@ title: Black Bean Soup
 original_url: https://www.budgetbytes.com/slow-cooker-black-bean-soup/
 recipe_tags:
   - soup
+summary: ""
 ---
 
 ## Ingredients

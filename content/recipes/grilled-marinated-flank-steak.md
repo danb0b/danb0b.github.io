@@ -6,4 +6,5 @@ recipe_tags:
   - beef
 images:
   - scan0104_000.jpg
+summary: ""
 ---

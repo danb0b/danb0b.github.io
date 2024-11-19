@@ -1,11 +1,11 @@
 ---
 title: Linux / Bash Cheatsheet
-summary: Collected commands, tips, and tricks for working headless in Ubuntu
 tags:
   - linux
   - bash
   - ubuntu
 weight: 1
+summary: Collected commands, tips, and tricks for working headless in Ubuntu
 ---
 
 ## Find Kernel version

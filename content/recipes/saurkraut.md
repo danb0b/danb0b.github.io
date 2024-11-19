@@ -7,6 +7,7 @@ recipe_tags:
   - misc
   - topping
   - german
+summary: ""
 ---
 
 ## Ingredients

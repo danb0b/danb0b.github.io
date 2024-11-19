@@ -4,6 +4,7 @@ tags:
 - virtualbox
 - ROS2
 - esp32
+summary: ""
 ---
 
 ## Virtualbox guest master setup

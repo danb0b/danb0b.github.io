@@ -3,6 +3,7 @@ title: install git clients
 tags:
 - git
 - gui
+summary: ""
 ---
 
 

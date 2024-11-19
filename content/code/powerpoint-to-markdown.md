@@ -6,6 +6,7 @@ tags:
 - pandoc
 - office
 - presentations
+summary: ""
 ---
 
 A package for converting powerpoint files to markdown-beamer.

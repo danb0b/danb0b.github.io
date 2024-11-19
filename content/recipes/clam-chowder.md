@@ -3,6 +3,7 @@ title: Clam Chowder
 recipe_tags:
   - soup
 from: Tara McConnell
+summary: ""
 ---
 
 

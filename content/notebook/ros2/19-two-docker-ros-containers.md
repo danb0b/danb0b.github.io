@@ -3,6 +3,7 @@ title: Setting up two ROS2 containers in Docker
 tags:
 - docker
 - ros2
+summary: ""
 ---
 
 ## Introduction

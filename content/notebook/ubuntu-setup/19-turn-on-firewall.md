@@ -6,6 +6,7 @@ tags:
 - ubuntu
 - linux
 weight: 190
+summary: ""
 ---
 
 To turn on UFW,

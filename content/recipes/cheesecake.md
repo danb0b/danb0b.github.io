@@ -4,4 +4,5 @@ recipe_tags:
   - dessert
 images:
   - cheesecake.jpg
+summary: ""
 ---

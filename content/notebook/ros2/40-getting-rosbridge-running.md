@@ -5,6 +5,7 @@ tags:
 - ros2
 - rosbridge
 weight: 40
+summary: ""
 ---
 
 ## Introduction

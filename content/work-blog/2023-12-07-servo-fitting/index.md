@@ -1,6 +1,7 @@
 ---
 title: "Micro Servo Data Collection, Parameter Identification, and Modeling: Parts 5 and 6"
 date: 2023-12-07
+summary: ""
 ---
 
 <video controls width="100%" loop autoplay muted src="servo-fitting.mp4">

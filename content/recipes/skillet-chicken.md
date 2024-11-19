@@ -4,6 +4,7 @@ original-url: https://cooking.nytimes.com/recipes/1019465-skillet-chicken-with-c
 recipe_tags:
   - main
   - chicken
+summary: ""
 ---
 
 ## Ingredients

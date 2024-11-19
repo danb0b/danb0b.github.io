@@ -4,6 +4,7 @@ tags:
 - github
 - github-actions
 - ci-cd
+summary: ""
 ---
 
 ## Using Hugo with Github Actions

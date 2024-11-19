@@ -6,6 +6,7 @@ recipe_tags:
   - bread
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Banana-Banana-Bread
+summary: ""
 ---
 ## Ingredients
 

@@ -6,6 +6,7 @@ tags:
   - ssh
   - security
 weight: 10
+summary: ""
 ---
 
 Updated for Ubuntu 22.04

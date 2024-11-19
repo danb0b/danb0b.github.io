@@ -7,6 +7,7 @@ tags:
 - robotics
 - servo
 - microdot
+summary: ""
 ---
 
 I have been working on this for a while...

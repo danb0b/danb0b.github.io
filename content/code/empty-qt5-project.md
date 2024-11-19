@@ -5,6 +5,7 @@ tags:
 - python
 - pyqt
 - qt
+summary: ""
 ---
 
 A nice little empty python package for developing qt5 guis, with installer setup file.  It builds right now, using the anaconda distribution and cx_freeze

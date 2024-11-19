@@ -7,4 +7,5 @@ recipe_tags:
   - chicken
 images:
   - scan0103_020.jpg
+summary: ""
 ---

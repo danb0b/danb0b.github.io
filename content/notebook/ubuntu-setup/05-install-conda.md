@@ -8,6 +8,7 @@ tags:
 - bash
 - ubuntu
 - linux
+summary: ""
 ---
 
 ## Install Latest Anaconda / Miniconda

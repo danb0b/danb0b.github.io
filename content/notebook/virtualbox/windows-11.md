@@ -3,6 +3,7 @@ title: Installing Windows 11 on Virtualbox
 tags:
 - virtualbox
 - windows
+summary: ""
 ---
 
 Settings that  worked  for  me

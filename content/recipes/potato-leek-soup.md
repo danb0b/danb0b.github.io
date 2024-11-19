@@ -4,6 +4,7 @@ recipe_tags:
   - soup
   - vegetable
 original_url: https://www.onceuponachef.com/recipes/potato-leek-soup.html
+summary: ""
 ---
 
 * 3 tablespoons unsalted butter

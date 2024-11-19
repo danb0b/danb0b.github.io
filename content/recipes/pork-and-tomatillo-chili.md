@@ -5,6 +5,7 @@ recipe_tags:
   - mexican
   - pork
 original_url: https://www.latimes.com/food/la-fo-pork-and-tomatillo-chili-s-story.html
+summary: ""
 ---
 
 This recipe from a story on chili-style dishes from around the world is one of those things that people just can’t stop eating; friends have been known to have thirds and then smile with slight embarrassment and serve themselves some more. Part of its appeal is that it smells so good while it’s cooking -- the combination of garlic, pork, orange juice and dark beer is extremely potent. It’s good served over rice or in bowls with corn bread on the side.

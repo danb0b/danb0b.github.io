@@ -4,6 +4,7 @@ icon: bi bi-files
 tags:
 - python
 - photos
+summary: ""
 ---
 
 Identify duplicate files

@@ -5,6 +5,7 @@ recipe_tags:
   - misc
   - topping
 original_url: https://www.foodnetwork.com/recipes/alton-brown/mayonnaise-recipe-1951119
+summary: ""
 ---
 ## Ingredients
 

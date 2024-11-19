@@ -1,12 +1,12 @@
 ---
 title: Calendar
 image: images/calendar.jpg
-summary: Find out what's on my schedule
 type: starred
 menu:
   footer:
     weight: 3
     name: Calendar
+summary: Find out what's on my schedule
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

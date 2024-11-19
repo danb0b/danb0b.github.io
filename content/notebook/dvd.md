@@ -2,6 +2,7 @@
 title: DVD backup
 tags:
 - dvd
+summary: ""
 ---
 
 sudo apt install -y k3b 

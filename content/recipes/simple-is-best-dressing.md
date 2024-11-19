@@ -3,6 +3,7 @@ title: "'Simple is Best' Dressing"
 original_url: https://www.epicurious.com/recipes/food/views/-simple-is-best-dressing-51124210
 recipe_tags:
   - side
+summary: ""
 ---
 
 ## Ingredients

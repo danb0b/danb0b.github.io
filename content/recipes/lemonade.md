@@ -3,6 +3,7 @@ title: Balsamic chicken with figs and onion
 recipe_tags: 
   - drinks
 from: Dan Aukes
+summary: ""
 ---
 
 * 3 cups water

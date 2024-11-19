@@ -5,6 +5,7 @@ tags:
 - python
 - pyqt
 - qt
+summary: ""
 ---
 
 A nice little program that can change capitalization.  Includes installer.

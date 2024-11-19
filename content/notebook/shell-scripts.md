@@ -4,6 +4,7 @@ tags:
 - linux
 - bash
 - sh
+summary: ""
 ---
 
 How to find the directory of the script

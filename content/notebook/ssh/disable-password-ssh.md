@@ -125,6 +125,7 @@ EOT
 sudo systemctl restart ssh
 ```
 
+summary: ""
 ---
 
 ## Harden your config (old)

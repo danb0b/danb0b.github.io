@@ -4,6 +4,7 @@ original_url: https://wholeandheavenlyoven.com/2018/01/22/skillet-honey-garlic-c
 recipe_tags:
   - main
   - chicken
+summary: ""
 ---
 
 Juicy honey garlic chicken thighs and crispy roast potatoes are seared and baked in the most FLAVORFUL honey garlic sauce in this no-fuss one skillet dinner!

@@ -4,6 +4,7 @@ tags:
 - ubuntu
 - firefox
 - snap
+summary: ""
 ---
 
 

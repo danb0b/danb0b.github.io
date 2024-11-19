@@ -1,6 +1,7 @@
 ---
 title: Servo Comparison
 date: 2023-08-12
+summary: ""
 ---
 
 <!-- One of the issues with low cost RC servos is their vastly different characteristics.   -->

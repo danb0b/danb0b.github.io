@@ -5,6 +5,7 @@ tags:
 - websites
 - markdown
 - python
+summary: ""
 ---
 
 A nice little package for exporting your blogger site to markdown.

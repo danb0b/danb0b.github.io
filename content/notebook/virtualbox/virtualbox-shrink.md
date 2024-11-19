@@ -3,6 +3,7 @@ title: Shrinking Virtualbox Hard Drives
 tags:
 - virtualbox
 - windows
+summary: ""
 ---
 
 Derived from these instructions on [HowToGeek](https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/)

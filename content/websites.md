@@ -2,12 +2,12 @@
 title: Websites
 type: starred
 image: box.png
-summary: Sites I have had a hand in developing
 menu:
   main:
     weight: 20
     name: Websites
     parent: Misc
+summary: Sites I have had a hand in developing
 ---
 
 

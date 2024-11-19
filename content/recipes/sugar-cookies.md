@@ -5,4 +5,5 @@ recipe_tags:
   - cookies
 images:
   - scan0126_000.jpg
+summary: ""
 ---

@@ -6,6 +6,7 @@ tags:
 - openscad
 - cad
 - scripting
+summary: ""
 ---
 
 ```

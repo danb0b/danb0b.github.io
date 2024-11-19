@@ -1,6 +1,7 @@
 ---
 title: Techniques for solving four-bar linkage equations
 date: 2024-03-14
+summary: ""
 ---
 
 ## Introduction

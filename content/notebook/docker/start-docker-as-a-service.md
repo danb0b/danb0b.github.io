@@ -4,6 +4,7 @@ tags:
 - ubuntu
 - bash
 - docker
+summary: ""
 ---
 
 

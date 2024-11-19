@@ -4,6 +4,7 @@ tags:
 - logging
 - ubuntu
 - apt
+summary: ""
 ---
 
 first step is to  find the first line number where a particular date occurs

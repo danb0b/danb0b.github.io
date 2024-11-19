@@ -1,6 +1,7 @@
 ---
 title: Simulating Spherical Mechanisms in MuJoCo
 date: 2023-10-25
+summary: ""
 ---
 
 ## Introduction

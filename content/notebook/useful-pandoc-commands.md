@@ -4,6 +4,7 @@ weight: 99
 tags:
   - pandoc
   - bash
+summary: ""
 ---
 
 ## Get Current Templates
@@ -27,6 +28,7 @@ pandoc input-file.md -s -t latex+smart --citeproc --pdf-engine=xelatex --no-high
 See [variables for latex](https://pandoc.org/MANUAL.html#variables-for-latex) and [metadata variables](https://pandoc.org/MANUAL.html#metadata-variables) for all variables.
 
 ```
+summary: ""
 ---
 title: Syllabus for Foldable Robotics 
 subtitle: Version 2020-12-31
@@ -36,6 +38,7 @@ published: false
 mainfont: Roboto
 sansfont: Roboto
 geometry: margin=1in
+summary: ""
 ---
 ```
 

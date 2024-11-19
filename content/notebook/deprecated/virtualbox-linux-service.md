@@ -6,6 +6,7 @@ tags:
 - ubuntu
 - bash
 - systemd
+summary: ""
 ---
 
 ```bash

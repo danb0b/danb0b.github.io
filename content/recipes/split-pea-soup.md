@@ -6,6 +6,7 @@ recipe_tags:
   - side
   - main
   - vegetable
+summary: ""
 ---
 
 ## Ingredients

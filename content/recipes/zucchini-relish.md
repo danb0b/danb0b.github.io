@@ -3,6 +3,7 @@ title: Sweet Zucchini Relish
 recipe_tags: 
   - canning-and-pickling
 original_url: https://www.allrecipes.com/recipe/172346/sweet-zucchini-relish/
+summary: ""
 ---
 
 ## Ingredients

@@ -2,6 +2,7 @@
 title: Git Extensions Setup
 tags:
 - git
+summary: ""
 ---
 
 

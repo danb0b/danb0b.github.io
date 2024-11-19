@@ -4,6 +4,7 @@ tags:
 - epub
 - e-reader
 - kobo
+summary: ""
 ---
 
 This link was the most helpful overview: <https://www.linux-magazine.com/Online/Features/Basic-Hacks-for-Kobo-E-Readers>

@@ -4,6 +4,7 @@ original_url: https://altonbrown.com/homemade-soft-pretzels-recipe/
 recipe_tags:
   - appetizer
   - snack
+summary: ""
 ---
 
 ## Ingredients

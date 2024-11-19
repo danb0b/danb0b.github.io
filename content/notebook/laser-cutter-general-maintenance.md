@@ -4,8 +4,8 @@ tags:
   - idealab
   - laser
   - maintenance
-summary: Notes for how to maintain the laser cutter
 weight: 99
+summary: Notes for how to maintain the laser cutter
 ---
 
 ## Cleaning

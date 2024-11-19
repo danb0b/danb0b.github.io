@@ -3,6 +3,7 @@ title: Skillet Apple Brownie
 original_url: https://www.allrecipes.com/recipe/214380/skillet-apple-brownie/
 recipe_tags:
 - dessert
+summary: ""
 ---
 
 ## Ingredients

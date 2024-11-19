@@ -1,5 +1,6 @@
 ---
 title: Visa Benefits
+summary: ""
 ---
 
 If you want to rent a car, you can call visa benefits to get a letter that states they have insurance for car rentals.

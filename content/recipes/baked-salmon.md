@@ -5,4 +5,5 @@ recipe_tags:
   - seafood
 images:
   - scan0126_002.jpg
+summary: ""
 ---

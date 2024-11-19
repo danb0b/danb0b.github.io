@@ -6,6 +6,7 @@ tags:
 - ubuntu
 - linux
 weight: 200
+summary: ""
 ---
 
 Derived from [here](https://blog.swmansion.com/limiting-failed-ssh-login-attempts-with-fail2ban-7da15a2313b):
