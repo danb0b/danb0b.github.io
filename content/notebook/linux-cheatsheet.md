@@ -137,6 +137,12 @@ nmcli d wifi connect XX:XX:XX:XX:XX:XX
 
 <https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid>
 
+### Find services using a port:
+
+```bash
+sudo lsof -i:3389
+```
+
 ## APT / dpkg
 
 ```
