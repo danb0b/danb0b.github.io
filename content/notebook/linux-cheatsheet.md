@@ -137,11 +137,32 @@ nmcli d wifi connect XX:XX:XX:XX:XX:XX
 
 <https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid>
 
-### Find services using a port:
+### Find services using a port
 
 ```bash
 sudo lsof -i:3389
 ```
+
+### Realtime wifi strength monitoring
+
+```bash
+apt install wavemon
+wavemon
+```
+
+### Other networking commands
+
+```bash
+sudo nmcli network off
+sudo nmcli network on
+sudo netplan try
+sudo netplan apply
+```
+
+links:
+
+* <https://vitux.com/managing-network-interfaces-and-settings-on-ubuntu-24-04-with-nmcli/>
+* <https://linuxconfig.org/how-to-restart-network-on-ubuntu-20-04-lts-focal-fossa>
 
 ## APT / dpkg
 
@@ -286,6 +307,7 @@ From:
     ```bash
     sudo usermod -G usergroup,othergroup username
     ```
+
 ### Change password
 
 ```bash
@@ -314,7 +336,6 @@ passwd [username]
 groupdel <groupname>
 ```
 
-
 ### Force new password
 
 ```bash
@@ -341,8 +362,6 @@ This is how you can reenable that account:
 sudo usermod --expiredate "" peter
 ```
 
-
-
 ### List all users / groups
 
 users:
@@ -366,7 +385,7 @@ users
 who
 ```
 
-## Backup folders:
+## Backup folders
 
 /bin
 /boot
@@ -779,6 +798,6 @@ sudo dd if=/dev/sda of=/media/danaukes/24df9215-550f-4ca0-a9f1-8f0d666befd2/sda.
 * <https://stackoverflow.com/questions/454899/how-to-convert-flat-raw-disk-image-to-vmdk-for-virtualbox-or-vmplayer>
 * <https://www.cyberciti.biz/faq/unix-linux-dd-create-make-disk-image-commands/>
 
-## Change Swap 
+## Change Swap
 
 * <https://ploi.io/documentation/server/change-swap-size-in-ubuntu>
