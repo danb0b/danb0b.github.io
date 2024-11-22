@@ -32,8 +32,14 @@ ifconfig &lt;network interface&gt; up
 </span></span><span style=display:flex><span>nmcli -f in-use,ssid,bssid,signal,bars  dev wifi
 </span></span></code></pre></div><p>list wifis</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nmcli d wifi
 </span></span></code></pre></div><p>connect to a specific wifi</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nmcli d wifi connect XX:XX:XX:XX:XX:XX
-</span></span></code></pre></div><p><a href=https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid>https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid</a></p><h3 id=find-services-using-a-port>Find services using a port:</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo lsof -i:3389
-</span></span></code></pre></div><h2 id=apt--dpkg>APT / dpkg</h2><pre tabindex=0><code>sudo apt list --installed &lt;package-name-start*&gt;
+</span></span></code></pre></div><p><a href=https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid>https://askubuntu.com/questions/833905/how-can-i-connect-to-a-specific-bssid</a></p><h3 id=find-services-using-a-port>Find services using a port</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo lsof -i:3389
+</span></span></code></pre></div><h3 id=realtime-wifi-strength-monitoring>Realtime wifi strength monitoring</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt install wavemon
+</span></span><span style=display:flex><span>wavemon
+</span></span></code></pre></div><h3 id=other-networking-commands>Other networking commands</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo nmcli network off
+</span></span><span style=display:flex><span>sudo nmcli network on
+</span></span><span style=display:flex><span>sudo netplan try
+</span></span><span style=display:flex><span>sudo netplan apply
+</span></span></code></pre></div><p>links:</p><ul><li><a href=https://vitux.com/managing-network-interfaces-and-settings-on-ubuntu-24-04-with-nmcli/>https://vitux.com/managing-network-interfaces-and-settings-on-ubuntu-24-04-with-nmcli/</a></li><li><a href=https://linuxconfig.org/how-to-restart-network-on-ubuntu-20-04-lts-focal-fossa>https://linuxconfig.org/how-to-restart-network-on-ubuntu-20-04-lts-focal-fossa</a></li></ul><h2 id=apt--dpkg>APT / dpkg</h2><pre tabindex=0><code>sudo apt list --installed &lt;package-name-start*&gt;
 </code></pre><pre tabindex=0><code>sudo apt --reinstall install &lt;package&gt;
 </code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>dpkg --list <span style=color:#111>|</span> grep &lt;package-name-fragment&gt;
 </span></span></code></pre></div><h3 id=apt-history>apt history</h3><p>less /var/log/apt/history.log</p><p>These logs gets rotated (every month I guess), old files will be suffixed with a number and compressed. So to view the next history log, use:</p><p>zless /var/log/apt/history.log.1.gz</p><p>To view the logs available:</p><p>ls -la /var/log/apt/</p><p>from <a href=http://askubuntu.com/questions/21657/ddg#21658>here</a></p><h2 id=devices>Devices</h2><pre tabindex=0><code>sudo libinput --list-devices
@@ -77,7 +83,7 @@ HandleLidSwitchDocked=ignore
 </span></span><span style=display:flex><span>getent group
 </span></span></code></pre></div><h3 id=find-out-who-is-logged-on>find out who is logged on</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>users
 </span></span><span style=display:flex><span>who
-</span></span></code></pre></div><h2 id=backup-folders>Backup folders:</h2><p>/bin
+</span></span></code></pre></div><h2 id=backup-folders>Backup folders</h2><p>/bin
 /boot
 /etc
 /home
