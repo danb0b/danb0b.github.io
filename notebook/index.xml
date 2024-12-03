@@ -363,8 +363,20 @@ sudo apt install -y handbrake&lt;/p></description></item><item><title>Enabling .
 &lt;li>&lt;a href="https://fenicsproject.discourse.group/t/dynamic-hyperelasticity-problem/1222">https://fenicsproject.discourse.group/t/dynamic-hyperelasticity-problem/1222&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://comet-fenics.readthedocs.io/en/latest/demo/elastodynamics/demo_elastodynamics.py.html">https://comet-fenics.readthedocs.io/en/latest/demo/elastodynamics/demo_elastodynamics.py.html&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Firefox Setup Notes</title><link>https://www.danaukes.com/notebook/firefox-setup-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/firefox-setup-notes/</guid><description>&lt;h2 id="start-pages">Start Pages&lt;/h2>
+&lt;p>Separate by |&lt;/p>
 &lt;h2 id="file-preferences">File Preferences&lt;/h2>
-&lt;h2 id="heading">&lt;/h2></description></item><item><title>Flipper Zero Notes</title><link>https://www.danaukes.com/notebook/flipper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/flipper/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=_YLTpNo5xa0">https://www.youtube.com/watch?v=_YLTpNo5xa0&lt;/a>&lt;/p></description></item><item><title>Galaxy Tab Cleanup</title><link>https://www.danaukes.com/notebook/galaxy-tab-cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/galaxy-tab-cleanup/</guid><description>&lt;h2 id="heading">&lt;/h2>
+&lt;ul>
+&lt;li>pdf - save to file&lt;/li>
+&lt;/ul>
+&lt;h2 id="cookies">Cookies&lt;/h2>
+&lt;h2 id="add-ons">Add-Ons&lt;/h2>
+&lt;ul>
+&lt;li>multi account containers&lt;/li>
+&lt;li>ublock origin&lt;/li>
+&lt;li>privacy badger&lt;/li>
+&lt;li>bitwarden&lt;/li>
+&lt;/ul>
+&lt;p>do not allow in private tabs&lt;/p></description></item><item><title>Flipper Zero Notes</title><link>https://www.danaukes.com/notebook/flipper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/flipper/</guid><description>&lt;p>&lt;a href="https://www.youtube.com/watch?v=_YLTpNo5xa0">https://www.youtube.com/watch?v=_YLTpNo5xa0&lt;/a>&lt;/p></description></item><item><title>Galaxy Tab Cleanup</title><link>https://www.danaukes.com/notebook/galaxy-tab-cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/galaxy-tab-cleanup/</guid><description>&lt;h2 id="heading">&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>Install ADB&lt;/p>
