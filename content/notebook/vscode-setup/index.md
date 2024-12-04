@@ -117,6 +117,14 @@ code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension ziyasal.vscode-open-in-github
 code --install-extension takumii.markdowntable
+
+
+code --disable-extension waderyan.gitblame
+code --disable-extension tamasfe.even-better-toml
+code --disable-extension donjayamanne.githistory
+code --disable-extension codezombiech.gitignore
+code --disable-extension ms-toolsai.vscode-jupyter-slideshow
+code --disable-extension ziyasal.vscode-open-in-github
 ```
 
 ```bash
