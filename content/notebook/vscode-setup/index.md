@@ -116,6 +116,7 @@ code --install-extension waderyan.gitblame
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension ziyasal.vscode-open-in-github
+code --install-extension takumii.markdowntable
 ```
 
 ```bash

@@ -21,5 +21,6 @@ Separate by |
 * ublock origin
 * privacy badger
 * bitwarden
+* zotero
 
 do not allow in private tabs
