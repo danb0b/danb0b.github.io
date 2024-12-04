@@ -85,6 +85,13 @@ ctrl-h hides and shows "dot" files in nautilus like ```.config``` or ```.ssh/```
 sudo passwd <username>
 ```
 
+you may want to remove your keyring lock file as it doesn't always update:
+
+```bash
+rm ~/.local/share/keyrings/login.keyring 
+```
+
+
 ## Networking
 
 ```
