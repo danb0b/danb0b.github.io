@@ -135,7 +135,10 @@ log in to primary
 ```bash
 sudo apt update && sudo apt full upgrade -y
 
-zfs snapshot "storage@$(date +"%Y-%m-%d_%H-%M")"
+last_snapshot=$(zfs list -t snapshot | tail -1 | awk '{print $1}')
+new_snapshot="storage@$(date +"%Y-%m-%d_%H-%M")"
+
+zfs snapshot $new_snapshot
 zfs list -t snapshot
 ```
 
@@ -145,6 +148,7 @@ send it over
 
 ```bash
 zfs send -v -i <last_snapshot> <current-snapshot> | ssh <secondary-machine> zfs recv <pool/data>
+zfs send -v -i $last_snapshot $new_snapshot | ssh colorado zfs recv coldstorage/nas
 zfs send -v -i storage@2022-05-27 storage@2023-06-08_10-00 | ssh colorado zfs recv coldstorage/nas
 ```
 
