@@ -4,7 +4,7 @@ weight: 99
 tags: 
 - python
 - django
-summary: ""
+summary: " "
 ---
 
 Derived from [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website)

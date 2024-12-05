@@ -4,7 +4,7 @@ tags:
 - ubuntu
 - gnome
 - flatpak
-summary: ""
+summary: " "
 ---
 
 ```bash

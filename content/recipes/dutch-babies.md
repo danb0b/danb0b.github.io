@@ -4,7 +4,7 @@ recipe_tags:
   - breakfast
 from: Dan Aukes
 modified_from: Larry Smith
-summary: ""
+summary: " "
 ---
 
 

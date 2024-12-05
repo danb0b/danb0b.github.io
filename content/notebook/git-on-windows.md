@@ -1,6 +1,6 @@
 ---
 title: installing gitman on windows
-summary: ""
+summary: " "
 ---
 
 Support for multiple github accounts

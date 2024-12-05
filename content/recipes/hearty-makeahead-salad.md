@@ -4,7 +4,7 @@ recipe_tags:
   - salad
   - vegetable
 from: Tara McConnell
-summary: ""
+summary: " "
 ---
 ## Ingredients
 

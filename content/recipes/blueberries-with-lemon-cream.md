@@ -3,7 +3,7 @@ title: Blueberries with Lemon Cream
 recipe_tags:
   - dessert
 original_url: http://www.eatingwell.com/recipe/248690/blueberries-with-lemon-cream/
-summary: ""
+summary: " "
 ---
 Blending vanilla yougurt and reduced-fat cream cheese creates a topping that's as virtuous as it is delicious. Any fresh berry can be used in this recipe. Easy, and takes 10 minutes
 

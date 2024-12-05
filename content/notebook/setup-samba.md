@@ -4,7 +4,7 @@ tags:
   - linux
   - ubuntu
   - samba
-summary: ""
+summary: " "
 ---
 
 ## Make your folder

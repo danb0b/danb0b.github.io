@@ -5,7 +5,7 @@ menu:
   main:
     weight: 40
     name: Recipes
-summary: ""
+summary: " "
 ---
 
 Recipes our family loves

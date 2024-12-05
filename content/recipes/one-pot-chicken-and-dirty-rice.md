@@ -4,7 +4,7 @@ recipe_tags:
   - main
   - side
 original_url: https://www.thechunkychef.com/one-pot-chicken-dirty-rice/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

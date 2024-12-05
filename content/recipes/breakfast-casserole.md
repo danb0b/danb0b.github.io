@@ -4,7 +4,7 @@ from: Deb Smith
 recipe_tags:
   - breakfast
   - casserole
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

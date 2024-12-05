@@ -5,7 +5,7 @@ tags:
 - linux
 - security
 weight: 999
-summary: ""
+summary: " "
 ---
 
 1. Set bios admin password

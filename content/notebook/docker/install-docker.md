@@ -4,7 +4,7 @@ tags:
   - docker
   - linux
 weight: 10
-summary: ""
+summary: " "
 ---
 
 From [here](https://docs.docker.com/engine/install/ubuntu/)

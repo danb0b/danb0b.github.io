@@ -2,7 +2,7 @@
 title: Ice Cream
 modified from: New York Times
 original_url: https://cooking.nytimes.com/recipes/1016605-the-only-ice-cream-recipe-youll-ever-need
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

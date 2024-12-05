@@ -6,7 +6,7 @@ recipe_tags:
   - side
   - meat
 original_url: https://cooking.nytimes.com/recipes/7416-kale-soup-with-potatoes-and-sausage
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

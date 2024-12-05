@@ -2,7 +2,7 @@
 title: Oregon Cherry Flan Cake
 recipe_tags:
   - dessert
-summary: ""
+summary: " "
 ---
 ## Ingredients
 

@@ -4,7 +4,7 @@ tags:
 - bash
 - linux
 - networking
-summary: ""
+summary: " "
 ---
 
 

@@ -4,7 +4,7 @@ recipe_tags:
   - appetizer
   - snack
 from: Tara McConnell
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

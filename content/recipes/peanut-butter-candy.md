@@ -4,5 +4,5 @@ recipe_tags:
   - dessert
 images:
   - scan0116_004.jpg
-summary: ""
+summary: " "
 ---

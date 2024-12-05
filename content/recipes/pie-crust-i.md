@@ -3,7 +3,7 @@ title: Simple Pie Crust
 recipe_tags:
   - dessert
   - misc
-summary: ""
+summary: " "
 ---
 Makes one large single-layer pastry.
 

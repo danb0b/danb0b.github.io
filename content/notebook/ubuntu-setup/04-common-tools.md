@@ -4,7 +4,7 @@ weight: 40
 tags:
 - ubuntu
 - linux
-summary: ""
+summary: " "
 ---
 
 This assumes you installed a "minimal" version of Ubuntu
@@ -403,7 +403,7 @@ sudo apt install -y torbrowser-launcher
 wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-Linux-x86_64-py310.AppImage
 ```
 
-summary: ""
+summary: " "
 ---
 
 ## Deprecated

@@ -5,7 +5,7 @@ tags:
   - bash
   - termux
   - linux
-summary: ""
+summary: " "
 ---
  
 ```bash

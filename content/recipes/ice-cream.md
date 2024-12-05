@@ -3,7 +3,7 @@ title: Ice Cream
 recipe_tags:
   - dessert
 from: Frances Aukes
-summary: ""
+summary: " "
 ---
 ## Ingredients
 

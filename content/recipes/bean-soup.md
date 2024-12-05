@@ -3,7 +3,7 @@ title: bean soup
 original_url: https://anaffairfromtheheart.com/southwestern-pinto-bean-soup/
 recipe_tags:
 - soup
-summary: ""
+summary: " "
 ---
 YIELD: 8-10
 SOUTHWESTERN PINTO BEAN SOUP

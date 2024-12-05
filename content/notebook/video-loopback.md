@@ -6,7 +6,7 @@ tags:
   - ubuntu
   - fun
 weight: 99
-summary: ""
+summary: " "
 ---
 
 ```bash

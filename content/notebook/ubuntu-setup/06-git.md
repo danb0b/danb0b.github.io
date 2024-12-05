@@ -5,7 +5,7 @@ tags:
 - ubuntu
 - linux
 - git
-summary: ""
+summary: " "
 ---
 
 ## Git

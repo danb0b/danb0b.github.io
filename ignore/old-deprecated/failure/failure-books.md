@@ -2,7 +2,7 @@
 title: Books on Failure
 tags:
   - failure
-summary: ""
+summary: " "
 ---
 
 # Failure in General

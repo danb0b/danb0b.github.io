@@ -5,7 +5,7 @@ tags:
 - gpio
 - i2c
 - sbcs
-summary: ""
+summary: " "
 ---
 
 ## Introduction

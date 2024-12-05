@@ -6,5 +6,5 @@ images:
 recipe_tags:
   - main
   - italian
-summary: ""
+summary: " "
 ---

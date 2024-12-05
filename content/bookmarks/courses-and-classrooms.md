@@ -1,6 +1,6 @@
 ---
 title: Courses & Classrooms
-summary: ""
+summary: " "
 ---
 
 Good ideas for setting up a classroom.

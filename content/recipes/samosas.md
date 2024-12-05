@@ -5,5 +5,5 @@ images:
 recipe_tags:
   - appetizer
   - side
-summary: ""
+summary: " "
 ---

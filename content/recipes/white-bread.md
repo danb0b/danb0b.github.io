@@ -2,7 +2,7 @@
 title: White Bread
 recipe_tags:
   - bread
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

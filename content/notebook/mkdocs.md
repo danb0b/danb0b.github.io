@@ -4,7 +4,7 @@ tags:
 - websites
 - markdown
 - mkdocs
-summary: ""
+summary: " "
 ---
 
 ## External Resources

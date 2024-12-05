@@ -4,7 +4,7 @@ tags:
   - ubuntu
   - bash
   - pdf
-summary: ""
+summary: " "
 ---
 
 ## Merge pdfs from Bash

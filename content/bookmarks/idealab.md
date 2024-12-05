@@ -1,6 +1,6 @@
 ---
 title: IDEAlab-related Topics
-summary: ""
+summary: " "
 ---
 
 Topics related to research and lab administration

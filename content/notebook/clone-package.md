@@ -4,7 +4,7 @@ tags:
   - linux
   - ubuntu
 weight: 99
-summary: ""
+summary: " "
 ---
 
 To clone your system to another system. Or make a backup. In a terminal type:

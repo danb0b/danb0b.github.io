@@ -5,7 +5,7 @@ tags:
 - ubuntu
 - linux
 - korg
-summary: ""
+summary: " "
 ---
 
 ```

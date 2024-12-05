@@ -7,7 +7,7 @@ tags:
 - ubuntu
 - iot
 - embedded-systems
-summary: ""
+summary: " "
 ---
 
 ## Installation

@@ -3,7 +3,7 @@ title: NixOS Setup
 tags:
 - linux
 - nixos
-summary: ""
+summary: " "
 ---
 
 ## External Resources

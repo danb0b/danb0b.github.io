@@ -5,7 +5,7 @@ tags:
   - linux
   - ubuntu
 weight: 99
-summary: ""
+summary: " "
 ---
 
 I have an ASUS Zenbook UM425U, currently working great with Ubuntu 21.04 loaded.  Upon installing Ubuntu 20.04, initially the keyboard worked but other aspects of the computer did not, such as being able to control screen brightness, fan speed, etc.  After the kernel was automatically updated, however, suddently I was unable to use the keyboard, but intermittently.  Each reboot might allow me or not.  To add an additional wrinkle, I had also encrypted my hard drive using LUKS, meaning that if I was traveling or did not have access to an external keyboard, I would be locked out.
@@ -131,7 +131,7 @@ The real solution, however, is discussed in this [chain of emails](https://www.m
 
 
 
-summary: ""
+summary: " "
 ---
 
 # Things that didn't work

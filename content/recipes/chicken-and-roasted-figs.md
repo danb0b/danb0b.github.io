@@ -3,7 +3,7 @@ title: Chicken and Roasted Figs
 recipe_tags:
   - main
   - chicken
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

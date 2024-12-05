@@ -5,7 +5,7 @@ tags:
 - ros
 - ubuntu
 - linux
-summary: ""
+summary: " "
 ---
 
 From [here](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)

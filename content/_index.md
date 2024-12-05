@@ -1,7 +1,7 @@
 ---
 title: Welcome
 image: images/coffee.jpg
-summary: ""
+summary: " "
 ---
 
 <div class="text-center">

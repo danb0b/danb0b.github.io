@@ -6,7 +6,7 @@ tags:
   - ubuntu
   - bash
   - cmd
-summary: ""
+summary: " "
 ---
 
 # General Commands

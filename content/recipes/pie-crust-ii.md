@@ -4,7 +4,7 @@ modified_from: Fannie Farmer
 recipe_tags:
   - dessert
   - misc
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

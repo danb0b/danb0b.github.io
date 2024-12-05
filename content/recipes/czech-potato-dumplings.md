@@ -5,7 +5,7 @@ recipe_tags:
   - czech
 from: Dan and Sara Aukes
 original_url: https://snapguide.com/guides/make-czech-potato-dumplings/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

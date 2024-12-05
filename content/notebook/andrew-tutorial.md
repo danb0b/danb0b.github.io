@@ -1,6 +1,6 @@
 ---
 title: Andrew Gillies Tutorial
-summary: ""
+summary: " "
 ---
 
 ## External Resources

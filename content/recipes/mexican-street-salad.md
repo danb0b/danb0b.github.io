@@ -5,7 +5,7 @@ recipe_tags:
   - mexican
   - vegetable
 original_url: https://www.jamieoliver.com/recipes/vegetables-recipes/mexican-street-salad/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

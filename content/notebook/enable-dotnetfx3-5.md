@@ -3,7 +3,7 @@ title: Enabling .NetFx 3.5 in windows 11
 tags:
 - windows
 - dotnet
-summary: ""
+summary: " "
 ---
 
 insert windows 11 installation media cdrom/iso

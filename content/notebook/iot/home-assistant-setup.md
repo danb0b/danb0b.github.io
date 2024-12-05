@@ -3,7 +3,7 @@ title: Home Assistant Setup
 tags:
   - home-assistant
   - virtualbox
-summary: ""
+summary: " "
 ---
 
 ## Install Virtualbox

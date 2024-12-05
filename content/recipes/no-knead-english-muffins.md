@@ -5,7 +5,7 @@ recipe_tags:
   - breakfast
 from: Bill Eykamp
 original_url: http://js.washingtonpost.com/recipes/no-knead-english-muffins/17366/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

@@ -1,6 +1,6 @@
 ---
 title: Health Check
-summary: ""
+summary: " "
 ---
 
 https://duckduckgo.com/?t=ffab&q=mariadb+health+check+docker&ia=web

@@ -2,7 +2,7 @@
 title: Wrapping up "Flexible Robotics"
 date: 2024-01-04
 image: /work-blog/2024-01-04-class-wrapup/IMG_20231214_163003_161.jpg
-summary: ""
+summary: " "
 ---
 
 I had the pleasure of teaching a new class called "Flexible Robotics" while on sabbatical at Bilkent University in Ankara, Turkey this Fall.  The class was a 13 person, senior-level elective course that covered some of the same concepts as my graduate-level "Foldable Robotics" class that I have taught at ASU since 2016, but introduced about 75% new material, based on the needs of undergraduates in their senior year.

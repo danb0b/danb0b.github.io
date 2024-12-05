@@ -4,7 +4,7 @@ tags:
 - ubuntu
 - linux
 - printing
-summary: ""
+summary: " "
 ---
 
 <div class="alert alert-primary">

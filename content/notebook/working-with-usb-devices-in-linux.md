@@ -5,7 +5,7 @@ tags:
   - ubuntu
   - usb
 weight: 99
-summary: ""
+summary: " "
 ---
 
 ## Identifying and locating USB devices

@@ -5,7 +5,7 @@ tags:
 - ubuntu
 - linux
 - syncthing
-summary: ""
+summary: " "
 ---
 
 ## Install

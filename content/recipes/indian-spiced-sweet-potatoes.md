@@ -4,7 +4,7 @@ recipe_tags:
   - side
   - vegetable
 original_url: https://www.cookingchanneltv.com/recipes/indian-spiced-sweet-potatoes-1962313
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

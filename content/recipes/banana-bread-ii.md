@@ -7,7 +7,7 @@ recipe_tags:
   - bread
 modified_from: simplyrecipes.com
 original_url: https://www.simplyrecipes.com/recipes/banana_bread/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

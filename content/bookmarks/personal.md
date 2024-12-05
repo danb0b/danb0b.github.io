@@ -1,6 +1,6 @@
 ---
 title: Personal
-summary: ""
+summary: " "
 ---
 
 Fun personal links...

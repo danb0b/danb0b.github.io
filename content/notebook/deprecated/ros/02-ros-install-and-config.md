@@ -5,7 +5,7 @@ tags:
 - ros
 - ubuntu
 - linux
-summary: ""
+summary: " "
 ---
 
 This is derived from [the official tutorial](https://wiki.ros.org/melodic/Installation/Ubuntu)

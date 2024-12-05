@@ -4,7 +4,7 @@ original_url: https://www.zestedlemon.com/beet-and-kale-tacos-with-avocado-sauce
 recipe_tags:
   - main
   - vegetable
-summary: ""
+summary: " "
 ---
 
 ## INGREDIENTS

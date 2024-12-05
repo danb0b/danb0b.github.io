@@ -1,7 +1,7 @@
 ---
 title: First Post
 date: 2023-08-07
-summary: ""
+summary: " "
 ---
 
 The idea of this section of my website is to document some of my daily work during my sabbatical year and hopefully onward.   Sometimes it's hard to organize my thoughts and plan out my work, so hopefully writing down my thoughts in a weekly series will help me organize my thoughts better and document my progress through it all.  

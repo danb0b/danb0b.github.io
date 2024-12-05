@@ -5,7 +5,7 @@ tags:
   - bash
   - terminal
   - youtube
-summary: ""
+summary: " "
 ---
 
 ## Intro

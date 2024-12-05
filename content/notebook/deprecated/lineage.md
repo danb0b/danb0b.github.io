@@ -1,6 +1,6 @@
 ---
 title: installing lineage
-summary: ""
+summary: " "
 ---
 
 ## Install ADB

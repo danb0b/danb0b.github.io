@@ -6,7 +6,7 @@ recipe_tags:
   - side
   - misc
   - topping
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

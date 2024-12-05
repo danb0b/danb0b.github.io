@@ -4,7 +4,7 @@ tags:
 - linux
 - ubuntu
 - rdp
-summary: ""
+summary: " "
 ---
 
 Derived from [here](https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10)

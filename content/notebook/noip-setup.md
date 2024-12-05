@@ -3,7 +3,7 @@ Title: NoIP Client Configuration
 tags:
 - ddns
 - noip
-summary: ""
+summary: " "
 ---
 
 ## To  Install the Client

@@ -7,7 +7,7 @@ tags:
 - linux
 - ubuntu
 - ros2
-summary: ""
+summary: " "
 ---
 
 ## Introduction

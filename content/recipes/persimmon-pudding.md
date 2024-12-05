@@ -4,7 +4,7 @@ recipe_tags:
   - dessert
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Traditional-Indiana-Persimmon-Pudding
-summary: ""
+summary: " "
 ---
 ## Ingredients
 

@@ -4,7 +4,7 @@ tags:
 - iot
 - home-assistant
 - tasmota
-summary: ""
+summary: " "
 ---
 * [What is Tasmota and How to use it with ESP-01 to Control Smart Home Devices](https://circuitdigest.com/microcontroller-projects/what-is-tasmota-and-how-to-use-it-with-esp-01-to-control-smart-home-devices)
 * [Home Assistant](https://www.home-assistant.io/)

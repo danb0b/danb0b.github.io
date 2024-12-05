@@ -3,7 +3,7 @@ title: Apple Hill Cake
 recipe_tags:
   - dessert
 from: Margaret Hohenshelt
-summary: ""
+summary: " "
 ---
 # Apple Pie
 

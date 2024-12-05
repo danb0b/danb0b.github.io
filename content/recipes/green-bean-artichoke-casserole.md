@@ -5,7 +5,7 @@ recipe_tags:
   - casserole
   - vegetable
 original_url: https://www.allrecipes.com/recipe/77240/green-bean-artichoke-casserole/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

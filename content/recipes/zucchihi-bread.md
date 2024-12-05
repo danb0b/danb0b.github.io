@@ -5,7 +5,7 @@ recipe_tags:
   - dessert
   - bread
 original_url: https://www.afamilyfeast.com/best-zucchini-bread-ever/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

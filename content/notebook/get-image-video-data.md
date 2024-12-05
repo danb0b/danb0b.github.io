@@ -4,7 +4,7 @@ tags:
   - exif
   - metadata
   - bash
-summary: ""
+summary: " "
 ---
 
 from [here](https://unix.stackexchange.com/questions/131186/get-metadata-from-a-video-in-the-terminal)

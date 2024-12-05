@@ -3,7 +3,7 @@ title: Chocolate and Sea Salt Fig Lollipops
 recipe_tags:
   - dessert
 original_url: https://www.sunset.com/recipe/chocolate-sea-salt-fig-lollipops
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

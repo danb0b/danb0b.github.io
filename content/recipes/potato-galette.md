@@ -3,7 +3,7 @@ title: Potato Galette
 recipe_tags:
   - side
 original_url: https://www.cooksillustrated.com/recipes/6385-potato-galette
-summary: ""
+summary: " "
 ---
 
 ## INGREDIENTS

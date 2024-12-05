@@ -3,7 +3,7 @@ title: Squash Fritters
 recipe_tags:
   - main
   - vegetable
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

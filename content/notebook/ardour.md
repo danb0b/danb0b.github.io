@@ -1,6 +1,6 @@
 ---
 title: Using Ardour
-summary: ""
+summary: " "
 ---
 
 sudo apt install -y ardour

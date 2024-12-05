@@ -4,7 +4,7 @@ tags:
   - esp32
   - tasmota
   - iot
-summary: ""
+summary: " "
 ---
 
 Make sure you flash the ```tasmota32.factory.bin``` image

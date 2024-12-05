@@ -3,7 +3,7 @@ original_url: http://www.thefreshloaf.com/node/3621/quick-rustic-ciabatta-pizza-
 title: Pizza Crust
 recipe_tags:
   - bread
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

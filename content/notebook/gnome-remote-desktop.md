@@ -4,7 +4,7 @@ tags:
 - rdp
 - ubuntu
 - gnome
-summary: ""
+summary: " "
 ---
 
 ```bash

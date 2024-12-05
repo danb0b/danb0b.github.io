@@ -1,6 +1,6 @@
 ---
 title: ASU Links
-summary: ""
+summary: " "
 ---
 
 Reusable links related to Arizona State University

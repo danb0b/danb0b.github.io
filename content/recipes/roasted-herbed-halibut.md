@@ -5,5 +5,5 @@ images:
 recipe_tags:
   - main
   - seafood
-summary: ""
+summary: " "
 ---

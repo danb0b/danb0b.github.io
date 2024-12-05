@@ -1,5 +1,5 @@
 ---
-summary: ""
+summary: " "
 ---
 https://github.com/jremmons/pyfakewebcam
 

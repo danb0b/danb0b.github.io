@@ -4,7 +4,7 @@ recipe_tags:
   - salad
   - side
 original_url: https://www.foodnetwork.com/recipes/ina-garten/balsamic-roasted-beet-salad-recipe-2006690
-summary: ""
+summary: " "
 ---
 
 

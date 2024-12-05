@@ -5,7 +5,7 @@ tags:
 - ubuntu
 - bash
 - linux
-summary: ""
+summary: " "
 ---
 
 

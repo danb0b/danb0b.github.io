@@ -4,7 +4,7 @@ recipe_tags:
   - main
   - chicken
 original_url: https://cooking.nytimes.com/recipes/1018911-garlicky-chicken-thighs-with-scallion-and-lime
-summary: ""
+summary: " "
 ---
 
 ## Ingredients

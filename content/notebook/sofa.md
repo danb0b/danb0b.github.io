@@ -1,6 +1,6 @@
 ---
 title: sofa notes
-summary: ""
+summary: " "
 ---
 
 ## Sofa info

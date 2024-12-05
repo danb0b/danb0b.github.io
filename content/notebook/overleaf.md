@@ -4,7 +4,7 @@ tags:
 - idealab
 - overleaf
 - latex
-summary: ""
+summary: " "
 ---
 
 when making a new overleaf project:

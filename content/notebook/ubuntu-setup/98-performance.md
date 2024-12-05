@@ -1,6 +1,6 @@
 ---
 title: Performance Tips
-summary: ""
+summary: " "
 ---
 
 * disable swap

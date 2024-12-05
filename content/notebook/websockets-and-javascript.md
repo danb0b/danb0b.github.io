@@ -1,6 +1,6 @@
 ---
 title: websockets and  javascript
-summary: ""
+summary: " "
 ---
 
 https://duckduckgo.com/?q=websockets+javascript+example+chat+app&t=ffab&ia=web

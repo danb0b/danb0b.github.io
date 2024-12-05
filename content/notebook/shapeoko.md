@@ -5,7 +5,7 @@ tags:
   - idealab
   - cnc
   - shapeoko
-summary: ""
+summary: " "
 ---
 
 ## Search Results

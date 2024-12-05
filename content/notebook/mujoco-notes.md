@@ -4,7 +4,7 @@ tags:
 - mujoco
 - simulation
 - ubuntu
-summary: ""
+summary: " "
 ---
 
 ## Conda-based installation

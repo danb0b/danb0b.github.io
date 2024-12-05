@@ -6,7 +6,7 @@ recipe_tags:
   - salad
   - side
   - vegetable
-summary: ""
+summary: " "
 ---
 ## Ingredients
 

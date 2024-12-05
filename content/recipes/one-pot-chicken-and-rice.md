@@ -5,7 +5,7 @@ recipe_tags:
   - side
   - chicken
 original_url: https://www.thedinnerbite.com/one-pot-chicken-and-rice/
-summary: ""
+summary: " "
 ---
 
 ## Ingredients
