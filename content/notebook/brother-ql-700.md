@@ -1,5 +1,5 @@
 ---
-brother ql-700 label printer setup
+title: brother ql-700 label printer setup
 ---
 
 ```bash
