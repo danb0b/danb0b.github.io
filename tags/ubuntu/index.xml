@@ -641,11 +641,12 @@ search for &amp;ldquo;world clock&amp;rdquo; and select &amp;ldquo;panel world c
  read only = no
  guest ok = no
  browsable = yes
+ ## valid users = danaukes
 &lt;/code>&lt;/pre>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo systemctl restart smbd.service 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo systemctl restart smbd.service nmbd.service
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo ufw allow samba
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo smbpasswd -a &amp;lt;username&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>Then connect to your new share!&lt;/p></description></item><item><title>Simple Netplan Config</title><link>https://www.danaukes.com/notebook/simple-netplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/simple-netplan/</guid><description>&lt;h2 id="example">Example&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then connect to your new share!&lt;/p></description></item><item><title>Simple Netplan Config</title><link>https://www.danaukes.com/notebook/simple-netplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/simple-netplan/</guid><description>&lt;h2 id="example">Example&lt;/h2>
 &lt;blockquote>
 &lt;p>update enp0s3 to match your ethernet interface&lt;/p></description></item><item><title>Splitting and Merging tar files</title><link>https://www.danaukes.com/notebook/split-tar-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/split-tar-files/</guid><description>&lt;p>From here: &lt;a href="https://unix.stackexchange.com/questions/61774/create-a-tar-archive-split-into-blocks-of-a-maximum-size">https://unix.stackexchange.com/questions/61774/create-a-tar-archive-split-into-blocks-of-a-maximum-size&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>tar -cvpzf - &lt;span style="color:#d88200">&amp;#34;&amp;lt;my folder name&amp;gt;&amp;#34;&lt;/span>/ &lt;span style="color:#111">|&lt;/span> split -d -b 10G - &lt;span style="color:#d88200">&amp;#34;&amp;lt;my folder name&amp;gt;.tar.gz.&amp;#34;&lt;/span>
