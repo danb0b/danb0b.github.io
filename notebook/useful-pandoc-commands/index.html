@@ -6,7 +6,7 @@
 <button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://www.danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://www.danaukes.com/notebook/>Notebook</a></li><li class="breadcrumb-item active"><a href=https://www.danaukes.com/notebook/useful-pandoc-commands/>Useful Pandoc Commands</a></li></ol></nav></div><h2>Useful Pandoc Commands</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/pandoc class=text-primary>Pandoc</a></li><li class="list-inline-item mb-3 mr-2 mt-1"><a class="d-block p-2 bg-primary text-white" href=/tags/bash class=text-primary>Bash</a></li></ul><div class="content mb-5"><h2 id=get-current-templates>Get Current Templates</h2><pre tabindex=0><code>pandoc --print-default-template=markdown &gt; pandoc-template.md
 </code></pre><pre tabindex=0><code>pandoc --print-default-template=latex&gt;pandoc-template.tex
 </code></pre><h2 id=simple-markdown-to-pdf>simple markdown to pdf</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pandoc input-file.md -s -t latex+smart --citeproc --pdf-engine<span style=color:#f92672>=</span>xelatex --no-highlight -o output-file.pdf
-</span></span></code></pre></div><h3 id=header>header</h3><p>See <a href=https://pandoc.org/MANUAL.html#variables-for-latex>variables for latex</a> and <a href=https://pandoc.org/MANUAL.html#metadata-variables>metadata variables</a> for all variables.</p><pre tabindex=0><code>summary: &#34;&#34;
+</span></span></code></pre></div><h3 id=header>header</h3><p>See <a href=https://pandoc.org/MANUAL.html#variables-for-latex>variables for latex</a> and <a href=https://pandoc.org/MANUAL.html#metadata-variables>metadata variables</a> for all variables.</p><pre tabindex=0><code>summary: &#34; &#34;
 ---
 title: Syllabus for Foldable Robotics 
 subtitle: Version 2020-12-31
@@ -16,7 +16,7 @@ published: false
 mainfont: Roboto
 sansfont: Roboto
 geometry: margin=1in
-summary: &#34;&#34;
+summary: &#34; &#34;
 ---
 </code></pre><h2 id=reference-docs>Reference docs</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pandoc -o custom-reference.docx --print-default-data-file reference.docx
 </span></span><span style=display:flex><span>pandoc -o custom-reference.odt --print-default-data-file reference.odt

@@ -55,7 +55,7 @@ sudo apt autoremove # to remove any unused packages
 sudo reboot
 </code></pre></li><li><p>Reinstall virtualbox-dkms</p><pre tabindex=0><code>sudo apt install --reinstall virtualbox-dkms 
 sudo modprobe vboxdrv
-</code></pre></li></ol></li></ol><h2 id=summary->summary: ""</h2><h1 id=things-that-didnt-work>Things that didn&rsquo;t work</h1><h2 id=modify-initramfs>Modify initramfs</h2><p>find HID modules</p><pre tabindex=0><code>lsmod
+</code></pre></li></ol></li></ol><h2 id=summary-->summary: " "</h2><h1 id=things-that-didnt-work>Things that didn&rsquo;t work</h1><h2 id=modify-initramfs>Modify initramfs</h2><p>find HID modules</p><pre tabindex=0><code>lsmod
 </code></pre><p>add those modules to initramfs</p><pre tabindex=0><code>sudo nano /etc/initramfs-tools/modules
 </code></pre><p>add one per line</p><pre tabindex=0><code>#amdgpu 
 asus_wmi 
