@@ -6,7 +6,7 @@
             "autoConnect": "onLostConnection",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -15,7 +15,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -24,7 +24,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -33,7 +33,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -42,7 +42,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -51,7 +51,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -60,7 +60,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -69,7 +69,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -78,7 +78,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -87,7 +87,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -96,7 +96,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -105,7 +105,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -114,7 +114,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -123,7 +123,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -132,7 +132,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -141,7 +141,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -150,7 +150,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -159,7 +159,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -168,7 +168,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -177,7 +177,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -186,7 +186,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -195,7 +195,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -204,7 +204,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -213,7 +213,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -222,7 +222,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -231,7 +231,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -240,7 +240,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -249,7 +249,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -258,7 +258,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -267,7 +267,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -276,7 +276,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -285,7 +285,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -294,7 +294,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": "/",
             "adapterOptions": {}
         },
@@ -312,7 +312,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -321,7 +321,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -330,7 +330,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -339,7 +339,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
-            "hidden": false,
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         },
@@ -349,6 +349,51 @@
             "username": "micro",
             "password": "python",
             "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "1D0B051003077400": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": true,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "flip_Rlu3n0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": true,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "0D110D9900264400": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": true,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "0915043503274400": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": true,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "210321AE2F45": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": true,
             "rootPath": null,
             "adapterOptions": {}
         }
@@ -396,5 +441,13 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.stickyScroll.enabled": false,
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "editor.accessibilitySupport": "off"
 }
