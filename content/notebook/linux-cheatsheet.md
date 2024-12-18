@@ -293,6 +293,12 @@ From:
     useradd -u ${MYUID} -g ${MYGID} -p $(perl -e 'print crypt($ARGV[0], "password")' 'password') -G adm,sudo ${MYUSER} && mkdir /home/${MYUSER} && chown ${MYUSER}:${MYUSER} /home/${MYUSER}
     ```
 
+    another variant:
+
+    ```bash
+    useradd -m my_new_username -p $(openssl passwd my_custom_password) && usermod -s /bin/bash my_new_username &&  usermod -aG sudo,other_groups,another_group my_new_username
+    ```
+
 1. Find groups associated with current user:
 
     ```bash
