@@ -10,16 +10,11 @@ lspci -k
 dmesg
 ```
 
-
-
-
-
 ## Devices
 
 ```
 sudo libinput --list-devices
 ```
-
 
 ## Learn about your hardware
 
@@ -34,8 +29,6 @@ sudo dmidecode -t3 # Enclosure or Chassis
 sudo dmidecode -t4 # Processor
 sudo dmidecode -t1 # System
 ```
-
-
 
 ## Drives
 
@@ -130,7 +123,6 @@ du -h  --max-depth 1 /path/to/my/dir
 df -H
 ```
 
-
 ## Disk Cloning
 
 check out dd
@@ -149,8 +141,6 @@ sudo dd if=/dev/sda of=/media/danaukes/24df9215-550f-4ca0-a9f1-8f0d666befd2/sda.
 ## Change Swap
 
 * <https://ploi.io/documentation/server/change-swap-size-in-ubuntu>
-
-
 
 ## mount information
 

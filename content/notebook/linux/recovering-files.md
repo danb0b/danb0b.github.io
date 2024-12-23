@@ -8,4 +8,6 @@ tags:
 summary: " "
 ---
 
-https://ext4magic.sourceforge.net/howto_en.html
+## External Resources
+
+* <https://ext4magic.sourceforge.net/howto_en.html>
