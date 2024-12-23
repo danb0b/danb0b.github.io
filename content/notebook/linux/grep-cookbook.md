@@ -6,6 +6,7 @@ tags:
   - grep
   - bash
 weight: 10
+summary: A cookbook of common ```grep``` commands
 ---  
 
 ## Using ```grep``` by itself
