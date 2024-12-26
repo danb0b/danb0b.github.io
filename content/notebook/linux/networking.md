@@ -3,6 +3,7 @@ title: Networking
 tags:
 - linux
 - networking
+summary: " "
 ---
 
 ## Networking
@@ -108,6 +109,29 @@ nmcli d wifi
 ```bash
 nm-connection-editor
 ```
+
+
+
+## Measuring Speed Between Computers
+
+sudo apt install -y iperf
+
+
+computer 1: 
+
+```bash
+iperf -s
+```
+
+Computer 2: 
+
+```bash
+iperf -c <other-computer-ip-or-hostname>
+```
+
+<https://superuser.com/questions/1275043/measure-bandwidth-between-two-computer-in-a-lan>
+
+
 ## External Resources
 
 * <https://vitux.com/managing-network-interfaces-and-settings-on-ubuntu-24-04-with-nmcli/>

@@ -2,6 +2,8 @@
 title: User Management
 tags:
 - linux
+- ubuntu
+summary: "Managing Users in Linux / Ubuntu"
 ---
 
 ## Password
