@@ -88,9 +88,7 @@ open a terminal window and paste the following in:
 ```bash
 code --install-extension alefragnani.project-manager
 code --install-extension bierner.markdown-yaml-preamble
-code --install-extension codezombiech.gitignore
 code --install-extension davidanson.vscode-markdownlint
-code --install-extension donjayamanne.githistory
 code --install-extension dotjoshjohnson.xml
 code --install-extension james-yu.latex-workshop
 code --install-extension mathematic.vscode-latex
@@ -103,7 +101,6 @@ code --install-extension ms-toolsai.jupyter
 code --install-extension ms-toolsai.jupyter-keymap
 code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension ms-toolsai.vscode-jupyter-cell-tags
-code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension pkief.markdown-checkbox
 code --install-extension pycom.pymakr-preview
@@ -111,19 +108,27 @@ code --install-extension redhat.vscode-xml
 code --install-extension redhat.vscode-yaml
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension tamasfe.even-better-toml
-code --install-extension waderyan.gitblame
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
-code --install-extension ziyasal.vscode-open-in-github
 code --install-extension takumii.markdowntable
 
 
+code --install-extension waderyan.gitblame
 code --disable-extension waderyan.gitblame
+
+code --install-extension tamasfe.even-better-toml
 code --disable-extension tamasfe.even-better-toml
+
+code --install-extension donjayamanne.githistory
 code --disable-extension donjayamanne.githistory
+
+code --install-extension codezombiech.gitignore
 code --disable-extension codezombiech.gitignore
+
+code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --disable-extension ms-toolsai.vscode-jupyter-slideshow
+
+code --install-extension ziyasal.vscode-open-in-github
 code --disable-extension ziyasal.vscode-open-in-github
 ```
 
