@@ -44,13 +44,13 @@ This is derived from [the official tutorial](https://wiki.ros.org/melodic/Instal
     sudo rosdep init
     rosdep update
     ```
+
 1. Install catkin tools
 
-    ```
+    ```bash
     sudo apt install -y catkin-tools
     sudo apt install -y python3-pip python3-yaml
     sudo pip3 install rospkg catkin_pkg empy
-
     ```
 
 1. Take a Snapshot

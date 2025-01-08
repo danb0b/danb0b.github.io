@@ -9,7 +9,7 @@ summary: " "
 
 or
 
-```
+```bash
 sudo apt install -y adb
 ```
 
@@ -20,7 +20,7 @@ Instructions taken from here:
 <https://github.com/M0Rf30/android-udev-rules#installation>
 
 
-```
+```bash
 # Clone this repository
 
 cd ~/code_external

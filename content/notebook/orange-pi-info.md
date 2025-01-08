@@ -64,7 +64,7 @@ With these changes you should be able to connect in a headless way
 
 1. SSH
 
-    ```
+    ```bash
     ssh orangepi@192.168.0.141
     #default password is orangepi
     ```
@@ -236,7 +236,7 @@ pip3 install adafruit-blinka
 
 ```
 
-```
+```bash
 sudo find / -iname "sun50*"
 ```
 
@@ -246,7 +246,7 @@ got help from [here](https://forum.armbian.com/topic/24427-working-overlay-for-o
 echo -e "overlays=uart2 uart3 i2c0 i2c1 i2c2 spi-spidev usbhost1 usbhost2 usbhost3\nparam_spidev_spi_bus=0" | sudo tee -a /boot/orangepiEnv.txt
 ```
 
-```
+```bash
 overlay_prefix=sun50i-h5
 overlays=uart1 uart2 uart3 i2c0 i2c1 i2c2 spi-spidev usbhost0 usbhost1 usbhost2 usbhost3 pwm
 param_spidev_spi_bus=0

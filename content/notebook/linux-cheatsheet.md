@@ -10,7 +10,7 @@ summary: Collected commands, tips, and tricks for working headless in Ubuntu
 
 ## Find Kernel version
 
-```
+```bash
 uname -r
 ```
 
@@ -26,10 +26,9 @@ uname -a
 lsb_release -a
 ```
 
-
 List all kernel images installed:
 
-```
+```bash
 dpkg --list | grep linux-image
 ```
 
@@ -64,9 +63,6 @@ crontab -e
 
 ctrl-h hides and shows "dot" files in nautilus like ```.config``` or ```.ssh/```
 
-
-
-
 ## Login, Logout, Restart
 
 ```bash
@@ -81,7 +77,7 @@ From <https://fostips.com/lid-close-action-ubuntu-21-04-laptop/>
 
 edit ```/etc/systemd/logind.conf``` to configure power options such as lid closing opening,
 
-```
+```bash
 HandleLidSwitch=ignore
 HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
@@ -92,8 +88,6 @@ HandleLidSwitchDocked=ignore
 ```bash
 systemctl restart systemd-logind.service
 ```
-
-
 
 ## Backup folders
 
@@ -111,15 +105,11 @@ systemctl restart systemd-logind.service
 
 <https://askubuntu.com/questions/222326/which-folders-to-include-in-backup>
 
-
-
-
-
 ### How to find .desktop file location for a particular application
 
 For example, if "Image Viewer" is in the name of the icon:
 
-```
+```bash
 find / -name '*.desktop' -exec grep -H 'Image Viewer' {} \; 2>/dev/null
 ```
 
@@ -134,7 +124,6 @@ Some default locations listed [here](https://askubuntu.com/questions/1146307/whi
 ~/.gnome/apps/gnome-terminal.desktop
 ```
 
-
 ## Trash
 
 Files can be stuck in ~/.local/share/Trash/expunged when you delete from Nautilus a folder that belongs to you, but contains files which are belong to another user, and it is tricky for Nautilus to handle this situation correctly. To delete them try to use:
@@ -145,12 +134,9 @@ rm -rv /home/<desired_user_name>/.local/share/Trash/expunged/*
 exit
 ```
 
-
 ## More
 
 see [this page](/bookmarks/linux-cheatsheet-links/) for more links
-
-
 
 ## Accidentally deleted sudoers
 
@@ -159,4 +145,3 @@ use pkexec to do things you would normally do with sudo, like
 pkexec cp /path/to/sudo/backup /etc/sudoers
 
 great advice from here: <https://askubuntu.com/questions/438123/accidentally-deleted-etc-sudoers-file>
-

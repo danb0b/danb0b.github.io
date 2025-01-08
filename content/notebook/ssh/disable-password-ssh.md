@@ -11,7 +11,7 @@ weight: 10
 
 first, remember to add a public key to your .ssh/authorized keys so you can still log in remotely.
 
-```
+```bash
 echo "<public key info here>" >> /.ssh/authorized_keys
 ```
 
@@ -88,7 +88,9 @@ create a new group and add
 sudo groupadd --system ssh-users
 sudo usermod -a -G ssh-users $USER
 ```
+
 Regenerate your keys
+
 ```bash
 sudo rm -f /etc/ssh/ssh_host_*key*
 
@@ -188,7 +190,6 @@ sudo chmod 644 /etc/ssh/sshd_config.d/99-local-sshd.conf
 sudo systemctl restart ssh
 
 ```
-
 
 ## References
 

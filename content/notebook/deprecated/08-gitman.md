@@ -17,10 +17,10 @@ Gitman is my python based package for scanning a computer and pulling all your r
     mkdir ~/.config/gitman
     gpg --output ~/.config/gitman/config.yaml --decrypt ~/my/remote/filesystem/backup_settings/config.yaml.gpg
     ```
-    
+
 1. [Install miniconda](/notebook/computer-setup/conda_install/)
 
-1. Install gitman and clone all files 
+1. Install gitman and clone all files
 
     ```bash
     mkdir ~/code

@@ -105,7 +105,6 @@ ls src
 catkin_make
 ```
 
-
 ## Running ROS
 
 From [here](https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
@@ -155,19 +154,27 @@ See the [tutorial](https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
 #run ros
 roscore
 ```
+
 in a new terminal
+
 ```bash
 rosrun turtlesim turtlesim_node
 ```
+
 in a new terminal:
+
 ```bash
 rosrun turtlesim turtle_teleop_key
 ```
+
 in a new terminal:
+
 ```bash
 rosrun rqt_graph rqt_graph
 ```
+
 in a new terminal:
+
 ```bash
 # list all commands within rostopic
 rostopic -h
@@ -177,7 +184,9 @@ rostopic -h
 #rostopic echo [topic]
 rostopic echo /turtle1/cmd_vel
 ```
+
 in a new terminal:
+
 ```bash
 # list full details
 rostopic list -v
@@ -242,11 +251,15 @@ echo "<launch>
 
 roslaunch beginner_tutorials turtlemimic.launch
 ```
+
 in a new terminal
+
 ```bash
 rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
 ```
+
 in a new terminal
+
 ```bash
 #rqt
 rqt_graph
@@ -255,7 +268,6 @@ rqt_graph
 ## Creating a Message and Service
 
 From this [tutorial](https://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
-
 
 ```bash
 cd ~/catkin_ws
@@ -273,13 +285,15 @@ nano package.xml
 ```
 
 add these lines:
-```
+
+```xml
   <build_depend>message_generation</build_depend>
   <exec_depend>message_runtime</exec_depend>
 ```
 
 save and exit
-```
+
+```bash
 nano CMakeLists.txt
 ```
 
@@ -297,41 +311,48 @@ find_package(catkin REQUIRED COMPONENTS
 
 Also make sure you export the message runtime dependency.
 
-```
+```txt
 catkin_package(
   ...
   CATKIN_DEPENDS message_runtime ...
   ...)
 ```
+
 Find the following block of code:
-```
+
+```txt
 # add_message_files(
 #   FILES
 #   Message1.msg
 #   Message2.msg
 # )
 ```
+
 Uncomment it by removing the # symbols and then replace the stand in Message*.msg files with your .msg file, such that it looks like this:
-```
+
+```txt
 add_message_files(
   FILES
   Num.msg
 )
 ```
+
 By adding the .msg files manually, we make sure that CMake knows when it has to reconfigure the project after you add other .msg files.
 
 Now we must ensure the generate_messages() function is called.
 
 For ROS Hydro and later, you need to uncomment these lines:
 
-```
+```txt
 # generate_messages(
 #   DEPENDENCIES
 #   std_msgs
 # )
 ```
+
 so it looks like:
-```
+
+```txt
 generate_messages(
   DEPENDENCIES
   std_msgs
@@ -371,6 +392,7 @@ catkin_make
 ```
 
 ## Examining Publisher and Subscriber
+
 From  [here](https://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber)
 
 Make sure that a roscore is up and running:
@@ -388,35 +410,37 @@ source ./devel/setup.bash
 #rosrun beginner_tutorials talker      (C++)
 rosrun beginner_tutorials talker.py  # (Python)
 ```
+
 In another terminal:
+
 ```bash
 #rosrun beginner_tutorials listener     (C++)
 rosrun beginner_tutorials listener.py  #(Python)
 ```
 
-
 ## Recording data (creating a bag file)
 
 1. In Terminal 1:
 
-    ```
+    ```bash
     roscore
     ```
+
 1. In Terminal 2:
 
-    ```
+    ```bash
     rosrun turtlesim turtlesim_node
     ```
 
 1. In Terminal 3:
 
-    ```
+    ```bash
     rosrun turtlesim turtle_teleop_key
     ```
 
 1. Start Recording.  In Terminal 4:
 
-    ```
+    ```bash
     rostopic list -v
     mkdir ~/bagfiles
     cd ~/bagfiles
@@ -437,7 +461,7 @@ rosrun beginner_tutorials listener.py  #(Python)
 <!--
 1. with the ip address:
 
-    ```
+    ```bash
     export ROS_IP=192.168.0.17
     ```
 -->

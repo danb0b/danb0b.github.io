@@ -14,16 +14,17 @@ summary: " "
 1. Remove Unused Programs
 1. Turn off hibernation
 
-  ```
-  powercfg.exe -h off
-  ```
+    ```powershell
+    powercfg.exe -h off
+    ```
+
 1. Turn off page file
 
 1. Clean C: drive, purging old system files and prior windows installations
 
 1. Install Chocolatey and Packages
 
-    ```
+    ```powershell
     Set-ExecutionPolicy AllSigned
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     choco install -y 7zip pandoc gpg4win grepwin kdiff3 vcxsrv notepadplusplus putty.install wiztree winscp winfsp rclone unifying fritzing winmerge vlc adobereader ffmpeg firefox

@@ -37,7 +37,7 @@ tags:
     ```bash
     cat ~/.ssh/id_ed25519.pub >> ~/.ssh/authorized_keys
     ```
-    
+
     or distribute your keys with ```ssh-copy-id```
 
     ```bash
@@ -46,7 +46,7 @@ tags:
 
 1. update your .ssh/config file
 
-    ```
+    ```txt
     Host *
         IdentitiesOnly yes
         IdentityFile [path/to/new_file]
@@ -76,9 +76,10 @@ ssh-add -l
 ```bash
 ssh-add -D
 ```
+
 ### add passphrase
 
-```
+```bash
 ssh-keygen -p -f <path-to-key>
 ```
 

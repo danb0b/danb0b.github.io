@@ -9,6 +9,7 @@ tags:
 - opencv
 summary: " "
 ---
+
 getting cv_bridge working with python 3 is less straightforward.  you need to recompile cv_bridge locally.
 
 ```bash
@@ -28,16 +29,19 @@ pip3 install imutils
 1. run ros
 
     in one terminal
-    ```
+
+    ```bash
     roscore
     ```
 
     in second terminal
-    ```
+
+    ```bash
     rosrun libuvc_camera camera_node
     ```
 
     in third terminal
-    ```
+
+    ```bash
     rosrun tracking tracker.py
     ```

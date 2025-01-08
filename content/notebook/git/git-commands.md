@@ -24,7 +24,7 @@ git branch
 
 list remote branches:
 
-```
+```bash
 git branch --remote
 ```
 
@@ -157,7 +157,7 @@ git restore '*.c'
 
 create
 
-```
+```bash
 git submodule add <repo_address> <your/local/path>
 ```
 
@@ -165,24 +165,24 @@ from [here](https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-
 
 to pull submodules
 
-```
+```bash
 git submodule update --init --recursive
 ```
 
-```
+```bash
 git submodule update --recursive --remote
 ```
 
 cd into the proper subdirectory
 ensure you are attached to a branch:
 
-```
+```bash
 git branch
 ```
 
 if not check one out
 
-```
+```bash
 git checkout [branchname]
 ```
 

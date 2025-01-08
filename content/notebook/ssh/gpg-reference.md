@@ -16,6 +16,7 @@ summary: " "
 gpg --list-keys
 gpg --list-secret-keys
 ```
+
 prints out ids
 
 ### delete gpg secret keys
@@ -30,7 +31,6 @@ gpg --delete-keys KEYIDFROMABOVE
 ```bash
 gpg --output /my/path/to/output_file.ext --decrypt /my/encrypted/source/file.gpg
 ```
-
 
 ### importing and trusting keys
 
@@ -51,13 +51,11 @@ gpg> trust
   5 = I trust ultimately
   m = back to the main menu
 
-
-select 5 
+select 5
 
 ## encrypt without passphrase dialog
 
 gpg --encrypt --passphrase-file </path/to/passphrase> --sign -r <who_to_sign_for> </path/to/file/to/encrypt>
-
 
 ## External references
 

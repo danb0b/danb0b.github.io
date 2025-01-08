@@ -9,11 +9,11 @@ summary: " "
 
 ## Get Current Templates
 
-```
+```bash
 pandoc --print-default-template=markdown > pandoc-template.md
 ```
 
-```
+```bash
 pandoc --print-default-template=latex>pandoc-template.tex
 ```
 
@@ -27,7 +27,7 @@ pandoc input-file.md -s -t latex+smart --citeproc --pdf-engine=xelatex --no-high
 
 See [variables for latex](https://pandoc.org/MANUAL.html#variables-for-latex) and [metadata variables](https://pandoc.org/MANUAL.html#metadata-variables) for all variables.
 
-```
+```bash
 summary: " "
 ---
 title: Syllabus for Foldable Robotics 

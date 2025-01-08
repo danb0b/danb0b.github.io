@@ -1,5 +1,5 @@
 ---
-title: Get download with wget and xpath
+title: Download with ```wget``` and ```xpath```
 tags:
 - ubuntu
 - bash
@@ -34,7 +34,7 @@ html=$(wget -q -O - "$url")
 
 1. in the same terminal window
 
-```
+```bash
 dl_url=$(echo $html | xmllint --html --xpath "string($xpath/@href)" - 2>/dev/null | xargs)
 echo $dl_url
 ```

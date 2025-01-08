@@ -137,13 +137,13 @@ This assumes you have two docker containers with ip addresses 192.168.98.50 (and
 
 This command uses the build capabilities of docker compose the first time.  If you change anything in the dockerfile and want to rebuild, you can use the command.
 
-```
+```bash
 docker compose up --force-recreate --build
 ```
 
 Despite all flags, if docker sees a locally cached layer, it will not rebuild or re-acquire it.  This means you may also need to use:
 
-```
+```bash
 docker build --no-cache -t <image-name> /path/to/dockerfile
 ```
 

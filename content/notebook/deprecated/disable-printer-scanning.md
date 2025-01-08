@@ -31,6 +31,6 @@ In /etc/cups/cups-browsed.conf, set directive:
 
 Set the directive
 
-```
+```bash
 BrowseProtocols none
 ```

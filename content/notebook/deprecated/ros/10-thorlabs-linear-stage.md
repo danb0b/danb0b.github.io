@@ -26,17 +26,16 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
 
 1. add rules to linux system.  These are located
 
-    ```
+    ```txt
     SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="faf0", MODE="666"
     ```
 
-    ```
+    ```bash
     cd ~/code/code_devices_thorlabs_linear_stage
     sudo cp 99-thorlabs.rules /etc/udev/rules.d
     sudo chmod 644 /etc/udev/rules.d/99-thorlabs.rules
     sudo udevadm control --reload-rules && udevadm trigger
     ```
-
 
 1. clone idealab tools (if not already done)
 
@@ -57,6 +56,7 @@ These instructions are for loading and running the thorlabs linear stage in ROS.
     echo "export PYTHONPATH=\$PYTHONPATH:~/code/code_devices_thorlabs_linear_stage/python" >> ~/.bashrc
     source ~/.bashrc
     ```
+
 ## Old steps
 
 This is not necessary to do in Linux, as the above works with the pySerial package.  You can use the ftd2xx package in windows though.
@@ -70,6 +70,7 @@ pip3 install ftd2xx
 ```
 
 1. (old) download ftd2xx drivers(see downloads below)
+
 ```bash
 mkdir ~/drivers
 cd ~/drivers

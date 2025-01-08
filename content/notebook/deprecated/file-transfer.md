@@ -13,12 +13,12 @@ summary: " "
 Issue: Nautilus hangs when I try to copy large files to a NAS.
 
 
-```
+```bash
 sudo echo $((16*1024*1024)) | sudo tee /proc/sys/vm/dirty_background_bytes && \
   sudo echo $((16*1024*1024)) | sudo tee /proc/sys/vm/dirty_bytes
 ```
 
-```
+```bash
 echo '#!/usr/bin/bash' > ~/test.bash
 echo "echo \$((16*1024*1024)) | sudo tee /proc/sys/vm/dirty_background_bytes
 echo \$((16*1024*1024)) | sudo tee /proc/sys/vm/dirty_bytes" >> ~/test.bash

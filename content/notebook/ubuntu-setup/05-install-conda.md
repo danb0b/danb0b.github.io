@@ -19,7 +19,7 @@ summary: " "
 
 ### Linux Install
 
-```
+```bash
 cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
@@ -29,14 +29,14 @@ bash Miniconda3-latest-Linux-x86_64.sh
 2. use the default path
 3. say "yes" to initialize conda
 
-```
+```bash
 cd ~/
 source ~/.bashrc
 ```
 
 ### map miniconda to anaconda
 
-```
+```bash
 mkdir ~/anaconda3
 mkdir ~/anaconda3/bin
 ln -s ~/miniconda3/bin/python ~/anaconda3/bin/python
@@ -49,7 +49,7 @@ Set powershell-specific security settings
 
 from <https://stackoverflow.com/questions/47800794/how-to-activate-different-anaconda-environment-from-powershell>
 
-```
+```bash
 Set-ExecutionPolicy remotesigned
 conda init powershell
 ```
@@ -140,7 +140,7 @@ pip install esptool
 
 ### Update everything to make sure it's all consistent
 
-```
+```bash
 conda update -y --all
 ```
 
@@ -159,7 +159,7 @@ export QT_QPA_PLATFORM="xcb"
 
 To install chrono, you must make a different environment, as it conflicts with some of the packages here.
 
-```
+```bash
 sudo apt install -y libirrlicht-dev
 
 conda create -n chrono
@@ -190,7 +190,7 @@ conda install -y -c conda-forge irrlicht # not sure it's needed
 
 ### Packages required for some of my vision based packages. (opencv downgrades python)
 
-```
+```bash
 conda install opencv
 pip install
 #pip install smtplib pygraphviz
@@ -202,13 +202,13 @@ Useful older package for making executables.  Old instructions
 
 go to cx_freeze mod
 
-```
+```bash
 python setup.py install
 ```
 
 ### Older debuggable python
 
-```
+```bash
 conda create -y -n debug python=3.5 spyder=3.1.4
 activate debug
 conda update conda
@@ -236,7 +236,7 @@ pip install ntplib pygame pygraphviz pysftp smtplib
 
 ### PythonOCC
 
-```
+```bash
 conda create -y -n occ python ipykernel=4.8 matplotlib numpy pyqt pyyaml spyder
 activate occ
 conda install pip
@@ -248,7 +248,7 @@ conda update -y --all
 
 ### OpenCV install
 
-```
+```bash
 conda create -n opencv python=3.7
 conda activate opencv
 conda install pip
@@ -258,13 +258,13 @@ pip install imutils
 
 ### Conda packages not available from main channels
 
-```
+```bash
 conda install -c conda-forge scikit-geometry poppler
 ```
 
 ### pychrono
 
-```
+```bash
 conda  install projectchrono/label/develop::pychrono
 ```
 
@@ -274,7 +274,7 @@ conda  install projectchrono/label/develop::pychrono
 
 Just for servers, no research code running
 
-```
+```bash
 cd ~/Downloads
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh

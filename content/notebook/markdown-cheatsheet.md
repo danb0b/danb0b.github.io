@@ -168,7 +168,7 @@ As you can see the word **Class** is highlighted.
 
 We can also use triple backticks ```` ``` ```` before and after the code block to create the following view.
 
-    ```
+    ```bash
     public static String monthNames[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};```
 
 ![Code Highlighting][5]

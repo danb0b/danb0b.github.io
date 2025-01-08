@@ -21,7 +21,7 @@ Turn on the device and read dmesg:
 sudo dmesg
 ```
 
-```
+```bash
 hid-generic 0005:046D:B342.002E: unknown main item tag 0x0
 input: Keyboard K380 Keyboard as /devices/pci0000:00/0000:00:08.1/0000:04:00.3/usb1/1-4/1-4:1.0/bluetooth/hci0/hci0:256/0005:046D:B342.002E/input/input77
 hid-generic 0005:046D:B342.002E: input,hidraw11: BLUETOOTH HID v42.01 Keyboard [Keyboard K380] on 38:fc:98:48:d0:e0
@@ -29,7 +29,7 @@ hid-generic 0005:046D:B342.002E: input,hidraw11: BLUETOOTH HID v42.01 Keyboard [
 
 ## not quite working:
 
-```
+```bash
 cat << EOT | sudo tee /etc/udev/rules.d/70-logi-k380.rules
 ACTION=="add", SUBSYSTEM=="hidraw", KERNEL=="hidraw*", SUBSYSTEMS=="hid", KERNELS=="*:046D:B342.*", RUN+="/bin/bash -c \"echo -ne '\x10\xff\x0b\x1e\x00\x00\x00' > /dev/%k\""
 EOT

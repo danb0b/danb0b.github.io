@@ -35,7 +35,7 @@ sudo make install
 
 Things I tried that didn't work at fixing my Mesa errors (it was anaconda the whole time!)
 
-```
+```bash
 sudo apt install -y mesa-utils
 sudo apt install --reinstall libgl1-mesa-dri
 

@@ -33,7 +33,7 @@ sudo apt install -yf
 
 > Note: this only works if you added vscode to your system ```PATH```
 
-```
+```txt
 Usage: code [options][paths...]
 ```
 

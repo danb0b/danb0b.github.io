@@ -25,7 +25,7 @@ load mathjax at the beginning:
 
 strikethrough support:
 
-```
+```bash
 markdown_extensions:
   ...
   - pymdownx.tilde: {}

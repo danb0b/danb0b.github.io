@@ -15,14 +15,14 @@ These instructions were used to create the photon package.  Please see the packa
 
 1. Create package
 
-    ```
+    ```bash
     cd code_idealab_ros/src
     catkin_create_pkg photon_tcp std_msgs rospy roscpp
     ```
 
 1. Create message
 
-    ```
+    ```bash
     roscd photon_tcp/
     mkdir msg
     nano data.msg
@@ -30,7 +30,7 @@ These instructions were used to create the photon package.  Please see the packa
 
 1. paste in:
 
-    ```
+    ```bash
     string ip_address
     string data
     ```

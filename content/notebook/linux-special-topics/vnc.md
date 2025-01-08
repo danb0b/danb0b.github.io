@@ -23,18 +23,18 @@ mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 nano ~/.vnc/xstartup
 ```
 
-```
+```bash
 #!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &
 ```
 
-```
+```bash
 chmod +x ~/.vnc/xstartup
 vncserver -localhost
 ```
 
-```
+```bash
 sudo nano /etc/systemd/system/vncserver@.service
 ```
 

@@ -22,6 +22,6 @@ sudo usermod -a -G dialout,tty $USER
 
 1. reboot to take effect
 
-```
+```bash
 sudo reboot 0
 ```

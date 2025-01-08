@@ -72,7 +72,7 @@ ls -l /dev/disk/by-uuid/
 
 back up crypttab
 
-```
+```bash
 sudo cp /etc/crypttab /etc/crypttab.bak
 ```
 
@@ -80,13 +80,13 @@ sudo cp /etc/crypttab /etc/crypttab.bak
 
 Edit the contents of file /etc/crypttab (use the UUID of /dev/sda1 from the previous step)
 
-```
+```bash
 sudo nano /etc/crypttab
 ```
 
 This contents should be:
 
-```
+```bash
 sda5_crypt UUID=9b7200b5-0e0a-447a-93a8-7eb8f1f4a1ee none luks,discard
 ```
 
@@ -96,7 +96,7 @@ Replace the 3rd parameter ‐ `none` ‐ with `/dev/disk/by-uuid/<uuid>:/keyfile
 Replace the 4th parameter ‐ `luks`‐ with `luks,keyscript=/lib/cryptsetup/scripts/passdev`
 The final result:
 
-```
+```bash
 sda5_crypt UUID=9b7200b5-0e0a-447a-93a8-7eb8f1f4a1ee /dev/disk/by-uuid/2a5e9b7f-2128-4a50-83b6-d1c285410145:/keyfile luks,keyscript=/lib/cryptsetup/scripts/passdev
 ```
 

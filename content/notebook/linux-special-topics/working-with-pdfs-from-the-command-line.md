@@ -13,7 +13,7 @@ summary: " "
 sudo apt install -y pdftk
 ```
 
-```
+```bash
 pdftk file1.pdf file2.pdf cat output mergedfile.pdf
 ```
 

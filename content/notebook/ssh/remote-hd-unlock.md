@@ -26,13 +26,13 @@ Updated for Ubuntu 22.04
     ```
 
     then add your public key (most of the time ~/.ssh/id_rsa.pub) in the file /etc/dropbear/initramfs/authorized_keys.
-    
+
     ```bash
     sudo cat ~/lucks_unlock_key.pub >> /etc/dropbear/initramfs/authorized_keys
     ```
-    
+
     or, if you need to do it as root:
-    
+
     ```bash
     sudo -i
     sudo echo "mypublickeydata" >> /etc/dropbear/initramfs/authorized_keys
@@ -44,14 +44,15 @@ Updated for Ubuntu 22.04
     ```bash
     sudo nano /etc/dropbear/initramfs/dropbear.conf
     ```
-    Add these options: 
-    
+
+    Add these options:
+
     * -I - disconnect time
     * -j - disable local ssh port forwarding
     * -k - disable remote ssh port forwarding
     * -p - listen on port 2222
     * -s - disable password logins
-    
+
     ```bash
     #DROPBEAR_OPTIONS="-I 180 –j –k –p 2222 -s"
     DROPBEAR_OPTIONS="-p 2222"
@@ -59,17 +60,17 @@ Updated for Ubuntu 22.04
 
 1. Set Static IP (optional)
 
-    ```
+    ```bash
     sudo nano /etc/initramfs-tools/initramfs.conf
     ```
-    
+
     Add config:
-    
-    ```
+
+    ```bash
     IP:IPADDRESS::GATEWAY:NETMASK:HOSTNAME:ADAPTER
     ```
-    
-    ```
+
+    ```bash
     IP=192.168.0.100::192.168.0.1:255.255.255.0:ubuntu:enp2s0
     ```
 
@@ -85,7 +86,7 @@ Updated for Ubuntu 22.04
 
     if you want to avoid to have clash between the keys between dropbear and openssh (they share the same ip, but use a different key), you may want to put in your client ~/.ssh/config something like that:
 
-    ```
+    ```bash
     Host <myserver>_luks_unlock
          User root
          Hostname <myserver-ip-or-hostname>
@@ -113,7 +114,7 @@ Updated for Ubuntu 22.04
     > Some newer ssh clients no longer accept RSA pubkeys.  See here: <https://confluence.atlassian.com/bitbucketserverkb/ssh-rsa-key-rejected-with-message-no-mutual-signature-algorithm-1026057701.html>
     >
     > Thus, you may need to add the following to /etc/ssh/ssh_config:
-    > 
+    >
     > ```
     > PubkeyAcceptedKeyTypes +ssh-rsa
     > ```

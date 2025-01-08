@@ -24,9 +24,10 @@ You will need some packages installed on the host side to communicate with your 
 1. Install Python, preferably via the [Anaconda](https://www.anaconda.com/products/individual) distribution
     1. You'll need some additional packages.  From a command prompt:
 
-        ```
+        ```bash
         pip install service_identity roslibpy
         ```
+
 1. C/C++ Compiler (optional).  Only required if you will be installing python packages on Windows that need to be compiled.
 1. Install [Virtualbox](https://www.virtualbox.org/).  This tutorial was written for Virtualbox 6, though I don't anticipate major functionality changes between neighboring versions.  Install the latest version.
 1. Install the virtualbox extension pack as well
@@ -62,13 +63,13 @@ The next steps outline how to go about creating a Virtual Machine similar to the
 
 **Hint:** To open up a terminal, remember the handy keyboard-based shortcut of ```ctrl+alt+t```
 
-
 1. install guest additions
     1. First, run this in the terminal
 
         ```bash
         sudo apt install -y virtualbox-guest-utils virtualbox-guest-dkms
         ```
+
     1. Install the virtualbox guest additions cd from the guest os window and select run when the button pops up.
     1. let it run
     1. eject the cd from the virtualbox host menu
@@ -98,7 +99,7 @@ Follow the detailed installation instructions at <https://wiki.ros.org/melodic/I
 
 1. this will return information about each networking device, that looks like this:
 
-    ```
+    ```bash
     enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
             inet 192.168.0.17  netmask 255.255.255.0  broadcast 192.168.0.255
             inet6 2600:8800:2281:3600:a6d7:41a9:9d6b:e48b  prefixlen 64  scopeid 0x0<global>
@@ -130,6 +131,6 @@ You can do this in your router or within the guest machine; this will enable you
 
 Please see the router specific instructions for reserving a specific IP address (using the guest machine's custom MAC address) using DHCP.  You must have administrator access to your router
 
-### Option 2: Within the Guest:
+### Option 2: Within the Guest
 
 Open up the network configuration (top right hand corner of the screen near power) and follow the menu system to assign a custom IP4 address to your ethernet controller.  You should be comfortable with networking concepts and have a firm understanding of your network topology before modifying this setting, or other computers will no longer be able to communicate with this computer.

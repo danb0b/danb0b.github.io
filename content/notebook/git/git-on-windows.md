@@ -36,7 +36,7 @@ pip install git_manage
 
 open git bash
 
-```
+```bash
 which git
 cd /mingw64/bin
 bash

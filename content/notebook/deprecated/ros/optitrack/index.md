@@ -14,7 +14,7 @@ summary: " "
 
 ## Install
 
-```
+```bash
 sudo apt install -y ros-melodic-mocap-optitrack
 ```
 
@@ -26,12 +26,12 @@ sudo apt install -y ros-melodic-mocap-optitrack
 
 ## Edit mocap.yaml                                           
 
-```
+```bash
 roscd mocap_optitrack/config
 nano mocap.yaml
 ```
 
-```
+```bash
 #
 # Definition of all trackable objects
 # Identifier corresponds to Trackable ID set in Tracking Tools
@@ -60,12 +60,12 @@ optitrack_config:
 
 ## Launch mocap
 
-```
+```bash
 roslaunch mocap.launch
 ```
 
 ## Subscribe to the pose topic
 
-```
+```bash
 rostopic echo /mocap_node/Robot_1/pose 
 ```

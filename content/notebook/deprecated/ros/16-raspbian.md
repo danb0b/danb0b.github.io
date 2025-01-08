@@ -39,7 +39,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
 1. Find the Pi on your network (in linux). You can use a virtual machine to do this
 
-    ```
+    ```bash
     sudo apt install -y net-tools nmap
     arp -na
     nmap -sn 10.0.0.*
@@ -73,7 +73,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
 1. install gedit
 
-    ```
+    ```bash
     sudo apt install -y gedit
     ```
 
@@ -85,7 +85,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
 1. change password for user pi
 
-    ```
+    ```bash
     passwd
     ```
 
@@ -95,14 +95,14 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
     1. install other packages for viewing and programming
 
-        ```
+        ```bash
         sudo apt install -y gpicview vlc thonny
         pip3 install picamera
         ```
 
     1. After installing picamera there may be a warning.  use the next lines to fix:
 
-        ```
+        ```bash
         echo "export PATH=\$PATH:/home/pi/.local/bin" >> ~/.bashrc
         source ~/.bashrc
         ```
@@ -117,19 +117,19 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
 1. install other necessary packages
 
-    ```
+    ```bash
     sudo apt install -y libilmbase-dev libopenexr-dev libgstreamer1.0-dev
     ```
 
 1. clone raspicam node
 
-    ```
+    ```bash
     git clone https://github.com/idealabasu/raspicam_node.git
     ```
 
 1. not sure these packages are needed:
 
-    ```
+    ```bash
     sudo apt install -y python3-catkin-pkg
     sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
     sudo apt install -y python3-empy
@@ -140,7 +140,7 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
     and using
 
-    ```
+    ```bash
     rosinstall_generator ros_comm joystick_drivers compressed_image_transport camera_info_manager dynamic_reconfigure diagnostic_updater cv_bridge --rosdistro melodic --deps --wet-only --tar > melodic-custom_ros.rosinstall
     ```
 
@@ -154,14 +154,14 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 1. **(Mental Note)** cloned and copied raspicam_node into code_idealab_ros/src (don't do, already done)
     1. Make projects
 
-        ```
+        ```bash
         cd ~/code/code_idealab_ros
         catkin_make
         ```
 
 1. **optional:** change ros master uri to remote.  Only necessary if you want the raspberry pi to work within a bigger ros network.  Modify ip addresses to match desired network topology
 
-    ```
+    ```bash
     echo "export MY_MASTER_IP=10.0.0.201" >> .bashrc
     echo "export MY_IP=10.0.0.200" >> .bashrc
     echo "export ROS_MASTER_URI=http://\$MY_MASTER_IP:11311" >> .bashrc
@@ -187,12 +187,12 @@ Installing ROS on a Raspberry Pi 4 is difficult because, though the ubuntu image
 
     1. in one terminal:
 
-        ```
+        ```bash
         roscore
         ```
 
     1. in a second terminal:
 
-        ```
+        ```bash
         rosrun rqt_image_view rqt_image_view
         ```

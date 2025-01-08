@@ -116,7 +116,7 @@ vboxmanage unregistervm --delete home-assistant
 
 ## Docker version
 
-```
+```yaml
 version: '3'
 services:
   homeassistant:

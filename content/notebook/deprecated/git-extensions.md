@@ -14,7 +14,7 @@ This assumes you have already installed git and kdiff3
 
 from <https://github.com/gitextensions/gitextensions/wiki/How-To%3A-run-Git-Extensions-on-Linux>:
 
-```
+```bash
 sudo apt install -y mono-complete
 cd ~/Downloads
 wget https://github.com/gitextensions/gitextensions/releases/download/v2.51.05/GitExtensions-2.51.05-Mono.zip

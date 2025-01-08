@@ -7,9 +7,7 @@ tags:
 summary: " "
 ---
 
-## 
-
-```
+```bash
 Received disconnect from ########## port 22:2: Too many authentication failures
 ```
 
@@ -19,7 +17,7 @@ Add the ```IdentitiesOnly``` option to your config file
 nano .ssh/config
 ```
 
-```
+```bash
 Host <myhost>
    User <myusername>
    Hostname <myhostname>

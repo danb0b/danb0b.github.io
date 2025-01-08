@@ -26,7 +26,7 @@ Improved instructions for installing as a service, from [here](https://askubuntu
 
 Create the file /etc/systemd/system/noip2.service with the following content (and drop your init.d scripts):
 
-```
+```bash
 cat <<EOT | sudo tee /etc/systemd/system/noip.service
 [Unit]
 Description=No-ip.com dynamic IP address updater

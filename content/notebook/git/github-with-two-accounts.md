@@ -42,7 +42,7 @@ summary: " "
 
     Note: I have the following settings at the top of my config file to make it more secure:
 
-    ```
+    ```txt
     AddKeysToAgent yes
 
     Host *
@@ -53,7 +53,7 @@ summary: " "
 
     Then I add the following.  To ensure the gitman package is setup correctly, **make sure user1 and user2 are your _actual_ github usernames**
 
-    ```
+    ```txt
     Host user1.github.com
        HostName github.com
        User git

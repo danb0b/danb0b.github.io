@@ -34,9 +34,8 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
     git submodule add https://github.com/danb0b/website_hugo_framework.git themes/website_hugo_framework
     # or 
     git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
-
     ```
-    
+
 1. Add theme to ```config.yaml```
 
     ```bash
@@ -78,12 +77,14 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 ## External Links
 
 ### General
+
 * <https://gohugo.io/getting-started/quick-start/>
 * [Page Variables](https://gohugo.io/variables/page/#pages)
 * [The Page Variable](https://gohugo.io/variables/page/#pages)
 * <https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/>
 
 ### Essential Add-ons
+
 * Original [liva theme](https://github.com/gethugothemes/liva-hugo)
 * [Citations for Hugo](https://github.com/loup-brun/hugo-cite)
 * [custom pagination](https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/)
@@ -98,15 +99,18 @@ Modified from [here](https://gohugo.io/getting-started/quick-start/)
 * <https://xdeb.org/post/2017/make-hugo-generate-a-json-search-index-and-json-feed/>
 
 ### Using with Github Actions
+
 * [automated deploytment on github pages](https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9)
 * [detailed setup](https://github.com/peaceiris/actions-hugo)
 * [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages#getting-started)
 
 ### Themes and Examples
+
 * <https://themes.gohugo.io/hugo-theme-bootstrap4-blog/>
 * <https://www.liwen.id.au/photoswipe/>
 
 #### Documentation themes
+
 * <https://themes.gohugo.io/tags/docs/>
 
 Ones I didn't like as much
@@ -122,4 +126,4 @@ Good one:
 
 ## Google Fonts helper
 
-https://gwfh.mranftl.com/fonts/
+<https://gwfh.mranftl.com/fonts/>

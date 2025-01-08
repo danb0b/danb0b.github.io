@@ -95,7 +95,7 @@ It is sometimes necessary to create a virtual network to enable computers across
          
         summary: 
         
-        ```
+        ```bash
         algo_provider "local"
         algo_ondemand_cellular "False"
         algo_ondemand_wifi "False"

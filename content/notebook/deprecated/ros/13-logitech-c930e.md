@@ -26,7 +26,7 @@ You need to follow slightly different steps if you want to provide access to a b
 
     1. check if your vboxusers displays in this command :
 
-        ```
+        ```bash
         groups
         ```
 
@@ -38,7 +38,7 @@ You need to follow slightly different steps if you want to provide access to a b
 
     1. Logout & login again , check if your vboxusers displays in this command :
 
-        ```
+        ```bash
         groups
         ```
 
@@ -73,7 +73,7 @@ You need to follow slightly different steps if you want to provide access to a b
 
 1. Logout & login again , check if your vboxusers displays in this command
 
-    ```
+    ```bash
     groups
     ```
 
@@ -104,7 +104,7 @@ You need to follow slightly different steps if you want to provide access to a b
 
     this results...
 
-    ```
+    ```bash
                          brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=128
                            contrast 0x00980901 (int)    : min=0 max=255 step=1 default=128 value=128
                          saturation 0x00980902 (int)    : min=0 max=255 step=1 default=128 value=128

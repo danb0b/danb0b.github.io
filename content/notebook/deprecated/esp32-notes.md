@@ -29,14 +29,12 @@ please see [these pages](https://embedded-systems-design.github.io/tutorials/mic
 * [mouser search](https://www.mouser.com/c/embedded-solutions/engineering-tools/embedded-processor-development-kits/?m=Espressif)
 * [digikey search](https://www.digikey.com/en/products/filter/rf-evaluation-and-development-kits-boards/859?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAusQA4AuUIAykwE4CWAdgOYgAvsQC0AFmQg0kLHiKkKIAGwBWAMywktISJAAmJflwNOx3N3QACACb4AblYBGJTJxt0hQA)
 
-
-
 ## micropython general refs
+
 * <https://docs.micropython.org/en/latest/esp32/quickref.html>
     * [webrepl](https://docs.micropython.org/en/latest/esp32/quickref.html?highlight=webrepl#webrepl-web-browser-interactive-prompt)
 
 ## Install micropython IDE
-
 
 derived from [here](https://randomnerdtutorials.com/getting-started-micropython-esp32-esp8266/)
 
@@ -50,7 +48,7 @@ derived from [here](https://randomnerdtutorials.com/getting-started-micropython-
 
         ```bash
         sudo pip3 install thonny
-	pip install thonny # use this if anaconda is installed
+ pip install thonny # use this if anaconda is installed
         ```
 
     1. Running
@@ -58,24 +56,25 @@ derived from [here](https://randomnerdtutorials.com/getting-started-micropython-
         ```bash
         thonny
         ```
- 
-## Flash $\mu$python
 
+## Flash $\mu$python
 
 You will need the esptool from espressif ([github](https://github.com/espressif/esptool))
 
-
-
 It can be installed via pip from command line:
+
 ```bash
 pip install esptool
 ```
 
 First erase the flash
+
 ```bash
 esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 ```
+
 From then on program the firmware starting at address 0x1000:
+
 ```bash
 esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
 ```
@@ -84,7 +83,6 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 
 * <https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/>
 * <https://randomnerdtutorials.com/flash-upload-micropython-firmware-esp32-esp8266/>
 * <https://micropython-docs-esp32.readthedocs.io/en/esp32_doc/esp32/tutorial/intro.html>
-
 
 ## Pinout
 
@@ -100,7 +98,6 @@ Pinout Resources:
 * <https://www.etechnophiles.com/esp32-dev-board-pinout-specifications-datasheet-and-schematic/>
 * <https://www.studiopieters.nl/esp32-pinout/>
 
-
 ## Examples
 
 ### MQTT
@@ -115,7 +112,7 @@ Pinout Resources:
 * <https://docs.micropython.org/en/latest/library/machine.UART.html>
 * <https://techoverflow.net/2020/02/22/micropython-esp32-minimal-uart-example/>
 
-### Analog 
+### Analog
 
 * <https://randomnerdtutorials.com/esp32-esp8266-analog-readings-micropython/>
 
@@ -134,10 +131,9 @@ Pinout Resources:
       sleep(0.1)
     ```
 
-### Other Micropython stuff...
+### Other Micropython stuff
 
 * Importing packages...use ```upip```
-
 
 * [Logging Info](https://forum.micropython.org/viewtopic.php?t=6838)
     * Logging in python3 (not all features work): <https://docs.python.org/3/howto/logging.html>

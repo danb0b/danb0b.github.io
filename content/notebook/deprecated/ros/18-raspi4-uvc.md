@@ -36,7 +36,7 @@ summary: " "
 
       1. Logout & login again , check if your vboxusers displays in this command
 
-      ```
+      ```bash
       groups
       ```
 
@@ -52,7 +52,7 @@ sudo reboot
 
 1. get workspace prepared with dependencies:
 
-    ```
+    ```bash
     cd ~
 
     git clone https://github.com/ros-drivers/libuvc_ros
@@ -79,7 +79,7 @@ sudo reboot
 
 1. identify desired video device:
 
-```
+```bash
 v4l2-ctl --list-devices
 ```
 
@@ -87,6 +87,6 @@ v4l2-ctl --list-devices
 
 1. run node
 
-```
+```bash
 rosrun libuvc_camera camera_node
 ```

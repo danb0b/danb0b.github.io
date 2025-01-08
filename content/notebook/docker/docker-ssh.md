@@ -128,7 +128,7 @@ docker compose up --force-recreate --build ros -d
 docker exec -it --user user1 d64dd7a05bb3 /bin/bash
 ```
 
-```
+```bash
 echo "export PATH=/opt/ros/galactic/bin:\$PATH" >> ~/.bashrc
 ```
 

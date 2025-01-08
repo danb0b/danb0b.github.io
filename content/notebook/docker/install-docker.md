@@ -56,6 +56,7 @@ docker run -it ubuntu bash
 
 ##
 
+```bash
 docker container ls -a
 docker container rm <id>
 
@@ -67,14 +68,16 @@ docker login
 docker commit <user/repo>
 docker push <user/repo>
 docker history --no-trunc <user/repo>
+```
 
 ## Make a fresh docker image
 
+```bash
 mkdir docker
 cd docker
 nano Dockerfile
-
 ```
+```dockerfile
 FROM ubuntu:22.04
  
 RUN apt update && apt install -y nginx 
@@ -87,6 +90,7 @@ EXPOSE 80/tcp
  
 CMD ["nginx","-g","daemon off;"]
 ```
-
+```bash
 docker build -t myapp:v1 .
 docker run -p 80:80 myapp:v1
+```

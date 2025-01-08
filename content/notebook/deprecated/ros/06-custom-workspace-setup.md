@@ -12,7 +12,7 @@ summary: " "
 
 1. Install prerequisites
 
-```
+```bash
 sudo apt install -y ros-melodic-joy
 sudo apt install -y python3-numpy
 ```

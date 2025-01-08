@@ -9,7 +9,7 @@ tags:
 summary: " "
 ---
 
-```
+```bash
 color("red",1) import("path/to/your-part.stl");
 ```
 

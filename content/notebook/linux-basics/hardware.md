@@ -67,7 +67,6 @@ sudo nvme id-ctrl /dev/nvme0n1
 
 ### Mounting
 
-
 ```bash
 ##list disks
 sudo fdisk -l
@@ -143,6 +142,7 @@ you can add hard drive space to augment RAM.  This is usually set up when you in
     #sudo fallocate -l <swapsize> /swap.img 
     sudo fallocate -l 1G /swap.img
     ```
+
     you can use whatever size you want in place of 1G
 
     if that doesn't work, use

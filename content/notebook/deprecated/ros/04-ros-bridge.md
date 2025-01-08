@@ -60,7 +60,7 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
 
 1. install roslibpy (required if you did not do this in the prior step)
 
-    ```
+    ```bash
     pip install service_identity roslibpy
     ```
 
@@ -95,7 +95,7 @@ from [here](https://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge) and
 
 1. Run from the editor(f5) or, in a new terminal window, navigate to the location of 'listener.py' and type:
 
-    ```
+    ```bash
     python3 listener.py
     ```
 

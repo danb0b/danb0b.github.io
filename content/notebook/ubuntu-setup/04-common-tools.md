@@ -378,7 +378,7 @@ chmod +x mendeley*.AppImage
 <!--
 #### Mendeley Desktop on Ubuntu 21 and older
 
-```
+```bash
 cd ~/Downloads
 sudo dpkg -i mendeleydesktop*.deb
 sudo apt install -yf
@@ -424,7 +424,7 @@ rm mendeley-desktop.tar.bz2
 
 <https://flathub.org/apps/details/com.github.needleandthread.vocal>
 
-```
+```bash
 flatpak install flathub com.github.needleandthread.vocal
 flatpak run com.github.needleandthread.vocal
 ```
@@ -447,7 +447,7 @@ sudo apt install -y screen
 
 ### Numix Theme
 
-```
+```bash
 sudo apt update
 sudo add-apt-repository ppa:numix/ppa
 sudo apt install -y gnome-tweaks numix-gtk-theme numix-icon-theme numix-icon-theme-circle

@@ -96,7 +96,7 @@ ros2 run demo_nodes_cpp talker
 
 I get
 
-```
+```bash
 getifaddrs: Permission denied
 ```
 

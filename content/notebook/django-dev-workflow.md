@@ -27,7 +27,7 @@ nano murdermystery/settings.py
 
 See this [section](https://docs.djangoproject.com/en/4.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project) to pre-define a custom user class before creating any databases.
 
-```
+```bash
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,11 +41,11 @@ INSTALLED_APPS = [
 
 Update Database if necessary.
 
-```
+```bash
 TIME_ZONE = 'UTC'
 ```
 
-```
+```bash
 TIME_ZONE = 'America/Phoenix'
 ```
 
@@ -83,7 +83,7 @@ Now paste the following into
 nano script_builder/urls.py
 ```
 
-```
+```bash
 from django.urls import path
 from . import views
 
@@ -93,13 +93,13 @@ urlpatterns = [
 ```
 
 
-```
+```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
 
-```
+```bash
 python manage.py runserver
 ```
 
@@ -113,7 +113,7 @@ Add models according to [this page](https://developer.mozilla.org/en-US/docs/Lea
 nano script_builder/admin.py
 ```
 
-```
+```bash
 from django.contrib import admin
 
 # Register your models here.

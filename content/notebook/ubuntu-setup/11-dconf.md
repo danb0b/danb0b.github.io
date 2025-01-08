@@ -25,7 +25,8 @@ dconf load /org/gnome/settings-daemon/plugins/media-keys/ < my/remote/filesystem
 from <https://askubuntu.com/questions/682513/how-to-backup-restore-system-custom-keyboard-shortcuts>:
 
 backup:
-```
+
+```bash
 dconf dump /org/gnome/desktop/wm/keybindings/ > keybindings.dconf
 dconf dump /org/gnome/settings-daemon/plugins/media-keys/ > media-keys.dconf
 dconf dump /org/gnome/shell/extensions/dash-to-dock/ > dash-to-dock.dconf
@@ -35,7 +36,7 @@ dconf dump /com/ubuntu/touch/system/ >> screen.dconf
 
 restore
 
-```
+```bash
 dconf load /org/gnome/desktop/wm/keybindings/ < keybindings.dconf
 dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys.dconf
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < dash-to-dock.dconf
@@ -43,12 +44,11 @@ dconf load /org/gnome/desktop/interface/ < interface.dconf
 dconf load /com/ubuntu/touch/system/ < screen.dconf
 ```
 
-
 ## Full Config
 
 suggestion from [here](https://unix.stackexchange.com/questions/77277/how-to-append-multiple-lines-to-a-file):
 
-```
+```bash
 cat <<EOT >> keybindings.dconf
 [/]
 maximize=@as []
@@ -98,8 +98,4 @@ EOT
 
 dconf load /org/gnome/desktop/interface/ < interface.dconf
 rm interface.dconf
-
-
 ```
-
-
