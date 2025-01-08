@@ -159,38 +159,38 @@
 </span></span></span><span style=display:flex><span><span style=color:#d88200>uint32 score&#34;</span> &gt; msg/Num.msg
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>nano package.xml
-</span></span></code></pre></div><p>add these lines:</p><pre tabindex=0><code>  &lt;build_depend&gt;message_generation&lt;/build_depend&gt;
-  &lt;exec_depend&gt;message_runtime&lt;/exec_depend&gt;
-</code></pre><p>save and exit</p><pre tabindex=0><code>nano CMakeLists.txt
-</code></pre><p>Add the message_generation dependency to the find_package call which already exists in your CMakeLists.txt so that you can generate messages. You can do this by simply adding message_generation to the list of COMPONENTS such that it looks like this:</p><pre tabindex=0><code># Do not just add this to your CMakeLists.txt, modify the existing text to add message_generation before the closing parenthesis
+</span></span></code></pre></div><p>add these lines:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=display:flex><span>  <span style=color:#f92672>&lt;build_depend&gt;</span>message_generation<span style=color:#f92672>&lt;/build_depend&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;exec_depend&gt;</span>message_runtime<span style=color:#f92672>&lt;/exec_depend&gt;</span>
+</span></span></code></pre></div><p>save and exit</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nano CMakeLists.txt
+</span></span></code></pre></div><p>Add the message_generation dependency to the find_package call which already exists in your CMakeLists.txt so that you can generate messages. You can do this by simply adding message_generation to the list of COMPONENTS such that it looks like this:</p><pre tabindex=0><code># Do not just add this to your CMakeLists.txt, modify the existing text to add message_generation before the closing parenthesis
 find_package(catkin REQUIRED COMPONENTS
    roscpp
    rospy
    std_msgs
    message_generation
 )
-</code></pre><p>Also make sure you export the message runtime dependency.</p><pre tabindex=0><code>catkin_package(
-  ...
-  CATKIN_DEPENDS message_runtime ...
-  ...)
-</code></pre><p>Find the following block of code:</p><pre tabindex=0><code># add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
-</code></pre><p>Uncomment it by removing the # symbols and then replace the stand in Message*.msg files with your .msg file, such that it looks like this:</p><pre tabindex=0><code>add_message_files(
-  FILES
-  Num.msg
-)
-</code></pre><p>By adding the .msg files manually, we make sure that CMake knows when it has to reconfigure the project after you add other .msg files.</p><p>Now we must ensure the generate_messages() function is called.</p><p>For ROS Hydro and later, you need to uncomment these lines:</p><pre tabindex=0><code># generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
-</code></pre><p>so it looks like:</p><pre tabindex=0><code>generate_messages(
-  DEPENDENCIES
-  std_msgs
-)
-</code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#rosmsg show [message type]</span>
+</code></pre><p>Also make sure you export the message runtime dependency.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-txt data-lang=txt><span style=display:flex><span>catkin_package(
+</span></span><span style=display:flex><span>  ...
+</span></span><span style=display:flex><span>  CATKIN_DEPENDS message_runtime ...
+</span></span><span style=display:flex><span>  ...)
+</span></span></code></pre></div><p>Find the following block of code:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-txt data-lang=txt><span style=display:flex><span># add_message_files(
+</span></span><span style=display:flex><span>#   FILES
+</span></span><span style=display:flex><span>#   Message1.msg
+</span></span><span style=display:flex><span>#   Message2.msg
+</span></span><span style=display:flex><span># )
+</span></span></code></pre></div><p>Uncomment it by removing the # symbols and then replace the stand in Message*.msg files with your .msg file, such that it looks like this:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-txt data-lang=txt><span style=display:flex><span>add_message_files(
+</span></span><span style=display:flex><span>  FILES
+</span></span><span style=display:flex><span>  Num.msg
+</span></span><span style=display:flex><span>)
+</span></span></code></pre></div><p>By adding the .msg files manually, we make sure that CMake knows when it has to reconfigure the project after you add other .msg files.</p><p>Now we must ensure the generate_messages() function is called.</p><p>For ROS Hydro and later, you need to uncomment these lines:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-txt data-lang=txt><span style=display:flex><span># generate_messages(
+</span></span><span style=display:flex><span>#   DEPENDENCIES
+</span></span><span style=display:flex><span>#   std_msgs
+</span></span><span style=display:flex><span># )
+</span></span></code></pre></div><p>so it looks like:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-txt data-lang=txt><span style=display:flex><span>generate_messages(
+</span></span><span style=display:flex><span>  DEPENDENCIES
+</span></span><span style=display:flex><span>  std_msgs
+</span></span><span style=display:flex><span>)
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#rosmsg show [message type]</span>
 </span></span><span style=display:flex><span>rosmsg show beginner_tutorials/Num
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#Now that we have made some new messages we need to make our package again:</span>
@@ -222,22 +222,22 @@ find_package(catkin REQUIRED COMPONENTS
 </span></span><span style=display:flex><span>rosrun beginner_tutorials talker.py  <span style=color:#75715e># (Python)</span>
 </span></span></code></pre></div><p>In another terminal:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#rosrun beginner_tutorials listener     (C++)</span>
 </span></span><span style=display:flex><span>rosrun beginner_tutorials listener.py  <span style=color:#75715e>#(Python)</span>
-</span></span></code></pre></div><h2 id=recording-data-creating-a-bag-file>Recording data (creating a bag file)</h2><ol><li><p>In Terminal 1:</p><pre tabindex=0><code>roscore
-</code></pre></li><li><p>In Terminal 2:</p><pre tabindex=0><code>rosrun turtlesim turtlesim_node
-</code></pre></li><li><p>In Terminal 3:</p><pre tabindex=0><code>rosrun turtlesim turtle_teleop_key
-</code></pre></li><li><p>Start Recording. In Terminal 4:</p><pre tabindex=0><code>rostopic list -v
-mkdir ~/bagfiles
-cd ~/bagfiles
-rosbag record -a -O test.bag --duration=10s
-#Wait ten seconds
-
-#Examine your bagfile
-rosbag info test.bag
-
-#Play back at twice the rate
-#rosbag play -r 2 &lt;your bagfile&gt;
-rosbag play -r 2 test.bag
-
-rosbag record -O subset.bag --duration /turtle1/cmd_vel /turtle1/pose
-rosbag info subset.bag
-</code></pre></li></ol></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://www.danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/contact/>Contact</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://www.danaukes.com/><img src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2023 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/deprecated/ros/03-ros-usage.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://www.danaukes.com/index.json"</script><script src=https://www.danaukes.com/plugins/glightbox/js/glightbox.js></script><script src=https://www.danaukes.com/plugins/jQuery/jquery.min.js></script><script src=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script><script src=https://www.danaukes.com/plugins/slick/slick.min.js></script><script src=https://www.danaukes.com/plugins/venobox/venobox.min.js></script><script src=https://www.danaukes.com/plugins/search/fuse.min.js></script><script src=https://www.danaukes.com/plugins/search/mark.js></script><script src=https://www.danaukes.com/plugins/search/search.js></script><script src=https://www.danaukes.com/js/script.min.js></script><script>var lightboxDescription,lightboxVideo,lightboxInlineIframe,lightbox=GLightbox();lightbox.on("open",e=>{console.log("lightbox opened")}),lightboxDescription=GLightbox({selector:".glightbox2"}),lightboxVideo=GLightbox({selector:".glightbox3"}),lightboxVideo.on("slide_changed",({prev:e,current:t})=>{console.log("Prev slide",e),console.log("Current slide",t);const{slideIndex:s,slideNode:o,slideConfig:i,player:n}=t;n&&(n.ready||n.on("ready",e=>{}),n.on("play",e=>{console.log("Started play")}),n.on("volumechange",e=>{console.log("Volume change")}),n.on("ended",e=>{console.log("Video ended")}))}),lightboxInlineIframe=GLightbox({selector:".glightbox4"})</script></body></html>
+</span></span></code></pre></div><h2 id=recording-data-creating-a-bag-file>Recording data (creating a bag file)</h2><ol><li><p>In Terminal 1:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>roscore
+</span></span></code></pre></div></li><li><p>In Terminal 2:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>rosrun turtlesim turtlesim_node
+</span></span></code></pre></div></li><li><p>In Terminal 3:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>rosrun turtlesim turtle_teleop_key
+</span></span></code></pre></div></li><li><p>Start Recording. In Terminal 4:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>rostopic list -v
+</span></span><span style=display:flex><span>mkdir ~/bagfiles
+</span></span><span style=display:flex><span><span style=color:#111>cd</span> ~/bagfiles
+</span></span><span style=display:flex><span>rosbag record -a -O test.bag --duration<span style=color:#f92672>=</span>10s
+</span></span><span style=display:flex><span><span style=color:#75715e>#Wait ten seconds</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#Examine your bagfile</span>
+</span></span><span style=display:flex><span>rosbag info test.bag
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#Play back at twice the rate</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#rosbag play -r 2 &lt;your bagfile&gt;</span>
+</span></span><span style=display:flex><span>rosbag play -r <span style=color:#ae81ff>2</span> test.bag
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>rosbag record -O subset.bag --duration /turtle1/cmd_vel /turtle1/pose
+</span></span><span style=display:flex><span>rosbag info subset.bag
+</span></span></code></pre></div></li></ol></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://www.danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/contact/>Contact</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://www.danaukes.com/><img src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2023 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/deprecated/ros/03-ros-usage.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://www.danaukes.com/index.json"</script><script src=https://www.danaukes.com/plugins/glightbox/js/glightbox.js></script><script src=https://www.danaukes.com/plugins/jQuery/jquery.min.js></script><script src=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script><script src=https://www.danaukes.com/plugins/slick/slick.min.js></script><script src=https://www.danaukes.com/plugins/venobox/venobox.min.js></script><script src=https://www.danaukes.com/plugins/search/fuse.min.js></script><script src=https://www.danaukes.com/plugins/search/mark.js></script><script src=https://www.danaukes.com/plugins/search/search.js></script><script src=https://www.danaukes.com/js/script.min.js></script><script>var lightboxDescription,lightboxVideo,lightboxInlineIframe,lightbox=GLightbox();lightbox.on("open",e=>{console.log("lightbox opened")}),lightboxDescription=GLightbox({selector:".glightbox2"}),lightboxVideo=GLightbox({selector:".glightbox3"}),lightboxVideo.on("slide_changed",({prev:e,current:t})=>{console.log("Prev slide",e),console.log("Current slide",t);const{slideIndex:s,slideNode:o,slideConfig:i,player:n}=t;n&&(n.ready||n.on("ready",e=>{}),n.on("play",e=>{console.log("Started play")}),n.on("volumechange",e=>{console.log("Volume change")}),n.on("ended",e=>{console.log("Video ended")}))}),lightboxInlineIframe=GLightbox({selector:".glightbox4"})</script></body></html>

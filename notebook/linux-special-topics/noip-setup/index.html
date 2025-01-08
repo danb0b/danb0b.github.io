@@ -7,21 +7,21 @@
 sudo apt install -y net-tools</p><p>wget &ndash;content-disposition <a href=https://www.noip.com/download/linux/latest>https://www.noip.com/download/linux/latest</a>
 tar xf noip-duc_3.1.1.tar.gz
 sudo dpkg -i noip-duc_3.1.1/binaries/noip-duc_3.1.1_amd64.deb
-sudo apt install -yf</p><p>noip-duc &ndash;username <username>&ndash;password <password>&ndash;hostnames <hostname>&ndash;ip-method &lsquo;aws-metadata&rsquo; -v</p><h2 id=create-and-install-noip2-as-a-service>Create and Install noip2 as a Service</h2><p>Improved instructions for installing as a service, from <a href=https://askubuntu.com/questions/1089704/cant-get-service-noip2-to-start-on-boot>here</a>:</p><p>Create the file /etc/systemd/system/noip2.service with the following content (and drop your init.d scripts):</p><pre tabindex=0><code>cat &lt;&lt;EOT | sudo tee /etc/systemd/system/noip.service
-[Unit]
-Description=No-ip.com dynamic IP address updater
-After=network.target
-After=syslog.target
-
-[Service]
-Type=forking
-ExecStart=/usr/bin/noip-duc --username &lt;username&gt; --password &lt;password&gt; --hostnames &lt;hostname&gt; --ip-method &#39;aws-metadata&#39; -v
-Restart=always
-
-[Install]
-WantedBy=default.target
-EOT
-</code></pre><p>Then issue</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo systemctl daemon-reload
+sudo apt install -yf</p><p>noip-duc &ndash;username <username>&ndash;password <password>&ndash;hostnames <hostname>&ndash;ip-method &lsquo;aws-metadata&rsquo; -v</p><h2 id=create-and-install-noip2-as-a-service>Create and Install noip2 as a Service</h2><p>Improved instructions for installing as a service, from <a href=https://askubuntu.com/questions/1089704/cant-get-service-noip2-to-start-on-boot>here</a>:</p><p>Create the file /etc/systemd/system/noip2.service with the following content (and drop your init.d scripts):</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat <span style=color:#d88200>&lt;&lt;EOT | sudo tee /etc/systemd/system/noip.service
+</span></span></span><span style=display:flex><span><span style=color:#d88200>[Unit]
+</span></span></span><span style=display:flex><span><span style=color:#d88200>Description=No-ip.com dynamic IP address updater
+</span></span></span><span style=display:flex><span><span style=color:#d88200>After=network.target
+</span></span></span><span style=display:flex><span><span style=color:#d88200>After=syslog.target
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>[Service]
+</span></span></span><span style=display:flex><span><span style=color:#d88200>Type=forking
+</span></span></span><span style=display:flex><span><span style=color:#d88200>ExecStart=/usr/bin/noip-duc --username &lt;username&gt; --password &lt;password&gt; --hostnames &lt;hostname&gt; --ip-method &#39;aws-metadata&#39; -v
+</span></span></span><span style=display:flex><span><span style=color:#d88200>Restart=always
+</span></span></span><span style=display:flex><span><span style=color:#d88200>
+</span></span></span><span style=display:flex><span><span style=color:#d88200>[Install]
+</span></span></span><span style=display:flex><span><span style=color:#d88200>WantedBy=default.target
+</span></span></span><span style=display:flex><span><span style=color:#d88200>EOT</span>
+</span></span></code></pre></div><p>Then issue</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo systemctl daemon-reload
 </span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo systemctl <span style=color:#111>enable</span> noip
 </span></span><span style=display:flex><span>sudo systemctl start noip
 </span></span><span style=display:flex><span>sudo systemctl status noip

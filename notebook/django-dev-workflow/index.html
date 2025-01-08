@@ -9,18 +9,18 @@
 </span></span><span style=display:flex><span>python3 manage.py runserver
 </span></span></code></pre></div><p>hit ctrl+c to stop</p><p>Create a new script builder app</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python3 manage.py startapp scriptbuilder
 </span></span><span style=display:flex><span>nano murdermystery/settings.py
-</span></span></code></pre></div><p>See this <a href=https://docs.djangoproject.com/en/4.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project>section</a> to pre-define a custom user class before creating any databases.</p><pre tabindex=0><code>INSTALLED_APPS = [
-    &#39;django.contrib.admin&#39;,
-    &#39;django.contrib.auth&#39;,
-    &#39;django.contrib.contenttypes&#39;,
-    &#39;django.contrib.sessions&#39;,
-    &#39;django.contrib.messages&#39;,
-    &#39;django.contrib.staticfiles&#39;,
-    &#39;script_builder.apps.ScriptBuilderConfig&#39;
-]
-</code></pre><p>Update Database if necessary.</p><pre tabindex=0><code>TIME_ZONE = &#39;UTC&#39;
-</code></pre><pre tabindex=0><code>TIME_ZONE = &#39;America/Phoenix&#39;
-</code></pre><p>Edit URL mappings</p><p>nano murdermystery/urls.py</p><p>add to bottom</p><pre tabindex=0><code># Use include() to add paths from the catalog application
+</span></span></code></pre></div><p>See this <a href=https://docs.djangoproject.com/en/4.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project>section</a> to pre-define a custom user class before creating any databases.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>INSTALLED_APPS</span> <span style=color:#f92672>=</span> <span style=color:#f92672>[</span>
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;django.contrib.admin&#39;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;django.contrib.auth&#39;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;django.contrib.contenttypes&#39;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;django.contrib.sessions&#39;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;django.contrib.messages&#39;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;django.contrib.staticfiles&#39;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#d88200>&#39;script_builder.apps.ScriptBuilderConfig&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>]</span>
+</span></span></code></pre></div><p>Update Database if necessary.</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>TIME_ZONE</span> <span style=color:#f92672>=</span> <span style=color:#d88200>&#39;UTC&#39;</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#111>TIME_ZONE</span> <span style=color:#f92672>=</span> <span style=color:#d88200>&#39;America/Phoenix&#39;</span>
+</span></span></code></pre></div><p>Edit URL mappings</p><p>nano murdermystery/urls.py</p><p>add to bottom</p><pre tabindex=0><code># Use include() to add paths from the catalog application
 from django.urls import include
 
 urlpatterns += [
@@ -32,26 +32,26 @@ from django.conf.urls.static import static
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 </code></pre><p>save and close</p><hr><p>Now paste the following into</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nano script_builder/urls.py
-</span></span></code></pre></div><pre tabindex=0><code>from django.urls import path
-from . import views
-
-urlpatterns = [
-
-]
-</code></pre><pre tabindex=0><code>python manage.py makemigrations
-python manage.py migrate
-</code></pre><pre tabindex=0><code>python manage.py runserver
-</code></pre><h2 id=models>Models</h2><p>Add models according to <a href=https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models>this page</a></p><h2 id=register-models-and-add-super-user>Register models and add super user</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nano script_builder/admin.py
-</span></span></code></pre></div><pre tabindex=0><code>from django.contrib import admin
-
-# Register your models here.
-
-from .models import Author, Genre, Book, BookInstance
-
-admin.site.register(Book)
-admin.site.register(Author)
-admin.site.register(Genre)
-admin.site.register(BookInstance)
-</code></pre><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python manage.py createsuperuser
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>from django.urls import path
+</span></span><span style=display:flex><span>from . import views
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#111>urlpatterns</span> <span style=color:#f92672>=</span> <span style=color:#f92672>[</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>]</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python manage.py makemigrations
+</span></span><span style=display:flex><span>python manage.py migrate
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python manage.py runserver
+</span></span></code></pre></div><h2 id=models>Models</h2><p>Add models according to <a href=https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models>this page</a></p><h2 id=register-models-and-add-super-user>Register models and add super user</h2><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>nano script_builder/admin.py
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>from django.contrib import admin
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Register your models here.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>from .models import Author, Genre, Book, BookInstance
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>admin.site.register<span style=color:#f92672>(</span>Book<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>admin.site.register<span style=color:#f92672>(</span>Author<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>admin.site.register<span style=color:#f92672>(</span>Genre<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>admin.site.register<span style=color:#f92672>(</span>BookInstance<span style=color:#f92672>)</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python manage.py createsuperuser
 </span></span><span style=display:flex><span>python3 manage.py runserver
 </span></span></code></pre></div><p>Go to <a href=localhost:8000/admin>localhost:8000/admin</a></p></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://www.danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/contact/>Contact</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://www.danaukes.com/><img src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2023 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/django-dev-workflow.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://www.danaukes.com/index.json"</script><script src=https://www.danaukes.com/plugins/glightbox/js/glightbox.js></script><script src=https://www.danaukes.com/plugins/jQuery/jquery.min.js></script><script src=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script><script src=https://www.danaukes.com/plugins/slick/slick.min.js></script><script src=https://www.danaukes.com/plugins/venobox/venobox.min.js></script><script src=https://www.danaukes.com/plugins/search/fuse.min.js></script><script src=https://www.danaukes.com/plugins/search/mark.js></script><script src=https://www.danaukes.com/plugins/search/search.js></script><script src=https://www.danaukes.com/js/script.min.js></script><script>var lightboxDescription,lightboxVideo,lightboxInlineIframe,lightbox=GLightbox();lightbox.on("open",e=>{console.log("lightbox opened")}),lightboxDescription=GLightbox({selector:".glightbox2"}),lightboxVideo=GLightbox({selector:".glightbox3"}),lightboxVideo.on("slide_changed",({prev:e,current:t})=>{console.log("Prev slide",e),console.log("Current slide",t);const{slideIndex:s,slideNode:o,slideConfig:i,player:n}=t;n&&(n.ready||n.on("ready",e=>{}),n.on("play",e=>{console.log("Started play")}),n.on("volumechange",e=>{console.log("Volume change")}),n.on("ended",e=>{console.log("Video ended")}))}),lightboxInlineIframe=GLightbox({selector:".glightbox4"})</script></body></html>

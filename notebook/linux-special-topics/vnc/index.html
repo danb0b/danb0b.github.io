@@ -13,13 +13,13 @@
 </span></span><span style=display:flex><span>vncserver -kill :1
 </span></span><span style=display:flex><span>mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 </span></span><span style=display:flex><span>nano ~/.vnc/xstartup
-</span></span></code></pre></div><pre tabindex=0><code>#!/bin/bash
-xrdb $HOME/.Xresources
-startxfce4 &amp;
-</code></pre><pre tabindex=0><code>chmod +x ~/.vnc/xstartup
-vncserver -localhost
-</code></pre><pre tabindex=0><code>sudo nano /etc/systemd/system/vncserver@.service
-</code></pre><pre tabindex=0><code>[Unit]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>xrdb <span style=color:#111>$HOME</span>/.Xresources
+</span></span><span style=display:flex><span>startxfce4 <span style=color:#111>&amp;</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>chmod +x ~/.vnc/xstartup
+</span></span><span style=display:flex><span>vncserver -localhost
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo nano /etc/systemd/system/vncserver@.service
+</span></span></code></pre></div><pre tabindex=0><code>[Unit]
 Description=Start TightVNC server at startup
 After=syslog.target network.target
 

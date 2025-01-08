@@ -20,15 +20,15 @@
 </span></span></code></pre></div><p>take a snapshot of the machine, then restart and reconnect</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo -i
 </span></span><span style=display:flex><span><span style=color:#111>cd</span> /algo
 </span></span></code></pre></div></li><li><p>run algo installer</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>./algo
-</span></span></code></pre></div><ol><li><p>provider: select &ldquo;Install to existing Ubuntu 18.04 or 20.04 server&rdquo;</p></li><li><p>select all defaults except the below:</p><ol><li>retain pki keys - N (default)</li><li>each user should have their own acct - N (default)</li></ol><p>summary:</p><pre tabindex=0><code>algo_provider &#34;local&#34;
-algo_ondemand_cellular &#34;False&#34;
-algo_ondemand_wifi &#34;False&#34;
-algo_ondemand_wifi_exclude &#34;X251bGw=&#34;
-algo_dns_adblocking &#34;False&#34;
-algo_ssh_tunneling &#34;False&#34;
-wireguard_enabled &#34;True&#34;
-dns_encryption &#34;False&#34;
-</code></pre></li><li><p>deploy to localhost</p></li><li><p>public IP address or domain name of your server: confirm default of &lt;my_dynamic_hostname></p></li></ol></li><li><p>You should see a message like this:</p><pre tabindex=0><code>            &#34;\&#34;#                          Congratulations!                            #\&#34;&#34;,
+</span></span></code></pre></div><ol><li><p>provider: select &ldquo;Install to existing Ubuntu 18.04 or 20.04 server&rdquo;</p></li><li><p>select all defaults except the below:</p><ol><li>retain pki keys - N (default)</li><li>each user should have their own acct - N (default)</li></ol><p>summary:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>algo_provider <span style=color:#d88200>&#34;local&#34;</span>
+</span></span><span style=display:flex><span>algo_ondemand_cellular <span style=color:#d88200>&#34;False&#34;</span>
+</span></span><span style=display:flex><span>algo_ondemand_wifi <span style=color:#d88200>&#34;False&#34;</span>
+</span></span><span style=display:flex><span>algo_ondemand_wifi_exclude <span style=color:#d88200>&#34;X251bGw=&#34;</span>
+</span></span><span style=display:flex><span>algo_dns_adblocking <span style=color:#d88200>&#34;False&#34;</span>
+</span></span><span style=display:flex><span>algo_ssh_tunneling <span style=color:#d88200>&#34;False&#34;</span>
+</span></span><span style=display:flex><span>wireguard_enabled <span style=color:#d88200>&#34;True&#34;</span>
+</span></span><span style=display:flex><span>dns_encryption <span style=color:#d88200>&#34;False&#34;</span>
+</span></span></code></pre></div></li><li><p>deploy to localhost</p></li><li><p>public IP address or domain name of your server: confirm default of &lt;my_dynamic_hostname></p></li></ol></li><li><p>You should see a message like this:</p><pre tabindex=0><code>            &#34;\&#34;#                          Congratulations!                            #\&#34;&#34;,
             &#34;\&#34;#                     Your Algo server is running.                     #\&#34;&#34;,
             &#34;\&#34;#    Config files and certificates are in the ./configs/ directory.    #\&#34;&#34;,
             &#34;\&#34;#              Go to https://whoer.net/ after connecting               #\&#34;&#34;,
