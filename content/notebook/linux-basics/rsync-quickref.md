@@ -12,21 +12,33 @@ summary: " "
 
 ### Local
 
-```
+```bash
 rsync -haviP --inplace --delete-before --no-compress /storage/nas/photos /media/danaukes/extreme-ssd/
 rsync -haviP --inplace --delete-before --no-compress --exclude-from="/home/danaukes/code/code_scripts/rsync_ignore.txt" --delete-excluded "/home/danaukes" "/media/danaukes/extreme-ssd/zenbook-backup/" | tee -a ~/backup.txt
 ```
 
 ### Remote
 
-```
-rsync -zhaviP --delete-before--exclude-from="/home/danaukes/code/code_scripts/rsync_ignore.txt" --delete-excluded /home/danaukes/ storage:/storage/nas/zenbook-backup/danaukes | tee -a ~/backup.txt
+```bash
+rsync -zhaviP --delete-before --exclude-from="/home/danaukes/code/code_scripts/rsync_ignore.txt" --delete-excluded /home/danaukes/ storage:/storage/nas/zenbook-backup/danaukes | tee -a ~/backup.txt
 ```
 
 ## Folder help
 
 say we have two folders:
 
+```bash
+mkdir foldera folderb
+touch foldera/a.txt
+touch foldera/b.txt
+touch foldera/.e.txt
+touch folderb/c.txt
+touch folderb/d.txt
+```
+
+this produces
+
+```
 - foldera
     - a.txt
     - b.txt
@@ -34,11 +46,17 @@ say we have two folders:
 - folderb
     - c.txt
     - d.txt
+```
 
+then
+
+```bash
 rsync -haviP foldera folderb
+```
 
 will create
 
+```
 - folderb
     - c.txt
     - d.txt
@@ -46,42 +64,64 @@ will create
         - a.txt
         - b.txt
         - .e.txt
+```
 
+however,
+
+```bash
 rsync -haviP foldera/ folderb
+```
 
 will result in
 
+```
 - foldera
     - a.txt
     - b.txt
     - c.txt
     - d.txt
     - .e.txt
+```
 
+and
+
+```bash
 rsync -haviP foldera/ folderb/
+
+```
 
 produces the same results
 
+```bash
 rsync -haviP --delete foldera/ folderb
+```
 
 will result in
 
+```
 - foldera
     - a.txt
     - b.txt
     - .e.txt
+```
 
+```bash
 rsync -haviP foldera/* folderb
+```
 
 will result in
 
+```
 - foldera
     - a.txt
     - b.txt
     - c.txt
     - d.txt
+```
 
 without the hidden files
+
+## Arguments
 
 | option                        | detail                                                                                                                      |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -137,5 +177,6 @@ git repositories
 ```
 
 ## External Refs
-<https://superuser.com/questions/109780/how-to-speed-up-rsync-between-two-local-disks>
-<http://www.staroceans.org/e-book/understanding-the-output-of-rsync-itemize-changes.html>
+
+* <https://superuser.com/questions/109780/how-to-speed-up-rsync-between-two-local-disks>
+* <http://www.staroceans.org/e-book/understanding-the-output-of-rsync-itemize-changes.html>

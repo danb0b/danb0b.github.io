@@ -16,6 +16,7 @@ search for "searchtext", ignoring case, ignoring binary files, recurisvely searc
 ```bash
 grep -Iirn "searchtext" .
 ```
+
 Just list filenames
 
 search for "searchtext", ignoring case, ignoring binary files, recurisvely search, just returning filenames, in this folder.
@@ -24,7 +25,7 @@ search for "searchtext", ignoring case, ignoring binary files, recurisvely searc
 grep -iIrl "searchtext" .
 ```
 
-## more complex examples:
+## more complex examples
 
 ```bash
 grep --exclude-dir="**.git**" --exclude-dir="**.ipynb_checkpoint**" --exclude="*.png" --exclude="*.svg" -iIrn "searchtext" .

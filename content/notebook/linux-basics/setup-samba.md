@@ -30,7 +30,6 @@ sudo nano /etc/samba/smb.conf
   guest ok = no
   browsable = yes
   ## valid users = danaukes
-
 ```
 
 ```bash

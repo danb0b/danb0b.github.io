@@ -8,7 +8,7 @@ summary: "Managing Users in Linux / Ubuntu"
 
 ## Password
 
-```
+```bash
 sudo passwd <username>
 ```
 

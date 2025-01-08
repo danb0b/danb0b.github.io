@@ -5,7 +5,7 @@ summary: " "
 
 ## Device / driver info
 
-```
+```bash
 lsmod
 lspci -k
 dmesg
@@ -13,7 +13,7 @@ dmesg
 
 ## Devices
 
-```
+```bash
 sudo libinput --list-devices
 ```
 
@@ -35,9 +35,6 @@ sudo dmidecode -t1 # System
 
 ### Hard drive information
 
-* <https://devconnected.com/how-to-list-disks-on-linux/>
-* <https://www.percona.com/blog/2017/02/09/using-nvme-command-line-tools-to-check-nvme-flash-health/>
-
 list disks with ```lsblk```
 
 ```bash
@@ -54,13 +51,13 @@ ls -l /dev/disk/by-id
 
 get drive information:
 
-```
+```bash
 sudo hdparm -I /dev/sda
 ```
 
 if you have an NVMe device...
 
-```
+```bash
 sudo apt install -y nvme-cli
 nvme list
 #sudo nvme smart-log <node_name> 
@@ -70,7 +67,6 @@ sudo nvme id-ctrl /dev/nvme0n1
 
 ### Mounting
 
-From [here](https://linuxhint.com/how-to-mount-drive-in-ubuntu/)
 
 ```bash
 ##list disks
@@ -88,9 +84,6 @@ sudo umount -f /media/backup
 
 ### mounting with fstab
 
-* <https://linuxconfig.org/how-fstab-works-introduction-to-the-etc-fstab-file-on-linux>
-* <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
-
 you can get most information from lsblk if you have temporarily mounted it...
 
 ```bash
@@ -106,13 +99,11 @@ mount -a
 
 ## Recursively find storage space of a directory
 
-from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-find-the-amount-stored-in-directory)
-
 ```bash
 du -sh /path/to/my/dir
 ```
 
-list directories, one level only, from [here](https://linuxhint.com/du-one-level-only/)
+list directories, one level only
 
 ```bash
 du -h  --max-depth 1 /path/to/my/dir
@@ -136,20 +127,59 @@ sudo dd if=/dev/sda bs=128k status=progress conv=noerror,sync | gzip -c > /sda.g
 sudo dd if=/dev/sda of=/media/danaukes/24df9215-550f-4ca0-a9f1-8f0d666befd2/sda.dd bs=128k status=progress conv=noerror,sync
 ```
 
-* <https://stackoverflow.com/questions/454899/how-to-convert-flat-raw-disk-image-to-vmdk-for-virtualbox-or-vmplayer>
-* <https://www.cyberciti.biz/faq/unix-linux-dd-create-make-disk-image-commands/>
-
 ## Change Swap
 
-* <https://ploi.io/documentation/server/change-swap-size-in-ubuntu>
+you can add hard drive space to augment RAM.  This is usually set up when you install ubuntu, but it can be changed.
 
-## mount information
+1. Turn off existing swap processes
 
-[information on nautilus-aware mount locations](https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt)
+    ```bash
+    sudo swapoff -a
+    ```
+
+1. Resize swap
+
+    ```bash
+    #sudo fallocate -l <swapsize> /swap.img 
+    sudo fallocate -l 1G /swap.img
+    ```
+    you can use whatever size you want in place of 1G
+
+    if that doesn't work, use
+
+    ```bash
+    sudo dd if=/dev/zero of=/swap.img bs=1M count=4096 
+    ```
+
+1. ensure swap has the right permissions
+
+    sudo chmod 600 /swap.img
+
+1. pass the new swapfile to swap
+
+   ```bash
+   sudo mkswap /swap.img
+   ```
+
+1. Activate the swap file
+
+   ```bash
+   swapon /swap.img
+    ```
+
+1. check /etc/fstab, and ensure it has this line:
+
+    ```bash
+    /swap.img none swap sw 0 0 
+    ```
+
+1. verify your swap size:
+
+    ```bash
+    free -h
+    ```
 
 ## Read from Serial
-
-from [here](https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/)
 
 ```bash
 sudo apt install -y cu
@@ -162,11 +192,12 @@ To exit enter tilde dot (~.)
 sudo apt install -y screen
 screen /dev/ttyACM0 9600
 ```
+
 ## Identifying and locating USB devices
 
 These widely used commands can be used to list and learn about connected USB devices in Linux.
 
-```
+```bash
 lsusb
 dmesg
 dmesg | less
@@ -176,18 +207,34 @@ lsblk
 sudo blkid.
 sudo fdisk -l
 ```
+
 ### ```lsusb```
 
 list the device tree to get port:device
 
-```
+```bash
 lsusb -t
 ```
 
 list all the details about a device at port 1: device 3
 
-```
+```bash
 lsusb -v -s 1:3
 ```
 
 ## Permissions
+
+## External Resources
+
+* <https://devconnected.com/how-to-list-disks-on-linux/>
+* <https://www.percona.com/blog/2017/02/09/using-nvme-command-line-tools-to-check-nvme-flash-health/>
+* <https://stackoverflow.com/questions/454899/how-to-convert-flat-raw-disk-image-to-vmdk-for-virtualbox-or-vmplayer>
+* <https://www.cyberciti.biz/faq/unix-linux-dd-create-make-disk-image-commands/>
+* [information on nautilus-aware mount locations](https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt)
+* from [here](https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/)
+* <https://ploi.io/documentation/server/change-swap-size-in-ubuntu>
+* from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-find-the-amount-stored-in-directory)
+* <https://linuxconfig.org/how-fstab-works-introduction-to-the-etc-fstab-file-on-linux>
+* <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
+* From [here](https://linuxhint.com/how-to-mount-drive-in-ubuntu/)
+* from [here](https://linuxhint.com/du-one-level-only/)

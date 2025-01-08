@@ -10,10 +10,10 @@ summary: " "
 
 # Using the ```find``` command in bash
 
-Find all files below the current directory that match "tecmint.txt"
+Find all files below the current directory that match "filename.txt"
 
 ```bash
-find . -name tecmint.txt
+find . -name filename.txt
 ```
 
 Find all files below the current directory that start with "filena"
@@ -25,13 +25,13 @@ Find all files below the current directory that start with "filena"
 Find files with a name, ignoring case
 
 ```bash
-# find . -iname "FileName.txt"
+find . -iname "FileName.txt"
 ```
 
 Find directories in "/" with name "Dirname"
 
 ```bash
-# find / -type d -name Dirname
+find / -type d -name Dirname
 ```
 
 Find all files of type "txt"
@@ -45,10 +45,6 @@ Exclude directories
 ```bash
 find . -not \( -path ./miniconda3 -prune \) -name \*.py -print
 ```
-
-## External Resources
-
-* <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
 
 ## Find and Replace with find and sed
 
@@ -88,11 +84,9 @@ alternate:
 find . -iname "*.py" ! -path './miniconda*' ! -path './.config*'  ! -path './apps*'  ! -path './.vscode*' ! -path '*zenbook-backup*' -exec grep -l 'import network' {} \+ 
 ```
 
-tips from [here](https://linuxhandbook.com/find-command-exclude-directories/) and [here](https://www.baeldung.com/linux/find-exclude-paths)
 
 ## find with maximum depth
 
-from [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
 
 ```bash
 find . -iname "*.docx" -maxdepth 2
@@ -100,11 +94,21 @@ find . -iname "*.docx" -maxdepth 2
 
 ## Ignore "permission denied" message
 
+```bash
 find . -iname "*50_Lines_of*" 2> >(grep -v 'Permission denied' >&2)
+```
 
 or simpler:
 
+```bash
 find . -iname "*50_lines_of*" 2>&1 | grep -v  "Permission denied"
+```
+
+or just use ```sudo```
+
+```bash
+sudo find . -iname "*50_lines_of*"
+```
 
 ## Find all directories without username
 
@@ -117,3 +121,10 @@ find . -type d ! -user danaukes
 ```bash
 find . -maxdepth 4 \( -iname "*.py" -o -iname "*.ipynb" \) -exec grep -in cadquery {} \+
 ```
+
+### External Resources
+
+* [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
+* [here](https://linuxhandbook.com/find-command-exclude-directories/) 
+* [here](https://www.baeldung.com/linux/find-exclude-paths)
+* <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>

@@ -7,37 +7,35 @@ summary: " "
 
 ## APT / dpkg
 
-```
-sudo apt list --installed <package-name-start*>
+find installed packages
+
+```bash
+sudo apt list --installed *<part-of-package-name>*
 ```
 
+look for packages to install, with more info
+
+```bash
+apt search <part-of-package-name>
 ```
-sudo apt --reinstall install <package>
-```
+
+or
 
 ```bash
 dpkg --list | grep <package-name-fragment>
 ```
 
+reinstall package
 
 ```bash
-sudo apt update
-sudo apt upgrade
+sudo apt --reinstall install <package>
 ```
 
-less /var/log/apt/history.log
+Update packages
 
- These logs gets rotated (every month I guess), old files will be suffixed with a number and compressed. So to view the next history log, use:
-
-zless /var/log/apt/history.log.1.gz
-
-To view the logs available:
-
-ls -la /var/log/apt/
-
-from [here](http://askubuntu.com/questions/21657/ddg#21658)
-
-
+```bash
+sudo apt update && sudo apt upgrade
+```
 
 ## Desktop applications
 
@@ -52,7 +50,6 @@ from [here](http://askubuntu.com/questions/21657/ddg#21658)
 ## search path
 
 .bashrc holds path variables.
-
 
 ## Upgrade Distro
 
@@ -109,6 +106,7 @@ apt-mark showmanual
 ```
 
 ## Duplicate Installed Packages
+
 To clone your system to another system. Or make a backup. In a terminal type:
 
 ```bash
@@ -136,11 +134,27 @@ dpkg -i *.deb
 
 And after that running an update cycle later.
 
-
 ## Identifying packages installed via logs
 
+You can inspect logs to find installed files:
 
-first step is to  find the first line number where a particular date occurs
+```bash
+less /var/log/apt/history.log
+```
+
+Older log files have a number suffix and are compressed. So to view the next history log, use:
+
+```bash
+zless /var/log/apt/history.log.1.gz
+```
+
+To view the logs available:
+
+```bash
+ls -la /var/log/apt/
+```
+
+Thus, the first step is to  find the first line number where a particular date occurs
 
 ```bash
 cat /var/log/apt/term.log | grep -n 08-15
@@ -160,7 +174,7 @@ sed '915,10000000!d' /var/log/apt/term.log | grep -i "selecting previously unsel
 
 this returns something like
 
-```
+```bash
 Selecting previously unselected package libglfw3:amd64.
 Selecting previously unselected package libgl1-mesa-glx:amd64.
 Selecting previously unselected package libosmesa6:amd64.
@@ -192,3 +206,7 @@ by doing a quick find/replace you can then clean up the list and do a ```sudo ap
 ```bash
 sudo apt remove libglfw3:amd64 libgl1-mesa-glx:amd64 libosmesa6:amd64 xorg-sgml-doctools x11proto-dev libxau-dev:amd64 libxdmcp-dev:amd64 xtrans-dev libpthread-stubs0-dev:amd64 libxcb1-dev:amd64 libx11-dev:amd64 libglx-dev:amd64 libgl-dev:amd64 libegl-dev:amd64 libegl1-mesa:amd64 libglvnd-core-dev:amd64 libgles1:amd64 libgles-dev:amd64 libopengl-dev:amd64 libglvnd-dev:amd64 libegl1-mesa-dev:amd64 libosmesa6-dev:amd64 libglu1-mesa-dev:amd64 libglew-dev:amd64
 ```
+
+## External References
+
+* <http://askubuntu.com/questions/21657/ddg#21658>

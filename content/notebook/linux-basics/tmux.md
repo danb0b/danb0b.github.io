@@ -11,10 +11,6 @@ weight: 99
 summary: " "
 ---
 
-```bash
-sudo apt install -y tmux
-```
-
 ## Basic Functionality
 
 To get the same functionality as explained in the answer recommending screen, you would need to do the following:
@@ -30,13 +26,34 @@ If you want to have multiple sessions running side-by-side, you should name each
 
 tmux can do much more advanced things than handle a single window in a single session. For more information have a look in man tmux or the tmux GitHub page. In particular, here's an FAQ about the main differences between screen and tmux.
 
-## Handy Usage
+## Installation
 
-* ```tmux attach -t [session-number]```
-* ```tmux list-sessions```
+```bash
+sudo apt install -y tmux
+```
 
+## Usage
 
-## References
+create a new session
+
+```bash
+tmux
+```
+
+leave a session without stopping it: ```ctrl+b```, then ```d```
+
+list existing sessions
+
+```bash
+tmux list-sessions
+```
+
+attach to an existing session
+
+```bash
+tmux attach -t [session-number]
+```
+
+## External References
 
 * <https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session>
-

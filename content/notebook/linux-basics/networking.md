@@ -8,21 +8,29 @@ summary: " "
 
 ## Networking
 
-```
+list all current ethernet adapters
+
+```bash
 ifconfig
 ```
 
-```
+to bring a specific network interface up or down
+
+```bash
 ifconfig <network interface> down
 ifconfig <network interface> up
 ```
 
-```
+```bash
 ip link
+# or
+ip l
 ```
 
-```
+```bash
 ip addr
+#or 
+ip a
 ```
 
 output current wifi name
@@ -80,7 +88,6 @@ sudo netplan try
 sudo netplan apply
 ```
 
-
 ## get ip info
 
 from [here](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
@@ -93,37 +100,35 @@ dig @resolver4.opendns.com myip.opendns.com +short
 
 ### get mac
 
-<https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132>
-
 ```bash
 arp -a <ip address>
 ```
 
+<https://www.lifewire.com/find-a-mac-address-using-an-ip-address-818132>
+
 ### Wifi Scanning
 
-```
+```bash
 nmcli d wifi
 ```
+
 ## Networking
 
 ```bash
 nm-connection-editor
 ```
 
-
-
 ## Measuring Speed Between Computers
 
 sudo apt install -y iperf
 
-
-computer 1: 
+computer 1:
 
 ```bash
 iperf -s
 ```
 
-Computer 2: 
+Computer 2:
 
 ```bash
 iperf -c <other-computer-ip-or-hostname>
@@ -131,8 +136,40 @@ iperf -c <other-computer-ip-or-hostname>
 
 <https://superuser.com/questions/1275043/measure-bandwidth-between-two-computer-in-a-lan>
 
+## IPTables
+
+List current policies
+
+```bash
+iptables -L -v
+```
+
+Set accept rule:
+
+```bash
+iptables -P INPUT ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD ACCEPT
+```
+
+delete rules
+
+```bash
+iptables -F INPUT
+iptables -F OUTPUT
+iptables -F FORWARD
+```
+
+delete all rules
+
+```bash
+iptables -F
+```
+
 
 ## External Resources
 
 * <https://vitux.com/managing-network-interfaces-and-settings-on-ubuntu-24-04-with-nmcli/>
 * <https://linuxconfig.org/how-to-restart-network-on-ubuntu-20-04-lts-focal-fossa>
+* <https://kerneltalks.com/virtualization/how-to-reset-iptables-to-default-settings/>
+* <https://kerneltalks.com/networking/basics-of-iptables-linux-firewall/>
