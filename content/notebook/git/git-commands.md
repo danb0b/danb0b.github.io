@@ -40,7 +40,7 @@ Push a local branch to a new remote branch name
 git push --set-upstream origin <remotebranchname>
 ```
 
-delete local git branch 
+delete local git branch
 
 ```bash
 git branch -d <local name>
@@ -85,7 +85,6 @@ If you created a local branch and need to link it to a remote:
 ```bash
 git push --set-upstream origin <localbranchname>
 ```
-
 
 ```bash
 git add *
@@ -140,6 +139,7 @@ force the removal of all untracked files
 ```bash
 git clean -dxf
 ```
+
 ## restore
 
 ```bash
@@ -151,7 +151,6 @@ restore all files of the type ```.c```
 ```bash
 git restore '*.c'
 ```
-
 
 ## Submodules
 
@@ -186,7 +185,6 @@ if not check one out
 git checkout [branchname]
 ```
 
-
 ## feetch all remote tags
 
 ```bash
@@ -194,7 +192,6 @@ git fetch --all --tags
 ```
 
 ## check out tag to a new branch
-
 
 ```bash
 git checkout tags/<tag> -b <branch>
@@ -221,7 +218,6 @@ echo "docs/lectures/lecture.html" >> .gitignore
 ```bash
 git rm --cached path/to/the/file
 ```
-
 
 ## Stash changes
 
@@ -260,7 +256,6 @@ git push origin main
 
 from [here](https://stackoverflow.com/questions/40983514/most-efficient-way-to-keep-a-fork-up-to-date) and [here](https://www.digitalocean.com/community/questions/how-to-keep-your-forked-github-repository-up-to-date)
 
-
 ## Adding a second remote
 
 ```bash
@@ -269,7 +264,7 @@ git remote -v
 git push <name-of-new-remote> <branch>
 ```
 
-https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+<https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories>
 
 ```bash
 git push --set-upstream <name-of-new-remote> <branch>
@@ -286,7 +281,6 @@ git push <name-of-new-remote> --tags "refs/remotes/origin/*:refs/heads/*"
 
 <https://stackoverflow.com/questions/37884832/git-push-all-branches-from-one-remote-to-another-remote>
 
-
 ## Gitignore
 
 To check what gitignore rule is causing a particular path to be ignored, run git check-ignore:
@@ -296,7 +290,6 @@ git check-ignore -v path/to/check
 ```
 
 from [here](https://stackoverflow.com/questions/49638204/the-following-paths-are-ignored-by-one-of-your-gitignore-files)
-
 
 ## Merge Unrelated branches
 
@@ -313,7 +306,6 @@ git merge --allow-unrelated-histories project-a/master # or any branch you want 
 git remote remove project-a
 ```
 
-
 ## merge with squash
 
 ```bash
@@ -325,3 +317,22 @@ for example
 ```bash
 git merge --squash wip
 ```
+
+## Environments with multiple users
+
+if you're sharing the same login and want to ensure you each commit changes, you can use
+
+```bash
+git -c user.name="User Name" -c user.email="<email@address.com>" commit -m "my commit message"
+```
+
+also if you want to use a one-time identity,
+
+```bash
+git -c core.sshCommand="ssh -i <path-to-key>" push --force
+```
+
+from: 
+
+* <https://stackoverflow.com/questions/11579311/git-commit-as-different-user-without-email-or-only-email>
+* <https:/stackoverflow.com/questions/7927750/>
