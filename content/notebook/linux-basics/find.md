@@ -122,6 +122,12 @@ find . -type d ! -user danaukes
 find . -maxdepth 4 \( -iname "*.py" -o -iname "*.ipynb" \) -exec grep -in cadquery {} \+
 ```
 
+### Execute something on the results of find with xargs
+
+```bash
+find . -name '.gitignore' | xargs wc -l
+```
+
 ### External Resources
 
 * [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
