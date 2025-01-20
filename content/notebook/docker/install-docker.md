@@ -41,7 +41,7 @@ From [here](https://docs.docker.com/engine/install/ubuntu/)
     docker login -u <username>
     ```
 
-1. Restart
+1. Restart or logout/login
 
 ## Usage
 
