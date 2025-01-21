@@ -206,7 +206,7 @@ cat <filename> | awk '{print $1}'
 ```
 
 ```bash
-awk -E , '{print $1}' <filename.csv>
+awk -F , '{print $1}' <filename.csv>
 ```
 
 ## close bash without saving history
