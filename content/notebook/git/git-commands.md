@@ -50,6 +50,8 @@ delete remote branch
 
 ```bash
 git push origin --delete <remote/branch-name>
+#or
+git push -d <remote> <remote branch name>
 ```
 
 check out all remote branches to a local branch:
