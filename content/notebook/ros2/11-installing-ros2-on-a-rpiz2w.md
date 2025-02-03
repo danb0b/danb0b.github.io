@@ -246,7 +246,7 @@ sudo apt install -y ros-humble-desktop -->
 
 https://adityakamath.hashnode.dev/ros-2-and-vpns
 
-### Oter Resources
+### Other Resources
 
 * <https://stackoverflow.com/questions/55723797/how-to-join-the-default-bridge-and-user-defined-bridge-with-docker-compose-v3>
 * <https://github.com/docker/compose/issues/3012>
