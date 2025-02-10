@@ -175,3 +175,4 @@ Finally, open up a separate computer that has been set up to work over tailscale
 * <https://tailscale.com/kb/1112/userspace-networking>
 * <https://tailscale.com/kb/1278/tailscaled>
 * <https://www.howtogeek.com/devops/how-to-use-multi-threaded-processing-in-bash-scripts/>
+* <https://tailscale.com/kb/1282/docker>

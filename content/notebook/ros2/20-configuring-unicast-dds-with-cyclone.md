@@ -91,3 +91,10 @@ It seems that if you change the cyclone config xml file, those changes will not 
 It also seems that it is sufficient for either one or the other xml file to reflect the other machine's ip address, regardless of which one is publishing and which one is subscribing.  
 
 >I'm not sure if what I described is _intended_ behavior
+
+
+
+## External Links
+
+* <https://iroboteducation.github.io/create3_docs/setup/xml-config/>
+* <https://stackoverflow.com/questions/64352350/can-dds-protocol-be-used-to-communicate-between-devices-connected-to-different-n>
