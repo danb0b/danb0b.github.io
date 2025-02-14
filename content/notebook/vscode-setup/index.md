@@ -269,6 +269,6 @@ you can modify to suit...
 mypath="$(echo $HOME)/.config/Code/User/" && \
 cp "$(echo $mypath)settings.json" "$(echo $mypath)settings.json.bak" && \
 cp "$(echo $mypath)keybindings.json" "$(echo $mypath)keybindings.json.bak" && \
-curl https://danaukes.com/notebook/vscode-setup/settings.json -o "$(echo $mypath)settings.json" && \
-curl https://danaukes.com/notebook/vscode-setup/keybindings.json -o "$(echo $mypath)keybindings.json"
+curl https://www.danaukes.com/notebook/vscode-setup/settings.json -o "$(echo $mypath)settings.json" && \
+curl https://www.danaukes.com/notebook/vscode-setup/keybindings.json -o "$(echo $mypath)keybindings.json"
 ```
