@@ -107,7 +107,6 @@ org.mozilla.firefox \
 org.kicad.KiCad \
 org.audacityteam.Audacity \
 org.videolan.VLC \
-com.bitwarden.desktop \
 org.signal.Signal \
 org.shotcut.Shotcut \
 com.github.micahflee.torbrowser-launcher \
@@ -120,6 +119,7 @@ com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
 org.fritzing.Fritzing \
 com.rafaelmardojai.Blanket
+# com.bitwarden.desktop \
 # org.gpodder.gpodder \
 # org.synfig.SynfigStudio
 # net.xm1math.Texmaker\
@@ -149,6 +149,7 @@ close and reopen terminal
 ```bash
 sudo snap install mqtt-explorer
 sudo snap install hugo --channel=extended
+sudo snap install bitwarden bw
 # sudo snap install superproductivity # no longer matches android appa
 ```
 
