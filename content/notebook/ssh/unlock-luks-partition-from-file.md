@@ -107,6 +107,13 @@ sudo update-initramfs -u -k all
 sudo reboot now
 ```
 
+## Test keyphrase
+
+```bash
+sudo cryptsetup luksOpen --test-passphrase --key-slot 0 /dev/sda3 && echo correct
+sudo cryptsetup luksOpen --key-file /boot/keyfile --test-passphrase --key-slot 1 /dev/sda3 && correct
+```
+
 -------------------
 
 sudo cryptsetup luksKillSlot /dev/nvme0n1p3 1
