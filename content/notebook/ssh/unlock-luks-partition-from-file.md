@@ -127,3 +127,4 @@ sudo reboot now
 
 - <https://www.howtoforge.com/automatically-unlock-luks-encrypted-drives-with-a-keyfile>
 - <https://linuxconfig.org/how-to-use-a-file-as-a-luks-device-key>
+- <https://sleeplessbeastie.eu/2019/03/27/how-to-test-luks-passphrase/>
