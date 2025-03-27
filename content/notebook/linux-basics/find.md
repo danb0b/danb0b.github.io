@@ -66,27 +66,13 @@ Find "video_source" keys in yaml files ending in .yaml
 find . -iname "*.yaml" -exec grep -l 'video_source:' {} \+ 
 ```
 
-excluding directories
-
-```bash
-find . -not \( -path ./miniconda3 -prune \) -name \*.py -print  -exec grep -l 'html' {} \+ 
-```
-
 excluding multiple directories
 
 ```bash
-find . \( -path ./.config -prune -o -path ./miniconda3 -prune -o -path ./.local -prune \) -o -iname "*.md" -exec grep -l 'esptool' {} \+ 
+find . -not \( -path ./repos -prune -o -path ./zenbook-backup -prune -o -path "./.local" -prune -o -path ./.gradle -prune -o -path ./envs -prune  -o -path ./.vscode -prune -o -path ./.config -prune  \) -name "*code*" -type d
 ```
-
-alternate:
-
-```bash
-find . -iname "*.py" ! -path './miniconda*' ! -path './.config*'  ! -path './apps*'  ! -path './.vscode*' ! -path '*zenbook-backup*' -exec grep -l 'import network' {} \+ 
-```
-
 
 ## find with maximum depth
-
 
 ```bash
 find . -iname "*.docx" -maxdepth 2
@@ -131,6 +117,6 @@ find . -name '.gitignore' | xargs wc -l
 ### External Resources
 
 * [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
-* [here](https://linuxhandbook.com/find-command-exclude-directories/) 
+* [here](https://linuxhandbook.com/find-command-exclude-directories/)
 * [here](https://www.baeldung.com/linux/find-exclude-paths)
 * <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>
