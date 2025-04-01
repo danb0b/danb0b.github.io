@@ -118,7 +118,8 @@ com.jetpackduba.Gitnuro \
 com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
 org.fritzing.Fritzing \
-com.rafaelmardojai.Blanket
+com.rafaelmardojai.Blanket \
+org.famistudio.FamiStudio
 # com.bitwarden.desktop \
 # org.gpodder.gpodder \
 # org.synfig.SynfigStudio
