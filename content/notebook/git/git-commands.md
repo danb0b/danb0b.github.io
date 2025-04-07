@@ -328,6 +328,12 @@ if you're sharing the same login and want to ensure you each commit changes, you
 git -c user.name="User Name" -c user.email="<email@address.com>" commit -m "my commit message"
 ```
 
+Example
+
+```bash
+git -c user.name="Dan Aukes" -c user.email="danaukes@danaukes.com" commit -m "made a change"
+```
+
 also if you want to use a one-time identity,
 
 ```bash
