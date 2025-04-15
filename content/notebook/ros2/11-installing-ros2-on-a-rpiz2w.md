@@ -92,7 +92,6 @@ now for installing ros, we want the minimum required set.  therefore we are goin
 sudo apt install -y ros-humble-ros-base
 # not sure which one of these I actually did, but pretty sure I did the cpp version.
 #sudo apt install -y ros-humble-examples-rclpy-minimal-subscriber ros-humble-examples-rclpy-minimal-publisher 
-sudo apt install -y ros-humble-examples-rclcpp-minimal-subscriber ros-humble-examples-rclcpp-minimal-publisher 
 source /opt/ros/humble/setup.bash
 sudo apt install -y python3-rosdep
 sudo rosdep init
@@ -103,7 +102,7 @@ sudo apt install -y ros-humble-rmw-fastrtps-cpp
 
 ```bash
 ros2 run demo_nodes_cpp talker
-sudo apt install -y ros-humble-demo-nodes-cpp
+sudo apt install -y ros-humble-demo-nodes-cpp ros-humble-demo-nodes-py
 ros2 run demo_nodes_cpp talker
 ```
 
