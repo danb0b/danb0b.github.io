@@ -8,7 +8,6 @@ summary: " "
 ---
 
 ```bash
-# sudo apt install -y vino # not necessary?
 sudo apt install -y winpr-utils
 
 sudo systemctl restart gnome-remote-desktop.service
