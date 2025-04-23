@@ -9,6 +9,7 @@ summary: " "
 lsmod
 lspci -k
 dmesg
+lsusb
 ```
 
 ## Devices
