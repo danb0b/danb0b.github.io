@@ -56,7 +56,7 @@ Note: the libnifalcon repository is now forked [here](https://github.com/idealab
 
 		```
 		#the default one doesn't seem to work
-		#sudo cp ~/drivers/libnifalcon/linux/40-novint-falcon-udev.rules /etc/udef/rules.d/
+		#sudo cp ~/drivers/libnifalcon/linux/40-novint-falcon-udev.rules /etc/udev/rules.d/
 		sudo cp ~/code/code_idealab_ros/src/ros_falcon/udev_rules/99-udev-novint.rules /etc/udev/rules.d/
 		sudo chmod 644 /etc/udev/rules.d/99-udev-novint.rules
 		sudo udevadm control --reload-rules && udevadm trigger
