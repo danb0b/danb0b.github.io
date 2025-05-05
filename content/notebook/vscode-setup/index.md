@@ -14,6 +14,8 @@ summary: " "
 
 Download from [here](https://code.visualstudio.com/Download)
 
+[VSCodium](https://vscodium.com/) is an open-source build of the same source code.  Download it here: <https://github.com/VSCodium/vscodium/releases>
+
 Installation Options
 
 - Accept the default installation path
@@ -111,29 +113,83 @@ code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension takumii.markdowntable
+```
 
+I don't use these extensions any more:
 
-code --install-extension waderyan.gitblame
+```bash
+
+#code --install-extension waderyan.gitblame
+#code --install-extension tamasfe.even-better-toml
+#code --install-extension donjayamanne.githistory
+#code --install-extension codezombiech.gitignore
+#code --install-extension ms-toolsai.vscode-jupyter-slideshow
+#code --install-extension ziyasal.vscode-open-in-github
+
 code --disable-extension waderyan.gitblame
-
-code --install-extension tamasfe.even-better-toml
 code --disable-extension tamasfe.even-better-toml
-
-code --install-extension donjayamanne.githistory
 code --disable-extension donjayamanne.githistory
-
-code --install-extension codezombiech.gitignore
 code --disable-extension codezombiech.gitignore
-
-code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --disable-extension ms-toolsai.vscode-jupyter-slideshow
-
-code --install-extension ziyasal.vscode-open-in-github
 code --disable-extension ziyasal.vscode-open-in-github
 ```
 
 ```bash
 code --list-extensions
+```
+
+## Using VS Codium
+
+> Note: If you are installing VSCodium, you need to use the command ```codium``` instead of ```code```
+
+Change the codium repositories to vscode in order to find all the extensions
+
+```bash
+sudo nano /usr/share/codium/resources/app/product.json 
+```
+
+Replace:
+
+```yaml
+"serviceUrl": "https://open-vsx.org/vscode/gallery",
+"itemUrl": "https://open-vsx.org/vscode/item",
+```
+
+with
+
+```yaml
+"serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+"itemUrl": "https://marketplace.visualstudio.com/items",
+```
+
+Finally install extensions
+
+```bash
+codium --install-extension alefragnani.project-manager
+codium --install-extension bierner.markdown-yaml-preamble
+codium --install-extension davidanson.vscode-markdownlint
+codium --install-extension dotjoshjohnson.xml
+codium --install-extension james-yu.latex-workshop
+codium --install-extension mathematic.vscode-latex
+codium --install-extension mhutchie.git-graph
+codium --install-extension ms-azuretools.vscode-docker
+codium --install-extension ms-python.debugpy
+codium --install-extension ms-python.python
+codium --install-extension ms-python.vscode-pylance
+codium --install-extension ms-toolsai.jupyter
+codium --install-extension ms-toolsai.jupyter-keymap
+codium --install-extension ms-toolsai.jupyter-renderers
+codium --install-extension ms-toolsai.vscode-jupyter-cell-tags
+codium --install-extension ms-vscode-remote.remote-containers
+codium --install-extension pkief.markdown-checkbox
+codium --install-extension pycom.pymakr-preview
+codium --install-extension redhat.vscode-xml
+codium --install-extension redhat.vscode-yaml
+codium --install-extension shd101wyy.markdown-preview-enhanced
+codium --install-extension streetsidesoftware.code-spell-checker
+codium --install-extension yzane.markdown-pdf
+codium --install-extension yzhang.markdown-all-in-one
+codium --install-extension takumii.markdowntable
 ```
 
 ## Markdown all-in-one
