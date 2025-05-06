@@ -106,3 +106,9 @@ environment.systemPackages = with pkgs; [
 ### Installation
 
 <https://nix-community.github.io/home-manager/index.html#sec-install-standalone>
+
+
+## External Resources
+
+Tailscale: <https://tailscale.com/kb/1096/nixos-minecraft>
+SSH: <https://nixos.wiki/wiki/SSH>

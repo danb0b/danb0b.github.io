@@ -101,6 +101,7 @@ zfs list -t snapshot
 
 
 ```bash
+tmux
 zfs snapshot <pool>@<data>/<identifier>
 
 zfs snapshot "storage@$(date +"%Y-%m-%d_%H-%M")"
@@ -134,6 +135,8 @@ log in to primary
 
 ```bash
 sudo apt update && sudo apt full upgrade -y
+
+tmux
 
 last_snapshot=$(zfs list -t snapshot | tail -1 | awk '{print $1}')
 new_snapshot="storage@$(date +"%Y-%m-%d_%H-%M")"
