@@ -179,9 +179,13 @@ Logseq
 * Proxmox
 * jitsi for zoom replacement
 * [https://www.bookstackapp.com/](https://www.bookstackapp.com/)
-
 * Pro 1x smartphone
-
+* Caddy
+* endless os
+* <https://sh.readthedocs.io/en/latest/>
+* <https://archive.org/details/The-Conet-Project>
+* <https://archive.org/details/attentionkmartshoppers>
+* 
 aruco in opencv
 
 * Mailspring

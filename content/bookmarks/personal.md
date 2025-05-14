@@ -6,7 +6,6 @@ summary: " "
 Fun personal links...
 <!--more-->
 
-
 ## personal
 
 * [100-greatest-rock-instrumentals](https://digitaldreamdoor.com/pages/best_rockinst.html)
@@ -268,4 +267,9 @@ Fun personal links...
 
 * <https://www.asus.com/us/Laptops/For-Home/ZenBook/ZenBook-14-UM425>
 
-https://www.ft.com/content/745e34a1-0ca7-432c-b062-950c20e41f03
+<https://www.ft.com/content/745e34a1-0ca7-432c-b062-950c20e41f03>
+
+misc
+
+* <https://joshdata.me/iceberger.html>
+* <https://www.joke-archives.com/?p=1498>
