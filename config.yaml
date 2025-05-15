@@ -30,7 +30,7 @@ outputs:
   - HTML
   - RSS
   - JSON
-paginate: 6
+pagerSize: 6
 params:
   github_repo: "https://github.com/danb0b/danb0b.github.io"
   github_edit_branch: master
