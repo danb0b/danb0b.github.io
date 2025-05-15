@@ -90,7 +90,9 @@ open a terminal window and paste the following in:
 ```bash
 code --install-extension alefragnani.project-manager
 code --install-extension bierner.markdown-yaml-preamble
+code --install-extension curlconverter.curlconverter
 code --install-extension davidanson.vscode-markdownlint
+code --install-extension docker.docker
 code --install-extension dotjoshjohnson.xml
 code --install-extension james-yu.latex-workshop
 code --install-extension mathematic.vscode-latex
@@ -110,9 +112,9 @@ code --install-extension redhat.vscode-xml
 code --install-extension redhat.vscode-yaml
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension takumii.markdowntable
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
-code --install-extension takumii.markdowntable
 ```
 
 I don't use these extensions any more:
@@ -167,7 +169,9 @@ Finally install extensions
 ```bash
 codium --install-extension alefragnani.project-manager
 codium --install-extension bierner.markdown-yaml-preamble
+codium --install-extension curlconverter.curlconverter
 codium --install-extension davidanson.vscode-markdownlint
+codium --install-extension docker.docker
 codium --install-extension dotjoshjohnson.xml
 codium --install-extension james-yu.latex-workshop
 codium --install-extension mathematic.vscode-latex
@@ -187,9 +191,9 @@ codium --install-extension redhat.vscode-xml
 codium --install-extension redhat.vscode-yaml
 codium --install-extension shd101wyy.markdown-preview-enhanced
 codium --install-extension streetsidesoftware.code-spell-checker
+codium --install-extension takumii.markdowntable
 codium --install-extension yzane.markdown-pdf
 codium --install-extension yzhang.markdown-all-in-one
-codium --install-extension takumii.markdowntable
 ```
 
 ## Markdown all-in-one
