@@ -43,20 +43,11 @@ params:
   cookies:
     enable: false
     expire_days: 2
-  copyright: "|  copyright &copy; 2023 Daniel Aukes.  All Rights Reserved.  |"
+  copyright: "|  copyright &copy; 2025 Daniel Aukes.  All Rights Reserved.  |"
   description: Dan Aukes' personal website
-  #email: 'danaukes at gmail.com'
-  #googleAnalitycsID: Your ID
   home: Home
   location: Arizona, USA
   logo: da-small.png
-#  mobile: 0124857985320
-  newsletter:
-    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-      At vero
-    enable: false
-    title: Join Our Newsletter
   plugins:
     css:
     - URL: plugins/glightbox/css/glightbox.css
@@ -80,32 +71,17 @@ params:
   search:
     enable: true
   social:
-#  - icon: ti-facebook
-#    link: '#'
-#    title: facebook
-  # - icon: ti-twitter-alt
-  #   link: 'https://twitter.com/danaukes'
-    # title: twitter
-#  - icon: ti-instagram
-#    link: '#'
-#    title: instagram
   - icon: ti-github
     link: 'https://github.com/danb0b'
     title: personal github
   - icon: ti-linkedin
     link: 'https://www.linkedin.com/in/dan-aukes-502995212/'
     title: linkedin
-
 markup:
   goldmark:
     renderer:
       unsafe: true
-      # extensions:
-        # typographer: false
   highlight:
     style: monokailight
     noClasses: true
-
 summarylength: 5
-
-#touch
