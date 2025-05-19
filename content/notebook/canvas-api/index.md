@@ -15,3 +15,5 @@ title: Working with the Canvas API
 * <https://gist.github.com/Koenvh1/6386f8703766c432eb4dfa19acdb0244>
 * <https://github.com/john-hix/scrape-canvas>
 * <https://pypi.org/project/canvasapi/>
+* <https://github.com/ucfopen/canvasapi?tab=readme-ov-file>
+* <https://canvasapi.readthedocs.io/en/stable/>
