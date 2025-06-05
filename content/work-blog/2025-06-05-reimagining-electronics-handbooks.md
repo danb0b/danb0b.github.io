@@ -1,5 +1,5 @@
 ---
-title: Reimagining Today's Electronics Handbook
+title: Reimagining Today's Electronics Handbooks
 date: 2025-06-05
 summary: " "
 ---
