@@ -1,12 +1,14 @@
 ---
 title: Reimagining Today's Electronics Handbook
+date: 2025-06-05
+summary: " "
 ---
 
-Last year I was asked to contribute to an introductory electronics handbook.  The publisher wanted my thoughts on how to refresh it, improve it, and make it current, since the original authors had moved on and didn't have time to make the necessary improvements.  Even though at the time I didn't have time to work on it, I put together a writeup on what I thought needed to change, with a justification for why.  I thought that writeup might have some utility on its own, so here it is, adjusted for a general audience.  Consider my perspective, as someone who teaches introductory courses on mechatronics and embedded systems.  I don't have time to teach everything, but as i update and curate my courses, these are the thoughts running through my head.
+> Last year I was asked to contribute to an introductory electronics handbook.  The publisher wanted my thoughts on how to refresh it, improve it, and make it current, since the original authors had moved on and didn't have time to make the necessary improvements.  Even though I didn't have time to work on it, I put together a writeup on what I thought needed to change, with a justification for why.  I thought that writeup might have some utility on its own, so here it is, adjusted for a general audience.  Consider my perspective, as someone who teaches introductory courses on mechatronics and embedded systems --  I don't have time to teach everything, so I have to pick and choose, based on what I think will serve my students best as they approach the workforce.  These thoughts are therefore already  running through my head as I consider how to update and curate my courses.
 
 ---
 
-Back when I was in school, it was still manageable to attempt to cram everything introductory about electronics, mechatronics or embedded systems into a single handbook or textbook, running in parallel with the courses I once took, and these days teach.  The problem with these topics today is that 1) so many devices, products, and concepts have come and gone, that your textbook needs to be overhauled top to bottom every few years.  Additionally, the number of things to know about introductory electronics has both grown and shifted as well. I will give you a brief rundown:
+Back when I was in school, it was still manageable to attempt to cram everything introductory about electronics, mechatronics or embedded systems into a single handbook or textbook, running in parallel with the courses I once took, and these days teach.  The problem with these topics today is that 1) so many devices, products, and concepts have come and gone, that your materials need to be overhauled top to bottom every few years.  Additionally, the number of things to know about introductory electronics has both grown and shifted as well. I will give you a brief rundown:
 
 ## The work you have to do to enter electronics has changed
 
@@ -34,19 +36,19 @@ It is also now possible these days to sink a small amount of money into your own
 
 ## Power and Voltage Regulation
 
-While "linear" voltage regulator s(the kind still used in introductory courses) are still prevalent, switching regulators are much more energy-efficient and are preferred in industry today. The focus on linear regulators should change, since so many more switching regulators are out there, and their setup and use is simpler now (now that they are more advanced and require fewer parts).
+While "linear" voltage regulators (the kind still used in introductory courses) are still prevalent, switching regulators are much more energy-efficient and are preferred in industry today. The focus on linear regulators should change, since so many more switching regulators are out there, and their setup and use is simpler now (now that they are more advanced and require fewer parts).
 
 ## Discrete Digital Circuit Design
 
-While it's cool to learn about the way digital logic forms the basis for all computing, we just don't compose digital circuits like that any more. I suggest trimming it down or eliminating it.
+While it's cool to learn about the way digital logic forms the basis for all computing, we just don't compose digital circuits like that any more -- by composing digital circuits from individual components (740X series, anyone?). I suggest trimming it down or eliminating it.
 
 ## Analog Circuitry
 
-Op-Amps are still a good discussion... however, it is important to recognize that there are far fewer analog interfaces in use in modern electronics than digital. Thus, while you "have to know" how analog signals are conditioned and passed along, analog data is now often quickly digitized and then massaged via digital techniques.  This should be expanded upon in beginner textbooks and curricula for early learners.  Something about digital filters, "discrete" systems, and modern computing examples should be a part of todays first courses.
+Analog signal conditioning, and its associated hardware (Op Amps) are are still a good topic to learn, but it is important to recognize that there are far fewer analog interfaces in use in modern electronics than digital. Thus, while you "have to know" how analog signals are conditioned and passed along, analog data is now often quickly digitized and then massaged via digital techniques.  This should be expanded upon in beginner textbooks and curricula for early learners.  Something about digital filters, "discrete" systems, and modern computing examples should be added to todays first courses and handbooks.
 
 ## Sensing
 
-While the theory of sensing is still required, the actual sensors on the market today are somewhat disconnected from this theory. Many "sensors" are complete systems in their own right, with logic, multiple individual sensors, sensor fusion algorithms, programmability, etc. Your basic electronics textbook doesn't really capture the complexity of setting up and working with even the most basic digital sensors, communicating with them, or reading them. Each of these complex sensors could be a chapter or more (their datasheets can be 50 pages!)
+The theory of sensing is still great to know. In class, I still teach about capacitive sensing, inductive sensing, resistive sensing, and show how to connect these basic elements to custom-designed analog signal conditioning circuits.  This is great to learn, know, and understand, and I'm on the fence whether we should throw the baby out with the bathwater, but the reality is that most actual sensors on the market today are somewhat disconnected from this theory.  Many sensor chips are in fact complete systems in their own right, with logic, multiple individual sensors, sensor fusion algorithms, programmability, etc. Your basic electronics textbook doesn't really capture the complexity of setting up and working with even the most basic digital sensors, communicating with them, or reading them. Each of these complex sensors could be a chapter or more (their datasheets can be 50 pages!)
 
 ## Motors and Actuators
 
@@ -62,11 +64,11 @@ An in-depth discussion of low-level protocols, such as SPI, I2C, EUSART, Onewire
 
 The whole world of microcontrollers has changed, with new companies, whole families of products, updated architectures, etc.  Consider microcontrollers that can run MicroPython or similar, in addition to lower-level languages like C. This satisfies a similar goal: you want to move along quickly, without delving too deep into the guts of a particular architecture, since it is likely to change.
 
-* Arduino is still a great, introductory architecture, because it is dominant at the hobbyist level. However, whole books are written on or about Arduino microcontrollers, and
+* Arduino is still a great, introductory architecture, because it is dominant at the hobbyist level. However, whole books are written on or about Arduino microcontrollers, and depending on your audience, many high-schoolers have already seen these.
 * Discuss all the things microcontrollers can now do: connect to the internet, run a web page, run full operating systems
-* Discuss the many ways microcontrollers can be programmed these days
+* Discuss the many new ways microcontrollers can be programmed these days.
 
-Furthermore, small Single Board Computers (SBC's) that full PC operating systems (raspberry pi, beagle bone, jetson nano, NUCs) should at least be introduced.  These are a dominant competitor to microcontrollers these days, because you can program them using all the same code that runs on Linux, accessing modern and better-maintained codebases, and then do even higher-level computing and communication. You can develop faster.  For this, students should be aware of Linux, as well as the major software packages and libraries you would want to consider if going this route.
+Furthermore, small Single Board Computers (SBC's) that run full PC operating systems (raspberry pi, beagle bone, jetson nano, NUCs) should at least be introduced.  These are a dominant competitor to microcontrollers these days, because you can program them using all the same code that runs on Linux, accessing modern and better-maintained codebases, and then do even higher-level computing and communication. You can develop faster.  For this, students should be aware of Linux, as well as the major software packages and libraries you would want to consider if going this route.
 
 ## LLMs, Generative AI, and NLP
 
