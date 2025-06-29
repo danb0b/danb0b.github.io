@@ -7,11 +7,21 @@ tags:
 summary: " "
 ---
 
-## External Resources
+## Python environment
 
 ```bash
-pip install mkdocs mkdocs-material mkdocs-glightbox
+sudo apt install -y git python3-pip python3-venv
+python3 -m venv ~/envs/mkdocs
+. envs/mkdocs/bin/activate
+pip install \
+mkdocs \
+mkdocs-material \
+mkdocs-glightbox \
+mkdocs-material-extensions \
+mkdocs-rss-plugin
 ```
+
+## External Resources
 
 * <https://stackoverflow.com/questions/27882261/mkdocs-and-mathjax>
 * <https://www.mkdocs.org/user-guide/writing-your-docs/>
@@ -34,10 +44,10 @@ markdown_extensions:
 
 * <https://facelessuser.github.io/pymdown-extensions/extensions/tilde/>
 
-
 ## New Project
 
 ```bash
 mkdocs new my-project
 cd my-project
 ```
+

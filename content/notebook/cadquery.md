@@ -4,6 +4,7 @@ summary: " "
 ---
 
 ```bash
+sudo apt install -y git python3-pip python3-venv
 python3 -m venv ~/envs/cadquery
 . envs/cadquery/bin/activate
 pip install cadquery jupyter-cadquery
