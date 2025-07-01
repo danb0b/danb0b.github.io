@@ -17,14 +17,14 @@
 </span></span></code></pre></div><p>Other security options (may break conda script)</p><pre tabindex=0><code>#Set-ExecutionPolicy AllSigned
 </code></pre><h2 id=install-packages>Install Packages</h2><p>Update Conda</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda update -y -n base conda
 </span></span></code></pre></div><h3 id=install-full-anaconda>Install full anaconda</h3><p>If you&rsquo;ve installed miniconda only and realize you want the full anaconda pipeline</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda install -y anaconda
-</span></span></code></pre></div><h3 id=conda-packages-not-included-in-anaconda>Conda packages not included in anaconda</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
+</span></span></code></pre></div><h3 id=conda-packages-not-included-in-anaconda>Conda packages not included in anaconda</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>conda install -y pyqtgraph pyopengl gitpython pycairo shapely 
 </span></span><span style=display:flex><span>conda install -y -c conda-forge scikit-fem vispy
 </span></span><span style=display:flex><span><span style=color:#75715e>#conda install -y pandoc #the version of pandoc shipped by conda is old.</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#conda install -y paramiko pycrypto requests[socks]</span>
 </span></span></code></pre></div><h3 id=install-pip-packages>Install pip packages</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>python -m pip install --upgrade pip
 </span></span><span style=display:flex><span>pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot <span style=color:#8045ff>\
-</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify <span style=color:#8045ff>\
+</span></span></span><span style=display:flex><span><span style=color:#8045ff></span>python-slugify <span style=color:#8045ff>\
 </span></span></span><span style=display:flex><span><span style=color:#8045ff></span>pandoc-fignos pandoc-eqnos pandoc-crossref h5py
 </span></span><span style=display:flex><span>pip install git+https://github.com/pfalcon/utemplate.git
 </span></span></code></pre></div><h3 id=fix-for-pandoc-eqnos>Fix for pandoc eqnos</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>pip3 install --force-reinstall --no-cache-dir git+https://github.com/nandokawka/pandoc-xnos@284474574f51888be75603e7d1df667a0890504d#egg<span style=color:#f92672>=</span>pandoc-xnos
@@ -59,7 +59,7 @@
 </span></span><span style=display:flex><span>conda install pip
 </span></span><span style=display:flex><span>conda install -y menuinst
 </span></span><span style=display:flex><span>conda install -y  <span style=color:#111>ipykernel</span><span style=color:#f92672>=</span>4.8 cython mkl imageio jinja2 jupyter lxml matplotlib networkx numpy pandoc pillow pyflakes pyqt pyyaml ruamel_yaml scipy setuptools sphinx spyder sympy tornado
-</span></span><span style=display:flex><span>conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo
+</span></span><span style=display:flex><span>conda install -y paramiko pyqtgraph pyopengl gitpython pycairo
 </span></span><span style=display:flex><span><span style=color:#75715e>#conda install -y -c conda-forge shapely</span>
 </span></span><span style=display:flex><span>conda install -y shapely
 </span></span><span style=display:flex><span>conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
