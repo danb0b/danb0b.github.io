@@ -79,11 +79,13 @@ conda install -y anaconda
 ### Conda packages not included in anaconda
 
 ```bash
-conda install -y django pyqtgraph pyopengl gitpython pycairo shapely 
+conda install -y pyqtgraph pyopengl gitpython pycairo shapely 
 conda install -y -c conda-forge scikit-fem vispy
 #conda install -y pandoc #the version of pandoc shipped by conda is old.
 #conda install -y paramiko pycrypto requests[socks]
 ```
+
+<!-- conda install -y django -->
 
 ### Install pip packages
 
@@ -91,10 +93,12 @@ conda install -y -c conda-forge scikit-fem vispy
 python -m pip install --upgrade pip
 pip install meshio ezdxf twine pypdf pypdf4 service_identity ftd2xx pygithub paho-mqtt scp euclid3 pysolar ntplib pdf2image stem \
 fake_useragent PyMuPDF pygame pysftp pyserial cma ladybug-geometry-polyskel thonny pyexiftool xlsxgrep yt-dlp microdot \
-mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin python-slugify \
+python-slugify \
 pandoc-fignos pandoc-eqnos pandoc-crossref h5py
 pip install git+https://github.com/pfalcon/utemplate.git
 ```
+
+<!-- mkdocs mkdocs-material mkdocs-glightbox mkdocs-rss-plugin \ -->
 
 ### Fix for pandoc eqnos
 
@@ -215,7 +219,7 @@ conda update conda
 conda install pip
 conda install -y menuinst
 conda install -y  ipykernel=4.8 cython mkl imageio jinja2 jupyter lxml matplotlib networkx numpy pandoc pillow pyflakes pyqt pyyaml ruamel_yaml scipy setuptools sphinx spyder sympy tornado
-conda install -y django paramiko pyqtgraph pyopengl gitpython pycairo
+conda install -y paramiko pyqtgraph pyopengl gitpython pycairo
 #conda install -y -c conda-forge shapely
 conda install -y shapely
 conda install -y -c conda-forge -c dlr-sc -c pythonocc -c oce pythonocc-core
