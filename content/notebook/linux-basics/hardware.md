@@ -187,7 +187,7 @@ sudo apt install -y cu
 cu -l /dev/ttyACM0 -s 9600
 ```
 
-To exit enter tilde dot (~.)
+To exit enter ```ctrl+a``` then ```k```, then confirm with ```y```
 
 ```bash
 sudo apt install -y screen
