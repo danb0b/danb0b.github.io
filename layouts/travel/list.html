@@ -63,7 +63,8 @@
         </div>
         <!-- pagination -->
         <div class="row justify-content-center">
-        {{ partial "paginator.html" . }}
+        <!-- {{ partial "paginator.html" . }} -->
+        {{ template "_internal/pagination.html" . }}
         </div>
       </div>
     </div>
