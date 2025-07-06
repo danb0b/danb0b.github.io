@@ -60,7 +60,9 @@ darktable \
 exfat-fuse exfatprogs \
 git-filter-repo \
 blueman \
-librecad
+librecad \
+evince \
+git-secret
 ```
 
 ### Optional
