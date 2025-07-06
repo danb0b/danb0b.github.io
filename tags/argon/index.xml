@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Argon on Dan Aukes</title><link>https://www.danaukes.com/tags/argon/</link><description>Recent content in Argon on Dan Aukes</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://www.danaukes.com/tags/argon/index.xml" rel="self" type="application/rss+xml"/><item><title>Particle Argon Resources</title><link>https://www.danaukes.com/notebook/particle-argon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.danaukes.com/notebook/particle-argon/</guid><description>&lt;h2 id="external-resources">External Resources&lt;/h2>
+&lt;ul>
+&lt;li>Argon Docs: &lt;a href="https://docs.particle.io/argon/">https://docs.particle.io/argon/&lt;/a>&lt;/li>
+&lt;li>web-based setup(requires chromium): &lt;a href="https://setup.particle.io/">https://setup.particle.io/&lt;/a>&lt;/li>
+&lt;li>manual setup: &lt;a href="https://docs.particle.io/getting-started/setup/manual-setup/">https://docs.particle.io/getting-started/setup/manual-setup/&lt;/a>&lt;/li>
+&lt;li>CLI: &lt;a href="https://docs.particle.io/getting-started/developer-tools/cli/">https://docs.particle.io/getting-started/developer-tools/cli/&lt;/a>&lt;/li>
+&lt;li>particle console: &lt;a href="https://console.particle.io/devices">https://console.particle.io/devices&lt;/a>&lt;/li>
+&lt;li>web IDE: &lt;a href="https://build.particle.io/build/new">https://build.particle.io/build/new&lt;/a>&lt;/li>
+&lt;li>Claiming: &lt;a href="https://docs.particle.io/getting-started/cloud/device-claiming/">https://docs.particle.io/getting-started/cloud/device-claiming/&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/particle-iot/particle-cli/issues/114">https://github.com/particle-iot/particle-cli/issues/114&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://community.particle.io/t/device-transfer-request-argon-xenon-already-claimed/69729">https://community.particle.io/t/device-transfer-request-argon-xenon-already-claimed/69729&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/particle-iot/particle-cli/issues/241">https://github.com/particle-iot/particle-cli/issues/241&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://community.particle.io/t/help-desperately-needed-claim-device-says-that-belongs-to-someone-else/11449">https://community.particle.io/t/help-desperately-needed-claim-device-says-that-belongs-to-someone-else/11449&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
