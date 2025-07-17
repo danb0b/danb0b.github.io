@@ -48,14 +48,15 @@ Cargo.lock
 
 ## interesting things
 
-can use if traditionally, or as a conditional in another statemtent
-continue keyword is a companion to break
-you can iterate through 1..5 or lists: [1,2,3] with ```for```
-match is a simplified ```switch```/```case``` statement
-loop keyword just loops forever
-```let``` keyword sorts out datatypes later.
-last line of functions is the return if you omit the semicolon -- return can still be used
-"unit type" is an empty tuple
+* can use if traditionally, or as a conditional in another statemtent
+* continue keyword is a companion to break
+* you can iterate through 1..5 or lists: [1,2,3] with ```for```
+* match is a simplified ```switch```/```case``` statement
+* loop keyword just loops forever
+* ```let``` keyword sorts out datatypes later.
+* last line of functions is the return if you omit the semicolon -- return can still be used
+* "unit type" is an empty tuple
+* mutable references and exclusive references
 
 
 built in functions / macros I've discovered
