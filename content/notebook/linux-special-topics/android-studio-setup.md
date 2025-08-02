@@ -4,7 +4,9 @@ summary: " "
 ---
 
 
+```bash
 sudo apt install -y libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+```
 
 download [android-studio](https://developer.android.com/studio)
 
@@ -23,7 +25,9 @@ sudo adduser $USER libvirt
 #sudo apt install -y libvirt-daemon-driver-qemu libvirt-daemon-system
 ```
 
-flatpak install com.google.AndroidStudio 
+```bash
+flatpak install -y com.google.AndroidStudio 
+```
 
 ## Tricks for getting chrome working and eliminating bugs / errors
 

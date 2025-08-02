@@ -31,7 +31,9 @@ summary: " "
 
 1. Install kleopatra
 
-    apt install -y kleopatra
+    ```bash
+    sudo apt install -y kleopatra
+    ```
 
 ## Other Helpful Key stuff
 

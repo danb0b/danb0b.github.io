@@ -128,8 +128,8 @@ org.famistudio.FamiStudio
 # net.xm1math.Texmaker\
 # com.authy.Authy \
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
-#flatpak install flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
-#flatpak install flathub org.darktable.Darktable  # font issue
+#flatpak install -y flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
+#flatpak install -y flathub org.darktable.Darktable  # font issue
 ```
 
 optional
@@ -139,10 +139,10 @@ optional
 # org.gnome.Cheese \
 # org.kiwix.desktop \
 # md.obsidian.Obsidian \
-flatpak install flathub org.openscad.OpenSCAD
-flatpak install flathub net.meshlab.MeshLab
-flatpak install flathub org.blender.Blender
-flatpak install flathub com.slack.Slack
+flatpak install -y flathub org.openscad.OpenSCAD
+flatpak install -y flathub net.meshlab.MeshLab
+flatpak install -y flathub org.blender.Blender
+flatpak install -y flathub com.slack.Slack
 ```
 
 close and reopen terminal
@@ -186,7 +186,7 @@ sudo apt update && sudo apt install -y mainline
 ### Thunderbird
 
 ```bash
-flatpak install flathub org.mozilla.Thunderbird -y
+flatpak install -y flathub org.mozilla.Thunderbird -y
 ```
 
 move configuration from backup to ~/.var/app/org.mozilla.Thunderbird/.thunderbird/
@@ -361,7 +361,7 @@ chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
 ### Cura
 
 ```bash
-flatpak install flathub com.ultimaker.cura
+flatpak install -y flathub com.ultimaker.cura
 ```
 
 <!--
@@ -429,7 +429,7 @@ rm mendeley-desktop.tar.bz2
 <https://flathub.org/apps/details/com.github.needleandthread.vocal>
 
 ```bash
-flatpak install flathub com.github.needleandthread.vocal
+flatpak install -y flathub com.github.needleandthread.vocal
 flatpak run com.github.needleandthread.vocal
 ```
 
