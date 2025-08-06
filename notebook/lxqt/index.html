@@ -1,0 +1,233 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><title>lxqt shortcuts | Dan Aukes </title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="Dan Aukes' personal website"><meta name=author content="Dan Aukes"><meta name=generator content="Hugo 0.147.3"><link rel=stylesheet href=https://www.danaukes.com/plugins/glightbox/css/glightbox.css><link rel=stylesheet href=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://www.danaukes.com/plugins/slick/slick.css><link rel=stylesheet href=https://www.danaukes.com/plugins/themify-icons/themify-icons.css><link rel=stylesheet href=https://www.danaukes.com/plugins/venobox/venobox.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css><link rel=stylesheet href=https://www.danaukes.com/scss/style.min.css media=screen><link rel="shortcut icon" href=https://www.danaukes.com/images/favicon.png type=image/x-icon><link rel=icon href=https://www.danaukes.com/images/favicon.png type=image/x-icon><script>(function(e,t,n,s,o,i,a){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=t.createElement(n),a=t.getElementsByTagName(n)[0],i.async=1,i.src=s,a.parentNode.insertBefore(i,a)})(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","","auto"),ga("send","pageview")</script><script>MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:["script","noscript","style","textarea","pre"]}},window.addEventListener("load",e=>{document.querySelectorAll("mjx-container").forEach(function(e){e.parentElement.classList+="has-jax"})})</script><script type=text/javascript id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script></head><body><div class=preloader></div><header class=navigation><div class=container><nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0"><a class="navbar-brand mobile-view" href=https://www.danaukes.com/><img class=img-fluid src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation>
+<i class=ti-menu></i></button><div class="collapse navbar-collapse text-center" id=navigation><div class=desktop-view><ul class="navbar-nav mr-auto"><li class=nav-item><a class=nav-link href=https://github.com/danb0b><i class=ti-github></i></a></li><li class=nav-item><a class=nav-link href=https://www.linkedin.com/in/dan-aukes-502995212/><i class=ti-linkedin></i></a></li></ul></div><a class="navbar-brand mx-auto desktop-view" href=https://www.danaukes.com/><img class=img-fluid src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a><ul class=navbar-nav><li class=nav-item><a class=nav-link href=https://www.danaukes.com/work-blog/>Work Blog</a></li><li class=nav-item><a class=nav-link href=https://www.danaukes.com/notebook/>Notebook</a></li><li class=nav-item><a class=nav-link href=https://www.danaukes.com/travel/>Travel</a></li><li class=nav-item><a class=nav-link href=https://www.danaukes.com/recipes/>Recipes</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Misc</a><div class=dropdown-menu><a class=dropdown-item href=https://www.danaukes.com/code/>Code</a>
+<a class=dropdown-item href=https://www.danaukes.com/websites/>Websites</a>
+<a class=dropdown-item href=https://www.danaukes.com/bookmarks/>Bookmarks</a></div></li></ul><form action=https://www.danaukes.com//search class=d-flex><input class="form-control me-2" id=search-query name=s type=s placeholder=Search aria-label=Search>
+<button class="btn btn-outline-success" type=submit><i class="ti-search text-dark"></i></button></form></div></nav></div></header><section class=section-sm><div class=container><div class=row><div class="col-lg-8 mx-auto"><div class=text-center><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://www.danaukes.com/>Welcome</a></li><li class=breadcrumb-item><a href=https://www.danaukes.com/notebook/>Notebook</a></li><li class="breadcrumb-item active"><a href=https://www.danaukes.com/notebook/lxqt/>lxqt shortcuts</a></li></ol></nav></div><h2>lxqt shortcuts</h2><div class="mb-1 post-meta"><span>By Dan Aukes</span></div><ul class=list-inline></ul><div class="content mb-5"><h3 id=maximize-leftright>Maximize left/right</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=display:flex><span><span style=color:#f92672>&lt;keyboard&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;chainQuitKey&gt;</span>C-g<span style=color:#f92672>&lt;/chainQuitKey&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Keybindings for desktop switching --&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-A-Left&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;GoToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>left<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-A-Right&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;GoToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>right<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-A-Up&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;GoToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>up<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-A-Down&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;GoToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>down<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-S-A-Left&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;SendToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>left<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-S-A-Right&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;SendToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>right<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!--
+</span></span></span><span style=display:flex><span><span style=color:#75715e>--&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-S-A-Up&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;SendToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>up<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-S-A-Down&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;SendToDesktop&#34;</span><span style=color:#f92672>&gt;&lt;to&gt;</span>down<span style=color:#f92672>&lt;/to&gt;&lt;wrap&gt;</span>no<span style=color:#f92672>&lt;/wrap&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!-- 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-F1&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;GoToDesktop&#34;&gt;&lt;to&gt;1&lt;/to&gt;&lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-F2&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;GoToDesktop&#34;&gt;&lt;to&gt;2&lt;/to&gt;&lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-F3&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;GoToDesktop&#34;&gt;&lt;to&gt;3&lt;/to&gt;&lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-F4&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;GoToDesktop&#34;&gt;&lt;to&gt;4&lt;/to&gt;&lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt; 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>--&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;W-m&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;ToggleShowDesktop&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Keybindings for windows --&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;A-F4&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Close&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;A-Escape&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Lower&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;FocusToBottom&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Unfocus&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;A-space&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;ShowMenu&#34;</span><span style=color:#f92672>&gt;&lt;menu&gt;</span>client-menu<span style=color:#f92672>&lt;/menu&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Take a screenshot of the current window with scrot when Alt+Print are pressed --&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;A-Print&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Execute&#34;</span><span style=color:#f92672>&gt;&lt;command&gt;</span>scrot -s<span style=color:#f92672>&lt;/command&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Keybindings for window switching --&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;A-Tab&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;NextWindow&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;finalactions&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Focus&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Raise&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Unshade&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;/finalactions&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;A-S-Tab&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;PreviousWindow&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;finalactions&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Focus&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Raise&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Unshade&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;/finalactions&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;C-A-Tab&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;NextWindow&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;panels&gt;</span>yes<span style=color:#f92672>&lt;/panels&gt;&lt;desktop&gt;</span>yes<span style=color:#f92672>&lt;/desktop&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;finalactions&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Focus&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Raise&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Unshade&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;/finalactions&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Keybindings for window switching with the arrow keys --&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!--
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-S-Right&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;DirectionalCycleWindows&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      &lt;direction&gt;right&lt;/direction&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-S-Left&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;DirectionalCycleWindows&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      &lt;direction&gt;left&lt;/direction&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-S-Up&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;DirectionalCycleWindows&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      &lt;direction&gt;up&lt;/direction&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;keybind key=&#34;W-S-Down&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;action name=&#34;DirectionalCycleWindows&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      &lt;direction&gt;down&lt;/direction&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    &lt;/action&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  &lt;/keybind&gt;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>--&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Keybindings for running applications --&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;W-e&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Execute&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;startupnotify&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;enabled&gt;</span>true<span style=color:#f92672>&lt;/enabled&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;name&gt;</span>Konqueror<span style=color:#f92672>&lt;/name&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;/startupnotify&gt;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&lt;command&gt;</span>kfmclient openProfile filemanagement<span style=color:#f92672>&lt;/command&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>&lt;!-- Launch scrot when Print is pressed --&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;Print&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Execute&#34;</span><span style=color:#f92672>&gt;&lt;command&gt;</span>scrot<span style=color:#f92672>&lt;/command&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;S-A-Left&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;MaximizeVert&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;width&gt;</span>50%<span style=color:#f92672>&lt;/width&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;MoveToEdge&#34;</span><span style=color:#f92672>&gt;&lt;direction&gt;</span>west<span style=color:#f92672>&lt;/direction&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;S-A-Right&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;MaximizeVert&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;width&gt;</span>50%<span style=color:#f92672>&lt;/width&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/action&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;MoveToEdge&#34;</span><span style=color:#f92672>&gt;&lt;direction&gt;</span>east<span style=color:#f92672>&lt;/direction&gt;&lt;/action&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;S-A-Down&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Unmaximize&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;keybind</span> <span style=color:#75af00>key=</span><span style=color:#d88200>&#34;S-A-Up&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>   <span style=color:#f92672>&lt;action</span> <span style=color:#75af00>name=</span><span style=color:#d88200>&#34;Maximize&#34;</span><span style=color:#f92672>/&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/keybind&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/keyboard&gt;</span>
+</span></span></code></pre></div><h3 id=tiling>Tiling</h3><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>&lt;!-- Vertical tiling --&gt;
+</span></span><span style=display:flex><span>&lt;keybind <span style=color:#111>key</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;C-W-v&#34;</span>&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span>/&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;width&gt;50%&lt;/width&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MaximizeVert&#34;</span>/&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;x&gt;0&lt;/x&gt;
+</span></span><span style=display:flex><span>    &lt;y&gt;0&lt;/y&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;NextWindow&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;interactive&gt;no&lt;/interactive&gt;
+</span></span><span style=display:flex><span>    &lt;dialog&gt;none&lt;/dialog&gt;
+</span></span><span style=display:flex><span>    &lt;finalactions&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span>/&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>        &lt;width&gt;50%&lt;/width&gt;
+</span></span><span style=display:flex><span>      &lt;/action&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MaximizeVert&#34;</span>/&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>        &lt;x&gt;-0&lt;/x&gt;
+</span></span><span style=display:flex><span>        &lt;y&gt;0&lt;/y&gt;
+</span></span><span style=display:flex><span>      &lt;/action&gt;
+</span></span><span style=display:flex><span>    &lt;/finalactions&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt;
+</span></span><span style=display:flex><span>&lt;/keybind&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>&lt;!-- Horizontal tiling --&gt;
+</span></span><span style=display:flex><span>&lt;keybind <span style=color:#111>key</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;C-W-h&#34;</span>&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span>/&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;height&gt;50%&lt;/height&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MaximizeHorz&#34;</span>/&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;x&gt;0&lt;/x&gt;
+</span></span><span style=display:flex><span>    &lt;y&gt;0&lt;/y&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;NextWindow&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;interactive&gt;no&lt;/interactive&gt;
+</span></span><span style=display:flex><span>    &lt;dialog&gt;none&lt;/dialog&gt;
+</span></span><span style=display:flex><span>    &lt;finalactions&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span>/&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>        &lt;height&gt;50%&lt;/height&gt;
+</span></span><span style=display:flex><span>      &lt;/action&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MaximizeHorz&#34;</span>/&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;MoveResizeTo&#34;</span>&gt;
+</span></span><span style=display:flex><span>        &lt;x&gt;0&lt;/x&gt;
+</span></span><span style=display:flex><span>        &lt;y&gt;-0&lt;/y&gt;
+</span></span><span style=display:flex><span>      &lt;/action&gt;
+</span></span><span style=display:flex><span>    &lt;/finalactions&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt;
+</span></span><span style=display:flex><span>&lt;/keybind&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>&lt;!-- Restore window dimensions --&gt;
+</span></span><span style=display:flex><span>&lt;keybind <span style=color:#111>key</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;C-W-r&#34;</span>&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span>/&gt;
+</span></span><span style=display:flex><span>  &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;NextWindow&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;interactive&gt;no&lt;/interactive&gt;
+</span></span><span style=display:flex><span>    &lt;dialog&gt;none&lt;/dialog&gt;
+</span></span><span style=display:flex><span>    &lt;finalactions&gt;
+</span></span><span style=display:flex><span>      &lt;action <span style=color:#111>name</span><span style=color:#f92672>=</span><span style=color:#d88200>&#34;UnmaximizeFull&#34;</span>/&gt;
+</span></span><span style=display:flex><span>    &lt;/finalactions&gt;
+</span></span><span style=display:flex><span>  &lt;/action&gt; 
+</span></span><span style=display:flex><span>&lt;/keybind&gt;
+</span></span></code></pre></div><h2 id=set-up-xrdp>Set up XRDP</h2><p>from here: <a href=https://code.luasoftware.com/tutorials/linux/lubuntu-setup-remote-desktop-with-xrdp>https://code.luasoftware.com/tutorials/linux/lubuntu-setup-remote-desktop-with-xrdp</a></p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt-get install xrdp
+</span></span><span style=display:flex><span>lxsession -e LXDE -s Lubuntu
+</span></span><span style=display:flex><span>sudo service xrdp restart
+</span></span></code></pre></div><h2 id=external-resources>External Resources</h2><ul><li><a href=https://askubuntu.com/questions/516303/tiling-windows-horizontally-and-vertically-under-lubuntu-lxde-openbox>https://askubuntu.com/questions/516303/tiling-windows-horizontally-and-vertically-under-lubuntu-lxde-openbox</a></li><li><a href=https://askubuntu.com/questions/1409509/is-it-possible-in-lxqt-lubuntu-22-04-to-maximize-left-right-as-in-lxde-lubunt>https://askubuntu.com/questions/1409509/is-it-possible-in-lxqt-lubuntu-22-04-to-maximize-left-right-as-in-lxde-lubunt</a></li><li><a href=https://code.luasoftware.com/tutorials/linux/lubuntu-setup-remote-desktop-with-xrdp>https://code.luasoftware.com/tutorials/linux/lubuntu-setup-remote-desktop-with-xrdp</a></li></ul></div></div></div></div></section><footer class=text-capitalize><div class=container><div class="row justify-content-center"><div class="col-12 border-top py-4 text-center"></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Contact Me</h6><ul class=list-unstyled><li class=mb-3><i class="ti-location-pin mr-3 text-primary"></i>Arizona, USA</li></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>External</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://github.com/danb0b>personal github</a></li><li class=mb-3><a class=text-dark href=https://www.linkedin.com/in/dan-aukes-502995212/>linkedin</a></li></ul></div><div class="col-lg-4 col-sm-6 mb-5 text-center"><h6 class=mb-4>Quick Links</h6><ul class=list-unstyled><li class=mb-3><a class=text-dark href=https://www.danaukes.com/about/>About</a></li><li class=mb-3><a class=text-dark href=https://idealab-asu.slack.com>IDEAlab Slack</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/contact/>Contact</a></li><li class=mb-3><a class=text-dark href=https://scram-workspace.slack.com>SCRAMbots</a></li><li class=mb-3><a class=text-dark href=https://www.danaukes.com/calendar/>Calendar</a></li><li class=mb-3><a class=text-dark href=https://kaiteki-asu.slack.com>Kaiteki</a></li></ul></div><div class="col-12 mb-5 text-center"><a href=https://www.danaukes.com/><img src=https://www.danaukes.com/da-small.png alt="Dan Aukes"></a></div><div class="col-12 mb-5 text-center"><p>| copyright © 2025 Daniel Aukes. All Rights Reserved. |</p><p><a href=https://github.com/danb0b/danb0b.github.io/edit/master/content/notebook/lxqt.md>Edit this Page</a></p></div></div></div></footer><script>var indexURL="https://www.danaukes.com/index.json"</script><script src=https://www.danaukes.com/plugins/glightbox/js/glightbox.js></script><script src=https://www.danaukes.com/plugins/jQuery/jquery.min.js></script><script src=https://www.danaukes.com/plugins/bootstrap/bootstrap.min.js></script><script src=https://www.danaukes.com/plugins/slick/slick.min.js></script><script src=https://www.danaukes.com/plugins/venobox/venobox.min.js></script><script src=https://www.danaukes.com/plugins/search/fuse.min.js></script><script src=https://www.danaukes.com/plugins/search/mark.js></script><script src=https://www.danaukes.com/plugins/search/search.js></script><script src=https://www.danaukes.com/js/script.min.js></script><script>var lightboxDescription,lightboxVideo,lightboxInlineIframe,lightbox=GLightbox();lightbox.on("open",e=>{console.log("lightbox opened")}),lightboxDescription=GLightbox({selector:".glightbox2"}),lightboxVideo=GLightbox({selector:".glightbox3"}),lightboxVideo.on("slide_changed",({prev:e,current:t})=>{console.log("Prev slide",e),console.log("Current slide",t);const{slideIndex:s,slideNode:o,slideConfig:i,player:n}=t;n&&(n.ready||n.on("ready",e=>{}),n.on("play",e=>{console.log("Started play")}),n.on("volumechange",e=>{console.log("Volume change")}),n.on("ended",e=>{console.log("Video ended")}))}),lightboxInlineIframe=GLightbox({selector:".glightbox4"})</script></body></html>
