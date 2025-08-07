@@ -86,8 +86,16 @@ vboxmanage snapshot ubuntu list
 
 ### Convert a virtualbox image
 
+from an image created with dd
+
 ```bash
 VBoxManage convertfromraw  sda.dd  sda.vdi --format VDI
+```
+
+from a vhdx file
+
+```bash
+vboxmanage clonemedium disk /path/to/your-file.vhdx ~/newimage.vdi -format vdi -variant standard
 ```
 
 ## External Links
