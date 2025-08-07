@@ -60,6 +60,7 @@ EOF
 
 ## for ubuntu
 
+> didn't seem to work
 
 ```bash
 cat << EOF | sudo tee /etc/polkit-1/localauthority.conf.d/99-allow-colord.pkla
