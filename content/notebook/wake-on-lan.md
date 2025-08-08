@@ -81,3 +81,4 @@ sudo nmcli connection modify 'Profile 1' 802-3-ethernet.wake-on-lan magic
 
 * <https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html>
 * <https://www.maketecheasier.com/enable-wake-on-lan-ubuntu/>
+* <https://unix.stackexchange.com/questions/773011/wake-on-lan-using-a-nic-attached-to-a-networkmanager-bridge-interface>
