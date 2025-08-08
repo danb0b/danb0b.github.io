@@ -2,7 +2,7 @@
 title: Setting up Wake on Lan
 ---
 
-## Wake on Lan 
+## Wake on Lan
 
 ### On the waking computer
 
@@ -11,6 +11,7 @@ sudo apt install -y etherwake ethtool
 ```
 
 ### On the computer you want to wake
+
 ```bash
 sudo apt install -y ethtool
 ```
@@ -21,8 +22,8 @@ then use it
 #ethtool <your-interfacename>
 ethtool eth0
 ```
-look for the WOL option to see if it's available
 
+look for the WOL option to see if it's available
 
 ### To wake
 
@@ -50,6 +51,30 @@ sudo chmod 644 /etc/systemd/system/wol.service
 sudo systemctl enable wol.service
 sudo systemctl start wol.service
 sudo systemctl status wol.service 
+```
+
+## Disable Network Manager
+
+list connections
+
+```bash
+nmcli connection show
+```
+
+look for the ethernet connection
+
+```bash
+nmcli connection show id 'Profile 1' | grep -i wake
+```
+
+should look like this:
+
+```
+802-3-ethernet.wake-on-lan:             default
+802-3-ethernet.wake-on-lan-password:    --
+```
+```bash
+sudo nmcli connection modify 'Profile 1' 802-3-ethernet.wake-on-lan magic
 ```
 
 ## External Resources
