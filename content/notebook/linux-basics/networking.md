@@ -72,6 +72,18 @@ nmcli d wifi connect XX:XX:XX:XX:XX:XX
 sudo lsof -i:3389
 ```
 
+find all ports listening over TCP
+
+```bash
+sudo lsof -nP -iTCP -sTCP:LISTEN
+```
+
+similar command using netstat:
+
+```bash
+sudo netstat -tunlp
+```
+
 ### Realtime wifi strength monitoring
 
 ```bash

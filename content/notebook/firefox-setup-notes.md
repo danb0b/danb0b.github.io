@@ -51,4 +51,8 @@ More generally:
 ||accounts.google.com/gsi/*
 ```
 
+## remove the "you're currently signed in as..." popup
+
+docs.google.com##.modal-dialog
+
 <https://stackoverflow.com/questions/69004177/blocking-sign-in-with-google-iframes-using-ublock-origin>
