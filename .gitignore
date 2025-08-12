@@ -4,3 +4,4 @@ _site
 /.jekyll-cache/**
 **/public/**
 resources/_gen/**
+content/notebook/publishing/proposal.pdf

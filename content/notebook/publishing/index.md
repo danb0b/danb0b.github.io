@@ -1,18 +1,36 @@
 ---
 title: Foldable Robotics Proposal
-date: 2025-06-05
+# date: 2025-06-05
 summary: " "
+author: Daniel M. Aukes
+mainfont: Open Sans
+sansfont: Open Sans
+font_size: 12pt
+pagestyle: plain
+colorlinks: true
+geometry: 
+ - top=1.5in
+ - bottom=1in
+ - left=1in
+ - right=1in
+papersize: letter
+toc: false
+toc-depth: 0
+par-skip: 1Em
+heading-skip-before: 2Em
+heading-skip-after: 2Em
+top-level-division: part
 ---
 
 ## Introduction
-
-I would like to publish a book called "Foldable Robotics".  This book would be a companion handbook to the engineering class of the same name that I created in 2016 at Arizona State University.  I envision that it would be used as a textbook, but also used by a larger audience of semi-professional tinkerers, makers, builders, and coders, who might want a deeper introduction to the computational AND real-world side of making robots, without all the up-front development costs of designing more traditional machines.
 
 Foldable robots are some of the fastest, easiest, and cheapest robotic systems you can create.  They have been used to develop a wide range of walking robots, robotic hands, and similar.  Their main benefit is that they are quick to prototype and they allow you to use very affordable materials.  
 In the classes and camps I teach, for example, we use cardstock and posterboard throughout the majority of the class.
 The manufacturing tools are accessible as well.  If you're a maker you might already have a laser cutter, vinyl cutter, or 3D printer in your garage, but if not, your local makerspace would.
 
 Despite their accessibility, these robots can use serious engineering concepts to make and optimize them.  The techniques here use a number of Python libraries to plot, analyze, and optimize your desired system physics, and then to automate the creation of the fabrication files.
+
+This book has evolved as the companion text to the engineering class of the same name that I created in 2016 at Arizona State University.  I envision that it could be used by a larger audience of semi-professional tinkerers, makers, builders, and coders, who might want a deeper introduction to the computational AND real-world side of making robots, without all the up-front development costs of designing more traditional systems.  I also see it being adopted by faculty for use in their own similar courses.
 
 ### Focus Areas
 
@@ -41,7 +59,7 @@ This book has evolved from a number of sources -- a website I created surroundin
 
 I am currently an Associate Professor at Arizona State University.  I have been at ASU for about ten years.  My research is focused on Robot Design, Dynamics, Manufacturing, and Deployment.  I focus on making the design and deployment of robotic systems easier for non-experts.  I have taught courses on the topics of Embedded Systems Design, Foldable Robotics, Flexible Robotics, Product Design and Development, and Experimentation and Deployment of Robotic Systems.
 
-Before ASU I was a technology development fellow and postdoctoral researcher at Harvard University.  I completed my Masters and Ph. D. in Mechanical Engineering at Stanford University and my B.S. in Mechanical Engineering at Northwestern University.  I worked in industry for several years as a systems engineer in manufacturing, focusing system automation for automotive and food processing companies.
+Before ASU I was a technology development fellow and postdoctoral researcher at Harvard University.  I completed my Masters and Ph. D. in Mechanical Engineering at Stanford University and my B.S. in Mechanical Engineering at Northwestern University.  I worked in industry for several years as a systems engineer in manufacturing, focusing on system automation for automotive and food processing companies.
 
 I will be leaving ASU in December, and plan on starting a business related to  robotics, product design, and technology advising/mentorship.
 
@@ -49,14 +67,18 @@ I will be leaving ASU in December, and plan on starting a business related to  r
 
 My target audience would be:
 
+* Engineers and serious hobbyists with access to tools like a laser cutter, vinyl cutter, 3D printer, or similar.  
 * Engineering students enrolled in a related course.  I plan to market the textbook to robotics faculty, encouraging them to teach a similar course and adopt the book.
-* Other engineers or serious hobbyists with access to tools like a laser cutter, vinyl cutter, 3D printer, or similar.  
 
-With regard to using this as a textbook, I think my main challenge will be encouraging faculty to adopt it in their courses.  The skillsets I have developed over the past decade of teaching the course take time to master, and there might be a steep learning curve for the faculty, let alone the students.
+With regard to the general public using it as a handbook, I would like to occupy a similar niche as [Practical Electronics for Inventors](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541), which I use in my embedded systems class.  It is an economical alternative to a more traditional textbook, and (apparently) is one of the more popular titles on the subject in the more mass-market category.  I still hope to include the theory...just make it accessible and understandable.
 
-My focus, therefore, will be to clean, refine, and "encapsulate" my examples so that they are easy to follow along with.  
+With regard to using this as a textbook, I think my main challenge will be encouraging faculty to adopt it in their courses.  The skillsets I have developed over the past decade of teaching the course take time to master, and there might be a steep learning curve for the faculty, let alone the students.  As I know from experience, the trouble is that faculty don't have a lot of time to learn new things.
 
-With regard to tools, most universities these days provide students with access to tools like laser cutters and 3D printers.  With these tools the reader can make the robots by following the book.  Without those tools, you can still find success making the mechanisms by hand, with a scissors, to cut out one-layered devices.  The real-world section is aimed at a kit of parts and materials that costs about ~$30 per student in my class.  I provide a parts list and links.
+My focus, therefore, will be to clean, refine, and "encapsulate" my examples so that they are easy to follow along with, to talk to my colleagues about the course, and explain the benefits of why making foldable robots can expose more people to the design process -- it's a far cheaper class to run than many other hardware focused classes.
+
+Outside of the classroom, makerspaces around the country exist that provide access to tools like the ones used in the book for a modest monthly fee. 
+With regard to tools, most universities these days provide students with access to tools like laser cutters and 3D printers.  
+Even without those tools, though, you can still find success making the mechanisms by hand and cut out one-layered devices using a more "crafty" approach (scissors, staplers, tape, glue, etc), the approach I take in my camps. The real-world section is aimed at a kit of parts and materials that costs about ~$30 per person.  I provide a parts list and links.
 
 ## Market Analysis
 
