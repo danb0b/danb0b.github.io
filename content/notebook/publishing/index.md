@@ -1,35 +1,96 @@
 ---
-title: Book
+title: Foldable Robotics Proposal
 date: 2025-06-05
 summary: " "
 ---
+
+## Introduction
+
+I would like to publish a book called "Foldable Robotics".  This book would be a companion handbook to the engineering class of the same name that I created in 2016 at Arizona State University.  I envision that it would be used as a textbook, but also used by a larger audience of semi-professional tinkerers, makers, builders, and coders, who might want a deeper introduction to the computational AND real-world side of making robots, without all the up-front development costs of designing more traditional machines.
+
+Foldable robots are some of the fastest, easiest, and cheapest robotic systems you can create.  They have been used to develop a wide range of walking robots, robotic hands, and similar.  Their main benefit is that they are quick to prototype and they allow you to use very affordable materials.  
+In the classes and camps I teach, for example, we use cardstock and posterboard throughout the majority of the class.
+The manufacturing tools are accessible as well.  If you're a maker you might already have a laser cutter, vinyl cutter, or 3D printer in your garage, but if not, your local makerspace would.
+
+Despite their accessibility, these robots can use serious engineering concepts to make and optimize them.  The techniques here use a number of Python libraries to plot, analyze, and optimize your desired system physics, and then to automate the creation of the fabrication files.
+
+### Focus Areas
+
+The book focuses on several main areas
+
+* **Kinematics and Mechanism Design:**  The study of kinematics helps you design the mechanical linkages at the heart of the process.  This book introduces analysis techniques that helps you to compute and visualize the motion of linkages, and then provides a walkthrough of several different mechanisms at the heart of foldable robot linkages.
+* **Compliant Systems:**  When you think of a traditional humanoid robot, you might think of the Terminator -- rigid metal links connected at discrete pin joints.  In foldable robotics, we use affordable materials that bend and flex -- material properties traditional robotic systems try to avoid.  In foldable robotics we embrace flexibility and use it to enhance the physics of our system -- to store energy, make them inherently safe around people, and reduce the liklihood of damage.  I discuss simple ways of modeling compliance, so that you can predict how your system will move in contrast to its rigid equivalent.
+* **Biomechanics:**  Though I am not a "bio-mechanicist", biomechanics short-cuts the process of making new designs by translating how animals move in the real world into terminology and vocabulary that engineers can use to make similar robots.  I introduce key terms and provide examples of different bio-inspired robots and their biological analogs for common types of locomotion (running, jumping, swimming, etc)
+* **Physics Simulation:** Without understanding how these devices will work in the real world, it requires many more iterations and raises the risk of failure.  I introduce a key physics engine -- MuJoCo --  and walk the reader through using it to simulate their robot.  MuJoCo is a free and open-source physics engine that pairs well with python.
+* **Design and Manufacturing of "Laminate Mechanisms":**  Foldable mechanisms can be made by laser-cutting patterns out of different materials, laminating them together, and then cutting out that final pattern one more time.  The concepts of laminate fabrication, the manufacturing rules, and the code are all shared and discussed so that you can create your own patterns, and then cut them out on low-cost hardware.
+* **Real World Systems:**  It's pointless to just _talk_ about these robots, you need a pathway towards _making_ them.  I introduce some of the most affordable robotic components -- servos, power supplies, microcontrollers -- and supply examples for using them together in a robotic system.  This section also discusses how to collect real-world data about these devices, so your simulations are more accurate and your simulations match real-world expectations better.
+
+## Method
+
+This book relies heavily on Python to permit anyone to follow along with the process of computation, analysis, and plotting.  I provide a detailed description of how to install a custom environment and all the packages needed to run the code in the book.
+
+Most of the analytical chapters include full working code examples in the book.  I have written much of the textbook using Jupyter notebook, which permits me to intersperse real, working code with plots, figures, and text.  The recipes I use to build the book are the same that readers can use to follow along.
+
+In terms of access, I teach the course to a primarily Windows based audience, but I myself use Ubuntu Linux.  Recipes for using Python with both operating systems are supplied.  Mac variants are  supplied too, though I don't frequently get a student with a Mac to test them on.
+
+## Progress
+
+This book has evolved from a number of sources -- a website I created surrounding earlier versions of the course, writing I did during my sabbatical, and lecture notes I have put together through the years.  I have developed most of the technical sections and currently share the draft text with my enrolled students.  What I haven't done is spent the time in each chapter introducing, discussing, and explaining the concepts as I do in my lectures and discussion sections in order to make all the sections stick together and make sense as a whole.   Some sections are far more complete, with images, text, and explanations, while others are sparse, as bullet points or notes to myself.
+
+## About Me
+
+I am currently an Associate Professor at Arizona State University.  I have been at ASU for about ten years.  My research is focused on Robot Design, Dynamics, Manufacturing, and Deployment.  I focus on making the design and deployment of robotic systems easier for non-experts.  I have taught courses on the topics of Embedded Systems Design, Foldable Robotics, Flexible Robotics, Product Design and Development, and Experimentation and Deployment of Robotic Systems.
+
+Before ASU I was a technology development fellow and postdoctoral researcher at Harvard University.  I completed my Masters and Ph. D. in Mechanical Engineering at Stanford University and my B.S. in Mechanical Engineering at Northwestern University.  I worked in industry for several years as a systems engineer in manufacturing, focusing system automation for automotive and food processing companies.
+
+I will be leaving ASU in December, and plan on starting a business related to  robotics, product design, and technology advising/mentorship.
+
+## Audience
+
+My target audience would be:
+
+* Engineering students enrolled in a related course.  I plan to market the textbook to robotics faculty, encouraging them to teach a similar course and adopt the book.
+* Other engineers or serious hobbyists with access to tools like a laser cutter, vinyl cutter, 3D printer, or similar.  
+
+With regard to using this as a textbook, I think my main challenge will be encouraging faculty to adopt it in their courses.  The skillsets I have developed over the past decade of teaching the course take time to master, and there might be a steep learning curve for the faculty, let alone the students.
+
+My focus, therefore, will be to clean, refine, and "encapsulate" my examples so that they are easy to follow along with.  
+
+With regard to tools, most universities these days provide students with access to tools like laser cutters and 3D printers.  With these tools the reader can make the robots by following the book.  Without those tools, you can still find success making the mechanisms by hand, with a scissors, to cut out one-layered devices.  The real-world section is aimed at a kit of parts and materials that costs about ~$30 per student in my class.  I provide a parts list and links.
 
 ## Market Analysis
 
 ### Engineering
 
+The books most similar to my handbook exist probably within the academic side of publishing, though in my opinion these books are too theoretical, and do not provide practical implementations.   Like the course itself, I sacrifice some of the theory for more working examples, practical implementations, and a discussion of the tools.
+
 * [Geometric Design of Linkages](https://www.amazon.com/Geometric-Linkages-Interdisciplinary-Applied-Mathematics-ebook/dp/B00FBQUXW8/ref=sr_1_1?s=books)
 * [Geometric Folding Algorithms: Linkages, Origami, Polyhedra](https://www.amazon.com/Geometric-Folding-Algorithms-Linkages-Polyhedra/dp/0521715229)
+* [Handbook on Soft Robotics](https://link.springer.com/book/10.1007/978-3-031-68620-7)
 
-### Kids-focused Origami & Robotics Books
+This page provides a good summary of some of the more popular robotic textbooks right now: <https://robocademy.com/2020/04/21/top-10-robotics-books/>
 
-Most of the books out there fall in more informal categories: books that show young adults how to make origami shapes
+### Mass Market alternatives
 
-* [Folding Tech: Using Origami and Nature to Revolutionize Technology](https://www.amazon.com/Folding-Tech-Origami-Revolutionize-Technology/dp/1541533046)
-* [Karakuri: How to Make Mechanical Paper Models That Move](https://www.amazon.com/Karakuri-Make-Mechanical-Paper-Models/dp/0312566697)
-* [Robogami: Fold Your Own Robots and Battle Your Friends](https://www.amazon.com/Robogami-Fold-Robots-Battle-Friends/dp/1631590529)
-* [Papertoy Glowbots: 46 Glowing Robots You Can Make Yourself!](https://www.amazon.com/Papertoy-Glowbots-Glowing-Robots-Yourself/dp/0761177620)
+I think my handbook in its current form is rather dry compared to the following titles, but I think spending time making the book as relatable as these might attract some of their audience.
 
-### Engine
+* [Build Your Own Robot: Using Python, CRICKIT, and Raspberry PI](https://www.amazon.com/dp/1633438457)
+* [ROS 2 from Scratch: Get started with ROS 2 and create robotics applications with Python and C++](https://www.amazon.com/dp/B0DJCFC29Q)
 
-Some books delve more into the robotics side:
+### Young Adult Origami & Robotics Books
 
-* [Homemade Robots](https://nostarch.com/homemaderobots)
-* [The Maker's Guide to Building Robots: A Step-by-Step Guide to Ordering Parts, Using Sensors and Lights, Programming, and More](https://www.amazon.com/Makers-Guide-Building-Robots-Everything/dp/1510744282/)
-* [STEM Starters for Kids Robotics Activity Book: Packed with Activities and Robotics Facts](https://www.amazon.com/STEM-Starters-Kids-Robotics-Activity/dp/1631585851)
-* [Bots! Robotics Engineering: with Hands-On Makerspace Activities (Build It Yourself)](https://www.amazon.com/Bots-Robotics-Engineering-Hands-Makerspace/dp/1619308304)
-[Build Your Own Robot: Using Python, CRICKIT, and Raspberry PI](https://www.amazon.com/dp/1633438457)
-[ROS 2 from Scratch: Get started with ROS 2 and create robotics applications with Python and C++](https://www.amazon.com/dp/B0DJCFC29Q)
+There are a wide range of books aimed at young adults and children that show young adults how to make origami shapes that look like robots.  These might be _confused_ for competition, but are not.
+
+* Robotics Focused
+    * [Homemade Robots](https://nostarch.com/homemaderobots)
+    * [The Maker's Guide to Building Robots: A Step-by-Step Guide to Ordering Parts, Using Sensors and Lights, Programming, and More](https://www.amazon.com/Makers-Guide-Building-Robots-Everything/dp/1510744282/)
+    * [STEM Starters for Kids Robotics Activity Book: Packed with Activities and Robotics Facts](https://www.amazon.com/STEM-Starters-Kids-Robotics-Activity/dp/1631585851)
+    * [Bots! Robotics Engineering: with Hands-On Makerspace Activities (Build It Yourself)](https://www.amazon.com/Bots-Robotics-Engineering-Hands-Makerspace/dp/1619308304)
+* Origami focused
+    * [Folding Tech: Using Origami and Nature to Revolutionize Technology](https://www.amazon.com/Folding-Tech-Origami-Revolutionize-Technology/dp/1541533046)
+    * [Karakuri: How to Make Mechanical Paper Models That Move](https://www.amazon.com/Karakuri-Make-Mechanical-Paper-Models/dp/0312566697)
+    * [Robogami: Fold Your Own Robots and Battle Your Friends](https://www.amazon.com/Robogami-Fold-Robots-Battle-Friends/dp/1631590529)
+    * [Papertoy Glowbots: 46 Glowing Robots You Can Make Yourself!](https://www.amazon.com/Papertoy-Glowbots-Glowing-Robots-Yourself/dp/0761177620)
 
 ## Table of Contents
 
