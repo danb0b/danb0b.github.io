@@ -88,6 +88,12 @@ From:
 passwd [username]
 ```
 
+delete root password
+
+```bash
+sudo passwd -l root
+```
+
 ### Remove User
 
 1. remove user from group
@@ -167,4 +173,3 @@ list login dates / times, users, etc
 ```bash
 last
 ```
-
