@@ -1,3 +1,8 @@
+---
+title: Thunderbird Setup
+summary: " "
+---
+
 ## External Resources
 
 * Unthreaded Mode
