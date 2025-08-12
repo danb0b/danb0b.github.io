@@ -184,6 +184,30 @@ iptables -F
 ip route get 1.1.1.1 | grep -Po '(?<=dev\s)\w+' | cut -f1 -d ' '
 ```
 
+## Remove NetworkManage (ubuntu)
+
+```bash
+sudo systemctl stop NetworkManager.service
+sudo systemctl disable NetworkManager.service
+sudo systemctl stop NetworkManager-wait-online.service
+sudo systemctl disable NetworkManager-wait-online.service
+sudo systemctl stop NetworkManager-dispatcher.service
+sudo systemctl disable NetworkManager-dispatcher.service
+sudo systemctl stop network-manager.service
+sudo systemctl disable network-manager.service
+sudo apt purge -y network-manager
+```
+
+from here: <https://askubuntu.com/questions/1091653/how-do-i-disable-network-manager-permanently>
+
+## Disable cloud config
+
+```bash
+cat << EOF | sudo tee -a /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg
+network: {config:disabled}
+EOF
+```
+
 ## External Resources
 
 * <https://vitux.com/managing-network-interfaces-and-settings-on-ubuntu-24-04-with-nmcli/>
