@@ -41,7 +41,8 @@
         &#34;    &#34;
 </code></pre></li><li><p>copy configuation files to other machines for use</p></li><li><p>run your virtualbox image as a service so it starts automatically.</p><ul><li>See <a href=https://github.com/onlyfang/VBoxVmService>https://github.com/onlyfang/VBoxVmService</a> for windows insstructions</li><li>see &lt;/notebook/virtualbox-service/> for linux instructions.</li></ul></li></ol><h3 id=configure-router>Configure Router</h3><ol><li>give your new algo VM a unique ip address</li><li>forward specific ports to vm<ol><li>4160:4160 - doesn&rsquo;t apply to ubuntu installs</li><li>51820:58120</li></ol></li></ol><h3 id=configure-other-computers>Configure other Computers</h3><ol><li>Install linux client:</li></ol><p>from here: <a href=https://github.com/trailofbits/algo/blob/master/docs/client-linux-wireguard.md>https://github.com/trailofbits/algo/blob/master/docs/client-linux-wireguard.md</a></p><pre><code>```bash
 sudo apt update &amp;&amp; sudo apt upgrade
-sudo apt install -y wireguard openresolv
+sudo apt install -y wireguard
+# sudo apt install -y openresolv
 ```
 </code></pre><ol><li><p>Install the config file to the WireGuard configuration directory on your linux client:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo install -o root -g root -m <span style=color:#ae81ff>600</span> &lt;username&gt;.conf /etc/wireguard/wg0.conf
 </span></span></code></pre></div></li><li><p>Start the WireGuard VPN:</p><div class=highlight><pre tabindex=0 style=color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo systemctl start wg-quick@wg0
