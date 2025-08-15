@@ -31,3 +31,9 @@ sudo systemctl restart fail2ban
 sudo fail2ban-client status
 sudo fail2ban-client status sshd
 ```
+
+list all banned:
+
+```bash
+sudo zgrep 'Ban' /var/log/fail2ban.log*
+```
