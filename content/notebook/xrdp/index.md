@@ -23,6 +23,13 @@ sudo systemctl enable xrdp.service
 sudo systemctl start xrdp.service 
 ```
 
+## if LXQT
+
+```bash
+echo "startlxqt" | tee -a ~/.xsession
+echo "startlxqt" | sudo tee -a /root/.xsession
+```
+
 ## fix color bug
 
 ```bash
@@ -73,7 +80,6 @@ ResultActive=yes
 EOF
 ```
 
-
 ## steps
 
 1. open remmina
@@ -96,4 +102,4 @@ EOF
 
 * <https://linuxconfig.org/ubuntu-22-04-remote-desktop-access-from-windows-10>
 * color bug: <https://c-nergy.be/blog/?p=12073>
-* https://medium.com/cloud-for-all/running-ubuntu-os-with-gui-in-a-docker-container-rdp-dbecb0880893
+* <https://medium.com/cloud-for-all/running-ubuntu-os-with-gui-in-a-docker-container-rdp-dbecb0880893>
