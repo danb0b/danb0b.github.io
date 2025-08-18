@@ -19,9 +19,10 @@ Separate by |
 * ublock origin
 * privacy badger
 * bitwarden
-* zotero
 
-do not allow in private tabs
+  > do not allow bitwarden in private tabs
+
+* zotero
 
 ## Ublock origin
 
@@ -29,30 +30,23 @@ add the following to block google login popup
 
 ```text
 ||id.google.com^
-||accounts.google.com/gsi/$3p
-||smartlock.google.com^
-```
-
-from here: <https://support.mozilla.org/en-US/questions/1393427>
-
-### alternative
-
-```text
-||accounts.google.com/gsi/*$xhr,script,3p
-```
-
-this one suggests differently:
-
-<https://techpp.com/2024/05/28/disable-sign-in-with-google-on-websites/>
-
-More generally:
-
-```text
 ||accounts.google.com/gsi/*
+||smartlock.google.com^
+docs.google.com##.modal-dialog
 ```
 
-## remove the "you're currently signed in as..." popup
 
-docs.google.com##.modal-dialog
 
-<https://stackoverflow.com/questions/69004177/blocking-sign-in-with-google-iframes-using-ublock-origin>
+## Configure flatseal for userspace
+
+## Bitwarden
+
+1. install [bitwarden plugin](https://bitwarden.com/download/) for firefox.
+1. sign in
+
+## External Resources
+
+* Ublock origin config
+    * <https://support.mozilla.org/en-US/questions/1393427>
+    * <https://techpp.com/2024/05/28/disable-sign-in-with-google-on-websites/>
+    <https://stackoverflow.com/questions/69004177/blocking-sign-in-with-google-iframes-using-ublock-origin>

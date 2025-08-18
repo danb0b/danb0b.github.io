@@ -12,16 +12,22 @@ summary: " "
 
 ## Installation
 
-Download from [here](https://code.visualstudio.com/Download)
-
 [VSCodium](https://vscodium.com/) is an open-source build of the same source code.  Download it here: <https://github.com/VSCodium/vscodium/releases>
 
-Installation Options
+Linux Installation:
+
+```bash
+sudo dpkg -i Downloads/vscodium*.deb
+```
+
+Windows Installation Options:
 
 - Accept the default installation path
 - keep "Register Code as an editor for supported file types" checked
 - keep "Add to PATH" checked
 - other options: set to your preference
+
+VSCode: Download from [here](https://code.visualstudio.com/Download)
 
 ### Ubuntu-specific
 
@@ -164,27 +170,40 @@ with
 "itemUrl": "https://marketplace.visualstudio.com/items",
 ```
 
+Bash script for that:
+
+```bash
+sudo sed -i 's|"serviceUrl": "<https://open-vsx.org/vscode/gallery",|"serviceUrl>": "<https://marketplace.visualstudio.com/_apis/public/gallery",|g>' /usr/share/codium/resources/app/product.json
+sudo sed -i 's|"itemUrl": "<https://open-vsx.org/vscode/item",|"itemUrl>": "<https://marketplace.visualstudio.com/items",|g>' /usr/share/codium/resources/app/product.json
+```
+
 Finally install extensions
 
 ```bash
 codium --install-extension alefragnani.project-manager
 codium --install-extension bierner.markdown-yaml-preamble
+codium --install-extension brunnerh.insert-unicode
 codium --install-extension curlconverter.curlconverter
 codium --install-extension davidanson.vscode-markdownlint
 codium --install-extension docker.docker
+codium --install-extension donjayamanne.githistory
 codium --install-extension dotjoshjohnson.xml
 codium --install-extension james-yu.latex-workshop
 codium --install-extension mathematic.vscode-latex
 codium --install-extension mhutchie.git-graph
+codium --install-extension ms-azuretools.vscode-containers
 codium --install-extension ms-azuretools.vscode-docker
 codium --install-extension ms-python.debugpy
 codium --install-extension ms-python.python
 codium --install-extension ms-python.vscode-pylance
+codium --install-extension ms-python.vscode-python-envs
 codium --install-extension ms-toolsai.jupyter
 codium --install-extension ms-toolsai.jupyter-keymap
 codium --install-extension ms-toolsai.jupyter-renderers
 codium --install-extension ms-toolsai.vscode-jupyter-cell-tags
+codium --install-extension ms-toolsai.vscode-jupyter-slideshow
 codium --install-extension ms-vscode-remote.remote-containers
+codium --install-extension ms-vscode.hexeditor
 codium --install-extension pkief.markdown-checkbox
 codium --install-extension pycom.pymakr-preview
 codium --install-extension redhat.vscode-xml

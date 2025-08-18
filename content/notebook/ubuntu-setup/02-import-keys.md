@@ -29,12 +29,18 @@ summary: " "
     gpg --import "my/remote/filesystem/keys/file.asc"
     ```
 
+1. Trust keys
+
+    Use this [reference](/notebook/ssh/gpg-reference/#importing-and-trusting-keys)
+
 1. Install kleopatra
 
     ```bash
     sudo apt install -y kleopatra
     ```
 
+
+
 ## Other Helpful Key stuff
 
-See [GPG Reference](/notebook/gpg-reference)
+See [GPG Reference](/notebook/ssh/gpg-reference/)

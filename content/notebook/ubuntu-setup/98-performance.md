@@ -14,16 +14,9 @@ sudo apt install -y util-linux
 systemctl status fstrim
 ```
 
-check swappiness
+change "swap size": See [here](/notebook/linux-basics/hardware/#change-swap)
 
-```bash
-cat /etc/sysctl.conf | grep -i swappiness
-```
-
-```bash
-echo "vm.swappiness = 10" | sudo tee -a /etc/sysctl.conf
-sudo sysctl -p
-```
+change "swappiness": See [here](/notebook/linux-basics/hardware/#change-swappiness)
 
 apt clean - add to cron
 
@@ -32,25 +25,27 @@ adjust io scheduler: have to do in grub, how to incorporate with LUKS?
 adjust logging
 sudo nano /etc/rsyslog.conf
 
-
 overclock?
 cpupower
 
-
 minimize access time updates: <https://www.baeldung.com/linux/solid-state-drive-optimization#minimize-access-time-updates>
     how to do it on LUKS device?
-    
+
     noatime,nodiratime
 
+```bash
 sudo apt install -y smartmontools
 sudo smartctl -a /dev/nvme0
 sudo smartctl -a /dev/nvme0n1
-
+```
 
 store system cache in ram: <https://www.howtogeek.com/62761/how-to-tweak-your-ssd-in-ubuntu-for-better-performance/>
 
 add to fstab
+
+```
 tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
+```
 
 ## External Resources
 

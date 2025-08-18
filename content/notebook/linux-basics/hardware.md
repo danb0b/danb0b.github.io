@@ -154,7 +154,9 @@ you can add hard drive space to augment RAM.  This is usually set up when you in
 
 1. ensure swap has the right permissions
 
+    ```bash
     sudo chmod 600 /swap.img
+    ```
 
 1. pass the new swapfile to swap
 
@@ -165,7 +167,7 @@ you can add hard drive space to augment RAM.  This is usually set up when you in
 1. Activate the swap file
 
    ```bash
-   swapon /swap.img
+   sudo swapon /swap.img
     ```
 
 1. check /etc/fstab, and ensure it has this line:
@@ -178,7 +180,21 @@ you can add hard drive space to augment RAM.  This is usually set up when you in
 
     ```bash
     free -h
+    cat /etc/fstab 
     ```
+
+
+## Change Swappiness
+
+
+```bash
+cat /etc/sysctl.conf | grep -i swappiness
+```
+
+```bash
+echo "vm.swappiness = 10" | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+```
 
 ## Read from Serial
 

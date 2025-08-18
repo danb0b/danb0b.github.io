@@ -62,6 +62,7 @@ git-filter-repo \
 blueman \
 librecad \
 evince \
+wireguard \
 git-secret
 ```
 
@@ -70,7 +71,7 @@ git-secret
 ```bash
 # sudo apt install -y \
 # samba \
-# wireguard \
+# screen \
 # openresolv \
 # sound-juicer \
 # libimage-exiftool-perl \
@@ -127,6 +128,7 @@ org.famistudio.FamiStudio
 # org.synfig.SynfigStudio
 # net.xm1math.Texmaker\
 # com.authy.Authy \
+# com.ultimaker.cura \
 #us.zoom.Zoom \ #currently doesn't work with links or signon or sharing screen
 #flatpak install -y flathub io.github.webcamoid.Webcamoid  #virtual camera driver not working
 #flatpak install -y flathub org.darktable.Darktable  # font issue
@@ -153,7 +155,6 @@ close and reopen terminal
 sudo snap install mqtt-explorer
 sudo snap install hugo --channel=extended
 sudo snap install bitwarden bw
-# sudo snap install superproductivity # no longer matches android appa
 ```
 
 ### Remove Firefox AGAIN
@@ -173,6 +174,10 @@ sudo snap remove firefox
 ### Zoom
 
 <https://zoom.us/download#client_4meeting>
+
+```bash
+sudo dpkg -i Downloads/zoo*.deb
+```
 
 ### Ubuntu Mainline
 
@@ -195,25 +200,35 @@ turn off threading: <https://support.mozilla.org/en-US/questions/1426449>
 
 ### Pandoc
 
+download
+
 * <https://github.com/jgm/pandoc/releases/latest>
 * <https://pandoc.org/installing.html>
 
-dependencies
+prerequisites
 
 ```bash
 sudo apt install -y librsvg2-bin
 ```
 
+```bash
+sudo dpkg -i Downloads/pandoc*.deb
+```
+
+<!-- 
 ### Anytype
 
-<https://download.anytype.io/>
+<https://download.anytype.io/> 
+-->
 
 ### Other tutorials
 
 * [world clocks](/notebook/multiple-clocks/)
 * [git clients](/notebook/install-git-clients/)
-* [vscode]((/notebook/vscode-setup/))
+* [vscode](/notebook/vscode-setup/)
 * [docker](/notebook/docker/install-docker/)
+* [mosquitto](/notebook/linux-special-topics/mqtt/)
+* [Nautilus Extensions](/notebook/linux-special-topics/nautilus-extensions/)
 
 ### Latex
 
@@ -223,20 +238,10 @@ sudo apt install -y librsvg2-bin
 sudo apt install -y texlive-full
 ```
 
-<!--
-#### Necessary Packages
-This is a big install so plan it for when you can let it go a while
-
-```bash
-sudo apt install -y texlive-science texlive-xetex texlive-latex-recommended texlive-lang-english texlive-fonts-recommended texlive-base texlive-fonts-extra
-```
--->
-
 ### Arduino
 
 ```bash
 cd ~/Downloads
-#sudo apt install -y arduino #outdated
 python3 -mwebbrowser "https://www.arduino.cc/en/software"
 ```
 
@@ -258,11 +263,11 @@ echo "alias python=python3" >> ~/.bashrc
 ### Cisco VPN for ASU
 
 1. Go to <https://sslvpn.asu.edu/> and install the linux client
-1. Extract installer image.  Locate the download file anyconnect-linux64-#.#.#####-core-vpn-webdeploy-k9.sh.
+1. Extract installer image.  Locate the download file
 1. Open Terminal and issue the command:
 
     ```bash
-    sudo bash anyconnect-linux*.sh
+    sudo bash Downloads/cisco-*.sh
     ```
 
 1. add to path
@@ -298,156 +303,7 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo fc-cache -f
 ```
 
-### VSCode
 
-</notebook/vscode-setup/>
-
-#### old
-
-Find help [here](https://code.visualstudio.com/docs/setup/linux)
-
-Download from [here](https://code.visualstudio.com/Download)
-
-```bash
-cd ~/Downloads
-sudo dpkg -i code_1.72.2-1665614327_amd64.deb 
-sudo apt install -yf
-```
-
-install python, c/c++, html css, jupyter
-
-### Mosquitto
-
-```bash
-sudo apt install -y mosquitto mosquitto_clients
-```
-
-### Nautilus
-
-```bash
-apt install -y nautilus-share
-apt install -y nautilus-admin
-apt install -y nautilus-extension-gnome-terminal
-apt install -y nautilus-share
-```
-
-* <https://www.maketecheasier.com/useful-nautlius-tweaks-linux/>
-* <https://www.maketecheasier.com/top-gnome-shell-extensions/>
-
-```bash
-git clone https://github.com/cfgnunes/nautilus-scripts.git
-chmod +x ./nautilus-scripts/install.sh 
-./nautilus-scripts/install.sh 
-```
-
-* <https://github.com/cfgnunes/nautilus-scripts>
-
---------------------------------
-
-## Optional
-
-### Webcamoid
-
-```bash
-mkdir ~/apps
-cd Downloads
-wget "https://github.com/webcamoid/webcamoid/releases/download/9.0.0/webcamoid-portable-linux-9.0.0-x86_64.AppImage"
-mv webcamoid-portable-linux-9.0.0-x86_64.AppImage cd ~/apps
-cd ~/apps
-chmod +x webcamoid-portable-linux-9.0.0-x86_64.AppImage
-./webcamoid-portable-linux-9.0.0-x86_64.AppImage
-```
-
-### Cura
-
-```bash
-flatpak install -y flathub com.ultimaker.cura
-```
-
-<!--
-script to download 64-bit generic 
-
-```bash
-mkdir ~/apps
-cd ~/apps && \
-url="https://www.mendeley.com/download-reference-manager/linux" && \
-xpath="/html/body/div[2]/section[1]/div[1]/a" && \
-html=$(wget -q -O - "$url") && \
-dl_url=$(echo $html | xmllint --html --xpath "string($xpath/@href)" - 2>/dev/null | xargs)  && \
-wget "$dl_url" && \
-chmod +x mendeley*.AppImage
-```
--->
-
-<!--
-#### Mendeley Desktop on Ubuntu 21 and older
-
-```bash
-cd ~/Downloads
-sudo dpkg -i mendeleydesktop*.deb
-sudo apt install -yf
-```
--->
-
-<!--
-### Tor Browser
-
-Old method:
-
-```bash
-#sudo add-apt-repository ppa:micahflee/ppa # this repository is deprecated
-sudo apt update 
-sudo apt install -y torbrowser-launcher
-```
--->
-
-### FreeCad
-
-```bash
-wget https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-Linux-x86_64-py310.AppImage
-```
-
-summary: " "
----
-
-## Deprecated
-
-### Mendeley Reference Manager
-
-go to [mendeley](https://www.mendeley.com/download-mendeley-desktop-legacy#download), download 64-bit generic version, unzip and move to ~/apps
-
-```bash
-mkdir ~/apps
-cd ~/apps
-wget https://www.mendeley.com/autoupdates/installer/Linux-x64/stable-incoming -O mendeley-desktop.tar.bz2
-tar -xvjf mendeley-desktop.tar.bz2 
-rm mendeley-desktop.tar.bz2 
-```
-
-### Vocal
-
-<https://flathub.org/apps/details/com.github.needleandthread.vocal>
-
-```bash
-flatpak install -y flathub com.github.needleandthread.vocal
-flatpak run com.github.needleandthread.vocal
-```
-
-### Ruby and Jekyll Toolchain
-
-Trying to move away from ruby and jekyll...too hard
-
-```bash
-sudo apt update 
-sudo apt install -y ruby git  build-essential ruby-dev pandoc-citeproc
-sudo gem install bundler jekyll
-```
-
-### Screen
-
-```bash
-sudo apt install -y screen
-```
 
 ### Numix Theme
 

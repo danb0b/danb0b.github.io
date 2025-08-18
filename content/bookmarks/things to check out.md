@@ -185,7 +185,8 @@ Logseq
 * <https://sh.readthedocs.io/en/latest/>
 * <https://archive.org/details/The-Conet-Project>
 * <https://archive.org/details/attentionkmartshoppers>
-* 
+*
+
 aruco in opencv
 
 * Mailspring
@@ -238,7 +239,7 @@ Pi hole
 
 * ghost.io
 
-- Learndmarc.com
+* Learndmarc.com
 
 Anytype.io
 oss document scanner
@@ -316,3 +317,6 @@ chroma:
 * Piper studio
 * Piper
 * nix home-manager
+* Lumen PNP
+* Ntfy
+*
