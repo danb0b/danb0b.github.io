@@ -1,8 +1,23 @@
 ---
 title: Using Duplicate Images
+tags: 
+- ubuntu
+- raspberry-pi
 ---
 
 These are the things you need to change on your system when duplicating the same image to devices, especially when on the same network.
+
+## check cloud-config
+
+```
+sudo nano /etc/cloud/cloud.cfg
+```
+
+make sure ```preserve_hostname``` is set to ```true```:
+
+```text
+preserve_hostname: true
+```
 
 ## Update Hostname
 
@@ -12,9 +27,33 @@ check your current hostname
 cat /etc/hostname
 ```
 
-
 ```bash
 echo "<my-new-hostname>" | sudo tee /etc/hostname 
+```
+
+## Disable NOPASSWD
+
+sudo nano /etc/cloud/cloud.cfg
+
+comment out:
+
+```yaml
+sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+```
+
+```bash
+sudo nano /etc/sudoers.d/90-cloud-init-users
+```
+
+and remove the
+
+```text
+NOPASSWD:ALL
+```
+
+and change it to 
+```text
+<username> ALL=(ALL) ALL
 ```
 
 ## remove host keys and regenerate
@@ -45,3 +84,4 @@ sudo dbus-uuidgen --ensure=/etc/machine-id
 ## External Resources
 
 * <https://unix.stackexchange.com/questions/402999/is-it-ok-to-change-etc-machine-id>
+* <https://dev.to/akashrajpurohit/fix-sudo-not-asking-password-on-raspberry-pi-kmi>
