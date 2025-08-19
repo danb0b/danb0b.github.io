@@ -5,6 +5,19 @@ summary: " "
 
 
 
+
+### Introduction
+
+We hope to answer
+
+1. what are repositories
+1. what is a package
+1. how to install packages
+1. how to update your computer
+1. other commands (remove, purge, list)
+1. other flags(-y, -f, ...)
+1. ```dpkg``` vs ```apt``` vs ```apt-get```
+
 ## APT / dpkg
 
 find installed packages
@@ -35,6 +48,12 @@ Update packages
 
 ```bash
 sudo apt update && sudo apt upgrade
+```
+
+> Note: we want to prevent "unattended" upgrades on hardware.  (only upgrade when we mean to).  upgrading can also block us from installing something we need, or introduce new bugs at a bad time.
+
+```bash
+sudo apt remove -y unattended-upgrades
 ```
 
 ## Desktop applications
@@ -89,17 +108,23 @@ Based on [this link](https://vitux.com/how-to-upgrade-ubuntu-20-04-to-21-04/)
 
 ### List repositories
 
+To list the repositories on your system, you can use the command:
+
 ```bash
 apt policy
 ```
 
 ### Remove a repository
 
+To remove a repository:
+
 ```bash
 sudo add-apt-repository --remove ppa:PPA_Name/ppa
 ```
 
 ## Show all manually-installed packages
+
+when you want to install a package, sometimes many other dependencies get installed that you did not specify.  Here's how you can list packages installed intentionally vs required dependences  that were not specified
 
 ```bash
 apt-mark showmanual
@@ -178,24 +203,7 @@ this returns something like
 Selecting previously unselected package libglfw3:amd64.
 Selecting previously unselected package libgl1-mesa-glx:amd64.
 Selecting previously unselected package libosmesa6:amd64.
-Selecting previously unselected package xorg-sgml-doctools.
-Selecting previously unselected package x11proto-dev.
-Selecting previously unselected package libxau-dev:amd64.
-Selecting previously unselected package libxdmcp-dev:amd64.
-Selecting previously unselected package xtrans-dev.
-Selecting previously unselected package libpthread-stubs0-dev:amd64.
-Selecting previously unselected package libxcb1-dev:amd64.
-Selecting previously unselected package libx11-dev:amd64.
-Selecting previously unselected package libglx-dev:amd64.
-Selecting previously unselected package libgl-dev:amd64.
-Selecting previously unselected package libegl-dev:amd64.
-Selecting previously unselected package libegl1-mesa:amd64.
-Selecting previously unselected package libglvnd-core-dev:amd64.
-Selecting previously unselected package libgles1:amd64.
-Selecting previously unselected package libgles-dev:amd64.
-Selecting previously unselected package libopengl-dev:amd64.
-Selecting previously unselected package libglvnd-dev:amd64.
-Selecting previously unselected package libegl1-mesa-dev:amd64.
+...
 Selecting previously unselected package libosmesa6-dev:amd64.
 Selecting previously unselected package libglu1-mesa-dev:amd64.
 Selecting previously unselected package libglew-dev:amd64
@@ -204,7 +212,9 @@ Selecting previously unselected package libglew-dev:amd64
 by doing a quick find/replace you can then clean up the list and do a ```sudo apt remove```
 
 ```bash
-sudo apt remove libglfw3:amd64 libgl1-mesa-glx:amd64 libosmesa6:amd64 xorg-sgml-doctools x11proto-dev libxau-dev:amd64 libxdmcp-dev:amd64 xtrans-dev libpthread-stubs0-dev:amd64 libxcb1-dev:amd64 libx11-dev:amd64 libglx-dev:amd64 libgl-dev:amd64 libegl-dev:amd64 libegl1-mesa:amd64 libglvnd-core-dev:amd64 libgles1:amd64 libgles-dev:amd64 libopengl-dev:amd64 libglvnd-dev:amd64 libegl1-mesa-dev:amd64 libosmesa6-dev:amd64 libglu1-mesa-dev:amd64 libglew-dev:amd64
+sudo apt remove libglfw3:amd64 libgl1-mesa-glx:amd64 libosmesa6:amd64 \
+...
+libegl1-mesa-dev:amd64 libosmesa6-dev:amd64 libglu1-mesa-dev:amd64
 ```
 
 ## External References

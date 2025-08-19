@@ -10,7 +10,29 @@ summary: " "
 
 # Using the ```find``` command in bash
 
+## Find files with ```find```
+
+```bash
+find [-flags] path -expression
+find ~/ -iname "*.py"
+```
+
+## key arguments
+
+> Note: ```find``` does not follow the same argument convention as many other commands.
+
+* ```-iname```
+* ```-name```
+* ```-type d``` / ```-type f```
+* ```-group``` / ```-user```
+* negative (!)
+* ... many others
+
+## Examples
+
 Find all files below the current directory that match "filename.txt"
+
+> Note: ```find``` does not follow the same argument convention as many other commands.
 
 ```bash
 find . -name filename.txt
@@ -54,7 +76,7 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i 's/foo/bar/g'
 
 ## Find text in a certain file type
 
-Find links in markdown files ending in .mp4
+Combine with grep to find links in markdown files ending in .mp4
 
 ```bash
 find . -iname "*.md" -exec grep -l '.mp4)' {} \+ 
@@ -66,7 +88,7 @@ Find "video_source" keys in yaml files ending in .yaml
 find . -iname "*.yaml" -exec grep -l 'video_source:' {} \+ 
 ```
 
-excluding multiple directories
+Excluding multiple directories
 
 ```bash
 find . -not \( -path ./repos -prune -o -path ./zenbook-backup -prune -o -path "./.local" -prune -o -path ./.gradle -prune -o -path ./envs -prune  -o -path ./.vscode -prune -o -path ./.config -prune  \) -name "*code*" -type d
@@ -116,7 +138,7 @@ find . -name '.gitignore' | xargs wc -l
 
 ### External Resources
 
-* [here](https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/)
-* [here](https://linuxhandbook.com/find-command-exclude-directories/)
-* [here](https://www.baeldung.com/linux/find-exclude-paths)
+* <https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/>
+* <https://linuxhandbook.com/find-command-exclude-directories/>
+* <https://www.baeldung.com/linux/find-exclude-paths>
 * <https://www.tecmint.com/35-practical-examples-of-linux-find-command/>

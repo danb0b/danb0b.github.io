@@ -25,64 +25,83 @@ From:
 * <https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-20-04/>
 * <https://askubuntu.com/questions/410244/is-there-a-command-to-list-all-users-also-to-add-delete-modify-users-in-the>
 
-1. Create a new group
+## Create a new user
 
-    ```bash
-    sudo addgroup groupname
-    ```
+```bash
+sudo adduser username
+```
 
-1. Create a new user
+This runs an interactive q&a to create a new user, which is fine  if you are interacting with bash.  If you want to script, you can use ```useradd```, a lower-level command with more command-line options that permits you to enter a password in the command options, add the user to groups right away, and create the home directory.
 
-    ```bash
-    sudo adduser username
-    ```
+```bash
+useradd -m my_new_username -p $(openssl passwd my_custom_password) \
+&& usermod -s /bin/bash my_new_username \
+&&  usermod -aG sudo,other_groups,another_group my_new_username
+```
 
-1. create a new group by gid
+you can create a new user and group by specifying groupid and uid, too, if you need to be specific.
 
-    ```bash
-    groupadd -g <group-id> <groupname>
-    ```
+```bash
+MYUSER=ubuntu
+MYGID=1000
+MYUID=1000
 
-1. create a new user and group by groupid
+groupadd -g ${MYGID} ${MYUSER}
+useradd -u ${MYUID} -g ${MYGID} -p $(perl -e 'print crypt($ARGV[0], \
+"password")' 'password') -G adm,sudo ${MYUSER} && mkdir /home/${MYUSER} \
+&& chown ${MYUSER}:${MYUSER} /home/${MYUSER}
+```
 
-    ```bash
-    MYUSER=ubuntu
-    MYGID=1000
-    MYUID=1000
+note the two ways to generate a valid password are to substitute
 
-    groupadd -g ${MYGID} ${MYUSER}
-    useradd -u ${MYUID} -g ${MYGID} -p $(perl -e 'print crypt($ARGV[0], "password")' 'password') -G adm,sudo ${MYUSER} && mkdir /home/${MYUSER} && chown ${MYUSER}:${MYUSER} /home/${MYUSER}
-    ```
+```bash
+-p $(perl -e 'print crypt($ARGV[0], "password")' 'password')
+```
 
-    another variant:
+with
 
-    ```bash
-    useradd -m my_new_username -p $(openssl passwd my_custom_password) && usermod -s /bin/bash my_new_username &&  usermod -aG sudo,other_groups,another_group my_new_username
-    ```
+```bash
+-p $(openssl passwd my_custom_password)
+```
 
-1. Find groups associated with current user:
+if you have openssl installed.   Also note the different approach to encrypting the password (lower-level) and creating directories.
 
-    ```bash
-    groups $USER
-    ```
+## Groups
 
-1. Add new user to new groups
+Create a new group with
 
-    ```bash
-    sudo usermod -aG adm username
-    sudo usermod -aG sudo username
-    #...
-    ```
+```bash
+sudo addgroup groupname
+```
 
-1. modify list of groups user belongs to
+You can also create a new group by gid
 
-    unlike the last command(```-aG```), ```-G``` redefines rather than appends
+```bash
+groupadd -g <group-id> <groupname>
+```
 
-    ```bash
-    sudo usermod -G usergroup,othergroup username
-    ```
+Find groups associated with current user:
+
+```bash
+groups $USER
+```
+
+Add new user to new groups
+
+```bash
+sudo usermod -aG adm username
+sudo usermod -aG sudo username
+#...
+```
+
+modify list of groups user belongs to.  Unlike the last command(```-aG```), ```-G``` redefines rather than appends
+
+```bash
+sudo usermod -G usergroup,othergroup username
+```
 
 ### Change password
+You can change the password with:
 
 ```bash
 passwd [username]
@@ -96,19 +115,19 @@ sudo passwd -l root
 
 ### Remove User
 
-1. remove user from group
+remove user from group
 
-    ```bash
-    sudo deluser username groupname
-    ```
+```bash
+sudo deluser username groupname
+```
 
-1. remove user completely
+remove user completely
 
-    ```bash
-    sudo deluser --remove-home username
-    ```
+```bash
+sudo deluser --remove-home username
+```
 
-    more tips [here](https://www.howtogeek.com/656549/how-to-delete-a-user-on-linux-and-remove-every-trace/)
+more tips here: <https://www.howtogeek.com/656549/how-to-delete-a-user-on-linux-and-remove-every-trace/>
 
 ### delete group
 
@@ -124,7 +143,7 @@ passwd --expire <username_here>
 
 ### Expire / unexpire
 
-from [here](https://askubuntu.com/questions/282806/how-to-enable-or-disable-a-user)
+from here: <https://askubuntu.com/questions/282806/how-to-enable-or-disable-a-user>
 
 Expire Account
 

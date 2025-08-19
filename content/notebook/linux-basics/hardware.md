@@ -10,6 +10,8 @@ lsmod
 lspci -k
 dmesg
 lsusb
+usb-devices
+udevadm info
 ```
 
 ## Devices
@@ -68,8 +70,10 @@ sudo nvme id-ctrl /dev/nvme0n1
 
 ### Mounting
 
+how to mount disks to a specific folder
+
 ```bash
-##list disks
+#list disks
 sudo fdisk -l
 #if you know the disk you want info about:
 sudo fdisk -l /dev/sdd 
@@ -87,8 +91,8 @@ sudo umount -f /media/backup
 you can get most information from lsblk if you have temporarily mounted it...
 
 ```bash
-#UUID=<yourUUID>                           <mount_location> <filesystem>  <options>  <dump(use 0)>  <order(use 2)>
-UUID=24df9215-550f-4ca0-a9f1-8f0efd2  /media/backup    ext4          defaults   0       2
+#UUID=<yourUUID> <mount_location> <filesystem>  <options>  <dump(use 0)>  <order(use 2)>
+UUID=24df9215-550f-4ca0-a9f1-8f0efd2 /media/backup ext4 defaults 0 2
 ```
 
 once you have edited, check by running
@@ -124,7 +128,7 @@ sudo fdisk -l /dev/sdb
 
 sudo dd if=/dev/sda of=~/sda.dd bs=128k status=progress conv=noerror,sync
 sudo dd if=/dev/sda bs=128k status=progress conv=noerror,sync | gzip -c > /sda.gz
-sudo dd if=/dev/sda of=/media/danaukes/24df9215-550f-4ca0-a9f1-8f0d666befd2/sda.dd bs=128k status=progress conv=noerror,sync
+sudo dd if=/dev/sda of=/media/danaukes/<some-uuid-here>/sda.dd bs=128k status=progress conv=noerror,sync
 ```
 
 ## Change Swap
@@ -183,9 +187,7 @@ you can add hard drive space to augment RAM.  This is usually set up when you in
     cat /etc/fstab 
     ```
 
-
 ## Change Swappiness
-
 
 ```bash
 cat /etc/sysctl.conf | grep -i swappiness
@@ -238,6 +240,11 @@ list all the details about a device at port 1: device 3
 ```bash
 lsusb -v -s 1:3
 ```
+list all the details about a vendor:product
+
+```bash
+lsusb -vd  0x03e7:0x2485 
+```
 
 ## Permissions
 
@@ -247,11 +254,11 @@ lsusb -v -s 1:3
 * <https://www.percona.com/blog/2017/02/09/using-nvme-command-line-tools-to-check-nvme-flash-health/>
 * <https://stackoverflow.com/questions/454899/how-to-convert-flat-raw-disk-image-to-vmdk-for-virtualbox-or-vmplayer>
 * <https://www.cyberciti.biz/faq/unix-linux-dd-create-make-disk-image-commands/>
-* [information on nautilus-aware mount locations](https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt)
-* from [here](https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/)
+* information on nautilus-aware mount locations: <https://gitlab.gnome.org/GNOME/gvfs/blob/master/monitor/udisks2/what-is-shown.txt>
+* <https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/>
 * <https://ploi.io/documentation/server/change-swap-size-in-ubuntu>
-* from [here](https://unix.stackexchange.com/questions/67806/how-to-recursively-find-the-amount-stored-in-directory)
+* <https://unix.stackexchange.com/questions/67806/how-to-recursively-find-the-amount-stored-in-directory>
 * <https://linuxconfig.org/how-fstab-works-introduction-to-the-etc-fstab-file-on-linux>
 * <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
-* From [here](https://linuxhint.com/how-to-mount-drive-in-ubuntu/)
-* from [here](https://linuxhint.com/du-one-level-only/)
+* <https://linuxhint.com/how-to-mount-drive-in-ubuntu/>
+* <https://linuxhint.com/du-one-level-only/>
