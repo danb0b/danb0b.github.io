@@ -8,6 +8,8 @@ weight: 1
 summary: Collected commands, tips, and tricks for working headless in Ubuntu
 ---
 
+> Note: A lot of these commands are unique and special to Debian or Ubuntu distributions.  There are typically alternate forms of these expressions for other distributions.
+
 ## Find Kernel version
 
 ```bash
@@ -113,9 +115,9 @@ For example, if "Image Viewer" is in the name of the icon:
 find / -name '*.desktop' -exec grep -H 'Image Viewer' {} \; 2>/dev/null
 ```
 
-derived from [here](https://askubuntu.com/questions/1160737/how-to-find-desktop-file-location-for-a-particular-application):
+derived from here: <https://askubuntu.com/questions/1160737/how-to-find-desktop-file-location-for-a-particular-application>:
 
-Some default locations listed [here](https://askubuntu.com/questions/1146307/which-desktop-files-belong-where):
+Some default locations listed here: <https://askubuntu.com/questions/1146307/which-desktop-files-belong-where>:
 
 ```
 /usr/share/applications/gnome-terminal.desktop
@@ -145,3 +147,42 @@ use pkexec to do things you would normally do with sudo, like
 pkexec cp /path/to/sudo/backup /etc/sudoers
 
 great advice from here: <https://askubuntu.com/questions/438123/accidentally-deleted-etc-sudoers-file>
+
+## close bash without saving history
+
+```bash
+unset HISTFILE && exit
+```
+
+or
+
+```bash
+history -c && history -w && exit
+```
+
+## Systemctl
+
+To find services
+
+```bash
+sudo systemctl list-units --type=service
+```
+
+To reload the service daemon
+
+```bash
+sudo systemctl daemon-reload
+```
+
+other common functions:
+
+```bash
+sudo systemctl edit <servicename>
+sudo systemctl enable <servicename>
+sudo systemctl start <servicename>
+sudo systemctl status <servicename>
+sudo systemctl stop <servicename>
+sudo systemctl disable <servicename>
+sudo systemctl reload <servicename>
+sudo systemctl restart <servicename>
+```
