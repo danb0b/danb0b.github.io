@@ -189,6 +189,7 @@ codium --install-extension docker.docker
 codium --install-extension donjayamanne.githistory
 codium --install-extension dotjoshjohnson.xml
 codium --install-extension james-yu.latex-workshop
+codium --install-extension jscearcy.rust-doc-viewer
 codium --install-extension mathematic.vscode-latex
 codium --install-extension mhutchie.git-graph
 codium --install-extension ms-azuretools.vscode-containers
@@ -208,11 +209,13 @@ codium --install-extension pkief.markdown-checkbox
 codium --install-extension pycom.pymakr-preview
 codium --install-extension redhat.vscode-xml
 codium --install-extension redhat.vscode-yaml
+codium --install-extension rust-lang.rust-analyzer
 codium --install-extension shd101wyy.markdown-preview-enhanced
 codium --install-extension streetsidesoftware.code-spell-checker
 codium --install-extension takumii.markdowntable
 codium --install-extension yzane.markdown-pdf
 codium --install-extension yzhang.markdown-all-in-one
+codium --install-extension donjayamanne.githistory
 ```
 
 ## Markdown all-in-one
