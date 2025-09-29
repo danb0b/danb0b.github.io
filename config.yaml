@@ -12,16 +12,16 @@ taxonomies:
 disqusShortname: ''
 languageCode: en-us
 menu:
-  footer:
-  - URL: https://idealab-asu.slack.com
-    name: IDEAlab Slack
-    weight: 1
-  - URL: https://scram-workspace.slack.com
-    name: SCRAMbots
-    weight: 2
-  - URL: https://kaiteki-asu.slack.com
-    name: Kaiteki
-    weight: 3
+  footer: []
+  # - URL: https://idealab-asu.slack.com
+  #   name: IDEAlab Slack
+  #   weight: 1
+  # - URL: https://scram-workspace.slack.com
+  #   name: SCRAMbots
+  #   weight: 2
+  # - URL: https://kaiteki-asu.slack.com
+  #   name: Kaiteki
+  #   weight: 3
   main:
   - name: Misc
     weight: 99

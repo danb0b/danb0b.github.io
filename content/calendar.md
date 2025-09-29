@@ -4,7 +4,7 @@ image: images/calendar.jpg
 type: starred
 menu:
   footer:
-    weight: 3
+    weight: 4
     name: Calendar
 summary: Find out what's on my schedule
 ---

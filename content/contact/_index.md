@@ -6,7 +6,7 @@ type : "contact"
 show_front: false
 menu:
   footer:
-    weight: 2
+    weight: 3
     name: Contact
 summary: "How to get in touch"
 ---
