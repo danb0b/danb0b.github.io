@@ -63,6 +63,8 @@ blueman \
 librecad \
 evince \
 wireguard \
+handbrake \
+nrg2iso \
 git-secret
 ```
 
