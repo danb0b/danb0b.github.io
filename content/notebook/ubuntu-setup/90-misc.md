@@ -61,6 +61,12 @@ save your work and then run
 systemctl restart systemd-logind.service
 ```
 
+## Activate python autocomplete::
+
+```bash
+sudo activate-global-python-argcomplete
+```
+
 ## External References
 
 * [top-things-to-do-after-installing-ubuntu-1504-unixmen](https://www.unixmen.com/top-things-installing-ubuntu-14-1014-0413-1013-0412-1012-04/)

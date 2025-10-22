@@ -124,7 +124,8 @@ com.github.xournalpp.xournalpp \
 com.mattermost.Desktop \
 org.fritzing.Fritzing \
 com.rafaelmardojai.Blanket \
-org.famistudio.FamiStudio
+org.famistudio.FamiStudio \
+io.dbeaver.DBeaverCommunity
 # com.bitwarden.desktop \
 # org.gpodder.gpodder \
 # org.synfig.SynfigStudio
