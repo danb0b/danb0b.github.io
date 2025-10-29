@@ -41,26 +41,20 @@ gfx.webrender.all
 
 disable automatic refresh
 
-```
-browser.meta_refresh_when_inactive.disabled
-```
+```browser.meta_refresh_when_inactive.disabled```
 
 fingerprinting isolation: set these to true
 
-```text
-privacy.resistFingerprinting
-privacy.firstparty.isolate
-privacy.trackingprotection.fingerprinting.enabled
-privacy.trackingprotection.cryptomining.enabled
-```
+```privacy.resistFingerprinting```: breaks time in gmail
+```privacy.firstparty.isolate```
+```privacy.trackingprotection.fingerprinting.enabled```
+```privacy.trackingprotection.cryptomining.enabled```
 
 ```browser.send_pings```: set to false
 
 turn off rtc:
 
-```
-media.peerconnection.enabled
-```
+```media.peerconnection.enabled```
 
 ```beacon.enabled```: set to false
 
@@ -68,7 +62,7 @@ media.peerconnection.enabled
 
 ```network.cookie.cookieBehavior```: set to 5
 
-```dom.event.clipboardevents.enabled```: false
+```dom.event.clipboardevents.enabled```: false-- breaks google drive copy/paste
 
 ```browser.sessionstore.privacy_level```: set to 2
 
