@@ -8,9 +8,6 @@ summary: " "
 ---
 ## Ingredients
 
-
-
-
 1 tbsp olive oil
 1/2 tsp salt
 1/2 tsp pepper
@@ -45,3 +42,7 @@ the balsamic/mustard mixture and chicken stock.
 thighs to the skillet and arrange the fig pieces around the pan. Spoon some of the sauce over
 the chicken and then bake in the oven for 35 minutes until the chicken is cooked through.
 Sprinkle with more thyme before serving.
+
+## Other Resources
+
+<https://www.lidiarecipes.com/balsamic-chicken-with-figs-and-red-onion-a-perfect-summer-dish-for-beginners/>
