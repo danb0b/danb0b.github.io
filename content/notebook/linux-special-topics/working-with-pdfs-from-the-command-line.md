@@ -33,6 +33,16 @@ from [here](https://www.baeldung.com/linux/merge-pdf-files)
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
 ```
 
+other compession settings:
+
+
+* ```/screen```: lowest
+* ```/ebook```: medium
+* ```/printer```: high
+* ```/prepress```: very high
+* ```/default```: balanced
+
+
 ## Convert to PDF-A
 
 ```bash
