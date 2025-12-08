@@ -5,7 +5,7 @@ date: 2025-12-08
 image: work-blog/2025-12-08-work-update/dan_beach.jpg
 ---
 
-After being a professor for 10 years, I have decided to hang up my Expo whiteboard marker and move on from academia.  This was a tough decision that I struggled with for a while, but now as I am actually doing it, it feels right.  Many of you I have already told, others are still hearing about it, so I thought I'd make a proper post about it.
+After being a professor for 10 years, I have decided to hang up my whiteboard markers and move on from academia.  This was a tough decision that I struggled with for a while, but now as I am actually doing it, it feels right.  Many of you I have already told, others are still hearing about it, so I thought I'd make a proper post about it.
 
 A lot of my reasons are family-related.  We are a family with young kids, and want to be closer to grandparents in the next decade.  Having three young boys in a town without family around was harder than we thought it would be.
 A lot of the move also has to do with timing.
