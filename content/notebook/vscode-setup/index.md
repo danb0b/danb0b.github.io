@@ -173,8 +173,8 @@ with
 Bash script for that:
 
 ```bash
-sudo sed -i 's|"serviceUrl": "<https://open-vsx.org/vscode/gallery",|"serviceUrl>": "<https://marketplace.visualstudio.com/_apis/public/gallery",|g>' /usr/share/codium/resources/app/product.json
-sudo sed -i 's|"itemUrl": "<https://open-vsx.org/vscode/item",|"itemUrl>": "<https://marketplace.visualstudio.com/items",|g>' /usr/share/codium/resources/app/product.json
+sudo sed -i 's|"serviceUrl": "https://open-vsx.org/vscode/gallery",|"serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",|g' /usr/share/codium/resources/app/product.json
+sudo sed -i 's|"itemUrl": "https://open-vsx.org/vscode/item",|"itemUrl": "https://marketplace.visualstudio.com/items",|g' /usr/share/codium/resources/app/product.json
 ```
 
 Finally install extensions

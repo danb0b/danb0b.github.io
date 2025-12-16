@@ -66,6 +66,14 @@ with
 
 if you have openssl installed.   Also note the different approach to encrypting the password (lower-level) and creating directories.
 
+### Create a non-login user
+
+Useful for creating a user that should not have login privileges
+
+```bash
+sudo adduser <username> --disabled-login
+```
+
 ## Groups
 
 Create a new group with
@@ -94,13 +102,20 @@ sudo usermod -aG sudo username
 #...
 ```
 
-modify list of groups user belongs to.  Unlike the last command(```-aG```), ```-G``` redefines rather than appends
+### Directly modify groups user belongs to  
+
+Unlike the last command(```-aG```), ```-G``` redefines rather than appends
 
 ```bash
 sudo usermod -G usergroup,othergroup username
 ```
 
+### Remove a user from a particular group
+
+sudo deluser <username> <groupname>
+
 ### Change password
+
 You can change the password with:
 
 ```bash

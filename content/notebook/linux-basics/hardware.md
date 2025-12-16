@@ -101,7 +101,90 @@ once you have edited, check by running
 mount -a
 ```
 
-## Recursively find storage space of a directory
+### unlock a LUKS disk from bash
+
+```bash
+sudo apt-get install cryptsetup
+```
+
+```bash
+sudo cryptsetup luksOpen /dev/<hard-drive-name> <label>
+sudo mount /dev/mapper/<label> </path/to/mount/location>
+```
+
+to lock it back up:
+
+```bash
+sudo umount </path/to/mount/location>
+sudo cryptsetup luksClose <label>
+```
+
+### Check unused space
+
+first use  ```lsblk -a``` to determine if you're talking about a physical partition or a logical volume
+
+First try parted for physical partions
+
+```bash
+sudo parted /dev/<hard-drive-name> print free
+```
+
+for example
+
+```bash
+sudo parted /dev/sda print free
+```
+
+If LVM,
+
+```bash
+sudo vgdisplay
+```
+
+this returns some useful data:
+
+```text
+  VG Name               ubuntu-vg
+  System ID             
+  Format                lvm2
+  ...
+  Act PV                1
+  VG Size               <928.46 GiB
+  PE Size               4.00 MiB
+  Total PE              237685
+  Alloc PE / Size       25600 / 100.00 GiB
+  Free  PE / Size       212085 / <828.46 GiB
+  ...
+```
+
+to learn about the logical volume, use
+
+```bash
+sudo lvs
+```
+
+to learn about the volume group (in Bytes), use
+
+```bash
+sudo vgs --units B
+```
+
+### Extend LVM volume
+
+we see that my volume group is called "ubuntu-vg"
+
+```bash
+sudo lvextend -L +<amount-to-extend> /dev/mapper/ubuntu--vg-ubuntu--lv
+```
+
+update the partition 
+
+```bash
+udo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv 
+```
+
+
+### Recursively find storage space of a directory
 
 ```bash
 du -sh /path/to/my/dir
@@ -113,13 +196,13 @@ list directories, one level only
 du -h  --max-depth 1 /path/to/my/dir
 ```
 
-## Find the free space of a drive
+### Find the free space of a drive
 
 ```bash
 df -H
 ```
 
-## Disk Cloning
+### Disk Cloning
 
 check out dd
 
@@ -240,6 +323,7 @@ list all the details about a device at port 1: device 3
 ```bash
 lsusb -v -s 1:3
 ```
+
 list all the details about a vendor:product
 
 ```bash
@@ -262,3 +346,7 @@ lsusb -vd  0x03e7:0x2485
 * <https://serverfault.com/questions/174181/how-do-you-validate-fstab-without-rebooting>
 * <https://linuxhint.com/how-to-mount-drive-in-ubuntu/>
 * <https://linuxhint.com/du-one-level-only/>
+* LVM info and resizing
+    * <https://www.golinuxcloud.com/how-to-extend-lvm-partition/>
+    * <https://www.redhat.com/en/blog/resize-lvm-simple>
+
