@@ -16,8 +16,8 @@ How do you get a ROS2 system up and running on a virtual machine, and participat
 
 This tutorial does not delve into ROS2 networking setup, but rather focuses on the plain install.  For more information on setting up ROS2 to work without multicast or over a vpn, please see the following articles:
 
-* [Configuring ROS2 to work using UDP Unicast on a local network](/notebook/ros2/configuring-unicast-dds-with-cyclone/) 
-* [Configuring ROS2 to work over a Tailscale VPN](/notebook/ros2/configuring-ros-over-tailscale/) 
+* [Configuring ROS2 to work using UDP Unicast on a local network](/notebook/ros2/configuring-unicast-dds-with-cyclone/)
+* [Configuring ROS2 to work over a Tailscale VPN](/notebook/ros2/configuring-ros-over-tailscale/)
 
 ## Prerequisites
 
@@ -42,15 +42,16 @@ Suggested machine parameters and install steps:
 * Ubuntu Installation:
     * Put in a unique machine name ("your server's name") that includes your name or initials
     * Deselect Docker from the optional services
-* install virtual machine additions prerequisites using 
+* install virtual machine additions prerequisites using
 
     ```bash
     sudo apt install -y gcc make perl build-essential
     ```
-* then install virtual machine additions from the virtualbox menu.  with your desktop installed and your virtual machine running, 
+
+* then install virtual machine additions from the virtualbox menu.  with your desktop installed and your virtual machine running,
     1. go to "devices" --> "install Guest Additions CD image"
     2. select yes to autorun
-* consider 
+* consider
     * [removing snap support](/notebook/removing-firefox-snap.md).  You will not need it and it can hang indefinitely in poor internet conditions
     * disabling automatic updates:
 
@@ -67,7 +68,6 @@ Suggested machine parameters and install steps:
         ```bash
         sudo killall unattended-upgr
         ```
-
 
 Finally first update and upgrade your apt installation, power down the machine and save a snapshot.
 
@@ -140,6 +140,7 @@ and checked the variables with the command:
 ```bash
 printenv | grep -i ROS
 ```
+
 ## Testing
 
 First in one terminal window:
@@ -159,7 +160,6 @@ ros2 daemon stop
 ```
 
 Shutdown the virtual machine.
-
 
 Now to clone to two virtual machines.  I modified  the server's netplan, according to [this post](/notebook/virtualbox/two-clones/), which helped eliminate getting an identical ip address
 

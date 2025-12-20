@@ -11,7 +11,7 @@ Why would you want to do this?  Sometimes, after encrypting a hard drive, you ne
 
 This tutorial is derived from the following:
 
-- <https://dradisframework.com/support/guides/customization/auto-unlock-luks-encrypted-drive.html>
+* <https://dradisframework.com/support/guides/customization/auto-unlock-luks-encrypted-drive.html>
 
 ```bash
 lsblk  -o NAME,UUID,MOUNTPOINTS
@@ -125,6 +125,7 @@ sudo reboot now
 
 ## Other Resources
 
-- <https://www.howtoforge.com/automatically-unlock-luks-encrypted-drives-with-a-keyfile>
-- <https://linuxconfig.org/how-to-use-a-file-as-a-luks-device-key>
-- <https://sleeplessbeastie.eu/2019/03/27/how-to-test-luks-passphrase/>
+* <https://www.howtoforge.com/automatically-unlock-luks-encrypted-drives-with-a-keyfile>
+* <https://linuxconfig.org/how-to-use-a-file-as-a-luks-device-key>
+* <https://sleeplessbeastie.eu/2019/03/27/how-to-test-luks-passphrase/>
+* <https://chuck.is/auto-mounting-luks/>
