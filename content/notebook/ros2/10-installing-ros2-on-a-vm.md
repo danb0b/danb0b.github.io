@@ -23,7 +23,7 @@ This tutorial does not delve into ROS2 networking setup, but rather focuses on t
 
 > Ubuntu is one of the Linux distributions supported by ROS2 out of the box, with a repository and pre-compiled binaries.  For this tutorial, we assume you have already installed Ubuntu 22.04 LTS (Server Edition, 64 bit) on a virtual machine.  
 
-<p>
+<br>
 
 > **Why Ubuntu Server?** I recommend Ubuntu server edition because there are some tools used by the server edition that are different in the desktop edition.  Installing the server edition and _then_ installing ```ubuntu-desktop-minimal``` will more closely mimic the installation on a desktop-less server than a full-fledged desktop install from the beginning.
 
