@@ -297,6 +297,10 @@ sudo apt reinstall virtualbox-dkms virtualbox-ext-pack virtualbox-guest-addition
 sudo modprobe vboxdrv
 ```
 
+if there is a conflict with amd ("VirtualBox can’t enable the AMD-V extension"):
+
+see this link: <https://atetux.com/quick-fix-virtualbox-cant-enable-the-amd-v-extension>
+
 ### Common Windows Fonts
 
 Derived from [here](https://askubuntu.com/questions/651441/how-to-install-arial-font-and-other-windows-fonts-in-ubuntu):
@@ -305,8 +309,6 @@ Derived from [here](https://askubuntu.com/questions/651441/how-to-install-arial-
 sudo apt install -y ttf-mscorefonts-installer
 sudo fc-cache -f
 ```
-
-
 
 ### Numix Theme
 

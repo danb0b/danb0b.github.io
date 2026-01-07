@@ -74,6 +74,12 @@ Useful for creating a user that should not have login privileges
 sudo adduser <username> --disabled-login
 ```
 
+modify a user to be non-login
+
+```bash
+sudo usermod -s /sbin/nologin <username>
+```
+
 ## Groups
 
 Create a new group with
