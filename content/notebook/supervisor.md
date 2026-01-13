@@ -1,6 +1,5 @@
 ---
 title: Supervisor
-summary: " "
 ---
 
 ## External Resources

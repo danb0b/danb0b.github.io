@@ -6,7 +6,6 @@ tags:
 - ubuntu
 - linux
 - camera
-summary: " "
 ---
 
 # Using a USB webcam (with virtualbox)

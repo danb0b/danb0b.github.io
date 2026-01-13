@@ -5,7 +5,6 @@ tags:
   - tasmota
   - smart-home
   - smart-plug
-summary: " "
 ---
 
 

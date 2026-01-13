@@ -4,7 +4,6 @@ tags:
 - ubuntu
 - linux
 - wine
-summary: " "
 ---
 
 ```bash

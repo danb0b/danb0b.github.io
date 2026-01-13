@@ -1,6 +1,5 @@
 ---
 title: Things to Read Once
-summary: " "
 ---
 
 * <https://www.themarginalian.org/2012/01/12/john-steinbeck-on-love-1958/>

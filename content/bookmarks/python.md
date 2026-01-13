@@ -1,6 +1,5 @@
 ---
 title: Python
-summary: " "
 ---
 
 A lot of detail about Python problems and issues.  I promise I'll clean this up.

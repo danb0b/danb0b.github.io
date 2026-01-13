@@ -6,7 +6,6 @@ tags:
 - bno055
 - imu
 - esp32
-summary: " "
 ---
 
 ![alt text](PXL_20241105_175640358.jpg) 

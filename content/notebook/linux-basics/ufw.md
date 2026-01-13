@@ -5,7 +5,6 @@ tags:
 - firewall
 - ubuntu
 - linux
-summary: " "
 ---
 
 To turn on UFW,

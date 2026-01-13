@@ -4,7 +4,6 @@ original_url: https://cooking.nytimes.com/recipes/1014473-sicilian-cauliflower-a
 recipe_tags:
   - side
   - vegetable
-summary: " "
 ---
 
 ## Ingredients

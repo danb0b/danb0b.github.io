@@ -1,7 +1,6 @@
 ---
 title: Inverse Dynamics in Mujoco
 date: 2024-03-11
-summary: " "
 ---
 
 ## Introduction

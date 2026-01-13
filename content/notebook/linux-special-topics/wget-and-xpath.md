@@ -5,7 +5,6 @@ tags:
 - bash
 - wget
 - xpath
-summary: " "
 ---
 
 

@@ -4,7 +4,6 @@ original_url: https://www.foodnetwork.com/recipes/food-network-kitchen/almost-fa
 recipe_tags:
   - appetizer
   - snack
-summary: " "
 ---
 
 ## Ingredients

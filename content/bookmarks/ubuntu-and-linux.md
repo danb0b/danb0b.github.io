@@ -1,6 +1,5 @@
 ---
 title: ubuntu and linux
-summary: " "
 ---
 
 A lot of inside baseball on things I need to remember

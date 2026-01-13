@@ -5,5 +5,4 @@ images:
 recipe_tags:
   - dessert
   - cookies
-summary: " "
 ---

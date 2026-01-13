@@ -6,7 +6,6 @@ menu:
     weight: 30
     name: Bookmarks
     parent: Misc
-summary: " "
 ---
 A semi-curated set of the best links on the web
 <!--more-->

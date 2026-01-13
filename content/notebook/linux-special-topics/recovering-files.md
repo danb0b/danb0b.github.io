@@ -5,7 +5,6 @@ tags:
 - backup
 - recovery
 - ubuntu
-summary: " "
 ---
 
 ## External Resources

@@ -5,7 +5,6 @@ recipe_tags:
   - breakfast
 modified_from: allrecipes.com
 original_url: https://www.allrecipes.com/recipe/11646/pauls-pumpkin-bars/
-summary: " "
 ---
 ## Ingredients
 

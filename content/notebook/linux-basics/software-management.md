@@ -1,6 +1,5 @@
 ---
 title: Software Management
-summary: " "
 ---
 
 

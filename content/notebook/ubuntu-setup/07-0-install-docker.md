@@ -5,6 +5,5 @@ tags:
   - vpn
   - linux
   - docker
-summary: " "
 ---
 see this [tutorial](/notebook/docker/install-docker/)

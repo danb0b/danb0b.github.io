@@ -4,7 +4,6 @@ recipe_tags:
   - dessert
 modified_from: allrecipes.com
 original_url: https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/
-summary: " "
 ---
 # Apple Pie
 

@@ -3,7 +3,6 @@ title: Fig Preserves
 recipe_tags:
   - canning-and-pickling
 original_url: https://www.allrecipes.com/recipe/215775/real-fig-preserves/
-summary: " "
 ---
 
 ## Ingredients

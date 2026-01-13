@@ -7,7 +7,6 @@ tags:
 - linux
 - camera
 - raspberry-pi
-summary: " "
 ---
 
 ## Steps

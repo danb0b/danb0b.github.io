@@ -5,7 +5,6 @@ tags:
 - ros
 - ubuntu
 - linux
-summary: " "
 ---
 
 This is not necessary if you will be creating your own custom workspace

@@ -3,7 +3,6 @@ title: Bash Basics
 tags:
 - bash
 - linux
-summary: " "
 ---
 
 ## Arguments

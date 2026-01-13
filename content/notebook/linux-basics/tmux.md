@@ -8,7 +8,6 @@ tags:
   - ubuntu
   - ssh
 weight: 99
-summary: " "
 ---
 
 ### Overview

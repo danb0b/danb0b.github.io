@@ -1,6 +1,5 @@
 ---
 title: Galaxy Tab Cleanup
-summary: " "
 ---
 
 ##

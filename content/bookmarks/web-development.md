@@ -1,6 +1,5 @@
 ---
 title: Web Development
-summary: " "
 ---
 
 Some of my favorite bookmarks related to web development, websites, hosting, etc

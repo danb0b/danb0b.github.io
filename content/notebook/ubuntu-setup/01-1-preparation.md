@@ -6,7 +6,6 @@ tags:
 - linux
 - snap
 - flatpak
-summary: " "
 ---
 
 ## Things you will need

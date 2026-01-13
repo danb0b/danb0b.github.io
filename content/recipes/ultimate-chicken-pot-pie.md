@@ -6,5 +6,4 @@ recipe_tags:
   - main
   - pie
   - chicken
-summary: " "
 ---

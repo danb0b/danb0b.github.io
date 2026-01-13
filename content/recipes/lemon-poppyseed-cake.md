@@ -4,7 +4,6 @@ recipe_tags:
   - dessert
   - breakfast
 from: Robin Cameron
-summary: " "
 ---
 ## Ingredients
 

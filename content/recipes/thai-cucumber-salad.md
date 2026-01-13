@@ -5,7 +5,6 @@ recipe_tags:
   - salad
   - side
   - asian
-summary: " "
 ---
 
 

@@ -3,7 +3,6 @@ title: Crock Pot Chicken
 recipe_tags:
 - chicken
 original_url: https://www.food.com/recipe/crock-pot-whole-chicken-33671
-summary: " "
 ---
 
 

@@ -4,7 +4,6 @@ recipe_tags:
   - dessert
 modified_from: allrecipes.com
 original_url: http://allrecipes.com/Recipe/Apple-Crisp-III-2
-summary: " "
 ---
 
 ## Ingredients

@@ -5,7 +5,6 @@ tags:
 - ros
 - ubuntu
 - linux
-summary: " "
 ---
 ## Introduction
 

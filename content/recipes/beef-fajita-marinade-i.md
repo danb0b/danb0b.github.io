@@ -3,7 +3,6 @@ title: Beef Fajita Marinade I
 recipe_tags:
   - sauces-and-marinades
 modified_from: texascooking.com
-summary: " "
 ---
 ## Ingredients
 

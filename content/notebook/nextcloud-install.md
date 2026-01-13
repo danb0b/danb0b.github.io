@@ -5,7 +5,6 @@ tags:
   - linux
   - nextcloud
 weight: 99
-summary: " "
 ---
 
 1. Prerequisites

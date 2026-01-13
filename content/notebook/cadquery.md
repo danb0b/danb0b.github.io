@@ -1,6 +1,5 @@
 ---
 title: Cadquery Info
-summary: " "
 ---
 
 ```bash

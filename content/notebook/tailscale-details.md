@@ -4,7 +4,6 @@ tags:
 - tailscale
 - bash
 - networking
-summary: " "
 ---
 
 

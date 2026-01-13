@@ -1,7 +1,6 @@
 ---
 title: Reimagining Today's Electronics Handbooks
 date: 2025-06-05
-summary: " "
 ---
 
 > Last year I was asked to contribute to an introductory electronics handbook.  The publisher wanted my thoughts on how to refresh it, improve it, and make it current, since the original authors had moved on and didn't have time to make the necessary improvements.  Even though I didn't have time to work on it, I put together a writeup on what I thought needed to change, with a justification for why.  I thought that writeup might have some utility on its own, so here it is, adjusted for a general audience.  Consider my perspective, as someone who teaches introductory courses on mechatronics and embedded systems --  I don't have time to teach everything, so I have to pick and choose, based on what I think will serve my students best as they approach the workforce.  These thoughts are therefore already  running through my head as I consider how to update and curate my courses.

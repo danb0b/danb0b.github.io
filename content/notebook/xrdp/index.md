@@ -4,7 +4,6 @@ tags:
 - linux
 - ubuntu
 - rdp
-summary: " "
 ---
 
 

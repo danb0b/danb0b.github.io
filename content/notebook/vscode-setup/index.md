@@ -6,7 +6,6 @@ tags:
 - windows
 - bash
 - command-line
-summary: " "
 ---
 
 

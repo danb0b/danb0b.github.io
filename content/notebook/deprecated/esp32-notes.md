@@ -6,7 +6,6 @@ tags:
   - mechatronics
   - microcontroller
   - embedded-systems
-summary: " "
 ---
 
 please see [these pages](https://embedded-systems-design.github.io/tutorials/microcontrollers/esp32/)

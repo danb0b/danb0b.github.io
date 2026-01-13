@@ -2,7 +2,6 @@
 title: Podcasting
 tags:
 - podcasting
-summary: " "
 ---
 
 

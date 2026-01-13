@@ -2,7 +2,6 @@
 title: "Assignment: M16 Reading"
 tags:
   - failure
-summary: " "
 ---
 
 <https://www.theatlantic.com/magazine/archive/1981/06/m-16-a-bureaucratic-horror-story/545153/>

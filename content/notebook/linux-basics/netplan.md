@@ -4,7 +4,6 @@ tags:
   - netplan
   - ubuntu
   - networking
-summary: " "
 ---
 
 ## Configs

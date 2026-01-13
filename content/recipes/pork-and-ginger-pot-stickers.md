@@ -7,7 +7,6 @@ recipe_tags:
   - asian
   - pork
 original_url: https://www.foodnetwork.com/recipes/pork-and-ginger-pot-stickers-recipe-1950011
-summary: " "
 ---
 
 ## Ingredients

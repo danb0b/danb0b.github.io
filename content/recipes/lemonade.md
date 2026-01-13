@@ -3,7 +3,6 @@ title: Lemonade
 recipe_tags: 
   - drinks
 from: Dan Aukes
-summary: " "
 ---
 
 * 3 cups water

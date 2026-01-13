@@ -6,7 +6,6 @@ tags:
   - iot
   - arduino
   - smart-home
-summary: " "
 ---
 
 ### Arduino Setup

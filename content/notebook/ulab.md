@@ -1,6 +1,5 @@
 ---
 title: Compliling uLab for micropython
-summary: " "
 ---
 
 ```bash

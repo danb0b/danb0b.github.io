@@ -5,7 +5,6 @@ tags:
   - ubuntu
   - bash
 weight: 10
-summary: " "
 ---
 
 # Using the ```find``` command in bash

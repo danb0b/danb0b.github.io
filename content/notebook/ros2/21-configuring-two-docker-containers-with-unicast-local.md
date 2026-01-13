@@ -8,7 +8,6 @@ tags:
 - ros2
 - cyclonedds
 - unicast
-summary: " "
 ---
 
 ## Introduction

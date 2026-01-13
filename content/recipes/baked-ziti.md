@@ -4,7 +4,6 @@ original_url: https://www.allrecipes.com/recipe/11758/baked-ziti-i/
 recipe_tags:
   - pasta
   - italian
-summary: " "
 ---
 
 ## Ingredients

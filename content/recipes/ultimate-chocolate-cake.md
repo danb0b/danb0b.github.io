@@ -1,7 +1,6 @@
 ---
 title: Ultimate Chocolate Cake
 original_url: https://www.make-fabulous-cakes.com/chocolate-cake-recipe.html
-summary: " "
 ---
 
 ## Ingredients

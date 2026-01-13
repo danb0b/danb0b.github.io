@@ -1,6 +1,5 @@
 ---
 title: Mattermost Details
-summary: " "
 ---
 
 

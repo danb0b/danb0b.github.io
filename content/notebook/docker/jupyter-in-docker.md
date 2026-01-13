@@ -6,7 +6,6 @@ tags:
 - docker
 - linux
 - ubuntu
-summary: " "
 ---
 
 ## Introduction

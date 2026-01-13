@@ -8,7 +8,6 @@ tags:
 - ros2
 - cyclonedds
 - unicast
-summary: " "
 ---
 
 Switching from ROS2's multicast default to unicast can be a bit tricky, especially if you're testing.  I came up with a way to get it working between to virtualbox virtual machine clones and wanted to share my strategy.

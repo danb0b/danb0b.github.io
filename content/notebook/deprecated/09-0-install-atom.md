@@ -5,7 +5,6 @@ tags:
 - ubuntu
 - linux
 - atom
-summary: " "
 ---
 
 1. Install

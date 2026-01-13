@@ -3,7 +3,6 @@ title: Networking
 tags:
 - linux
 - networking
-summary: " "
 ---
 
 ## Networking

@@ -3,7 +3,6 @@ title: Granola
 recipe_tags:
   - breakfast
 from: Tara McConnell
-summary: " "
 ---
 ## Ingredients
 

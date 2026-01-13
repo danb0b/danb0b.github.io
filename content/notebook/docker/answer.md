@@ -5,7 +5,6 @@ tags:
 - docker
 - ubuntu
 - mariadb
-summary: " "
 ---
 
 replace ```<password1>``` with your own password

@@ -7,7 +7,6 @@ tags:
   - terminal
   - bash
 weight: 99
-summary: " "
 ---
 
 ```bash

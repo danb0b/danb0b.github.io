@@ -1,6 +1,5 @@
 ---
 title: Software Tools
-summary: " "
 ---
 
 ## Online Editors / Documents

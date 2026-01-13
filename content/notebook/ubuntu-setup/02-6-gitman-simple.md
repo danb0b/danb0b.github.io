@@ -1,7 +1,6 @@
 ---
 title: simple gitman install
 weight: 26
-summary: " "
 ---
 
 ```bash

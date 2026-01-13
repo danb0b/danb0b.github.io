@@ -4,7 +4,6 @@ original_url: https://therecipecritic.com/slow-cooker-honey-lime-ginger-pork/
 recipe_tags:
   - main
   - pork
-summary: " "
 ---
 
 ## Ingredients

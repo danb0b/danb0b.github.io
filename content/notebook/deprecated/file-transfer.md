@@ -7,7 +7,6 @@ tags:
   - bash
   - nautilus
   - file-transfer
-summary: " "
 ---
 
 Issue: Nautilus hangs when I try to copy large files to a NAS.

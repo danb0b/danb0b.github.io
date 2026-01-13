@@ -6,7 +6,6 @@ tags:
 - ubuntu
 - linux
 - arduino
-summary: " "
 ---
 
 ## Introduction

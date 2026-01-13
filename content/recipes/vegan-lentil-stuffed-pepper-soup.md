@@ -4,7 +4,6 @@ recipe_tags:
   - soup
   - vegetable
 original_url: https://www.staceyhomemaker.com/easy-stuffed-pepper-soup-recipe
-summary: " "
 ---
 
 ## Ingredients

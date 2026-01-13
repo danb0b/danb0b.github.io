@@ -5,5 +5,4 @@ recipe_tags:
   - vegetable
 images:
   - scan0096_000.jpg
-summary: " "
 ---

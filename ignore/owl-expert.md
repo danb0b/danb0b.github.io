@@ -1,6 +1,5 @@
 ---
 title: yes I am an owl expert
-summary: " "
 ---
 types of owls: 
 

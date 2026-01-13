@@ -6,7 +6,6 @@ recipe_tags:
 from: Daniel Aukes
 modified_from: allrecipes.com
 original_url: https://www.allrecipes.com/recipe/7254/carrot-cake-ii/
-summary: " "
 ---
 
 

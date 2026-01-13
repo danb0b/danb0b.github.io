@@ -7,7 +7,6 @@ tags:
 - gnome
 - python
 - ssh
-summary: " "
 ---
 
 ## Install gnome tweaks

@@ -5,7 +5,6 @@ recipe_tags:
   - vegetable
   - casserole
 original_url: https://www.foodnetwork.com/recipes/alton-brown/best-ever-green-bean-casserole-recipe-1950575
-summary: " "
 ---
 
 

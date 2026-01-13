@@ -6,7 +6,6 @@ original_url: https://www.allrecipes.com/recipe/133128/peppered-shrimp-alfredo/
 recipe_tags:
   - main
   - seafood
-summary: " "
 ---
 
 ## Ingredients

@@ -12,7 +12,6 @@ menu:
   footer:
     weight: 1
     name: About
-summary: " "
 ---
 
 ## Daniel M. Aukes, PhD

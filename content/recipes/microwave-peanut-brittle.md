@@ -3,7 +3,6 @@ title: Microwave Peanut Brittle
 recipe_tags:
   - dessert
 from: Mary O'Neil
-summary: " "
 ---
 ## Ingredients
 

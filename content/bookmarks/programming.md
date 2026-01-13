@@ -1,6 +1,5 @@
 ---
 title: Programming
-summary: " "
 ---
 
 All the programming topics (except for python)

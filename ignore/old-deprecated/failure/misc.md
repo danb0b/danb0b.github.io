@@ -2,7 +2,6 @@
 title: failure misc
 tags:
   - failure
-summary: " "
 ---
 
 | Subjects          | Date | Link |

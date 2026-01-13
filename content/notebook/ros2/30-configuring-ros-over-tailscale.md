@@ -6,7 +6,6 @@ tags:
 - ubuntu
 - linux
 - tailscale
-summary: " "
 ---
 
 ## Prerequisites

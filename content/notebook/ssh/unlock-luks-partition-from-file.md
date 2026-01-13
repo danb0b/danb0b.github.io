@@ -4,7 +4,6 @@ tags:
 - linux
 - LUKS
 - security
-summary: " "
 ---
 
 Why would you want to do this?  Sometimes, after encrypting a hard drive, you need it to auto-start.  Following these instructions, you can enable a computer with an encrypted disk to start up, de-encrypt itself, and boot.

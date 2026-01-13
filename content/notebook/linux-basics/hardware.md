@@ -1,6 +1,5 @@
 ---
 title: Hardware and Devices
-summary: " "
 ---
 
 ## Device / driver info

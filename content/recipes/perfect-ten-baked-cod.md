@@ -4,7 +4,6 @@ original_url: https://www.allrecipes.com/recipe/228319/perfect-ten-baked-cod/
 recipe_tags:
   - main
   - seafood
-summary: " "
 ---
 
 ## Ingredients

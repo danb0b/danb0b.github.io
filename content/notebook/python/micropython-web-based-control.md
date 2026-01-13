@@ -4,7 +4,6 @@ tags:
 - python
 - micropython
 - microdot
-summary: " "
 ---
 
 

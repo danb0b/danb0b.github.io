@@ -4,7 +4,6 @@ tags:
 - ros
 - ubuntu
 - linux
-summary: " "
 ---
 
 ## In ubuntu

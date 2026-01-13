@@ -3,7 +3,6 @@ title: FEM Resources
 tags:
 - fem
 - python
-summary: " "
 ---
 
 ## External Resources

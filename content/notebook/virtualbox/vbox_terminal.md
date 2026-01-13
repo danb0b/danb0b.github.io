@@ -7,7 +7,6 @@ tags:
   - windows
   - virtualbox
 weight: 99
-summary: " "
 ---
 
 

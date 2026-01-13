@@ -2,7 +2,6 @@
 title: About Docker Build and Compose
 tags:
 - docker
-summary: " "
 ---
 
 * https://docs.docker.com/network/host/

@@ -6,7 +6,6 @@ tags:
 - ubuntu
 - linux
 - thorlabs
-summary: " "
 ---
 
 ## Introduction

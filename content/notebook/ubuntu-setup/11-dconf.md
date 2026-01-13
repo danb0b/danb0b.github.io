@@ -5,7 +5,6 @@ tags:
 - ubuntu
 - linux
 - dconf
-summary: " "
 ---
 
 ## Introduction

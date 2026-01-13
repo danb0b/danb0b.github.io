@@ -3,7 +3,6 @@ title: Textbook Publishing
 tags:
 - publishing
 - textbook
-summary: " "
 ---
 
 * <https://nostarch.com/catalog/hardware-and-diy>

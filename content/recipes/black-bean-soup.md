@@ -2,7 +2,6 @@
 title: Black Bean Soup
 recipe_tags:
   - soup
-summary: " "
 ---
 
 ## Ingredients

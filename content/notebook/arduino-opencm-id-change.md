@@ -5,7 +5,6 @@ tags:
 - dynamixel
 - opencm
 - xl320
-summary: " "
 ---
 
 ## Intro

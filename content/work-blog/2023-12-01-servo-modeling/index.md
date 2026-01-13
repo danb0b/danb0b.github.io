@@ -1,7 +1,6 @@
 ---
 title: "Micro Servo Data Collection, Parameter Identification, and Modeling: Parts 1-4"
 date: 2023-12-01
-summary: " "
 ---
 
 ## Introduction

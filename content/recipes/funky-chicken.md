@@ -5,7 +5,6 @@ recipe_tags:
   - chicken
   - asian
 original_url: https://www.food.com/recipe/funky-chicken-with-sesame-noodles-76930
-summary: " "
 ---
 
 ## Ingredients

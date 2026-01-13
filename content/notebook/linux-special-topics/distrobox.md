@@ -1,6 +1,5 @@
 ---
 title: Distrobox Info
-summary: " "
 ---
 
 sudo apt install -y distrobox

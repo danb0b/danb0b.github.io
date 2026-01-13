@@ -6,7 +6,6 @@ tags:
 - linux
 - ssh
 - keys
-summary: " "
 ---
 
 ## Basic Steps

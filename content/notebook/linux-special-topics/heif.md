@@ -5,7 +5,6 @@ tags:
   - heif
   - ubuntu
   - bash
-summary: " "
 ---
 
 

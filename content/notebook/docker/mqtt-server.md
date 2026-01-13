@@ -1,6 +1,5 @@
 ---
 title: Setting up a Mosquitto MQTT server in docker.
-summary: " "
 ---
 
 ## Docker compose

@@ -4,7 +4,6 @@ tags:
 - python
 - anaconda
 - conda
-summary: " "
 ---
 
 ## Python

@@ -4,5 +4,4 @@ title: Favorite Chicken Pot Pie
 recipe_tags:
   - main
   - pie
-summary: " "
 ---

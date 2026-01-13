@@ -3,7 +3,6 @@ title: Arduino - ESP32 notes
 tags:
 - arduino
 - esp32
-summary: " "
 ---
 
 ## Arduino Instructions

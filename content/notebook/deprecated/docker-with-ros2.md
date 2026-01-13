@@ -5,7 +5,6 @@ tags:
 - ros
 - ros2
 - linux
-summary: " "
 ---
 
 

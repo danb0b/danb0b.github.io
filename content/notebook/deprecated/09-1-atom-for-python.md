@@ -6,7 +6,6 @@ tags:
   - atom
   - python
 weight: 91
-summary: " "
 ---
 
 1. Activate whatever conda environment you need to

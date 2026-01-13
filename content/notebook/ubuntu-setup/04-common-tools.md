@@ -4,7 +4,6 @@ weight: 40
 tags:
 - ubuntu
 - linux
-summary: " "
 ---
 
 This assumes you installed a "minimal" version of Ubuntu

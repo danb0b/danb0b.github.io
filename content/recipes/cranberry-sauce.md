@@ -3,7 +3,6 @@ title: Cranberry Sauce
 recipe_tags:
   - sauces-and-marinades
 original_url: https://www.allrecipes.com/recipe/9111/
-summary: " "
 ---
 
 ## Ingredients

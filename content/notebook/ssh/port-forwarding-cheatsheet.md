@@ -6,7 +6,6 @@ tags:
 - linux
 - keys
 weight: 99
-summary: " "
 ---
 
 ```bash

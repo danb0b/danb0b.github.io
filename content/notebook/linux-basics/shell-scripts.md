@@ -4,7 +4,6 @@ tags:
 - linux
 - bash
 - sh
-summary: " "
 ---
 ## Sourcing bash scripts
 

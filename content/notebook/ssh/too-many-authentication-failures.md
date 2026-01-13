@@ -4,7 +4,6 @@ tags:
 - ubuntu
 - linux
 - ssh
-summary: " "
 ---
 
 ```bash

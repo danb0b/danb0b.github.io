@@ -4,7 +4,6 @@ original_url: https://www.allrecipes.com/recipe/238265/red-and-sweet-potato-sala
 recipe_tags:
   - salad
   - side
-summary: " "
 ---
 
 ## Ingredients

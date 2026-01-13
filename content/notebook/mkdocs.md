@@ -4,7 +4,6 @@ tags:
 - websites
 - markdown
 - mkdocs
-summary: " "
 ---
 
 ## Python environment

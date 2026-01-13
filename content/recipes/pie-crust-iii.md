@@ -7,5 +7,4 @@ images:
 recipe_tags:
   - dessert
   - misc
-summary: " "
 ---

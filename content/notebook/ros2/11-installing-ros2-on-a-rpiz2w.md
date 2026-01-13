@@ -7,7 +7,6 @@ tags:
 - linux
 - tailscale
 - raspberrypi
-summary: " "
 ---
 
 

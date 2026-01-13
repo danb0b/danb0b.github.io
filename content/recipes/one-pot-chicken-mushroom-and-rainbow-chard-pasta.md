@@ -4,7 +4,6 @@ recipe_tags:
   - main
   - side
 original_url: https://dishingouthealth.com/one-pot-chicken-mushroom-and-rainbow-chard-pasta/
-summary: " "
 ---
 
 ## Ingredients

@@ -1,6 +1,5 @@
 ---
 title: Parts and Materials for Robotics
-summary: " "
 ---
 
 This is probably dated and needs a good house-cleaning...

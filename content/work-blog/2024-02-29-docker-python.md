@@ -1,7 +1,6 @@
 ---
 title: "Python and Jupyter in Containers"
 date: 2024-02-29
-summary: " "
 ---
 
 Python for me has always been easy to learn, but hard to get working.  There are a number of ways to install and manage packages -- pip, anaconda, virtual environments, poetry --  unfortunately, each code project has spent different amounts of effort tuning their install approach to suit one, maybe two of these paradigms.  This means that the success of installing a complex python codebase depends heavily on the approach you took to install it, and it may or may not work.  Anaconda, for example, which has been my tried-and-true approach to a uniform package management experience across operating systems for many years, has itself fallen victim to the increasing complexity of managing dependencies, or "dependency hell".

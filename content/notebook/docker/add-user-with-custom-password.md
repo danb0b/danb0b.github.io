@@ -3,7 +3,6 @@ title: Add a User in a Docker Container with a custom password
 tags:
 - docker
 - linux
-summary: " "
 ---
 
 ```bash

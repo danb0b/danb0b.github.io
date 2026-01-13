@@ -6,7 +6,6 @@ tags:
 - ros2
 - tailscale
 - vpn
-summary: " "
 ---
 ## Introduction
 

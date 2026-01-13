@@ -5,7 +5,6 @@ tags:
   - windows
   - choco
 weight: 99
-summary: " "
 ---
 
 

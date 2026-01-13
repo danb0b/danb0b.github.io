@@ -1,6 +1,5 @@
 ---
 title: android studio
-summary: " "
 ---
 
 

@@ -6,7 +6,6 @@ tags:
 - opencm
 - ESP32
 - idealab
-summary: " "
 ---
 
 ```bash

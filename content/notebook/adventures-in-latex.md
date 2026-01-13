@@ -1,6 +1,5 @@
 ---
 title: Adventures in Latex
-summary: " "
 ---
 
 https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te

@@ -3,7 +3,6 @@ title: Waffles & Pancakes from Scratch
 recipe_tags:
   - breakfast
 from: Daniel Aukes
-summary: " "
 ---
 ## Ingredients
 

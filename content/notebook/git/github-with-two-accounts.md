@@ -6,7 +6,6 @@ tags:
   - bash
   - linux
   - ubuntu
-summary: " "
 ---
 
 

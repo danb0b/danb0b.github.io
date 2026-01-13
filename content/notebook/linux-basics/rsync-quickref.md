@@ -4,7 +4,6 @@ tags:
 - rsync
 - bash
 - linux
-summary: " "
 ---
 
 

@@ -8,7 +8,6 @@ menu:
   footer:
     weight: 2
     name: Teaching
-summary: " "
 ---
 
 

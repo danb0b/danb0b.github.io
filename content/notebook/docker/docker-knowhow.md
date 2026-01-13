@@ -2,7 +2,6 @@
 title: Docker Knowledge
 tags: 
 - docker
-summary: " "
 ---
 
 * <https://stackoverflow.com/questions/55418645/how-to-append-to-path-in-dockerfile-or-docker-run>

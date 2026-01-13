@@ -4,7 +4,6 @@ original_url: https://celebratingsweets.com/pumpkin-crumb-muffins-with-cinnamon-
 recipe_tags:
   - dessert
   - breakfast
-summary: " "
 ---
 
 ## Ingredients

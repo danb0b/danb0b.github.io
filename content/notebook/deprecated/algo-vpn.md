@@ -5,7 +5,6 @@ tags:
 - linux
 - security
 weight: 99
-summary: " "
 ---
 
 ## Introduction

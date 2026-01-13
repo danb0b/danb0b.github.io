@@ -6,7 +6,6 @@ tags:
   - arduino
   - python
   - micropython
-summary: " "
 ---
 
 https://randomnerdtutorials.com/esp32-servo-motor-web-server-arduino-ide/

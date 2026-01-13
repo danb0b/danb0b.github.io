@@ -4,7 +4,6 @@ recipe_tags:
   - dessert
   - cookies
 from: Daniel Aukes
-summary: " "
 ---
 
 
