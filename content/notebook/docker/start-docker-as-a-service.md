@@ -17,7 +17,7 @@ copy and paste the folowing text into a new file called ~/script.sh
 SERVICENAME=$(basename $(pwd))
 
 # Create systemd service file
-cat | sudo tee /etc/systemd/system/$SERVICENAME.service << EOF
+cat << EOF | sudo tee /etc/systemd/system/$SERVICENAME.service
 [Unit]
 Description=$SERVICENAME
 Requires=docker.service

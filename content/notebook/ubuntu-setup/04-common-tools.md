@@ -214,6 +214,8 @@ prerequisites
 sudo apt install -y librsvg2-bin
 ```
 
+> Right now we are pinned to 3.6.4, due to template changes.
+
 ```bash
 sudo dpkg -i Downloads/pandoc*.deb
 ```

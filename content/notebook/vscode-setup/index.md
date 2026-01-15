@@ -92,6 +92,64 @@ from [here](https://code.visualstudio.com/docs/editor/command-line)
 
 open a terminal window and paste the following in:
 
+```text
+alefragnani.project-manager
+bierner.markdown-yaml-preamble
+brunnerh.insert-unicode
+curlconverter.curlconverter
+davidanson.vscode-markdownlint
+docker.docker
+donjayamanne.githistory
+dotjoshjohnson.xml
+james-yu.latex-workshop
+jscearcy.rust-doc-viewer
+mathematic.vscode-latex
+mhutchie.git-graph
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+ms-vscode-remote.remote-containers
+ms-vscode.hexeditor
+pkief.markdown-checkbox
+pycom.pymakr-preview
+redhat.vscode-xml
+redhat.vscode-yaml
+rust-lang.rust-analyzer
+shd101wyy.markdown-preview-enhanced
+streetsidesoftware.code-spell-checker
+takumii.markdowntable
+yzane.markdown-pdf
+yzhang.markdown-all-in-one
+```
+
+to install locally you can use:
+
+```bash
+cat << EOF | xargs -I {} codium --install-extension {}
+<...the list above>
+EOF
+```
+
+to copy another computer's list of extensions:
+
+```bash
+ssh <othercomputername> codium --list-extensions | xargs -I {} codium --install-extension {}
+```
+
+for example:
+
+```bash
+ssh zenbook codium --list-extensions | xargs -I {} codium --install-extension {}^C
+```
+
 ```bash
 code --install-extension alefragnani.project-manager
 code --install-extension bierner.markdown-yaml-preamble

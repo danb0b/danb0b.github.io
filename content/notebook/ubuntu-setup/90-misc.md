@@ -143,5 +143,6 @@ gsettings set org.gnome.settings-daemon.plugins.power idle-brightness 120
 ## Drivers 
 
 
-
+```bash
 sudo ubuntu-drivers autoinstall
+```
