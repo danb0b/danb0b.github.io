@@ -39,11 +39,9 @@ pandoc-fignos pandoc-eqnos pandoc-crossref \
 esptool thonny \
 pandoc_plus \
 mpy-cross ffmpeg \
-canvasapi \ 
-markdownify \
-qrcode[pil] \
 canvasapi \
-markdownify
+markdownify \
+qrcode[pil]
 # django
 # pinion
 

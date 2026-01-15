@@ -83,7 +83,7 @@ curl
 ```bash
 flatpak install -y flathub \
 org.mozilla.firefox \
-com.github.tchx84.Flatseal \
+com.github.tchx84.Flatseal
 ```
 
 <!-- 

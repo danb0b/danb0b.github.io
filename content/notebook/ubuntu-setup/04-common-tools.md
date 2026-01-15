@@ -179,6 +179,7 @@ sudo snap remove firefox
 
 ```bash
 sudo dpkg -i Downloads/zoo*.deb
+sudo apt install -yf
 ```
 
 ### Ubuntu Mainline

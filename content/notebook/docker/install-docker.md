@@ -31,7 +31,7 @@ From [here](https://docs.docker.com/engine/install/ubuntu/)
 1. Add current user to docker group
 
     ```bash
-    sudo usermod -a -G docker $USER
+    sudo usermod -aG docker $USER
     ```
 
 1. Login:

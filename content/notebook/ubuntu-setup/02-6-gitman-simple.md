@@ -23,3 +23,5 @@ otherwise, use
 ```bash
 gitman clone
 ```
+
+don't forget to [initialize repositories with submodules](/notepad/git/find-submodules)
