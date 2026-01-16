@@ -13,7 +13,7 @@ summary: how to install tailscale in linux
 If you have a raspberry pi or docker image, you may need to install curl first:
 
 ```bash
-sudo apt install -y curl -y
+sudo apt update && sudo apt install -y curl -y
 ```
 
 ## Generic Install script

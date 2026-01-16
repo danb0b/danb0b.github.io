@@ -131,14 +131,19 @@ gpg> trust
 
 ## Update passphrase
 
+```bash
 gpg --edit-key <key id>
+```
 
+```text
 gpg> passwd
+```
 
 enter the password
 
 ```save```
-q to exit
+
+```q``` to exit
 
 ## encrypt without passphrase dialog
 
