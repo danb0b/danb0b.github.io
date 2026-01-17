@@ -45,7 +45,7 @@ params:
   copyright: "|  copyright &copy; 2025 Daniel Aukes.  All Rights Reserved.  |"
   description: Dan Aukes' personal website
   home: Home
-  location: Arizona, USA
+  location: Bay Area, CA, USA
   logo: da-small.png
   plugins:
     css:
